@@ -1,6 +1,6 @@
 groups:
   - name: reviewer
-    reviewers: 2
+    reviewers: 6
     usernames:
       - seheonnn
       - bmryu0501
