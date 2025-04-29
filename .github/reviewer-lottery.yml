@@ -2,9 +2,14 @@ groups:
   - name: reviewer
     reviewers: 2
     usernames:
+<<<<<<< HEAD
       - seheonnn
       - bmryu0501
       - fepick
       - min-kim-oss
       - knujhk
       - yg654
+=======
+      - yureutaejin
+      - Cybecho
+>>>>>>> 9019affa18757170a2d8daed975aa7caf911f5f6
