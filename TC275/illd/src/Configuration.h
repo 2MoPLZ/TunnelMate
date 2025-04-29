@@ -13,6 +13,8 @@
 #include "illd\Libraries\iLLD\TC27D\Tricore\Src\Std\IfxSrc.h"
 #include "illd\Libraries\iLLD\TC27D\Tricore\Scu\Std\IfxScuEru.h"
 #include "illd\Libraries\iLLD\TC27D\Tricore\Vadc\Adc\IfxVadc_Adc.h"
+#include "illd\Libraries\iLLD\TC27D\Tricore\Scu\Std\IfxScuWdt.h"
+#include "illd\Libraries\iLLD\TC27D\Tricore\Port\Std\IfxPort.h"
 
 /******************************************************************************/
 /*-----------------------------------Macros-----------------------------------*/

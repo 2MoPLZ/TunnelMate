@@ -27,7 +27,10 @@ TASK(TaskLCD)
     TerminateTask();
 }
 
-
+TASK(TaskUltrasonic)
+{   
+    printfSerial("%d",getUltrasonic());
+}
 
 
 ISR2(TimerISR)
@@ -38,5 +41,6 @@ ISR2(TimerISR)
         ActivateTask(Task1);
     if (c % 2 == 0)
         ActivateTask(TaskLCD);
+    ActivateTask(TaskUltrasonic);
     printfSerial("\n%4ld: ", c++);
 }

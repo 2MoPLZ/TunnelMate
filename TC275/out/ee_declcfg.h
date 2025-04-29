@@ -34,6 +34,7 @@ extern "C" {
  **************************************************************************/
 DeclareTask(Task1);
 DeclareTask(TaskLCD);
+DeclareTask(TaskUltrasonic);
 
 
 ISR2(asclin0TxISR);

@@ -16,7 +16,7 @@
 #define LCD_D7   &MODULE_P02, 5
 
 
-void delay_ms(unsigned long delay);
+// void delay_ms(unsigned long delay);
 void lcd_init(void);
 void lcd_clear(void);
 void lcd_goto(uint8 row, uint8 col);

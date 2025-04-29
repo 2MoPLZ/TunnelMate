@@ -7,6 +7,7 @@
 
 /* custom driver added start*/
 #include "Lcd_driver.h"
+#include "ultrasonic_Driver.h"
 /* custom driver added end*/
 
 #include <string.h>
@@ -236,6 +237,7 @@ int main(void)
     
     /* custom driver init() added start*/
     lcd_init();
+    initUltrasonic();
     /* custom driver added end*/
     
 
