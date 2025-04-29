@@ -5,13 +5,16 @@
 ```
 main
 └── develop
-    ├── STM
+    ├── STM32_main
     │   ├── feat/#이슈번호
     │   └── fix/#이슈번호
-    ├── TC275
+    ├── STM32_act
     │   ├── feat/#이슈번호
     │   └── fix/#이슈번호
-    └── TC375
+    ├── Arduino
+    │   ├── feat/#이슈번호
+    │   └── fix/#이슈번호
+    └── TC275
         ├── feat/#이슈번호
         └── fix/#이슈번호
 ```
