@@ -52,6 +52,7 @@ CPU test_application {
 		APP_SRC = "bsw.c";
 		APP_SRC = "asw.c";
 		APP_SRC = "Lcd_Driver.c";
+		APP_SRC = "ultrasonic_Driver.c";
 	};
 	ISR ASCLIN0_TX {
 		CATEGORY = 2;
@@ -60,13 +61,20 @@ CPU test_application {
 		SOURCE = "ASCLIN0TX";
 	};
 	TASK Task1 {
-		PRIORITY = 1;
+		PRIORITY = 3;
 		STACK = SHARED;
 		SCHEDULE = FULL;
 		AUTOSTART = FALSE;
 		ACTIVATION = 1;
 	};
 	TASK TaskLCD {
+		PRIORITY = 9;
+		STACK = SHARED;
+		SCHEDULE = FULL;
+		AUTOSTART = FALSE;
+		ACTIVATION = 1;
+	};
+	TASK TaskUltrasonic {
 		PRIORITY = 10;
 		STACK = SHARED;
 		SCHEDULE = FULL;
