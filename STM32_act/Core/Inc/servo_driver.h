@@ -12,8 +12,11 @@
 
 #include "stm32f1xx_hal.h"
 
-#define SERVO_TIM TIM1
-#define SERVO_CHANNEL TIM_CHANNEL_1
+#define SERVO_TIM_SEAT TIM1
+#define SERVO_CHANNEL_SEAT TIM_CHANNEL_1
+
+#define SERVO_TIM_WINDOW TIM3
+#define SERVO_CHANNEL_WINDOW TIM_CHANNEL_4
 
 void initServo(TIM_HandleTypeDef *htim, uint32_t Channel);
 void setDegreeServo(TIM_HandleTypeDef *htim, uint32_t Channel,float degree);
