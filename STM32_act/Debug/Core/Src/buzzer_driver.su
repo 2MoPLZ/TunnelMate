@@ -1,0 +1,5 @@
+../Core/Src/buzzer_driver.c:24:6:initBuzzer	8	static
+../Core/Src/buzzer_driver.c:30:6:setVolumeBuzzer	24	static
+../Core/Src/buzzer_driver.c:36:6:setFrequencyBuzzer	24	static
+../Core/Src/buzzer_driver.c:43:6:onBuzzer	8	static
+../Core/Src/buzzer_driver.c:62:6:offBuzzer	8	static
