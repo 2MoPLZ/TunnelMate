@@ -1,0 +1,5 @@
+../Core/Src/buzzer_driver.c:24:6:initBuzzer	1
+../Core/Src/buzzer_driver.c:30:6:setVolumeBuzzer	1
+../Core/Src/buzzer_driver.c:36:6:setFrequencyBuzzer	1
+../Core/Src/buzzer_driver.c:43:6:onBuzzer	1
+../Core/Src/buzzer_driver.c:62:6:offBuzzer	1
