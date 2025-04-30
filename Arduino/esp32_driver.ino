@@ -8,9 +8,13 @@ const char* ssid = "Seheon의 iPhone";
 const char* password = "1q2w3e4r%";
 
 // Web-server URL
-const char* serverName = "http://172.20.10.2:8000/upload";
+const char* serverName = "http://172.20.10.2:8000/get";
 
 String connectedMAC = ""; // MAC address
+
+void initWiFi();
+void initBLE();
+void getDataFromServer(String mac);
 
 class MyServerCallbacks : public BLEServerCallbacks {
   void onConnect(BLEServer* pServer, esp_ble_gatts_cb_param_t *param) {
@@ -23,25 +27,29 @@ class MyServerCallbacks : public BLEServerCallbacks {
     Serial.print("Device Connected! Address: ");
     Serial.println(clientAddress);
     connectedMAC = String(clientAddress);
+
+    // getData Api
+    getDataFromServer(connectedMAC);
   }
 
   void onDisconnect(BLEServer* pServer) {
     Serial.println("Device Disconnected!");
     connectedMAC = "";
+
+    BLEDevice::startAdvertising();
   }
 };
 
-void setup() {
-  Serial.begin(115200);
-
-  // WiFi Connect
+void initWiFi() {
   WiFi.begin(ssid, password);
   while (WiFi.status() != WL_CONNECTED) {
     delay(500);
     Serial.print(".");
   }
-  Serial.println("\nWiFi Connected");
+  Serial.println("WiFi Connected: " + WiFi.localIP().toString());
+}
 
+void initBLE() {
   BLEDevice::init("ESP32_BLE_SERVER");
   BLEServer *pServer = BLEDevice::createServer();
   pServer->setCallbacks(new MyServerCallbacks());
@@ -49,35 +57,37 @@ void setup() {
   BLEAdvertising *pAdvertising = BLEDevice::getAdvertising();
   pAdvertising->start();
 
-  Serial.println("Waiting for a client connection...");
+  Serial.println("BLE Started. Waiting for a client...");
+}
+
+void getDataFromServer(String mac) {
+  if (WiFi.status() == WL_CONNECTED) {
+    HTTPClient http;
+    String url = String(serverName) + "?mac=" + mac;
+    http.begin(url);
+    
+    int httpResponseCode = http.GET();
+    if (httpResponseCode > 0) {
+      String response = http.getString();
+      Serial.println("Server Response: " + response);
+      // TODO: 응답 데이터 파싱 및 활용 (필요시 ArduinoJson 사용)
+    } else {
+      Serial.println("Error on GET: " + String(httpResponseCode));
+    }
+
+    http.end();
+  } else {
+    Serial.println("WiFi Disconnected");
+  }
+}
+
+void setup() {
+  Serial.begin(115200);
+
+  initWiFi();
+  initBLE();
 }
 
 void loop() {
-  if (connectedMAC != "") {
-    String sensorData = "{\"speed\": 80, \"temperature\": 22}";
-
-    if (WiFi.status() == WL_CONNECTED) {
-      HTTPClient http;
-      http.begin(serverName);
-      http.addHeader("Content-Type", "application/json");
-
-      // JSON
-      String jsonPayload = "{\"mac_address\":\"" + connectedMAC + "\", \"sensor_data\":" + sensorData + "}";
-
-      int httpResponseCode = http.POST(jsonPayload);
-      if (httpResponseCode > 0) {
-        String response = http.getString();
-        Serial.println("Server Response: " + response);
-      } else {
-        Serial.println("Error on sending POST: " + String(httpResponseCode));
-      }
-      http.end();
-    } else {
-      Serial.println("WiFi Disconnected");
-    }
-
-    connectedMAC = "";
-  }
-
   delay(1000);
 }
