@@ -5,76 +5,47 @@
  *      Author: kimjunhyeok
  */
 
-#include "servo_driver.h"
+ #include "servo_driver.h"
 
-void setDegreeServo(TIM_HandleTypeDef *htim, uint32_t Channel,float degree){
-	//8MHz, PSC 15, ARR 9999 -> pulse = 1300 - 5 * (degree+80) 하드코딩 가능
-	//floating point 연산 unit 없어서 software 로직으로 처리하는게 속도면에서 문제가 된다면
-	//유지보수성 포기하고 하드코딩 해야됨
-
-	if(degree < -80)
-	{
-		degree = -80;
-	}
-	else if(degree > 80)
-	{
-		degree = 80;
-	}
-
-	float _period = (htim->Init.Period);
-	uint16_t _pulse = _period * (4.0 + (degree+80.0) * 0.05625) / 100.0;
-
-	__HAL_TIM_SetCompare(htim,Channel,_pulse);
-
-	return;
-}
-
-void initServo(TIM_HandleTypeDef *htim, uint32_t Channel){
-
-	/* 주석 부분은 cubeMX로 코드생성을 하지 않을 때 필요함
-  TIM_ClockConfigTypeDef sClockSourceConfig = {0};
-  TIM_MasterConfigTypeDef sMasterConfig = {0};
-  TIM_OC_InitTypeDef sConfigOC = {0};
-
-  htim->Instance = SERVO_TIM;
-  htim->Init.Prescaler = 15;
-  htim->Init.CounterMode = TIM_COUNTERMODE_UP;
-  htim->Init.Period = 9999;
-  htim->Init.ClockDivision = TIM_CLOCKDIVISION_DIV1;
-  htim->Init.AutoReloadPreload = TIM_AUTORELOAD_PRELOAD_DISABLE;
-  if (HAL_TIM_Base_Init(htim) != HAL_OK)
-  {
-    Error_Handler();
-  }
-  sClockSourceConfig.ClockSource = TIM_CLOCKSOURCE_INTERNAL;
-  if (HAL_TIM_ConfigClockSource(htim, &sClockSourceConfig) != HAL_OK)
-  {
-    Error_Handler();
-  }
-  if (HAL_TIM_PWM_Init(htim) != HAL_OK)
-  {
-    Error_Handler();
-  }
-  sMasterConfig.MasterOutputTrigger = TIM_TRGO_RESET;
-  sMasterConfig.MasterSlaveMode = TIM_MASTERSLAVEMODE_DISABLE;
-  if (HAL_TIMEx_MasterConfigSynchronization(htim, &sMasterConfig) != HAL_OK)
-  {
-    Error_Handler();
-  }
-  sConfigOC.OCMode = TIM_OCMODE_PWM1;
-  sConfigOC.Pulse = 850;
-  sConfigOC.OCPolarity = TIM_OCPOLARITY_HIGH;
-  sConfigOC.OCFastMode = TIM_OCFAST_DISABLE;
-  if (HAL_TIM_PWM_ConfigChannel(htim, &sConfigOC, Channel) != HAL_OK)
-  {
-    Error_Handler();
-  }
-  if (HAL_TIMEx_RemapConfig(htim, TIM3_TI1_GPIO) != HAL_OK)
-  {
-    Error_Handler();
-  }
-  HAL_TIM_MspPostInit(htim);
-	*/
-
-  HAL_TIM_PWM_Start(htim,Channel);
-}
+ extern TIM_HandleTypeDef htim1; //main에 정의
+ extern TIM_HandleTypeDef htim2; //  ""
+ 
+ //[서보 인덱스][] 1행은 현재 펄스값, 2행은 목표 펄스값
+ uint16_t controlTableServo[NUM_SERVO][2];
+ 
+ /*--------parameter table---------*/
+ const servo_t arrayServo[NUM_SERVO] = {
+   // {TIM_HandleTypeDef *htim, uint32_t Channel, uint16_t pulsePerDegree, uint16_t initialPulse;}
+   // unitPulse = ((최대각도일때 pulse값 - 최소각도일때 pulse값) / 160.0) -> 소수점 버림
+   {&htim1, TIM_CHANNEL_1, (uint16_t)((1300.0 - 400.0)/160.0), (uint16_t)((1300.0 + 400.0) / 2.0)},
+ };
+ 
+ void controlServo(uint8_t servoIndex){
+   //TIM_HandleTypeDef *htim, uint32_t Channel
+   uint16_t currentPulse = controlTableServo[servoIndex][0];
+   uint16_t targetPulse = controlTableServo[servoIndex][1];
+   int16_t differencePulse = ((int16_t)currentPulse - (int16_t)targetPulse);
+   
+   if(differencePulse < arrayServo[servoIndex].unitPulse){
+     return;
+   }
+   else if(differencePulse > 0){
+     __HAL_TIM_SetCompare(arrayServo[servoIndex].htim,arrayServo[servoIndex].channel, currentPulse + arrayServo[servoIndex].unitPulse);
+     controlTableServo[servoIndex][0] = (currentPulse + arrayServo[servoIndex].unitPulse);
+   }
+   else if(differencePulse < 0){
+     __HAL_TIM_SetCompare(arrayServo[servoIndex].htim,arrayServo[servoIndex].channel, currentPulse - arrayServo[servoIndex].unitPulse);
+     controlTableServo[servoIndex][0] = (currentPulse - arrayServo[servoIndex].unitPulse);
+   }
+   
+   return;
+ }
+ 
+ void initServo()
+ {
+   __HAL_TIM_SetCompare(arrayServo[SERVO_SEAT].htim,arrayServo[SERVO_SEAT].channel, arrayServo[SERVO_SEAT].initialPulse);
+   __HAL_TIM_SetCompare(arrayServo[SERVO_WINDOW].htim,arrayServo[SERVO_WINDOW].channel, arrayServo[SERVO_WINDOW].initialPulse);
+   HAL_TIM_PWM_Start(arrayServo[SERVO_SEAT].htim,arrayServo[SERVO_SEAT].channel);
+   HAL_TIM_PWM_Start(arrayServo[SERVO_WINDOW].htim,arrayServo[SERVO_WINDOW].channel);
+ }
+ 
