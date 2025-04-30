@@ -1,0 +1,5 @@
+../Core/Src/fan_driver.c:12:6:initFan	1
+../Core/Src/fan_driver.c:18:6:setInternalFan	1
+../Core/Src/fan_driver.c:25:6:stopFan	1
+../Core/Src/fan_driver.c:30:6:setSpeedFan	2
+../Core/Src/fan_driver.c:36:6:setLevelFan	5
