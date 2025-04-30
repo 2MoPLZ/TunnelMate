@@ -24,7 +24,7 @@
 #include "led_driver.h"
 #include "buzzer_driver.h"
 #include "fan_driver.h"
-#include "rgb_driver.h"
+#include "servo_driver.h"
 /* USER CODE END Includes */
 
 /* Private typedef -----------------------------------------------------------*/
@@ -108,38 +108,45 @@ int main(void)
   /* USER CODE BEGIN 2 */
   initBuzzer();
   initFan();
-  initRgb();
+  initServo(&htim1, SERVO_CHANNEL_SEAT);
+  initServo(&htim3, SERVO_CHANNEL_WINDOW);
   /* USER CODE END 2 */
 
   /* Infinite loop */
   /* USER CODE BEGIN WHILE */
   int a = 0;
+  int degrees[] = {-80,-70,-60,-50,-40,-30,-20,-10,0,10,20,30,40,50,60,70,80};
   //onBuzzer();
   //setColorRgb(0, 0, 0);
   while (1)
   {
+//	  setLevelFan(0);
+//	  HAL_Delay(2000);
+//
+//	  setLevelFan(1);
+//	  HAL_Delay(2000);
+//
+//	  setLevelFan(0);
+//	  HAL_Delay(2000);
+//
+//	  setLevelFan(2);
+//	  HAL_Delay(2000);
+//
+//	  setLevelFan(0);
+//	  HAL_Delay(2000);
+//
+//	  setLevelFan(3);
+//	  HAL_Delay(2000);
 
-	  setLevelFan(0);
-	  HAL_Delay(2000);
+	  for(int t = 0; t < (sizeof(degrees)/sizeof(int)); t++ ){
+		  for(int i = 0; i < 100000; i++)
+		  {
+			  a += 3;
+		  }
+		  setDegreeServo(&htim1,SERVO_CHANNEL_SEAT,degrees[t]);
+		  setDegreeServo(&htim3,SERVO_CHANNEL_WINDOW,degrees[t]);
+	  }
 
-	  setLevelFan(1);
-	  HAL_Delay(2000);
-
-	  setLevelFan(0);
-	  HAL_Delay(2000);
-
-	  setLevelFan(2);
-	  HAL_Delay(2000);
-
-	  setLevelFan(0);
-	  HAL_Delay(2000);
-
-	  setLevelFan(3);
-	  HAL_Delay(2000);
-//	  for(int i = 0; i < 100000; i++)
-//	  {
-//		  a += 3;
-//	  }
 //	  offLed(HEAD_LIGHT_PORT, HEAD_LIGHT_PIN);
 //	  for(int i = 0; i < 100000; i++)
 //	  	  {
@@ -336,9 +343,9 @@ static void MX_TIM3_Init(void)
 
   /* USER CODE END TIM3_Init 1 */
   htim3.Instance = TIM3;
-  htim3.Init.Prescaler = 0;
+  htim3.Init.Prescaler = 15;
   htim3.Init.CounterMode = TIM_COUNTERMODE_UP;
-  htim3.Init.Period = 65535;
+  htim3.Init.Period = 9999;
   htim3.Init.ClockDivision = TIM_CLOCKDIVISION_DIV1;
   htim3.Init.AutoReloadPreload = TIM_AUTORELOAD_PRELOAD_DISABLE;
   if (HAL_TIM_Base_Init(&htim3) != HAL_OK)
@@ -365,6 +372,10 @@ static void MX_TIM3_Init(void)
   sConfigOC.OCPolarity = TIM_OCPOLARITY_HIGH;
   sConfigOC.OCFastMode = TIM_OCFAST_DISABLE;
   if (HAL_TIM_PWM_ConfigChannel(&htim3, &sConfigOC, TIM_CHANNEL_1) != HAL_OK)
+  {
+    Error_Handler();
+  }
+  if (HAL_TIM_PWM_ConfigChannel(&htim3, &sConfigOC, TIM_CHANNEL_4) != HAL_OK)
   {
     Error_Handler();
   }
