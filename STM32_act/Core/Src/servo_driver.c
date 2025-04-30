@@ -8,18 +8,40 @@
  #include "servo_driver.h"
 
  extern TIM_HandleTypeDef htim1; //main에 정의
- extern TIM_HandleTypeDef htim2; //  ""
+ extern TIM_HandleTypeDef htim3; //  ""
  
  //[서보 인덱스][] 1행은 현재 펄스값, 2행은 목표 펄스값
  uint16_t controlTableServo[NUM_SERVO][2];
  
- /*--------parameter table---------*/
  const servo_t arrayServo[NUM_SERVO] = {
    // {TIM_HandleTypeDef *htim, uint32_t Channel, uint16_t pulsePerDegree, uint16_t initialPulse;}
    // unitPulse = ((최대각도일때 pulse값 - 최소각도일때 pulse값) / 160.0) -> 소수점 버림
-   {&htim1, TIM_CHANNEL_1, (uint16_t)((1300.0 - 400.0)/160.0), (uint16_t)((1300.0 + 400.0) / 2.0)},
+   {&htim1, TIM_CHANNEL_1, (uint16_t)((1300.0 - 450.0)/160.0), (uint16_t)((1300.0 + 400.0) / 2.0)},
+   {&htim3, TIM_CHANNEL_4, (uint16_t)((1300.0 - 450.0)/160.0), (uint16_t)((1300.0 + 400.0) / 2.0)}
  };
  
+ void setDegreeServo(uint8_t servoIndex,float degree){
+
+	 TIM_HandleTypeDef *htim = (arrayServo[servoIndex]).htim;
+	 uint32_t channel = (arrayServo[servoIndex]).channel;
+
+ 	if(degree < -80)
+ 	{
+ 		degree = -80;
+ 	}
+ 	else if(degree > 80)
+ 	{
+ 		degree = 80;
+ 	}
+
+ 	float _period = (htim->Init.Period);
+ 	uint16_t _pulse = _period * (4.0 + (degree+80.0) * 0.05625) / 100.0;
+
+ 	__HAL_TIM_SetCompare(htim,channel,_pulse);
+
+ 	return;
+ }
+
  void controlServo(uint8_t servoIndex){
    //TIM_HandleTypeDef *htim, uint32_t Channel
    uint16_t currentPulse = controlTableServo[servoIndex][0];
@@ -43,9 +65,11 @@
  
  void initServo()
  {
-   __HAL_TIM_SetCompare(arrayServo[SERVO_SEAT].htim,arrayServo[SERVO_SEAT].channel, arrayServo[SERVO_SEAT].initialPulse);
-   __HAL_TIM_SetCompare(arrayServo[SERVO_WINDOW].htim,arrayServo[SERVO_WINDOW].channel, arrayServo[SERVO_WINDOW].initialPulse);
-   HAL_TIM_PWM_Start(arrayServo[SERVO_SEAT].htim,arrayServo[SERVO_SEAT].channel);
-   HAL_TIM_PWM_Start(arrayServo[SERVO_WINDOW].htim,arrayServo[SERVO_WINDOW].channel);
+	 for(int i = 0; i < NUM_SERVO; i++){
+		 __HAL_TIM_SetCompare(arrayServo[i].htim,arrayServo[i].channel, arrayServo[i].initialPulse);
+		 HAL_TIM_PWM_Start(arrayServo[i].htim,arrayServo[i].channel);
+	 }
+
+	 return;
  }
  
