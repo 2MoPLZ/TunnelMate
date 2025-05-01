@@ -15,7 +15,7 @@
 //센서 쉴드 블루 LED 핀 : PA5
 //삼색 LED(RGB순서) : PC7, PB6, PA7
 #define HEAD_LIGHT_PORT GPIOA
-#define HEAD_LIGHT_PIN GPIO_PIN_5
+#define HEAD_LIGHT_PIN GPIO_PIN_7
 
 /********* function prototype**********/
 

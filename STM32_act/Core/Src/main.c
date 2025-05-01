@@ -24,6 +24,8 @@
 #include "led_driver.h"
 #include "buzzer_driver.h"
 #include "fan_driver.h"
+#include "rgb_driver.h"
+#include "scheduler_stm.h"
 #include "servo_driver.h"
 /* USER CODE END Includes */
 
@@ -63,11 +65,25 @@ static void MX_TIM3_Init(void);
 static void MX_TIM2_Init(void);
 static void MX_TIM4_Init(void);
 /* USER CODE BEGIN PFP */
-
+void toggleLedTask2s(void);
+void toggleFanTask2s(void);
 /* USER CODE END PFP */
 
 /* Private user code ---------------------------------------------------------*/
 /* USER CODE BEGIN 0 */
+task_t taskTable[NUM_TASK] = {
+		/*{
+			void (*task)(void);
+			uint32_t offsetTime; //millisecond
+			uint32_t period;	 //millisecond
+			uint32_t waitedTime; //millisecond, initial_value = 0
+			uint8_t activated;
+		}*/
+
+		{toggleLedTask2s, 1000, 2000, 0, DEACTIVATED},
+		{toggleFanTask2s, 2000, 2000, 0, DEACTIVATED}
+};
+
 
 /* USER CODE END 0 */
 
@@ -108,18 +124,20 @@ int main(void)
   /* USER CODE BEGIN 2 */
   initBuzzer();
   initFan();
-  initServo(&htim1, SERVO_CHANNEL_SEAT);
-  initServo(&htim3, SERVO_CHANNEL_WINDOW);
+  initRgb();
+  initScheduler();
+  initServo();
   /* USER CODE END 2 */
 
   /* Infinite loop */
   /* USER CODE BEGIN WHILE */
-  int a = 0;
-  int degrees[] = {-80,-70,-60,-50,-40,-30,-20,-10,0,10,20,30,40,50,60,70,80};
+  // int a = 0;
+  // int degrees[] = {-80,-70,-60,-50,-40,-30,-20,-10,0,10,20,30,40,50,60,70,80};
   //onBuzzer();
   //setColorRgb(0, 0, 0);
   while (1)
   {
+    scheduler();
 //	  setLevelFan(0);
 //	  HAL_Delay(2000);
 //
@@ -138,14 +156,14 @@ int main(void)
 //	  setLevelFan(3);
 //	  HAL_Delay(2000);
 
-	  for(int t = 0; t < (sizeof(degrees)/sizeof(int)); t++ ){
-		  for(int i = 0; i < 100000; i++)
-		  {
-			  a += 3;
-		  }
-		  setDegreeServo(&htim1,SERVO_CHANNEL_SEAT,degrees[t]);
-		  setDegreeServo(&htim3,SERVO_CHANNEL_WINDOW,degrees[t]);
-	  }
+	  // for(int t = 0; t < (sizeof(degrees)/sizeof(int)); t++ ){
+		//   for(int i = 0; i < 100000; i++)
+		//   {
+		// 	  a += 3;
+		//   }
+		//   setDegreeServo(SERVO_SEAT,degrees[t]);
+		//   setDegreeServo(SERVO_WINDOW,degrees[t]);
+	  // }
 
 //	  offLed(HEAD_LIGHT_PORT, HEAD_LIGHT_PIN);
 //	  for(int i = 0; i < 100000; i++)
@@ -153,8 +171,9 @@ int main(void)
 //	  		  a += 3;
 //	  	  }
 //	  	  onLed(HEAD_LIGHT_PORT, HEAD_LIGHT_PIN);
-    /* USER CODE END WHILE */
 
+    /* USER CODE END WHILE */
+	
     /* USER CODE BEGIN 3 */
   }
   /* USER CODE END 3 */
@@ -524,7 +543,34 @@ static void MX_GPIO_Init(void)
 }
 
 /* USER CODE BEGIN 4 */
-
+void toggleFanTask2s(void)
+{
+	static int i = 0;
+	if(i == 0)
+	{
+		i = 1;
+		setLevelFan(0);
+	}
+	else
+	{
+		i = 0;
+		setLevelFan(3);
+	}
+}
+void toggleLedTask2s(void)
+{
+	static int i = 0;
+	if(i == 0)
+	{
+		i = 1;
+		onLed(HEAD_LIGHT_PORT,HEAD_LIGHT_PIN);
+	}
+	else
+	{
+		i = 0;
+		offLed(HEAD_LIGHT_PORT,HEAD_LIGHT_PIN);
+	}
+}
 /* USER CODE END 4 */
 
 /**

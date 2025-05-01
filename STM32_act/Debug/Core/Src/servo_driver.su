@@ -1,2 +1,3 @@
-../Core/Src/servo_driver.c:10:6:setDegreeServo	40	static
-../Core/Src/servo_driver.c:32:6:initServo	16	static
+../Core/Src/servo_driver.c:23:7:setDegreeServo	40	static
+../Core/Src/servo_driver.c:45:7:controlServo	24	static
+../Core/Src/servo_driver.c:66:7:initServo	16	static
