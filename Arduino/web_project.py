@@ -5,7 +5,6 @@ app = Flask(__name__)
 
 # 새로운 테이블 구조에 맞는 기본값
 DEFAULT_DATA = {
-    "ultra_sonic": 100,
     "led_rgb": 0,
     "servo_chair": 2048,
     "servo_window": 2048,
@@ -41,6 +40,17 @@ def init_user():
         "message": "user exists",
         **response_data
     })
+
+@app.route('/update', methods=['POST'])
+def update_data():
+    data = request.get_json()
+    mac = data.get("mac_address")
+    if not mac:
+        return jsonify({"error": "MAC 주소 필요"}), 400
+
+    db.update_data(mac, data)
+    return jsonify({"message": "Data updated"})
+
 
 if __name__ == '__main__':
     db.create_table()
