@@ -2,87 +2,63 @@
  * test.c
  *
  *  Created on: May 1, 2025
- *      Author: USER
+ *      Author: junhyeok & yoongi
  */
 
+/*
+//led
 
-//int main(void)
-//{
-//
-//  /* USER CODE BEGIN 1 */
-//
-//  /* USER CODE END 1 */
-//
-//  /* MCU Configuration--------------------------------------------------------*/
-//
-//  /* Reset of all peripherals, Initializes the Flash interface and the Systick. */
-//  HAL_Init();
-//
-//  /* USER CODE BEGIN Init */
-//
-//  /* USER CODE END Init */
-//
-//  /* Configure the system clock */
-//  SystemClock_Config();
-//
-//  /* USER CODE BEGIN SysInit */
-//
-//  /* USER CODE END SysInit */
-//
-//  /* Initialize all configured peripherals */
-//  MX_GPIO_Init();
-//  MX_USART2_UART_Init();
-//  MX_TIM1_Init();
-//  MX_TIM3_Init();
-//  MX_TIM2_Init();
-//  MX_TIM4_Init();
-//  /* USER CODE BEGIN 2 */
-//  initBuzzer();
-//  initFan();
-//  initRgb();
-//  /* USER CODE END 2 */
-//
-//  /* Infinite loop */
-//  /* USER CODE BEGIN WHILE */
-//  int a = 0;
-//  //onBuzzer();
-//  //setColorRgb(0, 0, 0);
-//  while (1)
-//  {
-//	  /***fan test
-//	  setLevelFan(0);
-//	  HAL_Delay(2000);
-//
-//	  setLevelFan(1);
-//	  HAL_Delay(2000);
-//
-//	  setLevelFan(0);
-//	  HAL_Delay(2000);
-//
-//	  setLevelFan(2);
-//	  HAL_Delay(2000);
-//
-//	  setLevelFan(0);
-//	  HAL_Delay(2000);
-//
-//	  setLevelFan(3);
-//	  HAL_Delay(2000);
-//	  ****/
-//
-//
-//	  /***led test
-//	  for(int i = 0; i < 100000; i++)
-//	  {
-//		  a += 3;
-//	  }
-//	  offLed(HEAD_LIGHT_PORT, HEAD_LIGHT_PIN);
-//	  for(int i = 0; i < 100000; i++)
-//	  	  {
-//	  		  a += 3;
-//	  	  }
-//	  	  onLed(HEAD_LIGHT_PORT, HEAD_LIGHT_PIN);
-//    	***/
-//  }
-//
-//
-//}
+onLed(HEAD_LIGHT_PORT, HEAD_LIGHT_PIN);
+HAL_Delay(1000);
+offLed(HEAD_LIGHT_PORT, HEAD_LIGHT_PIN);
+HAL_Delay(1000);
+
+*/
+
+/*
+//servo
+
+int degrees[] = {-80,-70,-60,-50,-40,-30,-20,-10,0,10,20,30,40,50,60,70,80};
+for(int t = 0; t < (sizeof(degrees)/sizeof(int)); t++ )
+{
+	setDegreeServo(SERVO_SEAT,degrees[t]);
+	setDegreeServo(SERVO_WINDOW,degrees[t]);
+    HAL_Delay(500);
+}
+*/
+
+/*
+fan
+initFan();
+
+setLevelFan(0);
+HAL_Delay(2000);
+
+setLevelFan(1);
+HAL_Delay(2000);
+
+setLevelFan(0);
+HAL_Delay(2000);
+
+setLevelFan(2);
+HAL_Delay(2000);
+
+setLevelFan(0);
+HAL_Delay(2000);
+
+setLevelFan(3);
+HAL_Delay(2000);
+
+*/
+
+/*
+//buzzer
+initBuzzer();
+onBuzzer();
+*/
+
+/*
+//RGB LED
+initRgb();
+setColorRgb(0, 0, 0);
+*/

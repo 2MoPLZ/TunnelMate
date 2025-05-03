@@ -8,12 +8,12 @@
 #include "led_driver.h"
 
 //단색 LED
-void onLed(GPIO_TypeDef *GPIOx, uint16_t GPIO_Pin)
+void onHeadLight(void)
 {
-	HAL_GPIO_WritePin(GPIOx,GPIO_Pin,GPIO_PIN_SET);
+	HAL_GPIO_WritePin(HEAD_LIGHT_PORT,HEAD_LIGHT_PIN,GPIO_PIN_SET);
 }
 
-void offLed(GPIO_TypeDef *GPIOx, uint16_t GPIO_Pin)
+void offHeadLight(void)
 {
-	HAL_GPIO_WritePin(GPIOx,GPIO_Pin,GPIO_PIN_RESET);
+	HAL_GPIO_WritePin(HEAD_LIGHT_PORT,HEAD_LIGHT_PIN,GPIO_PIN_RESET);
 }

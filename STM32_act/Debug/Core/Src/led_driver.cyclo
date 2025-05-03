@@ -1,2 +1,2 @@
-../Core/Src/led_driver.c:11:6:onLed	1
-../Core/Src/led_driver.c:16:6:offLed	1
+../Core/Src/led_driver.c:11:6:onHeadLight	1
+../Core/Src/led_driver.c:16:6:offHeadLight	1

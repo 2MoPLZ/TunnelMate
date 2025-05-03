@@ -7,23 +7,45 @@
 
  #include "servo_driver.h"
 
- extern TIM_HandleTypeDef htim1; //main에 정의
- extern TIM_HandleTypeDef htim3; //  ""
+extern TIM_HandleTypeDef htim1; //main에 정의
+extern TIM_HandleTypeDef htim3; //  ""
  
- //[서보 인덱스][] 1행은 현재 펄스값, 2행은 목표 펄스값
- uint16_t controlTableServo[NUM_SERVO][2];
- 
- const servo_t arrayServo[NUM_SERVO] = {
-   // {TIM_HandleTypeDef *htim, uint32_t Channel, uint16_t pulsePerDegree, uint16_t initialPulse;}
+servo_t arrayServo[NUM_SERVO] = {
+   //{*htim, Channel, pulseMax, pulseMin, unitPulse, initialPulse}
    // unitPulse = ((최대각도일때 pulse값 - 최소각도일때 pulse값) / 160.0) -> 소수점 버림
-   {&htim1, TIM_CHANNEL_1, (uint16_t)((1300.0 - 450.0)/160.0), (uint16_t)((1300.0 + 400.0) / 2.0)},
-   {&htim3, TIM_CHANNEL_4, (uint16_t)((1300.0 - 450.0)/160.0), (uint16_t)((1300.0 + 400.0) / 2.0)}
- };
- 
- void setDegreeServo(uint8_t servoIndex,float degree){
+   {&htim1, TIM_CHANNEL_1, 1300, 450, (uint16_t)((1300.0 - 450.0)/160.0), (uint16_t)((1300.0 + 450.0)/2.0)},
+   {&htim3, TIM_CHANNEL_4, 1300, 450, (uint16_t)((1300.0 - 450.0)/160.0), (uint16_t)((1300.0 + 450.0)/2.0)}
+};
 
-	 TIM_HandleTypeDef *htim = (arrayServo[servoIndex]).htim;
-	 uint32_t channel = (arrayServo[servoIndex]).channel;
+void initServo(void)
+ {
+	for(int i = 0; i < NUM_SERVO; i++){
+		__HAL_TIM_SetCompare(arrayServo[i].htim,arrayServo[i].channel, arrayServo[i].initialPulse);
+		HAL_TIM_PWM_Start(arrayServo[i].htim,arrayServo[i].channel);
+	}
+
+	return;
+ }
+
+uint16_t getPulse(uint8_t servoIndex)
+{
+	return (__HAL_TIM_GetCompare(arrayServo[servoIndex].htim,arrayServo[servoIndex].channel));
+}
+uint16_t getUnitPulse(uint8_t servoIndex)
+{
+	return arrayServo[servoIndex].unitPulse;
+}
+
+void setPulse(uint8_t servoIndex, uint16_t pulse)
+{
+	__HAL_TIM_SetCompare(arrayServo[servoIndex].htim,arrayServo[servoIndex].channel, pulse);
+	return;
+}
+ 
+//for actuator test
+ void setDegreeServo(uint8_t servoIndex,int degree)
+ {
+  servo_t servo = arrayServo[servoIndex];
 
  	if(degree < -80)
  	{
@@ -34,42 +56,9 @@
  		degree = 80;
  	}
 
- 	float _period = (htim->Init.Period);
- 	uint16_t _pulse = _period * (4.0 + (degree+80.0) * 0.05625) / 100.0;
+ 	uint16_t _pulse = servo.pulseMin + (uint16_t)((((float)(servo.pulseMax) - (float)(servo.pulseMin)) / 160.0)*(degree+80));
 
- 	__HAL_TIM_SetCompare(htim,channel,_pulse);
+ 	__HAL_TIM_SetCompare(servo.htim,servo.channel,_pulse);
 
  	return;
  }
-
- void controlServo(uint8_t servoIndex){
-   //TIM_HandleTypeDef *htim, uint32_t Channel
-   uint16_t currentPulse = controlTableServo[servoIndex][0];
-   uint16_t targetPulse = controlTableServo[servoIndex][1];
-   int16_t differencePulse = ((int16_t)currentPulse - (int16_t)targetPulse);
-   
-   if(differencePulse < arrayServo[servoIndex].unitPulse){
-     return;
-   }
-   else if(differencePulse > 0){
-     __HAL_TIM_SetCompare(arrayServo[servoIndex].htim,arrayServo[servoIndex].channel, currentPulse + arrayServo[servoIndex].unitPulse);
-     controlTableServo[servoIndex][0] = (currentPulse + arrayServo[servoIndex].unitPulse);
-   }
-   else if(differencePulse < 0){
-     __HAL_TIM_SetCompare(arrayServo[servoIndex].htim,arrayServo[servoIndex].channel, currentPulse - arrayServo[servoIndex].unitPulse);
-     controlTableServo[servoIndex][0] = (currentPulse - arrayServo[servoIndex].unitPulse);
-   }
-   
-   return;
- }
- 
- void initServo()
- {
-	 for(int i = 0; i < NUM_SERVO; i++){
-		 __HAL_TIM_SetCompare(arrayServo[i].htim,arrayServo[i].channel, arrayServo[i].initialPulse);
-		 HAL_TIM_PWM_Start(arrayServo[i].htim,arrayServo[i].channel);
-	 }
-
-	 return;
- }
- 

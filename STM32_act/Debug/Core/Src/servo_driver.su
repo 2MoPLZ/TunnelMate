@@ -1,3 +1,5 @@
-../Core/Src/servo_driver.c:23:7:setDegreeServo	40	static
-../Core/Src/servo_driver.c:45:7:controlServo	24	static
-../Core/Src/servo_driver.c:66:7:initServo	16	static
+../Core/Src/servo_driver.c:20:6:initServo	16	static
+../Core/Src/servo_driver.c:30:10:getPulse	16	static
+../Core/Src/servo_driver.c:34:10:getUnitPulse	16	static
+../Core/Src/servo_driver.c:39:6:setPulse	16	static
+../Core/Src/servo_driver.c:46:7:setDegreeServo	56	static

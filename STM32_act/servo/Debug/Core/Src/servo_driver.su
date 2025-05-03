@@ -1,2 +1,0 @@
-../Core/Src/servo_driver.c:10:6:setDegreeServo	40	static
-../Core/Src/servo_driver.c:32:6:initServo	16	static
