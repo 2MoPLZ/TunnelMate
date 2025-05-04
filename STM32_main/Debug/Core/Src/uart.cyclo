@@ -1,2 +1,0 @@
-../Core/Src/uart.c:16:6:UART_SendString	1
-../Core/Src/uart.c:21:6:UART_SendFormatted	1
