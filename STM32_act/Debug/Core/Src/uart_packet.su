@@ -1,0 +1,5 @@
+../Core/Src/uart_packet.c:11:9:calculate_checksum	24	static
+../Core/Src/uart_packet.c:20:6:serialize_actuator_packet	24	static
+../Core/Src/uart_packet.c:28:6:deserialize_actuator_packet	16	static
+../Core/Src/uart_packet.c:38:6:serialize_sensor_packet	24	static
+../Core/Src/uart_packet.c:44:6:deserialize_sensor_packet	16	static

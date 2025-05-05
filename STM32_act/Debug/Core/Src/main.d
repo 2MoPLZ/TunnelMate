@@ -26,7 +26,8 @@ Core/Src/main.o: ../Core/Src/main.c ../Core/Inc/main.h \
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h \
  ../Core/Inc/led_driver.h ../Core/Inc/buzzer_driver.h \
  ../Core/Inc/fan_driver.h ../Core/Inc/rgb_driver.h \
- ../Core/Inc/scheduler_stm.h
+ ../Core/Inc/scheduler_stm.h ../Core/Inc/servo_driver.h \
+ ../Core/Inc/uart.h ../Core/Inc/main.h ../Core/Inc/uart_packet.h
 ../Core/Inc/main.h:
 ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h:
 ../Core/Inc/stm32f1xx_hal_conf.h:
@@ -58,3 +59,7 @@ Core/Src/main.o: ../Core/Src/main.c ../Core/Inc/main.h \
 ../Core/Inc/fan_driver.h:
 ../Core/Inc/rgb_driver.h:
 ../Core/Inc/scheduler_stm.h:
+../Core/Inc/servo_driver.h:
+../Core/Inc/uart.h:
+../Core/Inc/main.h:
+../Core/Inc/uart_packet.h:

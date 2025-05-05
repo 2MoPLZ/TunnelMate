@@ -27,6 +27,8 @@
 #include "rgb_driver.h"
 #include "scheduler_stm.h"
 #include "servo_driver.h"
+#include "uart.h"
+#include "uart_packet.h"
 /* USER CODE END Includes */
 
 /* Private typedef -----------------------------------------------------------*/
@@ -50,7 +52,7 @@ TIM_HandleTypeDef htim2;
 TIM_HandleTypeDef htim3;
 TIM_HandleTypeDef htim4;
 
-UART_HandleTypeDef huart2;
+UART_HandleTypeDef huart1;
 
 /* USER CODE BEGIN PV */
 
@@ -59,31 +61,57 @@ UART_HandleTypeDef huart2;
 /* Private function prototypes -----------------------------------------------*/
 void SystemClock_Config(void);
 static void MX_GPIO_Init(void);
-static void MX_USART2_UART_Init(void);
 static void MX_TIM1_Init(void);
 static void MX_TIM3_Init(void);
 static void MX_TIM2_Init(void);
 static void MX_TIM4_Init(void);
+static void MX_USART1_UART_Init(void);
 /* USER CODE BEGIN PFP */
-void toggleLedTask2s(void);
-void toggleFanTask2s(void);
+
+/****task prototype******/
+void initControlValue(void);
+void testTask(void);
+void seatTask(void);
+void windowTask(void);
+void fanTask(void);
+void ledTask(void);
+void rgbTask(void);
+void buzzerTask(void);
 /* USER CODE END PFP */
 
 /* Private user code ---------------------------------------------------------*/
 /* USER CODE BEGIN 0 */
+////시스템 시작하자마자 태스크 실행하려면 status = ACTIVATED로 해주면 됩니다.
 task_t taskTable[NUM_TASK] = {
-		/*{
-			void (*task)(void);
-			uint32_t offsetTime; //millisecond
-			uint32_t period;	 //millisecond
-			uint32_t waitedTime; //millisecond, initial_value = 0
-			uint8_t activated;
-		}*/
-
-		{toggleLedTask2s, 1000, 2000, 0, DEACTIVATED},
-		{toggleFanTask2s, 2000, 2000, 0, DEACTIVATED}
+  //{task_func_ptr, offsetTime, period, waitedTime, status}
+	{testTask, 1000, 1000, 0, DEACTIVATED},
+	{seatTask, 0, 20, 0, DEACTIVATED},
+	{windowTask, 0, 20, 0, DEACTIVATED},
+	{fanTask, 0, 75, 0, DEACTIVATED},
+	{ledTask, 0, 50, 0, DEACTIVATED},
+	{rgbTask, 0, 100, 0, DEACTIVATED},
+	{buzzerTask, 0, 10, 0, DEACTIVATED}
 };
 
+////control value
+typedef struct
+{
+    uint8_t fanSpeed;
+    uint8_t ledEnable;
+    uint8_t buzzerEnable;
+    uint16_t seatPulse;
+    uint16_t windowPulse;
+
+} controlValue_t;
+controlValue_t controlValue;
+
+////for uart
+static uint8_t rx_buffer[256];
+static uint8_t tx_buffer[256];
+static struct ActuatorPacket testpacket = {0,};
+static struct ActuatorPacket controlPacket = {0,};
+static uint8_t g_crc = 0;
+uint8_t packetReceived = 0;
 
 /* USER CODE END 0 */
 
@@ -116,64 +144,35 @@ int main(void)
 
   /* Initialize all configured peripherals */
   MX_GPIO_Init();
-  MX_USART2_UART_Init();
   MX_TIM1_Init();
   MX_TIM3_Init();
   MX_TIM2_Init();
   MX_TIM4_Init();
+  MX_USART1_UART_Init();
   /* USER CODE BEGIN 2 */
   initBuzzer();
   initFan();
   initRgb();
-  initScheduler();
   initServo();
+  initControlValue();
+
+  initScheduler();
+
+  //for test
+  if(HAL_UART_Receive_IT(&huart1,rx_buffer,ACTUATOR_PACKET_SIZE) != HAL_OK){
+	  Error_Handler();
+  }
+  ///
+
   /* USER CODE END 2 */
 
   /* Infinite loop */
   /* USER CODE BEGIN WHILE */
-  // int a = 0;
-  // int degrees[] = {-80,-70,-60,-50,-40,-30,-20,-10,0,10,20,30,40,50,60,70,80};
-  //onBuzzer();
-  //setColorRgb(0, 0, 0);
   while (1)
   {
     scheduler();
-//	  setLevelFan(0);
-//	  HAL_Delay(2000);
-//
-//	  setLevelFan(1);
-//	  HAL_Delay(2000);
-//
-//	  setLevelFan(0);
-//	  HAL_Delay(2000);
-//
-//	  setLevelFan(2);
-//	  HAL_Delay(2000);
-//
-//	  setLevelFan(0);
-//	  HAL_Delay(2000);
-//
-//	  setLevelFan(3);
-//	  HAL_Delay(2000);
-
-	  // for(int t = 0; t < (sizeof(degrees)/sizeof(int)); t++ ){
-		//   for(int i = 0; i < 100000; i++)
-		//   {
-		// 	  a += 3;
-		//   }
-		//   setDegreeServo(SERVO_SEAT,degrees[t]);
-		//   setDegreeServo(SERVO_WINDOW,degrees[t]);
-	  // }
-
-//	  offLed(HEAD_LIGHT_PORT, HEAD_LIGHT_PIN);
-//	  for(int i = 0; i < 100000; i++)
-//	  	  {
-//	  		  a += 3;
-//	  	  }
-//	  	  onLed(HEAD_LIGHT_PORT, HEAD_LIGHT_PIN);
-
     /* USER CODE END WHILE */
-	
+
     /* USER CODE BEGIN 3 */
   }
   /* USER CODE END 3 */
@@ -205,7 +204,7 @@ void SystemClock_Config(void)
                               |RCC_CLOCKTYPE_PCLK1|RCC_CLOCKTYPE_PCLK2;
   RCC_ClkInitStruct.SYSCLKSource = RCC_SYSCLKSOURCE_HSE;
   RCC_ClkInitStruct.AHBCLKDivider = RCC_SYSCLK_DIV1;
-  RCC_ClkInitStruct.APB1CLKDivider = RCC_HCLK_DIV2;
+  RCC_ClkInitStruct.APB1CLKDivider = RCC_HCLK_DIV1;
   RCC_ClkInitStruct.APB2CLKDivider = RCC_HCLK_DIV1;
 
   if (HAL_RCC_ClockConfig(&RCC_ClkInitStruct, FLASH_LATENCY_0) != HAL_OK)
@@ -459,35 +458,35 @@ static void MX_TIM4_Init(void)
 }
 
 /**
-  * @brief USART2 Initialization Function
+  * @brief USART1 Initialization Function
   * @param None
   * @retval None
   */
-static void MX_USART2_UART_Init(void)
+static void MX_USART1_UART_Init(void)
 {
 
-  /* USER CODE BEGIN USART2_Init 0 */
+  /* USER CODE BEGIN USART1_Init 0 */
 
-  /* USER CODE END USART2_Init 0 */
+  /* USER CODE END USART1_Init 0 */
 
-  /* USER CODE BEGIN USART2_Init 1 */
+  /* USER CODE BEGIN USART1_Init 1 */
 
-  /* USER CODE END USART2_Init 1 */
-  huart2.Instance = USART2;
-  huart2.Init.BaudRate = 115200;
-  huart2.Init.WordLength = UART_WORDLENGTH_8B;
-  huart2.Init.StopBits = UART_STOPBITS_1;
-  huart2.Init.Parity = UART_PARITY_NONE;
-  huart2.Init.Mode = UART_MODE_TX_RX;
-  huart2.Init.HwFlowCtl = UART_HWCONTROL_NONE;
-  huart2.Init.OverSampling = UART_OVERSAMPLING_16;
-  if (HAL_UART_Init(&huart2) != HAL_OK)
+  /* USER CODE END USART1_Init 1 */
+  huart1.Instance = USART1;
+  huart1.Init.BaudRate = 38400;
+  huart1.Init.WordLength = UART_WORDLENGTH_8B;
+  huart1.Init.StopBits = UART_STOPBITS_1;
+  huart1.Init.Parity = UART_PARITY_NONE;
+  huart1.Init.Mode = UART_MODE_TX_RX;
+  huart1.Init.HwFlowCtl = UART_HWCONTROL_NONE;
+  huart1.Init.OverSampling = UART_OVERSAMPLING_16;
+  if (HAL_UART_Init(&huart1) != HAL_OK)
   {
     Error_Handler();
   }
-  /* USER CODE BEGIN USART2_Init 2 */
+  /* USER CODE BEGIN USART1_Init 2 */
 
-  /* USER CODE END USART2_Init 2 */
+  /* USER CODE END USART1_Init 2 */
 
 }
 
@@ -509,7 +508,7 @@ static void MX_GPIO_Init(void)
   __HAL_RCC_GPIOB_CLK_ENABLE();
 
   /*Configure GPIO pin Output Level */
-  HAL_GPIO_WritePin(GPIOA, LD2_Pin|head_light_Pin, GPIO_PIN_RESET);
+  HAL_GPIO_WritePin(head_light_GPIO_Port, head_light_Pin, GPIO_PIN_RESET);
 
   /*Configure GPIO pin Output Level */
   HAL_GPIO_WritePin(GPIOC, GPIO_PIN_10|GPIO_PIN_12, GPIO_PIN_RESET);
@@ -520,12 +519,12 @@ static void MX_GPIO_Init(void)
   GPIO_InitStruct.Pull = GPIO_NOPULL;
   HAL_GPIO_Init(B1_GPIO_Port, &GPIO_InitStruct);
 
-  /*Configure GPIO pins : LD2_Pin head_light_Pin */
-  GPIO_InitStruct.Pin = LD2_Pin|head_light_Pin;
+  /*Configure GPIO pin : head_light_Pin */
+  GPIO_InitStruct.Pin = head_light_Pin;
   GPIO_InitStruct.Mode = GPIO_MODE_OUTPUT_PP;
   GPIO_InitStruct.Pull = GPIO_NOPULL;
   GPIO_InitStruct.Speed = GPIO_SPEED_FREQ_LOW;
-  HAL_GPIO_Init(GPIOA, &GPIO_InitStruct);
+  HAL_GPIO_Init(head_light_GPIO_Port, &GPIO_InitStruct);
 
   /*Configure GPIO pins : PC10 PC12 */
   GPIO_InitStruct.Pin = GPIO_PIN_10|GPIO_PIN_12;
@@ -543,33 +542,140 @@ static void MX_GPIO_Init(void)
 }
 
 /* USER CODE BEGIN 4 */
-void toggleFanTask2s(void)
+void HAL_UART_RxCpltCallback(UART_HandleTypeDef *huart)
 {
-	static int i = 0;
-	if(i == 0)
+  if(huart->Instance == huart1.Instance)
+  {
+	  //packetReceived = 1;
+	  g_crc = calculate_checksum(rx_buffer,ACTUATOR_PACKET_SIZE-1);
+		if(g_crc == rx_buffer[ACTUATOR_PACKET_SIZE-1])
+		{
+		  deserialize_actuator_packet(rx_buffer, &controlPacket);
+		  controlValue.seatPulse = controlPacket.servo_chair;
+		  controlValue.windowPulse = controlPacket.servo_window;
+		  controlValue.ledEnable = controlPacket.led;
+		}
+		HAL_UART_Receive_IT(&huart1,rx_buffer,ACTUATOR_PACKET_SIZE);
+  }
+}
+void HAL_UART_ErrorCallback(UART_HandleTypeDef *huart)
+{
+  if(huart->Instance == huart1.Instance)
+  {
+    HAL_UART_Receive_IT(&huart1, rx_buffer, ACTUATOR_PACKET_SIZE);
+  }
+}
+void initControlValue(void)
+{
+	controlValue.seatPulse = arrayServo[SERVO_SEAT].initialPulse;
+	controlValue.windowPulse = arrayServo[SERVO_WINDOW].initialPulse;
+	controlValue.ledEnable = 0;
+}
+void testTask(void)
+{
+	static int a = 0;
+
+	if(a == 0)
 	{
-		i = 1;
-		setLevelFan(0);
+		a = 1;
+		testpacket.servo_chair = 1200;
+		testpacket.servo_window = 450;
+		testpacket.led = 1;
+		serialize_actuator_packet(&testpacket,tx_buffer);
+		if(HAL_UART_Transmit_IT(&huart1,tx_buffer , ACTUATOR_PACKET_SIZE) != HAL_OK)
+		{
+		  Error_Handler();
+		}
 	}
 	else
 	{
-		i = 0;
-		setLevelFan(3);
+		a = 0;
+		testpacket.servo_chair = 450;
+		testpacket.servo_window = 1200;
+		testpacket.led = 0;
+		serialize_actuator_packet(&testpacket,tx_buffer);
+		if(HAL_UART_Transmit_IT(&huart1,tx_buffer , ACTUATOR_PACKET_SIZE) != HAL_OK)
+		{
+		  Error_Handler();
+		}
 	}
 }
-void toggleLedTask2s(void)
+void seatTask(void)
 {
-	static int i = 0;
-	if(i == 0)
+	uint16_t unitPulse = getUnitPulse(SERVO_SEAT);
+	uint16_t currentPulse = getPulse(SERVO_SEAT);
+	if(controlValue.seatPulse > currentPulse)
 	{
-		i = 1;
-		onLed(HEAD_LIGHT_PORT,HEAD_LIGHT_PIN);
+		if((controlValue.seatPulse) - currentPulse > unitPulse)
+		{
+			setPulse(SERVO_SEAT,(currentPulse+unitPulse));
+		}
+		else
+		{
+			//do nothing
+		}
+	}
+	else if(controlValue.seatPulse < currentPulse)
+	{
+		if((currentPulse - controlValue.seatPulse) > unitPulse)
+		{
+			setPulse(SERVO_SEAT,(currentPulse-unitPulse));
+		}
+		else
+		{
+			//do nothing
+		}
+	}
+}
+void windowTask(void)
+{
+	uint16_t unitPulse = getUnitPulse(SERVO_WINDOW);
+	uint16_t currentPulse = getPulse(SERVO_WINDOW);
+	if(controlValue.windowPulse > currentPulse)
+	{
+		if((controlValue.windowPulse) - currentPulse > unitPulse)
+		{
+			setPulse(SERVO_WINDOW,(currentPulse+unitPulse));
+		}
+		else
+		{
+			//do nothing
+		}
+	}
+	else if(controlValue.windowPulse < currentPulse)
+	{
+		if((currentPulse - controlValue.windowPulse) > unitPulse)
+		{
+			setPulse(SERVO_WINDOW,(currentPulse-unitPulse));
+		}
+		else
+		{
+			//do nothing
+		}
+	}
+}
+void fanTask(void)
+{
+	
+}
+void ledTask(void)
+{
+	if(controlValue.ledEnable == 0)
+	{
+		offHeadLight();
 	}
 	else
 	{
-		i = 0;
-		offLed(HEAD_LIGHT_PORT,HEAD_LIGHT_PIN);
+		onHeadLight();
 	}
+}
+void rgbTask(void)
+{
+
+}
+void buzzerTask(void)
+{
+
 }
 /* USER CODE END 4 */
 
