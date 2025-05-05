@@ -7,9 +7,11 @@
 const char* ssid = "Seheon의 iPhone";
 const char* password = "1q2w3e4r%";
 
+
+
 // Web-server URL
-const char* getUrl = "http://172.20.10.2:8000/get";
-const char* updateUrl = "http://172.20.10.2:8000/update";
+const char* getUrl = "http://172.20.10.3:8000/get";
+const char* updateUrl = "http://172.20.10.3:8000/update";
 
 String connectedMAC = ""; // MAC address
 
@@ -18,89 +20,79 @@ void initBLE();
 void getDataApi(String mac);
 void updateDataApi(String mac);
 
-typedef struct __attribute__((packed)) {
-    uint8_t start_byte;
-    uint8_t packet_id;
+struct __attribute__((__packed__)) ActuatorPacket {
+    uint8_t start_byte;    /* Start of packet (UART_START_BYTE) */
+    uint8_t packet_id;     /* Packet type ID (ACTUATOR_PACKET_ID) */
 
-    uint16_t servo_chair;
-    uint16_t servo_window;
-
+    /* RGB field only (3 bits), independent from other flags */
     union {
         struct {
-            uint8_t red     : 1;
-            uint8_t green   : 1;
-            uint8_t blue    : 1;
-            uint8_t reserved_rgb : 5;
+            uint8_t R   : 1;
+            uint8_t G : 1;
+            uint8_t B  : 1;
         };
-        uint8_t led_rgb_bits;
+        uint8_t led_rgb : 3; /* Combined 3-bit RGB value */
+        uint8_t			: 5; /* Padding for one full byte */
     };
 
-    uint8_t fan        : 2;
-    uint8_t led        : 1;
-    uint8_t buzzer     : 1;
-    uint8_t darkmode   : 1;
-    uint8_t reserved_flags : 3;
+    /* Other actuator flags and modes (1 byte total) */
+    uint8_t fan           : 2; /* Fan speed (0–3) */
+    uint8_t led           : 1; /* Headlight on/off */
+    uint8_t buzzer        : 1; /* Buzzer on/off */
+    uint8_t driving_mode  : 4; /* Driving mode (0–15) */
 
-    uint8_t setting;
-    uint8_t checksum;
-} ActuatorPacket;
+    /* Servo motors (12 bits each, using two 16-bit fields = 4 bytes) */
+    uint16_t servo_chair; /* Chair tilt angle */
+    uint16_t servo_window; /* Window position */
+    uint16_t servo_air; /* Air control */
 
-typedef struct __attribute__((packed)) {
-    uint8_t start_byte;
-    uint8_t packet_id;
-
-    uint16_t photo;
-    uint16_t ultra_sonic;
-
-    uint8_t checksum;
-} SensorPacket;
+    /* CRC (1 byte) */
+    uint8_t crc; /* Checksum or CRC */
+};
 
 ActuatorPacket lastPacket;
 
 // ================================= TEST ================================= 
 ActuatorPacket makeTestPacket1() {
   ActuatorPacket pkt = {};
+  pkt.start_byte = 0xAA;         // 예시 start byte
+  pkt.packet_id = 0x01;          // actuator 패킷 ID
+
+  pkt.led_rgb = 0b101;           // R + B
+  pkt.fan = 2;                   // 중간 세기
+  pkt.led = 1;                   // 헤드라이트 ON
+  pkt.buzzer = 0;                // OFF
+  pkt.driving_mode = 3;          // 예: ECO 모드 등
+
   pkt.servo_chair = 1000;
   pkt.servo_window = 2000;
-  pkt.led_rgb_bits = 0b101; // red + blue
-  pkt.fan = 2;
-  pkt.led = 1;
-  pkt.buzzer = 0;
-  pkt.darkmode = 1;
-  pkt.setting = 5;
+  pkt.servo_air = 1500;
+
+  pkt.crc = 0; // CRC는 테스트용이라 일단 0, 필요시 계산
+
   return pkt;
 }
 
 ActuatorPacket makeTestPacket2() {
   ActuatorPacket pkt = {};
-  pkt.servo_chair = 1200; // 변경
-  pkt.servo_window = 2000;
-  pkt.led_rgb_bits = 0b101;
-  pkt.fan = 2;
-  pkt.led = 1;
-  pkt.buzzer = 0;
-  pkt.darkmode = 1;
-  pkt.setting = 5;
+  pkt.start_byte = 0xAA;
+  pkt.packet_id = 0x01;
+
+  pkt.led_rgb = 0b011;           // G + B
+  pkt.fan = 3;
+  pkt.led = 0;
+  pkt.buzzer = 1;
+  pkt.driving_mode = 7;          // 예: 스포츠 모드
+
+  pkt.servo_chair = 1200;
+  pkt.servo_window = 1800;
+  pkt.servo_air = 1600;
+
+  pkt.crc = 0;
+
   return pkt;
 }
 
-void runTestPackets() {
-  static bool toggle = false;
-  static ActuatorPacket lastTestPacket = {};
-
-  ActuatorPacket testPacket = toggle ? makeTestPacket1() : makeTestPacket2();
-  toggle = !toggle;
-
-  if (memcmp(&testPacket, &lastTestPacket, sizeof(ActuatorPacket)) != 0) {
-    Serial.println("📦 [TEST] 변경된 테스트 패킷 전송");
-    updateDataApi(connectedMAC, testPacket);
-    lastTestPacket = testPacket;
-  } else {
-    Serial.println("🟢 [TEST] 동일 → 전송 안 함");
-  }
-
-  delay(5000);  // 테스트는 5초 주기
-}
 // ======================================================================== 
 
 class MyServerCallbacks : public BLEServerCallbacks {
@@ -121,8 +113,12 @@ class MyServerCallbacks : public BLEServerCallbacks {
 
   void onDisconnect(BLEServer* pServer) {
     Serial.println("Device Disconnected!");
-    connectedMAC = "";
 
+    if (connectedMAC != "") {
+      updateDataApi(connectedMAC, lastPacket);
+    }
+
+    connectedMAC = "";
     BLEDevice::startAdvertising();
   }
 };
@@ -149,22 +145,28 @@ void initBLE() {
 
 void updateDataApi(String mac, const ActuatorPacket &packet) {
   if (WiFi.status() != WL_CONNECTED) {
-    Serial.println("❌ WiFi not connected.");
+    Serial.println("WiFi not connected.");
     return;
   }
 
-  // JSON 문자열 직접 생성
+  uint8_t led_rgb_value = packet.led_rgb & 0b00000111; // 3비트만 추출
+  uint8_t fan_value = packet.fan & 0b11;
+  uint8_t led_value = packet.led & 0b1;
+  uint8_t buzzer_value = packet.buzzer & 0b1;
+  uint8_t driving_mode_value = packet.driving_mode & 0x0F;
+
   String payload = "{";
   payload += "\"mac_address\":\"" + mac + "\",";
+  payload += "\"led_rgb\":" + String(led_rgb_value) + ",";
+  payload += "\"fan\":" + String(fan_value) + ",";
+  payload += "\"led\":" + String(led_value) + ",";
+  payload += "\"buzzer\":" + String(buzzer_value) + ",";
+  payload += "\"driving_mode\":" + String(driving_mode_value) + ",";
   payload += "\"servo_chair\":" + String(packet.servo_chair) + ",";
   payload += "\"servo_window\":" + String(packet.servo_window) + ",";
-  payload += "\"led_rgb\":" + String(packet.led_rgb_bits) + ",";
-  payload += "\"fan\":" + String(packet.fan) + ",";
-  payload += "\"led\":" + String(packet.led) + ",";
-  payload += "\"buzzer\":" + String(packet.buzzer) + ",";
-  payload += "\"darkmode\":" + String(packet.darkmode) + ",";
-  payload += "\"setting\":" + String(packet.setting);
+  payload += "\"servo_air\":" + String(packet.servo_air);
   payload += "}";
+
 
   HTTPClient http;
   http.begin(updateUrl);
@@ -172,10 +174,10 @@ void updateDataApi(String mac, const ActuatorPacket &packet) {
 
   int code = http.POST(payload);
   if (code > 0) {
-    Serial.println("✅ Data updated. Server response:");
+    Serial.println("Data updated. Server response:");
     Serial.println(http.getString());
   } else {
-    Serial.print("❌ Failed to send update. Code: ");
+    Serial.print("Failed to send update. Code: ");
     Serial.println(code);
   }
 
@@ -192,7 +194,22 @@ void getDataApi(String mac) {
     if (httpResponseCode > 0) {
       String response = http.getString();
       Serial.println("Server Response: " + response);
-      // TODO: 응답 데이터 파싱 및 활용 (필요시 ArduinoJson 사용)
+      ActuatorPacket pkt = {};
+      pkt.start_byte = 0xAA;
+      pkt.packet_id = 0x01;
+
+      pkt.buzzer = response.substring(response.indexOf("\"buzzer\":") + 9).toInt();
+      pkt.driving_mode = response.substring(response.indexOf("\"driving_mode\":") + 16).toInt();
+      pkt.fan = response.substring(response.indexOf("\"fan\":") + 6).toInt();
+      pkt.led = response.substring(response.indexOf("\"led\":") + 6).toInt();
+      pkt.led_rgb = response.substring(response.indexOf("\"led_rgb\":") + 10).toInt();
+      pkt.servo_air = response.substring(response.indexOf("\"servo_air\":") + 13).toInt();
+      pkt.servo_chair = response.substring(response.indexOf("\"servo_chair\":") + 15).toInt();
+      pkt.servo_window = response.substring(response.indexOf("\"servo_window\":") + 16).toInt();
+
+      pkt.crc = 0;  // CRC 
+
+      Serial2.write((uint8_t*)&pkt, sizeof(pkt));
     } else {
       Serial.println("Error on GET: " + String(httpResponseCode));
     }
@@ -205,13 +222,25 @@ void getDataApi(String mac) {
 
 void setup() {
   Serial.begin(115200);
+  Serial2.begin(115200, SERIAL_8N1, 16, 17); // UART
 
   initWiFi();
   initBLE();
 }
 
 void loop() {
+    if (WiFi.status() != WL_CONNECTED) {
+      Serial.println("[WiFi] 연결 끊김. 재연결 시도 중...");
+      initWiFi();
+    }
   
+    // loop back test
+    // static bool toggle = false;
+    // ActuatorPacket testPkt = toggle ? makeTestPacket1() : makeTestPacket2();
+    // toggle = !toggle;
+    // Serial2.write((uint8_t*)&testPkt, sizeof(ActuatorPacket));
+
+  // Update
   if (connectedMAC != "") {
     if (Serial2.available() >= sizeof(ActuatorPacket)) {
       ActuatorPacket currentPacket;
@@ -222,10 +251,25 @@ void loop() {
         lastPacket = currentPacket;
       }
     }
-
-    // Test code
-    // runTestPackets();
   }
+
+  // UART write Test
+  // if (connectedMAC != "") {
+  //   if (Serial2.available() >= sizeof(ActuatorPacket)) {
+  //     ActuatorPacket pkt;
+  //     Serial2.readBytes((uint8_t*)&pkt, sizeof(pkt));
+  //     Serial.println("Loopback Packet Received:");
+  //     Serial.println("led_rgb: " + String(pkt.led_rgb));
+  //     Serial.println("fan: " + String(pkt.fan));
+  //     Serial.println("led: " + String(pkt.led));
+  //     Serial.println("buzzer: " + String(pkt.buzzer));
+  //     Serial.println("driving_mode: " + String(pkt.driving_mode));
+  //     Serial.println("servo_chair: " + String(pkt.servo_chair));
+  //     Serial.println("servo_window: " + String(pkt.servo_window));
+  //     Serial.println("servo_air: " + String(pkt.servo_air));
+  //   }
+  // }
+
 
   delay(1000);
 }

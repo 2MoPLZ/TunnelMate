@@ -6,13 +6,13 @@ app = Flask(__name__)
 # 새로운 테이블 구조에 맞는 기본값
 DEFAULT_DATA = {
     "led_rgb": 0,
-    "servo_chair": 2048,
-    "servo_window": 2048,
     "fan": 1,
     "led": 0,
     "buzzer": 0,
-    "darkmode": 0,
-    "setting": 0
+    "driving_mode": 0,
+    "servo_chair": 1000,
+    "servo_window": 2000,
+    "servo_air": 1500
 }
 
 @app.route('/get', methods=['GET'])
@@ -31,7 +31,7 @@ def init_user():
             **DEFAULT_DATA
         })
 
-    # 기존 레코드 반환 (sensor_data_v2 구조 기준)
+    # 기존 레코드 반환 (actuator_data 구조 기준)
     response_data = existing_record.copy()
     response_data.pop("id", None)
     response_data.pop("created_at", None)
@@ -49,7 +49,19 @@ def update_data():
         return jsonify({"error": "MAC 주소 필요"}), 400
 
     db.update_data(mac, data)
-    return jsonify({"message": "Data updated"})
+
+    updated_record = db.select_data(mac)
+    if not updated_record:
+        return jsonify({"error": "업데이트 후 데이터 조회 실패"}), 500
+
+    response_data = updated_record.copy()
+    response_data.pop("id", None)
+
+    return jsonify({
+        "message": "data updated",
+        **response_data
+    })
+
 
 
 if __name__ == '__main__':
