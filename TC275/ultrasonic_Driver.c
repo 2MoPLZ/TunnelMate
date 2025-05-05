@@ -45,6 +45,10 @@ void sendTrigger()
 long measureEchoTick()
 {
     uint64 startTick = 0, elapsedTick = 0;
+<<<<<<< HEAD
+=======
+    startTick = IfxStm_get(&MODULE_STM0);
+>>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
     while (IfxPort_getPinState(ECHO_PIN) == 0){
         elapsedTick = IfxStm_get(&MODULE_STM0)-startTick;
         if(elapsedTick >= (uint64) ECHO_TIMEOUT_TICK)return -1;
@@ -54,7 +58,6 @@ long measureEchoTick()
         elapsedTick = IfxStm_get(&MODULE_STM0)-startTick;
         if(elapsedTick >= (uint64) ECHO_TIMEOUT_TICK)return -1;
     };
-    
     return (long)elapsedTick;
 }
 

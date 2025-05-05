@@ -14,7 +14,11 @@
 	.type	FuncTask1, @function
 FuncTask1:
 .LFB574:
+<<<<<<< HEAD
 	.file 1 "C:\\Users\\USER\\Desktop\\WORKSP~1\\TUNNEL~1\\TC275\\asw.c"
+=======
+	.file 1 "C:\\Users\\USER\\OneDrive\\Desktop\\\273\365\306\372\264\365~1\\TUNNEL~1\\TC275\\asw.c"
+>>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.loc 1 7 0
 	.loc 1 8 0
 	movh.a	%a4, hi:.LC0
@@ -260,6 +264,7 @@ rpm:
 .LEFDE6:
 .section .text,"ax",@progbits
 .Letext0:
+<<<<<<< HEAD
 	.file 2 "C:\\Users\\USER\\Desktop\\WORKSP~1\\TUNNEL~1\\TC275/illd\\Libraries\\iLLD\\TC27D\\Tricore\\Cpu\\Std\\Platform_Types.h"
 	.file 3 "C:\\Users\\USER\\Desktop\\WORKSP~1\\TUNNEL~1\\TC275\\illd\\Libraries\\iLLD\\TC27D\\Tricore\\Cpu\\Std/Ifx_Types.h"
 	.file 4 "c:\\hightec\\toolchains\\tricore\\v4.9.3.0-infineon-1.0\\tricore\\include\\stdint.h"
@@ -273,6 +278,21 @@ rpm:
 .section .debug_info,"",@progbits
 .Ldebug_info0:
 	.uaword	0xa28
+=======
+	.file 2 "C:\\Users\\USER\\OneDrive\\Desktop\\\273\365\306\372\264\365~1\\TUNNEL~1\\TC275\\illd\\Libraries\\iLLD\\TC27D\\Tricore\\Cpu\\Std/Ifx_Types.h"
+	.file 3 "C:\\Users\\USER\\OneDrive\\Desktop\\\273\365\306\372\264\365~1\\TUNNEL~1\\TC275/illd\\Libraries\\iLLD\\TC27D\\Tricore\\Cpu\\Std\\Platform_Types.h"
+	.file 4 "c:\\hightec\\toolchains\\tricore\\v4.9.3.0-infineon-1.0\\tricore\\include\\stdint.h"
+	.file 5 "C:\\Users\\USER\\OneDrive\\Desktop\\\273\365\306\372\264\365~1\\TUNNEL~1\\TC275\\erika\\inc/ee_platform_types.h"
+	.file 6 "C:\\Users\\USER\\OneDrive\\Desktop\\\273\365\306\372\264\365~1\\TUNNEL~1\\TC275\\erika\\inc/ee_api_types.h"
+	.file 7 "C:\\Users\\USER\\OneDrive\\Desktop\\\273\365\306\372\264\365~1\\TUNNEL~1\\TC275/illd\\Libraries\\iLLD\\TC27D\\Tricore\\_Impl/IfxCpu_cfg.h"
+	.file 8 "C:\\Users\\USER\\OneDrive\\Desktop\\\273\365\306\372\264\365~1\\TUNNEL~1\\TC275\\bsw.h"
+	.file 9 "<built-in>"
+	.file 10 "C:\\Users\\USER\\OneDrive\\Desktop\\\273\365\306\372\264\365~1\\TUNNEL~1\\TC275\\erika\\inc/ee_tc_system.h"
+	.file 11 "C:\\Users\\USER\\OneDrive\\Desktop\\\273\365\306\372\264\365~1\\TUNNEL~1\\TC275\\erika\\inc/ee_oo_api_osek.h"
+.section .debug_info,"",@progbits
+.Ldebug_info0:
+	.uaword	0x972
+>>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uahalf	0x3
 	.uaword	.Ldebug_abbrev0
 	.byte	0x4
@@ -280,8 +300,13 @@ rpm:
 	.ascii	"GNU C 4.9."
 	.string	"4 build on 2019-06-07 -mlicense-dir=c:\\hightec\\toolchains\\tricore\\v4.9.3.0-infineon-1.0\\bin\\../lib/gcc/tricore/4.9.4/../../../../licenses -mcpu=tc27xx -g -Os -fno-common -fshort-enums -fstrict-volatile-bitfields -finline-functions -fzero-initialized-in-bss"
 	.byte	0x1
+<<<<<<< HEAD
 	.string	"C:\\Users\\USER\\Desktop\\WORKSP~1\\TUNNEL~1\\TC275\\asw.c"
 	.string	"C:\\\\Users\\\\USER\\\\Desktop\\\\workspace\\\\TunnelMate\\\\TC275\\\\out"
+=======
+	.string	"C:\\Users\\USER\\OneDrive\\Desktop\\\273\365\306\372\264\365~1\\TUNNEL~1\\TC275\\asw.c"
+	.string	"C:\\\\Users\\\\USER\\\\OneDrive\\\\Desktop\\\\\273\365 \306\372\264\365\\\\TunnelMate\\\\TC275\\\\out"
+>>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uaword	.Ltext0
 	.uaword	.Letext0
 	.uaword	.Ldebug_line0
@@ -331,7 +356,11 @@ rpm:
 	.string	"sint32"
 	.byte	0x2
 	.byte	0x86
+<<<<<<< HEAD
 	.uaword	0x194
+=======
+	.uaword	0x1a5
+>>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0x2
 	.byte	0x8
 	.byte	0x5
@@ -346,50 +375,84 @@ rpm:
 	.string	"double"
 	.uleb128 0x4
 	.byte	0x4
+<<<<<<< HEAD
 	.uaword	0x26c
 	.uleb128 0x5
 	.uaword	0x271
+=======
+	.uaword	0x262
+	.uleb128 0x5
+	.uaword	0x267
+>>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0x2
 	.byte	0x1
 	.byte	0x6
 	.string	"char"
 	.uleb128 0x4
 	.byte	0x4
+<<<<<<< HEAD
 	.uaword	0x27f
+=======
+	.uaword	0x275
+>>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0x6
 	.uleb128 0x7
 	.byte	0x8
 	.byte	0x3
 	.byte	0x8c
+<<<<<<< HEAD
 	.uaword	0x2a6
+=======
+	.uaword	0x29c
+>>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0x8
 	.string	"module"
 	.byte	0x3
 	.byte	0x8e
+<<<<<<< HEAD
 	.uaword	0x279
+=======
+	.uaword	0x26f
+>>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0
 	.uleb128 0x8
 	.string	"index"
 	.byte	0x3
 	.byte	0x8f
+<<<<<<< HEAD
 	.uaword	0x234
+=======
+	.uaword	0x22a
+>>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0
 	.uleb128 0x3
 	.string	"IfxModule_IndexMap"
 	.byte	0x3
 	.byte	0x90
+<<<<<<< HEAD
 	.uaword	0x280
+=======
+	.uaword	0x276
+>>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0x3
 	.string	"uint16_t"
 	.byte	0x4
 	.byte	0x36
+<<<<<<< HEAD
 	.uaword	0x1e8
+=======
+	.uaword	0x1de
+>>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0x3
 	.string	"uint32_t"
 	.byte	0x4
 	.byte	0x50
+<<<<<<< HEAD
 	.uaword	0x1a0
+=======
+	.uaword	0x1b1
+>>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0x2
 	.byte	0x4
 	.byte	0x7
@@ -398,17 +461,29 @@ rpm:
 	.string	"OsEE_reg"
 	.byte	0x5
 	.byte	0x5b
+<<<<<<< HEAD
 	.uaword	0x2d0
+=======
+	.uaword	0x2c6
+>>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0x3
 	.string	"TaskType"
 	.byte	0x6
 	.byte	0x78
+<<<<<<< HEAD
 	.uaword	0x2f0
+=======
+	.uaword	0x2e6
+>>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0x9
 	.byte	0x1
 	.byte	0x6
 	.uahalf	0x2b1
+<<<<<<< HEAD
 	.uaword	0x533
+=======
+	.uaword	0x529
+>>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0xa
 	.string	"E_OK"
 	.sleb128 0
@@ -501,12 +576,20 @@ rpm:
 	.string	"OsEE_status_type"
 	.byte	0x6
 	.uahalf	0x2d4
+<<<<<<< HEAD
 	.uaword	0x310
+=======
+	.uaword	0x306
+>>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0xb
 	.string	"StatusType"
 	.byte	0x6
 	.uahalf	0x2d9
+<<<<<<< HEAD
 	.uaword	0x533
+=======
+	.uaword	0x529
+>>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0x2
 	.byte	0x4
 	.byte	0x7
@@ -515,7 +598,11 @@ rpm:
 	.byte	0x1
 	.byte	0x7
 	.byte	0x87
+<<<<<<< HEAD
 	.uaword	0x5bb
+=======
+	.uaword	0x5b1
+>>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0xa
 	.string	"IfxCpu_Index_0"
 	.sleb128 0
@@ -540,6 +627,7 @@ rpm:
 	.byte	0x1
 	.byte	0x9c
 	.byte	0x1
+<<<<<<< HEAD
 	.uaword	0x65f
 	.uleb128 0xe
 	.string	"a0"
@@ -547,6 +635,13 @@ rpm:
 	.byte	0x9
 	.uaword	0x1b5
 	.uaword	.LLST0
+=======
+	.uaword	0x61d
+	.uleb128 0xe
+	.uaword	.LVL0
+	.uaword	0x86b
+	.uaword	0x5e6
+>>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0xf
 	.uaword	.LVL0
 	.uaword	0x8ed
@@ -558,6 +653,13 @@ rpm:
 	.byte	0x3
 	.uaword	.LC0
 	.byte	0
+<<<<<<< HEAD
+=======
+	.uleb128 0xe
+	.uaword	.LVL1
+	.uaword	0x889
+	.uaword	0x5fb
+>>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0xf
 	.uaword	.LVL1
 	.uaword	0x90b
@@ -568,6 +670,13 @@ rpm:
 	.byte	0x1
 	.byte	0x33
 	.byte	0
+<<<<<<< HEAD
+=======
+	.uleb128 0xe
+	.uaword	.LVL2
+	.uaword	0x86b
+	.uaword	0x612
+>>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0xf
 	.uaword	.LVL2
 	.uaword	0x8ed
@@ -585,6 +694,7 @@ rpm:
 	.uaword	0x63d
 	.uleb128 0x10
 	.byte	0x1
+<<<<<<< HEAD
 	.byte	0x54
 	.byte	0x3
 	.byte	0xa
@@ -605,6 +715,9 @@ rpm:
 	.uaword	.LVL5
 	.byte	0x1
 	.uaword	0x943
+=======
+	.uaword	0x8a0
+>>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0
 	.uleb128 0xd
 	.byte	0x1
@@ -617,6 +730,7 @@ rpm:
 	.byte	0x1
 	.byte	0x9c
 	.byte	0x1
+<<<<<<< HEAD
 	.uaword	0x763
 	.uleb128 0x12
 	.byte	0x1
@@ -626,13 +740,31 @@ rpm:
 	.uaword	0x1b5
 	.byte	0x1
 	.uaword	0x692
+=======
+	.uaword	0x721
+	.uleb128 0x11
+	.byte	0x1
+	.uaword	.LASF0
+	.byte	0x1
+	.byte	0x12
+	.uaword	0x1c6
+	.byte	0x1
+	.uaword	0x650
+	.uleb128 0x12
+	.byte	0
+>>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0x13
 	.byte	0
 	.uleb128 0x14
 	.string	"buf"
 	.byte	0x1
+<<<<<<< HEAD
 	.byte	0x16
 	.uaword	0x763
+=======
+	.byte	0x14
+	.uaword	0x721
+>>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x2
 	.byte	0x91
 	.sleb128 -32
@@ -642,6 +774,7 @@ rpm:
 	.byte	0x8
 	.byte	0
 	.byte	0x1
+<<<<<<< HEAD
 	.uaword	0x1b5
 	.byte	0x1
 	.uaword	0x6c2
@@ -651,20 +784,38 @@ rpm:
 	.uaword	0x266
 	.uleb128 0x13
 	.byte	0
+=======
+	.uaword	0x1c6
+	.byte	0x1
+	.uaword	0x680
+	.uleb128 0x15
+	.uaword	0x731
+	.uleb128 0x15
+	.uaword	0x25c
+>>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0x12
 	.byte	0x1
 	.uaword	.LASF1
 	.byte	0x1
+<<<<<<< HEAD
 	.byte	0x18
 	.uaword	0x1b5
 	.byte	0x1
 	.uaword	0x6d5
 	.uleb128 0x13
+=======
+	.byte	0x16
+	.uaword	0x1c6
+	.byte	0x1
+	.uaword	0x693
+	.uleb128 0x12
+>>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0
 	.uleb128 0x12
 	.byte	0x1
 	.uaword	.LASF2
 	.byte	0x1
+<<<<<<< HEAD
 	.byte	0x1a
 	.uaword	0x1b5
 	.byte	0x1
@@ -674,6 +825,21 @@ rpm:
 	.uleb128 0x17
 	.uaword	.LVL6
 	.uaword	0x95c
+=======
+	.byte	0x18
+	.uaword	0x1c6
+	.byte	0x1
+	.uaword	0x6a6
+	.uleb128 0x12
+	.byte	0
+	.uleb128 0x16
+	.uaword	.LVL4
+	.uaword	0x8b9
+	.uleb128 0xe
+	.uaword	.LVL5
+	.uaword	0x8cc
+	.uaword	0x6d3
+>>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0xf
 	.uaword	.LVL7
 	.uaword	0x96f
@@ -698,6 +864,13 @@ rpm:
 	.byte	0x7f
 	.sleb128 0
 	.byte	0
+<<<<<<< HEAD
+=======
+	.uleb128 0xe
+	.uaword	.LVL6
+	.uaword	0x8ee
+	.uaword	0x6e7
+>>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0xf
 	.uaword	.LVL8
 	.uaword	0x991
@@ -709,6 +882,13 @@ rpm:
 	.byte	0x91
 	.sleb128 -32
 	.byte	0
+<<<<<<< HEAD
+=======
+	.uleb128 0xe
+	.uaword	.LVL7
+	.uaword	0x901
+	.uaword	0x6ff
+>>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0xf
 	.uaword	.LVL9
 	.uaword	0x9a4
@@ -724,11 +904,70 @@ rpm:
 	.byte	0x1
 	.byte	0x31
 	.byte	0
+<<<<<<< HEAD
 	.uleb128 0xf
 	.uaword	.LVL10
 	.uaword	0x991
 	.uaword	0x758
 	.uleb128 0x10
+=======
+	.uleb128 0xe
+	.uaword	.LVL8
+	.uaword	0x8ee
+	.uaword	0x716
+	.uleb128 0xf
+	.byte	0x1
+	.byte	0x64
+	.byte	0x5
+	.byte	0x3
+	.uaword	.LC3
+	.byte	0
+	.uleb128 0x10
+	.uaword	.LVL9
+	.byte	0x1
+	.uaword	0x8a0
+	.byte	0
+	.uleb128 0x17
+	.uaword	0x267
+	.uaword	0x731
+	.uleb128 0x18
+	.uaword	0x555
+	.byte	0x1f
+	.byte	0
+	.uleb128 0x4
+	.byte	0x4
+	.uaword	0x267
+	.uleb128 0xd
+	.byte	0x1
+	.string	"FuncTaskUltrasonic"
+	.byte	0x1
+	.byte	0x1e
+	.byte	0x1
+	.uaword	.LFB576
+	.uaword	.LFE576
+	.byte	0x1
+	.byte	0x9c
+	.byte	0x1
+	.uaword	0x78f
+	.uleb128 0x11
+	.byte	0x1
+	.uaword	.LASF3
+	.byte	0x1
+	.byte	0x20
+	.uaword	0x1c6
+	.byte	0x1
+	.uaword	0x771
+	.uleb128 0x12
+	.byte	0
+	.uleb128 0x16
+	.uaword	.LVL10
+	.uaword	0x914
+	.uleb128 0x19
+	.uaword	.LVL11
+	.byte	0x1
+	.uaword	0x86b
+	.uleb128 0xf
+>>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x1
 	.byte	0x64
 	.byte	0x5
@@ -798,16 +1037,26 @@ rpm:
 	.byte	0x1
 	.byte	0x9c
 	.byte	0x1
+<<<<<<< HEAD
 	.uaword	0x8a9
 	.uleb128 0x14
 	.string	"c"
 	.byte	0x1
 	.byte	0x28
 	.uaword	0x194
+=======
+	.uaword	0x827
+	.uleb128 0x13
+	.string	"c"
+	.byte	0x1
+	.byte	0x26
+	.uaword	0x1a5
+>>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x5
 	.byte	0x3
 	.uaword	c.15763
 	.uleb128 0xe
+<<<<<<< HEAD
 	.string	"a"
 	.byte	0x1
 	.byte	0x30
@@ -823,6 +1072,11 @@ rpm:
 	.uaword	0x81d
 	.uleb128 0x13
 	.byte	0
+=======
+	.uaword	.LVL12
+	.uaword	0x927
+	.uaword	0x7d2
+>>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0xf
 	.uaword	.LVL14
 	.uaword	0x9ca
@@ -834,6 +1088,13 @@ rpm:
 	.byte	0xc
 	.uaword	0xf4240
 	.byte	0
+<<<<<<< HEAD
+=======
+	.uleb128 0xe
+	.uaword	.LVL13
+	.uaword	0x957
+	.uaword	0x7e5
+>>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0xf
 	.uaword	.LVL15
 	.uaword	0x9fa
@@ -844,6 +1105,13 @@ rpm:
 	.byte	0x1
 	.byte	0x32
 	.byte	0
+<<<<<<< HEAD
+=======
+	.uleb128 0xe
+	.uaword	.LVL14
+	.uaword	0x957
+	.uaword	0x7f8
+>>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0xf
 	.uaword	.LVL16
 	.uaword	0x9fa
@@ -854,6 +1122,13 @@ rpm:
 	.byte	0x1
 	.byte	0x33
 	.byte	0
+<<<<<<< HEAD
+=======
+	.uleb128 0xe
+	.uaword	.LVL15
+	.uaword	0x957
+	.uaword	0x80b
+>>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0xf
 	.uaword	.LVL17
 	.uaword	0x9fa
@@ -864,6 +1139,13 @@ rpm:
 	.byte	0x1
 	.byte	0x34
 	.byte	0
+<<<<<<< HEAD
+=======
+	.uleb128 0x19
+	.uaword	.LVL16
+	.byte	0x1
+	.uaword	0x86b
+>>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0xf
 	.uaword	.LVL18
 	.uaword	0x8ed
@@ -883,6 +1165,7 @@ rpm:
 	.sleb128 -1
 	.byte	0
 	.uleb128 0x17
+<<<<<<< HEAD
 	.uaword	.LVL19
 	.uaword	0xa1c
 	.uleb128 0x1a
@@ -902,12 +1185,19 @@ rpm:
 	.uaword	0x8b9
 	.uleb128 0x19
 	.uaword	0x55f
+=======
+	.uaword	0x29c
+	.uaword	0x837
+	.uleb128 0x18
+	.uaword	0x555
+>>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x2
 	.byte	0
 	.uleb128 0x1b
 	.string	"IfxCpu_cfg_indexMap"
 	.byte	0x7
 	.byte	0xa7
+<<<<<<< HEAD
 	.uaword	0x8d6
 	.byte	0x1
 	.byte	0x1
@@ -918,6 +1208,18 @@ rpm:
 	.byte	0x1
 	.byte	0x4
 	.uaword	0x2c0
+=======
+	.uaword	0x854
+	.byte	0x1
+	.byte	0x1
+	.uleb128 0x5
+	.uaword	0x827
+	.uleb128 0x1b
+	.string	"rpm"
+	.byte	0x1
+	.byte	0x4
+	.uaword	0x2b6
+>>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x1
 	.byte	0x5
 	.byte	0x3
@@ -929,10 +1231,17 @@ rpm:
 	.byte	0xd
 	.byte	0x1
 	.byte	0x1
+<<<<<<< HEAD
 	.uaword	0x90b
 	.uleb128 0x16
 	.uaword	0x266
 	.uleb128 0x13
+=======
+	.uaword	0x889
+	.uleb128 0x15
+	.uaword	0x25c
+	.uleb128 0x12
+>>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0
 	.uleb128 0x15
 	.byte	0x1
@@ -953,9 +1262,15 @@ rpm:
 	.byte	0xc
 	.byte	0x1
 	.byte	0x1
+<<<<<<< HEAD
 	.uaword	0x943
 	.uleb128 0x16
 	.uaword	0x1a0
+=======
+	.uaword	0x8a0
+	.uleb128 0x15
+	.uaword	0x1b1
+>>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0
 	.uleb128 0x1e
 	.byte	0x1
@@ -963,17 +1278,29 @@ rpm:
 	.byte	0xb
 	.uahalf	0x1c9
 	.byte	0x1
+<<<<<<< HEAD
 	.uaword	0x54c
+=======
+	.uaword	0x542
+>>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x1
 	.uleb128 0x12
 	.byte	0x1
 	.uaword	.LASF0
 	.byte	0x1
+<<<<<<< HEAD
 	.byte	0x14
 	.uaword	0x1b5
 	.byte	0x1
 	.uaword	0x96f
 	.uleb128 0x13
+=======
+	.byte	0x12
+	.uaword	0x1c6
+	.byte	0x1
+	.uaword	0x8cc
+	.uleb128 0x12
+>>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0
 	.uleb128 0x15
 	.byte	0x1
@@ -981,6 +1308,7 @@ rpm:
 	.byte	0x8
 	.byte	0
 	.byte	0x1
+<<<<<<< HEAD
 	.uaword	0x1b5
 	.byte	0x1
 	.uaword	0x991
@@ -990,35 +1318,68 @@ rpm:
 	.uaword	0x266
 	.uleb128 0x13
 	.byte	0
+=======
+	.uaword	0x1c6
+	.byte	0x1
+	.uaword	0x8ee
+	.uleb128 0x15
+	.uaword	0x731
+	.uleb128 0x15
+	.uaword	0x25c
+>>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0x12
 	.byte	0x1
 	.uaword	.LASF1
 	.byte	0x1
+<<<<<<< HEAD
 	.byte	0x18
 	.uaword	0x1b5
 	.byte	0x1
 	.uaword	0x9a4
 	.uleb128 0x13
+=======
+	.byte	0x16
+	.uaword	0x1c6
+	.byte	0x1
+	.uaword	0x901
+	.uleb128 0x12
+>>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0
 	.uleb128 0x12
 	.byte	0x1
 	.uaword	.LASF2
 	.byte	0x1
+<<<<<<< HEAD
 	.byte	0x1a
 	.uaword	0x1b5
 	.byte	0x1
 	.uaword	0x9b7
 	.uleb128 0x13
+=======
+	.byte	0x18
+	.uaword	0x1c6
+	.byte	0x1
+	.uaword	0x914
+	.uleb128 0x12
+>>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0
 	.uleb128 0x12
 	.byte	0x1
 	.uaword	.LASF3
 	.byte	0x1
+<<<<<<< HEAD
 	.byte	0x22
 	.uaword	0x1b5
 	.byte	0x1
 	.uaword	0x9ca
 	.uleb128 0x13
+=======
+	.byte	0x20
+	.uaword	0x1c6
+	.byte	0x1
+	.uaword	0x927
+	.uleb128 0x12
+>>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0
 	.uleb128 0x1f
 	.byte	0x1
@@ -1027,9 +1388,15 @@ rpm:
 	.uahalf	0x3d8
 	.byte	0x1
 	.byte	0x1
+<<<<<<< HEAD
 	.uaword	0x9fa
 	.uleb128 0x16
 	.uaword	0x2f0
+=======
+	.uaword	0x957
+	.uleb128 0x15
+	.uaword	0x2e6
+>>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0
 	.uleb128 0x20
 	.byte	0x1
@@ -1037,6 +1404,7 @@ rpm:
 	.byte	0xb
 	.uahalf	0x178
 	.byte	0x1
+<<<<<<< HEAD
 	.uaword	0x54c
 	.byte	0x1
 	.uaword	0xa1c
@@ -1051,6 +1419,12 @@ rpm:
 	.uaword	0x1b5
 	.byte	0x1
 	.uleb128 0x13
+=======
+	.uaword	0x542
+	.byte	0x1
+	.uleb128 0x15
+	.uaword	0x2f6
+>>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0
 	.byte	0
 .section .debug_abbrev,"",@progbits
