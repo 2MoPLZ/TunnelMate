@@ -43,23 +43,10 @@ void setFrequencyBuzzer(uint32_t frequency)
 void onBuzzer(void)
 {
     setFrequencyBuzzer(WARNING2_FREQ);
-    HAL_Delay(300);
-    setVolumeBuzzer(0);
-    HAL_Delay(100);
-
-    setFrequencyBuzzer(WARNING2_FREQ);
-    HAL_Delay(300);
-    setVolumeBuzzer(0);
-    HAL_Delay(100);
-
-    setFrequencyBuzzer(WARNING2_FREQ);
-    HAL_Delay(300);
-    setVolumeBuzzer(0);
-    HAL_Delay(100);
 }
 
 
 void offBuzzer(void)
 {
-    HAL_TIM_PWM_Stop(&htim3, TIM_CHANNEL_1);
+	setVolumeBuzzer(0);
 }
