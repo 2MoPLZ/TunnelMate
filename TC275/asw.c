@@ -6,6 +6,8 @@ uint16_t rpm = 1000; // LCD에 출력한 전역변수 선언
 TASK(Task1)
 {
     printfSerial("Task1 Begins...");
+    int a0 = readADCValue(3);
+    printfSerial("%d",a0);
     mdelay(3000);
     printfSerial("Task1 Finishes...");
 
@@ -32,6 +34,19 @@ TASK(TaskUltrasonic)
     printfSerial("%d",getUltrasonic());
 }
 
+ISR2(ButtonISR)
+{
+    unsigned int buttonState;
+    DisableAllInterrupts();
+    osEE_tc_delay(5000);
+    printfSerial("interuppt");
+    buttonState = readLcdButtons();
+    
+    osEE_tc_delay(3000);
+    EnableAllInterrupts();
+}
+
+
 
 ISR2(TimerISR)
 {
@@ -40,7 +55,7 @@ ISR2(TimerISR)
     if (c == 0)
         ActivateTask(Task1);
     if (c % 2 == 0)
-        ActivateTask(TaskLCD);
+    ActivateTask(TaskLCD);
     ActivateTask(TaskUltrasonic);
     printfSerial("\n%4ld: ", c++);
 }
