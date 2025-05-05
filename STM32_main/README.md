@@ -3,8 +3,6 @@
 ## 개요
 보드 정보 : STM32F103RBT6 (NUCLEO-F103RB)
 
-@TODO: Pinmap 추가
-
 ## 포팅 매뉴얼
 ### 보드 세팅 (CubeMX 활용)
 ![s16312804282025](https://a.okmd.dev/md/680f2ed288d11.png)
@@ -58,22 +56,21 @@ printf 형태로 format 지정하여 UART 송신
 
 ## 통신 프로토콜 (UART)
 ### Actuator Packet (액추에이터 제어 패킷)
-| Field             | Size (Bytes) | Bit Detail             | Description                           |
+| Field             | Size (Bytes) | Bit Detail             | Description                                     |
 | ----------------- | ------------ | ---------------------- | ------------------------------------- |
-| `start_byte`      | 1            | 8 bits                 | Start of packet (`0xAA`)              |
-| `packet_id`       | 1            | 8 bits                 | Packet ID (`0x01` for actuator)       |
-| `led_rgb` (union) | 1            | R:1, G:1, B:1 (3 bits) | RGB LED flags (bitfield)              |
-| `fan`             | -            | 2 bits                 | Fan speed (0–3)                       |
-| `led`             | -            | 1 bit                  | Headlight on/off                      |
-| `buzzer`          | -            | 1 bit                  | Buzzer on/off                         |
-| `darkmode`        | -            | 1 bit                  | Dark mode on/off                      |
-| *padding*         | -            | 3 bits                 | (to fill one full byte)               |
-| `driving_mode`    | 1            | 4 bits                 | Driving mode (0–15)                   |
-| *padding*         | -            | 4 bits                 | (Reserved for more driving mode)      |
-| `servo_chair`     | 2            | 12 bits used           | Chair tilt (scaled from 0–4095)       |
-| `servo_window`    | 2            | 12 bits used           | Window position (scaled from 0–4095)  |
-| `crc`             | 1            | 8 bits                 | Checksum or CRC                       |
-| **Total**         | **10 bytes** |                        |                                       |
+| `start_byte`      | 1            | 8 bits                 | Start of packet (`0xAA`)                      |
+| `packet_id`       | 1            | 8 bits                 | Packet ID (`0x01` for actuator)               |
+| `led_rgb` (union) | 1            | R:1, G:1, B:1 (3 bits) | RGB LED flags (bitfield)                      |
+|                   |              | 5 bits                 | Padding for one full byte                     |
+| `fan`             | 1            | 2 bits                 | Fan speed (0–3)                               |
+| `led`             |              | 1 bit                  | Headlight on/off                              |
+| `buzzer`          |              | 1 bit                  | Buzzer on/off                                 |
+| `driving_mode`    |              | 4 bits                 | Driving mode (0–15)                           |
+| `servo_chair`     | 2            | 16 bits                | Chair tilt (scaled from 0–4095)               |
+| `servo_window`    | 2            | 16 bits                | Window position (scaled from 0–4095)          |
+| `servo_air`       | 2            | 16 bits                | Air conditional position (scaled from 0–4095) |
+| `crc`             | 1            | 8 bits                 | Checksum or CRC                               |
+| **Total**         | **11 bytes** |                        |                                               |
 
 
 ### Seonsor Packet (센서 데이터 전송 패킷)
@@ -81,7 +78,8 @@ printf 형태로 format 지정하여 UART 송신
 | ------------- | ------------ | ------------ | ------------------------------------- |
 | `start_byte`  | 1            | 8 bits       | Start of packet (`0xAA`)              |
 | `packet_id`   | 1            | 8 bits       | Packet ID (`0x02` for sensor)         |
-| `photo`       | 2            | 12 bits used | Ambient brightness (0–4095)           |
-| `ultra_sonic` | 2            | 16 bits      | Ultrasonic distance (2–400cm typical) |
+| `photo`       | 2            | 16 bits r    | Ambient brightness (0–4095)           |
+| `ultra_sonic1`| 2            | 16 bits      | Ultrasonic distance (2–400cm typical) |
+| `ultra_sonic2`| 2            | 16 bits      | Ultrasonic distance (2–400cm typical) |
 | `crc`         | 1            | 8 bits       | Checksum or CRC                       |
-| **Total**     | **7 bytes**  |              |                                       |
+| **Total**     | **9 bytes**  |              |                                       |
