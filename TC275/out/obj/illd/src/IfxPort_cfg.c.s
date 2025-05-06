@@ -94,7 +94,6 @@ IfxPort_cfg_esrMasks:
 	.zero	2
 .section .text,"ax",@progbits
 .Letext0:
-<<<<<<< HEAD
 	.file 1 "C:\\Users\\USER\\Desktop\\WORKSP~1\\TUNNEL~1\\TC275/illd\\Libraries\\iLLD\\TC27D\\Tricore\\Cpu\\Std\\Platform_Types.h"
 	.file 2 "C:\\Users\\USER\\Desktop\\WORKSP~1\\TUNNEL~1\\TC275/illd\\Libraries\\iLLD\\TC27D\\Tricore\\Cpu\\Std\\Ifx_Types.h"
 	.file 3 "C:\\Users\\USER\\Desktop\\WORKSP~1\\TUNNEL~1\\TC275/illd\\Libraries\\Infra\\Sfr\\TC27D\\_Reg\\IfxPort_regdef.h"
@@ -103,16 +102,6 @@ IfxPort_cfg_esrMasks:
 .section .debug_info,"",@progbits
 .Ldebug_info0:
 	.uaword	0x2782
-=======
-	.file 1 "C:\\Users\\USER\\OneDrive\\Desktop\\\273\365\306\372\264\365~1\\TUNNEL~1\\TC275/illd\\Libraries\\iLLD\\TC27D\\Tricore\\Cpu\\Std\\Platform_Types.h"
-	.file 2 "C:\\Users\\USER\\OneDrive\\Desktop\\\273\365\306\372\264\365~1\\TUNNEL~1\\TC275/illd\\Libraries\\iLLD\\TC27D\\Tricore\\Cpu\\Std\\Ifx_Types.h"
-	.file 3 "C:\\Users\\USER\\OneDrive\\Desktop\\\273\365\306\372\264\365~1\\TUNNEL~1\\TC275/illd\\Libraries\\Infra\\Sfr\\TC27D\\_Reg\\IfxPort_regdef.h"
-	.file 4 "C:\\Users\\USER\\OneDrive\\Desktop\\\273\365\306\372\264\365~1\\TUNNEL~1\\TC275/illd\\Libraries\\iLLD\\TC27D\\Tricore\\_Impl\\IfxPort_cfg.h"
-	.file 5 "C:\\Users\\USER\\OneDrive\\Desktop\\\273\365\306\372\264\365~1\\TUNNEL~1\\TC275\\illd\\src\\IfxPort_cfg.c"
-.section .debug_info,"",@progbits
-.Ldebug_info0:
-	.uaword	0x278b
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uahalf	0x3
 	.uaword	.Ldebug_abbrev0
 	.byte	0x4
@@ -120,11 +109,7 @@ IfxPort_cfg_esrMasks:
 	.ascii	"GNU C 4.9."
 	.string	"4 build on 2019-06-07 -mlicense-dir=c:\\hightec\\toolchains\\tricore\\v4.9.3.0-infineon-1.0\\bin\\../lib/gcc/tricore/4.9.4/../../../../licenses -mcpu=tc27xx -g -Os -fno-common -fshort-enums -fstrict-volatile-bitfields -finline-functions -fzero-initialized-in-bss"
 	.byte	0x1
-<<<<<<< HEAD
 	.string	"C:\\Users\\USER\\Desktop\\WORKSP~1\\TUNNEL~1\\TC275\\illd\\src\\IfxPort_cfg.c"
-=======
-	.string	"C:\\Users\\USER\\OneDrive\\Desktop\\\273\365\306\372\264\365~1\\TUNNEL~1\\TC275\\illd\\src\\IfxPort_cfg.c"
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uaword	.Ldebug_line0
 	.uleb128 0x2
 	.byte	0x4
@@ -146,11 +131,7 @@ IfxPort_cfg_esrMasks:
 	.string	"uint16"
 	.byte	0x1
 	.byte	0x70
-<<<<<<< HEAD
 	.uaword	0x1a8
-=======
-	.uaword	0x1b1
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0x2
 	.byte	0x2
 	.byte	0x7
@@ -171,11 +152,7 @@ IfxPort_cfg_esrMasks:
 	.string	"sint32"
 	.byte	0x1
 	.byte	0x86
-<<<<<<< HEAD
 	.uaword	0x161
-=======
-	.uaword	0x16a
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0x2
 	.byte	0x8
 	.byte	0x5
@@ -194,70 +171,42 @@ IfxPort_cfg_esrMasks:
 	.string	"char"
 	.uleb128 0x4
 	.byte	0x4
-<<<<<<< HEAD
 	.uaword	0x234
-=======
-	.uaword	0x23d
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0x5
 	.uleb128 0x6
 	.byte	0x8
 	.byte	0x2
 	.byte	0x8c
-<<<<<<< HEAD
 	.uaword	0x25b
-=======
-	.uaword	0x264
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0x7
 	.string	"module"
 	.byte	0x2
 	.byte	0x8e
-<<<<<<< HEAD
 	.uaword	0x22e
-=======
-	.uaword	0x237
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0
 	.uleb128 0x7
 	.string	"index"
 	.byte	0x2
 	.byte	0x8f
-<<<<<<< HEAD
 	.uaword	0x1f4
-=======
-	.uaword	0x1fd
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0
 	.uleb128 0x3
 	.string	"IfxModule_IndexMap"
 	.byte	0x2
 	.byte	0x90
-<<<<<<< HEAD
 	.uaword	0x235
-=======
-	.uaword	0x23e
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0x8
 	.string	"_Ifx_P_ACCEN0_Bits"
 	.byte	0x4
 	.byte	0x3
 	.byte	0x3f
-<<<<<<< HEAD
 	.uaword	0x487
-=======
-	.uaword	0x490
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0x9
 	.string	"EN0"
 	.byte	0x3
 	.byte	0x41
-<<<<<<< HEAD
 	.uaword	0x487
-=======
-	.uaword	0x490
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1f
@@ -266,11 +215,7 @@ IfxPort_cfg_esrMasks:
 	.string	"EN1"
 	.byte	0x3
 	.byte	0x42
-<<<<<<< HEAD
 	.uaword	0x487
-=======
-	.uaword	0x490
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1e
@@ -279,11 +224,7 @@ IfxPort_cfg_esrMasks:
 	.string	"EN2"
 	.byte	0x3
 	.byte	0x43
-<<<<<<< HEAD
 	.uaword	0x487
-=======
-	.uaword	0x490
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1d
@@ -292,11 +233,7 @@ IfxPort_cfg_esrMasks:
 	.string	"EN3"
 	.byte	0x3
 	.byte	0x44
-<<<<<<< HEAD
 	.uaword	0x487
-=======
-	.uaword	0x490
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1c
@@ -305,11 +242,7 @@ IfxPort_cfg_esrMasks:
 	.string	"EN4"
 	.byte	0x3
 	.byte	0x45
-<<<<<<< HEAD
 	.uaword	0x487
-=======
-	.uaword	0x490
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1b
@@ -318,11 +251,7 @@ IfxPort_cfg_esrMasks:
 	.string	"EN5"
 	.byte	0x3
 	.byte	0x46
-<<<<<<< HEAD
 	.uaword	0x487
-=======
-	.uaword	0x490
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1a
@@ -331,11 +260,7 @@ IfxPort_cfg_esrMasks:
 	.string	"EN6"
 	.byte	0x3
 	.byte	0x47
-<<<<<<< HEAD
 	.uaword	0x487
-=======
-	.uaword	0x490
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1
 	.byte	0x19
@@ -344,11 +269,7 @@ IfxPort_cfg_esrMasks:
 	.string	"EN7"
 	.byte	0x3
 	.byte	0x48
-<<<<<<< HEAD
 	.uaword	0x487
-=======
-	.uaword	0x490
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1
 	.byte	0x18
@@ -357,11 +278,7 @@ IfxPort_cfg_esrMasks:
 	.string	"EN8"
 	.byte	0x3
 	.byte	0x49
-<<<<<<< HEAD
 	.uaword	0x487
-=======
-	.uaword	0x490
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1
 	.byte	0x17
@@ -370,11 +287,7 @@ IfxPort_cfg_esrMasks:
 	.string	"EN9"
 	.byte	0x3
 	.byte	0x4a
-<<<<<<< HEAD
 	.uaword	0x487
-=======
-	.uaword	0x490
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1
 	.byte	0x16
@@ -383,11 +296,7 @@ IfxPort_cfg_esrMasks:
 	.string	"EN10"
 	.byte	0x3
 	.byte	0x4b
-<<<<<<< HEAD
 	.uaword	0x487
-=======
-	.uaword	0x490
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1
 	.byte	0x15
@@ -396,11 +305,7 @@ IfxPort_cfg_esrMasks:
 	.string	"EN11"
 	.byte	0x3
 	.byte	0x4c
-<<<<<<< HEAD
 	.uaword	0x487
-=======
-	.uaword	0x490
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1
 	.byte	0x14
@@ -409,11 +314,7 @@ IfxPort_cfg_esrMasks:
 	.string	"EN12"
 	.byte	0x3
 	.byte	0x4d
-<<<<<<< HEAD
 	.uaword	0x487
-=======
-	.uaword	0x490
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1
 	.byte	0x13
@@ -422,11 +323,7 @@ IfxPort_cfg_esrMasks:
 	.string	"EN13"
 	.byte	0x3
 	.byte	0x4e
-<<<<<<< HEAD
 	.uaword	0x487
-=======
-	.uaword	0x490
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1
 	.byte	0x12
@@ -435,11 +332,7 @@ IfxPort_cfg_esrMasks:
 	.string	"EN14"
 	.byte	0x3
 	.byte	0x4f
-<<<<<<< HEAD
 	.uaword	0x487
-=======
-	.uaword	0x490
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1
 	.byte	0x11
@@ -448,11 +341,7 @@ IfxPort_cfg_esrMasks:
 	.string	"EN15"
 	.byte	0x3
 	.byte	0x50
-<<<<<<< HEAD
 	.uaword	0x487
-=======
-	.uaword	0x490
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1
 	.byte	0x10
@@ -461,11 +350,7 @@ IfxPort_cfg_esrMasks:
 	.string	"EN16"
 	.byte	0x3
 	.byte	0x51
-<<<<<<< HEAD
 	.uaword	0x487
-=======
-	.uaword	0x490
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1
 	.byte	0xf
@@ -474,11 +359,7 @@ IfxPort_cfg_esrMasks:
 	.string	"EN17"
 	.byte	0x3
 	.byte	0x52
-<<<<<<< HEAD
 	.uaword	0x487
-=======
-	.uaword	0x490
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1
 	.byte	0xe
@@ -487,11 +368,7 @@ IfxPort_cfg_esrMasks:
 	.string	"EN18"
 	.byte	0x3
 	.byte	0x53
-<<<<<<< HEAD
 	.uaword	0x487
-=======
-	.uaword	0x490
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1
 	.byte	0xd
@@ -500,11 +377,7 @@ IfxPort_cfg_esrMasks:
 	.string	"EN19"
 	.byte	0x3
 	.byte	0x54
-<<<<<<< HEAD
 	.uaword	0x487
-=======
-	.uaword	0x490
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1
 	.byte	0xc
@@ -513,11 +386,7 @@ IfxPort_cfg_esrMasks:
 	.string	"EN20"
 	.byte	0x3
 	.byte	0x55
-<<<<<<< HEAD
 	.uaword	0x487
-=======
-	.uaword	0x490
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1
 	.byte	0xb
@@ -526,11 +395,7 @@ IfxPort_cfg_esrMasks:
 	.string	"EN21"
 	.byte	0x3
 	.byte	0x56
-<<<<<<< HEAD
 	.uaword	0x487
-=======
-	.uaword	0x490
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1
 	.byte	0xa
@@ -539,11 +404,7 @@ IfxPort_cfg_esrMasks:
 	.string	"EN22"
 	.byte	0x3
 	.byte	0x57
-<<<<<<< HEAD
 	.uaword	0x487
-=======
-	.uaword	0x490
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1
 	.byte	0x9
@@ -552,11 +413,7 @@ IfxPort_cfg_esrMasks:
 	.string	"EN23"
 	.byte	0x3
 	.byte	0x58
-<<<<<<< HEAD
 	.uaword	0x487
-=======
-	.uaword	0x490
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1
 	.byte	0x8
@@ -565,11 +422,7 @@ IfxPort_cfg_esrMasks:
 	.string	"EN24"
 	.byte	0x3
 	.byte	0x59
-<<<<<<< HEAD
 	.uaword	0x487
-=======
-	.uaword	0x490
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1
 	.byte	0x7
@@ -578,11 +431,7 @@ IfxPort_cfg_esrMasks:
 	.string	"EN25"
 	.byte	0x3
 	.byte	0x5a
-<<<<<<< HEAD
 	.uaword	0x487
-=======
-	.uaword	0x490
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1
 	.byte	0x6
@@ -591,11 +440,7 @@ IfxPort_cfg_esrMasks:
 	.string	"EN26"
 	.byte	0x3
 	.byte	0x5b
-<<<<<<< HEAD
 	.uaword	0x487
-=======
-	.uaword	0x490
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1
 	.byte	0x5
@@ -604,11 +449,7 @@ IfxPort_cfg_esrMasks:
 	.string	"EN27"
 	.byte	0x3
 	.byte	0x5c
-<<<<<<< HEAD
 	.uaword	0x487
-=======
-	.uaword	0x490
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1
 	.byte	0x4
@@ -617,11 +458,7 @@ IfxPort_cfg_esrMasks:
 	.string	"EN28"
 	.byte	0x3
 	.byte	0x5d
-<<<<<<< HEAD
 	.uaword	0x487
-=======
-	.uaword	0x490
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1
 	.byte	0x3
@@ -630,11 +467,7 @@ IfxPort_cfg_esrMasks:
 	.string	"EN29"
 	.byte	0x3
 	.byte	0x5e
-<<<<<<< HEAD
 	.uaword	0x487
-=======
-	.uaword	0x490
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1
 	.byte	0x2
@@ -643,11 +476,7 @@ IfxPort_cfg_esrMasks:
 	.string	"EN30"
 	.byte	0x3
 	.byte	0x5f
-<<<<<<< HEAD
 	.uaword	0x487
-=======
-	.uaword	0x490
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1
@@ -656,11 +485,7 @@ IfxPort_cfg_esrMasks:
 	.string	"EN31"
 	.byte	0x3
 	.byte	0x60
-<<<<<<< HEAD
 	.uaword	0x487
-=======
-	.uaword	0x490
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1
 	.byte	0
@@ -674,30 +499,18 @@ IfxPort_cfg_esrMasks:
 	.string	"Ifx_P_ACCEN0_Bits"
 	.byte	0x3
 	.byte	0x61
-<<<<<<< HEAD
 	.uaword	0x275
-=======
-	.uaword	0x27e
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0x8
 	.string	"_Ifx_P_ACCEN1_Bits"
 	.byte	0x4
 	.byte	0x3
 	.byte	0x64
-<<<<<<< HEAD
 	.uaword	0x4db
-=======
-	.uaword	0x4e4
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0xa
 	.uaword	.LASF0
 	.byte	0x3
 	.byte	0x66
-<<<<<<< HEAD
 	.uaword	0x487
-=======
-	.uaword	0x490
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x20
 	.byte	0
@@ -707,30 +520,18 @@ IfxPort_cfg_esrMasks:
 	.string	"Ifx_P_ACCEN1_Bits"
 	.byte	0x3
 	.byte	0x67
-<<<<<<< HEAD
 	.uaword	0x4b0
-=======
-	.uaword	0x4b9
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0x8
 	.string	"_Ifx_P_ESR_Bits"
 	.byte	0x4
 	.byte	0x3
 	.byte	0x6a
-<<<<<<< HEAD
 	.uaword	0x612
-=======
-	.uaword	0x61b
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0x9
 	.string	"EN0"
 	.byte	0x3
 	.byte	0x6c
-<<<<<<< HEAD
 	.uaword	0x487
-=======
-	.uaword	0x490
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1f
@@ -739,11 +540,7 @@ IfxPort_cfg_esrMasks:
 	.string	"EN1"
 	.byte	0x3
 	.byte	0x6d
-<<<<<<< HEAD
 	.uaword	0x487
-=======
-	.uaword	0x490
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1e
@@ -752,11 +549,7 @@ IfxPort_cfg_esrMasks:
 	.string	"EN2"
 	.byte	0x3
 	.byte	0x6e
-<<<<<<< HEAD
 	.uaword	0x487
-=======
-	.uaword	0x490
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1d
@@ -765,11 +558,7 @@ IfxPort_cfg_esrMasks:
 	.string	"EN3"
 	.byte	0x3
 	.byte	0x6f
-<<<<<<< HEAD
 	.uaword	0x487
-=======
-	.uaword	0x490
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1c
@@ -778,11 +567,7 @@ IfxPort_cfg_esrMasks:
 	.string	"EN4"
 	.byte	0x3
 	.byte	0x70
-<<<<<<< HEAD
 	.uaword	0x487
-=======
-	.uaword	0x490
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1b
@@ -791,11 +576,7 @@ IfxPort_cfg_esrMasks:
 	.string	"EN5"
 	.byte	0x3
 	.byte	0x71
-<<<<<<< HEAD
 	.uaword	0x487
-=======
-	.uaword	0x490
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1a
@@ -804,11 +585,7 @@ IfxPort_cfg_esrMasks:
 	.string	"EN6"
 	.byte	0x3
 	.byte	0x72
-<<<<<<< HEAD
 	.uaword	0x487
-=======
-	.uaword	0x490
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1
 	.byte	0x19
@@ -817,11 +594,7 @@ IfxPort_cfg_esrMasks:
 	.string	"EN7"
 	.byte	0x3
 	.byte	0x73
-<<<<<<< HEAD
 	.uaword	0x487
-=======
-	.uaword	0x490
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1
 	.byte	0x18
@@ -830,11 +603,7 @@ IfxPort_cfg_esrMasks:
 	.string	"EN8"
 	.byte	0x3
 	.byte	0x74
-<<<<<<< HEAD
 	.uaword	0x487
-=======
-	.uaword	0x490
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1
 	.byte	0x17
@@ -843,11 +612,7 @@ IfxPort_cfg_esrMasks:
 	.string	"EN9"
 	.byte	0x3
 	.byte	0x75
-<<<<<<< HEAD
 	.uaword	0x487
-=======
-	.uaword	0x490
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1
 	.byte	0x16
@@ -856,11 +621,7 @@ IfxPort_cfg_esrMasks:
 	.string	"EN10"
 	.byte	0x3
 	.byte	0x76
-<<<<<<< HEAD
 	.uaword	0x487
-=======
-	.uaword	0x490
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1
 	.byte	0x15
@@ -869,11 +630,7 @@ IfxPort_cfg_esrMasks:
 	.string	"EN11"
 	.byte	0x3
 	.byte	0x77
-<<<<<<< HEAD
 	.uaword	0x487
-=======
-	.uaword	0x490
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1
 	.byte	0x14
@@ -882,11 +639,7 @@ IfxPort_cfg_esrMasks:
 	.string	"EN12"
 	.byte	0x3
 	.byte	0x78
-<<<<<<< HEAD
 	.uaword	0x487
-=======
-	.uaword	0x490
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1
 	.byte	0x13
@@ -895,11 +648,7 @@ IfxPort_cfg_esrMasks:
 	.string	"EN13"
 	.byte	0x3
 	.byte	0x79
-<<<<<<< HEAD
 	.uaword	0x487
-=======
-	.uaword	0x490
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1
 	.byte	0x12
@@ -908,11 +657,7 @@ IfxPort_cfg_esrMasks:
 	.string	"EN14"
 	.byte	0x3
 	.byte	0x7a
-<<<<<<< HEAD
 	.uaword	0x487
-=======
-	.uaword	0x490
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1
 	.byte	0x11
@@ -921,11 +666,7 @@ IfxPort_cfg_esrMasks:
 	.string	"EN15"
 	.byte	0x3
 	.byte	0x7b
-<<<<<<< HEAD
 	.uaword	0x487
-=======
-	.uaword	0x490
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1
 	.byte	0x10
@@ -934,11 +675,7 @@ IfxPort_cfg_esrMasks:
 	.uaword	.LASF1
 	.byte	0x3
 	.byte	0x7c
-<<<<<<< HEAD
 	.uaword	0x487
-=======
-	.uaword	0x490
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x10
 	.byte	0
@@ -948,30 +685,18 @@ IfxPort_cfg_esrMasks:
 	.string	"Ifx_P_ESR_Bits"
 	.byte	0x3
 	.byte	0x7d
-<<<<<<< HEAD
 	.uaword	0x4f4
-=======
-	.uaword	0x4fd
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0x8
 	.string	"_Ifx_P_ID_Bits"
 	.byte	0x4
 	.byte	0x3
 	.byte	0x80
-<<<<<<< HEAD
 	.uaword	0x67a
-=======
-	.uaword	0x683
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0x9
 	.string	"MODREV"
 	.byte	0x3
 	.byte	0x82
-<<<<<<< HEAD
 	.uaword	0x487
-=======
-	.uaword	0x490
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x8
 	.byte	0x18
@@ -980,11 +705,7 @@ IfxPort_cfg_esrMasks:
 	.string	"MODTYPE"
 	.byte	0x3
 	.byte	0x83
-<<<<<<< HEAD
 	.uaword	0x487
-=======
-	.uaword	0x490
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x8
 	.byte	0x10
@@ -993,11 +714,7 @@ IfxPort_cfg_esrMasks:
 	.string	"MODNUMBER"
 	.byte	0x3
 	.byte	0x84
-<<<<<<< HEAD
 	.uaword	0x487
-=======
-	.uaword	0x490
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x10
 	.byte	0
@@ -1007,30 +724,18 @@ IfxPort_cfg_esrMasks:
 	.string	"Ifx_P_ID_Bits"
 	.byte	0x3
 	.byte	0x85
-<<<<<<< HEAD
 	.uaword	0x628
-=======
-	.uaword	0x631
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0x8
 	.string	"_Ifx_P_IN_Bits"
 	.byte	0x4
 	.byte	0x3
 	.byte	0x88
-<<<<<<< HEAD
 	.uaword	0x79c
-=======
-	.uaword	0x7a5
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0x9
 	.string	"P0"
 	.byte	0x3
 	.byte	0x8a
-<<<<<<< HEAD
 	.uaword	0x487
-=======
-	.uaword	0x490
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1f
@@ -1039,11 +744,7 @@ IfxPort_cfg_esrMasks:
 	.string	"P1"
 	.byte	0x3
 	.byte	0x8b
-<<<<<<< HEAD
 	.uaword	0x487
-=======
-	.uaword	0x490
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1e
@@ -1052,11 +753,7 @@ IfxPort_cfg_esrMasks:
 	.string	"P2"
 	.byte	0x3
 	.byte	0x8c
-<<<<<<< HEAD
 	.uaword	0x487
-=======
-	.uaword	0x490
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1d
@@ -1065,11 +762,7 @@ IfxPort_cfg_esrMasks:
 	.string	"P3"
 	.byte	0x3
 	.byte	0x8d
-<<<<<<< HEAD
 	.uaword	0x487
-=======
-	.uaword	0x490
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1c
@@ -1078,11 +771,7 @@ IfxPort_cfg_esrMasks:
 	.string	"P4"
 	.byte	0x3
 	.byte	0x8e
-<<<<<<< HEAD
 	.uaword	0x487
-=======
-	.uaword	0x490
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1b
@@ -1091,11 +780,7 @@ IfxPort_cfg_esrMasks:
 	.string	"P5"
 	.byte	0x3
 	.byte	0x8f
-<<<<<<< HEAD
 	.uaword	0x487
-=======
-	.uaword	0x490
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1a
@@ -1104,11 +789,7 @@ IfxPort_cfg_esrMasks:
 	.string	"P6"
 	.byte	0x3
 	.byte	0x90
-<<<<<<< HEAD
 	.uaword	0x487
-=======
-	.uaword	0x490
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1
 	.byte	0x19
@@ -1117,11 +798,7 @@ IfxPort_cfg_esrMasks:
 	.string	"P7"
 	.byte	0x3
 	.byte	0x91
-<<<<<<< HEAD
 	.uaword	0x487
-=======
-	.uaword	0x490
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1
 	.byte	0x18
@@ -1130,11 +807,7 @@ IfxPort_cfg_esrMasks:
 	.string	"P8"
 	.byte	0x3
 	.byte	0x92
-<<<<<<< HEAD
 	.uaword	0x487
-=======
-	.uaword	0x490
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1
 	.byte	0x17
@@ -1143,11 +816,7 @@ IfxPort_cfg_esrMasks:
 	.string	"P9"
 	.byte	0x3
 	.byte	0x93
-<<<<<<< HEAD
 	.uaword	0x487
-=======
-	.uaword	0x490
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1
 	.byte	0x16
@@ -1156,11 +825,7 @@ IfxPort_cfg_esrMasks:
 	.string	"P10"
 	.byte	0x3
 	.byte	0x94
-<<<<<<< HEAD
 	.uaword	0x487
-=======
-	.uaword	0x490
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1
 	.byte	0x15
@@ -1169,11 +834,7 @@ IfxPort_cfg_esrMasks:
 	.string	"P11"
 	.byte	0x3
 	.byte	0x95
-<<<<<<< HEAD
 	.uaword	0x487
-=======
-	.uaword	0x490
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1
 	.byte	0x14
@@ -1182,11 +843,7 @@ IfxPort_cfg_esrMasks:
 	.string	"P12"
 	.byte	0x3
 	.byte	0x96
-<<<<<<< HEAD
 	.uaword	0x487
-=======
-	.uaword	0x490
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1
 	.byte	0x13
@@ -1195,11 +852,7 @@ IfxPort_cfg_esrMasks:
 	.string	"P13"
 	.byte	0x3
 	.byte	0x97
-<<<<<<< HEAD
 	.uaword	0x487
-=======
-	.uaword	0x490
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1
 	.byte	0x12
@@ -1208,11 +861,7 @@ IfxPort_cfg_esrMasks:
 	.string	"P14"
 	.byte	0x3
 	.byte	0x98
-<<<<<<< HEAD
 	.uaword	0x487
-=======
-	.uaword	0x490
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1
 	.byte	0x11
@@ -1221,11 +870,7 @@ IfxPort_cfg_esrMasks:
 	.string	"P15"
 	.byte	0x3
 	.byte	0x99
-<<<<<<< HEAD
 	.uaword	0x487
-=======
-	.uaword	0x490
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1
 	.byte	0x10
@@ -1234,11 +879,7 @@ IfxPort_cfg_esrMasks:
 	.uaword	.LASF1
 	.byte	0x3
 	.byte	0x9a
-<<<<<<< HEAD
 	.uaword	0x487
-=======
-	.uaword	0x490
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x10
 	.byte	0
@@ -1248,30 +889,18 @@ IfxPort_cfg_esrMasks:
 	.string	"Ifx_P_IN_Bits"
 	.byte	0x3
 	.byte	0x9b
-<<<<<<< HEAD
 	.uaword	0x68f
-=======
-	.uaword	0x698
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0x8
 	.string	"_Ifx_P_IOCR0_Bits"
 	.byte	0x4
 	.byte	0x3
 	.byte	0x9e
-<<<<<<< HEAD
 	.uaword	0x844
-=======
-	.uaword	0x84d
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0xa
 	.uaword	.LASF0
 	.byte	0x3
 	.byte	0xa0
-<<<<<<< HEAD
 	.uaword	0x487
-=======
-	.uaword	0x490
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x3
 	.byte	0x1d
@@ -1280,11 +909,7 @@ IfxPort_cfg_esrMasks:
 	.string	"PC0"
 	.byte	0x3
 	.byte	0xa1
-<<<<<<< HEAD
 	.uaword	0x487
-=======
-	.uaword	0x490
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x5
 	.byte	0x18
@@ -1293,11 +918,7 @@ IfxPort_cfg_esrMasks:
 	.uaword	.LASF2
 	.byte	0x3
 	.byte	0xa2
-<<<<<<< HEAD
 	.uaword	0x487
-=======
-	.uaword	0x490
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x3
 	.byte	0x15
@@ -1306,11 +927,7 @@ IfxPort_cfg_esrMasks:
 	.string	"PC1"
 	.byte	0x3
 	.byte	0xa3
-<<<<<<< HEAD
 	.uaword	0x487
-=======
-	.uaword	0x490
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x5
 	.byte	0x10
@@ -1319,11 +936,7 @@ IfxPort_cfg_esrMasks:
 	.uaword	.LASF1
 	.byte	0x3
 	.byte	0xa4
-<<<<<<< HEAD
 	.uaword	0x487
-=======
-	.uaword	0x490
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x3
 	.byte	0xd
@@ -1332,11 +945,7 @@ IfxPort_cfg_esrMasks:
 	.string	"PC2"
 	.byte	0x3
 	.byte	0xa5
-<<<<<<< HEAD
 	.uaword	0x487
-=======
-	.uaword	0x490
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x5
 	.byte	0x8
@@ -1345,11 +954,7 @@ IfxPort_cfg_esrMasks:
 	.uaword	.LASF3
 	.byte	0x3
 	.byte	0xa6
-<<<<<<< HEAD
 	.uaword	0x487
-=======
-	.uaword	0x490
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x3
 	.byte	0x5
@@ -1358,11 +963,7 @@ IfxPort_cfg_esrMasks:
 	.string	"PC3"
 	.byte	0x3
 	.byte	0xa7
-<<<<<<< HEAD
 	.uaword	0x487
-=======
-	.uaword	0x490
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x5
 	.byte	0
@@ -1372,30 +973,18 @@ IfxPort_cfg_esrMasks:
 	.string	"Ifx_P_IOCR0_Bits"
 	.byte	0x3
 	.byte	0xa8
-<<<<<<< HEAD
 	.uaword	0x7b1
-=======
-	.uaword	0x7ba
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0x8
 	.string	"_Ifx_P_IOCR12_Bits"
 	.byte	0x4
 	.byte	0x3
 	.byte	0xab
-<<<<<<< HEAD
 	.uaword	0x8f4
-=======
-	.uaword	0x8fd
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0xa
 	.uaword	.LASF0
 	.byte	0x3
 	.byte	0xad
-<<<<<<< HEAD
 	.uaword	0x487
-=======
-	.uaword	0x490
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x3
 	.byte	0x1d
@@ -1404,11 +993,7 @@ IfxPort_cfg_esrMasks:
 	.string	"PC12"
 	.byte	0x3
 	.byte	0xae
-<<<<<<< HEAD
 	.uaword	0x487
-=======
-	.uaword	0x490
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x5
 	.byte	0x18
@@ -1417,11 +1002,7 @@ IfxPort_cfg_esrMasks:
 	.uaword	.LASF2
 	.byte	0x3
 	.byte	0xaf
-<<<<<<< HEAD
 	.uaword	0x487
-=======
-	.uaword	0x490
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x3
 	.byte	0x15
@@ -1430,11 +1011,7 @@ IfxPort_cfg_esrMasks:
 	.string	"PC13"
 	.byte	0x3
 	.byte	0xb0
-<<<<<<< HEAD
 	.uaword	0x487
-=======
-	.uaword	0x490
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x5
 	.byte	0x10
@@ -1443,11 +1020,7 @@ IfxPort_cfg_esrMasks:
 	.uaword	.LASF1
 	.byte	0x3
 	.byte	0xb1
-<<<<<<< HEAD
 	.uaword	0x487
-=======
-	.uaword	0x490
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x3
 	.byte	0xd
@@ -1456,11 +1029,7 @@ IfxPort_cfg_esrMasks:
 	.string	"PC14"
 	.byte	0x3
 	.byte	0xb2
-<<<<<<< HEAD
 	.uaword	0x487
-=======
-	.uaword	0x490
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x5
 	.byte	0x8
@@ -1469,11 +1038,7 @@ IfxPort_cfg_esrMasks:
 	.uaword	.LASF3
 	.byte	0x3
 	.byte	0xb3
-<<<<<<< HEAD
 	.uaword	0x487
-=======
-	.uaword	0x490
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x3
 	.byte	0x5
@@ -1482,11 +1047,7 @@ IfxPort_cfg_esrMasks:
 	.string	"PC15"
 	.byte	0x3
 	.byte	0xb4
-<<<<<<< HEAD
 	.uaword	0x487
-=======
-	.uaword	0x490
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x5
 	.byte	0
@@ -1496,30 +1057,18 @@ IfxPort_cfg_esrMasks:
 	.string	"Ifx_P_IOCR12_Bits"
 	.byte	0x3
 	.byte	0xb5
-<<<<<<< HEAD
 	.uaword	0x85c
-=======
-	.uaword	0x865
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0x8
 	.string	"_Ifx_P_IOCR4_Bits"
 	.byte	0x4
 	.byte	0x3
 	.byte	0xb8
-<<<<<<< HEAD
 	.uaword	0x9a0
-=======
-	.uaword	0x9a9
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0xa
 	.uaword	.LASF0
 	.byte	0x3
 	.byte	0xba
-<<<<<<< HEAD
 	.uaword	0x487
-=======
-	.uaword	0x490
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x3
 	.byte	0x1d
@@ -1528,11 +1077,7 @@ IfxPort_cfg_esrMasks:
 	.string	"PC4"
 	.byte	0x3
 	.byte	0xbb
-<<<<<<< HEAD
 	.uaword	0x487
-=======
-	.uaword	0x490
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x5
 	.byte	0x18
@@ -1541,11 +1086,7 @@ IfxPort_cfg_esrMasks:
 	.uaword	.LASF2
 	.byte	0x3
 	.byte	0xbc
-<<<<<<< HEAD
 	.uaword	0x487
-=======
-	.uaword	0x490
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x3
 	.byte	0x15
@@ -1554,11 +1095,7 @@ IfxPort_cfg_esrMasks:
 	.string	"PC5"
 	.byte	0x3
 	.byte	0xbd
-<<<<<<< HEAD
 	.uaword	0x487
-=======
-	.uaword	0x490
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x5
 	.byte	0x10
@@ -1567,11 +1104,7 @@ IfxPort_cfg_esrMasks:
 	.uaword	.LASF1
 	.byte	0x3
 	.byte	0xbe
-<<<<<<< HEAD
 	.uaword	0x487
-=======
-	.uaword	0x490
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x3
 	.byte	0xd
@@ -1580,11 +1113,7 @@ IfxPort_cfg_esrMasks:
 	.string	"PC6"
 	.byte	0x3
 	.byte	0xbf
-<<<<<<< HEAD
 	.uaword	0x487
-=======
-	.uaword	0x490
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x5
 	.byte	0x8
@@ -1593,11 +1122,7 @@ IfxPort_cfg_esrMasks:
 	.uaword	.LASF3
 	.byte	0x3
 	.byte	0xc0
-<<<<<<< HEAD
 	.uaword	0x487
-=======
-	.uaword	0x490
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x3
 	.byte	0x5
@@ -1606,11 +1131,7 @@ IfxPort_cfg_esrMasks:
 	.string	"PC7"
 	.byte	0x3
 	.byte	0xc1
-<<<<<<< HEAD
 	.uaword	0x487
-=======
-	.uaword	0x490
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x5
 	.byte	0
@@ -1620,30 +1141,18 @@ IfxPort_cfg_esrMasks:
 	.string	"Ifx_P_IOCR4_Bits"
 	.byte	0x3
 	.byte	0xc2
-<<<<<<< HEAD
 	.uaword	0x90d
-=======
-	.uaword	0x916
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0x8
 	.string	"_Ifx_P_IOCR8_Bits"
 	.byte	0x4
 	.byte	0x3
 	.byte	0xc5
-<<<<<<< HEAD
 	.uaword	0xa4d
-=======
-	.uaword	0xa56
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0xa
 	.uaword	.LASF0
 	.byte	0x3
 	.byte	0xc7
-<<<<<<< HEAD
 	.uaword	0x487
-=======
-	.uaword	0x490
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x3
 	.byte	0x1d
@@ -1652,11 +1161,7 @@ IfxPort_cfg_esrMasks:
 	.string	"PC8"
 	.byte	0x3
 	.byte	0xc8
-<<<<<<< HEAD
 	.uaword	0x487
-=======
-	.uaword	0x490
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x5
 	.byte	0x18
@@ -1665,11 +1170,7 @@ IfxPort_cfg_esrMasks:
 	.uaword	.LASF2
 	.byte	0x3
 	.byte	0xc9
-<<<<<<< HEAD
 	.uaword	0x487
-=======
-	.uaword	0x490
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x3
 	.byte	0x15
@@ -1678,11 +1179,7 @@ IfxPort_cfg_esrMasks:
 	.string	"PC9"
 	.byte	0x3
 	.byte	0xca
-<<<<<<< HEAD
 	.uaword	0x487
-=======
-	.uaword	0x490
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x5
 	.byte	0x10
@@ -1691,11 +1188,7 @@ IfxPort_cfg_esrMasks:
 	.uaword	.LASF1
 	.byte	0x3
 	.byte	0xcb
-<<<<<<< HEAD
 	.uaword	0x487
-=======
-	.uaword	0x490
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x3
 	.byte	0xd
@@ -1704,11 +1197,7 @@ IfxPort_cfg_esrMasks:
 	.string	"PC10"
 	.byte	0x3
 	.byte	0xcc
-<<<<<<< HEAD
 	.uaword	0x487
-=======
-	.uaword	0x490
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x5
 	.byte	0x8
@@ -1717,11 +1206,7 @@ IfxPort_cfg_esrMasks:
 	.uaword	.LASF3
 	.byte	0x3
 	.byte	0xcd
-<<<<<<< HEAD
 	.uaword	0x487
-=======
-	.uaword	0x490
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x3
 	.byte	0x5
@@ -1730,11 +1215,7 @@ IfxPort_cfg_esrMasks:
 	.string	"PC11"
 	.byte	0x3
 	.byte	0xce
-<<<<<<< HEAD
 	.uaword	0x487
-=======
-	.uaword	0x490
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x5
 	.byte	0
@@ -1744,30 +1225,18 @@ IfxPort_cfg_esrMasks:
 	.string	"Ifx_P_IOCR8_Bits"
 	.byte	0x3
 	.byte	0xcf
-<<<<<<< HEAD
 	.uaword	0x9b8
-=======
-	.uaword	0x9c1
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0x8
 	.string	"_Ifx_P_LPCR0_Bits"
 	.byte	0x4
 	.byte	0x3
 	.byte	0xd2
-<<<<<<< HEAD
 	.uaword	0xaad
-=======
-	.uaword	0xab6
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0xa
 	.uaword	.LASF0
 	.byte	0x3
 	.byte	0xd4
-<<<<<<< HEAD
 	.uaword	0x487
-=======
-	.uaword	0x490
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1f
@@ -1776,11 +1245,7 @@ IfxPort_cfg_esrMasks:
 	.string	"PS1"
 	.byte	0x3
 	.byte	0xd5
-<<<<<<< HEAD
 	.uaword	0x487
-=======
-	.uaword	0x490
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1e
@@ -1789,11 +1254,7 @@ IfxPort_cfg_esrMasks:
 	.uaword	.LASF4
 	.byte	0x3
 	.byte	0xd6
-<<<<<<< HEAD
 	.uaword	0x487
-=======
-	.uaword	0x490
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1e
 	.byte	0
@@ -1803,30 +1264,18 @@ IfxPort_cfg_esrMasks:
 	.string	"Ifx_P_LPCR0_Bits"
 	.byte	0x3
 	.byte	0xd7
-<<<<<<< HEAD
 	.uaword	0xa65
-=======
-	.uaword	0xa6e
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0x8
 	.string	"_Ifx_P_LPCR1_Bits"
 	.byte	0x4
 	.byte	0x3
 	.byte	0xda
-<<<<<<< HEAD
 	.uaword	0xb0d
-=======
-	.uaword	0xb16
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0xa
 	.uaword	.LASF0
 	.byte	0x3
 	.byte	0xdc
-<<<<<<< HEAD
 	.uaword	0x487
-=======
-	.uaword	0x490
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1f
@@ -1835,11 +1284,7 @@ IfxPort_cfg_esrMasks:
 	.string	"PS1"
 	.byte	0x3
 	.byte	0xdd
-<<<<<<< HEAD
 	.uaword	0x487
-=======
-	.uaword	0x490
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1e
@@ -1848,11 +1293,7 @@ IfxPort_cfg_esrMasks:
 	.uaword	.LASF4
 	.byte	0x3
 	.byte	0xde
-<<<<<<< HEAD
 	.uaword	0x487
-=======
-	.uaword	0x490
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1e
 	.byte	0
@@ -1862,30 +1303,18 @@ IfxPort_cfg_esrMasks:
 	.string	"Ifx_P_LPCR1_Bits"
 	.byte	0x3
 	.byte	0xdf
-<<<<<<< HEAD
 	.uaword	0xac5
-=======
-	.uaword	0xace
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0x8
 	.string	"_Ifx_P_LPCR1_P21_Bits"
 	.byte	0x4
 	.byte	0x3
 	.byte	0xe2
-<<<<<<< HEAD
 	.uaword	0xb9d
-=======
-	.uaword	0xba6
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0x9
 	.string	"RDIS_CTRL"
 	.byte	0x3
 	.byte	0xe4
-<<<<<<< HEAD
 	.uaword	0x487
-=======
-	.uaword	0x490
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1f
@@ -1894,11 +1323,7 @@ IfxPort_cfg_esrMasks:
 	.string	"RX_DIS"
 	.byte	0x3
 	.byte	0xe5
-<<<<<<< HEAD
 	.uaword	0x487
-=======
-	.uaword	0x490
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1e
@@ -1907,11 +1332,7 @@ IfxPort_cfg_esrMasks:
 	.string	"TERM"
 	.byte	0x3
 	.byte	0xe6
-<<<<<<< HEAD
 	.uaword	0x487
-=======
-	.uaword	0x490
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1d
@@ -1920,11 +1341,7 @@ IfxPort_cfg_esrMasks:
 	.string	"LRXTERM"
 	.byte	0x3
 	.byte	0xe7
-<<<<<<< HEAD
 	.uaword	0x487
-=======
-	.uaword	0x490
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x5
 	.byte	0x18
@@ -1933,11 +1350,7 @@ IfxPort_cfg_esrMasks:
 	.uaword	.LASF2
 	.byte	0x3
 	.byte	0xe8
-<<<<<<< HEAD
 	.uaword	0x487
-=======
-	.uaword	0x490
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x18
 	.byte	0
@@ -1947,30 +1360,18 @@ IfxPort_cfg_esrMasks:
 	.string	"Ifx_P_LPCR1_P21_Bits"
 	.byte	0x3
 	.byte	0xe9
-<<<<<<< HEAD
 	.uaword	0xb25
-=======
-	.uaword	0xb2e
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0x8
 	.string	"_Ifx_P_LPCR2_Bits"
 	.byte	0x4
 	.byte	0x3
 	.byte	0xec
-<<<<<<< HEAD
 	.uaword	0xc78
-=======
-	.uaword	0xc81
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0xa
 	.uaword	.LASF0
 	.byte	0x3
 	.byte	0xee
-<<<<<<< HEAD
 	.uaword	0x487
-=======
-	.uaword	0x490
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x8
 	.byte	0x18
@@ -1979,11 +1380,7 @@ IfxPort_cfg_esrMasks:
 	.string	"LVDSR"
 	.byte	0x3
 	.byte	0xef
-<<<<<<< HEAD
 	.uaword	0x487
-=======
-	.uaword	0x490
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1
 	.byte	0x17
@@ -1992,11 +1389,7 @@ IfxPort_cfg_esrMasks:
 	.string	"LVDSRL"
 	.byte	0x3
 	.byte	0xf0
-<<<<<<< HEAD
 	.uaword	0x487
-=======
-	.uaword	0x490
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1
 	.byte	0x16
@@ -2005,11 +1398,7 @@ IfxPort_cfg_esrMasks:
 	.string	"reserved_10"
 	.byte	0x3
 	.byte	0xf1
-<<<<<<< HEAD
 	.uaword	0x487
-=======
-	.uaword	0x490
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x2
 	.byte	0x14
@@ -2018,11 +1407,7 @@ IfxPort_cfg_esrMasks:
 	.string	"TDIS_CTRL"
 	.byte	0x3
 	.byte	0xf2
-<<<<<<< HEAD
 	.uaword	0x487
-=======
-	.uaword	0x490
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1
 	.byte	0x13
@@ -2031,11 +1416,7 @@ IfxPort_cfg_esrMasks:
 	.string	"TX_DIS"
 	.byte	0x3
 	.byte	0xf3
-<<<<<<< HEAD
 	.uaword	0x487
-=======
-	.uaword	0x490
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1
 	.byte	0x12
@@ -2044,11 +1425,7 @@ IfxPort_cfg_esrMasks:
 	.string	"TX_PD"
 	.byte	0x3
 	.byte	0xf4
-<<<<<<< HEAD
 	.uaword	0x487
-=======
-	.uaword	0x490
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1
 	.byte	0x11
@@ -2057,11 +1434,7 @@ IfxPort_cfg_esrMasks:
 	.string	"TX_PWDPD"
 	.byte	0x3
 	.byte	0xf5
-<<<<<<< HEAD
 	.uaword	0x487
-=======
-	.uaword	0x490
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1
 	.byte	0x10
@@ -2070,11 +1443,7 @@ IfxPort_cfg_esrMasks:
 	.uaword	.LASF1
 	.byte	0x3
 	.byte	0xf6
-<<<<<<< HEAD
 	.uaword	0x487
-=======
-	.uaword	0x490
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x10
 	.byte	0
@@ -2084,30 +1453,18 @@ IfxPort_cfg_esrMasks:
 	.string	"Ifx_P_LPCR2_Bits"
 	.byte	0x3
 	.byte	0xf7
-<<<<<<< HEAD
 	.uaword	0xbb9
-=======
-	.uaword	0xbc2
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0x8
 	.string	"_Ifx_P_OMCR0_Bits"
 	.byte	0x4
 	.byte	0x3
 	.byte	0xfa
-<<<<<<< HEAD
 	.uaword	0xd0b
-=======
-	.uaword	0xd14
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0xa
 	.uaword	.LASF0
 	.byte	0x3
 	.byte	0xfc
-<<<<<<< HEAD
 	.uaword	0x487
-=======
-	.uaword	0x490
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x10
 	.byte	0x10
@@ -2116,11 +1473,7 @@ IfxPort_cfg_esrMasks:
 	.string	"PCL0"
 	.byte	0x3
 	.byte	0xfd
-<<<<<<< HEAD
 	.uaword	0x487
-=======
-	.uaword	0x490
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1
 	.byte	0xf
@@ -2129,11 +1482,7 @@ IfxPort_cfg_esrMasks:
 	.string	"PCL1"
 	.byte	0x3
 	.byte	0xfe
-<<<<<<< HEAD
 	.uaword	0x487
-=======
-	.uaword	0x490
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1
 	.byte	0xe
@@ -2142,11 +1491,7 @@ IfxPort_cfg_esrMasks:
 	.string	"PCL2"
 	.byte	0x3
 	.byte	0xff
-<<<<<<< HEAD
 	.uaword	0x487
-=======
-	.uaword	0x490
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1
 	.byte	0xd
@@ -2155,11 +1500,7 @@ IfxPort_cfg_esrMasks:
 	.string	"PCL3"
 	.byte	0x3
 	.uahalf	0x100
-<<<<<<< HEAD
 	.uaword	0x487
-=======
-	.uaword	0x490
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1
 	.byte	0xc
@@ -2168,11 +1509,7 @@ IfxPort_cfg_esrMasks:
 	.uaword	.LASF5
 	.byte	0x3
 	.uahalf	0x101
-<<<<<<< HEAD
 	.uaword	0x487
-=======
-	.uaword	0x490
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0xc
 	.byte	0
@@ -2182,30 +1519,18 @@ IfxPort_cfg_esrMasks:
 	.string	"Ifx_P_OMCR0_Bits"
 	.byte	0x3
 	.uahalf	0x102
-<<<<<<< HEAD
 	.uaword	0xc90
-=======
-	.uaword	0xc99
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0xe
 	.string	"_Ifx_P_OMCR12_Bits"
 	.byte	0x4
 	.byte	0x3
 	.uahalf	0x105
-<<<<<<< HEAD
 	.uaword	0xd99
-=======
-	.uaword	0xda2
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0xc
 	.uaword	.LASF0
 	.byte	0x3
 	.uahalf	0x107
-<<<<<<< HEAD
 	.uaword	0x487
-=======
-	.uaword	0x490
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1c
 	.byte	0x4
@@ -2214,11 +1539,7 @@ IfxPort_cfg_esrMasks:
 	.string	"PCL12"
 	.byte	0x3
 	.uahalf	0x108
-<<<<<<< HEAD
 	.uaword	0x487
-=======
-	.uaword	0x490
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1
 	.byte	0x3
@@ -2227,11 +1548,7 @@ IfxPort_cfg_esrMasks:
 	.string	"PCL13"
 	.byte	0x3
 	.uahalf	0x109
-<<<<<<< HEAD
 	.uaword	0x487
-=======
-	.uaword	0x490
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1
 	.byte	0x2
@@ -2240,11 +1557,7 @@ IfxPort_cfg_esrMasks:
 	.string	"PCL14"
 	.byte	0x3
 	.uahalf	0x10a
-<<<<<<< HEAD
 	.uaword	0x487
-=======
-	.uaword	0x490
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1
@@ -2253,11 +1566,7 @@ IfxPort_cfg_esrMasks:
 	.string	"PCL15"
 	.byte	0x3
 	.uahalf	0x10b
-<<<<<<< HEAD
 	.uaword	0x487
-=======
-	.uaword	0x490
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1
 	.byte	0
@@ -2267,30 +1576,18 @@ IfxPort_cfg_esrMasks:
 	.string	"Ifx_P_OMCR12_Bits"
 	.byte	0x3
 	.uahalf	0x10c
-<<<<<<< HEAD
 	.uaword	0xd24
-=======
-	.uaword	0xd2d
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0xe
 	.string	"_Ifx_P_OMCR4_Bits"
 	.byte	0x4
 	.byte	0x3
 	.uahalf	0x10f
-<<<<<<< HEAD
 	.uaword	0xe33
-=======
-	.uaword	0xe3c
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0xc
 	.uaword	.LASF0
 	.byte	0x3
 	.uahalf	0x111
-<<<<<<< HEAD
 	.uaword	0x487
-=======
-	.uaword	0x490
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x14
 	.byte	0xc
@@ -2299,11 +1596,7 @@ IfxPort_cfg_esrMasks:
 	.string	"PCL4"
 	.byte	0x3
 	.uahalf	0x112
-<<<<<<< HEAD
 	.uaword	0x487
-=======
-	.uaword	0x490
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1
 	.byte	0xb
@@ -2312,11 +1605,7 @@ IfxPort_cfg_esrMasks:
 	.string	"PCL5"
 	.byte	0x3
 	.uahalf	0x113
-<<<<<<< HEAD
 	.uaword	0x487
-=======
-	.uaword	0x490
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1
 	.byte	0xa
@@ -2325,11 +1614,7 @@ IfxPort_cfg_esrMasks:
 	.string	"PCL6"
 	.byte	0x3
 	.uahalf	0x114
-<<<<<<< HEAD
 	.uaword	0x487
-=======
-	.uaword	0x490
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1
 	.byte	0x9
@@ -2338,11 +1623,7 @@ IfxPort_cfg_esrMasks:
 	.string	"PCL7"
 	.byte	0x3
 	.uahalf	0x115
-<<<<<<< HEAD
 	.uaword	0x487
-=======
-	.uaword	0x490
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1
 	.byte	0x8
@@ -2351,11 +1632,7 @@ IfxPort_cfg_esrMasks:
 	.uaword	.LASF3
 	.byte	0x3
 	.uahalf	0x116
-<<<<<<< HEAD
 	.uaword	0x487
-=======
-	.uaword	0x490
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x8
 	.byte	0
@@ -2365,30 +1642,18 @@ IfxPort_cfg_esrMasks:
 	.string	"Ifx_P_OMCR4_Bits"
 	.byte	0x3
 	.uahalf	0x117
-<<<<<<< HEAD
 	.uaword	0xdb3
-=======
-	.uaword	0xdbc
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0xe
 	.string	"_Ifx_P_OMCR8_Bits"
 	.byte	0x4
 	.byte	0x3
 	.uahalf	0x11a
-<<<<<<< HEAD
 	.uaword	0xece
-=======
-	.uaword	0xed7
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0xc
 	.uaword	.LASF0
 	.byte	0x3
 	.uahalf	0x11c
-<<<<<<< HEAD
 	.uaword	0x487
-=======
-	.uaword	0x490
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x18
 	.byte	0x8
@@ -2397,11 +1662,7 @@ IfxPort_cfg_esrMasks:
 	.string	"PCL8"
 	.byte	0x3
 	.uahalf	0x11d
-<<<<<<< HEAD
 	.uaword	0x487
-=======
-	.uaword	0x490
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1
 	.byte	0x7
@@ -2410,11 +1671,7 @@ IfxPort_cfg_esrMasks:
 	.string	"PCL9"
 	.byte	0x3
 	.uahalf	0x11e
-<<<<<<< HEAD
 	.uaword	0x487
-=======
-	.uaword	0x490
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1
 	.byte	0x6
@@ -2423,11 +1680,7 @@ IfxPort_cfg_esrMasks:
 	.string	"PCL10"
 	.byte	0x3
 	.uahalf	0x11f
-<<<<<<< HEAD
 	.uaword	0x487
-=======
-	.uaword	0x490
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1
 	.byte	0x5
@@ -2436,11 +1689,7 @@ IfxPort_cfg_esrMasks:
 	.string	"PCL11"
 	.byte	0x3
 	.uahalf	0x120
-<<<<<<< HEAD
 	.uaword	0x487
-=======
-	.uaword	0x490
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1
 	.byte	0x4
@@ -2449,11 +1698,7 @@ IfxPort_cfg_esrMasks:
 	.uaword	.LASF6
 	.byte	0x3
 	.uahalf	0x121
-<<<<<<< HEAD
 	.uaword	0x487
-=======
-	.uaword	0x490
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x4
 	.byte	0
@@ -2463,30 +1708,18 @@ IfxPort_cfg_esrMasks:
 	.string	"Ifx_P_OMCR8_Bits"
 	.byte	0x3
 	.uahalf	0x122
-<<<<<<< HEAD
 	.uaword	0xe4c
-=======
-	.uaword	0xe55
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0xe
 	.string	"_Ifx_P_OMCR_Bits"
 	.byte	0x4
 	.byte	0x3
 	.uahalf	0x125
-<<<<<<< HEAD
 	.uaword	0x1028
-=======
-	.uaword	0x1031
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0xc
 	.uaword	.LASF0
 	.byte	0x3
 	.uahalf	0x127
-<<<<<<< HEAD
 	.uaword	0x487
-=======
-	.uaword	0x490
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x10
 	.byte	0x10
@@ -2495,11 +1728,7 @@ IfxPort_cfg_esrMasks:
 	.string	"PCL0"
 	.byte	0x3
 	.uahalf	0x128
-<<<<<<< HEAD
 	.uaword	0x487
-=======
-	.uaword	0x490
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1
 	.byte	0xf
@@ -2508,11 +1737,7 @@ IfxPort_cfg_esrMasks:
 	.string	"PCL1"
 	.byte	0x3
 	.uahalf	0x129
-<<<<<<< HEAD
 	.uaword	0x487
-=======
-	.uaword	0x490
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1
 	.byte	0xe
@@ -2521,11 +1746,7 @@ IfxPort_cfg_esrMasks:
 	.string	"PCL2"
 	.byte	0x3
 	.uahalf	0x12a
-<<<<<<< HEAD
 	.uaword	0x487
-=======
-	.uaword	0x490
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1
 	.byte	0xd
@@ -2534,11 +1755,7 @@ IfxPort_cfg_esrMasks:
 	.string	"PCL3"
 	.byte	0x3
 	.uahalf	0x12b
-<<<<<<< HEAD
 	.uaword	0x487
-=======
-	.uaword	0x490
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1
 	.byte	0xc
@@ -2547,11 +1764,7 @@ IfxPort_cfg_esrMasks:
 	.string	"PCL4"
 	.byte	0x3
 	.uahalf	0x12c
-<<<<<<< HEAD
 	.uaword	0x487
-=======
-	.uaword	0x490
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1
 	.byte	0xb
@@ -2560,11 +1773,7 @@ IfxPort_cfg_esrMasks:
 	.string	"PCL5"
 	.byte	0x3
 	.uahalf	0x12d
-<<<<<<< HEAD
 	.uaword	0x487
-=======
-	.uaword	0x490
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1
 	.byte	0xa
@@ -2573,11 +1782,7 @@ IfxPort_cfg_esrMasks:
 	.string	"PCL6"
 	.byte	0x3
 	.uahalf	0x12e
-<<<<<<< HEAD
 	.uaword	0x487
-=======
-	.uaword	0x490
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1
 	.byte	0x9
@@ -2586,11 +1791,7 @@ IfxPort_cfg_esrMasks:
 	.string	"PCL7"
 	.byte	0x3
 	.uahalf	0x12f
-<<<<<<< HEAD
 	.uaword	0x487
-=======
-	.uaword	0x490
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1
 	.byte	0x8
@@ -2599,11 +1800,7 @@ IfxPort_cfg_esrMasks:
 	.string	"PCL8"
 	.byte	0x3
 	.uahalf	0x130
-<<<<<<< HEAD
 	.uaword	0x487
-=======
-	.uaword	0x490
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1
 	.byte	0x7
@@ -2612,11 +1809,7 @@ IfxPort_cfg_esrMasks:
 	.string	"PCL9"
 	.byte	0x3
 	.uahalf	0x131
-<<<<<<< HEAD
 	.uaword	0x487
-=======
-	.uaword	0x490
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1
 	.byte	0x6
@@ -2625,11 +1818,7 @@ IfxPort_cfg_esrMasks:
 	.string	"PCL10"
 	.byte	0x3
 	.uahalf	0x132
-<<<<<<< HEAD
 	.uaword	0x487
-=======
-	.uaword	0x490
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1
 	.byte	0x5
@@ -2638,11 +1827,7 @@ IfxPort_cfg_esrMasks:
 	.string	"PCL11"
 	.byte	0x3
 	.uahalf	0x133
-<<<<<<< HEAD
 	.uaword	0x487
-=======
-	.uaword	0x490
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1
 	.byte	0x4
@@ -2651,11 +1836,7 @@ IfxPort_cfg_esrMasks:
 	.string	"PCL12"
 	.byte	0x3
 	.uahalf	0x134
-<<<<<<< HEAD
 	.uaword	0x487
-=======
-	.uaword	0x490
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1
 	.byte	0x3
@@ -2664,11 +1845,7 @@ IfxPort_cfg_esrMasks:
 	.string	"PCL13"
 	.byte	0x3
 	.uahalf	0x135
-<<<<<<< HEAD
 	.uaword	0x487
-=======
-	.uaword	0x490
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1
 	.byte	0x2
@@ -2677,11 +1854,7 @@ IfxPort_cfg_esrMasks:
 	.string	"PCL14"
 	.byte	0x3
 	.uahalf	0x136
-<<<<<<< HEAD
 	.uaword	0x487
-=======
-	.uaword	0x490
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1
@@ -2690,11 +1863,7 @@ IfxPort_cfg_esrMasks:
 	.string	"PCL15"
 	.byte	0x3
 	.uahalf	0x137
-<<<<<<< HEAD
 	.uaword	0x487
-=======
-	.uaword	0x490
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1
 	.byte	0
@@ -2704,30 +1873,18 @@ IfxPort_cfg_esrMasks:
 	.string	"Ifx_P_OMCR_Bits"
 	.byte	0x3
 	.uahalf	0x138
-<<<<<<< HEAD
 	.uaword	0xee7
-=======
-	.uaword	0xef0
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0xe
 	.string	"_Ifx_P_OMR_Bits"
 	.byte	0x4
 	.byte	0x3
 	.uahalf	0x13b
-<<<<<<< HEAD
 	.uaword	0x1276
-=======
-	.uaword	0x127f
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0xb
 	.string	"PS0"
 	.byte	0x3
 	.uahalf	0x13d
-<<<<<<< HEAD
 	.uaword	0x487
-=======
-	.uaword	0x490
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1f
@@ -2736,11 +1893,7 @@ IfxPort_cfg_esrMasks:
 	.string	"PS1"
 	.byte	0x3
 	.uahalf	0x13e
-<<<<<<< HEAD
 	.uaword	0x487
-=======
-	.uaword	0x490
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1e
@@ -2749,11 +1902,7 @@ IfxPort_cfg_esrMasks:
 	.string	"PS2"
 	.byte	0x3
 	.uahalf	0x13f
-<<<<<<< HEAD
 	.uaword	0x487
-=======
-	.uaword	0x490
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1d
@@ -2762,11 +1911,7 @@ IfxPort_cfg_esrMasks:
 	.string	"PS3"
 	.byte	0x3
 	.uahalf	0x140
-<<<<<<< HEAD
 	.uaword	0x487
-=======
-	.uaword	0x490
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1c
@@ -2775,11 +1920,7 @@ IfxPort_cfg_esrMasks:
 	.string	"PS4"
 	.byte	0x3
 	.uahalf	0x141
-<<<<<<< HEAD
 	.uaword	0x487
-=======
-	.uaword	0x490
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1b
@@ -2788,11 +1929,7 @@ IfxPort_cfg_esrMasks:
 	.string	"PS5"
 	.byte	0x3
 	.uahalf	0x142
-<<<<<<< HEAD
 	.uaword	0x487
-=======
-	.uaword	0x490
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1a
@@ -2801,11 +1938,7 @@ IfxPort_cfg_esrMasks:
 	.string	"PS6"
 	.byte	0x3
 	.uahalf	0x143
-<<<<<<< HEAD
 	.uaword	0x487
-=======
-	.uaword	0x490
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1
 	.byte	0x19
@@ -2814,11 +1947,7 @@ IfxPort_cfg_esrMasks:
 	.string	"PS7"
 	.byte	0x3
 	.uahalf	0x144
-<<<<<<< HEAD
 	.uaword	0x487
-=======
-	.uaword	0x490
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1
 	.byte	0x18
@@ -2827,11 +1956,7 @@ IfxPort_cfg_esrMasks:
 	.string	"PS8"
 	.byte	0x3
 	.uahalf	0x145
-<<<<<<< HEAD
 	.uaword	0x487
-=======
-	.uaword	0x490
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1
 	.byte	0x17
@@ -2840,11 +1965,7 @@ IfxPort_cfg_esrMasks:
 	.string	"PS9"
 	.byte	0x3
 	.uahalf	0x146
-<<<<<<< HEAD
 	.uaword	0x487
-=======
-	.uaword	0x490
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1
 	.byte	0x16
@@ -2853,11 +1974,7 @@ IfxPort_cfg_esrMasks:
 	.string	"PS10"
 	.byte	0x3
 	.uahalf	0x147
-<<<<<<< HEAD
 	.uaword	0x487
-=======
-	.uaword	0x490
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1
 	.byte	0x15
@@ -2866,11 +1983,7 @@ IfxPort_cfg_esrMasks:
 	.string	"PS11"
 	.byte	0x3
 	.uahalf	0x148
-<<<<<<< HEAD
 	.uaword	0x487
-=======
-	.uaword	0x490
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1
 	.byte	0x14
@@ -2879,11 +1992,7 @@ IfxPort_cfg_esrMasks:
 	.string	"PS12"
 	.byte	0x3
 	.uahalf	0x149
-<<<<<<< HEAD
 	.uaword	0x487
-=======
-	.uaword	0x490
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1
 	.byte	0x13
@@ -2892,11 +2001,7 @@ IfxPort_cfg_esrMasks:
 	.string	"PS13"
 	.byte	0x3
 	.uahalf	0x14a
-<<<<<<< HEAD
 	.uaword	0x487
-=======
-	.uaword	0x490
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1
 	.byte	0x12
@@ -2905,11 +2010,7 @@ IfxPort_cfg_esrMasks:
 	.string	"PS14"
 	.byte	0x3
 	.uahalf	0x14b
-<<<<<<< HEAD
 	.uaword	0x487
-=======
-	.uaword	0x490
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1
 	.byte	0x11
@@ -2918,11 +2019,7 @@ IfxPort_cfg_esrMasks:
 	.string	"PS15"
 	.byte	0x3
 	.uahalf	0x14c
-<<<<<<< HEAD
 	.uaword	0x487
-=======
-	.uaword	0x490
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1
 	.byte	0x10
@@ -2931,11 +2028,7 @@ IfxPort_cfg_esrMasks:
 	.string	"PCL0"
 	.byte	0x3
 	.uahalf	0x14d
-<<<<<<< HEAD
 	.uaword	0x487
-=======
-	.uaword	0x490
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1
 	.byte	0xf
@@ -2944,11 +2037,7 @@ IfxPort_cfg_esrMasks:
 	.string	"PCL1"
 	.byte	0x3
 	.uahalf	0x14e
-<<<<<<< HEAD
 	.uaword	0x487
-=======
-	.uaword	0x490
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1
 	.byte	0xe
@@ -2957,11 +2046,7 @@ IfxPort_cfg_esrMasks:
 	.string	"PCL2"
 	.byte	0x3
 	.uahalf	0x14f
-<<<<<<< HEAD
 	.uaword	0x487
-=======
-	.uaword	0x490
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1
 	.byte	0xd
@@ -2970,11 +2055,7 @@ IfxPort_cfg_esrMasks:
 	.string	"PCL3"
 	.byte	0x3
 	.uahalf	0x150
-<<<<<<< HEAD
 	.uaword	0x487
-=======
-	.uaword	0x490
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1
 	.byte	0xc
@@ -2983,11 +2064,7 @@ IfxPort_cfg_esrMasks:
 	.string	"PCL4"
 	.byte	0x3
 	.uahalf	0x151
-<<<<<<< HEAD
 	.uaword	0x487
-=======
-	.uaword	0x490
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1
 	.byte	0xb
@@ -2996,11 +2073,7 @@ IfxPort_cfg_esrMasks:
 	.string	"PCL5"
 	.byte	0x3
 	.uahalf	0x152
-<<<<<<< HEAD
 	.uaword	0x487
-=======
-	.uaword	0x490
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1
 	.byte	0xa
@@ -3009,11 +2082,7 @@ IfxPort_cfg_esrMasks:
 	.string	"PCL6"
 	.byte	0x3
 	.uahalf	0x153
-<<<<<<< HEAD
 	.uaword	0x487
-=======
-	.uaword	0x490
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1
 	.byte	0x9
@@ -3022,11 +2091,7 @@ IfxPort_cfg_esrMasks:
 	.string	"PCL7"
 	.byte	0x3
 	.uahalf	0x154
-<<<<<<< HEAD
 	.uaword	0x487
-=======
-	.uaword	0x490
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1
 	.byte	0x8
@@ -3035,11 +2100,7 @@ IfxPort_cfg_esrMasks:
 	.string	"PCL8"
 	.byte	0x3
 	.uahalf	0x155
-<<<<<<< HEAD
 	.uaword	0x487
-=======
-	.uaword	0x490
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1
 	.byte	0x7
@@ -3048,11 +2109,7 @@ IfxPort_cfg_esrMasks:
 	.string	"PCL9"
 	.byte	0x3
 	.uahalf	0x156
-<<<<<<< HEAD
 	.uaword	0x487
-=======
-	.uaword	0x490
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1
 	.byte	0x6
@@ -3061,11 +2118,7 @@ IfxPort_cfg_esrMasks:
 	.string	"PCL10"
 	.byte	0x3
 	.uahalf	0x157
-<<<<<<< HEAD
 	.uaword	0x487
-=======
-	.uaword	0x490
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1
 	.byte	0x5
@@ -3074,11 +2127,7 @@ IfxPort_cfg_esrMasks:
 	.string	"PCL11"
 	.byte	0x3
 	.uahalf	0x158
-<<<<<<< HEAD
 	.uaword	0x487
-=======
-	.uaword	0x490
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1
 	.byte	0x4
@@ -3087,11 +2136,7 @@ IfxPort_cfg_esrMasks:
 	.string	"PCL12"
 	.byte	0x3
 	.uahalf	0x159
-<<<<<<< HEAD
 	.uaword	0x487
-=======
-	.uaword	0x490
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1
 	.byte	0x3
@@ -3100,11 +2145,7 @@ IfxPort_cfg_esrMasks:
 	.string	"PCL13"
 	.byte	0x3
 	.uahalf	0x15a
-<<<<<<< HEAD
 	.uaword	0x487
-=======
-	.uaword	0x490
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1
 	.byte	0x2
@@ -3113,11 +2154,7 @@ IfxPort_cfg_esrMasks:
 	.string	"PCL14"
 	.byte	0x3
 	.uahalf	0x15b
-<<<<<<< HEAD
 	.uaword	0x487
-=======
-	.uaword	0x490
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1
@@ -3126,11 +2163,7 @@ IfxPort_cfg_esrMasks:
 	.string	"PCL15"
 	.byte	0x3
 	.uahalf	0x15c
-<<<<<<< HEAD
 	.uaword	0x487
-=======
-	.uaword	0x490
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1
 	.byte	0
@@ -3140,30 +2173,18 @@ IfxPort_cfg_esrMasks:
 	.string	"Ifx_P_OMR_Bits"
 	.byte	0x3
 	.uahalf	0x15d
-<<<<<<< HEAD
 	.uaword	0x1040
-=======
-	.uaword	0x1049
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0xe
 	.string	"_Ifx_P_OMSR0_Bits"
 	.byte	0x4
 	.byte	0x3
 	.uahalf	0x160
-<<<<<<< HEAD
 	.uaword	0x1300
-=======
-	.uaword	0x1309
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0xb
 	.string	"PS0"
 	.byte	0x3
 	.uahalf	0x162
-<<<<<<< HEAD
 	.uaword	0x487
-=======
-	.uaword	0x490
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1f
@@ -3172,11 +2193,7 @@ IfxPort_cfg_esrMasks:
 	.string	"PS1"
 	.byte	0x3
 	.uahalf	0x163
-<<<<<<< HEAD
 	.uaword	0x487
-=======
-	.uaword	0x490
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1e
@@ -3185,11 +2202,7 @@ IfxPort_cfg_esrMasks:
 	.string	"PS2"
 	.byte	0x3
 	.uahalf	0x164
-<<<<<<< HEAD
 	.uaword	0x487
-=======
-	.uaword	0x490
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1d
@@ -3198,11 +2211,7 @@ IfxPort_cfg_esrMasks:
 	.string	"PS3"
 	.byte	0x3
 	.uahalf	0x165
-<<<<<<< HEAD
 	.uaword	0x487
-=======
-	.uaword	0x490
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1c
@@ -3211,11 +2220,7 @@ IfxPort_cfg_esrMasks:
 	.string	"reserved_4"
 	.byte	0x3
 	.uahalf	0x166
-<<<<<<< HEAD
 	.uaword	0x487
-=======
-	.uaword	0x490
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1c
 	.byte	0
@@ -3225,30 +2230,18 @@ IfxPort_cfg_esrMasks:
 	.string	"Ifx_P_OMSR0_Bits"
 	.byte	0x3
 	.uahalf	0x167
-<<<<<<< HEAD
 	.uaword	0x128d
-=======
-	.uaword	0x1296
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0xe
 	.string	"_Ifx_P_OMSR12_Bits"
 	.byte	0x4
 	.byte	0x3
 	.uahalf	0x16a
-<<<<<<< HEAD
 	.uaword	0x139a
-=======
-	.uaword	0x13a3
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0xc
 	.uaword	.LASF0
 	.byte	0x3
 	.uahalf	0x16c
-<<<<<<< HEAD
 	.uaword	0x487
-=======
-	.uaword	0x490
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0xc
 	.byte	0x14
@@ -3257,11 +2250,7 @@ IfxPort_cfg_esrMasks:
 	.string	"PS12"
 	.byte	0x3
 	.uahalf	0x16d
-<<<<<<< HEAD
 	.uaword	0x487
-=======
-	.uaword	0x490
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1
 	.byte	0x13
@@ -3270,11 +2259,7 @@ IfxPort_cfg_esrMasks:
 	.string	"PS13"
 	.byte	0x3
 	.uahalf	0x16e
-<<<<<<< HEAD
 	.uaword	0x487
-=======
-	.uaword	0x490
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1
 	.byte	0x12
@@ -3283,11 +2268,7 @@ IfxPort_cfg_esrMasks:
 	.string	"PS14"
 	.byte	0x3
 	.uahalf	0x16f
-<<<<<<< HEAD
 	.uaword	0x487
-=======
-	.uaword	0x490
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1
 	.byte	0x11
@@ -3296,11 +2277,7 @@ IfxPort_cfg_esrMasks:
 	.string	"PS15"
 	.byte	0x3
 	.uahalf	0x170
-<<<<<<< HEAD
 	.uaword	0x487
-=======
-	.uaword	0x490
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1
 	.byte	0x10
@@ -3309,11 +2286,7 @@ IfxPort_cfg_esrMasks:
 	.uaword	.LASF1
 	.byte	0x3
 	.uahalf	0x171
-<<<<<<< HEAD
 	.uaword	0x487
-=======
-	.uaword	0x490
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x10
 	.byte	0
@@ -3323,30 +2296,18 @@ IfxPort_cfg_esrMasks:
 	.string	"Ifx_P_OMSR12_Bits"
 	.byte	0x3
 	.uahalf	0x172
-<<<<<<< HEAD
 	.uaword	0x1319
-=======
-	.uaword	0x1322
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0xe
 	.string	"_Ifx_P_OMSR4_Bits"
 	.byte	0x4
 	.byte	0x3
 	.uahalf	0x175
-<<<<<<< HEAD
 	.uaword	0x1430
-=======
-	.uaword	0x1439
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0xc
 	.uaword	.LASF0
 	.byte	0x3
 	.uahalf	0x177
-<<<<<<< HEAD
 	.uaword	0x487
-=======
-	.uaword	0x490
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x4
 	.byte	0x1c
@@ -3355,11 +2316,7 @@ IfxPort_cfg_esrMasks:
 	.string	"PS4"
 	.byte	0x3
 	.uahalf	0x178
-<<<<<<< HEAD
 	.uaword	0x487
-=======
-	.uaword	0x490
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1b
@@ -3368,11 +2325,7 @@ IfxPort_cfg_esrMasks:
 	.string	"PS5"
 	.byte	0x3
 	.uahalf	0x179
-<<<<<<< HEAD
 	.uaword	0x487
-=======
-	.uaword	0x490
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1a
@@ -3381,11 +2334,7 @@ IfxPort_cfg_esrMasks:
 	.string	"PS6"
 	.byte	0x3
 	.uahalf	0x17a
-<<<<<<< HEAD
 	.uaword	0x487
-=======
-	.uaword	0x490
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1
 	.byte	0x19
@@ -3394,11 +2343,7 @@ IfxPort_cfg_esrMasks:
 	.string	"PS7"
 	.byte	0x3
 	.uahalf	0x17b
-<<<<<<< HEAD
 	.uaword	0x487
-=======
-	.uaword	0x490
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1
 	.byte	0x18
@@ -3407,11 +2352,7 @@ IfxPort_cfg_esrMasks:
 	.uaword	.LASF2
 	.byte	0x3
 	.uahalf	0x17c
-<<<<<<< HEAD
 	.uaword	0x487
-=======
-	.uaword	0x490
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x18
 	.byte	0
@@ -3421,30 +2362,18 @@ IfxPort_cfg_esrMasks:
 	.string	"Ifx_P_OMSR4_Bits"
 	.byte	0x3
 	.uahalf	0x17d
-<<<<<<< HEAD
 	.uaword	0x13b4
-=======
-	.uaword	0x13bd
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0xe
 	.string	"_Ifx_P_OMSR8_Bits"
 	.byte	0x4
 	.byte	0x3
 	.uahalf	0x180
-<<<<<<< HEAD
 	.uaword	0x14c7
-=======
-	.uaword	0x14d0
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0xc
 	.uaword	.LASF0
 	.byte	0x3
 	.uahalf	0x182
-<<<<<<< HEAD
 	.uaword	0x487
-=======
-	.uaword	0x490
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x8
 	.byte	0x18
@@ -3453,11 +2382,7 @@ IfxPort_cfg_esrMasks:
 	.string	"PS8"
 	.byte	0x3
 	.uahalf	0x183
-<<<<<<< HEAD
 	.uaword	0x487
-=======
-	.uaword	0x490
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1
 	.byte	0x17
@@ -3466,11 +2391,7 @@ IfxPort_cfg_esrMasks:
 	.string	"PS9"
 	.byte	0x3
 	.uahalf	0x184
-<<<<<<< HEAD
 	.uaword	0x487
-=======
-	.uaword	0x490
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1
 	.byte	0x16
@@ -3479,11 +2400,7 @@ IfxPort_cfg_esrMasks:
 	.string	"PS10"
 	.byte	0x3
 	.uahalf	0x185
-<<<<<<< HEAD
 	.uaword	0x487
-=======
-	.uaword	0x490
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1
 	.byte	0x15
@@ -3492,11 +2409,7 @@ IfxPort_cfg_esrMasks:
 	.string	"PS11"
 	.byte	0x3
 	.uahalf	0x186
-<<<<<<< HEAD
 	.uaword	0x487
-=======
-	.uaword	0x490
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1
 	.byte	0x14
@@ -3505,11 +2418,7 @@ IfxPort_cfg_esrMasks:
 	.uaword	.LASF7
 	.byte	0x3
 	.uahalf	0x187
-<<<<<<< HEAD
 	.uaword	0x487
-=======
-	.uaword	0x490
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x14
 	.byte	0
@@ -3519,30 +2428,18 @@ IfxPort_cfg_esrMasks:
 	.string	"Ifx_P_OMSR8_Bits"
 	.byte	0x3
 	.uahalf	0x188
-<<<<<<< HEAD
 	.uaword	0x1449
-=======
-	.uaword	0x1452
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0xe
 	.string	"_Ifx_P_OMSR_Bits"
 	.byte	0x4
 	.byte	0x3
 	.uahalf	0x18b
-<<<<<<< HEAD
 	.uaword	0x1611
-=======
-	.uaword	0x161a
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0xb
 	.string	"PS0"
 	.byte	0x3
 	.uahalf	0x18d
-<<<<<<< HEAD
 	.uaword	0x487
-=======
-	.uaword	0x490
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1f
@@ -3551,11 +2448,7 @@ IfxPort_cfg_esrMasks:
 	.string	"PS1"
 	.byte	0x3
 	.uahalf	0x18e
-<<<<<<< HEAD
 	.uaword	0x487
-=======
-	.uaword	0x490
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1e
@@ -3564,11 +2457,7 @@ IfxPort_cfg_esrMasks:
 	.string	"PS2"
 	.byte	0x3
 	.uahalf	0x18f
-<<<<<<< HEAD
 	.uaword	0x487
-=======
-	.uaword	0x490
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1d
@@ -3577,11 +2466,7 @@ IfxPort_cfg_esrMasks:
 	.string	"PS3"
 	.byte	0x3
 	.uahalf	0x190
-<<<<<<< HEAD
 	.uaword	0x487
-=======
-	.uaword	0x490
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1c
@@ -3590,11 +2475,7 @@ IfxPort_cfg_esrMasks:
 	.string	"PS4"
 	.byte	0x3
 	.uahalf	0x191
-<<<<<<< HEAD
 	.uaword	0x487
-=======
-	.uaword	0x490
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1b
@@ -3603,11 +2484,7 @@ IfxPort_cfg_esrMasks:
 	.string	"PS5"
 	.byte	0x3
 	.uahalf	0x192
-<<<<<<< HEAD
 	.uaword	0x487
-=======
-	.uaword	0x490
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1a
@@ -3616,11 +2493,7 @@ IfxPort_cfg_esrMasks:
 	.string	"PS6"
 	.byte	0x3
 	.uahalf	0x193
-<<<<<<< HEAD
 	.uaword	0x487
-=======
-	.uaword	0x490
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1
 	.byte	0x19
@@ -3629,11 +2502,7 @@ IfxPort_cfg_esrMasks:
 	.string	"PS7"
 	.byte	0x3
 	.uahalf	0x194
-<<<<<<< HEAD
 	.uaword	0x487
-=======
-	.uaword	0x490
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1
 	.byte	0x18
@@ -3642,11 +2511,7 @@ IfxPort_cfg_esrMasks:
 	.string	"PS8"
 	.byte	0x3
 	.uahalf	0x195
-<<<<<<< HEAD
 	.uaword	0x487
-=======
-	.uaword	0x490
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1
 	.byte	0x17
@@ -3655,11 +2520,7 @@ IfxPort_cfg_esrMasks:
 	.string	"PS9"
 	.byte	0x3
 	.uahalf	0x196
-<<<<<<< HEAD
 	.uaword	0x487
-=======
-	.uaword	0x490
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1
 	.byte	0x16
@@ -3668,11 +2529,7 @@ IfxPort_cfg_esrMasks:
 	.string	"PS10"
 	.byte	0x3
 	.uahalf	0x197
-<<<<<<< HEAD
 	.uaword	0x487
-=======
-	.uaword	0x490
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1
 	.byte	0x15
@@ -3681,11 +2538,7 @@ IfxPort_cfg_esrMasks:
 	.string	"PS11"
 	.byte	0x3
 	.uahalf	0x198
-<<<<<<< HEAD
 	.uaword	0x487
-=======
-	.uaword	0x490
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1
 	.byte	0x14
@@ -3694,11 +2547,7 @@ IfxPort_cfg_esrMasks:
 	.string	"PS12"
 	.byte	0x3
 	.uahalf	0x199
-<<<<<<< HEAD
 	.uaword	0x487
-=======
-	.uaword	0x490
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1
 	.byte	0x13
@@ -3707,11 +2556,7 @@ IfxPort_cfg_esrMasks:
 	.string	"PS13"
 	.byte	0x3
 	.uahalf	0x19a
-<<<<<<< HEAD
 	.uaword	0x487
-=======
-	.uaword	0x490
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1
 	.byte	0x12
@@ -3720,11 +2565,7 @@ IfxPort_cfg_esrMasks:
 	.string	"PS14"
 	.byte	0x3
 	.uahalf	0x19b
-<<<<<<< HEAD
 	.uaword	0x487
-=======
-	.uaword	0x490
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1
 	.byte	0x11
@@ -3733,11 +2574,7 @@ IfxPort_cfg_esrMasks:
 	.string	"PS15"
 	.byte	0x3
 	.uahalf	0x19c
-<<<<<<< HEAD
 	.uaword	0x487
-=======
-	.uaword	0x490
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1
 	.byte	0x10
@@ -3746,11 +2583,7 @@ IfxPort_cfg_esrMasks:
 	.uaword	.LASF1
 	.byte	0x3
 	.uahalf	0x19d
-<<<<<<< HEAD
 	.uaword	0x487
-=======
-	.uaword	0x490
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x10
 	.byte	0
@@ -3760,30 +2593,18 @@ IfxPort_cfg_esrMasks:
 	.string	"Ifx_P_OMSR_Bits"
 	.byte	0x3
 	.uahalf	0x19e
-<<<<<<< HEAD
 	.uaword	0x14e0
-=======
-	.uaword	0x14e9
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0xe
 	.string	"_Ifx_P_OUT_Bits"
 	.byte	0x4
 	.byte	0x3
 	.uahalf	0x1a1
-<<<<<<< HEAD
 	.uaword	0x1749
-=======
-	.uaword	0x1752
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0xb
 	.string	"P0"
 	.byte	0x3
 	.uahalf	0x1a3
-<<<<<<< HEAD
 	.uaword	0x487
-=======
-	.uaword	0x490
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1f
@@ -3792,11 +2613,7 @@ IfxPort_cfg_esrMasks:
 	.string	"P1"
 	.byte	0x3
 	.uahalf	0x1a4
-<<<<<<< HEAD
 	.uaword	0x487
-=======
-	.uaword	0x490
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1e
@@ -3805,11 +2622,7 @@ IfxPort_cfg_esrMasks:
 	.string	"P2"
 	.byte	0x3
 	.uahalf	0x1a5
-<<<<<<< HEAD
 	.uaword	0x487
-=======
-	.uaword	0x490
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1d
@@ -3818,11 +2631,7 @@ IfxPort_cfg_esrMasks:
 	.string	"P3"
 	.byte	0x3
 	.uahalf	0x1a6
-<<<<<<< HEAD
 	.uaword	0x487
-=======
-	.uaword	0x490
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1c
@@ -3831,11 +2640,7 @@ IfxPort_cfg_esrMasks:
 	.string	"P4"
 	.byte	0x3
 	.uahalf	0x1a7
-<<<<<<< HEAD
 	.uaword	0x487
-=======
-	.uaword	0x490
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1b
@@ -3844,11 +2649,7 @@ IfxPort_cfg_esrMasks:
 	.string	"P5"
 	.byte	0x3
 	.uahalf	0x1a8
-<<<<<<< HEAD
 	.uaword	0x487
-=======
-	.uaword	0x490
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1a
@@ -3857,11 +2658,7 @@ IfxPort_cfg_esrMasks:
 	.string	"P6"
 	.byte	0x3
 	.uahalf	0x1a9
-<<<<<<< HEAD
 	.uaword	0x487
-=======
-	.uaword	0x490
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1
 	.byte	0x19
@@ -3870,11 +2667,7 @@ IfxPort_cfg_esrMasks:
 	.string	"P7"
 	.byte	0x3
 	.uahalf	0x1aa
-<<<<<<< HEAD
 	.uaword	0x487
-=======
-	.uaword	0x490
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1
 	.byte	0x18
@@ -3883,11 +2676,7 @@ IfxPort_cfg_esrMasks:
 	.string	"P8"
 	.byte	0x3
 	.uahalf	0x1ab
-<<<<<<< HEAD
 	.uaword	0x487
-=======
-	.uaword	0x490
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1
 	.byte	0x17
@@ -3896,11 +2685,7 @@ IfxPort_cfg_esrMasks:
 	.string	"P9"
 	.byte	0x3
 	.uahalf	0x1ac
-<<<<<<< HEAD
 	.uaword	0x487
-=======
-	.uaword	0x490
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1
 	.byte	0x16
@@ -3909,11 +2694,7 @@ IfxPort_cfg_esrMasks:
 	.string	"P10"
 	.byte	0x3
 	.uahalf	0x1ad
-<<<<<<< HEAD
 	.uaword	0x487
-=======
-	.uaword	0x490
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1
 	.byte	0x15
@@ -3922,11 +2703,7 @@ IfxPort_cfg_esrMasks:
 	.string	"P11"
 	.byte	0x3
 	.uahalf	0x1ae
-<<<<<<< HEAD
 	.uaword	0x487
-=======
-	.uaword	0x490
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1
 	.byte	0x14
@@ -3935,11 +2712,7 @@ IfxPort_cfg_esrMasks:
 	.string	"P12"
 	.byte	0x3
 	.uahalf	0x1af
-<<<<<<< HEAD
 	.uaword	0x487
-=======
-	.uaword	0x490
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1
 	.byte	0x13
@@ -3948,11 +2721,7 @@ IfxPort_cfg_esrMasks:
 	.string	"P13"
 	.byte	0x3
 	.uahalf	0x1b0
-<<<<<<< HEAD
 	.uaword	0x487
-=======
-	.uaword	0x490
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1
 	.byte	0x12
@@ -3961,11 +2730,7 @@ IfxPort_cfg_esrMasks:
 	.string	"P14"
 	.byte	0x3
 	.uahalf	0x1b1
-<<<<<<< HEAD
 	.uaword	0x487
-=======
-	.uaword	0x490
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1
 	.byte	0x11
@@ -3974,11 +2739,7 @@ IfxPort_cfg_esrMasks:
 	.string	"P15"
 	.byte	0x3
 	.uahalf	0x1b2
-<<<<<<< HEAD
 	.uaword	0x487
-=======
-	.uaword	0x490
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1
 	.byte	0x10
@@ -3987,11 +2748,7 @@ IfxPort_cfg_esrMasks:
 	.uaword	.LASF1
 	.byte	0x3
 	.uahalf	0x1b3
-<<<<<<< HEAD
 	.uaword	0x487
-=======
-	.uaword	0x490
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x10
 	.byte	0
@@ -4001,30 +2758,18 @@ IfxPort_cfg_esrMasks:
 	.string	"Ifx_P_OUT_Bits"
 	.byte	0x3
 	.uahalf	0x1b4
-<<<<<<< HEAD
 	.uaword	0x1629
-=======
-	.uaword	0x1632
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0xe
 	.string	"_Ifx_P_PCSR_Bits"
 	.byte	0x4
 	.byte	0x3
 	.uahalf	0x1b7
-<<<<<<< HEAD
 	.uaword	0x184d
-=======
-	.uaword	0x1856
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0xb
 	.string	"SEL0"
 	.byte	0x3
 	.uahalf	0x1b9
-<<<<<<< HEAD
 	.uaword	0x487
-=======
-	.uaword	0x490
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1f
@@ -4033,11 +2778,7 @@ IfxPort_cfg_esrMasks:
 	.string	"SEL1"
 	.byte	0x3
 	.uahalf	0x1ba
-<<<<<<< HEAD
 	.uaword	0x487
-=======
-	.uaword	0x490
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1e
@@ -4046,11 +2787,7 @@ IfxPort_cfg_esrMasks:
 	.string	"SEL2"
 	.byte	0x3
 	.uahalf	0x1bb
-<<<<<<< HEAD
 	.uaword	0x487
-=======
-	.uaword	0x490
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1d
@@ -4059,11 +2796,7 @@ IfxPort_cfg_esrMasks:
 	.string	"SEL3"
 	.byte	0x3
 	.uahalf	0x1bc
-<<<<<<< HEAD
 	.uaword	0x487
-=======
-	.uaword	0x490
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1c
@@ -4072,11 +2805,7 @@ IfxPort_cfg_esrMasks:
 	.string	"SEL4"
 	.byte	0x3
 	.uahalf	0x1bd
-<<<<<<< HEAD
 	.uaword	0x487
-=======
-	.uaword	0x490
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1b
@@ -4085,11 +2814,7 @@ IfxPort_cfg_esrMasks:
 	.string	"SEL5"
 	.byte	0x3
 	.uahalf	0x1be
-<<<<<<< HEAD
 	.uaword	0x487
-=======
-	.uaword	0x490
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1a
@@ -4098,11 +2823,7 @@ IfxPort_cfg_esrMasks:
 	.string	"SEL6"
 	.byte	0x3
 	.uahalf	0x1bf
-<<<<<<< HEAD
 	.uaword	0x487
-=======
-	.uaword	0x490
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1
 	.byte	0x19
@@ -4111,11 +2832,7 @@ IfxPort_cfg_esrMasks:
 	.string	"reserved_7"
 	.byte	0x3
 	.uahalf	0x1c0
-<<<<<<< HEAD
 	.uaword	0x487
-=======
-	.uaword	0x490
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x3
 	.byte	0x16
@@ -4124,11 +2841,7 @@ IfxPort_cfg_esrMasks:
 	.string	"SEL10"
 	.byte	0x3
 	.uahalf	0x1c1
-<<<<<<< HEAD
 	.uaword	0x487
-=======
-	.uaword	0x490
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1
 	.byte	0x15
@@ -4137,11 +2850,7 @@ IfxPort_cfg_esrMasks:
 	.string	"SEL11"
 	.byte	0x3
 	.uahalf	0x1c2
-<<<<<<< HEAD
 	.uaword	0x487
-=======
-	.uaword	0x490
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1
 	.byte	0x14
@@ -4150,11 +2859,7 @@ IfxPort_cfg_esrMasks:
 	.uaword	.LASF7
 	.byte	0x3
 	.uahalf	0x1c3
-<<<<<<< HEAD
 	.uaword	0x487
-=======
-	.uaword	0x490
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x13
 	.byte	0x1
@@ -4163,11 +2868,7 @@ IfxPort_cfg_esrMasks:
 	.string	"LCK"
 	.byte	0x3
 	.uahalf	0x1c4
-<<<<<<< HEAD
 	.uaword	0x487
-=======
-	.uaword	0x490
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1
 	.byte	0
@@ -4177,30 +2878,18 @@ IfxPort_cfg_esrMasks:
 	.string	"Ifx_P_PCSR_Bits"
 	.byte	0x3
 	.uahalf	0x1c5
-<<<<<<< HEAD
 	.uaword	0x1760
-=======
-	.uaword	0x1769
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0xe
 	.string	"_Ifx_P_PDISC_Bits"
 	.byte	0x4
 	.byte	0x3
 	.uahalf	0x1c8
-<<<<<<< HEAD
 	.uaword	0x19b7
-=======
-	.uaword	0x19c0
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0xb
 	.string	"PDIS0"
 	.byte	0x3
 	.uahalf	0x1ca
-<<<<<<< HEAD
 	.uaword	0x487
-=======
-	.uaword	0x490
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1f
@@ -4209,11 +2898,7 @@ IfxPort_cfg_esrMasks:
 	.string	"PDIS1"
 	.byte	0x3
 	.uahalf	0x1cb
-<<<<<<< HEAD
 	.uaword	0x487
-=======
-	.uaword	0x490
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1e
@@ -4222,11 +2907,7 @@ IfxPort_cfg_esrMasks:
 	.string	"PDIS2"
 	.byte	0x3
 	.uahalf	0x1cc
-<<<<<<< HEAD
 	.uaword	0x487
-=======
-	.uaword	0x490
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1d
@@ -4235,11 +2916,7 @@ IfxPort_cfg_esrMasks:
 	.string	"PDIS3"
 	.byte	0x3
 	.uahalf	0x1cd
-<<<<<<< HEAD
 	.uaword	0x487
-=======
-	.uaword	0x490
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1c
@@ -4248,11 +2925,7 @@ IfxPort_cfg_esrMasks:
 	.string	"PDIS4"
 	.byte	0x3
 	.uahalf	0x1ce
-<<<<<<< HEAD
 	.uaword	0x487
-=======
-	.uaword	0x490
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1b
@@ -4261,11 +2934,7 @@ IfxPort_cfg_esrMasks:
 	.string	"PDIS5"
 	.byte	0x3
 	.uahalf	0x1cf
-<<<<<<< HEAD
 	.uaword	0x487
-=======
-	.uaword	0x490
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1a
@@ -4274,11 +2943,7 @@ IfxPort_cfg_esrMasks:
 	.string	"PDIS6"
 	.byte	0x3
 	.uahalf	0x1d0
-<<<<<<< HEAD
 	.uaword	0x487
-=======
-	.uaword	0x490
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1
 	.byte	0x19
@@ -4287,11 +2952,7 @@ IfxPort_cfg_esrMasks:
 	.string	"PDIS7"
 	.byte	0x3
 	.uahalf	0x1d1
-<<<<<<< HEAD
 	.uaword	0x487
-=======
-	.uaword	0x490
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1
 	.byte	0x18
@@ -4300,11 +2961,7 @@ IfxPort_cfg_esrMasks:
 	.string	"PDIS8"
 	.byte	0x3
 	.uahalf	0x1d2
-<<<<<<< HEAD
 	.uaword	0x487
-=======
-	.uaword	0x490
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1
 	.byte	0x17
@@ -4313,11 +2970,7 @@ IfxPort_cfg_esrMasks:
 	.string	"PDIS9"
 	.byte	0x3
 	.uahalf	0x1d3
-<<<<<<< HEAD
 	.uaword	0x487
-=======
-	.uaword	0x490
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1
 	.byte	0x16
@@ -4326,11 +2979,7 @@ IfxPort_cfg_esrMasks:
 	.string	"PDIS10"
 	.byte	0x3
 	.uahalf	0x1d4
-<<<<<<< HEAD
 	.uaword	0x487
-=======
-	.uaword	0x490
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1
 	.byte	0x15
@@ -4339,11 +2988,7 @@ IfxPort_cfg_esrMasks:
 	.string	"PDIS11"
 	.byte	0x3
 	.uahalf	0x1d5
-<<<<<<< HEAD
 	.uaword	0x487
-=======
-	.uaword	0x490
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1
 	.byte	0x14
@@ -4352,11 +2997,7 @@ IfxPort_cfg_esrMasks:
 	.string	"PDIS12"
 	.byte	0x3
 	.uahalf	0x1d6
-<<<<<<< HEAD
 	.uaword	0x487
-=======
-	.uaword	0x490
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1
 	.byte	0x13
@@ -4365,11 +3006,7 @@ IfxPort_cfg_esrMasks:
 	.string	"PDIS13"
 	.byte	0x3
 	.uahalf	0x1d7
-<<<<<<< HEAD
 	.uaword	0x487
-=======
-	.uaword	0x490
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1
 	.byte	0x12
@@ -4378,11 +3015,7 @@ IfxPort_cfg_esrMasks:
 	.string	"PDIS14"
 	.byte	0x3
 	.uahalf	0x1d8
-<<<<<<< HEAD
 	.uaword	0x487
-=======
-	.uaword	0x490
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1
 	.byte	0x11
@@ -4391,11 +3024,7 @@ IfxPort_cfg_esrMasks:
 	.string	"PDIS15"
 	.byte	0x3
 	.uahalf	0x1d9
-<<<<<<< HEAD
 	.uaword	0x487
-=======
-	.uaword	0x490
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1
 	.byte	0x10
@@ -4404,11 +3033,7 @@ IfxPort_cfg_esrMasks:
 	.uaword	.LASF1
 	.byte	0x3
 	.uahalf	0x1da
-<<<<<<< HEAD
 	.uaword	0x487
-=======
-	.uaword	0x490
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x10
 	.byte	0
@@ -4418,30 +3043,18 @@ IfxPort_cfg_esrMasks:
 	.string	"Ifx_P_PDISC_Bits"
 	.byte	0x3
 	.uahalf	0x1db
-<<<<<<< HEAD
 	.uaword	0x1865
-=======
-	.uaword	0x186e
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0xe
 	.string	"_Ifx_P_PDR0_Bits"
 	.byte	0x4
 	.byte	0x3
 	.uahalf	0x1de
-<<<<<<< HEAD
 	.uaword	0x1aeb
-=======
-	.uaword	0x1af4
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0xb
 	.string	"PD0"
 	.byte	0x3
 	.uahalf	0x1e0
-<<<<<<< HEAD
 	.uaword	0x487
-=======
-	.uaword	0x490
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x3
 	.byte	0x1d
@@ -4450,11 +3063,7 @@ IfxPort_cfg_esrMasks:
 	.string	"PL0"
 	.byte	0x3
 	.uahalf	0x1e1
-<<<<<<< HEAD
 	.uaword	0x487
-=======
-	.uaword	0x490
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1c
@@ -4463,11 +3072,7 @@ IfxPort_cfg_esrMasks:
 	.string	"PD1"
 	.byte	0x3
 	.uahalf	0x1e2
-<<<<<<< HEAD
 	.uaword	0x487
-=======
-	.uaword	0x490
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x3
 	.byte	0x19
@@ -4476,11 +3081,7 @@ IfxPort_cfg_esrMasks:
 	.string	"PL1"
 	.byte	0x3
 	.uahalf	0x1e3
-<<<<<<< HEAD
 	.uaword	0x487
-=======
-	.uaword	0x490
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1
 	.byte	0x18
@@ -4489,11 +3090,7 @@ IfxPort_cfg_esrMasks:
 	.string	"PD2"
 	.byte	0x3
 	.uahalf	0x1e4
-<<<<<<< HEAD
 	.uaword	0x487
-=======
-	.uaword	0x490
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x3
 	.byte	0x15
@@ -4502,11 +3099,7 @@ IfxPort_cfg_esrMasks:
 	.string	"PL2"
 	.byte	0x3
 	.uahalf	0x1e5
-<<<<<<< HEAD
 	.uaword	0x487
-=======
-	.uaword	0x490
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1
 	.byte	0x14
@@ -4515,11 +3108,7 @@ IfxPort_cfg_esrMasks:
 	.string	"PD3"
 	.byte	0x3
 	.uahalf	0x1e6
-<<<<<<< HEAD
 	.uaword	0x487
-=======
-	.uaword	0x490
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x3
 	.byte	0x11
@@ -4528,11 +3117,7 @@ IfxPort_cfg_esrMasks:
 	.string	"PL3"
 	.byte	0x3
 	.uahalf	0x1e7
-<<<<<<< HEAD
 	.uaword	0x487
-=======
-	.uaword	0x490
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1
 	.byte	0x10
@@ -4541,11 +3126,7 @@ IfxPort_cfg_esrMasks:
 	.string	"PD4"
 	.byte	0x3
 	.uahalf	0x1e8
-<<<<<<< HEAD
 	.uaword	0x487
-=======
-	.uaword	0x490
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x3
 	.byte	0xd
@@ -4554,11 +3135,7 @@ IfxPort_cfg_esrMasks:
 	.string	"PL4"
 	.byte	0x3
 	.uahalf	0x1e9
-<<<<<<< HEAD
 	.uaword	0x487
-=======
-	.uaword	0x490
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1
 	.byte	0xc
@@ -4567,11 +3144,7 @@ IfxPort_cfg_esrMasks:
 	.string	"PD5"
 	.byte	0x3
 	.uahalf	0x1ea
-<<<<<<< HEAD
 	.uaword	0x487
-=======
-	.uaword	0x490
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x3
 	.byte	0x9
@@ -4580,11 +3153,7 @@ IfxPort_cfg_esrMasks:
 	.string	"PL5"
 	.byte	0x3
 	.uahalf	0x1eb
-<<<<<<< HEAD
 	.uaword	0x487
-=======
-	.uaword	0x490
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1
 	.byte	0x8
@@ -4593,11 +3162,7 @@ IfxPort_cfg_esrMasks:
 	.string	"PD6"
 	.byte	0x3
 	.uahalf	0x1ec
-<<<<<<< HEAD
 	.uaword	0x487
-=======
-	.uaword	0x490
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x3
 	.byte	0x5
@@ -4606,11 +3171,7 @@ IfxPort_cfg_esrMasks:
 	.string	"PL6"
 	.byte	0x3
 	.uahalf	0x1ed
-<<<<<<< HEAD
 	.uaword	0x487
-=======
-	.uaword	0x490
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1
 	.byte	0x4
@@ -4619,11 +3180,7 @@ IfxPort_cfg_esrMasks:
 	.string	"PD7"
 	.byte	0x3
 	.uahalf	0x1ee
-<<<<<<< HEAD
 	.uaword	0x487
-=======
-	.uaword	0x490
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x3
 	.byte	0x1
@@ -4632,11 +3189,7 @@ IfxPort_cfg_esrMasks:
 	.string	"PL7"
 	.byte	0x3
 	.uahalf	0x1ef
-<<<<<<< HEAD
 	.uaword	0x487
-=======
-	.uaword	0x490
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1
 	.byte	0
@@ -4646,30 +3199,18 @@ IfxPort_cfg_esrMasks:
 	.string	"Ifx_P_PDR0_Bits"
 	.byte	0x3
 	.uahalf	0x1f0
-<<<<<<< HEAD
 	.uaword	0x19d0
-=======
-	.uaword	0x19d9
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0xe
 	.string	"_Ifx_P_PDR1_Bits"
 	.byte	0x4
 	.byte	0x3
 	.uahalf	0x1f3
-<<<<<<< HEAD
 	.uaword	0x1c2a
-=======
-	.uaword	0x1c33
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0xb
 	.string	"PD8"
 	.byte	0x3
 	.uahalf	0x1f5
-<<<<<<< HEAD
 	.uaword	0x487
-=======
-	.uaword	0x490
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x3
 	.byte	0x1d
@@ -4678,11 +3219,7 @@ IfxPort_cfg_esrMasks:
 	.string	"PL8"
 	.byte	0x3
 	.uahalf	0x1f6
-<<<<<<< HEAD
 	.uaword	0x487
-=======
-	.uaword	0x490
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1c
@@ -4691,11 +3228,7 @@ IfxPort_cfg_esrMasks:
 	.string	"PD9"
 	.byte	0x3
 	.uahalf	0x1f7
-<<<<<<< HEAD
 	.uaword	0x487
-=======
-	.uaword	0x490
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x3
 	.byte	0x19
@@ -4704,11 +3237,7 @@ IfxPort_cfg_esrMasks:
 	.string	"PL9"
 	.byte	0x3
 	.uahalf	0x1f8
-<<<<<<< HEAD
 	.uaword	0x487
-=======
-	.uaword	0x490
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1
 	.byte	0x18
@@ -4717,11 +3246,7 @@ IfxPort_cfg_esrMasks:
 	.string	"PD10"
 	.byte	0x3
 	.uahalf	0x1f9
-<<<<<<< HEAD
 	.uaword	0x487
-=======
-	.uaword	0x490
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x3
 	.byte	0x15
@@ -4730,11 +3255,7 @@ IfxPort_cfg_esrMasks:
 	.string	"PL10"
 	.byte	0x3
 	.uahalf	0x1fa
-<<<<<<< HEAD
 	.uaword	0x487
-=======
-	.uaword	0x490
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1
 	.byte	0x14
@@ -4743,11 +3264,7 @@ IfxPort_cfg_esrMasks:
 	.string	"PD11"
 	.byte	0x3
 	.uahalf	0x1fb
-<<<<<<< HEAD
 	.uaword	0x487
-=======
-	.uaword	0x490
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x3
 	.byte	0x11
@@ -4756,11 +3273,7 @@ IfxPort_cfg_esrMasks:
 	.string	"PL11"
 	.byte	0x3
 	.uahalf	0x1fc
-<<<<<<< HEAD
 	.uaword	0x487
-=======
-	.uaword	0x490
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1
 	.byte	0x10
@@ -4769,11 +3282,7 @@ IfxPort_cfg_esrMasks:
 	.string	"PD12"
 	.byte	0x3
 	.uahalf	0x1fd
-<<<<<<< HEAD
 	.uaword	0x487
-=======
-	.uaword	0x490
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x3
 	.byte	0xd
@@ -4782,11 +3291,7 @@ IfxPort_cfg_esrMasks:
 	.string	"PL12"
 	.byte	0x3
 	.uahalf	0x1fe
-<<<<<<< HEAD
 	.uaword	0x487
-=======
-	.uaword	0x490
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1
 	.byte	0xc
@@ -4795,11 +3300,7 @@ IfxPort_cfg_esrMasks:
 	.string	"PD13"
 	.byte	0x3
 	.uahalf	0x1ff
-<<<<<<< HEAD
 	.uaword	0x487
-=======
-	.uaword	0x490
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x3
 	.byte	0x9
@@ -4808,11 +3309,7 @@ IfxPort_cfg_esrMasks:
 	.string	"PL13"
 	.byte	0x3
 	.uahalf	0x200
-<<<<<<< HEAD
 	.uaword	0x487
-=======
-	.uaword	0x490
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1
 	.byte	0x8
@@ -4821,11 +3318,7 @@ IfxPort_cfg_esrMasks:
 	.string	"PD14"
 	.byte	0x3
 	.uahalf	0x201
-<<<<<<< HEAD
 	.uaword	0x487
-=======
-	.uaword	0x490
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x3
 	.byte	0x5
@@ -4834,11 +3327,7 @@ IfxPort_cfg_esrMasks:
 	.string	"PL14"
 	.byte	0x3
 	.uahalf	0x202
-<<<<<<< HEAD
 	.uaword	0x487
-=======
-	.uaword	0x490
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1
 	.byte	0x4
@@ -4847,11 +3336,7 @@ IfxPort_cfg_esrMasks:
 	.string	"PD15"
 	.byte	0x3
 	.uahalf	0x203
-<<<<<<< HEAD
 	.uaword	0x487
-=======
-	.uaword	0x490
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x3
 	.byte	0x1
@@ -4860,11 +3345,7 @@ IfxPort_cfg_esrMasks:
 	.string	"PL15"
 	.byte	0x3
 	.uahalf	0x204
-<<<<<<< HEAD
 	.uaword	0x487
-=======
-	.uaword	0x490
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1
 	.byte	0
@@ -4874,1673 +3355,960 @@ IfxPort_cfg_esrMasks:
 	.string	"Ifx_P_PDR1_Bits"
 	.byte	0x3
 	.uahalf	0x205
-<<<<<<< HEAD
 	.uaword	0x1b03
-=======
-	.uaword	0x1b0c
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0xf
 	.byte	0x4
 	.byte	0x3
 	.uahalf	0x20d
-<<<<<<< HEAD
 	.uaword	0x1c6a
-=======
-	.uaword	0x1c73
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0x10
 	.string	"U"
 	.byte	0x3
 	.uahalf	0x20f
-<<<<<<< HEAD
 	.uaword	0x487
-=======
-	.uaword	0x490
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0x10
 	.string	"I"
 	.byte	0x3
 	.uahalf	0x210
-<<<<<<< HEAD
 	.uaword	0x182
-=======
-	.uaword	0x18b
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0x10
 	.string	"B"
 	.byte	0x3
 	.uahalf	0x211
-<<<<<<< HEAD
 	.uaword	0x497
-=======
-	.uaword	0x4a0
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0
 	.uleb128 0xd
 	.string	"Ifx_P_ACCEN0"
 	.byte	0x3
 	.uahalf	0x212
-<<<<<<< HEAD
 	.uaword	0x1c42
-=======
-	.uaword	0x1c4b
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0xf
 	.byte	0x4
 	.byte	0x3
 	.uahalf	0x215
-<<<<<<< HEAD
 	.uaword	0x1ca7
-=======
-	.uaword	0x1cb0
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0x10
 	.string	"U"
 	.byte	0x3
 	.uahalf	0x217
-<<<<<<< HEAD
 	.uaword	0x487
-=======
-	.uaword	0x490
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0x10
 	.string	"I"
 	.byte	0x3
 	.uahalf	0x218
-<<<<<<< HEAD
 	.uaword	0x182
-=======
-	.uaword	0x18b
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0x10
 	.string	"B"
 	.byte	0x3
 	.uahalf	0x219
-<<<<<<< HEAD
 	.uaword	0x4db
-=======
-	.uaword	0x4e4
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0
 	.uleb128 0xd
 	.string	"Ifx_P_ACCEN1"
 	.byte	0x3
 	.uahalf	0x21a
-<<<<<<< HEAD
 	.uaword	0x1c7f
-=======
-	.uaword	0x1c88
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0xf
 	.byte	0x4
 	.byte	0x3
 	.uahalf	0x21d
-<<<<<<< HEAD
 	.uaword	0x1ce4
-=======
-	.uaword	0x1ced
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0x10
 	.string	"U"
 	.byte	0x3
 	.uahalf	0x21f
-<<<<<<< HEAD
 	.uaword	0x487
-=======
-	.uaword	0x490
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0x10
 	.string	"I"
 	.byte	0x3
 	.uahalf	0x220
-<<<<<<< HEAD
 	.uaword	0x182
-=======
-	.uaword	0x18b
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0x10
 	.string	"B"
 	.byte	0x3
 	.uahalf	0x221
-<<<<<<< HEAD
 	.uaword	0x612
-=======
-	.uaword	0x61b
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0
 	.uleb128 0xd
 	.string	"Ifx_P_ESR"
 	.byte	0x3
 	.uahalf	0x222
-<<<<<<< HEAD
 	.uaword	0x1cbc
-=======
-	.uaword	0x1cc5
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0xf
 	.byte	0x4
 	.byte	0x3
 	.uahalf	0x225
-<<<<<<< HEAD
 	.uaword	0x1d1e
-=======
-	.uaword	0x1d27
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0x10
 	.string	"U"
 	.byte	0x3
 	.uahalf	0x227
-<<<<<<< HEAD
 	.uaword	0x487
-=======
-	.uaword	0x490
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0x10
 	.string	"I"
 	.byte	0x3
 	.uahalf	0x228
-<<<<<<< HEAD
 	.uaword	0x182
-=======
-	.uaword	0x18b
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0x10
 	.string	"B"
 	.byte	0x3
 	.uahalf	0x229
-<<<<<<< HEAD
 	.uaword	0x67a
-=======
-	.uaword	0x683
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0
 	.uleb128 0xd
 	.string	"Ifx_P_ID"
 	.byte	0x3
 	.uahalf	0x22a
-<<<<<<< HEAD
 	.uaword	0x1cf6
-=======
-	.uaword	0x1cff
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0xf
 	.byte	0x4
 	.byte	0x3
 	.uahalf	0x22d
-<<<<<<< HEAD
 	.uaword	0x1d57
-=======
-	.uaword	0x1d60
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0x10
 	.string	"U"
 	.byte	0x3
 	.uahalf	0x22f
-<<<<<<< HEAD
 	.uaword	0x487
-=======
-	.uaword	0x490
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0x10
 	.string	"I"
 	.byte	0x3
 	.uahalf	0x230
-<<<<<<< HEAD
 	.uaword	0x182
-=======
-	.uaword	0x18b
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0x10
 	.string	"B"
 	.byte	0x3
 	.uahalf	0x231
-<<<<<<< HEAD
 	.uaword	0x79c
-=======
-	.uaword	0x7a5
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0
 	.uleb128 0xd
 	.string	"Ifx_P_IN"
 	.byte	0x3
 	.uahalf	0x232
-<<<<<<< HEAD
 	.uaword	0x1d2f
-=======
-	.uaword	0x1d38
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0xf
 	.byte	0x4
 	.byte	0x3
 	.uahalf	0x235
-<<<<<<< HEAD
 	.uaword	0x1d90
-=======
-	.uaword	0x1d99
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0x10
 	.string	"U"
 	.byte	0x3
 	.uahalf	0x237
-<<<<<<< HEAD
 	.uaword	0x487
-=======
-	.uaword	0x490
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0x10
 	.string	"I"
 	.byte	0x3
 	.uahalf	0x238
-<<<<<<< HEAD
 	.uaword	0x182
-=======
-	.uaword	0x18b
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0x10
 	.string	"B"
 	.byte	0x3
 	.uahalf	0x239
-<<<<<<< HEAD
 	.uaword	0x844
-=======
-	.uaword	0x84d
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0
 	.uleb128 0xd
 	.string	"Ifx_P_IOCR0"
 	.byte	0x3
 	.uahalf	0x23a
-<<<<<<< HEAD
 	.uaword	0x1d68
-=======
-	.uaword	0x1d71
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0xf
 	.byte	0x4
 	.byte	0x3
 	.uahalf	0x23d
-<<<<<<< HEAD
 	.uaword	0x1dcc
-=======
-	.uaword	0x1dd5
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0x10
 	.string	"U"
 	.byte	0x3
 	.uahalf	0x23f
-<<<<<<< HEAD
 	.uaword	0x487
-=======
-	.uaword	0x490
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0x10
 	.string	"I"
 	.byte	0x3
 	.uahalf	0x240
-<<<<<<< HEAD
 	.uaword	0x182
-=======
-	.uaword	0x18b
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0x10
 	.string	"B"
 	.byte	0x3
 	.uahalf	0x241
-<<<<<<< HEAD
 	.uaword	0x8f4
-=======
-	.uaword	0x8fd
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0
 	.uleb128 0xd
 	.string	"Ifx_P_IOCR12"
 	.byte	0x3
 	.uahalf	0x242
-<<<<<<< HEAD
 	.uaword	0x1da4
-=======
-	.uaword	0x1dad
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0xf
 	.byte	0x4
 	.byte	0x3
 	.uahalf	0x245
-<<<<<<< HEAD
 	.uaword	0x1e09
-=======
-	.uaword	0x1e12
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0x10
 	.string	"U"
 	.byte	0x3
 	.uahalf	0x247
-<<<<<<< HEAD
 	.uaword	0x487
-=======
-	.uaword	0x490
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0x10
 	.string	"I"
 	.byte	0x3
 	.uahalf	0x248
-<<<<<<< HEAD
 	.uaword	0x182
-=======
-	.uaword	0x18b
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0x10
 	.string	"B"
 	.byte	0x3
 	.uahalf	0x249
-<<<<<<< HEAD
 	.uaword	0x9a0
-=======
-	.uaword	0x9a9
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0
 	.uleb128 0xd
 	.string	"Ifx_P_IOCR4"
 	.byte	0x3
 	.uahalf	0x24a
-<<<<<<< HEAD
 	.uaword	0x1de1
-=======
-	.uaword	0x1dea
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0xf
 	.byte	0x4
 	.byte	0x3
 	.uahalf	0x24d
-<<<<<<< HEAD
 	.uaword	0x1e45
-=======
-	.uaword	0x1e4e
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0x10
 	.string	"U"
 	.byte	0x3
 	.uahalf	0x24f
-<<<<<<< HEAD
 	.uaword	0x487
-=======
-	.uaword	0x490
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0x10
 	.string	"I"
 	.byte	0x3
 	.uahalf	0x250
-<<<<<<< HEAD
 	.uaword	0x182
-=======
-	.uaword	0x18b
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0x10
 	.string	"B"
 	.byte	0x3
 	.uahalf	0x251
-<<<<<<< HEAD
 	.uaword	0xa4d
-=======
-	.uaword	0xa56
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0
 	.uleb128 0xd
 	.string	"Ifx_P_IOCR8"
 	.byte	0x3
 	.uahalf	0x252
-<<<<<<< HEAD
 	.uaword	0x1e1d
-=======
-	.uaword	0x1e26
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0xf
 	.byte	0x4
 	.byte	0x3
 	.uahalf	0x255
-<<<<<<< HEAD
 	.uaword	0x1e81
-=======
-	.uaword	0x1e8a
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0x10
 	.string	"U"
 	.byte	0x3
 	.uahalf	0x257
-<<<<<<< HEAD
 	.uaword	0x487
-=======
-	.uaword	0x490
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0x10
 	.string	"I"
 	.byte	0x3
 	.uahalf	0x258
-<<<<<<< HEAD
 	.uaword	0x182
-=======
-	.uaword	0x18b
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0x10
 	.string	"B"
 	.byte	0x3
 	.uahalf	0x259
-<<<<<<< HEAD
 	.uaword	0xaad
-=======
-	.uaword	0xab6
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0
 	.uleb128 0xd
 	.string	"Ifx_P_LPCR0"
 	.byte	0x3
 	.uahalf	0x25a
-<<<<<<< HEAD
 	.uaword	0x1e59
-=======
-	.uaword	0x1e62
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0xf
 	.byte	0x4
 	.byte	0x3
 	.uahalf	0x25d
-<<<<<<< HEAD
 	.uaword	0x1ecb
-=======
-	.uaword	0x1ed4
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0x10
 	.string	"U"
 	.byte	0x3
 	.uahalf	0x25f
-<<<<<<< HEAD
 	.uaword	0x487
-=======
-	.uaword	0x490
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0x10
 	.string	"I"
 	.byte	0x3
 	.uahalf	0x260
-<<<<<<< HEAD
 	.uaword	0x182
-=======
-	.uaword	0x18b
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0x10
 	.string	"B"
 	.byte	0x3
 	.uahalf	0x261
-<<<<<<< HEAD
 	.uaword	0xb0d
-=======
-	.uaword	0xb16
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0x10
 	.string	"B_P21"
 	.byte	0x3
 	.uahalf	0x262
-<<<<<<< HEAD
 	.uaword	0xb9d
-=======
-	.uaword	0xba6
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0
 	.uleb128 0xd
 	.string	"Ifx_P_LPCR1"
 	.byte	0x3
 	.uahalf	0x263
-<<<<<<< HEAD
 	.uaword	0x1e95
-=======
-	.uaword	0x1e9e
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0xf
 	.byte	0x4
 	.byte	0x3
 	.uahalf	0x266
-<<<<<<< HEAD
 	.uaword	0x1f07
-=======
-	.uaword	0x1f10
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0x10
 	.string	"U"
 	.byte	0x3
 	.uahalf	0x268
-<<<<<<< HEAD
 	.uaword	0x487
-=======
-	.uaword	0x490
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0x10
 	.string	"I"
 	.byte	0x3
 	.uahalf	0x269
-<<<<<<< HEAD
 	.uaword	0x182
-=======
-	.uaword	0x18b
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0x10
 	.string	"B"
 	.byte	0x3
 	.uahalf	0x26a
-<<<<<<< HEAD
 	.uaword	0xc78
-=======
-	.uaword	0xc81
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0
 	.uleb128 0xd
 	.string	"Ifx_P_LPCR2"
 	.byte	0x3
 	.uahalf	0x26b
-<<<<<<< HEAD
 	.uaword	0x1edf
-=======
-	.uaword	0x1ee8
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0xf
 	.byte	0x4
 	.byte	0x3
 	.uahalf	0x26e
-<<<<<<< HEAD
 	.uaword	0x1f43
-=======
-	.uaword	0x1f4c
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0x10
 	.string	"U"
 	.byte	0x3
 	.uahalf	0x270
-<<<<<<< HEAD
 	.uaword	0x487
-=======
-	.uaword	0x490
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0x10
 	.string	"I"
 	.byte	0x3
 	.uahalf	0x271
-<<<<<<< HEAD
 	.uaword	0x182
-=======
-	.uaword	0x18b
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0x10
 	.string	"B"
 	.byte	0x3
 	.uahalf	0x272
-<<<<<<< HEAD
 	.uaword	0x1028
-=======
-	.uaword	0x1031
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0
 	.uleb128 0xd
 	.string	"Ifx_P_OMCR"
 	.byte	0x3
 	.uahalf	0x273
-<<<<<<< HEAD
 	.uaword	0x1f1b
-=======
-	.uaword	0x1f24
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0xf
 	.byte	0x4
 	.byte	0x3
 	.uahalf	0x276
-<<<<<<< HEAD
 	.uaword	0x1f7e
-=======
-	.uaword	0x1f87
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0x10
 	.string	"U"
 	.byte	0x3
 	.uahalf	0x278
-<<<<<<< HEAD
 	.uaword	0x487
-=======
-	.uaword	0x490
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0x10
 	.string	"I"
 	.byte	0x3
 	.uahalf	0x279
-<<<<<<< HEAD
 	.uaword	0x182
-=======
-	.uaword	0x18b
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0x10
 	.string	"B"
 	.byte	0x3
 	.uahalf	0x27a
-<<<<<<< HEAD
 	.uaword	0xd0b
-=======
-	.uaword	0xd14
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0
 	.uleb128 0xd
 	.string	"Ifx_P_OMCR0"
 	.byte	0x3
 	.uahalf	0x27b
-<<<<<<< HEAD
 	.uaword	0x1f56
-=======
-	.uaword	0x1f5f
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0xf
 	.byte	0x4
 	.byte	0x3
 	.uahalf	0x27e
-<<<<<<< HEAD
 	.uaword	0x1fba
-=======
-	.uaword	0x1fc3
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0x10
 	.string	"U"
 	.byte	0x3
 	.uahalf	0x280
-<<<<<<< HEAD
 	.uaword	0x487
-=======
-	.uaword	0x490
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0x10
 	.string	"I"
 	.byte	0x3
 	.uahalf	0x281
-<<<<<<< HEAD
 	.uaword	0x182
-=======
-	.uaword	0x18b
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0x10
 	.string	"B"
 	.byte	0x3
 	.uahalf	0x282
-<<<<<<< HEAD
 	.uaword	0xd99
-=======
-	.uaword	0xda2
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0
 	.uleb128 0xd
 	.string	"Ifx_P_OMCR12"
 	.byte	0x3
 	.uahalf	0x283
-<<<<<<< HEAD
 	.uaword	0x1f92
-=======
-	.uaword	0x1f9b
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0xf
 	.byte	0x4
 	.byte	0x3
 	.uahalf	0x286
-<<<<<<< HEAD
 	.uaword	0x1ff7
-=======
-	.uaword	0x2000
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0x10
 	.string	"U"
 	.byte	0x3
 	.uahalf	0x288
-<<<<<<< HEAD
 	.uaword	0x487
-=======
-	.uaword	0x490
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0x10
 	.string	"I"
 	.byte	0x3
 	.uahalf	0x289
-<<<<<<< HEAD
 	.uaword	0x182
-=======
-	.uaword	0x18b
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0x10
 	.string	"B"
 	.byte	0x3
 	.uahalf	0x28a
-<<<<<<< HEAD
 	.uaword	0xe33
-=======
-	.uaword	0xe3c
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0
 	.uleb128 0xd
 	.string	"Ifx_P_OMCR4"
 	.byte	0x3
 	.uahalf	0x28b
-<<<<<<< HEAD
 	.uaword	0x1fcf
-=======
-	.uaword	0x1fd8
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0xf
 	.byte	0x4
 	.byte	0x3
 	.uahalf	0x28e
-<<<<<<< HEAD
 	.uaword	0x2033
-=======
-	.uaword	0x203c
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0x10
 	.string	"U"
 	.byte	0x3
 	.uahalf	0x290
-<<<<<<< HEAD
 	.uaword	0x487
-=======
-	.uaword	0x490
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0x10
 	.string	"I"
 	.byte	0x3
 	.uahalf	0x291
-<<<<<<< HEAD
 	.uaword	0x182
-=======
-	.uaword	0x18b
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0x10
 	.string	"B"
 	.byte	0x3
 	.uahalf	0x292
-<<<<<<< HEAD
 	.uaword	0xece
-=======
-	.uaword	0xed7
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0
 	.uleb128 0xd
 	.string	"Ifx_P_OMCR8"
 	.byte	0x3
 	.uahalf	0x293
-<<<<<<< HEAD
 	.uaword	0x200b
-=======
-	.uaword	0x2014
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0xf
 	.byte	0x4
 	.byte	0x3
 	.uahalf	0x296
-<<<<<<< HEAD
 	.uaword	0x206f
-=======
-	.uaword	0x2078
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0x10
 	.string	"U"
 	.byte	0x3
 	.uahalf	0x298
-<<<<<<< HEAD
 	.uaword	0x487
-=======
-	.uaword	0x490
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0x10
 	.string	"I"
 	.byte	0x3
 	.uahalf	0x299
-<<<<<<< HEAD
 	.uaword	0x182
-=======
-	.uaword	0x18b
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0x10
 	.string	"B"
 	.byte	0x3
 	.uahalf	0x29a
-<<<<<<< HEAD
 	.uaword	0x1276
-=======
-	.uaword	0x127f
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0
 	.uleb128 0xd
 	.string	"Ifx_P_OMR"
 	.byte	0x3
 	.uahalf	0x29b
-<<<<<<< HEAD
 	.uaword	0x2047
-=======
-	.uaword	0x2050
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0xf
 	.byte	0x4
 	.byte	0x3
 	.uahalf	0x29e
-<<<<<<< HEAD
 	.uaword	0x20a9
-=======
-	.uaword	0x20b2
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0x10
 	.string	"U"
 	.byte	0x3
 	.uahalf	0x2a0
-<<<<<<< HEAD
 	.uaword	0x487
-=======
-	.uaword	0x490
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0x10
 	.string	"I"
 	.byte	0x3
 	.uahalf	0x2a1
-<<<<<<< HEAD
 	.uaword	0x182
-=======
-	.uaword	0x18b
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0x10
 	.string	"B"
 	.byte	0x3
 	.uahalf	0x2a2
-<<<<<<< HEAD
 	.uaword	0x1611
-=======
-	.uaword	0x161a
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0
 	.uleb128 0xd
 	.string	"Ifx_P_OMSR"
 	.byte	0x3
 	.uahalf	0x2a3
-<<<<<<< HEAD
 	.uaword	0x2081
-=======
-	.uaword	0x208a
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0xf
 	.byte	0x4
 	.byte	0x3
 	.uahalf	0x2a6
-<<<<<<< HEAD
 	.uaword	0x20e4
-=======
-	.uaword	0x20ed
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0x10
 	.string	"U"
 	.byte	0x3
 	.uahalf	0x2a8
-<<<<<<< HEAD
 	.uaword	0x487
-=======
-	.uaword	0x490
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0x10
 	.string	"I"
 	.byte	0x3
 	.uahalf	0x2a9
-<<<<<<< HEAD
 	.uaword	0x182
-=======
-	.uaword	0x18b
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0x10
 	.string	"B"
 	.byte	0x3
 	.uahalf	0x2aa
-<<<<<<< HEAD
 	.uaword	0x1300
-=======
-	.uaword	0x1309
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0
 	.uleb128 0xd
 	.string	"Ifx_P_OMSR0"
 	.byte	0x3
 	.uahalf	0x2ab
-<<<<<<< HEAD
 	.uaword	0x20bc
-=======
-	.uaword	0x20c5
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0xf
 	.byte	0x4
 	.byte	0x3
 	.uahalf	0x2ae
-<<<<<<< HEAD
 	.uaword	0x2120
-=======
-	.uaword	0x2129
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0x10
 	.string	"U"
 	.byte	0x3
 	.uahalf	0x2b0
-<<<<<<< HEAD
 	.uaword	0x487
-=======
-	.uaword	0x490
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0x10
 	.string	"I"
 	.byte	0x3
 	.uahalf	0x2b1
-<<<<<<< HEAD
 	.uaword	0x182
-=======
-	.uaword	0x18b
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0x10
 	.string	"B"
 	.byte	0x3
 	.uahalf	0x2b2
-<<<<<<< HEAD
 	.uaword	0x139a
-=======
-	.uaword	0x13a3
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0
 	.uleb128 0xd
 	.string	"Ifx_P_OMSR12"
 	.byte	0x3
 	.uahalf	0x2b3
-<<<<<<< HEAD
 	.uaword	0x20f8
-=======
-	.uaword	0x2101
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0xf
 	.byte	0x4
 	.byte	0x3
 	.uahalf	0x2b6
-<<<<<<< HEAD
 	.uaword	0x215d
-=======
-	.uaword	0x2166
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0x10
 	.string	"U"
 	.byte	0x3
 	.uahalf	0x2b8
-<<<<<<< HEAD
 	.uaword	0x487
-=======
-	.uaword	0x490
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0x10
 	.string	"I"
 	.byte	0x3
 	.uahalf	0x2b9
-<<<<<<< HEAD
 	.uaword	0x182
-=======
-	.uaword	0x18b
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0x10
 	.string	"B"
 	.byte	0x3
 	.uahalf	0x2ba
-<<<<<<< HEAD
 	.uaword	0x1430
-=======
-	.uaword	0x1439
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0
 	.uleb128 0xd
 	.string	"Ifx_P_OMSR4"
 	.byte	0x3
 	.uahalf	0x2bb
-<<<<<<< HEAD
 	.uaword	0x2135
-=======
-	.uaword	0x213e
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0xf
 	.byte	0x4
 	.byte	0x3
 	.uahalf	0x2be
-<<<<<<< HEAD
 	.uaword	0x2199
-=======
-	.uaword	0x21a2
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0x10
 	.string	"U"
 	.byte	0x3
 	.uahalf	0x2c0
-<<<<<<< HEAD
 	.uaword	0x487
-=======
-	.uaword	0x490
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0x10
 	.string	"I"
 	.byte	0x3
 	.uahalf	0x2c1
-<<<<<<< HEAD
 	.uaword	0x182
-=======
-	.uaword	0x18b
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0x10
 	.string	"B"
 	.byte	0x3
 	.uahalf	0x2c2
-<<<<<<< HEAD
 	.uaword	0x14c7
-=======
-	.uaword	0x14d0
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0
 	.uleb128 0xd
 	.string	"Ifx_P_OMSR8"
 	.byte	0x3
 	.uahalf	0x2c3
-<<<<<<< HEAD
 	.uaword	0x2171
-=======
-	.uaword	0x217a
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0xf
 	.byte	0x4
 	.byte	0x3
 	.uahalf	0x2c6
-<<<<<<< HEAD
 	.uaword	0x21d5
-=======
-	.uaword	0x21de
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0x10
 	.string	"U"
 	.byte	0x3
 	.uahalf	0x2c8
-<<<<<<< HEAD
 	.uaword	0x487
-=======
-	.uaword	0x490
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0x10
 	.string	"I"
 	.byte	0x3
 	.uahalf	0x2c9
-<<<<<<< HEAD
 	.uaword	0x182
-=======
-	.uaword	0x18b
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0x10
 	.string	"B"
 	.byte	0x3
 	.uahalf	0x2ca
-<<<<<<< HEAD
 	.uaword	0x1749
-=======
-	.uaword	0x1752
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0
 	.uleb128 0xd
 	.string	"Ifx_P_OUT"
 	.byte	0x3
 	.uahalf	0x2cb
-<<<<<<< HEAD
 	.uaword	0x21ad
-=======
-	.uaword	0x21b6
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0xf
 	.byte	0x4
 	.byte	0x3
 	.uahalf	0x2ce
-<<<<<<< HEAD
 	.uaword	0x220f
-=======
-	.uaword	0x2218
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0x10
 	.string	"U"
 	.byte	0x3
 	.uahalf	0x2d0
-<<<<<<< HEAD
 	.uaword	0x487
-=======
-	.uaword	0x490
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0x10
 	.string	"I"
 	.byte	0x3
 	.uahalf	0x2d1
-<<<<<<< HEAD
 	.uaword	0x182
-=======
-	.uaword	0x18b
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0x10
 	.string	"B"
 	.byte	0x3
 	.uahalf	0x2d2
-<<<<<<< HEAD
 	.uaword	0x184d
-=======
-	.uaword	0x1856
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0
 	.uleb128 0xd
 	.string	"Ifx_P_PCSR"
 	.byte	0x3
 	.uahalf	0x2d3
-<<<<<<< HEAD
 	.uaword	0x21e7
-=======
-	.uaword	0x21f0
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0xf
 	.byte	0x4
 	.byte	0x3
 	.uahalf	0x2d6
-<<<<<<< HEAD
 	.uaword	0x224a
-=======
-	.uaword	0x2253
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0x10
 	.string	"U"
 	.byte	0x3
 	.uahalf	0x2d8
-<<<<<<< HEAD
 	.uaword	0x487
-=======
-	.uaword	0x490
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0x10
 	.string	"I"
 	.byte	0x3
 	.uahalf	0x2d9
-<<<<<<< HEAD
 	.uaword	0x182
-=======
-	.uaword	0x18b
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0x10
 	.string	"B"
 	.byte	0x3
 	.uahalf	0x2da
-<<<<<<< HEAD
 	.uaword	0x19b7
-=======
-	.uaword	0x19c0
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0
 	.uleb128 0xd
 	.string	"Ifx_P_PDISC"
 	.byte	0x3
 	.uahalf	0x2db
-<<<<<<< HEAD
 	.uaword	0x2222
-=======
-	.uaword	0x222b
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0xf
 	.byte	0x4
 	.byte	0x3
 	.uahalf	0x2de
-<<<<<<< HEAD
 	.uaword	0x2286
-=======
-	.uaword	0x228f
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0x10
 	.string	"U"
 	.byte	0x3
 	.uahalf	0x2e0
-<<<<<<< HEAD
 	.uaword	0x487
-=======
-	.uaword	0x490
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0x10
 	.string	"I"
 	.byte	0x3
 	.uahalf	0x2e1
-<<<<<<< HEAD
 	.uaword	0x182
-=======
-	.uaword	0x18b
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0x10
 	.string	"B"
 	.byte	0x3
 	.uahalf	0x2e2
-<<<<<<< HEAD
 	.uaword	0x1aeb
-=======
-	.uaword	0x1af4
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0
 	.uleb128 0xd
 	.string	"Ifx_P_PDR0"
 	.byte	0x3
 	.uahalf	0x2e3
-<<<<<<< HEAD
 	.uaword	0x225e
-=======
-	.uaword	0x2267
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0xf
 	.byte	0x4
 	.byte	0x3
 	.uahalf	0x2e6
-<<<<<<< HEAD
 	.uaword	0x22c1
-=======
-	.uaword	0x22ca
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0x10
 	.string	"U"
 	.byte	0x3
 	.uahalf	0x2e8
-<<<<<<< HEAD
 	.uaword	0x487
-=======
-	.uaword	0x490
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0x10
 	.string	"I"
 	.byte	0x3
 	.uahalf	0x2e9
-<<<<<<< HEAD
 	.uaword	0x182
-=======
-	.uaword	0x18b
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0x10
 	.string	"B"
 	.byte	0x3
 	.uahalf	0x2ea
-<<<<<<< HEAD
 	.uaword	0x1c2a
-=======
-	.uaword	0x1c33
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0
 	.uleb128 0xd
 	.string	"Ifx_P_PDR1"
 	.byte	0x3
 	.uahalf	0x2eb
-<<<<<<< HEAD
 	.uaword	0x2299
-=======
-	.uaword	0x22a2
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0x11
 	.string	"_Ifx_P"
 	.uahalf	0x100
 	.byte	0x3
 	.uahalf	0x2f6
-<<<<<<< HEAD
 	.uaword	0x2515
-=======
-	.uaword	0x251e
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0x12
 	.string	"OUT"
 	.byte	0x3
 	.uahalf	0x2f8
-<<<<<<< HEAD
 	.uaword	0x21d5
-=======
-	.uaword	0x21de
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0
 	.uleb128 0x12
 	.string	"OMR"
 	.byte	0x3
 	.uahalf	0x2f9
-<<<<<<< HEAD
 	.uaword	0x206f
-=======
-	.uaword	0x2078
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.uleb128 0x12
 	.string	"ID"
 	.byte	0x3
 	.uahalf	0x2fa
-<<<<<<< HEAD
 	.uaword	0x1d1e
-=======
-	.uaword	0x1d27
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x8
 	.uleb128 0x12
 	.string	"reserved_C"
 	.byte	0x3
 	.uahalf	0x2fb
-<<<<<<< HEAD
 	.uaword	0x2515
-=======
-	.uaword	0x251e
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0xc
 	.uleb128 0x12
 	.string	"IOCR0"
 	.byte	0x3
 	.uahalf	0x2fc
-<<<<<<< HEAD
 	.uaword	0x1d90
-=======
-	.uaword	0x1d99
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x10
 	.uleb128 0x12
 	.string	"IOCR4"
 	.byte	0x3
 	.uahalf	0x2fd
-<<<<<<< HEAD
 	.uaword	0x1e09
-=======
-	.uaword	0x1e12
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x14
 	.uleb128 0x12
 	.string	"IOCR8"
 	.byte	0x3
 	.uahalf	0x2fe
-<<<<<<< HEAD
 	.uaword	0x1e45
-=======
-	.uaword	0x1e4e
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x18
 	.uleb128 0x12
 	.string	"IOCR12"
 	.byte	0x3
 	.uahalf	0x2ff
-<<<<<<< HEAD
 	.uaword	0x1dcc
-=======
-	.uaword	0x1dd5
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x1c
 	.uleb128 0x13
 	.uaword	.LASF5
 	.byte	0x3
 	.uahalf	0x300
-<<<<<<< HEAD
 	.uaword	0x2515
-=======
-	.uaword	0x251e
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x20
 	.uleb128 0x12
 	.string	"IN"
 	.byte	0x3
 	.uahalf	0x301
-<<<<<<< HEAD
 	.uaword	0x1d57
-=======
-	.uaword	0x1d60
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x24
 	.uleb128 0x13
 	.uaword	.LASF6
 	.byte	0x3
 	.uahalf	0x302
-<<<<<<< HEAD
 	.uaword	0x2531
-=======
-	.uaword	0x253a
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x28
 	.uleb128 0x12
 	.string	"PDR0"
 	.byte	0x3
 	.uahalf	0x303
-<<<<<<< HEAD
 	.uaword	0x2286
-=======
-	.uaword	0x228f
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x40
 	.uleb128 0x12
 	.string	"PDR1"
 	.byte	0x3
 	.uahalf	0x304
-<<<<<<< HEAD
 	.uaword	0x22c1
-=======
-	.uaword	0x22ca
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x44
 	.uleb128 0x12
 	.string	"reserved_48"
 	.byte	0x3
 	.uahalf	0x305
-<<<<<<< HEAD
 	.uaword	0x2541
-=======
-	.uaword	0x254a
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x48
 	.uleb128 0x12
 	.string	"ESR"
 	.byte	0x3
 	.uahalf	0x306
-<<<<<<< HEAD
 	.uaword	0x1ce4
-=======
-	.uaword	0x1ced
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x50
 	.uleb128 0x12
 	.string	"reserved_54"
 	.byte	0x3
 	.uahalf	0x307
-<<<<<<< HEAD
 	.uaword	0x2551
-=======
-	.uaword	0x255a
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x54
 	.uleb128 0x12
 	.string	"PDISC"
 	.byte	0x3
 	.uahalf	0x308
-<<<<<<< HEAD
 	.uaword	0x224a
-=======
-	.uaword	0x2253
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x60
 	.uleb128 0x12
 	.string	"PCSR"
 	.byte	0x3
 	.uahalf	0x309
-<<<<<<< HEAD
 	.uaword	0x220f
-=======
-	.uaword	0x2218
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x64
 	.uleb128 0x12
 	.string	"reserved_68"
 	.byte	0x3
 	.uahalf	0x30a
-<<<<<<< HEAD
 	.uaword	0x2541
-=======
-	.uaword	0x254a
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x68
 	.uleb128 0x12
 	.string	"OMSR0"
 	.byte	0x3
 	.uahalf	0x30b
-<<<<<<< HEAD
 	.uaword	0x20e4
-=======
-	.uaword	0x20ed
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x70
 	.uleb128 0x12
 	.string	"OMSR4"
 	.byte	0x3
 	.uahalf	0x30c
-<<<<<<< HEAD
 	.uaword	0x215d
-=======
-	.uaword	0x2166
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x74
 	.uleb128 0x12
 	.string	"OMSR8"
 	.byte	0x3
 	.uahalf	0x30d
-<<<<<<< HEAD
 	.uaword	0x2199
-=======
-	.uaword	0x21a2
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x78
 	.uleb128 0x12
 	.string	"OMSR12"
 	.byte	0x3
 	.uahalf	0x30e
-<<<<<<< HEAD
 	.uaword	0x2120
-=======
-	.uaword	0x2129
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x7c
 	.uleb128 0x12
 	.string	"OMCR0"
 	.byte	0x3
 	.uahalf	0x30f
-<<<<<<< HEAD
 	.uaword	0x1f7e
-=======
-	.uaword	0x1f87
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x80
 	.uleb128 0x12
 	.string	"OMCR4"
 	.byte	0x3
 	.uahalf	0x310
-<<<<<<< HEAD
 	.uaword	0x1ff7
-=======
-	.uaword	0x2000
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x84
 	.uleb128 0x12
 	.string	"OMCR8"
 	.byte	0x3
 	.uahalf	0x311
-<<<<<<< HEAD
 	.uaword	0x2033
-=======
-	.uaword	0x203c
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x88
 	.uleb128 0x12
 	.string	"OMCR12"
 	.byte	0x3
 	.uahalf	0x312
-<<<<<<< HEAD
 	.uaword	0x1fba
-=======
-	.uaword	0x1fc3
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x8c
 	.uleb128 0x12
 	.string	"OMSR"
 	.byte	0x3
 	.uahalf	0x313
-<<<<<<< HEAD
 	.uaword	0x20a9
-=======
-	.uaword	0x20b2
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x90
 	.uleb128 0x12
 	.string	"OMCR"
 	.byte	0x3
 	.uahalf	0x314
-<<<<<<< HEAD
 	.uaword	0x1f43
-=======
-	.uaword	0x1f4c
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x94
 	.uleb128 0x12
 	.string	"reserved_98"
 	.byte	0x3
 	.uahalf	0x315
-<<<<<<< HEAD
 	.uaword	0x2541
-=======
-	.uaword	0x254a
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x98
 	.uleb128 0x12
 	.string	"LPCR0"
 	.byte	0x3
 	.uahalf	0x316
-<<<<<<< HEAD
 	.uaword	0x1e81
-=======
-	.uaword	0x1e8a
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0xa0
 	.uleb128 0x12
 	.string	"LPCR1"
 	.byte	0x3
 	.uahalf	0x317
-<<<<<<< HEAD
 	.uaword	0x1ecb
-=======
-	.uaword	0x1ed4
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0xa4
 	.uleb128 0x12
 	.string	"LPCR2"
 	.byte	0x3
 	.uahalf	0x318
-<<<<<<< HEAD
 	.uaword	0x1f07
-=======
-	.uaword	0x1f10
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0xa8
 	.uleb128 0x12
 	.string	"reserved_A4"
 	.byte	0x3
 	.uahalf	0x319
-<<<<<<< HEAD
 	.uaword	0x2561
-=======
-	.uaword	0x256a
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0xac
 	.uleb128 0x12
 	.string	"ACCEN1"
 	.byte	0x3
 	.uahalf	0x31a
-<<<<<<< HEAD
 	.uaword	0x1ca7
-=======
-	.uaword	0x1cb0
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0xf8
 	.uleb128 0x12
 	.string	"ACCEN0"
 	.byte	0x3
 	.uahalf	0x31b
-<<<<<<< HEAD
 	.uaword	0x1c6a
 	.byte	0xfc
 	.byte	0
@@ -6549,16 +4317,6 @@ IfxPort_cfg_esrMasks:
 	.uaword	0x2525
 	.uleb128 0x15
 	.uaword	0x2525
-=======
-	.uaword	0x1c73
-	.byte	0xfc
-	.byte	0
-	.uleb128 0x14
-	.uaword	0x192
-	.uaword	0x252e
-	.uleb128 0x15
-	.uaword	0x252e
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x3
 	.byte	0
 	.uleb128 0x2
@@ -6566,7 +4324,6 @@ IfxPort_cfg_esrMasks:
 	.byte	0x7
 	.string	"sizetype"
 	.uleb128 0x14
-<<<<<<< HEAD
 	.uaword	0x189
 	.uaword	0x2541
 	.uleb128 0x15
@@ -6592,57 +4349,20 @@ IfxPort_cfg_esrMasks:
 	.uaword	0x2571
 	.uleb128 0x15
 	.uaword	0x2525
-=======
-	.uaword	0x192
-	.uaword	0x254a
-	.uleb128 0x15
-	.uaword	0x252e
-	.byte	0x17
-	.byte	0
-	.uleb128 0x14
-	.uaword	0x192
-	.uaword	0x255a
-	.uleb128 0x15
-	.uaword	0x252e
-	.byte	0x7
-	.byte	0
-	.uleb128 0x14
-	.uaword	0x192
-	.uaword	0x256a
-	.uleb128 0x15
-	.uaword	0x252e
-	.byte	0xb
-	.byte	0
-	.uleb128 0x14
-	.uaword	0x192
-	.uaword	0x257a
-	.uleb128 0x15
-	.uaword	0x252e
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4b
 	.byte	0
 	.uleb128 0xd
 	.string	"Ifx_P"
 	.byte	0x3
 	.uahalf	0x31c
-<<<<<<< HEAD
 	.uaword	0x257f
 	.uleb128 0x16
 	.uaword	0x22d4
-=======
-	.uaword	0x2588
-	.uleb128 0x16
-	.uaword	0x22dd
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0x17
 	.byte	0x1
 	.byte	0x4
 	.byte	0x4d
-<<<<<<< HEAD
 	.uaword	0x26d2
-=======
-	.uaword	0x26db
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0x18
 	.string	"IfxPort_Index_00"
 	.sleb128 0
@@ -6699,110 +4419,64 @@ IfxPort_cfg_esrMasks:
 	.byte	0x8
 	.byte	0x4
 	.byte	0x67
-<<<<<<< HEAD
 	.uaword	0x26f6
-=======
-	.uaword	0x26ff
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0x7
 	.string	"port"
 	.byte	0x4
 	.byte	0x69
-<<<<<<< HEAD
 	.uaword	0x26f6
-=======
-	.uaword	0x26ff
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0
 	.uleb128 0x7
 	.string	"masks"
 	.byte	0x4
 	.byte	0x6a
-<<<<<<< HEAD
 	.uaword	0x19a
-=======
-	.uaword	0x1a3
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0
 	.uleb128 0x4
 	.byte	0x4
-<<<<<<< HEAD
 	.uaword	0x2571
-=======
-	.uaword	0x257a
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0x3
 	.string	"IfxPort_Esr_Masks"
 	.byte	0x4
 	.byte	0x6b
-<<<<<<< HEAD
 	.uaword	0x26d2
 	.uleb128 0x14
 	.uaword	0x26fc
 	.uaword	0x2725
 	.uleb128 0x15
 	.uaword	0x2525
-=======
-	.uaword	0x26db
-	.uleb128 0x14
-	.uaword	0x2705
-	.uaword	0x272e
-	.uleb128 0x15
-	.uaword	0x252e
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0xf
 	.byte	0
 	.uleb128 0x19
 	.string	"IfxPort_cfg_esrMasks"
 	.byte	0x5
 	.byte	0x35
-<<<<<<< HEAD
 	.uaword	0x2748
-=======
-	.uaword	0x2751
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x1
 	.byte	0x5
 	.byte	0x3
 	.uaword	IfxPort_cfg_esrMasks
 	.uleb128 0x1a
-<<<<<<< HEAD
 	.uaword	0x2715
 	.uleb128 0x14
 	.uaword	0x25b
 	.uaword	0x275d
 	.uleb128 0x15
 	.uaword	0x2525
-=======
-	.uaword	0x271e
-	.uleb128 0x14
-	.uaword	0x264
-	.uaword	0x2766
-	.uleb128 0x15
-	.uaword	0x252e
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0xf
 	.byte	0
 	.uleb128 0x19
 	.string	"IfxPort_cfg_indexMap"
 	.byte	0x5
 	.byte	0x49
-<<<<<<< HEAD
 	.uaword	0x2780
-=======
-	.uaword	0x2789
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x1
 	.byte	0x5
 	.byte	0x3
 	.uaword	IfxPort_cfg_indexMap
 	.uleb128 0x1a
-<<<<<<< HEAD
 	.uaword	0x274d
-=======
-	.uaword	0x2756
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0
 .section .debug_abbrev,"",@progbits
 .Ldebug_abbrev0:

@@ -1,6 +1,6 @@
-obj/Lcd_Driver.c.o: \
- /cygdrive/c/Users/USER/Desktop/WORKSP~1/TUNNEL~1/TC275/Lcd_Driver.c \
- /cygdrive/c/Users/USER/Desktop/WORKSP~1/TUNNEL~1/TC275/Lcd_Driver.h \
+obj/infotainment_System.c.o: \
+ /cygdrive/c/Users/USER/Desktop/WORKSP~1/TUNNEL~1/TC275/infotainment_System.c \
+ /cygdrive/c/Users/USER/Desktop/WORKSP~1/TUNNEL~1/TC275/infotainment_System.h \
  /cygdrive/c/Users/USER/Desktop/WORKSP~1/TUNNEL~1/TC275/illd/src/ConfigurationIsr.h \
  /cygdrive/c/Users/USER/Desktop/WORKSP~1/TUNNEL~1/TC275/illd/src/Configuration.h \
  /cygdrive/c/Users/USER/Desktop/WORKSP~1/TUNNEL~1/TC275/illd/Configurations/Ifx_Cfg.h \
@@ -70,6 +70,8 @@ obj/Lcd_Driver.c.o: \
  /cygdrive/c/Users/USER/Desktop/WORKSP~1/TUNNEL~1/TC275/illd/Libraries/Infra/Sfr/TC27D/_Reg/IfxCcu6_bf.h \
  /cygdrive/c/Users/USER/Desktop/WORKSP~1/TUNNEL~1/TC275/illd/Libraries/iLLD/TC27D/Tricore/Scu/Std/IfxScuWdt.h \
  /cygdrive/c/Users/USER/Desktop/WORKSP~1/TUNNEL~1/TC275/illd/Libraries/iLLD/TC27D/Tricore/Port/Std/IfxPort.h \
+ /cygdrive/c/Users/USER/Desktop/WORKSP~1/TUNNEL~1/TC275/Button_Driver.h \
+ /cygdrive/c/Users/USER/Desktop/WORKSP~1/TUNNEL~1/TC275/Lcd_Driver.h \
  /cygdrive/c/Users/USER/Desktop/WORKSP~1/TUNNEL~1/TC275/illd/src/IfxPort.h \
  /cygdrive/c/Users/USER/Desktop/WORKSP~1/TUNNEL~1/TC275/bsw.h \
  /cygdrive/c/Users/USER/Desktop/WORKSP~1/TUNNEL~1/TC275/illd/Libraries/iLLD/TC27D/Tricore/Cpu/Std/Ifx_Types.h \
@@ -102,7 +104,7 @@ obj/Lcd_Driver.c.o: \
  /cygdrive/c/Users/USER/Desktop/WORKSP~1/TUNNEL~1/TC275/erika/inc/ee.h \
  /cygdrive/c/Users/USER/Desktop/WORKSP~1/TUNNEL~1/TC275/out/ee_declcfg.h
 
-/cygdrive/c/Users/USER/Desktop/WORKSP~1/TUNNEL~1/TC275/Lcd_Driver.h:
+/cygdrive/c/Users/USER/Desktop/WORKSP~1/TUNNEL~1/TC275/infotainment_System.h:
 
 /cygdrive/c/Users/USER/Desktop/WORKSP~1/TUNNEL~1/TC275/illd/src/ConfigurationIsr.h:
 
@@ -241,6 +243,10 @@ obj/Lcd_Driver.c.o: \
 /cygdrive/c/Users/USER/Desktop/WORKSP~1/TUNNEL~1/TC275/illd/Libraries/iLLD/TC27D/Tricore/Scu/Std/IfxScuWdt.h:
 
 /cygdrive/c/Users/USER/Desktop/WORKSP~1/TUNNEL~1/TC275/illd/Libraries/iLLD/TC27D/Tricore/Port/Std/IfxPort.h:
+
+/cygdrive/c/Users/USER/Desktop/WORKSP~1/TUNNEL~1/TC275/Button_Driver.h:
+
+/cygdrive/c/Users/USER/Desktop/WORKSP~1/TUNNEL~1/TC275/Lcd_Driver.h:
 
 /cygdrive/c/Users/USER/Desktop/WORKSP~1/TUNNEL~1/TC275/illd/src/IfxPort.h:
 

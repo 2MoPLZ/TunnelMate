@@ -54,6 +54,7 @@ CPU test_application {
 		APP_SRC = "Lcd_Driver.c";
 		APP_SRC = "ultrasonic_Driver.c";
 		APP_SRC = "Button_Driver.c";
+		APP_SRC = "infotainment_System.c";
 	};
 	ISR ASCLIN0_TX {
 		CATEGORY = 2;
@@ -81,6 +82,11 @@ CPU test_application {
 		SCHEDULE = FULL;
 		AUTOSTART = FALSE;
 		ACTIVATION = 1;
+	};
+	ISR ButtonISR {
+		CATEGORY = 2;
+		SOURCE = "SCUERU0";
+		PRIORITY = 10;
 	};
 	ISR TimerISR {
 		CATEGORY = 2;

@@ -38,6 +38,7 @@ DeclareTask(TaskUltrasonic);
 
 
 ISR2(asclin0TxISR);
+ISR2(ButtonISR);
 ISR2(TimerISR);
 
 

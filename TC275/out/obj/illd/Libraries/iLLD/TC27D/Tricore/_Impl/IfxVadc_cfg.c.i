@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # 1 "C:\\Users\\USER\\Desktop\\WORKSP~1\\TUNNEL~1\\TC275\\illd\\Libraries\\iLLD\\TC27D\\Tricore\\_Impl\\IfxVadc_cfg.c"
 # 1 "C:\\Users\\USER\\Desktop\\workspace\\TunnelMate\\TC275\\out//"
 # 1 "<built-in>"
@@ -11,20 +10,6 @@
 # 112 "C:\\Users\\USER\\Desktop\\WORKSP~1\\TUNNEL~1\\TC275/illd\\Libraries\\iLLD\\TC27D\\Tricore\\Src\\Std/IfxSrc.h"
 # 1 "C:\\Users\\USER\\Desktop\\WORKSP~1\\TUNNEL~1\\TC275/illd\\Libraries\\iLLD\\TC27D\\Tricore\\_Impl/IfxSrc_cfg.h" 1
 # 66 "C:\\Users\\USER\\Desktop\\WORKSP~1\\TUNNEL~1\\TC275/illd\\Libraries\\iLLD\\TC27D\\Tricore\\_Impl/IfxSrc_cfg.h"
-=======
-# 1 "C:\\Users\\USER\\OneDrive\\Desktop\\새폴더~1\\TUNNEL~1\\TC275\\illd\\Libraries\\iLLD\\TC27D\\Tricore\\_Impl\\IfxVadc_cfg.c"
-# 1 "C:\\Users\\USER\\OneDrive\\Desktop\\새 폴더\\TunnelMate\\TC275\\out//"
-# 1 "<built-in>"
-# 1 "<command-line>"
-# 1 "C:\\Users\\USER\\OneDrive\\Desktop\\새폴더~1\\TUNNEL~1\\TC275\\illd\\Libraries\\iLLD\\TC27D\\Tricore\\_Impl\\IfxVadc_cfg.c"
-# 46 "C:\\Users\\USER\\OneDrive\\Desktop\\새폴더~1\\TUNNEL~1\\TC275\\illd\\Libraries\\iLLD\\TC27D\\Tricore\\_Impl\\IfxVadc_cfg.c"
-# 1 "C:\\Users\\USER\\OneDrive\\Desktop\\새폴더~1\\TUNNEL~1\\TC275\\illd\\Libraries\\iLLD\\TC27D\\Tricore\\_Impl\\IfxVadc_cfg.h" 1
-# 56 "C:\\Users\\USER\\OneDrive\\Desktop\\새폴더~1\\TUNNEL~1\\TC275\\illd\\Libraries\\iLLD\\TC27D\\Tricore\\_Impl\\IfxVadc_cfg.h"
-# 1 "C:\\Users\\USER\\OneDrive\\Desktop\\새폴더~1\\TUNNEL~1\\TC275/illd\\Libraries\\iLLD\\TC27D\\Tricore\\Src\\Std/IfxSrc.h" 1
-# 112 "C:\\Users\\USER\\OneDrive\\Desktop\\새폴더~1\\TUNNEL~1\\TC275/illd\\Libraries\\iLLD\\TC27D\\Tricore\\Src\\Std/IfxSrc.h"
-# 1 "C:\\Users\\USER\\OneDrive\\Desktop\\새폴더~1\\TUNNEL~1\\TC275/illd\\Libraries\\iLLD\\TC27D\\Tricore\\_Impl/IfxSrc_cfg.h" 1
-# 66 "C:\\Users\\USER\\OneDrive\\Desktop\\새폴더~1\\TUNNEL~1\\TC275/illd\\Libraries\\iLLD\\TC27D\\Tricore\\_Impl/IfxSrc_cfg.h"
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 typedef enum
 {
     IfxSrc_Tos_cpu0 = 0,
@@ -32,7 +17,6 @@ typedef enum
     IfxSrc_Tos_cpu2 = 2,
     IfxSrc_Tos_dma = 3
 } IfxSrc_Tos;
-<<<<<<< HEAD
 # 113 "C:\\Users\\USER\\Desktop\\WORKSP~1\\TUNNEL~1\\TC275/illd\\Libraries\\iLLD\\TC27D\\Tricore\\Src\\Std/IfxSrc.h" 2
 # 1 "C:\\Users\\USER\\Desktop\\WORKSP~1\\TUNNEL~1\\TC275/illd\\Libraries\\iLLD\\TC27D\\Tricore\\Cpu\\Std/IfxCpu_Intrinsics.h" 1
 # 47 "C:\\Users\\USER\\Desktop\\WORKSP~1\\TUNNEL~1\\TC275/illd\\Libraries\\iLLD\\TC27D\\Tricore\\Cpu\\Std/IfxCpu_Intrinsics.h"
@@ -45,20 +29,6 @@ typedef enum
 # 81 "C:\\Users\\USER\\Desktop\\WORKSP~1\\TUNNEL~1\\TC275/illd\\Libraries\\Infra\\Platform\\Tricore\\Compilers/Compilers.h"
 # 1 "C:\\Users\\USER\\Desktop\\WORKSP~1\\TUNNEL~1\\TC275/illd\\Libraries\\Infra\\Platform\\Tricore\\Compilers/CompilerGnuc.h" 1
 # 46 "C:\\Users\\USER\\Desktop\\WORKSP~1\\TUNNEL~1\\TC275/illd\\Libraries\\Infra\\Platform\\Tricore\\Compilers/CompilerGnuc.h"
-=======
-# 113 "C:\\Users\\USER\\OneDrive\\Desktop\\새폴더~1\\TUNNEL~1\\TC275/illd\\Libraries\\iLLD\\TC27D\\Tricore\\Src\\Std/IfxSrc.h" 2
-# 1 "C:\\Users\\USER\\OneDrive\\Desktop\\새폴더~1\\TUNNEL~1\\TC275/illd\\Libraries\\iLLD\\TC27D\\Tricore\\Cpu\\Std/IfxCpu_Intrinsics.h" 1
-# 47 "C:\\Users\\USER\\OneDrive\\Desktop\\새폴더~1\\TUNNEL~1\\TC275/illd\\Libraries\\iLLD\\TC27D\\Tricore\\Cpu\\Std/IfxCpu_Intrinsics.h"
-# 1 "C:\\Users\\USER\\OneDrive\\Desktop\\새폴더~1\\TUNNEL~1\\TC275/illd\\Libraries\\iLLD\\TC27D\\Tricore\\Cpu\\Std\\Ifx_Types.h" 1
-# 46 "C:\\Users\\USER\\OneDrive\\Desktop\\새폴더~1\\TUNNEL~1\\TC275/illd\\Libraries\\iLLD\\TC27D\\Tricore\\Cpu\\Std\\Ifx_Types.h"
-# 1 "C:\\Users\\USER\\OneDrive\\Desktop\\새폴더~1\\TUNNEL~1\\TC275/illd\\Libraries\\Infra\\Platform\\Tricore\\Compilers/Compilers.h" 1
-# 46 "C:\\Users\\USER\\OneDrive\\Desktop\\새폴더~1\\TUNNEL~1\\TC275/illd\\Libraries\\Infra\\Platform\\Tricore\\Compilers/Compilers.h"
-# 1 "C:\\Users\\USER\\OneDrive\\Desktop\\새폴더~1\\TUNNEL~1\\TC275/illd\\Configurations\\Ifx_Cfg.h" 1
-# 47 "C:\\Users\\USER\\OneDrive\\Desktop\\새폴더~1\\TUNNEL~1\\TC275/illd\\Libraries\\Infra\\Platform\\Tricore\\Compilers/Compilers.h" 2
-# 81 "C:\\Users\\USER\\OneDrive\\Desktop\\새폴더~1\\TUNNEL~1\\TC275/illd\\Libraries\\Infra\\Platform\\Tricore\\Compilers/Compilers.h"
-# 1 "C:\\Users\\USER\\OneDrive\\Desktop\\새폴더~1\\TUNNEL~1\\TC275/illd\\Libraries\\Infra\\Platform\\Tricore\\Compilers/CompilerGnuc.h" 1
-# 46 "C:\\Users\\USER\\OneDrive\\Desktop\\새폴더~1\\TUNNEL~1\\TC275/illd\\Libraries\\Infra\\Platform\\Tricore\\Compilers/CompilerGnuc.h"
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 # 1 "c:\\hightec\\toolchains\\tricore\\v4.9.3.0-infineon-1.0\\lib\\gcc\\tricore\\4.9.4\\include\\stddef.h" 1 3 4
 # 147 "c:\\hightec\\toolchains\\tricore\\v4.9.3.0-infineon-1.0\\lib\\gcc\\tricore\\4.9.4\\include\\stddef.h" 3 4
 typedef long int ptrdiff_t;
@@ -66,7 +36,6 @@ typedef long int ptrdiff_t;
 typedef long unsigned int size_t;
 # 324 "c:\\hightec\\toolchains\\tricore\\v4.9.3.0-infineon-1.0\\lib\\gcc\\tricore\\4.9.4\\include\\stddef.h" 3 4
 typedef int wchar_t;
-<<<<<<< HEAD
 # 47 "C:\\Users\\USER\\Desktop\\WORKSP~1\\TUNNEL~1\\TC275/illd\\Libraries\\Infra\\Platform\\Tricore\\Compilers/CompilerGnuc.h" 2
 # 82 "C:\\Users\\USER\\Desktop\\WORKSP~1\\TUNNEL~1\\TC275/illd\\Libraries\\Infra\\Platform\\Tricore\\Compilers/Compilers.h" 2
 # 93 "C:\\Users\\USER\\Desktop\\WORKSP~1\\TUNNEL~1\\TC275/illd\\Libraries\\Infra\\Platform\\Tricore\\Compilers/Compilers.h"
@@ -74,15 +43,6 @@ void Ifx_C_Init(void);
 # 47 "C:\\Users\\USER\\Desktop\\WORKSP~1\\TUNNEL~1\\TC275/illd\\Libraries\\iLLD\\TC27D\\Tricore\\Cpu\\Std\\Ifx_Types.h" 2
 # 1 "C:\\Users\\USER\\Desktop\\WORKSP~1\\TUNNEL~1\\TC275/illd\\Libraries\\iLLD\\TC27D\\Tricore\\Cpu\\Std\\Platform_Types.h" 1
 # 104 "C:\\Users\\USER\\Desktop\\WORKSP~1\\TUNNEL~1\\TC275/illd\\Libraries\\iLLD\\TC27D\\Tricore\\Cpu\\Std\\Platform_Types.h"
-=======
-# 47 "C:\\Users\\USER\\OneDrive\\Desktop\\새폴더~1\\TUNNEL~1\\TC275/illd\\Libraries\\Infra\\Platform\\Tricore\\Compilers/CompilerGnuc.h" 2
-# 82 "C:\\Users\\USER\\OneDrive\\Desktop\\새폴더~1\\TUNNEL~1\\TC275/illd\\Libraries\\Infra\\Platform\\Tricore\\Compilers/Compilers.h" 2
-# 93 "C:\\Users\\USER\\OneDrive\\Desktop\\새폴더~1\\TUNNEL~1\\TC275/illd\\Libraries\\Infra\\Platform\\Tricore\\Compilers/Compilers.h"
-void Ifx_C_Init(void);
-# 47 "C:\\Users\\USER\\OneDrive\\Desktop\\새폴더~1\\TUNNEL~1\\TC275/illd\\Libraries\\iLLD\\TC27D\\Tricore\\Cpu\\Std\\Ifx_Types.h" 2
-# 1 "C:\\Users\\USER\\OneDrive\\Desktop\\새폴더~1\\TUNNEL~1\\TC275/illd\\Libraries\\iLLD\\TC27D\\Tricore\\Cpu\\Std\\Platform_Types.h" 1
-# 104 "C:\\Users\\USER\\OneDrive\\Desktop\\새폴더~1\\TUNNEL~1\\TC275/illd\\Libraries\\iLLD\\TC27D\\Tricore\\Cpu\\Std\\Platform_Types.h"
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 typedef unsigned char boolean;
 
 
@@ -155,11 +115,7 @@ typedef float float32;
 
 
 typedef double float64;
-<<<<<<< HEAD
 # 48 "C:\\Users\\USER\\Desktop\\WORKSP~1\\TUNNEL~1\\TC275/illd\\Libraries\\iLLD\\TC27D\\Tricore\\Cpu\\Std\\Ifx_Types.h" 2
-=======
-# 48 "C:\\Users\\USER\\OneDrive\\Desktop\\새폴더~1\\TUNNEL~1\\TC275/illd\\Libraries\\iLLD\\TC27D\\Tricore\\Cpu\\Std\\Ifx_Types.h" 2
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 
 
 
@@ -189,11 +145,7 @@ typedef struct
 } csint16;
 
 typedef sint64 Ifx_TickTime;
-<<<<<<< HEAD
 # 89 "C:\\Users\\USER\\Desktop\\WORKSP~1\\TUNNEL~1\\TC275/illd\\Libraries\\iLLD\\TC27D\\Tricore\\Cpu\\Std\\Ifx_Types.h"
-=======
-# 89 "C:\\Users\\USER\\OneDrive\\Desktop\\새폴더~1\\TUNNEL~1\\TC275/illd\\Libraries\\iLLD\\TC27D\\Tricore\\Cpu\\Std\\Ifx_Types.h"
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 typedef sint16 Ifx_SizeT;
 
 
@@ -256,22 +208,14 @@ typedef struct
     Ifx_TickTime timestamp;
     uint8 data;
 }Ifx_DataBufferMode_TimeStampSingle;
-<<<<<<< HEAD
 # 161 "C:\\Users\\USER\\Desktop\\WORKSP~1\\TUNNEL~1\\TC275/illd\\Libraries\\iLLD\\TC27D\\Tricore\\Cpu\\Std\\Ifx_Types.h"
-=======
-# 161 "C:\\Users\\USER\\OneDrive\\Desktop\\새폴더~1\\TUNNEL~1\\TC275/illd\\Libraries\\iLLD\\TC27D\\Tricore\\Cpu\\Std\\Ifx_Types.h"
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 typedef enum
 {
     Ifx_DataBufferMode_normal = 0,
     Ifx_DataBufferMode_timeStampSingle,
 
 }Ifx_DataBufferMode;
-<<<<<<< HEAD
 # 175 "C:\\Users\\USER\\Desktop\\WORKSP~1\\TUNNEL~1\\TC275/illd\\Libraries\\iLLD\\TC27D\\Tricore\\Cpu\\Std\\Ifx_Types.h"
-=======
-# 175 "C:\\Users\\USER\\OneDrive\\Desktop\\새폴더~1\\TUNNEL~1\\TC275/illd\\Libraries\\iLLD\\TC27D\\Tricore\\Cpu\\Std\\Ifx_Types.h"
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 typedef enum
 {
     Ifx_Pwm_Mode_centerAligned = 0,
@@ -287,13 +231,8 @@ typedef enum
 
 
 
-<<<<<<< HEAD
 # 1 "C:\\Users\\USER\\Desktop\\WORKSP~1\\TUNNEL~1\\TC275/illd\\Libraries\\iLLD\\TC27D\\Tricore\\Cpu\\Std\\Ifx_TypesGnuc.h" 1
 # 44 "C:\\Users\\USER\\Desktop\\WORKSP~1\\TUNNEL~1\\TC275/illd\\Libraries\\iLLD\\TC27D\\Tricore\\Cpu\\Std\\Ifx_TypesGnuc.h"
-=======
-# 1 "C:\\Users\\USER\\OneDrive\\Desktop\\새폴더~1\\TUNNEL~1\\TC275/illd\\Libraries\\iLLD\\TC27D\\Tricore\\Cpu\\Std\\Ifx_TypesGnuc.h" 1
-# 44 "C:\\Users\\USER\\OneDrive\\Desktop\\새폴더~1\\TUNNEL~1\\TC275/illd\\Libraries\\iLLD\\TC27D\\Tricore\\Cpu\\Std\\Ifx_TypesGnuc.h"
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 # 1 "c:\\hightec\\toolchains\\tricore\\v4.9.3.0-infineon-1.0\\tricore\\include\\machine\\cint.h" 1 3
 # 24 "c:\\hightec\\toolchains\\tricore\\v4.9.3.0-infineon-1.0\\tricore\\include\\machine\\cint.h" 3
 extern void _init_vectab (void);
@@ -326,11 +265,7 @@ extern int _remove_chained_int_handler (int intno, void *ptr);
 
 
 extern int _install_trap_handler (int trapno, void (*handler) (int));
-<<<<<<< HEAD
 # 45 "C:\\Users\\USER\\Desktop\\WORKSP~1\\TUNNEL~1\\TC275/illd\\Libraries\\iLLD\\TC27D\\Tricore\\Cpu\\Std\\Ifx_TypesGnuc.h" 2
-=======
-# 45 "C:\\Users\\USER\\OneDrive\\Desktop\\새폴더~1\\TUNNEL~1\\TC275/illd\\Libraries\\iLLD\\TC27D\\Tricore\\Cpu\\Std\\Ifx_TypesGnuc.h" 2
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 
 
 typedef long fract;
@@ -340,11 +275,7 @@ typedef long __packb;
 typedef unsigned long __upackb;
 typedef long __packhw;
 typedef unsigned long __upackhw;
-<<<<<<< HEAD
 # 191 "C:\\Users\\USER\\Desktop\\WORKSP~1\\TUNNEL~1\\TC275/illd\\Libraries\\iLLD\\TC27D\\Tricore\\Cpu\\Std\\Ifx_Types.h" 2
-=======
-# 191 "C:\\Users\\USER\\OneDrive\\Desktop\\새폴더~1\\TUNNEL~1\\TC275/illd\\Libraries\\iLLD\\TC27D\\Tricore\\Cpu\\Std\\Ifx_Types.h" 2
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 
 
 
@@ -361,23 +292,14 @@ typedef struct
     sfract real;
     sfract imag;
 } csfract;
-<<<<<<< HEAD
 # 48 "C:\\Users\\USER\\Desktop\\WORKSP~1\\TUNNEL~1\\TC275/illd\\Libraries\\iLLD\\TC27D\\Tricore\\Cpu\\Std/IfxCpu_Intrinsics.h" 2
-=======
-# 48 "C:\\Users\\USER\\OneDrive\\Desktop\\새폴더~1\\TUNNEL~1\\TC275/illd\\Libraries\\iLLD\\TC27D\\Tricore\\Cpu\\Std/IfxCpu_Intrinsics.h" 2
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 
 
 
 
 
-<<<<<<< HEAD
 # 1 "C:\\Users\\USER\\Desktop\\WORKSP~1\\TUNNEL~1\\TC275/illd\\Libraries\\iLLD\\TC27D\\Tricore\\Cpu\\Std\\IfxCpu_IntrinsicsGnuc.h" 1
 # 59 "C:\\Users\\USER\\Desktop\\WORKSP~1\\TUNNEL~1\\TC275/illd\\Libraries\\iLLD\\TC27D\\Tricore\\Cpu\\Std\\IfxCpu_IntrinsicsGnuc.h"
-=======
-# 1 "C:\\Users\\USER\\OneDrive\\Desktop\\새폴더~1\\TUNNEL~1\\TC275/illd\\Libraries\\iLLD\\TC27D\\Tricore\\Cpu\\Std\\IfxCpu_IntrinsicsGnuc.h" 1
-# 59 "C:\\Users\\USER\\OneDrive\\Desktop\\새폴더~1\\TUNNEL~1\\TC275/illd\\Libraries\\iLLD\\TC27D\\Tricore\\Cpu\\Std\\IfxCpu_IntrinsicsGnuc.h"
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 # 1 "c:\\hightec\\toolchains\\tricore\\v4.9.3.0-infineon-1.0\\tricore\\include\\machine\\intrinsics.h" 1 3
 # 88 "c:\\hightec\\toolchains\\tricore\\v4.9.3.0-infineon-1.0\\tricore\\include\\machine\\intrinsics.h" 3
 static __inline__ __attribute__((__always_inline__))
@@ -482,13 +404,8 @@ void _restore (const int irqs_on)
 
 
 }
-<<<<<<< HEAD
 # 60 "C:\\Users\\USER\\Desktop\\WORKSP~1\\TUNNEL~1\\TC275/illd\\Libraries\\iLLD\\TC27D\\Tricore\\Cpu\\Std\\IfxCpu_IntrinsicsGnuc.h" 2
 # 72 "C:\\Users\\USER\\Desktop\\WORKSP~1\\TUNNEL~1\\TC275/illd\\Libraries\\iLLD\\TC27D\\Tricore\\Cpu\\Std\\IfxCpu_IntrinsicsGnuc.h"
-=======
-# 60 "C:\\Users\\USER\\OneDrive\\Desktop\\새폴더~1\\TUNNEL~1\\TC275/illd\\Libraries\\iLLD\\TC27D\\Tricore\\Cpu\\Std\\IfxCpu_IntrinsicsGnuc.h" 2
-# 72 "C:\\Users\\USER\\OneDrive\\Desktop\\새폴더~1\\TUNNEL~1\\TC275/illd\\Libraries\\iLLD\\TC27D\\Tricore\\Cpu\\Std\\IfxCpu_IntrinsicsGnuc.h"
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 static inline __attribute__ ((always_inline)) void Ifx__jump_and_link(void (*fun)(void))
 {
  __asm__ volatile ("jli %0"::"a"(fun));
@@ -530,11 +447,7 @@ static inline __attribute__ ((always_inline)) void Ifx__jumpBackToLink(void)
 {
  __asm__ volatile ("ji %a11");
 }
-<<<<<<< HEAD
 # 148 "C:\\Users\\USER\\Desktop\\WORKSP~1\\TUNNEL~1\\TC275/illd\\Libraries\\iLLD\\TC27D\\Tricore\\Cpu\\Std\\IfxCpu_IntrinsicsGnuc.h"
-=======
-# 148 "C:\\Users\\USER\\OneDrive\\Desktop\\새폴더~1\\TUNNEL~1\\TC275/illd\\Libraries\\iLLD\\TC27D\\Tricore\\Cpu\\Std\\IfxCpu_IntrinsicsGnuc.h"
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 static inline __attribute__ ((always_inline)) sint32 Ifx__max(sint32 a, sint32 b)
 {
     sint32 res;
@@ -585,11 +498,7 @@ static inline __attribute__ ((always_inline)) uint32 Ifx__minu(uint32 a, uint32 
     __asm__ volatile ("min.u %0, %1, %2": "=d" (res) : "d" (a), "d" (b));
     return res;
 }
-<<<<<<< HEAD
 # 238 "C:\\Users\\USER\\Desktop\\WORKSP~1\\TUNNEL~1\\TC275/illd\\Libraries\\iLLD\\TC27D\\Tricore\\Cpu\\Std\\IfxCpu_IntrinsicsGnuc.h"
-=======
-# 238 "C:\\Users\\USER\\OneDrive\\Desktop\\새폴더~1\\TUNNEL~1\\TC275/illd\\Libraries\\iLLD\\TC27D\\Tricore\\Cpu\\Std\\IfxCpu_IntrinsicsGnuc.h"
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 static inline __attribute__ ((always_inline)) sint16 Ifx__clssf(sfract a)
 {
     sint16 res;
@@ -772,11 +681,7 @@ static inline __attribute__ ((always_inline)) sfract Ifx__u16_to_sfract(uint16 a
 
     return res;
 }
-<<<<<<< HEAD
 # 430 "C:\\Users\\USER\\Desktop\\WORKSP~1\\TUNNEL~1\\TC275/illd\\Libraries\\iLLD\\TC27D\\Tricore\\Cpu\\Std\\IfxCpu_IntrinsicsGnuc.h"
-=======
-# 430 "C:\\Users\\USER\\OneDrive\\Desktop\\새폴더~1\\TUNNEL~1\\TC275/illd\\Libraries\\iLLD\\TC27D\\Tricore\\Cpu\\Std\\IfxCpu_IntrinsicsGnuc.h"
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 static inline __attribute__ ((always_inline)) sint32 Ifx__extr(sint32 a, uint32 p, uint32 w)
 {
     sint32 res;
@@ -798,11 +703,7 @@ static inline __attribute__ ((always_inline)) uint32 Ifx__extru(uint32 a, uint32
                       : "=d" (res) : "d" (a), "d" (p), "d" (w):"d14", "d15");
     return res;
 }
-<<<<<<< HEAD
 # 468 "C:\\Users\\USER\\Desktop\\WORKSP~1\\TUNNEL~1\\TC275/illd\\Libraries\\iLLD\\TC27D\\Tricore\\Cpu\\Std\\IfxCpu_IntrinsicsGnuc.h"
-=======
-# 468 "C:\\Users\\USER\\OneDrive\\Desktop\\새폴더~1\\TUNNEL~1\\TC275/illd\\Libraries\\iLLD\\TC27D\\Tricore\\Cpu\\Std\\IfxCpu_IntrinsicsGnuc.h"
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 static inline __attribute__ ((always_inline)) sint32 Ifx__ins(sint32 trg, const sint32 trgbit, sint32 src, const sint32 srcbit)
 {
     sint32 res;
@@ -830,11 +731,7 @@ static inline __attribute__ ((always_inline)) sint32 Ifx__insn(sint32 trg, const
     __asm__ volatile ("insn.t %0,%1,%2,%3,%4":"=d"(res):"d"(trg), "i"(trgbit), "d"(src), "i"(srcbit));
     return res;
 }
-<<<<<<< HEAD
 # 520 "C:\\Users\\USER\\Desktop\\WORKSP~1\\TUNNEL~1\\TC275/illd\\Libraries\\iLLD\\TC27D\\Tricore\\Cpu\\Std\\IfxCpu_IntrinsicsGnuc.h"
-=======
-# 520 "C:\\Users\\USER\\OneDrive\\Desktop\\새폴더~1\\TUNNEL~1\\TC275/illd\\Libraries\\iLLD\\TC27D\\Tricore\\Cpu\\Std\\IfxCpu_IntrinsicsGnuc.h"
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 static inline __attribute__ ((always_inline)) sint32 Ifx__disable_and_save(void)
 {
     sint32 res;
@@ -852,11 +749,7 @@ static inline __attribute__ ((always_inline)) void Ifx__restore(sint32 ie)
 {
     __asm__ volatile ("restore %0"::"d"(ie));
 }
-<<<<<<< HEAD
 # 554 "C:\\Users\\USER\\Desktop\\WORKSP~1\\TUNNEL~1\\TC275/illd\\Libraries\\iLLD\\TC27D\\Tricore\\Cpu\\Std\\IfxCpu_IntrinsicsGnuc.h"
-=======
-# 554 "C:\\Users\\USER\\OneDrive\\Desktop\\새폴더~1\\TUNNEL~1\\TC275/illd\\Libraries\\iLLD\\TC27D\\Tricore\\Cpu\\Std\\IfxCpu_IntrinsicsGnuc.h"
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 static inline __attribute__ ((always_inline)) void Ifx__cacheawi(uint8* p)
 {
     __asm__ volatile("cachea.wi [%0]0"::"a"(p));
@@ -909,11 +802,7 @@ static inline __attribute__ ((always_inline)) uint32 Ifx__ror(uint32 operand, ui
                      :"=d"(res):"d"(operand), "d"(count):"memory");
     return res;
 }
-<<<<<<< HEAD
 # 616 "C:\\Users\\USER\\Desktop\\WORKSP~1\\TUNNEL~1\\TC275/illd\\Libraries\\iLLD\\TC27D\\Tricore\\Cpu\\Std\\IfxCpu_IntrinsicsGnuc.h"
-=======
-# 616 "C:\\Users\\USER\\OneDrive\\Desktop\\새폴더~1\\TUNNEL~1\\TC275/illd\\Libraries\\iLLD\\TC27D\\Tricore\\Cpu\\Std\\IfxCpu_IntrinsicsGnuc.h"
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 static inline __attribute__ ((always_inline)) __packb Ifx__absb(__packb a)
 {
     __packb res;
@@ -1534,11 +1423,7 @@ static inline __attribute__ ((always_inline)) void Ifx__setuhw2(__upackhw* a, ui
 
                       ::"a"(a), "d"(b):"d15", "memory");
 }
-<<<<<<< HEAD
 # 1251 "C:\\Users\\USER\\Desktop\\WORKSP~1\\TUNNEL~1\\TC275/illd\\Libraries\\iLLD\\TC27D\\Tricore\\Cpu\\Std\\IfxCpu_IntrinsicsGnuc.h"
-=======
-# 1251 "C:\\Users\\USER\\OneDrive\\Desktop\\새폴더~1\\TUNNEL~1\\TC275/illd\\Libraries\\iLLD\\TC27D\\Tricore\\Cpu\\Std\\IfxCpu_IntrinsicsGnuc.h"
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 static inline __attribute__ ((always_inline)) sint32 Ifx__absdif(sint32 a, sint32 b)
 {
     sint32 res;
@@ -1594,11 +1479,7 @@ static inline __attribute__ ((always_inline)) float Ifx__fabsf(float f)
     __asm__ volatile ("insert  %0,%1,0,31,1": "=d" (res) : "d" (f):"memory");
     return res;
 }
-<<<<<<< HEAD
 # 1322 "C:\\Users\\USER\\Desktop\\WORKSP~1\\TUNNEL~1\\TC275/illd\\Libraries\\iLLD\\TC27D\\Tricore\\Cpu\\Std\\IfxCpu_IntrinsicsGnuc.h"
-=======
-# 1322 "C:\\Users\\USER\\OneDrive\\Desktop\\새폴더~1\\TUNNEL~1\\TC275/illd\\Libraries\\iLLD\\TC27D\\Tricore\\Cpu\\Std\\IfxCpu_IntrinsicsGnuc.h"
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 static inline __attribute__ ((always_inline)) sint32 Ifx__parity(sint32 a)
 {
     sint32 res;
@@ -1641,11 +1522,7 @@ static inline __attribute__ ((always_inline)) uint16 Ifx__sathu(sint32 a)
     __asm__ volatile ("sat.hu %0,%1":"=d"(res):"d"(a));
     return res;
 }
-<<<<<<< HEAD
 # 1375 "C:\\Users\\USER\\Desktop\\WORKSP~1\\TUNNEL~1\\TC275/illd\\Libraries\\iLLD\\TC27D\\Tricore\\Cpu\\Std\\IfxCpu_IntrinsicsGnuc.h"
-=======
-# 1375 "C:\\Users\\USER\\OneDrive\\Desktop\\새폴더~1\\TUNNEL~1\\TC275/illd\\Libraries\\iLLD\\TC27D\\Tricore\\Cpu\\Std\\IfxCpu_IntrinsicsGnuc.h"
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 static inline __attribute__ ((always_inline)) sint32 Ifx__adds(sint32 a, sint32 b)
 {
     sint32 res;
@@ -1679,11 +1556,7 @@ static inline __attribute__ ((always_inline)) uint32 Ifx__subsu(uint32 a, uint32
     __asm__ volatile ("subs.u %0, %1, %2": "=d" (res) : "d" (a), "d" (b));
     return res;
 }
-<<<<<<< HEAD
 # 1421 "C:\\Users\\USER\\Desktop\\WORKSP~1\\TUNNEL~1\\TC275/illd\\Libraries\\iLLD\\TC27D\\Tricore\\Cpu\\Std\\IfxCpu_IntrinsicsGnuc.h"
-=======
-# 1421 "C:\\Users\\USER\\OneDrive\\Desktop\\새폴더~1\\TUNNEL~1\\TC275/illd\\Libraries\\iLLD\\TC27D\\Tricore\\Cpu\\Std\\IfxCpu_IntrinsicsGnuc.h"
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 static inline __attribute__ ((always_inline)) void Ifx__debug(void)
 {
     __asm__ volatile ("debug" : : : "memory");
@@ -1754,11 +1627,7 @@ static inline __attribute__ ((always_inline)) uint32 Ifx__swap(void* place, uint
     __asm__ volatile("swap.w [%1]0,%2":"=d"(res):"a"(place), "0"(value));
     return res;
 }
-<<<<<<< HEAD
 # 1505 "C:\\Users\\USER\\Desktop\\WORKSP~1\\TUNNEL~1\\TC275/illd\\Libraries\\iLLD\\TC27D\\Tricore\\Cpu\\Std\\IfxCpu_IntrinsicsGnuc.h"
-=======
-# 1505 "C:\\Users\\USER\\OneDrive\\Desktop\\새폴더~1\\TUNNEL~1\\TC275/illd\\Libraries\\iLLD\\TC27D\\Tricore\\Cpu\\Std\\IfxCpu_IntrinsicsGnuc.h"
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 static inline __attribute__ ((always_inline)) void Ifx__stopPerfCounters(void)
 {
     __asm__ volatile("mov %%d0,0\n                  mtcr 0xFC00,%%d0\n                  isync\n"
@@ -1786,11 +1655,7 @@ static inline __attribute__ ((always_inline)) unsigned int Ifx__cmpAndSwap (unsi
                         : "memory");
     return reg64;
 }
-<<<<<<< HEAD
 # 1544 "C:\\Users\\USER\\Desktop\\WORKSP~1\\TUNNEL~1\\TC275/illd\\Libraries\\iLLD\\TC27D\\Tricore\\Cpu\\Std\\IfxCpu_IntrinsicsGnuc.h"
-=======
-# 1544 "C:\\Users\\USER\\OneDrive\\Desktop\\새폴더~1\\TUNNEL~1\\TC275/illd\\Libraries\\iLLD\\TC27D\\Tricore\\Cpu\\Std\\IfxCpu_IntrinsicsGnuc.h"
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 static inline __attribute__ ((always_inline)) float32 Ifx__fixpoint_to_float32(fract value, sint32 shift)
 {
     float32 result;
@@ -1862,13 +1727,8 @@ static inline __attribute__ ((always_inline)) void Ifx__cacheai(uint8* p)
 {
     __asm__ volatile("cachea.i [%0]0"::"a"(p));
 }
-<<<<<<< HEAD
 # 54 "C:\\Users\\USER\\Desktop\\WORKSP~1\\TUNNEL~1\\TC275/illd\\Libraries\\iLLD\\TC27D\\Tricore\\Cpu\\Std/IfxCpu_Intrinsics.h" 2
 # 87 "C:\\Users\\USER\\Desktop\\WORKSP~1\\TUNNEL~1\\TC275/illd\\Libraries\\iLLD\\TC27D\\Tricore\\Cpu\\Std/IfxCpu_Intrinsics.h"
-=======
-# 54 "C:\\Users\\USER\\OneDrive\\Desktop\\새폴더~1\\TUNNEL~1\\TC275/illd\\Libraries\\iLLD\\TC27D\\Tricore\\Cpu\\Std/IfxCpu_Intrinsics.h" 2
-# 87 "C:\\Users\\USER\\OneDrive\\Desktop\\새폴더~1\\TUNNEL~1\\TC275/illd\\Libraries\\iLLD\\TC27D\\Tricore\\Cpu\\Std/IfxCpu_Intrinsics.h"
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 static inline __attribute__ ((always_inline)) void *__cx_to_addr(uint32 cx)
 {
     uint32 seg_nr = Ifx__extru(cx, 16, 4);
@@ -1946,7 +1806,6 @@ static inline __attribute__ ((always_inline)) void __st64_lu(void *addr, uint32 
     register uint64 value = ((uint64)valueUpper << 32) | valueLower;
     __st64(addr, value);
 }
-<<<<<<< HEAD
 # 114 "C:\\Users\\USER\\Desktop\\WORKSP~1\\TUNNEL~1\\TC275/illd\\Libraries\\iLLD\\TC27D\\Tricore\\Src\\Std/IfxSrc.h" 2
 # 1 "C:\\Users\\USER\\Desktop\\WORKSP~1\\TUNNEL~1\\TC275/illd\\Libraries\\Infra\\Sfr\\TC27D\\_Reg\\IfxSrc_reg.h" 1
 # 54 "C:\\Users\\USER\\Desktop\\WORKSP~1\\TUNNEL~1\\TC275/illd\\Libraries\\Infra\\Sfr\\TC27D\\_Reg\\IfxSrc_reg.h"
@@ -1954,15 +1813,6 @@ static inline __attribute__ ((always_inline)) void __st64_lu(void *addr, uint32 
 # 57 "C:\\Users\\USER\\Desktop\\WORKSP~1\\TUNNEL~1\\TC275/illd\\Libraries\\Infra\\Sfr\\TC27D\\_Reg\\IfxSrc_regdef.h"
 # 1 "C:\\Users\\USER\\Desktop\\WORKSP~1\\TUNNEL~1\\TC275/illd\\Libraries\\Infra\\Sfr\\TC27D\\_Reg\\Ifx_TypesReg.h" 1
 # 58 "C:\\Users\\USER\\Desktop\\WORKSP~1\\TUNNEL~1\\TC275/illd\\Libraries\\Infra\\Sfr\\TC27D\\_Reg\\IfxSrc_regdef.h" 2
-=======
-# 114 "C:\\Users\\USER\\OneDrive\\Desktop\\새폴더~1\\TUNNEL~1\\TC275/illd\\Libraries\\iLLD\\TC27D\\Tricore\\Src\\Std/IfxSrc.h" 2
-# 1 "C:\\Users\\USER\\OneDrive\\Desktop\\새폴더~1\\TUNNEL~1\\TC275/illd\\Libraries\\Infra\\Sfr\\TC27D\\_Reg\\IfxSrc_reg.h" 1
-# 54 "C:\\Users\\USER\\OneDrive\\Desktop\\새폴더~1\\TUNNEL~1\\TC275/illd\\Libraries\\Infra\\Sfr\\TC27D\\_Reg\\IfxSrc_reg.h"
-# 1 "C:\\Users\\USER\\OneDrive\\Desktop\\새폴더~1\\TUNNEL~1\\TC275/illd\\Libraries\\Infra\\Sfr\\TC27D\\_Reg\\IfxSrc_regdef.h" 1
-# 57 "C:\\Users\\USER\\OneDrive\\Desktop\\새폴더~1\\TUNNEL~1\\TC275/illd\\Libraries\\Infra\\Sfr\\TC27D\\_Reg\\IfxSrc_regdef.h"
-# 1 "C:\\Users\\USER\\OneDrive\\Desktop\\새폴더~1\\TUNNEL~1\\TC275/illd\\Libraries\\Infra\\Sfr\\TC27D\\_Reg\\Ifx_TypesReg.h" 1
-# 58 "C:\\Users\\USER\\OneDrive\\Desktop\\새폴더~1\\TUNNEL~1\\TC275/illd\\Libraries\\Infra\\Sfr\\TC27D\\_Reg\\IfxSrc_regdef.h" 2
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 
 
 
@@ -1999,11 +1849,7 @@ typedef union
     signed int I;
     Ifx_SRC_SRCR_Bits B;
 } Ifx_SRC_SRCR;
-<<<<<<< HEAD
 # 104 "C:\\Users\\USER\\Desktop\\WORKSP~1\\TUNNEL~1\\TC275/illd\\Libraries\\Infra\\Sfr\\TC27D\\_Reg\\IfxSrc_regdef.h"
-=======
-# 104 "C:\\Users\\USER\\OneDrive\\Desktop\\새폴더~1\\TUNNEL~1\\TC275/illd\\Libraries\\Infra\\Sfr\\TC27D\\_Reg\\IfxSrc_regdef.h"
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 typedef volatile struct _Ifx_SRC_AGBT
 {
     Ifx_SRC_SRCR SR;
@@ -2288,11 +2134,7 @@ typedef volatile struct _Ifx_SRC_XBAR
 {
     Ifx_SRC_SRCR SRC;
 } Ifx_SRC_XBAR;
-<<<<<<< HEAD
 # 400 "C:\\Users\\USER\\Desktop\\WORKSP~1\\TUNNEL~1\\TC275/illd\\Libraries\\Infra\\Sfr\\TC27D\\_Reg\\IfxSrc_regdef.h"
-=======
-# 400 "C:\\Users\\USER\\OneDrive\\Desktop\\새폴더~1\\TUNNEL~1\\TC275/illd\\Libraries\\Infra\\Sfr\\TC27D\\_Reg\\IfxSrc_regdef.h"
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 typedef volatile struct _Ifx_SRC_GAGBT
 {
     Ifx_SRC_AGBT AGBT[1];
@@ -2498,11 +2340,7 @@ typedef volatile struct _Ifx_SRC_GXBAR
 {
     Ifx_SRC_XBAR XBAR;
 } Ifx_SRC_GXBAR;
-<<<<<<< HEAD
 # 617 "C:\\Users\\USER\\Desktop\\WORKSP~1\\TUNNEL~1\\TC275/illd\\Libraries\\Infra\\Sfr\\TC27D\\_Reg\\IfxSrc_regdef.h"
-=======
-# 617 "C:\\Users\\USER\\OneDrive\\Desktop\\새폴더~1\\TUNNEL~1\\TC275/illd\\Libraries\\Infra\\Sfr\\TC27D\\_Reg\\IfxSrc_regdef.h"
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 typedef volatile struct _Ifx_SRC
 {
     Ifx_SRC_GCPU CPU;
@@ -2570,7 +2408,6 @@ typedef volatile struct _Ifx_SRC
     Ifx_SRC_GGTM GTM;
     unsigned char reserved_1F50[176];
 } Ifx_SRC;
-<<<<<<< HEAD
 # 55 "C:\\Users\\USER\\Desktop\\WORKSP~1\\TUNNEL~1\\TC275/illd\\Libraries\\Infra\\Sfr\\TC27D\\_Reg\\IfxSrc_reg.h" 2
 # 115 "C:\\Users\\USER\\Desktop\\WORKSP~1\\TUNNEL~1\\TC275/illd\\Libraries\\iLLD\\TC27D\\Tricore\\Src\\Std/IfxSrc.h" 2
 # 129 "C:\\Users\\USER\\Desktop\\WORKSP~1\\TUNNEL~1\\TC275/illd\\Libraries\\iLLD\\TC27D\\Tricore\\Src\\Std/IfxSrc.h"
@@ -2590,27 +2427,6 @@ static inline __attribute__ ((always_inline)) void IfxSrc_disable(volatile Ifx_S
 # 201 "C:\\Users\\USER\\Desktop\\WORKSP~1\\TUNNEL~1\\TC275/illd\\Libraries\\iLLD\\TC27D\\Tricore\\Src\\Std/IfxSrc.h"
 static inline __attribute__ ((always_inline)) void IfxSrc_enable(volatile Ifx_SRC_SRCR *src);
 # 233 "C:\\Users\\USER\\Desktop\\WORKSP~1\\TUNNEL~1\\TC275/illd\\Libraries\\iLLD\\TC27D\\Tricore\\Src\\Std/IfxSrc.h"
-=======
-# 55 "C:\\Users\\USER\\OneDrive\\Desktop\\새폴더~1\\TUNNEL~1\\TC275/illd\\Libraries\\Infra\\Sfr\\TC27D\\_Reg\\IfxSrc_reg.h" 2
-# 115 "C:\\Users\\USER\\OneDrive\\Desktop\\새폴더~1\\TUNNEL~1\\TC275/illd\\Libraries\\iLLD\\TC27D\\Tricore\\Src\\Std/IfxSrc.h" 2
-# 129 "C:\\Users\\USER\\OneDrive\\Desktop\\새폴더~1\\TUNNEL~1\\TC275/illd\\Libraries\\iLLD\\TC27D\\Tricore\\Src\\Std/IfxSrc.h"
-static inline __attribute__ ((always_inline)) void IfxSrc_clearOverrun(volatile Ifx_SRC_SRCR *src);
-# 138 "C:\\Users\\USER\\OneDrive\\Desktop\\새폴더~1\\TUNNEL~1\\TC275/illd\\Libraries\\iLLD\\TC27D\\Tricore\\Src\\Std/IfxSrc.h"
-static inline __attribute__ ((always_inline)) void IfxSrc_clearRequest(volatile Ifx_SRC_SRCR *src);
-# 147 "C:\\Users\\USER\\OneDrive\\Desktop\\새폴더~1\\TUNNEL~1\\TC275/illd\\Libraries\\iLLD\\TC27D\\Tricore\\Src\\Std/IfxSrc.h"
-static inline __attribute__ ((always_inline)) boolean IfxSrc_isOverrun(volatile Ifx_SRC_SRCR *src);
-# 156 "C:\\Users\\USER\\OneDrive\\Desktop\\새폴더~1\\TUNNEL~1\\TC275/illd\\Libraries\\iLLD\\TC27D\\Tricore\\Src\\Std/IfxSrc.h"
-static inline __attribute__ ((always_inline)) boolean IfxSrc_isRequested(volatile Ifx_SRC_SRCR *src);
-# 165 "C:\\Users\\USER\\OneDrive\\Desktop\\새폴더~1\\TUNNEL~1\\TC275/illd\\Libraries\\iLLD\\TC27D\\Tricore\\Src\\Std/IfxSrc.h"
-static inline __attribute__ ((always_inline)) void IfxSrc_setRequest(volatile Ifx_SRC_SRCR *src);
-# 183 "C:\\Users\\USER\\OneDrive\\Desktop\\새폴더~1\\TUNNEL~1\\TC275/illd\\Libraries\\iLLD\\TC27D\\Tricore\\Src\\Std/IfxSrc.h"
-static inline __attribute__ ((always_inline)) void IfxSrc_deinit(volatile Ifx_SRC_SRCR *src);
-# 192 "C:\\Users\\USER\\OneDrive\\Desktop\\새폴더~1\\TUNNEL~1\\TC275/illd\\Libraries\\iLLD\\TC27D\\Tricore\\Src\\Std/IfxSrc.h"
-static inline __attribute__ ((always_inline)) void IfxSrc_disable(volatile Ifx_SRC_SRCR *src);
-# 201 "C:\\Users\\USER\\OneDrive\\Desktop\\새폴더~1\\TUNNEL~1\\TC275/illd\\Libraries\\iLLD\\TC27D\\Tricore\\Src\\Std/IfxSrc.h"
-static inline __attribute__ ((always_inline)) void IfxSrc_enable(volatile Ifx_SRC_SRCR *src);
-# 233 "C:\\Users\\USER\\OneDrive\\Desktop\\새폴더~1\\TUNNEL~1\\TC275/illd\\Libraries\\iLLD\\TC27D\\Tricore\\Src\\Std/IfxSrc.h"
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 static inline __attribute__ ((always_inline)) void IfxSrc_init(volatile Ifx_SRC_SRCR *src, IfxSrc_Tos typOfService, Ifx_Priority priority);
 
 
@@ -2673,13 +2489,8 @@ static inline __attribute__ ((always_inline)) void IfxSrc_setRequest(volatile If
 {
     src->B.SETR = 1;
 }
-<<<<<<< HEAD
 # 57 "C:\\Users\\USER\\Desktop\\WORKSP~1\\TUNNEL~1\\TC275\\illd\\Libraries\\iLLD\\TC27D\\Tricore\\_Impl\\IfxVadc_cfg.h" 2
 # 116 "C:\\Users\\USER\\Desktop\\WORKSP~1\\TUNNEL~1\\TC275\\illd\\Libraries\\iLLD\\TC27D\\Tricore\\_Impl\\IfxVadc_cfg.h"
-=======
-# 57 "C:\\Users\\USER\\OneDrive\\Desktop\\새폴더~1\\TUNNEL~1\\TC275\\illd\\Libraries\\iLLD\\TC27D\\Tricore\\_Impl\\IfxVadc_cfg.h" 2
-# 116 "C:\\Users\\USER\\OneDrive\\Desktop\\새폴더~1\\TUNNEL~1\\TC275\\illd\\Libraries\\iLLD\\TC27D\\Tricore\\_Impl\\IfxVadc_cfg.h"
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 typedef enum
 {
     IfxVadc_GroupId_0,
@@ -2700,11 +2511,7 @@ typedef enum
 
 
 extern const uint32 IfxVadc_cfg_srcAddresses[((8) *4) + ((2) * 4) ];
-<<<<<<< HEAD
 # 47 "C:\\Users\\USER\\Desktop\\WORKSP~1\\TUNNEL~1\\TC275\\illd\\Libraries\\iLLD\\TC27D\\Tricore\\_Impl\\IfxVadc_cfg.c" 2
-=======
-# 47 "C:\\Users\\USER\\OneDrive\\Desktop\\새폴더~1\\TUNNEL~1\\TC275\\illd\\Libraries\\iLLD\\TC27D\\Tricore\\_Impl\\IfxVadc_cfg.c" 2
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 
 
 
