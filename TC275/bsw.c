@@ -9,6 +9,7 @@
 #include "Lcd_driver.h"
 #include "ultrasonic_Driver.h"
 #include "Button_Driver.h"
+#include "infotainment_System.h"
 /* custom driver added end*/
 
 #include <string.h>
@@ -239,6 +240,7 @@ int main(void)
     /* custom driver init() added start*/
     lcd_init();
     initUltrasonic();
+    initInfotainment();
     /* custom driver added end*/
     
 

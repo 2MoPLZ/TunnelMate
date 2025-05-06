@@ -4,11 +4,9 @@
 # 1 "<command-line>"
 # 1 "C:\\Users\\USER\\Desktop\\WORKSP~1\\TUNNEL~1\\TC275\\Button_Driver.c"
 # 1 "C:\\Users\\USER\\Desktop\\WORKSP~1\\TUNNEL~1\\TC275\\Button_Driver.h" 1
-
-
-
+# 14 "C:\\Users\\USER\\Desktop\\WORKSP~1\\TUNNEL~1\\TC275\\Button_Driver.h"
 # 1 "C:\\Users\\USER\\Desktop\\WORKSP~1\\TUNNEL~1\\TC275\\illd\\src\\ConfigurationIsr.h" 1
-# 5 "C:\\Users\\USER\\Desktop\\WORKSP~1\\TUNNEL~1\\TC275\\Button_Driver.h" 2
+# 15 "C:\\Users\\USER\\Desktop\\WORKSP~1\\TUNNEL~1\\TC275\\Button_Driver.h" 2
 # 1 "C:\\Users\\USER\\Desktop\\WORKSP~1\\TUNNEL~1\\TC275\\illd\\src\\Configuration.h" 1
 
 
@@ -20797,9 +20795,9 @@ typedef struct
     IfxScuEru_OutputChannel outputChannel;
     volatile Ifx_SRC_SRCR *src;
 } ERUconfig;
-# 6 "C:\\Users\\USER\\Desktop\\WORKSP~1\\TUNNEL~1\\TC275\\Button_Driver.h" 2
-# 16 "C:\\Users\\USER\\Desktop\\WORKSP~1\\TUNNEL~1\\TC275\\Button_Driver.h"
-int read_LCD_buttons();
+# 16 "C:\\Users\\USER\\Desktop\\WORKSP~1\\TUNNEL~1\\TC275\\Button_Driver.h" 2
+# 25 "C:\\Users\\USER\\Desktop\\WORKSP~1\\TUNNEL~1\\TC275\\Button_Driver.h"
+int readLcdButtons();
 # 2 "C:\\Users\\USER\\Desktop\\WORKSP~1\\TUNNEL~1\\TC275\\Button_Driver.c" 2
 # 1 "C:\\Users\\USER\\Desktop\\WORKSP~1\\TUNNEL~1\\TC275\\bsw.h" 1
 
@@ -22463,6 +22461,7 @@ extern void FuncTaskUltrasonic ( void );
 
 
 void asclin0TxISR(void);
+void ButtonISR(void);
 void TimerISR(void);
 # 71 "C:\\Users\\USER\\Desktop\\WORKSP~1\\TUNNEL~1\\TC275\\erika\\inc/ee.h" 2
 # 6 "C:\\Users\\USER\\Desktop\\WORKSP~1\\TUNNEL~1\\TC275\\bsw.h" 2
@@ -22481,36 +22480,29 @@ uint16 readADCValue(uint8 channel);
 
 
 
-int read_LCD_buttons(void)
+int readLcdButtons(void)
 {
     unsigned adc_key_in;
     int button_state;
-    button_state = readADCValue(3);
+    adc_key_in = readADCValue(3);
+    printfSerial("%d",adc_key_in);
 
 
-    if (adc_key_in < 50) {
+    if (adc_key_in < 100) {
         button_state = 0;
 
     }
-    else if (adc_key_in < 250){
+    else if (adc_key_in < 1000){
         button_state = 3;
-
     }
-    else if (adc_key_in < 450){
-        button_state = 1;
-
-    }
-    else if (adc_key_in < 650){
+    else if (adc_key_in < 2500){
         button_state = 2;
-
     }
-    else if (adc_key_in < 850){
+    else if (adc_key_in < 3500){
+        button_state = 1;
+    }
+    else if (adc_key_in >= 4000){
         button_state = 4;
-
-    }
-    else if (adc_key_in >= 50){
-        button_state = 5;
-
     }
     return button_state;
 }

@@ -1,8 +1,5 @@
 #include "bsw.h"
 
-
-uint16_t rpm = 1000; // LCD에 출력한 전역변수 선언
-
 TASK(Task1)
 {
     printfSerial("Task1 Begins...");
@@ -16,15 +13,8 @@ TASK(Task1)
 
 TASK(TaskLCD)
 {   
-    rpm += 100;
-    lcd_clear(); // LCD 출력 내용 초기화 함수
-
-    char buf[32];  
-    sprintf(buf, "RPM = %u", rpm); 
-    lcd_print(buf);  // 출력할 내용을 문자열로 만들어 LCD에게 전송
-
-    lcd_goto(1,0); // LCD 커서 위치 이동 함수
-    lcd_print("Hello World!");
+    // lcd_clear(); // LCD 출력 내용 초기화 함수
+    // printInfoDisplay();  
 
     TerminateTask();
 }
@@ -41,7 +31,8 @@ ISR2(ButtonISR)
     osEE_tc_delay(5000);
     printfSerial("interuppt");
     buttonState = readLcdButtons();
-    
+    updateInfoState(buttonState);
+
     osEE_tc_delay(3000);
     EnableAllInterrupts();
 }

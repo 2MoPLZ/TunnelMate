@@ -6,11 +6,7 @@
 	.type	IfxScuEru_clearAllEventFlags, @function
 IfxScuEru_clearAllEventFlags:
 .LFB218:
-<<<<<<< HEAD
 	.file 1 "C:\\Users\\USER\\Desktop\\WORKSP~1\\TUNNEL~1\\TC275\\illd\\src\\IfxScuEru.c"
-=======
-	.file 1 "C:\\Users\\USER\\OneDrive\\Desktop\\\273\365\306\372\264\365~1\\TUNNEL~1\\TC275\\illd\\src\\IfxScuEru.c"
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.loc 1 62 0
 .LVL0:
 	.loc 1 64 0
@@ -922,7 +918,6 @@ IfxScuEru_setInterruptGatingPattern:
 .LEFDE48:
 .section .text,"ax",@progbits
 .Letext0:
-<<<<<<< HEAD
 	.file 2 "C:\\Users\\USER\\Desktop\\WORKSP~1\\TUNNEL~1\\TC275/illd\\Libraries\\Infra\\Sfr\\TC27D\\_Reg\\IfxScu_regdef.h"
 	.file 3 "C:\\Users\\USER\\Desktop\\WORKSP~1\\TUNNEL~1\\TC275/illd\\Libraries\\iLLD\\TC27D\\Tricore\\Cpu\\Std\\Platform_Types.h"
 	.file 4 "C:\\Users\\USER\\Desktop\\WORKSP~1\\TUNNEL~1\\TC275/illd\\Libraries\\iLLD\\TC27D\\Tricore\\Cpu\\Std\\Ifx_Types.h"
@@ -931,16 +926,6 @@ IfxScuEru_setInterruptGatingPattern:
 .section .debug_info,"",@progbits
 .Ldebug_info0:
 	.uaword	0x757d
-=======
-	.file 2 "C:\\Users\\USER\\OneDrive\\Desktop\\\273\365\306\372\264\365~1\\TUNNEL~1\\TC275/illd\\Libraries\\Infra\\Sfr\\TC27D\\_Reg\\IfxScu_regdef.h"
-	.file 3 "C:\\Users\\USER\\OneDrive\\Desktop\\\273\365\306\372\264\365~1\\TUNNEL~1\\TC275/illd\\Libraries\\iLLD\\TC27D\\Tricore\\Cpu\\Std\\Platform_Types.h"
-	.file 4 "C:\\Users\\USER\\OneDrive\\Desktop\\\273\365\306\372\264\365~1\\TUNNEL~1\\TC275/illd\\Libraries\\iLLD\\TC27D\\Tricore\\Cpu\\Std\\Ifx_Types.h"
-	.file 5 "C:\\Users\\USER\\OneDrive\\Desktop\\\273\365\306\372\264\365~1\\TUNNEL~1\\TC275/illd\\Libraries\\iLLD\\TC27D\\Tricore\\Scu\\Std\\IfxScuEru.h"
-	.file 6 "C:\\Users\\USER\\OneDrive\\Desktop\\\273\365\306\372\264\365~1\\TUNNEL~1\\TC275/illd\\Libraries\\iLLD\\TC27D\\Tricore\\_Impl/IfxCpu_cfg.h"
-.section .debug_info,"",@progbits
-.Ldebug_info0:
-	.uaword	0x7586
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uahalf	0x3
 	.uaword	.Ldebug_abbrev0
 	.byte	0x4
@@ -948,11 +933,7 @@ IfxScuEru_setInterruptGatingPattern:
 	.ascii	"GNU C 4.9."
 	.string	"4 build on 2019-06-07 -mlicense-dir=c:\\hightec\\toolchains\\tricore\\v4.9.3.0-infineon-1.0\\bin\\../lib/gcc/tricore/4.9.4/../../../../licenses -mcpu=tc27xx -g -Os -fno-common -fshort-enums -fstrict-volatile-bitfields -finline-functions -fzero-initialized-in-bss"
 	.byte	0x1
-<<<<<<< HEAD
 	.string	"C:\\Users\\USER\\Desktop\\WORKSP~1\\TUNNEL~1\\TC275\\illd\\src\\IfxScuEru.c"
-=======
-	.string	"C:\\Users\\USER\\OneDrive\\Desktop\\\273\365\306\372\264\365~1\\TUNNEL~1\\TC275\\illd\\src\\IfxScuEru.c"
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uaword	.Ltext0
 	.uaword	.Letext0
 	.uaword	.Ldebug_line0
@@ -961,20 +942,12 @@ IfxScuEru_setInterruptGatingPattern:
 	.byte	0x4
 	.byte	0x2
 	.byte	0x3f
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0x3
 	.string	"EN0"
 	.byte	0x2
 	.byte	0x41
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1f
@@ -983,11 +956,7 @@ IfxScuEru_setInterruptGatingPattern:
 	.string	"EN1"
 	.byte	0x2
 	.byte	0x42
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1e
@@ -996,11 +965,7 @@ IfxScuEru_setInterruptGatingPattern:
 	.string	"EN2"
 	.byte	0x2
 	.byte	0x43
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1d
@@ -1009,11 +974,7 @@ IfxScuEru_setInterruptGatingPattern:
 	.string	"EN3"
 	.byte	0x2
 	.byte	0x44
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1c
@@ -1022,11 +983,7 @@ IfxScuEru_setInterruptGatingPattern:
 	.string	"EN4"
 	.byte	0x2
 	.byte	0x45
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1b
@@ -1035,11 +992,7 @@ IfxScuEru_setInterruptGatingPattern:
 	.string	"EN5"
 	.byte	0x2
 	.byte	0x46
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1a
@@ -1048,11 +1001,7 @@ IfxScuEru_setInterruptGatingPattern:
 	.string	"EN6"
 	.byte	0x2
 	.byte	0x47
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1
 	.byte	0x19
@@ -1061,11 +1010,7 @@ IfxScuEru_setInterruptGatingPattern:
 	.string	"EN7"
 	.byte	0x2
 	.byte	0x48
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1
 	.byte	0x18
@@ -1074,11 +1019,7 @@ IfxScuEru_setInterruptGatingPattern:
 	.string	"EN8"
 	.byte	0x2
 	.byte	0x49
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1
 	.byte	0x17
@@ -1087,11 +1028,7 @@ IfxScuEru_setInterruptGatingPattern:
 	.string	"EN9"
 	.byte	0x2
 	.byte	0x4a
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1
 	.byte	0x16
@@ -1100,11 +1037,7 @@ IfxScuEru_setInterruptGatingPattern:
 	.string	"EN10"
 	.byte	0x2
 	.byte	0x4b
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1
 	.byte	0x15
@@ -1113,11 +1046,7 @@ IfxScuEru_setInterruptGatingPattern:
 	.string	"EN11"
 	.byte	0x2
 	.byte	0x4c
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1
 	.byte	0x14
@@ -1126,11 +1055,7 @@ IfxScuEru_setInterruptGatingPattern:
 	.string	"EN12"
 	.byte	0x2
 	.byte	0x4d
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1
 	.byte	0x13
@@ -1139,11 +1064,7 @@ IfxScuEru_setInterruptGatingPattern:
 	.string	"EN13"
 	.byte	0x2
 	.byte	0x4e
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1
 	.byte	0x12
@@ -1152,11 +1073,7 @@ IfxScuEru_setInterruptGatingPattern:
 	.string	"EN14"
 	.byte	0x2
 	.byte	0x4f
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1
 	.byte	0x11
@@ -1165,11 +1082,7 @@ IfxScuEru_setInterruptGatingPattern:
 	.string	"EN15"
 	.byte	0x2
 	.byte	0x50
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1
 	.byte	0x10
@@ -1178,11 +1091,7 @@ IfxScuEru_setInterruptGatingPattern:
 	.string	"EN16"
 	.byte	0x2
 	.byte	0x51
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1
 	.byte	0xf
@@ -1191,11 +1100,7 @@ IfxScuEru_setInterruptGatingPattern:
 	.string	"EN17"
 	.byte	0x2
 	.byte	0x52
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1
 	.byte	0xe
@@ -1204,11 +1109,7 @@ IfxScuEru_setInterruptGatingPattern:
 	.string	"EN18"
 	.byte	0x2
 	.byte	0x53
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1
 	.byte	0xd
@@ -1217,11 +1118,7 @@ IfxScuEru_setInterruptGatingPattern:
 	.string	"EN19"
 	.byte	0x2
 	.byte	0x54
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1
 	.byte	0xc
@@ -1230,11 +1127,7 @@ IfxScuEru_setInterruptGatingPattern:
 	.string	"EN20"
 	.byte	0x2
 	.byte	0x55
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1
 	.byte	0xb
@@ -1243,11 +1136,7 @@ IfxScuEru_setInterruptGatingPattern:
 	.string	"EN21"
 	.byte	0x2
 	.byte	0x56
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1
 	.byte	0xa
@@ -1256,11 +1145,7 @@ IfxScuEru_setInterruptGatingPattern:
 	.string	"EN22"
 	.byte	0x2
 	.byte	0x57
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1
 	.byte	0x9
@@ -1269,11 +1154,7 @@ IfxScuEru_setInterruptGatingPattern:
 	.string	"EN23"
 	.byte	0x2
 	.byte	0x58
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1
 	.byte	0x8
@@ -1282,11 +1163,7 @@ IfxScuEru_setInterruptGatingPattern:
 	.string	"EN24"
 	.byte	0x2
 	.byte	0x59
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1
 	.byte	0x7
@@ -1295,11 +1172,7 @@ IfxScuEru_setInterruptGatingPattern:
 	.string	"EN25"
 	.byte	0x2
 	.byte	0x5a
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1
 	.byte	0x6
@@ -1308,11 +1181,7 @@ IfxScuEru_setInterruptGatingPattern:
 	.string	"EN26"
 	.byte	0x2
 	.byte	0x5b
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1
 	.byte	0x5
@@ -1321,11 +1190,7 @@ IfxScuEru_setInterruptGatingPattern:
 	.string	"EN27"
 	.byte	0x2
 	.byte	0x5c
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1
 	.byte	0x4
@@ -1334,11 +1199,7 @@ IfxScuEru_setInterruptGatingPattern:
 	.string	"EN28"
 	.byte	0x2
 	.byte	0x5d
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1
 	.byte	0x3
@@ -1347,11 +1208,7 @@ IfxScuEru_setInterruptGatingPattern:
 	.string	"EN29"
 	.byte	0x2
 	.byte	0x5e
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1
 	.byte	0x2
@@ -1360,11 +1217,7 @@ IfxScuEru_setInterruptGatingPattern:
 	.string	"EN30"
 	.byte	0x2
 	.byte	0x5f
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1
@@ -1373,11 +1226,7 @@ IfxScuEru_setInterruptGatingPattern:
 	.string	"EN31"
 	.byte	0x2
 	.byte	0x60
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1
 	.byte	0
@@ -1391,30 +1240,18 @@ IfxScuEru_setInterruptGatingPattern:
 	.string	"Ifx_SCU_ACCEN0_Bits"
 	.byte	0x2
 	.byte	0x61
-<<<<<<< HEAD
 	.uaword	0x167
-=======
-	.uaword	0x170
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0x2
 	.string	"_Ifx_SCU_ACCEN1_Bits"
 	.byte	0x4
 	.byte	0x2
 	.byte	0x64
-<<<<<<< HEAD
 	.uaword	0x3d3
-=======
-	.uaword	0x3dc
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0x6
 	.uaword	.LASF0
 	.byte	0x2
 	.byte	0x66
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x20
 	.byte	0
@@ -1424,30 +1261,18 @@ IfxScuEru_setInterruptGatingPattern:
 	.string	"Ifx_SCU_ACCEN1_Bits"
 	.byte	0x2
 	.byte	0x67
-<<<<<<< HEAD
 	.uaword	0x3a6
-=======
-	.uaword	0x3af
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0x2
 	.string	"_Ifx_SCU_ARSTDIS_Bits"
 	.byte	0x4
 	.byte	0x2
 	.byte	0x6a
-<<<<<<< HEAD
 	.uaword	0x455
-=======
-	.uaword	0x45e
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0x3
 	.string	"STM0DIS"
 	.byte	0x2
 	.byte	0x6c
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1f
@@ -1456,11 +1281,7 @@ IfxScuEru_setInterruptGatingPattern:
 	.string	"STM1DIS"
 	.byte	0x2
 	.byte	0x6d
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1e
@@ -1469,11 +1290,7 @@ IfxScuEru_setInterruptGatingPattern:
 	.string	"STM2DIS"
 	.byte	0x2
 	.byte	0x6e
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1d
@@ -1482,11 +1299,7 @@ IfxScuEru_setInterruptGatingPattern:
 	.uaword	.LASF1
 	.byte	0x2
 	.byte	0x6f
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1d
 	.byte	0
@@ -1496,30 +1309,18 @@ IfxScuEru_setInterruptGatingPattern:
 	.string	"Ifx_SCU_ARSTDIS_Bits"
 	.byte	0x2
 	.byte	0x70
-<<<<<<< HEAD
 	.uaword	0x3ee
-=======
-	.uaword	0x3f7
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0x2
 	.string	"_Ifx_SCU_CCUCON0_Bits"
 	.byte	0x4
 	.byte	0x2
 	.byte	0x73
-<<<<<<< HEAD
 	.uaword	0x55f
-=======
-	.uaword	0x568
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0x3
 	.string	"BAUD1DIV"
 	.byte	0x2
 	.byte	0x75
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x4
 	.byte	0x1c
@@ -1528,11 +1329,7 @@ IfxScuEru_setInterruptGatingPattern:
 	.string	"BAUD2DIV"
 	.byte	0x2
 	.byte	0x76
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x4
 	.byte	0x18
@@ -1541,11 +1338,7 @@ IfxScuEru_setInterruptGatingPattern:
 	.string	"SRIDIV"
 	.byte	0x2
 	.byte	0x77
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x4
 	.byte	0x14
@@ -1554,11 +1347,7 @@ IfxScuEru_setInterruptGatingPattern:
 	.string	"LPDIV"
 	.byte	0x2
 	.byte	0x78
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x4
 	.byte	0x10
@@ -1567,11 +1356,7 @@ IfxScuEru_setInterruptGatingPattern:
 	.string	"SPBDIV"
 	.byte	0x2
 	.byte	0x79
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x4
 	.byte	0xc
@@ -1580,11 +1365,7 @@ IfxScuEru_setInterruptGatingPattern:
 	.string	"FSI2DIV"
 	.byte	0x2
 	.byte	0x7a
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x2
 	.byte	0xa
@@ -1593,11 +1374,7 @@ IfxScuEru_setInterruptGatingPattern:
 	.uaword	.LASF2
 	.byte	0x2
 	.byte	0x7b
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x2
 	.byte	0x8
@@ -1606,11 +1383,7 @@ IfxScuEru_setInterruptGatingPattern:
 	.string	"FSIDIV"
 	.byte	0x2
 	.byte	0x7c
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x2
 	.byte	0x6
@@ -1619,11 +1392,7 @@ IfxScuEru_setInterruptGatingPattern:
 	.uaword	.LASF3
 	.byte	0x2
 	.byte	0x7d
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x2
 	.byte	0x4
@@ -1632,11 +1401,7 @@ IfxScuEru_setInterruptGatingPattern:
 	.string	"CLKSEL"
 	.byte	0x2
 	.byte	0x7e
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x2
 	.byte	0x2
@@ -1645,11 +1410,7 @@ IfxScuEru_setInterruptGatingPattern:
 	.string	"UP"
 	.byte	0x2
 	.byte	0x7f
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1
@@ -1658,11 +1419,7 @@ IfxScuEru_setInterruptGatingPattern:
 	.string	"LCK"
 	.byte	0x2
 	.byte	0x80
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1
 	.byte	0
@@ -1672,30 +1429,18 @@ IfxScuEru_setInterruptGatingPattern:
 	.string	"Ifx_SCU_CCUCON0_Bits"
 	.byte	0x2
 	.byte	0x81
-<<<<<<< HEAD
 	.uaword	0x471
-=======
-	.uaword	0x47a
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0x2
 	.string	"_Ifx_SCU_CCUCON1_Bits"
 	.byte	0x4
 	.byte	0x2
 	.byte	0x84
-<<<<<<< HEAD
 	.uaword	0x64f
-=======
-	.uaword	0x658
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0x3
 	.string	"CANDIV"
 	.byte	0x2
 	.byte	0x86
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x4
 	.byte	0x1c
@@ -1704,11 +1449,7 @@ IfxScuEru_setInterruptGatingPattern:
 	.string	"ERAYDIV"
 	.byte	0x2
 	.byte	0x87
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x4
 	.byte	0x18
@@ -1717,11 +1458,7 @@ IfxScuEru_setInterruptGatingPattern:
 	.string	"STMDIV"
 	.byte	0x2
 	.byte	0x88
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x4
 	.byte	0x14
@@ -1730,11 +1467,7 @@ IfxScuEru_setInterruptGatingPattern:
 	.string	"GTMDIV"
 	.byte	0x2
 	.byte	0x89
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x4
 	.byte	0x10
@@ -1743,11 +1476,7 @@ IfxScuEru_setInterruptGatingPattern:
 	.string	"ETHDIV"
 	.byte	0x2
 	.byte	0x8a
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x4
 	.byte	0xc
@@ -1756,11 +1485,7 @@ IfxScuEru_setInterruptGatingPattern:
 	.string	"ASCLINFDIV"
 	.byte	0x2
 	.byte	0x8b
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x4
 	.byte	0x8
@@ -1769,11 +1494,7 @@ IfxScuEru_setInterruptGatingPattern:
 	.string	"ASCLINSDIV"
 	.byte	0x2
 	.byte	0x8c
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x4
 	.byte	0x4
@@ -1782,11 +1503,7 @@ IfxScuEru_setInterruptGatingPattern:
 	.string	"INSEL"
 	.byte	0x2
 	.byte	0x8d
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x2
 	.byte	0x2
@@ -1795,11 +1512,7 @@ IfxScuEru_setInterruptGatingPattern:
 	.string	"UP"
 	.byte	0x2
 	.byte	0x8e
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1
@@ -1808,11 +1521,7 @@ IfxScuEru_setInterruptGatingPattern:
 	.string	"LCK"
 	.byte	0x2
 	.byte	0x8f
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1
 	.byte	0
@@ -1822,30 +1531,18 @@ IfxScuEru_setInterruptGatingPattern:
 	.string	"Ifx_SCU_CCUCON1_Bits"
 	.byte	0x2
 	.byte	0x90
-<<<<<<< HEAD
 	.uaword	0x57b
-=======
-	.uaword	0x584
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0x2
 	.string	"_Ifx_SCU_CCUCON2_Bits"
 	.byte	0x4
 	.byte	0x2
 	.byte	0x93
-<<<<<<< HEAD
 	.uaword	0x6c8
-=======
-	.uaword	0x6d1
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0x3
 	.string	"BBBDIV"
 	.byte	0x2
 	.byte	0x95
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x4
 	.byte	0x1c
@@ -1854,11 +1551,7 @@ IfxScuEru_setInterruptGatingPattern:
 	.uaword	.LASF4
 	.byte	0x2
 	.byte	0x96
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1a
 	.byte	0x2
@@ -1867,11 +1560,7 @@ IfxScuEru_setInterruptGatingPattern:
 	.string	"UP"
 	.byte	0x2
 	.byte	0x97
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1
@@ -1880,11 +1569,7 @@ IfxScuEru_setInterruptGatingPattern:
 	.string	"LCK"
 	.byte	0x2
 	.byte	0x98
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1
 	.byte	0
@@ -1894,30 +1579,18 @@ IfxScuEru_setInterruptGatingPattern:
 	.string	"Ifx_SCU_CCUCON2_Bits"
 	.byte	0x2
 	.byte	0x99
-<<<<<<< HEAD
 	.uaword	0x66b
-=======
-	.uaword	0x674
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0x2
 	.string	"_Ifx_SCU_CCUCON3_Bits"
 	.byte	0x4
 	.byte	0x2
 	.byte	0x9c
-<<<<<<< HEAD
 	.uaword	0x7b2
-=======
-	.uaword	0x7bb
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0x3
 	.string	"PLLDIV"
 	.byte	0x2
 	.byte	0x9e
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x6
 	.byte	0x1a
@@ -1926,11 +1599,7 @@ IfxScuEru_setInterruptGatingPattern:
 	.string	"PLLSEL"
 	.byte	0x2
 	.byte	0x9f
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x2
 	.byte	0x18
@@ -1939,11 +1608,7 @@ IfxScuEru_setInterruptGatingPattern:
 	.string	"PLLERAYDIV"
 	.byte	0x2
 	.byte	0xa0
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x6
 	.byte	0x12
@@ -1952,11 +1617,7 @@ IfxScuEru_setInterruptGatingPattern:
 	.string	"PLLERAYSEL"
 	.byte	0x2
 	.byte	0xa1
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x2
 	.byte	0x10
@@ -1965,11 +1626,7 @@ IfxScuEru_setInterruptGatingPattern:
 	.string	"SRIDIV"
 	.byte	0x2
 	.byte	0xa2
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x6
 	.byte	0xa
@@ -1978,11 +1635,7 @@ IfxScuEru_setInterruptGatingPattern:
 	.string	"SRISEL"
 	.byte	0x2
 	.byte	0xa3
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x2
 	.byte	0x8
@@ -1991,11 +1644,7 @@ IfxScuEru_setInterruptGatingPattern:
 	.uaword	.LASF5
 	.byte	0x2
 	.byte	0xa4
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x5
 	.byte	0x3
@@ -2004,11 +1653,7 @@ IfxScuEru_setInterruptGatingPattern:
 	.uaword	.LASF6
 	.byte	0x2
 	.byte	0xa5
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1
 	.byte	0x2
@@ -2017,11 +1662,7 @@ IfxScuEru_setInterruptGatingPattern:
 	.string	"UP"
 	.byte	0x2
 	.byte	0xa6
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1
@@ -2030,11 +1671,7 @@ IfxScuEru_setInterruptGatingPattern:
 	.string	"LCK"
 	.byte	0x2
 	.byte	0xa7
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1
 	.byte	0
@@ -2044,30 +1681,18 @@ IfxScuEru_setInterruptGatingPattern:
 	.string	"Ifx_SCU_CCUCON3_Bits"
 	.byte	0x2
 	.byte	0xa8
-<<<<<<< HEAD
 	.uaword	0x6e4
-=======
-	.uaword	0x6ed
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0x2
 	.string	"_Ifx_SCU_CCUCON4_Bits"
 	.byte	0x4
 	.byte	0x2
 	.byte	0xab
-<<<<<<< HEAD
 	.uaword	0x894
-=======
-	.uaword	0x89d
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0x3
 	.string	"SPBDIV"
 	.byte	0x2
 	.byte	0xad
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x6
 	.byte	0x1a
@@ -2076,11 +1701,7 @@ IfxScuEru_setInterruptGatingPattern:
 	.string	"SPBSEL"
 	.byte	0x2
 	.byte	0xae
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x2
 	.byte	0x18
@@ -2089,11 +1710,7 @@ IfxScuEru_setInterruptGatingPattern:
 	.string	"GTMDIV"
 	.byte	0x2
 	.byte	0xaf
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x6
 	.byte	0x12
@@ -2102,11 +1719,7 @@ IfxScuEru_setInterruptGatingPattern:
 	.string	"GTMSEL"
 	.byte	0x2
 	.byte	0xb0
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x2
 	.byte	0x10
@@ -2115,11 +1728,7 @@ IfxScuEru_setInterruptGatingPattern:
 	.string	"STMDIV"
 	.byte	0x2
 	.byte	0xb1
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x6
 	.byte	0xa
@@ -2128,11 +1737,7 @@ IfxScuEru_setInterruptGatingPattern:
 	.string	"STMSEL"
 	.byte	0x2
 	.byte	0xb2
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x2
 	.byte	0x8
@@ -2141,11 +1746,7 @@ IfxScuEru_setInterruptGatingPattern:
 	.uaword	.LASF5
 	.byte	0x2
 	.byte	0xb3
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x5
 	.byte	0x3
@@ -2154,11 +1755,7 @@ IfxScuEru_setInterruptGatingPattern:
 	.uaword	.LASF6
 	.byte	0x2
 	.byte	0xb4
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1
 	.byte	0x2
@@ -2167,11 +1764,7 @@ IfxScuEru_setInterruptGatingPattern:
 	.string	"UP"
 	.byte	0x2
 	.byte	0xb5
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1
@@ -2180,11 +1773,7 @@ IfxScuEru_setInterruptGatingPattern:
 	.string	"LCK"
 	.byte	0x2
 	.byte	0xb6
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1
 	.byte	0
@@ -2194,30 +1783,18 @@ IfxScuEru_setInterruptGatingPattern:
 	.string	"Ifx_SCU_CCUCON4_Bits"
 	.byte	0x2
 	.byte	0xb7
-<<<<<<< HEAD
 	.uaword	0x7ce
-=======
-	.uaword	0x7d7
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0x2
 	.string	"_Ifx_SCU_CCUCON5_Bits"
 	.byte	0x4
 	.byte	0x2
 	.byte	0xba
-<<<<<<< HEAD
 	.uaword	0x90d
-=======
-	.uaword	0x916
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0x3
 	.string	"MAXDIV"
 	.byte	0x2
 	.byte	0xbc
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x4
 	.byte	0x1c
@@ -2226,11 +1803,7 @@ IfxScuEru_setInterruptGatingPattern:
 	.uaword	.LASF4
 	.byte	0x2
 	.byte	0xbd
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1a
 	.byte	0x2
@@ -2239,11 +1812,7 @@ IfxScuEru_setInterruptGatingPattern:
 	.string	"UP"
 	.byte	0x2
 	.byte	0xbe
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1
@@ -2252,11 +1821,7 @@ IfxScuEru_setInterruptGatingPattern:
 	.string	"LCK"
 	.byte	0x2
 	.byte	0xbf
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1
 	.byte	0
@@ -2266,30 +1831,18 @@ IfxScuEru_setInterruptGatingPattern:
 	.string	"Ifx_SCU_CCUCON5_Bits"
 	.byte	0x2
 	.byte	0xc0
-<<<<<<< HEAD
 	.uaword	0x8b0
-=======
-	.uaword	0x8b9
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0x2
 	.string	"_Ifx_SCU_CCUCON6_Bits"
 	.byte	0x4
 	.byte	0x2
 	.byte	0xc3
-<<<<<<< HEAD
 	.uaword	0x96a
-=======
-	.uaword	0x973
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0x3
 	.string	"CPU0DIV"
 	.byte	0x2
 	.byte	0xc5
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x6
 	.byte	0x1a
@@ -2298,11 +1851,7 @@ IfxScuEru_setInterruptGatingPattern:
 	.uaword	.LASF7
 	.byte	0x2
 	.byte	0xc6
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1a
 	.byte	0
@@ -2312,30 +1861,18 @@ IfxScuEru_setInterruptGatingPattern:
 	.string	"Ifx_SCU_CCUCON6_Bits"
 	.byte	0x2
 	.byte	0xc7
-<<<<<<< HEAD
 	.uaword	0x929
-=======
-	.uaword	0x932
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0x2
 	.string	"_Ifx_SCU_CCUCON7_Bits"
 	.byte	0x4
 	.byte	0x2
 	.byte	0xca
-<<<<<<< HEAD
 	.uaword	0x9c7
-=======
-	.uaword	0x9d0
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0x3
 	.string	"CPU1DIV"
 	.byte	0x2
 	.byte	0xcc
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x6
 	.byte	0x1a
@@ -2344,11 +1881,7 @@ IfxScuEru_setInterruptGatingPattern:
 	.uaword	.LASF7
 	.byte	0x2
 	.byte	0xcd
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1a
 	.byte	0
@@ -2358,30 +1891,18 @@ IfxScuEru_setInterruptGatingPattern:
 	.string	"Ifx_SCU_CCUCON7_Bits"
 	.byte	0x2
 	.byte	0xce
-<<<<<<< HEAD
 	.uaword	0x986
-=======
-	.uaword	0x98f
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0x2
 	.string	"_Ifx_SCU_CCUCON8_Bits"
 	.byte	0x4
 	.byte	0x2
 	.byte	0xd1
-<<<<<<< HEAD
 	.uaword	0xa24
-=======
-	.uaword	0xa2d
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0x3
 	.string	"CPU2DIV"
 	.byte	0x2
 	.byte	0xd3
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x6
 	.byte	0x1a
@@ -2390,11 +1911,7 @@ IfxScuEru_setInterruptGatingPattern:
 	.uaword	.LASF7
 	.byte	0x2
 	.byte	0xd4
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1a
 	.byte	0
@@ -2404,30 +1921,18 @@ IfxScuEru_setInterruptGatingPattern:
 	.string	"Ifx_SCU_CCUCON8_Bits"
 	.byte	0x2
 	.byte	0xd5
-<<<<<<< HEAD
 	.uaword	0x9e3
-=======
-	.uaword	0x9ec
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0x2
 	.string	"_Ifx_SCU_CHIPID_Bits"
 	.byte	0x4
 	.byte	0x2
 	.byte	0xd8
-<<<<<<< HEAD
 	.uaword	0xaed
-=======
-	.uaword	0xaf6
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0x3
 	.string	"CHREV"
 	.byte	0x2
 	.byte	0xda
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x6
 	.byte	0x1a
@@ -2436,11 +1941,7 @@ IfxScuEru_setInterruptGatingPattern:
 	.string	"CHTEC"
 	.byte	0x2
 	.byte	0xdb
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x2
 	.byte	0x18
@@ -2449,11 +1950,7 @@ IfxScuEru_setInterruptGatingPattern:
 	.string	"CHID"
 	.byte	0x2
 	.byte	0xdc
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x8
 	.byte	0x10
@@ -2462,11 +1959,7 @@ IfxScuEru_setInterruptGatingPattern:
 	.string	"EEA"
 	.byte	0x2
 	.byte	0xdd
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1
 	.byte	0xf
@@ -2475,11 +1968,7 @@ IfxScuEru_setInterruptGatingPattern:
 	.string	"UCODE"
 	.byte	0x2
 	.byte	0xde
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x7
 	.byte	0x8
@@ -2488,11 +1977,7 @@ IfxScuEru_setInterruptGatingPattern:
 	.string	"FSIZE"
 	.byte	0x2
 	.byte	0xdf
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x4
 	.byte	0x4
@@ -2501,11 +1986,7 @@ IfxScuEru_setInterruptGatingPattern:
 	.string	"SP"
 	.byte	0x2
 	.byte	0xe0
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x2
 	.byte	0x2
@@ -2514,11 +1995,7 @@ IfxScuEru_setInterruptGatingPattern:
 	.string	"SEC"
 	.byte	0x2
 	.byte	0xe1
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1
@@ -2527,11 +2004,7 @@ IfxScuEru_setInterruptGatingPattern:
 	.uaword	.LASF8
 	.byte	0x2
 	.byte	0xe2
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1
 	.byte	0
@@ -2541,30 +2014,18 @@ IfxScuEru_setInterruptGatingPattern:
 	.string	"Ifx_SCU_CHIPID_Bits"
 	.byte	0x2
 	.byte	0xe3
-<<<<<<< HEAD
 	.uaword	0xa40
-=======
-	.uaword	0xa49
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0x2
 	.string	"_Ifx_SCU_DTSCON_Bits"
 	.byte	0x4
 	.byte	0x2
 	.byte	0xe6
-<<<<<<< HEAD
 	.uaword	0xb82
-=======
-	.uaword	0xb8b
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0x3
 	.string	"PWD"
 	.byte	0x2
 	.byte	0xe8
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1f
@@ -2573,11 +2034,7 @@ IfxScuEru_setInterruptGatingPattern:
 	.string	"START"
 	.byte	0x2
 	.byte	0xe9
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1e
@@ -2586,11 +2043,7 @@ IfxScuEru_setInterruptGatingPattern:
 	.uaword	.LASF9
 	.byte	0x2
 	.byte	0xea
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x2
 	.byte	0x1c
@@ -2599,11 +2052,7 @@ IfxScuEru_setInterruptGatingPattern:
 	.string	"CAL"
 	.byte	0x2
 	.byte	0xeb
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x16
 	.byte	0x6
@@ -2612,11 +2061,7 @@ IfxScuEru_setInterruptGatingPattern:
 	.uaword	.LASF3
 	.byte	0x2
 	.byte	0xec
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x5
 	.byte	0x1
@@ -2625,11 +2070,7 @@ IfxScuEru_setInterruptGatingPattern:
 	.uaword	.LASF6
 	.byte	0x2
 	.byte	0xed
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1
 	.byte	0
@@ -2639,30 +2080,18 @@ IfxScuEru_setInterruptGatingPattern:
 	.string	"Ifx_SCU_DTSCON_Bits"
 	.byte	0x2
 	.byte	0xee
-<<<<<<< HEAD
 	.uaword	0xb08
-=======
-	.uaword	0xb11
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0x2
 	.string	"_Ifx_SCU_DTSLIM_Bits"
 	.byte	0x4
 	.byte	0x2
 	.byte	0xf1
-<<<<<<< HEAD
 	.uaword	0xc28
-=======
-	.uaword	0xc31
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0x3
 	.string	"LOWER"
 	.byte	0x2
 	.byte	0xf3
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0xa
 	.byte	0x16
@@ -2671,11 +2100,7 @@ IfxScuEru_setInterruptGatingPattern:
 	.uaword	.LASF10
 	.byte	0x2
 	.byte	0xf4
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x5
 	.byte	0x11
@@ -2684,11 +2109,7 @@ IfxScuEru_setInterruptGatingPattern:
 	.string	"LLU"
 	.byte	0x2
 	.byte	0xf5
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1
 	.byte	0x10
@@ -2697,11 +2118,7 @@ IfxScuEru_setInterruptGatingPattern:
 	.string	"UPPER"
 	.byte	0x2
 	.byte	0xf6
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0xa
 	.byte	0x6
@@ -2710,11 +2127,7 @@ IfxScuEru_setInterruptGatingPattern:
 	.uaword	.LASF3
 	.byte	0x2
 	.byte	0xf7
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x4
 	.byte	0x2
@@ -2723,11 +2136,7 @@ IfxScuEru_setInterruptGatingPattern:
 	.uaword	.LASF6
 	.byte	0x2
 	.byte	0xf8
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1
@@ -2736,11 +2145,7 @@ IfxScuEru_setInterruptGatingPattern:
 	.string	"UOF"
 	.byte	0x2
 	.byte	0xf9
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1
 	.byte	0
@@ -2750,30 +2155,18 @@ IfxScuEru_setInterruptGatingPattern:
 	.string	"Ifx_SCU_DTSLIM_Bits"
 	.byte	0x2
 	.byte	0xfa
-<<<<<<< HEAD
 	.uaword	0xb9d
-=======
-	.uaword	0xba6
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0x2
 	.string	"_Ifx_SCU_DTSSTAT_Bits"
 	.byte	0x4
 	.byte	0x2
 	.byte	0xfd
-<<<<<<< HEAD
 	.uaword	0xcb5
-=======
-	.uaword	0xcbe
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0x3
 	.string	"RESULT"
 	.byte	0x2
 	.byte	0xff
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0xa
 	.byte	0x16
@@ -2782,11 +2175,7 @@ IfxScuEru_setInterruptGatingPattern:
 	.uaword	.LASF10
 	.byte	0x2
 	.uahalf	0x100
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x4
 	.byte	0x12
@@ -2795,11 +2184,7 @@ IfxScuEru_setInterruptGatingPattern:
 	.string	"RDY"
 	.byte	0x2
 	.uahalf	0x101
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1
 	.byte	0x11
@@ -2808,11 +2193,7 @@ IfxScuEru_setInterruptGatingPattern:
 	.string	"BUSY"
 	.byte	0x2
 	.uahalf	0x102
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1
 	.byte	0x10
@@ -2821,11 +2202,7 @@ IfxScuEru_setInterruptGatingPattern:
 	.uaword	.LASF11
 	.byte	0x2
 	.uahalf	0x103
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x10
 	.byte	0
@@ -2835,30 +2212,18 @@ IfxScuEru_setInterruptGatingPattern:
 	.string	"Ifx_SCU_DTSSTAT_Bits"
 	.byte	0x2
 	.uahalf	0x104
-<<<<<<< HEAD
 	.uaword	0xc43
-=======
-	.uaword	0xc4c
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0xa
 	.string	"_Ifx_SCU_EICR_Bits"
 	.byte	0x4
 	.byte	0x2
 	.uahalf	0x107
-<<<<<<< HEAD
 	.uaword	0xe11
-=======
-	.uaword	0xe1a
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0x7
 	.uaword	.LASF0
 	.byte	0x2
 	.uahalf	0x109
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x4
 	.byte	0x1c
@@ -2867,11 +2232,7 @@ IfxScuEru_setInterruptGatingPattern:
 	.string	"EXIS0"
 	.byte	0x2
 	.uahalf	0x10a
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x3
 	.byte	0x19
@@ -2880,11 +2241,7 @@ IfxScuEru_setInterruptGatingPattern:
 	.uaword	.LASF12
 	.byte	0x2
 	.uahalf	0x10b
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1
 	.byte	0x18
@@ -2893,11 +2250,7 @@ IfxScuEru_setInterruptGatingPattern:
 	.string	"FEN0"
 	.byte	0x2
 	.uahalf	0x10c
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1
 	.byte	0x17
@@ -2906,11 +2259,7 @@ IfxScuEru_setInterruptGatingPattern:
 	.string	"REN0"
 	.byte	0x2
 	.uahalf	0x10d
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1
 	.byte	0x16
@@ -2919,11 +2268,7 @@ IfxScuEru_setInterruptGatingPattern:
 	.string	"LDEN0"
 	.byte	0x2
 	.uahalf	0x10e
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1
 	.byte	0x15
@@ -2932,11 +2277,7 @@ IfxScuEru_setInterruptGatingPattern:
 	.string	"EIEN0"
 	.byte	0x2
 	.uahalf	0x10f
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1
 	.byte	0x14
@@ -2945,11 +2286,7 @@ IfxScuEru_setInterruptGatingPattern:
 	.string	"INP0"
 	.byte	0x2
 	.uahalf	0x110
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x3
 	.byte	0x11
@@ -2958,11 +2295,7 @@ IfxScuEru_setInterruptGatingPattern:
 	.uaword	.LASF13
 	.byte	0x2
 	.uahalf	0x111
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x5
 	.byte	0xc
@@ -2971,11 +2304,7 @@ IfxScuEru_setInterruptGatingPattern:
 	.string	"EXIS1"
 	.byte	0x2
 	.uahalf	0x112
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x3
 	.byte	0x9
@@ -2984,11 +2313,7 @@ IfxScuEru_setInterruptGatingPattern:
 	.uaword	.LASF14
 	.byte	0x2
 	.uahalf	0x113
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1
 	.byte	0x8
@@ -2997,11 +2322,7 @@ IfxScuEru_setInterruptGatingPattern:
 	.string	"FEN1"
 	.byte	0x2
 	.uahalf	0x114
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1
 	.byte	0x7
@@ -3010,11 +2331,7 @@ IfxScuEru_setInterruptGatingPattern:
 	.string	"REN1"
 	.byte	0x2
 	.uahalf	0x115
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1
 	.byte	0x6
@@ -3023,11 +2340,7 @@ IfxScuEru_setInterruptGatingPattern:
 	.string	"LDEN1"
 	.byte	0x2
 	.uahalf	0x116
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1
 	.byte	0x5
@@ -3036,11 +2349,7 @@ IfxScuEru_setInterruptGatingPattern:
 	.string	"EIEN1"
 	.byte	0x2
 	.uahalf	0x117
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1
 	.byte	0x4
@@ -3049,11 +2358,7 @@ IfxScuEru_setInterruptGatingPattern:
 	.string	"INP1"
 	.byte	0x2
 	.uahalf	0x118
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x3
 	.byte	0x1
@@ -3062,11 +2367,7 @@ IfxScuEru_setInterruptGatingPattern:
 	.uaword	.LASF8
 	.byte	0x2
 	.uahalf	0x119
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1
 	.byte	0
@@ -3076,30 +2377,18 @@ IfxScuEru_setInterruptGatingPattern:
 	.string	"Ifx_SCU_EICR_Bits"
 	.byte	0x2
 	.uahalf	0x11a
-<<<<<<< HEAD
 	.uaword	0xcd2
-=======
-	.uaword	0xcdb
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0xa
 	.string	"_Ifx_SCU_EIFR_Bits"
 	.byte	0x4
 	.byte	0x2
 	.uahalf	0x11d
-<<<<<<< HEAD
 	.uaword	0xee8
-=======
-	.uaword	0xef1
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0x8
 	.string	"INTF0"
 	.byte	0x2
 	.uahalf	0x11f
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1f
@@ -3108,11 +2397,7 @@ IfxScuEru_setInterruptGatingPattern:
 	.string	"INTF1"
 	.byte	0x2
 	.uahalf	0x120
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1e
@@ -3121,11 +2406,7 @@ IfxScuEru_setInterruptGatingPattern:
 	.string	"INTF2"
 	.byte	0x2
 	.uahalf	0x121
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1d
@@ -3134,11 +2415,7 @@ IfxScuEru_setInterruptGatingPattern:
 	.string	"INTF3"
 	.byte	0x2
 	.uahalf	0x122
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1c
@@ -3147,11 +2424,7 @@ IfxScuEru_setInterruptGatingPattern:
 	.string	"INTF4"
 	.byte	0x2
 	.uahalf	0x123
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1b
@@ -3160,11 +2433,7 @@ IfxScuEru_setInterruptGatingPattern:
 	.string	"INTF5"
 	.byte	0x2
 	.uahalf	0x124
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1a
@@ -3173,11 +2442,7 @@ IfxScuEru_setInterruptGatingPattern:
 	.string	"INTF6"
 	.byte	0x2
 	.uahalf	0x125
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1
 	.byte	0x19
@@ -3186,11 +2451,7 @@ IfxScuEru_setInterruptGatingPattern:
 	.string	"INTF7"
 	.byte	0x2
 	.uahalf	0x126
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1
 	.byte	0x18
@@ -3199,11 +2460,7 @@ IfxScuEru_setInterruptGatingPattern:
 	.uaword	.LASF15
 	.byte	0x2
 	.uahalf	0x127
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x18
 	.byte	0
@@ -3213,30 +2470,18 @@ IfxScuEru_setInterruptGatingPattern:
 	.string	"Ifx_SCU_EIFR_Bits"
 	.byte	0x2
 	.uahalf	0x128
-<<<<<<< HEAD
 	.uaword	0xe2b
-=======
-	.uaword	0xe34
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0xa
 	.string	"_Ifx_SCU_EMSR_Bits"
 	.byte	0x4
 	.byte	0x2
 	.uahalf	0x12b
-<<<<<<< HEAD
 	.uaword	0xfda
-=======
-	.uaword	0xfe3
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0x8
 	.string	"POL"
 	.byte	0x2
 	.uahalf	0x12d
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1f
@@ -3245,11 +2490,7 @@ IfxScuEru_setInterruptGatingPattern:
 	.string	"MODE"
 	.byte	0x2
 	.uahalf	0x12e
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1e
@@ -3258,11 +2499,7 @@ IfxScuEru_setInterruptGatingPattern:
 	.string	"ENON"
 	.byte	0x2
 	.uahalf	0x12f
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1d
@@ -3271,11 +2508,7 @@ IfxScuEru_setInterruptGatingPattern:
 	.string	"PSEL"
 	.byte	0x2
 	.uahalf	0x130
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1c
@@ -3284,11 +2517,7 @@ IfxScuEru_setInterruptGatingPattern:
 	.uaword	.LASF4
 	.byte	0x2
 	.uahalf	0x131
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0xc
 	.byte	0x10
@@ -3297,11 +2526,7 @@ IfxScuEru_setInterruptGatingPattern:
 	.string	"EMSF"
 	.byte	0x2
 	.uahalf	0x132
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1
 	.byte	0xf
@@ -3310,11 +2535,7 @@ IfxScuEru_setInterruptGatingPattern:
 	.string	"SEMSF"
 	.byte	0x2
 	.uahalf	0x133
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1
 	.byte	0xe
@@ -3323,11 +2544,7 @@ IfxScuEru_setInterruptGatingPattern:
 	.uaword	.LASF16
 	.byte	0x2
 	.uahalf	0x134
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x6
 	.byte	0x8
@@ -3336,11 +2553,7 @@ IfxScuEru_setInterruptGatingPattern:
 	.string	"EMSFM"
 	.byte	0x2
 	.uahalf	0x135
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x2
 	.byte	0x6
@@ -3349,11 +2562,7 @@ IfxScuEru_setInterruptGatingPattern:
 	.string	"SEMSFM"
 	.byte	0x2
 	.uahalf	0x136
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x2
 	.byte	0x4
@@ -3362,11 +2571,7 @@ IfxScuEru_setInterruptGatingPattern:
 	.uaword	.LASF17
 	.byte	0x2
 	.uahalf	0x137
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x4
 	.byte	0
@@ -3376,30 +2581,18 @@ IfxScuEru_setInterruptGatingPattern:
 	.string	"Ifx_SCU_EMSR_Bits"
 	.byte	0x2
 	.uahalf	0x138
-<<<<<<< HEAD
 	.uaword	0xf02
-=======
-	.uaword	0xf0b
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0xa
 	.string	"_Ifx_SCU_ESRCFG_Bits"
 	.byte	0x4
 	.byte	0x2
 	.uahalf	0x13b
-<<<<<<< HEAD
 	.uaword	0x1045
-=======
-	.uaword	0x104e
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0x7
 	.uaword	.LASF0
 	.byte	0x2
 	.uahalf	0x13d
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x7
 	.byte	0x19
@@ -3408,11 +2601,7 @@ IfxScuEru_setInterruptGatingPattern:
 	.string	"EDCON"
 	.byte	0x2
 	.uahalf	0x13e
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x2
 	.byte	0x17
@@ -3421,11 +2610,7 @@ IfxScuEru_setInterruptGatingPattern:
 	.uaword	.LASF18
 	.byte	0x2
 	.uahalf	0x13f
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x17
 	.byte	0
@@ -3435,30 +2620,18 @@ IfxScuEru_setInterruptGatingPattern:
 	.string	"Ifx_SCU_ESRCFG_Bits"
 	.byte	0x2
 	.uahalf	0x140
-<<<<<<< HEAD
 	.uaword	0xff4
-=======
-	.uaword	0xffd
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0xa
 	.string	"_Ifx_SCU_ESROCFG_Bits"
 	.byte	0x4
 	.byte	0x2
 	.uahalf	0x143
-<<<<<<< HEAD
 	.uaword	0x10b1
-=======
-	.uaword	0x10ba
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0x8
 	.string	"ARI"
 	.byte	0x2
 	.uahalf	0x145
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1f
@@ -3467,11 +2640,7 @@ IfxScuEru_setInterruptGatingPattern:
 	.string	"ARC"
 	.byte	0x2
 	.uahalf	0x146
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1e
@@ -3480,11 +2649,7 @@ IfxScuEru_setInterruptGatingPattern:
 	.uaword	.LASF9
 	.byte	0x2
 	.uahalf	0x147
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1e
 	.byte	0
@@ -3494,30 +2659,18 @@ IfxScuEru_setInterruptGatingPattern:
 	.string	"Ifx_SCU_ESROCFG_Bits"
 	.byte	0x2
 	.uahalf	0x148
-<<<<<<< HEAD
 	.uaword	0x1061
-=======
-	.uaword	0x106a
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0xa
 	.string	"_Ifx_SCU_EVR13CON_Bits"
 	.byte	0x4
 	.byte	0x2
 	.uahalf	0x14b
-<<<<<<< HEAD
 	.uaword	0x114b
-=======
-	.uaword	0x1154
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0x7
 	.uaword	.LASF0
 	.byte	0x2
 	.uahalf	0x14d
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1c
 	.byte	0x4
@@ -3526,11 +2679,7 @@ IfxScuEru_setInterruptGatingPattern:
 	.string	"EVR13OFF"
 	.byte	0x2
 	.uahalf	0x14e
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1
 	.byte	0x3
@@ -3539,11 +2688,7 @@ IfxScuEru_setInterruptGatingPattern:
 	.string	"BPEVR13OFF"
 	.byte	0x2
 	.uahalf	0x14f
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1
 	.byte	0x2
@@ -3552,11 +2697,7 @@ IfxScuEru_setInterruptGatingPattern:
 	.uaword	.LASF19
 	.byte	0x2
 	.uahalf	0x150
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1
@@ -3565,11 +2706,7 @@ IfxScuEru_setInterruptGatingPattern:
 	.string	"LCK"
 	.byte	0x2
 	.uahalf	0x151
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1
 	.byte	0
@@ -3579,30 +2716,18 @@ IfxScuEru_setInterruptGatingPattern:
 	.string	"Ifx_SCU_EVR13CON_Bits"
 	.byte	0x2
 	.uahalf	0x152
-<<<<<<< HEAD
 	.uaword	0x10ce
-=======
-	.uaword	0x10d7
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0xa
 	.string	"_Ifx_SCU_EVR33CON_Bits"
 	.byte	0x4
 	.byte	0x2
 	.uahalf	0x155
-<<<<<<< HEAD
 	.uaword	0x11e6
-=======
-	.uaword	0x11ef
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0x7
 	.uaword	.LASF0
 	.byte	0x2
 	.uahalf	0x157
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1c
 	.byte	0x4
@@ -3611,11 +2736,7 @@ IfxScuEru_setInterruptGatingPattern:
 	.string	"EVR33OFF"
 	.byte	0x2
 	.uahalf	0x158
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1
 	.byte	0x3
@@ -3624,11 +2745,7 @@ IfxScuEru_setInterruptGatingPattern:
 	.string	"BPEVR33OFF"
 	.byte	0x2
 	.uahalf	0x159
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1
 	.byte	0x2
@@ -3637,11 +2754,7 @@ IfxScuEru_setInterruptGatingPattern:
 	.uaword	.LASF19
 	.byte	0x2
 	.uahalf	0x15a
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1
@@ -3650,11 +2763,7 @@ IfxScuEru_setInterruptGatingPattern:
 	.string	"LCK"
 	.byte	0x2
 	.uahalf	0x15b
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1
 	.byte	0
@@ -3664,30 +2773,18 @@ IfxScuEru_setInterruptGatingPattern:
 	.string	"Ifx_SCU_EVR33CON_Bits"
 	.byte	0x2
 	.uahalf	0x15c
-<<<<<<< HEAD
 	.uaword	0x1169
-=======
-	.uaword	0x1172
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0xa
 	.string	"_Ifx_SCU_EVRADCSTAT_Bits"
 	.byte	0x4
 	.byte	0x2
 	.uahalf	0x15f
-<<<<<<< HEAD
 	.uaword	0x1281
-=======
-	.uaword	0x128a
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0x8
 	.string	"ADC13V"
 	.byte	0x2
 	.uahalf	0x161
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x8
 	.byte	0x18
@@ -3696,11 +2793,7 @@ IfxScuEru_setInterruptGatingPattern:
 	.string	"ADC33V"
 	.byte	0x2
 	.uahalf	0x162
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x8
 	.byte	0x10
@@ -3709,11 +2802,7 @@ IfxScuEru_setInterruptGatingPattern:
 	.string	"ADCSWDV"
 	.byte	0x2
 	.uahalf	0x163
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x8
 	.byte	0x8
@@ -3722,11 +2811,7 @@ IfxScuEru_setInterruptGatingPattern:
 	.uaword	.LASF5
 	.byte	0x2
 	.uahalf	0x164
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x7
 	.byte	0x1
@@ -3735,11 +2820,7 @@ IfxScuEru_setInterruptGatingPattern:
 	.string	"VAL"
 	.byte	0x2
 	.uahalf	0x165
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1
 	.byte	0
@@ -3749,30 +2830,18 @@ IfxScuEru_setInterruptGatingPattern:
 	.string	"Ifx_SCU_EVRADCSTAT_Bits"
 	.byte	0x2
 	.uahalf	0x166
-<<<<<<< HEAD
 	.uaword	0x1204
-=======
-	.uaword	0x120d
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0xa
 	.string	"_Ifx_SCU_EVRDVSTAT_Bits"
 	.byte	0x4
 	.byte	0x2
 	.uahalf	0x169
-<<<<<<< HEAD
 	.uaword	0x131f
-=======
-	.uaword	0x1328
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0x8
 	.string	"DVS13TRIM"
 	.byte	0x2
 	.uahalf	0x16b
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x8
 	.byte	0x18
@@ -3781,11 +2850,7 @@ IfxScuEru_setInterruptGatingPattern:
 	.uaword	.LASF15
 	.byte	0x2
 	.uahalf	0x16c
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x8
 	.byte	0x10
@@ -3794,11 +2859,7 @@ IfxScuEru_setInterruptGatingPattern:
 	.string	"DVS33TRIM"
 	.byte	0x2
 	.uahalf	0x16d
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x8
 	.byte	0x8
@@ -3807,11 +2868,7 @@ IfxScuEru_setInterruptGatingPattern:
 	.uaword	.LASF5
 	.byte	0x2
 	.uahalf	0x16e
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x7
 	.byte	0x1
@@ -3820,11 +2877,7 @@ IfxScuEru_setInterruptGatingPattern:
 	.string	"VAL"
 	.byte	0x2
 	.uahalf	0x16f
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1
 	.byte	0
@@ -3834,30 +2887,18 @@ IfxScuEru_setInterruptGatingPattern:
 	.string	"Ifx_SCU_EVRDVSTAT_Bits"
 	.byte	0x2
 	.uahalf	0x170
-<<<<<<< HEAD
 	.uaword	0x12a1
-=======
-	.uaword	0x12aa
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0xa
 	.string	"_Ifx_SCU_EVRMONCTRL_Bits"
 	.byte	0x4
 	.byte	0x2
 	.uahalf	0x173
-<<<<<<< HEAD
 	.uaword	0x1467
-=======
-	.uaword	0x1470
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0x8
 	.string	"EVR13OVMOD"
 	.byte	0x2
 	.uahalf	0x175
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x2
 	.byte	0x1e
@@ -3866,11 +2907,7 @@ IfxScuEru_setInterruptGatingPattern:
 	.uaword	.LASF9
 	.byte	0x2
 	.uahalf	0x176
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x2
 	.byte	0x1c
@@ -3879,11 +2916,7 @@ IfxScuEru_setInterruptGatingPattern:
 	.string	"EVR13UVMOD"
 	.byte	0x2
 	.uahalf	0x177
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x2
 	.byte	0x1a
@@ -3892,11 +2925,7 @@ IfxScuEru_setInterruptGatingPattern:
 	.uaword	.LASF7
 	.byte	0x2
 	.uahalf	0x178
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x2
 	.byte	0x18
@@ -3905,11 +2934,7 @@ IfxScuEru_setInterruptGatingPattern:
 	.string	"EVR33OVMOD"
 	.byte	0x2
 	.uahalf	0x179
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x2
 	.byte	0x16
@@ -3918,11 +2943,7 @@ IfxScuEru_setInterruptGatingPattern:
 	.uaword	.LASF10
 	.byte	0x2
 	.uahalf	0x17a
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x2
 	.byte	0x14
@@ -3931,11 +2952,7 @@ IfxScuEru_setInterruptGatingPattern:
 	.string	"EVR33UVMOD"
 	.byte	0x2
 	.uahalf	0x17b
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x2
 	.byte	0x12
@@ -3944,11 +2961,7 @@ IfxScuEru_setInterruptGatingPattern:
 	.uaword	.LASF20
 	.byte	0x2
 	.uahalf	0x17c
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x2
 	.byte	0x10
@@ -3957,11 +2970,7 @@ IfxScuEru_setInterruptGatingPattern:
 	.string	"SWDOVMOD"
 	.byte	0x2
 	.uahalf	0x17d
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x2
 	.byte	0xe
@@ -3970,11 +2979,7 @@ IfxScuEru_setInterruptGatingPattern:
 	.uaword	.LASF16
 	.byte	0x2
 	.uahalf	0x17e
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x2
 	.byte	0xc
@@ -3983,11 +2988,7 @@ IfxScuEru_setInterruptGatingPattern:
 	.string	"SWDUVMOD"
 	.byte	0x2
 	.uahalf	0x17f
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x2
 	.byte	0xa
@@ -3996,11 +2997,7 @@ IfxScuEru_setInterruptGatingPattern:
 	.uaword	.LASF2
 	.byte	0x2
 	.uahalf	0x180
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x8
 	.byte	0x2
@@ -4009,11 +3006,7 @@ IfxScuEru_setInterruptGatingPattern:
 	.uaword	.LASF6
 	.byte	0x2
 	.uahalf	0x181
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1
@@ -4022,11 +3015,7 @@ IfxScuEru_setInterruptGatingPattern:
 	.uaword	.LASF8
 	.byte	0x2
 	.uahalf	0x182
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1
 	.byte	0
@@ -4036,30 +3025,18 @@ IfxScuEru_setInterruptGatingPattern:
 	.string	"Ifx_SCU_EVRMONCTRL_Bits"
 	.byte	0x2
 	.uahalf	0x183
-<<<<<<< HEAD
 	.uaword	0x133e
-=======
-	.uaword	0x1347
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0xa
 	.string	"_Ifx_SCU_EVROVMON_Bits"
 	.byte	0x4
 	.byte	0x2
 	.uahalf	0x186
-<<<<<<< HEAD
 	.uaword	0x151b
-=======
-	.uaword	0x1524
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0x8
 	.string	"EVR13OVVAL"
 	.byte	0x2
 	.uahalf	0x188
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x8
 	.byte	0x18
@@ -4068,11 +3045,7 @@ IfxScuEru_setInterruptGatingPattern:
 	.string	"EVR33OVVAL"
 	.byte	0x2
 	.uahalf	0x189
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x8
 	.byte	0x10
@@ -4081,11 +3054,7 @@ IfxScuEru_setInterruptGatingPattern:
 	.string	"SWDOVVAL"
 	.byte	0x2
 	.uahalf	0x18a
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x8
 	.byte	0x8
@@ -4094,11 +3063,7 @@ IfxScuEru_setInterruptGatingPattern:
 	.uaword	.LASF5
 	.byte	0x2
 	.uahalf	0x18b
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x6
 	.byte	0x2
@@ -4107,11 +3072,7 @@ IfxScuEru_setInterruptGatingPattern:
 	.uaword	.LASF6
 	.byte	0x2
 	.uahalf	0x18c
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1
@@ -4120,11 +3081,7 @@ IfxScuEru_setInterruptGatingPattern:
 	.string	"LCK"
 	.byte	0x2
 	.uahalf	0x18d
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1
 	.byte	0
@@ -4134,30 +3091,18 @@ IfxScuEru_setInterruptGatingPattern:
 	.string	"Ifx_SCU_EVROVMON_Bits"
 	.byte	0x2
 	.uahalf	0x18e
-<<<<<<< HEAD
 	.uaword	0x1487
-=======
-	.uaword	0x1490
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0xa
 	.string	"_Ifx_SCU_EVRRSTCON_Bits"
 	.byte	0x4
 	.byte	0x2
 	.uahalf	0x191
-<<<<<<< HEAD
 	.uaword	0x1627
-=======
-	.uaword	0x1630
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0x8
 	.string	"RST13TRIM"
 	.byte	0x2
 	.uahalf	0x193
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x8
 	.byte	0x18
@@ -4166,11 +3111,7 @@ IfxScuEru_setInterruptGatingPattern:
 	.uaword	.LASF15
 	.byte	0x2
 	.uahalf	0x194
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x10
 	.byte	0x8
@@ -4179,11 +3120,7 @@ IfxScuEru_setInterruptGatingPattern:
 	.string	"RST13OFF"
 	.byte	0x2
 	.uahalf	0x195
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1
 	.byte	0x7
@@ -4192,11 +3129,7 @@ IfxScuEru_setInterruptGatingPattern:
 	.string	"BPRST13OFF"
 	.byte	0x2
 	.uahalf	0x196
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1
 	.byte	0x6
@@ -4205,11 +3138,7 @@ IfxScuEru_setInterruptGatingPattern:
 	.string	"RST33OFF"
 	.byte	0x2
 	.uahalf	0x197
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1
 	.byte	0x5
@@ -4218,11 +3147,7 @@ IfxScuEru_setInterruptGatingPattern:
 	.string	"BPRST33OFF"
 	.byte	0x2
 	.uahalf	0x198
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1
 	.byte	0x4
@@ -4231,11 +3156,7 @@ IfxScuEru_setInterruptGatingPattern:
 	.string	"RSTSWDOFF"
 	.byte	0x2
 	.uahalf	0x199
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1
 	.byte	0x3
@@ -4244,11 +3165,7 @@ IfxScuEru_setInterruptGatingPattern:
 	.string	"BPRSTSWDOFF"
 	.byte	0x2
 	.uahalf	0x19a
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1
 	.byte	0x2
@@ -4257,11 +3174,7 @@ IfxScuEru_setInterruptGatingPattern:
 	.uaword	.LASF6
 	.byte	0x2
 	.uahalf	0x19b
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1
@@ -4270,11 +3183,7 @@ IfxScuEru_setInterruptGatingPattern:
 	.string	"LCK"
 	.byte	0x2
 	.uahalf	0x19c
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1
 	.byte	0
@@ -4284,30 +3193,18 @@ IfxScuEru_setInterruptGatingPattern:
 	.string	"Ifx_SCU_EVRRSTCON_Bits"
 	.byte	0x2
 	.uahalf	0x19d
-<<<<<<< HEAD
 	.uaword	0x1539
-=======
-	.uaword	0x1542
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0xa
 	.string	"_Ifx_SCU_EVRSDCOEFF1_Bits"
 	.byte	0x4
 	.byte	0x2
 	.uahalf	0x1a0
-<<<<<<< HEAD
 	.uaword	0x16bd
-=======
-	.uaword	0x16c6
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0x8
 	.string	"SD5P"
 	.byte	0x2
 	.uahalf	0x1a2
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x8
 	.byte	0x18
@@ -4316,11 +3213,7 @@ IfxScuEru_setInterruptGatingPattern:
 	.string	"SD5I"
 	.byte	0x2
 	.uahalf	0x1a3
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x8
 	.byte	0x10
@@ -4329,11 +3222,7 @@ IfxScuEru_setInterruptGatingPattern:
 	.string	"SD5D"
 	.byte	0x2
 	.uahalf	0x1a4
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x8
 	.byte	0x8
@@ -4342,11 +3231,7 @@ IfxScuEru_setInterruptGatingPattern:
 	.uaword	.LASF5
 	.byte	0x2
 	.uahalf	0x1a5
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x7
 	.byte	0x1
@@ -4355,11 +3240,7 @@ IfxScuEru_setInterruptGatingPattern:
 	.string	"LCK"
 	.byte	0x2
 	.uahalf	0x1a6
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1
 	.byte	0
@@ -4369,30 +3250,18 @@ IfxScuEru_setInterruptGatingPattern:
 	.string	"Ifx_SCU_EVRSDCOEFF1_Bits"
 	.byte	0x2
 	.uahalf	0x1a7
-<<<<<<< HEAD
 	.uaword	0x1646
-=======
-	.uaword	0x164f
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0xa
 	.string	"_Ifx_SCU_EVRSDCOEFF2_Bits"
 	.byte	0x4
 	.byte	0x2
 	.uahalf	0x1aa
-<<<<<<< HEAD
 	.uaword	0x1758
-=======
-	.uaword	0x1761
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0x8
 	.string	"SD33P"
 	.byte	0x2
 	.uahalf	0x1ac
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x8
 	.byte	0x18
@@ -4401,11 +3270,7 @@ IfxScuEru_setInterruptGatingPattern:
 	.string	"SD33I"
 	.byte	0x2
 	.uahalf	0x1ad
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x8
 	.byte	0x10
@@ -4414,11 +3279,7 @@ IfxScuEru_setInterruptGatingPattern:
 	.string	"SD33D"
 	.byte	0x2
 	.uahalf	0x1ae
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x8
 	.byte	0x8
@@ -4427,11 +3288,7 @@ IfxScuEru_setInterruptGatingPattern:
 	.uaword	.LASF5
 	.byte	0x2
 	.uahalf	0x1af
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x7
 	.byte	0x1
@@ -4440,11 +3297,7 @@ IfxScuEru_setInterruptGatingPattern:
 	.string	"LCK"
 	.byte	0x2
 	.uahalf	0x1b0
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1
 	.byte	0
@@ -4454,30 +3307,18 @@ IfxScuEru_setInterruptGatingPattern:
 	.string	"Ifx_SCU_EVRSDCOEFF2_Bits"
 	.byte	0x2
 	.uahalf	0x1b1
-<<<<<<< HEAD
 	.uaword	0x16de
-=======
-	.uaword	0x16e7
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0xa
 	.string	"_Ifx_SCU_EVRSDCOEFF3_Bits"
 	.byte	0x4
 	.byte	0x2
 	.uahalf	0x1b4
-<<<<<<< HEAD
 	.uaword	0x17f9
-=======
-	.uaword	0x1802
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0x8
 	.string	"CT5REG0"
 	.byte	0x2
 	.uahalf	0x1b6
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x8
 	.byte	0x18
@@ -4486,11 +3327,7 @@ IfxScuEru_setInterruptGatingPattern:
 	.string	"CT5REG1"
 	.byte	0x2
 	.uahalf	0x1b7
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x8
 	.byte	0x10
@@ -4499,11 +3336,7 @@ IfxScuEru_setInterruptGatingPattern:
 	.string	"CT5REG2"
 	.byte	0x2
 	.uahalf	0x1b8
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x8
 	.byte	0x8
@@ -4512,11 +3345,7 @@ IfxScuEru_setInterruptGatingPattern:
 	.uaword	.LASF5
 	.byte	0x2
 	.uahalf	0x1b9
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x7
 	.byte	0x1
@@ -4525,11 +3354,7 @@ IfxScuEru_setInterruptGatingPattern:
 	.string	"LCK"
 	.byte	0x2
 	.uahalf	0x1ba
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1
 	.byte	0
@@ -4539,30 +3364,18 @@ IfxScuEru_setInterruptGatingPattern:
 	.string	"Ifx_SCU_EVRSDCOEFF3_Bits"
 	.byte	0x2
 	.uahalf	0x1bb
-<<<<<<< HEAD
 	.uaword	0x1779
-=======
-	.uaword	0x1782
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0xa
 	.string	"_Ifx_SCU_EVRSDCOEFF4_Bits"
 	.byte	0x4
 	.byte	0x2
 	.uahalf	0x1be
-<<<<<<< HEAD
 	.uaword	0x1886
-=======
-	.uaword	0x188f
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0x8
 	.string	"CT5REG3"
 	.byte	0x2
 	.uahalf	0x1c0
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x8
 	.byte	0x18
@@ -4571,11 +3384,7 @@ IfxScuEru_setInterruptGatingPattern:
 	.string	"CT5REG4"
 	.byte	0x2
 	.uahalf	0x1c1
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x8
 	.byte	0x10
@@ -4584,11 +3393,7 @@ IfxScuEru_setInterruptGatingPattern:
 	.uaword	.LASF11
 	.byte	0x2
 	.uahalf	0x1c2
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0xf
 	.byte	0x1
@@ -4597,11 +3402,7 @@ IfxScuEru_setInterruptGatingPattern:
 	.string	"LCK"
 	.byte	0x2
 	.uahalf	0x1c3
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1
 	.byte	0
@@ -4611,30 +3412,18 @@ IfxScuEru_setInterruptGatingPattern:
 	.string	"Ifx_SCU_EVRSDCOEFF4_Bits"
 	.byte	0x2
 	.uahalf	0x1c4
-<<<<<<< HEAD
 	.uaword	0x181a
-=======
-	.uaword	0x1823
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0xa
 	.string	"_Ifx_SCU_EVRSDCOEFF5_Bits"
 	.byte	0x4
 	.byte	0x2
 	.uahalf	0x1c7
-<<<<<<< HEAD
 	.uaword	0x192a
-=======
-	.uaword	0x1933
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0x8
 	.string	"CT33REG0"
 	.byte	0x2
 	.uahalf	0x1c9
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x8
 	.byte	0x18
@@ -4643,11 +3432,7 @@ IfxScuEru_setInterruptGatingPattern:
 	.string	"CT33REG1"
 	.byte	0x2
 	.uahalf	0x1ca
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x8
 	.byte	0x10
@@ -4656,11 +3441,7 @@ IfxScuEru_setInterruptGatingPattern:
 	.string	"CT33REG2"
 	.byte	0x2
 	.uahalf	0x1cb
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x8
 	.byte	0x8
@@ -4669,11 +3450,7 @@ IfxScuEru_setInterruptGatingPattern:
 	.uaword	.LASF5
 	.byte	0x2
 	.uahalf	0x1cc
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x7
 	.byte	0x1
@@ -4682,11 +3459,7 @@ IfxScuEru_setInterruptGatingPattern:
 	.string	"LCK"
 	.byte	0x2
 	.uahalf	0x1cd
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1
 	.byte	0
@@ -4696,30 +3469,18 @@ IfxScuEru_setInterruptGatingPattern:
 	.string	"Ifx_SCU_EVRSDCOEFF5_Bits"
 	.byte	0x2
 	.uahalf	0x1ce
-<<<<<<< HEAD
 	.uaword	0x18a7
-=======
-	.uaword	0x18b0
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0xa
 	.string	"_Ifx_SCU_EVRSDCOEFF6_Bits"
 	.byte	0x4
 	.byte	0x2
 	.uahalf	0x1d1
-<<<<<<< HEAD
 	.uaword	0x19b9
-=======
-	.uaword	0x19c2
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0x8
 	.string	"CT33REG3"
 	.byte	0x2
 	.uahalf	0x1d3
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x8
 	.byte	0x18
@@ -4728,11 +3489,7 @@ IfxScuEru_setInterruptGatingPattern:
 	.string	"CT33REG4"
 	.byte	0x2
 	.uahalf	0x1d4
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x8
 	.byte	0x10
@@ -4741,11 +3498,7 @@ IfxScuEru_setInterruptGatingPattern:
 	.uaword	.LASF11
 	.byte	0x2
 	.uahalf	0x1d5
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0xf
 	.byte	0x1
@@ -4754,11 +3507,7 @@ IfxScuEru_setInterruptGatingPattern:
 	.string	"LCK"
 	.byte	0x2
 	.uahalf	0x1d6
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1
 	.byte	0
@@ -4768,30 +3517,18 @@ IfxScuEru_setInterruptGatingPattern:
 	.string	"Ifx_SCU_EVRSDCOEFF6_Bits"
 	.byte	0x2
 	.uahalf	0x1d7
-<<<<<<< HEAD
 	.uaword	0x194b
-=======
-	.uaword	0x1954
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0xa
 	.string	"_Ifx_SCU_EVRSDCTRL1_Bits"
 	.byte	0x4
 	.byte	0x2
 	.uahalf	0x1da
-<<<<<<< HEAD
 	.uaword	0x1a6f
-=======
-	.uaword	0x1a78
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0x8
 	.string	"SDFREQSPRD"
 	.byte	0x2
 	.uahalf	0x1dc
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x10
 	.byte	0x10
@@ -4800,11 +3537,7 @@ IfxScuEru_setInterruptGatingPattern:
 	.string	"SDFREQ"
 	.byte	0x2
 	.uahalf	0x1dd
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x8
 	.byte	0x8
@@ -4813,11 +3546,7 @@ IfxScuEru_setInterruptGatingPattern:
 	.string	"SDSTEP"
 	.byte	0x2
 	.uahalf	0x1de
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x4
 	.byte	0x4
@@ -4826,11 +3555,7 @@ IfxScuEru_setInterruptGatingPattern:
 	.uaword	.LASF17
 	.byte	0x2
 	.uahalf	0x1df
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x2
 	.byte	0x2
@@ -4839,11 +3564,7 @@ IfxScuEru_setInterruptGatingPattern:
 	.string	"SDSAMPLE"
 	.byte	0x2
 	.uahalf	0x1e0
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1
@@ -4852,11 +3573,7 @@ IfxScuEru_setInterruptGatingPattern:
 	.string	"LCK"
 	.byte	0x2
 	.uahalf	0x1e1
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1
 	.byte	0
@@ -4866,30 +3583,18 @@ IfxScuEru_setInterruptGatingPattern:
 	.string	"Ifx_SCU_EVRSDCTRL1_Bits"
 	.byte	0x2
 	.uahalf	0x1e2
-<<<<<<< HEAD
 	.uaword	0x19da
-=======
-	.uaword	0x19e3
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0xa
 	.string	"_Ifx_SCU_EVRSDCTRL2_Bits"
 	.byte	0x4
 	.byte	0x2
 	.uahalf	0x1e5
-<<<<<<< HEAD
 	.uaword	0x1b1d
-=======
-	.uaword	0x1b26
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0x8
 	.string	"DRVP"
 	.byte	0x2
 	.uahalf	0x1e7
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x8
 	.byte	0x18
@@ -4898,11 +3603,7 @@ IfxScuEru_setInterruptGatingPattern:
 	.string	"SDMINMAXDC"
 	.byte	0x2
 	.uahalf	0x1e8
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x8
 	.byte	0x10
@@ -4911,11 +3612,7 @@ IfxScuEru_setInterruptGatingPattern:
 	.string	"DRVN"
 	.byte	0x2
 	.uahalf	0x1e9
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x8
 	.byte	0x8
@@ -4924,11 +3621,7 @@ IfxScuEru_setInterruptGatingPattern:
 	.string	"SDLUT"
 	.byte	0x2
 	.uahalf	0x1ea
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x6
 	.byte	0x2
@@ -4937,11 +3630,7 @@ IfxScuEru_setInterruptGatingPattern:
 	.uaword	.LASF19
 	.byte	0x2
 	.uahalf	0x1eb
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1
@@ -4950,11 +3639,7 @@ IfxScuEru_setInterruptGatingPattern:
 	.string	"LCK"
 	.byte	0x2
 	.uahalf	0x1ec
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1
 	.byte	0
@@ -4964,30 +3649,18 @@ IfxScuEru_setInterruptGatingPattern:
 	.string	"Ifx_SCU_EVRSDCTRL2_Bits"
 	.byte	0x2
 	.uahalf	0x1ed
-<<<<<<< HEAD
 	.uaword	0x1a8f
-=======
-	.uaword	0x1a98
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0xa
 	.string	"_Ifx_SCU_EVRSDCTRL3_Bits"
 	.byte	0x4
 	.byte	0x2
 	.uahalf	0x1f0
-<<<<<<< HEAD
 	.uaword	0x1bbc
-=======
-	.uaword	0x1bc5
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0x8
 	.string	"SDPWMPRE"
 	.byte	0x2
 	.uahalf	0x1f2
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x8
 	.byte	0x18
@@ -4996,11 +3669,7 @@ IfxScuEru_setInterruptGatingPattern:
 	.string	"SDPID"
 	.byte	0x2
 	.uahalf	0x1f3
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x8
 	.byte	0x10
@@ -5009,11 +3678,7 @@ IfxScuEru_setInterruptGatingPattern:
 	.string	"SDVOKLVL"
 	.byte	0x2
 	.uahalf	0x1f4
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x8
 	.byte	0x8
@@ -5022,11 +3687,7 @@ IfxScuEru_setInterruptGatingPattern:
 	.uaword	.LASF5
 	.byte	0x2
 	.uahalf	0x1f5
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x7
 	.byte	0x1
@@ -5035,11 +3696,7 @@ IfxScuEru_setInterruptGatingPattern:
 	.string	"LCK"
 	.byte	0x2
 	.uahalf	0x1f6
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1
 	.byte	0
@@ -5049,30 +3706,18 @@ IfxScuEru_setInterruptGatingPattern:
 	.string	"Ifx_SCU_EVRSDCTRL3_Bits"
 	.byte	0x2
 	.uahalf	0x1f7
-<<<<<<< HEAD
 	.uaword	0x1b3d
-=======
-	.uaword	0x1b46
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0xa
 	.string	"_Ifx_SCU_EVRSDCTRL4_Bits"
 	.byte	0x4
 	.byte	0x2
 	.uahalf	0x1fa
-<<<<<<< HEAD
 	.uaword	0x1c43
-=======
-	.uaword	0x1c4c
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0x7
 	.uaword	.LASF0
 	.byte	0x2
 	.uahalf	0x1fc
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x8
 	.byte	0x18
@@ -5081,11 +3726,7 @@ IfxScuEru_setInterruptGatingPattern:
 	.string	"SYNCDIV"
 	.byte	0x2
 	.uahalf	0x1fd
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x3
 	.byte	0x15
@@ -5094,11 +3735,7 @@ IfxScuEru_setInterruptGatingPattern:
 	.uaword	.LASF21
 	.byte	0x2
 	.uahalf	0x1fe
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x14
 	.byte	0x1
@@ -5107,11 +3744,7 @@ IfxScuEru_setInterruptGatingPattern:
 	.string	"LCK"
 	.byte	0x2
 	.uahalf	0x1ff
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1
 	.byte	0
@@ -5121,30 +3754,18 @@ IfxScuEru_setInterruptGatingPattern:
 	.string	"Ifx_SCU_EVRSDCTRL4_Bits"
 	.byte	0x2
 	.uahalf	0x200
-<<<<<<< HEAD
 	.uaword	0x1bdc
-=======
-	.uaword	0x1be5
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0xa
 	.string	"_Ifx_SCU_EVRSTAT_Bits"
 	.byte	0x4
 	.byte	0x2
 	.uahalf	0x203
-<<<<<<< HEAD
 	.uaword	0x1d5e
-=======
-	.uaword	0x1d67
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0x8
 	.string	"EVR13"
 	.byte	0x2
 	.uahalf	0x205
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1f
@@ -5153,11 +3774,7 @@ IfxScuEru_setInterruptGatingPattern:
 	.string	"OV13"
 	.byte	0x2
 	.uahalf	0x206
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1e
@@ -5166,11 +3783,7 @@ IfxScuEru_setInterruptGatingPattern:
 	.string	"EVR33"
 	.byte	0x2
 	.uahalf	0x207
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1d
@@ -5179,11 +3792,7 @@ IfxScuEru_setInterruptGatingPattern:
 	.string	"OV33"
 	.byte	0x2
 	.uahalf	0x208
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1c
@@ -5192,11 +3801,7 @@ IfxScuEru_setInterruptGatingPattern:
 	.string	"OVSWD"
 	.byte	0x2
 	.uahalf	0x209
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1b
@@ -5205,11 +3810,7 @@ IfxScuEru_setInterruptGatingPattern:
 	.string	"UV13"
 	.byte	0x2
 	.uahalf	0x20a
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1a
@@ -5218,11 +3819,7 @@ IfxScuEru_setInterruptGatingPattern:
 	.string	"UV33"
 	.byte	0x2
 	.uahalf	0x20b
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1
 	.byte	0x19
@@ -5231,11 +3828,7 @@ IfxScuEru_setInterruptGatingPattern:
 	.string	"UVSWD"
 	.byte	0x2
 	.uahalf	0x20c
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1
 	.byte	0x18
@@ -5244,11 +3837,7 @@ IfxScuEru_setInterruptGatingPattern:
 	.string	"EXTPASS13"
 	.byte	0x2
 	.uahalf	0x20d
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1
 	.byte	0x17
@@ -5257,11 +3846,7 @@ IfxScuEru_setInterruptGatingPattern:
 	.string	"EXTPASS33"
 	.byte	0x2
 	.uahalf	0x20e
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1
 	.byte	0x16
@@ -5270,11 +3855,7 @@ IfxScuEru_setInterruptGatingPattern:
 	.string	"BGPROK"
 	.byte	0x2
 	.uahalf	0x20f
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1
 	.byte	0x15
@@ -5283,11 +3864,7 @@ IfxScuEru_setInterruptGatingPattern:
 	.uaword	.LASF21
 	.byte	0x2
 	.uahalf	0x210
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x15
 	.byte	0
@@ -5297,30 +3874,18 @@ IfxScuEru_setInterruptGatingPattern:
 	.string	"Ifx_SCU_EVRSTAT_Bits"
 	.byte	0x2
 	.uahalf	0x211
-<<<<<<< HEAD
 	.uaword	0x1c63
-=======
-	.uaword	0x1c6c
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0xa
 	.string	"_Ifx_SCU_EVRTRIM_Bits"
 	.byte	0x4
 	.byte	0x2
 	.uahalf	0x214
-<<<<<<< HEAD
 	.uaword	0x1df7
-=======
-	.uaword	0x1e00
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0x8
 	.string	"EVR13TRIM"
 	.byte	0x2
 	.uahalf	0x216
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x8
 	.byte	0x18
@@ -5329,11 +3894,7 @@ IfxScuEru_setInterruptGatingPattern:
 	.string	"SDVOUTSEL"
 	.byte	0x2
 	.uahalf	0x217
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x8
 	.byte	0x10
@@ -5342,11 +3903,7 @@ IfxScuEru_setInterruptGatingPattern:
 	.uaword	.LASF11
 	.byte	0x2
 	.uahalf	0x218
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0xe
 	.byte	0x2
@@ -5355,11 +3912,7 @@ IfxScuEru_setInterruptGatingPattern:
 	.uaword	.LASF6
 	.byte	0x2
 	.uahalf	0x219
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1
@@ -5368,11 +3921,7 @@ IfxScuEru_setInterruptGatingPattern:
 	.string	"LCK"
 	.byte	0x2
 	.uahalf	0x21a
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1
 	.byte	0
@@ -5382,30 +3931,18 @@ IfxScuEru_setInterruptGatingPattern:
 	.string	"Ifx_SCU_EVRTRIM_Bits"
 	.byte	0x2
 	.uahalf	0x21b
-<<<<<<< HEAD
 	.uaword	0x1d7b
-=======
-	.uaword	0x1d84
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0xa
 	.string	"_Ifx_SCU_EVRUVMON_Bits"
 	.byte	0x4
 	.byte	0x2
 	.uahalf	0x21e
-<<<<<<< HEAD
 	.uaword	0x1ea8
-=======
-	.uaword	0x1eb1
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0x8
 	.string	"EVR13UVVAL"
 	.byte	0x2
 	.uahalf	0x220
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x8
 	.byte	0x18
@@ -5414,11 +3951,7 @@ IfxScuEru_setInterruptGatingPattern:
 	.string	"EVR33UVVAL"
 	.byte	0x2
 	.uahalf	0x221
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x8
 	.byte	0x10
@@ -5427,11 +3960,7 @@ IfxScuEru_setInterruptGatingPattern:
 	.string	"SWDUVVAL"
 	.byte	0x2
 	.uahalf	0x222
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x8
 	.byte	0x8
@@ -5440,11 +3969,7 @@ IfxScuEru_setInterruptGatingPattern:
 	.uaword	.LASF5
 	.byte	0x2
 	.uahalf	0x223
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x6
 	.byte	0x2
@@ -5453,11 +3978,7 @@ IfxScuEru_setInterruptGatingPattern:
 	.uaword	.LASF6
 	.byte	0x2
 	.uahalf	0x224
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1
@@ -5466,11 +3987,7 @@ IfxScuEru_setInterruptGatingPattern:
 	.string	"LCK"
 	.byte	0x2
 	.uahalf	0x225
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1
 	.byte	0
@@ -5480,30 +3997,18 @@ IfxScuEru_setInterruptGatingPattern:
 	.string	"Ifx_SCU_EVRUVMON_Bits"
 	.byte	0x2
 	.uahalf	0x226
-<<<<<<< HEAD
 	.uaword	0x1e14
-=======
-	.uaword	0x1e1d
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0xa
 	.string	"_Ifx_SCU_EXTCON_Bits"
 	.byte	0x4
 	.byte	0x2
 	.uahalf	0x229
-<<<<<<< HEAD
 	.uaword	0x1f79
-=======
-	.uaword	0x1f82
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0x8
 	.string	"EN0"
 	.byte	0x2
 	.uahalf	0x22b
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1f
@@ -5512,11 +4017,7 @@ IfxScuEru_setInterruptGatingPattern:
 	.uaword	.LASF22
 	.byte	0x2
 	.uahalf	0x22c
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1e
@@ -5525,11 +4026,7 @@ IfxScuEru_setInterruptGatingPattern:
 	.string	"SEL0"
 	.byte	0x2
 	.uahalf	0x22d
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x4
 	.byte	0x1a
@@ -5538,11 +4035,7 @@ IfxScuEru_setInterruptGatingPattern:
 	.uaword	.LASF7
 	.byte	0x2
 	.uahalf	0x22e
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0xa
 	.byte	0x10
@@ -5551,11 +4044,7 @@ IfxScuEru_setInterruptGatingPattern:
 	.string	"EN1"
 	.byte	0x2
 	.uahalf	0x22f
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1
 	.byte	0xf
@@ -5564,11 +4053,7 @@ IfxScuEru_setInterruptGatingPattern:
 	.string	"NSEL"
 	.byte	0x2
 	.uahalf	0x230
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1
 	.byte	0xe
@@ -5577,11 +4062,7 @@ IfxScuEru_setInterruptGatingPattern:
 	.string	"SEL1"
 	.byte	0x2
 	.uahalf	0x231
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x4
 	.byte	0xa
@@ -5590,11 +4071,7 @@ IfxScuEru_setInterruptGatingPattern:
 	.uaword	.LASF2
 	.byte	0x2
 	.uahalf	0x232
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x2
 	.byte	0x8
@@ -5603,11 +4080,7 @@ IfxScuEru_setInterruptGatingPattern:
 	.string	"DIV1"
 	.byte	0x2
 	.uahalf	0x233
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x8
 	.byte	0
@@ -5617,30 +4090,18 @@ IfxScuEru_setInterruptGatingPattern:
 	.string	"Ifx_SCU_EXTCON_Bits"
 	.byte	0x2
 	.uahalf	0x234
-<<<<<<< HEAD
 	.uaword	0x1ec6
-=======
-	.uaword	0x1ecf
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0xa
 	.string	"_Ifx_SCU_FDR_Bits"
 	.byte	0x4
 	.byte	0x2
 	.uahalf	0x237
-<<<<<<< HEAD
 	.uaword	0x2017
-=======
-	.uaword	0x2020
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0x8
 	.string	"STEP"
 	.byte	0x2
 	.uahalf	0x239
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0xa
 	.byte	0x16
@@ -5649,11 +4110,7 @@ IfxScuEru_setInterruptGatingPattern:
 	.uaword	.LASF10
 	.byte	0x2
 	.uahalf	0x23a
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x4
 	.byte	0x12
@@ -5662,11 +4119,7 @@ IfxScuEru_setInterruptGatingPattern:
 	.string	"DM"
 	.byte	0x2
 	.uahalf	0x23b
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x2
 	.byte	0x10
@@ -5675,11 +4128,7 @@ IfxScuEru_setInterruptGatingPattern:
 	.string	"RESULT"
 	.byte	0x2
 	.uahalf	0x23c
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0xa
 	.byte	0x6
@@ -5688,11 +4137,7 @@ IfxScuEru_setInterruptGatingPattern:
 	.uaword	.LASF3
 	.byte	0x2
 	.uahalf	0x23d
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x5
 	.byte	0x1
@@ -5701,11 +4146,7 @@ IfxScuEru_setInterruptGatingPattern:
 	.string	"DISCLK"
 	.byte	0x2
 	.uahalf	0x23e
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1
 	.byte	0
@@ -5715,30 +4156,18 @@ IfxScuEru_setInterruptGatingPattern:
 	.string	"Ifx_SCU_FDR_Bits"
 	.byte	0x2
 	.uahalf	0x23f
-<<<<<<< HEAD
 	.uaword	0x1f95
-=======
-	.uaword	0x1f9e
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0xa
 	.string	"_Ifx_SCU_FMR_Bits"
 	.byte	0x4
 	.byte	0x2
 	.uahalf	0x242
-<<<<<<< HEAD
 	.uaword	0x216c
-=======
-	.uaword	0x2175
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0x8
 	.string	"FS0"
 	.byte	0x2
 	.uahalf	0x244
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1f
@@ -5747,11 +4176,7 @@ IfxScuEru_setInterruptGatingPattern:
 	.string	"FS1"
 	.byte	0x2
 	.uahalf	0x245
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1e
@@ -5760,11 +4185,7 @@ IfxScuEru_setInterruptGatingPattern:
 	.string	"FS2"
 	.byte	0x2
 	.uahalf	0x246
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1d
@@ -5773,11 +4194,7 @@ IfxScuEru_setInterruptGatingPattern:
 	.string	"FS3"
 	.byte	0x2
 	.uahalf	0x247
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1c
@@ -5786,11 +4203,7 @@ IfxScuEru_setInterruptGatingPattern:
 	.string	"FS4"
 	.byte	0x2
 	.uahalf	0x248
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1b
@@ -5799,11 +4212,7 @@ IfxScuEru_setInterruptGatingPattern:
 	.string	"FS5"
 	.byte	0x2
 	.uahalf	0x249
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1a
@@ -5812,11 +4221,7 @@ IfxScuEru_setInterruptGatingPattern:
 	.string	"FS6"
 	.byte	0x2
 	.uahalf	0x24a
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1
 	.byte	0x19
@@ -5825,11 +4230,7 @@ IfxScuEru_setInterruptGatingPattern:
 	.string	"FS7"
 	.byte	0x2
 	.uahalf	0x24b
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1
 	.byte	0x18
@@ -5838,11 +4239,7 @@ IfxScuEru_setInterruptGatingPattern:
 	.uaword	.LASF15
 	.byte	0x2
 	.uahalf	0x24c
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x8
 	.byte	0x10
@@ -5851,11 +4248,7 @@ IfxScuEru_setInterruptGatingPattern:
 	.string	"FC0"
 	.byte	0x2
 	.uahalf	0x24d
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1
 	.byte	0xf
@@ -5864,11 +4257,7 @@ IfxScuEru_setInterruptGatingPattern:
 	.string	"FC1"
 	.byte	0x2
 	.uahalf	0x24e
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1
 	.byte	0xe
@@ -5877,11 +4266,7 @@ IfxScuEru_setInterruptGatingPattern:
 	.string	"FC2"
 	.byte	0x2
 	.uahalf	0x24f
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1
 	.byte	0xd
@@ -5890,11 +4275,7 @@ IfxScuEru_setInterruptGatingPattern:
 	.string	"FC3"
 	.byte	0x2
 	.uahalf	0x250
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1
 	.byte	0xc
@@ -5903,11 +4284,7 @@ IfxScuEru_setInterruptGatingPattern:
 	.string	"FC4"
 	.byte	0x2
 	.uahalf	0x251
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1
 	.byte	0xb
@@ -5916,11 +4293,7 @@ IfxScuEru_setInterruptGatingPattern:
 	.string	"FC5"
 	.byte	0x2
 	.uahalf	0x252
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1
 	.byte	0xa
@@ -5929,11 +4302,7 @@ IfxScuEru_setInterruptGatingPattern:
 	.string	"FC6"
 	.byte	0x2
 	.uahalf	0x253
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1
 	.byte	0x9
@@ -5942,11 +4311,7 @@ IfxScuEru_setInterruptGatingPattern:
 	.string	"FC7"
 	.byte	0x2
 	.uahalf	0x254
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1
 	.byte	0x8
@@ -5955,11 +4320,7 @@ IfxScuEru_setInterruptGatingPattern:
 	.uaword	.LASF5
 	.byte	0x2
 	.uahalf	0x255
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x8
 	.byte	0
@@ -5969,30 +4330,18 @@ IfxScuEru_setInterruptGatingPattern:
 	.string	"Ifx_SCU_FMR_Bits"
 	.byte	0x2
 	.uahalf	0x256
-<<<<<<< HEAD
 	.uaword	0x2030
-=======
-	.uaword	0x2039
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0xa
 	.string	"_Ifx_SCU_ID_Bits"
 	.byte	0x4
 	.byte	0x2
 	.uahalf	0x259
-<<<<<<< HEAD
 	.uaword	0x21dd
-=======
-	.uaword	0x21e6
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0x8
 	.string	"MODREV"
 	.byte	0x2
 	.uahalf	0x25b
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x8
 	.byte	0x18
@@ -6001,11 +4350,7 @@ IfxScuEru_setInterruptGatingPattern:
 	.string	"MODTYPE"
 	.byte	0x2
 	.uahalf	0x25c
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x8
 	.byte	0x10
@@ -6014,11 +4359,7 @@ IfxScuEru_setInterruptGatingPattern:
 	.string	"MODNUMBER"
 	.byte	0x2
 	.uahalf	0x25d
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x10
 	.byte	0
@@ -6028,30 +4369,18 @@ IfxScuEru_setInterruptGatingPattern:
 	.string	"Ifx_SCU_ID_Bits"
 	.byte	0x2
 	.uahalf	0x25e
-<<<<<<< HEAD
 	.uaword	0x2185
-=======
-	.uaword	0x218e
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0xa
 	.string	"_Ifx_SCU_IGCR_Bits"
 	.byte	0x4
 	.byte	0x2
 	.uahalf	0x261
-<<<<<<< HEAD
 	.uaword	0x23a8
-=======
-	.uaword	0x23b1
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0x8
 	.string	"IPEN00"
 	.byte	0x2
 	.uahalf	0x263
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1f
@@ -6060,11 +4389,7 @@ IfxScuEru_setInterruptGatingPattern:
 	.string	"IPEN01"
 	.byte	0x2
 	.uahalf	0x264
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1e
@@ -6073,11 +4398,7 @@ IfxScuEru_setInterruptGatingPattern:
 	.string	"IPEN02"
 	.byte	0x2
 	.uahalf	0x265
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1d
@@ -6086,11 +4407,7 @@ IfxScuEru_setInterruptGatingPattern:
 	.string	"IPEN03"
 	.byte	0x2
 	.uahalf	0x266
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1c
@@ -6099,11 +4416,7 @@ IfxScuEru_setInterruptGatingPattern:
 	.string	"IPEN04"
 	.byte	0x2
 	.uahalf	0x267
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1b
@@ -6112,11 +4425,7 @@ IfxScuEru_setInterruptGatingPattern:
 	.string	"IPEN05"
 	.byte	0x2
 	.uahalf	0x268
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1a
@@ -6125,11 +4434,7 @@ IfxScuEru_setInterruptGatingPattern:
 	.string	"IPEN06"
 	.byte	0x2
 	.uahalf	0x269
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1
 	.byte	0x19
@@ -6138,11 +4443,7 @@ IfxScuEru_setInterruptGatingPattern:
 	.string	"IPEN07"
 	.byte	0x2
 	.uahalf	0x26a
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1
 	.byte	0x18
@@ -6151,11 +4452,7 @@ IfxScuEru_setInterruptGatingPattern:
 	.uaword	.LASF15
 	.byte	0x2
 	.uahalf	0x26b
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x5
 	.byte	0x13
@@ -6164,11 +4461,7 @@ IfxScuEru_setInterruptGatingPattern:
 	.string	"GEEN0"
 	.byte	0x2
 	.uahalf	0x26c
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1
 	.byte	0x12
@@ -6177,11 +4470,7 @@ IfxScuEru_setInterruptGatingPattern:
 	.string	"IGP0"
 	.byte	0x2
 	.uahalf	0x26d
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x2
 	.byte	0x10
@@ -6190,11 +4479,7 @@ IfxScuEru_setInterruptGatingPattern:
 	.string	"IPEN10"
 	.byte	0x2
 	.uahalf	0x26e
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1
 	.byte	0xf
@@ -6203,11 +4488,7 @@ IfxScuEru_setInterruptGatingPattern:
 	.string	"IPEN11"
 	.byte	0x2
 	.uahalf	0x26f
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1
 	.byte	0xe
@@ -6216,11 +4497,7 @@ IfxScuEru_setInterruptGatingPattern:
 	.string	"IPEN12"
 	.byte	0x2
 	.uahalf	0x270
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1
 	.byte	0xd
@@ -6229,11 +4506,7 @@ IfxScuEru_setInterruptGatingPattern:
 	.string	"IPEN13"
 	.byte	0x2
 	.uahalf	0x271
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1
 	.byte	0xc
@@ -6242,11 +4515,7 @@ IfxScuEru_setInterruptGatingPattern:
 	.string	"IPEN14"
 	.byte	0x2
 	.uahalf	0x272
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1
 	.byte	0xb
@@ -6255,11 +4524,7 @@ IfxScuEru_setInterruptGatingPattern:
 	.string	"IPEN15"
 	.byte	0x2
 	.uahalf	0x273
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1
 	.byte	0xa
@@ -6268,11 +4533,7 @@ IfxScuEru_setInterruptGatingPattern:
 	.string	"IPEN16"
 	.byte	0x2
 	.uahalf	0x274
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1
 	.byte	0x9
@@ -6281,11 +4542,7 @@ IfxScuEru_setInterruptGatingPattern:
 	.string	"IPEN17"
 	.byte	0x2
 	.uahalf	0x275
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1
 	.byte	0x8
@@ -6294,11 +4551,7 @@ IfxScuEru_setInterruptGatingPattern:
 	.uaword	.LASF5
 	.byte	0x2
 	.uahalf	0x276
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x5
 	.byte	0x3
@@ -6307,11 +4560,7 @@ IfxScuEru_setInterruptGatingPattern:
 	.string	"GEEN1"
 	.byte	0x2
 	.uahalf	0x277
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1
 	.byte	0x2
@@ -6320,11 +4569,7 @@ IfxScuEru_setInterruptGatingPattern:
 	.string	"IGP1"
 	.byte	0x2
 	.uahalf	0x278
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x2
 	.byte	0
@@ -6334,30 +4579,18 @@ IfxScuEru_setInterruptGatingPattern:
 	.string	"Ifx_SCU_IGCR_Bits"
 	.byte	0x2
 	.uahalf	0x279
-<<<<<<< HEAD
 	.uaword	0x21f5
-=======
-	.uaword	0x21fe
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0xa
 	.string	"_Ifx_SCU_IN_Bits"
 	.byte	0x4
 	.byte	0x2
 	.uahalf	0x27c
-<<<<<<< HEAD
 	.uaword	0x240b
-=======
-	.uaword	0x2414
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0x8
 	.string	"P0"
 	.byte	0x2
 	.uahalf	0x27e
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1f
@@ -6366,11 +4599,7 @@ IfxScuEru_setInterruptGatingPattern:
 	.string	"P1"
 	.byte	0x2
 	.uahalf	0x27f
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1e
@@ -6379,11 +4608,7 @@ IfxScuEru_setInterruptGatingPattern:
 	.uaword	.LASF9
 	.byte	0x2
 	.uahalf	0x280
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1e
 	.byte	0
@@ -6393,30 +4618,18 @@ IfxScuEru_setInterruptGatingPattern:
 	.string	"Ifx_SCU_IN_Bits"
 	.byte	0x2
 	.uahalf	0x281
-<<<<<<< HEAD
 	.uaword	0x23c2
-=======
-	.uaword	0x23cb
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0xa
 	.string	"_Ifx_SCU_IOCR_Bits"
 	.byte	0x4
 	.byte	0x2
 	.uahalf	0x284
-<<<<<<< HEAD
 	.uaword	0x2490
-=======
-	.uaword	0x2499
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0x7
 	.uaword	.LASF0
 	.byte	0x2
 	.uahalf	0x286
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x4
 	.byte	0x1c
@@ -6425,11 +4638,7 @@ IfxScuEru_setInterruptGatingPattern:
 	.string	"PC0"
 	.byte	0x2
 	.uahalf	0x287
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x4
 	.byte	0x18
@@ -6438,11 +4647,7 @@ IfxScuEru_setInterruptGatingPattern:
 	.uaword	.LASF15
 	.byte	0x2
 	.uahalf	0x288
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x4
 	.byte	0x14
@@ -6451,11 +4656,7 @@ IfxScuEru_setInterruptGatingPattern:
 	.string	"PC1"
 	.byte	0x2
 	.uahalf	0x289
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x4
 	.byte	0x10
@@ -6464,11 +4665,7 @@ IfxScuEru_setInterruptGatingPattern:
 	.uaword	.LASF11
 	.byte	0x2
 	.uahalf	0x28a
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x10
 	.byte	0
@@ -6478,30 +4675,18 @@ IfxScuEru_setInterruptGatingPattern:
 	.string	"Ifx_SCU_IOCR_Bits"
 	.byte	0x2
 	.uahalf	0x28b
-<<<<<<< HEAD
 	.uaword	0x2423
-=======
-	.uaword	0x242c
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0xa
 	.string	"_Ifx_SCU_LBISTCTRL0_Bits"
 	.byte	0x4
 	.byte	0x2
 	.uahalf	0x28e
-<<<<<<< HEAD
 	.uaword	0x251d
-=======
-	.uaword	0x2526
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0x8
 	.string	"LBISTREQ"
 	.byte	0x2
 	.uahalf	0x290
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1f
@@ -6510,11 +4695,7 @@ IfxScuEru_setInterruptGatingPattern:
 	.string	"LBISTREQP"
 	.byte	0x2
 	.uahalf	0x291
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1e
@@ -6523,11 +4704,7 @@ IfxScuEru_setInterruptGatingPattern:
 	.string	"PATTERNS"
 	.byte	0x2
 	.uahalf	0x292
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0xe
 	.byte	0x10
@@ -6536,11 +4713,7 @@ IfxScuEru_setInterruptGatingPattern:
 	.uaword	.LASF11
 	.byte	0x2
 	.uahalf	0x293
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x10
 	.byte	0
@@ -6550,30 +4723,18 @@ IfxScuEru_setInterruptGatingPattern:
 	.string	"Ifx_SCU_LBISTCTRL0_Bits"
 	.byte	0x2
 	.uahalf	0x294
-<<<<<<< HEAD
 	.uaword	0x24aa
-=======
-	.uaword	0x24b3
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0xa
 	.string	"_Ifx_SCU_LBISTCTRL1_Bits"
 	.byte	0x4
 	.byte	0x2
 	.uahalf	0x297
-<<<<<<< HEAD
 	.uaword	0x25bd
-=======
-	.uaword	0x25c6
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0x8
 	.string	"SEED"
 	.byte	0x2
 	.uahalf	0x299
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x17
 	.byte	0x9
@@ -6582,11 +4743,7 @@ IfxScuEru_setInterruptGatingPattern:
 	.uaword	.LASF14
 	.byte	0x2
 	.uahalf	0x29a
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1
 	.byte	0x8
@@ -6595,11 +4752,7 @@ IfxScuEru_setInterruptGatingPattern:
 	.string	"SPLITSH"
 	.byte	0x2
 	.uahalf	0x29b
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x3
 	.byte	0x5
@@ -6608,11 +4761,7 @@ IfxScuEru_setInterruptGatingPattern:
 	.string	"BODY"
 	.byte	0x2
 	.uahalf	0x29c
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1
 	.byte	0x4
@@ -6621,11 +4770,7 @@ IfxScuEru_setInterruptGatingPattern:
 	.string	"LBISTFREQU"
 	.byte	0x2
 	.uahalf	0x29d
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x4
 	.byte	0
@@ -6635,30 +4780,18 @@ IfxScuEru_setInterruptGatingPattern:
 	.string	"Ifx_SCU_LBISTCTRL1_Bits"
 	.byte	0x2
 	.uahalf	0x29e
-<<<<<<< HEAD
 	.uaword	0x253d
-=======
-	.uaword	0x2546
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0xa
 	.string	"_Ifx_SCU_LBISTCTRL2_Bits"
 	.byte	0x4
 	.byte	0x2
 	.uahalf	0x2a1
-<<<<<<< HEAD
 	.uaword	0x263c
-=======
-	.uaword	0x2645
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0x8
 	.string	"SIGNATURE"
 	.byte	0x2
 	.uahalf	0x2a3
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x18
 	.byte	0x8
@@ -6667,11 +4800,7 @@ IfxScuEru_setInterruptGatingPattern:
 	.uaword	.LASF5
 	.byte	0x2
 	.uahalf	0x2a4
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x7
 	.byte	0x1
@@ -6680,11 +4809,7 @@ IfxScuEru_setInterruptGatingPattern:
 	.string	"LBISTDONE"
 	.byte	0x2
 	.uahalf	0x2a5
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1
 	.byte	0
@@ -6694,30 +4819,18 @@ IfxScuEru_setInterruptGatingPattern:
 	.string	"Ifx_SCU_LBISTCTRL2_Bits"
 	.byte	0x2
 	.uahalf	0x2a6
-<<<<<<< HEAD
 	.uaword	0x25dd
-=======
-	.uaword	0x25e6
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0xa
 	.string	"_Ifx_SCU_LCLCON_Bits"
 	.byte	0x4
 	.byte	0x2
 	.uahalf	0x2a9
-<<<<<<< HEAD
 	.uaword	0x26bb
-=======
-	.uaword	0x26c4
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0x7
 	.uaword	.LASF0
 	.byte	0x2
 	.uahalf	0x2ab
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x10
 	.byte	0x10
@@ -6726,11 +4839,7 @@ IfxScuEru_setInterruptGatingPattern:
 	.string	"LS"
 	.byte	0x2
 	.uahalf	0x2ac
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1
 	.byte	0xf
@@ -6739,11 +4848,7 @@ IfxScuEru_setInterruptGatingPattern:
 	.uaword	.LASF23
 	.byte	0x2
 	.uahalf	0x2ad
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0xe
 	.byte	0x1
@@ -6752,11 +4857,7 @@ IfxScuEru_setInterruptGatingPattern:
 	.string	"LSEN"
 	.byte	0x2
 	.uahalf	0x2ae
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1
 	.byte	0
@@ -6766,30 +4867,18 @@ IfxScuEru_setInterruptGatingPattern:
 	.string	"Ifx_SCU_LCLCON_Bits"
 	.byte	0x2
 	.uahalf	0x2af
-<<<<<<< HEAD
 	.uaword	0x265c
-=======
-	.uaword	0x2665
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0xa
 	.string	"_Ifx_SCU_LCLTEST_Bits"
 	.byte	0x4
 	.byte	0x2
 	.uahalf	0x2b2
-<<<<<<< HEAD
 	.uaword	0x272b
-=======
-	.uaword	0x2734
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0x8
 	.string	"LCLT0"
 	.byte	0x2
 	.uahalf	0x2b4
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1f
@@ -6798,11 +4887,7 @@ IfxScuEru_setInterruptGatingPattern:
 	.string	"LCLT1"
 	.byte	0x2
 	.uahalf	0x2b5
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1e
@@ -6811,11 +4896,7 @@ IfxScuEru_setInterruptGatingPattern:
 	.uaword	.LASF9
 	.byte	0x2
 	.uahalf	0x2b6
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1e
 	.byte	0
@@ -6825,30 +4906,18 @@ IfxScuEru_setInterruptGatingPattern:
 	.string	"Ifx_SCU_LCLTEST_Bits"
 	.byte	0x2
 	.uahalf	0x2b7
-<<<<<<< HEAD
 	.uaword	0x26d7
-=======
-	.uaword	0x26e0
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0xa
 	.string	"_Ifx_SCU_MANID_Bits"
 	.byte	0x4
 	.byte	0x2
 	.uahalf	0x2ba
-<<<<<<< HEAD
 	.uaword	0x2799
-=======
-	.uaword	0x27a2
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0x8
 	.string	"DEPT"
 	.byte	0x2
 	.uahalf	0x2bc
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x5
 	.byte	0x1b
@@ -6857,11 +4926,7 @@ IfxScuEru_setInterruptGatingPattern:
 	.string	"MANUF"
 	.byte	0x2
 	.uahalf	0x2bd
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0xb
 	.byte	0x10
@@ -6870,11 +4935,7 @@ IfxScuEru_setInterruptGatingPattern:
 	.uaword	.LASF11
 	.byte	0x2
 	.uahalf	0x2be
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x10
 	.byte	0
@@ -6884,30 +4945,18 @@ IfxScuEru_setInterruptGatingPattern:
 	.string	"Ifx_SCU_MANID_Bits"
 	.byte	0x2
 	.uahalf	0x2bf
-<<<<<<< HEAD
 	.uaword	0x2748
-=======
-	.uaword	0x2751
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0xa
 	.string	"_Ifx_SCU_OMR_Bits"
 	.byte	0x4
 	.byte	0x2
 	.uahalf	0x2c2
-<<<<<<< HEAD
 	.uaword	0x2832
-=======
-	.uaword	0x283b
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0x8
 	.string	"PS0"
 	.byte	0x2
 	.uahalf	0x2c4
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1f
@@ -6916,11 +4965,7 @@ IfxScuEru_setInterruptGatingPattern:
 	.string	"PS1"
 	.byte	0x2
 	.uahalf	0x2c5
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1e
@@ -6929,11 +4974,7 @@ IfxScuEru_setInterruptGatingPattern:
 	.uaword	.LASF9
 	.byte	0x2
 	.uahalf	0x2c6
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0xe
 	.byte	0x10
@@ -6942,11 +4983,7 @@ IfxScuEru_setInterruptGatingPattern:
 	.string	"PCL0"
 	.byte	0x2
 	.uahalf	0x2c7
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1
 	.byte	0xf
@@ -6955,11 +4992,7 @@ IfxScuEru_setInterruptGatingPattern:
 	.string	"PCL1"
 	.byte	0x2
 	.uahalf	0x2c8
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1
 	.byte	0xe
@@ -6968,11 +5001,7 @@ IfxScuEru_setInterruptGatingPattern:
 	.uaword	.LASF16
 	.byte	0x2
 	.uahalf	0x2c9
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0xe
 	.byte	0
@@ -6982,30 +5011,18 @@ IfxScuEru_setInterruptGatingPattern:
 	.string	"Ifx_SCU_OMR_Bits"
 	.byte	0x2
 	.uahalf	0x2ca
-<<<<<<< HEAD
 	.uaword	0x27b4
-=======
-	.uaword	0x27bd
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0xa
 	.string	"_Ifx_SCU_OSCCON_Bits"
 	.byte	0x4
 	.byte	0x2
 	.uahalf	0x2cd
-<<<<<<< HEAD
 	.uaword	0x29ba
-=======
-	.uaword	0x29c3
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0x7
 	.uaword	.LASF0
 	.byte	0x2
 	.uahalf	0x2cf
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1f
@@ -7014,11 +5031,7 @@ IfxScuEru_setInterruptGatingPattern:
 	.string	"PLLLV"
 	.byte	0x2
 	.uahalf	0x2d0
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1e
@@ -7027,11 +5040,7 @@ IfxScuEru_setInterruptGatingPattern:
 	.string	"OSCRES"
 	.byte	0x2
 	.uahalf	0x2d1
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1d
@@ -7040,11 +5049,7 @@ IfxScuEru_setInterruptGatingPattern:
 	.string	"GAINSEL"
 	.byte	0x2
 	.uahalf	0x2d2
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x2
 	.byte	0x1b
@@ -7053,11 +5058,7 @@ IfxScuEru_setInterruptGatingPattern:
 	.string	"MODE"
 	.byte	0x2
 	.uahalf	0x2d3
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x2
 	.byte	0x19
@@ -7066,11 +5067,7 @@ IfxScuEru_setInterruptGatingPattern:
 	.string	"SHBY"
 	.byte	0x2
 	.uahalf	0x2d4
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1
 	.byte	0x18
@@ -7079,11 +5076,7 @@ IfxScuEru_setInterruptGatingPattern:
 	.string	"PLLHV"
 	.byte	0x2
 	.uahalf	0x2d5
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1
 	.byte	0x17
@@ -7092,11 +5085,7 @@ IfxScuEru_setInterruptGatingPattern:
 	.uaword	.LASF18
 	.byte	0x2
 	.uahalf	0x2d6
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1
 	.byte	0x16
@@ -7105,11 +5094,7 @@ IfxScuEru_setInterruptGatingPattern:
 	.string	"X1D"
 	.byte	0x2
 	.uahalf	0x2d7
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1
 	.byte	0x15
@@ -7118,11 +5103,7 @@ IfxScuEru_setInterruptGatingPattern:
 	.string	"X1DEN"
 	.byte	0x2
 	.uahalf	0x2d8
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1
 	.byte	0x14
@@ -7131,11 +5112,7 @@ IfxScuEru_setInterruptGatingPattern:
 	.uaword	.LASF24
 	.byte	0x2
 	.uahalf	0x2d9
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x4
 	.byte	0x10
@@ -7144,11 +5121,7 @@ IfxScuEru_setInterruptGatingPattern:
 	.string	"OSCVAL"
 	.byte	0x2
 	.uahalf	0x2da
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x5
 	.byte	0xb
@@ -7157,11 +5130,7 @@ IfxScuEru_setInterruptGatingPattern:
 	.uaword	.LASF25
 	.byte	0x2
 	.uahalf	0x2db
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x2
 	.byte	0x9
@@ -7170,11 +5139,7 @@ IfxScuEru_setInterruptGatingPattern:
 	.string	"APREN"
 	.byte	0x2
 	.uahalf	0x2dc
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1
 	.byte	0x8
@@ -7183,11 +5148,7 @@ IfxScuEru_setInterruptGatingPattern:
 	.string	"CAP0EN"
 	.byte	0x2
 	.uahalf	0x2dd
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1
 	.byte	0x7
@@ -7196,11 +5157,7 @@ IfxScuEru_setInterruptGatingPattern:
 	.string	"CAP1EN"
 	.byte	0x2
 	.uahalf	0x2de
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1
 	.byte	0x6
@@ -7209,11 +5166,7 @@ IfxScuEru_setInterruptGatingPattern:
 	.string	"CAP2EN"
 	.byte	0x2
 	.uahalf	0x2df
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1
 	.byte	0x5
@@ -7222,11 +5175,7 @@ IfxScuEru_setInterruptGatingPattern:
 	.string	"CAP3EN"
 	.byte	0x2
 	.uahalf	0x2e0
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1
 	.byte	0x4
@@ -7235,11 +5184,7 @@ IfxScuEru_setInterruptGatingPattern:
 	.uaword	.LASF17
 	.byte	0x2
 	.uahalf	0x2e1
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x4
 	.byte	0
@@ -7249,30 +5194,18 @@ IfxScuEru_setInterruptGatingPattern:
 	.string	"Ifx_SCU_OSCCON_Bits"
 	.byte	0x2
 	.uahalf	0x2e2
-<<<<<<< HEAD
 	.uaword	0x284b
-=======
-	.uaword	0x2854
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0xa
 	.string	"_Ifx_SCU_OUT_Bits"
 	.byte	0x4
 	.byte	0x2
 	.uahalf	0x2e5
-<<<<<<< HEAD
 	.uaword	0x2a20
-=======
-	.uaword	0x2a29
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0x8
 	.string	"P0"
 	.byte	0x2
 	.uahalf	0x2e7
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1f
@@ -7281,11 +5214,7 @@ IfxScuEru_setInterruptGatingPattern:
 	.string	"P1"
 	.byte	0x2
 	.uahalf	0x2e8
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1e
@@ -7294,11 +5223,7 @@ IfxScuEru_setInterruptGatingPattern:
 	.uaword	.LASF9
 	.byte	0x2
 	.uahalf	0x2e9
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1e
 	.byte	0
@@ -7308,30 +5233,18 @@ IfxScuEru_setInterruptGatingPattern:
 	.string	"Ifx_SCU_OUT_Bits"
 	.byte	0x2
 	.uahalf	0x2ea
-<<<<<<< HEAD
 	.uaword	0x29d6
-=======
-	.uaword	0x29df
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0xa
 	.string	"_Ifx_SCU_OVCCON_Bits"
 	.byte	0x4
 	.byte	0x2
 	.uahalf	0x2ed
-<<<<<<< HEAD
 	.uaword	0x2b1e
-=======
-	.uaword	0x2b27
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0x8
 	.string	"CSEL0"
 	.byte	0x2
 	.uahalf	0x2ef
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1f
@@ -7340,11 +5253,7 @@ IfxScuEru_setInterruptGatingPattern:
 	.string	"CSEL1"
 	.byte	0x2
 	.uahalf	0x2f0
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1e
@@ -7353,11 +5262,7 @@ IfxScuEru_setInterruptGatingPattern:
 	.string	"CSEL2"
 	.byte	0x2
 	.uahalf	0x2f1
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1d
@@ -7366,11 +5271,7 @@ IfxScuEru_setInterruptGatingPattern:
 	.uaword	.LASF1
 	.byte	0x2
 	.uahalf	0x2f2
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0xd
 	.byte	0x10
@@ -7379,11 +5280,7 @@ IfxScuEru_setInterruptGatingPattern:
 	.string	"OVSTRT"
 	.byte	0x2
 	.uahalf	0x2f3
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1
 	.byte	0xf
@@ -7392,11 +5289,7 @@ IfxScuEru_setInterruptGatingPattern:
 	.string	"OVSTP"
 	.byte	0x2
 	.uahalf	0x2f4
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1
 	.byte	0xe
@@ -7405,11 +5298,7 @@ IfxScuEru_setInterruptGatingPattern:
 	.string	"DCINVAL"
 	.byte	0x2
 	.uahalf	0x2f5
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1
 	.byte	0xd
@@ -7418,11 +5307,7 @@ IfxScuEru_setInterruptGatingPattern:
 	.uaword	.LASF26
 	.byte	0x2
 	.uahalf	0x2f6
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x5
 	.byte	0x8
@@ -7431,11 +5316,7 @@ IfxScuEru_setInterruptGatingPattern:
 	.string	"OVCONF"
 	.byte	0x2
 	.uahalf	0x2f7
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1
 	.byte	0x7
@@ -7444,11 +5325,7 @@ IfxScuEru_setInterruptGatingPattern:
 	.string	"POVCONF"
 	.byte	0x2
 	.uahalf	0x2f8
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1
 	.byte	0x6
@@ -7457,11 +5334,7 @@ IfxScuEru_setInterruptGatingPattern:
 	.uaword	.LASF3
 	.byte	0x2
 	.uahalf	0x2f9
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x6
 	.byte	0
@@ -7471,30 +5344,18 @@ IfxScuEru_setInterruptGatingPattern:
 	.string	"Ifx_SCU_OVCCON_Bits"
 	.byte	0x2
 	.uahalf	0x2fa
-<<<<<<< HEAD
 	.uaword	0x2a39
-=======
-	.uaword	0x2a42
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0xa
 	.string	"_Ifx_SCU_OVCENABLE_Bits"
 	.byte	0x4
 	.byte	0x2
 	.uahalf	0x2fd
-<<<<<<< HEAD
 	.uaword	0x2ba2
-=======
-	.uaword	0x2bab
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0x8
 	.string	"OVEN0"
 	.byte	0x2
 	.uahalf	0x2ff
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1f
@@ -7503,11 +5364,7 @@ IfxScuEru_setInterruptGatingPattern:
 	.string	"OVEN1"
 	.byte	0x2
 	.uahalf	0x300
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1e
@@ -7516,11 +5373,7 @@ IfxScuEru_setInterruptGatingPattern:
 	.string	"OVEN2"
 	.byte	0x2
 	.uahalf	0x301
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1d
@@ -7529,11 +5382,7 @@ IfxScuEru_setInterruptGatingPattern:
 	.uaword	.LASF1
 	.byte	0x2
 	.uahalf	0x302
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1d
 	.byte	0
@@ -7543,30 +5392,18 @@ IfxScuEru_setInterruptGatingPattern:
 	.string	"Ifx_SCU_OVCENABLE_Bits"
 	.byte	0x2
 	.uahalf	0x303
-<<<<<<< HEAD
 	.uaword	0x2b3a
-=======
-	.uaword	0x2b43
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0xa
 	.string	"_Ifx_SCU_PDISC_Bits"
 	.byte	0x4
 	.byte	0x2
 	.uahalf	0x306
-<<<<<<< HEAD
 	.uaword	0x2c13
-=======
-	.uaword	0x2c1c
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0x8
 	.string	"PDIS0"
 	.byte	0x2
 	.uahalf	0x308
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1f
@@ -7575,11 +5412,7 @@ IfxScuEru_setInterruptGatingPattern:
 	.string	"PDIS1"
 	.byte	0x2
 	.uahalf	0x309
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1e
@@ -7588,11 +5421,7 @@ IfxScuEru_setInterruptGatingPattern:
 	.uaword	.LASF9
 	.byte	0x2
 	.uahalf	0x30a
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1e
 	.byte	0
@@ -7602,30 +5431,18 @@ IfxScuEru_setInterruptGatingPattern:
 	.string	"Ifx_SCU_PDISC_Bits"
 	.byte	0x2
 	.uahalf	0x30b
-<<<<<<< HEAD
 	.uaword	0x2bc1
-=======
-	.uaword	0x2bca
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0xa
 	.string	"_Ifx_SCU_PDR_Bits"
 	.byte	0x4
 	.byte	0x2
 	.uahalf	0x30e
-<<<<<<< HEAD
 	.uaword	0x2c9a
-=======
-	.uaword	0x2ca3
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0x8
 	.string	"PD0"
 	.byte	0x2
 	.uahalf	0x310
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x3
 	.byte	0x1d
@@ -7634,11 +5451,7 @@ IfxScuEru_setInterruptGatingPattern:
 	.string	"PL0"
 	.byte	0x2
 	.uahalf	0x311
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1c
@@ -7647,11 +5460,7 @@ IfxScuEru_setInterruptGatingPattern:
 	.string	"PD1"
 	.byte	0x2
 	.uahalf	0x312
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x3
 	.byte	0x19
@@ -7660,11 +5469,7 @@ IfxScuEru_setInterruptGatingPattern:
 	.string	"PL1"
 	.byte	0x2
 	.uahalf	0x313
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1
 	.byte	0x18
@@ -7673,11 +5478,7 @@ IfxScuEru_setInterruptGatingPattern:
 	.uaword	.LASF15
 	.byte	0x2
 	.uahalf	0x314
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x18
 	.byte	0
@@ -7687,30 +5488,18 @@ IfxScuEru_setInterruptGatingPattern:
 	.string	"Ifx_SCU_PDR_Bits"
 	.byte	0x2
 	.uahalf	0x315
-<<<<<<< HEAD
 	.uaword	0x2c2e
-=======
-	.uaword	0x2c37
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0xa
 	.string	"_Ifx_SCU_PDRR_Bits"
 	.byte	0x4
 	.byte	0x2
 	.uahalf	0x318
-<<<<<<< HEAD
 	.uaword	0x2d68
-=======
-	.uaword	0x2d71
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0x8
 	.string	"PDR0"
 	.byte	0x2
 	.uahalf	0x31a
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1f
@@ -7719,11 +5508,7 @@ IfxScuEru_setInterruptGatingPattern:
 	.string	"PDR1"
 	.byte	0x2
 	.uahalf	0x31b
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1e
@@ -7732,11 +5517,7 @@ IfxScuEru_setInterruptGatingPattern:
 	.string	"PDR2"
 	.byte	0x2
 	.uahalf	0x31c
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1d
@@ -7745,11 +5526,7 @@ IfxScuEru_setInterruptGatingPattern:
 	.string	"PDR3"
 	.byte	0x2
 	.uahalf	0x31d
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1c
@@ -7758,11 +5535,7 @@ IfxScuEru_setInterruptGatingPattern:
 	.string	"PDR4"
 	.byte	0x2
 	.uahalf	0x31e
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1b
@@ -7771,11 +5544,7 @@ IfxScuEru_setInterruptGatingPattern:
 	.string	"PDR5"
 	.byte	0x2
 	.uahalf	0x31f
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1a
@@ -7784,11 +5553,7 @@ IfxScuEru_setInterruptGatingPattern:
 	.string	"PDR6"
 	.byte	0x2
 	.uahalf	0x320
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1
 	.byte	0x19
@@ -7797,11 +5562,7 @@ IfxScuEru_setInterruptGatingPattern:
 	.string	"PDR7"
 	.byte	0x2
 	.uahalf	0x321
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1
 	.byte	0x18
@@ -7810,11 +5571,7 @@ IfxScuEru_setInterruptGatingPattern:
 	.uaword	.LASF15
 	.byte	0x2
 	.uahalf	0x322
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x18
 	.byte	0
@@ -7824,30 +5581,18 @@ IfxScuEru_setInterruptGatingPattern:
 	.string	"Ifx_SCU_PDRR_Bits"
 	.byte	0x2
 	.uahalf	0x323
-<<<<<<< HEAD
 	.uaword	0x2cb3
-=======
-	.uaword	0x2cbc
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0xa
 	.string	"_Ifx_SCU_PLLCON0_Bits"
 	.byte	0x4
 	.byte	0x2
 	.uahalf	0x326
-<<<<<<< HEAD
 	.uaword	0x2ea1
-=======
-	.uaword	0x2eaa
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0x8
 	.string	"VCOBYP"
 	.byte	0x2
 	.uahalf	0x328
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1f
@@ -7856,11 +5601,7 @@ IfxScuEru_setInterruptGatingPattern:
 	.string	"VCOPWD"
 	.byte	0x2
 	.uahalf	0x329
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1e
@@ -7869,11 +5610,7 @@ IfxScuEru_setInterruptGatingPattern:
 	.string	"MODEN"
 	.byte	0x2
 	.uahalf	0x32a
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1d
@@ -7882,11 +5619,7 @@ IfxScuEru_setInterruptGatingPattern:
 	.uaword	.LASF1
 	.byte	0x2
 	.uahalf	0x32b
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1c
@@ -7895,11 +5628,7 @@ IfxScuEru_setInterruptGatingPattern:
 	.uaword	.LASF27
 	.byte	0x2
 	.uahalf	0x32c
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1b
@@ -7908,11 +5637,7 @@ IfxScuEru_setInterruptGatingPattern:
 	.uaword	.LASF28
 	.byte	0x2
 	.uahalf	0x32d
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1a
@@ -7921,11 +5646,7 @@ IfxScuEru_setInterruptGatingPattern:
 	.uaword	.LASF29
 	.byte	0x2
 	.uahalf	0x32e
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1
 	.byte	0x19
@@ -7934,11 +5655,7 @@ IfxScuEru_setInterruptGatingPattern:
 	.uaword	.LASF12
 	.byte	0x2
 	.uahalf	0x32f
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x2
 	.byte	0x17
@@ -7947,11 +5664,7 @@ IfxScuEru_setInterruptGatingPattern:
 	.string	"NDIV"
 	.byte	0x2
 	.uahalf	0x330
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x7
 	.byte	0x10
@@ -7960,11 +5673,7 @@ IfxScuEru_setInterruptGatingPattern:
 	.string	"PLLPWD"
 	.byte	0x2
 	.uahalf	0x331
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1
 	.byte	0xf
@@ -7973,11 +5682,7 @@ IfxScuEru_setInterruptGatingPattern:
 	.uaword	.LASF23
 	.byte	0x2
 	.uahalf	0x332
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1
 	.byte	0xe
@@ -7986,11 +5691,7 @@ IfxScuEru_setInterruptGatingPattern:
 	.string	"RESLD"
 	.byte	0x2
 	.uahalf	0x333
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1
 	.byte	0xd
@@ -7999,11 +5700,7 @@ IfxScuEru_setInterruptGatingPattern:
 	.uaword	.LASF26
 	.byte	0x2
 	.uahalf	0x334
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x5
 	.byte	0x8
@@ -8012,11 +5709,7 @@ IfxScuEru_setInterruptGatingPattern:
 	.string	"PDIV"
 	.byte	0x2
 	.uahalf	0x335
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x4
 	.byte	0x4
@@ -8025,11 +5718,7 @@ IfxScuEru_setInterruptGatingPattern:
 	.uaword	.LASF17
 	.byte	0x2
 	.uahalf	0x336
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x4
 	.byte	0
@@ -8039,30 +5728,18 @@ IfxScuEru_setInterruptGatingPattern:
 	.string	"Ifx_SCU_PLLCON0_Bits"
 	.byte	0x2
 	.uahalf	0x337
-<<<<<<< HEAD
 	.uaword	0x2d82
-=======
-	.uaword	0x2d8b
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0xa
 	.string	"_Ifx_SCU_PLLCON1_Bits"
 	.byte	0x4
 	.byte	0x2
 	.uahalf	0x33a
-<<<<<<< HEAD
 	.uaword	0x2f44
-=======
-	.uaword	0x2f4d
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0x8
 	.string	"K2DIV"
 	.byte	0x2
 	.uahalf	0x33c
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x7
 	.byte	0x19
@@ -8071,11 +5748,7 @@ IfxScuEru_setInterruptGatingPattern:
 	.uaword	.LASF12
 	.byte	0x2
 	.uahalf	0x33d
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1
 	.byte	0x18
@@ -8084,11 +5757,7 @@ IfxScuEru_setInterruptGatingPattern:
 	.string	"K3DIV"
 	.byte	0x2
 	.uahalf	0x33e
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x7
 	.byte	0x11
@@ -8097,11 +5766,7 @@ IfxScuEru_setInterruptGatingPattern:
 	.uaword	.LASF13
 	.byte	0x2
 	.uahalf	0x33f
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1
 	.byte	0x10
@@ -8110,11 +5775,7 @@ IfxScuEru_setInterruptGatingPattern:
 	.string	"K1DIV"
 	.byte	0x2
 	.uahalf	0x340
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x7
 	.byte	0x9
@@ -8123,11 +5784,7 @@ IfxScuEru_setInterruptGatingPattern:
 	.uaword	.LASF14
 	.byte	0x2
 	.uahalf	0x341
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x9
 	.byte	0
@@ -8137,30 +5794,18 @@ IfxScuEru_setInterruptGatingPattern:
 	.string	"Ifx_SCU_PLLCON1_Bits"
 	.byte	0x2
 	.uahalf	0x342
-<<<<<<< HEAD
 	.uaword	0x2ebe
-=======
-	.uaword	0x2ec7
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0xa
 	.string	"_Ifx_SCU_PLLCON2_Bits"
 	.byte	0x4
 	.byte	0x2
 	.uahalf	0x345
-<<<<<<< HEAD
 	.uaword	0x2fa4
-=======
-	.uaword	0x2fad
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0x8
 	.string	"MODCFG"
 	.byte	0x2
 	.uahalf	0x347
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x10
 	.byte	0x10
@@ -8169,11 +5814,7 @@ IfxScuEru_setInterruptGatingPattern:
 	.uaword	.LASF11
 	.byte	0x2
 	.uahalf	0x348
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x10
 	.byte	0
@@ -8183,30 +5824,18 @@ IfxScuEru_setInterruptGatingPattern:
 	.string	"Ifx_SCU_PLLCON2_Bits"
 	.byte	0x2
 	.uahalf	0x349
-<<<<<<< HEAD
 	.uaword	0x2f61
-=======
-	.uaword	0x2f6a
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0xa
 	.string	"_Ifx_SCU_PLLERAYCON0_Bits"
 	.byte	0x4
 	.byte	0x2
 	.uahalf	0x34c
-<<<<<<< HEAD
 	.uaword	0x30e2
-=======
-	.uaword	0x30eb
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0x8
 	.string	"VCOBYP"
 	.byte	0x2
 	.uahalf	0x34e
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1f
@@ -8215,11 +5844,7 @@ IfxScuEru_setInterruptGatingPattern:
 	.string	"VCOPWD"
 	.byte	0x2
 	.uahalf	0x34f
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1e
@@ -8228,11 +5853,7 @@ IfxScuEru_setInterruptGatingPattern:
 	.uaword	.LASF9
 	.byte	0x2
 	.uahalf	0x350
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x2
 	.byte	0x1c
@@ -8241,11 +5862,7 @@ IfxScuEru_setInterruptGatingPattern:
 	.uaword	.LASF27
 	.byte	0x2
 	.uahalf	0x351
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1b
@@ -8254,11 +5871,7 @@ IfxScuEru_setInterruptGatingPattern:
 	.uaword	.LASF28
 	.byte	0x2
 	.uahalf	0x352
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1a
@@ -8267,11 +5880,7 @@ IfxScuEru_setInterruptGatingPattern:
 	.uaword	.LASF29
 	.byte	0x2
 	.uahalf	0x353
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1
 	.byte	0x19
@@ -8280,11 +5889,7 @@ IfxScuEru_setInterruptGatingPattern:
 	.uaword	.LASF12
 	.byte	0x2
 	.uahalf	0x354
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x2
 	.byte	0x17
@@ -8293,11 +5898,7 @@ IfxScuEru_setInterruptGatingPattern:
 	.string	"NDIV"
 	.byte	0x2
 	.uahalf	0x355
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x5
 	.byte	0x12
@@ -8306,11 +5907,7 @@ IfxScuEru_setInterruptGatingPattern:
 	.uaword	.LASF20
 	.byte	0x2
 	.uahalf	0x356
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x2
 	.byte	0x10
@@ -8319,11 +5916,7 @@ IfxScuEru_setInterruptGatingPattern:
 	.string	"PLLPWD"
 	.byte	0x2
 	.uahalf	0x357
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1
 	.byte	0xf
@@ -8332,11 +5925,7 @@ IfxScuEru_setInterruptGatingPattern:
 	.uaword	.LASF23
 	.byte	0x2
 	.uahalf	0x358
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1
 	.byte	0xe
@@ -8345,11 +5934,7 @@ IfxScuEru_setInterruptGatingPattern:
 	.string	"RESLD"
 	.byte	0x2
 	.uahalf	0x359
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1
 	.byte	0xd
@@ -8358,11 +5943,7 @@ IfxScuEru_setInterruptGatingPattern:
 	.uaword	.LASF26
 	.byte	0x2
 	.uahalf	0x35a
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x5
 	.byte	0x8
@@ -8371,11 +5952,7 @@ IfxScuEru_setInterruptGatingPattern:
 	.string	"PDIV"
 	.byte	0x2
 	.uahalf	0x35b
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x4
 	.byte	0x4
@@ -8384,11 +5961,7 @@ IfxScuEru_setInterruptGatingPattern:
 	.uaword	.LASF17
 	.byte	0x2
 	.uahalf	0x35c
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x4
 	.byte	0
@@ -8398,30 +5971,18 @@ IfxScuEru_setInterruptGatingPattern:
 	.string	"Ifx_SCU_PLLERAYCON0_Bits"
 	.byte	0x2
 	.uahalf	0x35d
-<<<<<<< HEAD
 	.uaword	0x2fc1
-=======
-	.uaword	0x2fca
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0xa
 	.string	"_Ifx_SCU_PLLERAYCON1_Bits"
 	.byte	0x4
 	.byte	0x2
 	.uahalf	0x360
-<<<<<<< HEAD
 	.uaword	0x318d
-=======
-	.uaword	0x3196
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0x8
 	.string	"K2DIV"
 	.byte	0x2
 	.uahalf	0x362
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x7
 	.byte	0x19
@@ -8430,11 +5991,7 @@ IfxScuEru_setInterruptGatingPattern:
 	.uaword	.LASF12
 	.byte	0x2
 	.uahalf	0x363
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1
 	.byte	0x18
@@ -8443,11 +6000,7 @@ IfxScuEru_setInterruptGatingPattern:
 	.string	"K3DIV"
 	.byte	0x2
 	.uahalf	0x364
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x4
 	.byte	0x14
@@ -8456,11 +6009,7 @@ IfxScuEru_setInterruptGatingPattern:
 	.uaword	.LASF24
 	.byte	0x2
 	.uahalf	0x365
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x4
 	.byte	0x10
@@ -8469,11 +6018,7 @@ IfxScuEru_setInterruptGatingPattern:
 	.string	"K1DIV"
 	.byte	0x2
 	.uahalf	0x366
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x7
 	.byte	0x9
@@ -8482,11 +6027,7 @@ IfxScuEru_setInterruptGatingPattern:
 	.uaword	.LASF14
 	.byte	0x2
 	.uahalf	0x367
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x9
 	.byte	0
@@ -8496,30 +6037,18 @@ IfxScuEru_setInterruptGatingPattern:
 	.string	"Ifx_SCU_PLLERAYCON1_Bits"
 	.byte	0x2
 	.uahalf	0x368
-<<<<<<< HEAD
 	.uaword	0x3103
-=======
-	.uaword	0x310c
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0xa
 	.string	"_Ifx_SCU_PLLERAYSTAT_Bits"
 	.byte	0x4
 	.byte	0x2
 	.uahalf	0x36b
-<<<<<<< HEAD
 	.uaword	0x3255
-=======
-	.uaword	0x325e
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0x8
 	.string	"VCOBYST"
 	.byte	0x2
 	.uahalf	0x36d
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1f
@@ -8528,11 +6057,7 @@ IfxScuEru_setInterruptGatingPattern:
 	.string	"PWDSTAT"
 	.byte	0x2
 	.uahalf	0x36e
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1e
@@ -8541,11 +6066,7 @@ IfxScuEru_setInterruptGatingPattern:
 	.string	"VCOLOCK"
 	.byte	0x2
 	.uahalf	0x36f
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1d
@@ -8554,11 +6075,7 @@ IfxScuEru_setInterruptGatingPattern:
 	.string	"FINDIS"
 	.byte	0x2
 	.uahalf	0x370
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1c
@@ -8567,11 +6084,7 @@ IfxScuEru_setInterruptGatingPattern:
 	.string	"K1RDY"
 	.byte	0x2
 	.uahalf	0x371
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1b
@@ -8580,11 +6093,7 @@ IfxScuEru_setInterruptGatingPattern:
 	.string	"K2RDY"
 	.byte	0x2
 	.uahalf	0x372
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1a
@@ -8593,11 +6102,7 @@ IfxScuEru_setInterruptGatingPattern:
 	.uaword	.LASF7
 	.byte	0x2
 	.uahalf	0x373
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1a
 	.byte	0
@@ -8607,30 +6112,18 @@ IfxScuEru_setInterruptGatingPattern:
 	.string	"Ifx_SCU_PLLERAYSTAT_Bits"
 	.byte	0x2
 	.uahalf	0x374
-<<<<<<< HEAD
 	.uaword	0x31ae
-=======
-	.uaword	0x31b7
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0xa
 	.string	"_Ifx_SCU_PLLSTAT_Bits"
 	.byte	0x4
 	.byte	0x2
 	.uahalf	0x377
-<<<<<<< HEAD
 	.uaword	0x3338
-=======
-	.uaword	0x3341
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0x8
 	.string	"VCOBYST"
 	.byte	0x2
 	.uahalf	0x379
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1f
@@ -8639,11 +6132,7 @@ IfxScuEru_setInterruptGatingPattern:
 	.uaword	.LASF22
 	.byte	0x2
 	.uahalf	0x37a
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1e
@@ -8652,11 +6141,7 @@ IfxScuEru_setInterruptGatingPattern:
 	.string	"VCOLOCK"
 	.byte	0x2
 	.uahalf	0x37b
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1d
@@ -8665,11 +6150,7 @@ IfxScuEru_setInterruptGatingPattern:
 	.string	"FINDIS"
 	.byte	0x2
 	.uahalf	0x37c
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1c
@@ -8678,11 +6159,7 @@ IfxScuEru_setInterruptGatingPattern:
 	.string	"K1RDY"
 	.byte	0x2
 	.uahalf	0x37d
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1b
@@ -8691,11 +6168,7 @@ IfxScuEru_setInterruptGatingPattern:
 	.string	"K2RDY"
 	.byte	0x2
 	.uahalf	0x37e
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1a
@@ -8704,11 +6177,7 @@ IfxScuEru_setInterruptGatingPattern:
 	.uaword	.LASF7
 	.byte	0x2
 	.uahalf	0x37f
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1
 	.byte	0x19
@@ -8717,11 +6186,7 @@ IfxScuEru_setInterruptGatingPattern:
 	.string	"MODRUN"
 	.byte	0x2
 	.uahalf	0x380
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1
 	.byte	0x18
@@ -8730,11 +6195,7 @@ IfxScuEru_setInterruptGatingPattern:
 	.uaword	.LASF15
 	.byte	0x2
 	.uahalf	0x381
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x18
 	.byte	0
@@ -8744,30 +6205,18 @@ IfxScuEru_setInterruptGatingPattern:
 	.string	"Ifx_SCU_PLLSTAT_Bits"
 	.byte	0x2
 	.uahalf	0x382
-<<<<<<< HEAD
 	.uaword	0x3276
-=======
-	.uaword	0x327f
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0xa
 	.string	"_Ifx_SCU_PMCSR_Bits"
 	.byte	0x4
 	.byte	0x2
 	.uahalf	0x385
-<<<<<<< HEAD
 	.uaword	0x33ca
-=======
-	.uaword	0x33d3
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0x8
 	.string	"REQSLP"
 	.byte	0x2
 	.uahalf	0x387
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x2
 	.byte	0x1e
@@ -8776,11 +6225,7 @@ IfxScuEru_setInterruptGatingPattern:
 	.string	"SMUSLP"
 	.byte	0x2
 	.uahalf	0x388
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1d
@@ -8789,11 +6234,7 @@ IfxScuEru_setInterruptGatingPattern:
 	.uaword	.LASF1
 	.byte	0x2
 	.uahalf	0x389
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x5
 	.byte	0x18
@@ -8802,11 +6243,7 @@ IfxScuEru_setInterruptGatingPattern:
 	.string	"PMST"
 	.byte	0x2
 	.uahalf	0x38a
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x3
 	.byte	0x15
@@ -8815,11 +6252,7 @@ IfxScuEru_setInterruptGatingPattern:
 	.uaword	.LASF21
 	.byte	0x2
 	.uahalf	0x38b
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x15
 	.byte	0
@@ -8829,30 +6262,18 @@ IfxScuEru_setInterruptGatingPattern:
 	.string	"Ifx_SCU_PMCSR_Bits"
 	.byte	0x2
 	.uahalf	0x38c
-<<<<<<< HEAD
 	.uaword	0x3355
-=======
-	.uaword	0x335e
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0xa
 	.string	"_Ifx_SCU_PMSWCR0_Bits"
 	.byte	0x4
 	.byte	0x2
 	.uahalf	0x38f
-<<<<<<< HEAD
 	.uaword	0x35d2
-=======
-	.uaword	0x35db
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0x7
 	.uaword	.LASF0
 	.byte	0x2
 	.uahalf	0x391
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1f
@@ -8861,11 +6282,7 @@ IfxScuEru_setInterruptGatingPattern:
 	.uaword	.LASF30
 	.byte	0x2
 	.uahalf	0x392
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1e
@@ -8874,11 +6291,7 @@ IfxScuEru_setInterruptGatingPattern:
 	.uaword	.LASF31
 	.byte	0x2
 	.uahalf	0x393
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1d
@@ -8887,11 +6300,7 @@ IfxScuEru_setInterruptGatingPattern:
 	.uaword	.LASF32
 	.byte	0x2
 	.uahalf	0x394
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1c
@@ -8900,11 +6309,7 @@ IfxScuEru_setInterruptGatingPattern:
 	.string	"ESR0DFEN"
 	.byte	0x2
 	.uahalf	0x395
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1b
@@ -8913,11 +6318,7 @@ IfxScuEru_setInterruptGatingPattern:
 	.string	"ESR0EDCON"
 	.byte	0x2
 	.uahalf	0x396
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x2
 	.byte	0x19
@@ -8926,11 +6327,7 @@ IfxScuEru_setInterruptGatingPattern:
 	.string	"ESR1DFEN"
 	.byte	0x2
 	.uahalf	0x397
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1
 	.byte	0x18
@@ -8939,11 +6336,7 @@ IfxScuEru_setInterruptGatingPattern:
 	.string	"ESR1EDCON"
 	.byte	0x2
 	.uahalf	0x398
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x2
 	.byte	0x16
@@ -8952,11 +6345,7 @@ IfxScuEru_setInterruptGatingPattern:
 	.string	"PINADFEN"
 	.byte	0x2
 	.uahalf	0x399
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1
 	.byte	0x15
@@ -8965,11 +6354,7 @@ IfxScuEru_setInterruptGatingPattern:
 	.string	"PINAEDCON"
 	.byte	0x2
 	.uahalf	0x39a
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x2
 	.byte	0x13
@@ -8978,11 +6363,7 @@ IfxScuEru_setInterruptGatingPattern:
 	.string	"PINBDFEN"
 	.byte	0x2
 	.uahalf	0x39b
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1
 	.byte	0x12
@@ -8991,11 +6372,7 @@ IfxScuEru_setInterruptGatingPattern:
 	.string	"PINBEDCON"
 	.byte	0x2
 	.uahalf	0x39c
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x2
 	.byte	0x10
@@ -9004,11 +6381,7 @@ IfxScuEru_setInterruptGatingPattern:
 	.uaword	.LASF11
 	.byte	0x2
 	.uahalf	0x39d
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1
 	.byte	0xf
@@ -9017,11 +6390,7 @@ IfxScuEru_setInterruptGatingPattern:
 	.string	"STBYRAMSEL"
 	.byte	0x2
 	.uahalf	0x39e
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x2
 	.byte	0xd
@@ -9030,11 +6399,7 @@ IfxScuEru_setInterruptGatingPattern:
 	.uaword	.LASF26
 	.byte	0x2
 	.uahalf	0x39f
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x2
 	.byte	0xb
@@ -9043,11 +6408,7 @@ IfxScuEru_setInterruptGatingPattern:
 	.string	"TRISTEN"
 	.byte	0x2
 	.uahalf	0x3a0
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1
 	.byte	0xa
@@ -9056,11 +6417,7 @@ IfxScuEru_setInterruptGatingPattern:
 	.string	"TRISTREQ"
 	.byte	0x2
 	.uahalf	0x3a1
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1
 	.byte	0x9
@@ -9069,11 +6426,7 @@ IfxScuEru_setInterruptGatingPattern:
 	.string	"PORSTDF"
 	.byte	0x2
 	.uahalf	0x3a2
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1
 	.byte	0x8
@@ -9082,11 +6435,7 @@ IfxScuEru_setInterruptGatingPattern:
 	.string	"PWRWKEN"
 	.byte	0x2
 	.uahalf	0x3a3
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1
 	.byte	0x7
@@ -9095,11 +6444,7 @@ IfxScuEru_setInterruptGatingPattern:
 	.string	"DCDCSYNC"
 	.byte	0x2
 	.uahalf	0x3a4
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1
 	.byte	0x6
@@ -9108,11 +6453,7 @@ IfxScuEru_setInterruptGatingPattern:
 	.string	"BLNKFIL"
 	.byte	0x2
 	.uahalf	0x3a5
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x3
 	.byte	0x3
@@ -9121,11 +6462,7 @@ IfxScuEru_setInterruptGatingPattern:
 	.uaword	.LASF33
 	.byte	0x2
 	.uahalf	0x3a6
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1
 	.byte	0x2
@@ -9134,11 +6471,7 @@ IfxScuEru_setInterruptGatingPattern:
 	.uaword	.LASF19
 	.byte	0x2
 	.uahalf	0x3a7
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1
@@ -9147,11 +6480,7 @@ IfxScuEru_setInterruptGatingPattern:
 	.string	"LCK"
 	.byte	0x2
 	.uahalf	0x3a8
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1
 	.byte	0
@@ -9161,30 +6490,18 @@ IfxScuEru_setInterruptGatingPattern:
 	.string	"Ifx_SCU_PMSWCR0_Bits"
 	.byte	0x2
 	.uahalf	0x3a9
-<<<<<<< HEAD
 	.uaword	0x33e5
-=======
-	.uaword	0x33ee
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0xa
 	.string	"_Ifx_SCU_PMSWCR1_Bits"
 	.byte	0x4
 	.byte	0x2
 	.uahalf	0x3ac
-<<<<<<< HEAD
 	.uaword	0x36bb
-=======
-	.uaword	0x36c4
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0x7
 	.uaword	.LASF0
 	.byte	0x2
 	.uahalf	0x3ae
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x8
 	.byte	0x18
@@ -9193,11 +6510,7 @@ IfxScuEru_setInterruptGatingPattern:
 	.string	"CPUIDLSEL"
 	.byte	0x2
 	.uahalf	0x3af
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x3
 	.byte	0x15
@@ -9206,11 +6519,7 @@ IfxScuEru_setInterruptGatingPattern:
 	.uaword	.LASF21
 	.byte	0x2
 	.uahalf	0x3b0
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1
 	.byte	0x14
@@ -9219,11 +6528,7 @@ IfxScuEru_setInterruptGatingPattern:
 	.string	"IRADIS"
 	.byte	0x2
 	.uahalf	0x3b1
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1
 	.byte	0x13
@@ -9232,11 +6537,7 @@ IfxScuEru_setInterruptGatingPattern:
 	.string	"reserved_13"
 	.byte	0x2
 	.uahalf	0x3b2
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0xb
 	.byte	0x8
@@ -9245,11 +6546,7 @@ IfxScuEru_setInterruptGatingPattern:
 	.string	"CPUSEL"
 	.byte	0x2
 	.uahalf	0x3b3
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x3
 	.byte	0x5
@@ -9258,11 +6555,7 @@ IfxScuEru_setInterruptGatingPattern:
 	.string	"STBYEVEN"
 	.byte	0x2
 	.uahalf	0x3b4
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1
 	.byte	0x4
@@ -9271,11 +6564,7 @@ IfxScuEru_setInterruptGatingPattern:
 	.string	"STBYEV"
 	.byte	0x2
 	.uahalf	0x3b5
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x3
 	.byte	0x1
@@ -9284,11 +6573,7 @@ IfxScuEru_setInterruptGatingPattern:
 	.uaword	.LASF8
 	.byte	0x2
 	.uahalf	0x3b6
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1
 	.byte	0
@@ -9298,30 +6583,18 @@ IfxScuEru_setInterruptGatingPattern:
 	.string	"Ifx_SCU_PMSWCR1_Bits"
 	.byte	0x2
 	.uahalf	0x3b7
-<<<<<<< HEAD
 	.uaword	0x35ef
-=======
-	.uaword	0x35f8
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0xa
 	.string	"_Ifx_SCU_PMSWSTAT_Bits"
 	.byte	0x4
 	.byte	0x2
 	.uahalf	0x3ba
-<<<<<<< HEAD
 	.uaword	0x3871
-=======
-	.uaword	0x387a
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0x7
 	.uaword	.LASF0
 	.byte	0x2
 	.uahalf	0x3bc
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x2
 	.byte	0x1e
@@ -9330,11 +6603,7 @@ IfxScuEru_setInterruptGatingPattern:
 	.string	"ESR1WKP"
 	.byte	0x2
 	.uahalf	0x3bd
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1d
@@ -9343,11 +6612,7 @@ IfxScuEru_setInterruptGatingPattern:
 	.string	"ESR1OVRUN"
 	.byte	0x2
 	.uahalf	0x3be
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1c
@@ -9356,11 +6621,7 @@ IfxScuEru_setInterruptGatingPattern:
 	.string	"PINAWKP"
 	.byte	0x2
 	.uahalf	0x3bf
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1b
@@ -9369,11 +6630,7 @@ IfxScuEru_setInterruptGatingPattern:
 	.string	"PINAOVRUN"
 	.byte	0x2
 	.uahalf	0x3c0
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1a
@@ -9382,11 +6639,7 @@ IfxScuEru_setInterruptGatingPattern:
 	.string	"PINBWKP"
 	.byte	0x2
 	.uahalf	0x3c1
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1
 	.byte	0x19
@@ -9395,11 +6648,7 @@ IfxScuEru_setInterruptGatingPattern:
 	.string	"PINBOVRUN"
 	.byte	0x2
 	.uahalf	0x3c2
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1
 	.byte	0x18
@@ -9408,11 +6657,7 @@ IfxScuEru_setInterruptGatingPattern:
 	.string	"PWRWKP"
 	.byte	0x2
 	.uahalf	0x3c3
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1
 	.byte	0x17
@@ -9421,11 +6666,7 @@ IfxScuEru_setInterruptGatingPattern:
 	.string	"PORSTDF"
 	.byte	0x2
 	.uahalf	0x3c4
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1
 	.byte	0x16
@@ -9434,11 +6675,7 @@ IfxScuEru_setInterruptGatingPattern:
 	.string	"HWCFGEVR"
 	.byte	0x2
 	.uahalf	0x3c5
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x3
 	.byte	0x13
@@ -9447,11 +6684,7 @@ IfxScuEru_setInterruptGatingPattern:
 	.string	"STBYRAM"
 	.byte	0x2
 	.uahalf	0x3c6
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x2
 	.byte	0x11
@@ -9460,11 +6693,7 @@ IfxScuEru_setInterruptGatingPattern:
 	.string	"TRIST"
 	.byte	0x2
 	.uahalf	0x3c7
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1
 	.byte	0x10
@@ -9473,11 +6702,7 @@ IfxScuEru_setInterruptGatingPattern:
 	.uaword	.LASF11
 	.byte	0x2
 	.uahalf	0x3c8
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x4
 	.byte	0xc
@@ -9486,11 +6711,7 @@ IfxScuEru_setInterruptGatingPattern:
 	.uaword	.LASF30
 	.byte	0x2
 	.uahalf	0x3c9
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1
 	.byte	0xb
@@ -9499,11 +6720,7 @@ IfxScuEru_setInterruptGatingPattern:
 	.uaword	.LASF31
 	.byte	0x2
 	.uahalf	0x3ca
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1
 	.byte	0xa
@@ -9512,11 +6729,7 @@ IfxScuEru_setInterruptGatingPattern:
 	.uaword	.LASF32
 	.byte	0x2
 	.uahalf	0x3cb
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1
 	.byte	0x9
@@ -9525,11 +6738,7 @@ IfxScuEru_setInterruptGatingPattern:
 	.string	"PWRWKEN"
 	.byte	0x2
 	.uahalf	0x3cc
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1
 	.byte	0x8
@@ -9538,11 +6747,7 @@ IfxScuEru_setInterruptGatingPattern:
 	.string	"BLNKFIL"
 	.byte	0x2
 	.uahalf	0x3cd
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x3
 	.byte	0x5
@@ -9551,11 +6756,7 @@ IfxScuEru_setInterruptGatingPattern:
 	.uaword	.LASF33
 	.byte	0x2
 	.uahalf	0x3ce
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1
 	.byte	0x4
@@ -9564,11 +6765,7 @@ IfxScuEru_setInterruptGatingPattern:
 	.uaword	.LASF17
 	.byte	0x2
 	.uahalf	0x3cf
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x4
 	.byte	0
@@ -9578,30 +6775,18 @@ IfxScuEru_setInterruptGatingPattern:
 	.string	"Ifx_SCU_PMSWSTAT_Bits"
 	.byte	0x2
 	.uahalf	0x3d0
-<<<<<<< HEAD
 	.uaword	0x36d8
-=======
-	.uaword	0x36e1
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0xa
 	.string	"_Ifx_SCU_PMSWSTATCLR_Bits"
 	.byte	0x4
 	.byte	0x2
 	.uahalf	0x3d3
-<<<<<<< HEAD
 	.uaword	0x3979
-=======
-	.uaword	0x3982
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0x7
 	.uaword	.LASF0
 	.byte	0x2
 	.uahalf	0x3d5
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x2
 	.byte	0x1e
@@ -9610,11 +6795,7 @@ IfxScuEru_setInterruptGatingPattern:
 	.string	"ESR1WKPCLR"
 	.byte	0x2
 	.uahalf	0x3d6
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1d
@@ -9623,11 +6804,7 @@ IfxScuEru_setInterruptGatingPattern:
 	.string	"ESR1OVRUNCLR"
 	.byte	0x2
 	.uahalf	0x3d7
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1c
@@ -9636,11 +6813,7 @@ IfxScuEru_setInterruptGatingPattern:
 	.string	"PINAWKPCLR"
 	.byte	0x2
 	.uahalf	0x3d8
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1b
@@ -9649,11 +6822,7 @@ IfxScuEru_setInterruptGatingPattern:
 	.string	"PINAOVRUNCLR"
 	.byte	0x2
 	.uahalf	0x3d9
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1a
@@ -9662,11 +6831,7 @@ IfxScuEru_setInterruptGatingPattern:
 	.string	"PINBWKPCLR"
 	.byte	0x2
 	.uahalf	0x3da
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1
 	.byte	0x19
@@ -9675,11 +6840,7 @@ IfxScuEru_setInterruptGatingPattern:
 	.string	"PINBOVRUNCLR"
 	.byte	0x2
 	.uahalf	0x3db
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1
 	.byte	0x18
@@ -9688,11 +6849,7 @@ IfxScuEru_setInterruptGatingPattern:
 	.string	"PWRWKPCLR"
 	.byte	0x2
 	.uahalf	0x3dc
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1
 	.byte	0x17
@@ -9701,11 +6858,7 @@ IfxScuEru_setInterruptGatingPattern:
 	.uaword	.LASF18
 	.byte	0x2
 	.uahalf	0x3dd
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x17
 	.byte	0
@@ -9715,30 +6868,18 @@ IfxScuEru_setInterruptGatingPattern:
 	.string	"Ifx_SCU_PMSWSTATCLR_Bits"
 	.byte	0x2
 	.uahalf	0x3de
-<<<<<<< HEAD
 	.uaword	0x388f
-=======
-	.uaword	0x3898
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0xa
 	.string	"_Ifx_SCU_RSTCON2_Bits"
 	.byte	0x4
 	.byte	0x2
 	.uahalf	0x3e1
-<<<<<<< HEAD
 	.uaword	0x3a42
-=======
-	.uaword	0x3a4b
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0x7
 	.uaword	.LASF0
 	.byte	0x2
 	.uahalf	0x3e3
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1f
@@ -9747,11 +6888,7 @@ IfxScuEru_setInterruptGatingPattern:
 	.string	"CLRC"
 	.byte	0x2
 	.uahalf	0x3e4
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1e
@@ -9760,11 +6897,7 @@ IfxScuEru_setInterruptGatingPattern:
 	.uaword	.LASF9
 	.byte	0x2
 	.uahalf	0x3e5
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0xa
 	.byte	0x14
@@ -9773,11 +6906,7 @@ IfxScuEru_setInterruptGatingPattern:
 	.string	"CSS0"
 	.byte	0x2
 	.uahalf	0x3e6
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1
 	.byte	0x13
@@ -9786,11 +6915,7 @@ IfxScuEru_setInterruptGatingPattern:
 	.string	"CSS1"
 	.byte	0x2
 	.uahalf	0x3e7
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1
 	.byte	0x12
@@ -9799,11 +6924,7 @@ IfxScuEru_setInterruptGatingPattern:
 	.string	"CSS2"
 	.byte	0x2
 	.uahalf	0x3e8
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1
 	.byte	0x11
@@ -9812,11 +6933,7 @@ IfxScuEru_setInterruptGatingPattern:
 	.uaword	.LASF13
 	.byte	0x2
 	.uahalf	0x3e9
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1
 	.byte	0x10
@@ -9825,11 +6942,7 @@ IfxScuEru_setInterruptGatingPattern:
 	.string	"USRINFO"
 	.byte	0x2
 	.uahalf	0x3ea
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x10
 	.byte	0
@@ -9839,30 +6952,18 @@ IfxScuEru_setInterruptGatingPattern:
 	.string	"Ifx_SCU_RSTCON2_Bits"
 	.byte	0x2
 	.uahalf	0x3eb
-<<<<<<< HEAD
 	.uaword	0x399a
-=======
-	.uaword	0x39a3
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0xa
 	.string	"_Ifx_SCU_RSTCON_Bits"
 	.byte	0x4
 	.byte	0x2
 	.uahalf	0x3ee
-<<<<<<< HEAD
 	.uaword	0x3b12
-=======
-	.uaword	0x3b1b
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0x8
 	.string	"ESR0"
 	.byte	0x2
 	.uahalf	0x3f0
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x2
 	.byte	0x1e
@@ -9871,11 +6972,7 @@ IfxScuEru_setInterruptGatingPattern:
 	.string	"ESR1"
 	.byte	0x2
 	.uahalf	0x3f1
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x2
 	.byte	0x1c
@@ -9884,11 +6981,7 @@ IfxScuEru_setInterruptGatingPattern:
 	.uaword	.LASF4
 	.byte	0x2
 	.uahalf	0x3f2
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x2
 	.byte	0x1a
@@ -9897,11 +6990,7 @@ IfxScuEru_setInterruptGatingPattern:
 	.string	"SMU"
 	.byte	0x2
 	.uahalf	0x3f3
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x2
 	.byte	0x18
@@ -9910,11 +6999,7 @@ IfxScuEru_setInterruptGatingPattern:
 	.string	"SW"
 	.byte	0x2
 	.uahalf	0x3f4
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x2
 	.byte	0x16
@@ -9923,11 +7008,7 @@ IfxScuEru_setInterruptGatingPattern:
 	.string	"STM0"
 	.byte	0x2
 	.uahalf	0x3f5
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x2
 	.byte	0x14
@@ -9936,11 +7017,7 @@ IfxScuEru_setInterruptGatingPattern:
 	.string	"STM1"
 	.byte	0x2
 	.uahalf	0x3f6
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x2
 	.byte	0x12
@@ -9949,11 +7026,7 @@ IfxScuEru_setInterruptGatingPattern:
 	.string	"STM2"
 	.byte	0x2
 	.uahalf	0x3f7
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x2
 	.byte	0x10
@@ -9962,11 +7035,7 @@ IfxScuEru_setInterruptGatingPattern:
 	.uaword	.LASF11
 	.byte	0x2
 	.uahalf	0x3f8
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x10
 	.byte	0
@@ -9976,30 +7045,18 @@ IfxScuEru_setInterruptGatingPattern:
 	.string	"Ifx_SCU_RSTCON_Bits"
 	.byte	0x2
 	.uahalf	0x3f9
-<<<<<<< HEAD
 	.uaword	0x3a5f
-=======
-	.uaword	0x3a68
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0xa
 	.string	"_Ifx_SCU_RSTSTAT_Bits"
 	.byte	0x4
 	.byte	0x2
 	.uahalf	0x3fc
-<<<<<<< HEAD
 	.uaword	0x3cb2
-=======
-	.uaword	0x3cbb
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0x8
 	.string	"ESR0"
 	.byte	0x2
 	.uahalf	0x3fe
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1f
@@ -10008,11 +7065,7 @@ IfxScuEru_setInterruptGatingPattern:
 	.string	"ESR1"
 	.byte	0x2
 	.uahalf	0x3ff
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1e
@@ -10021,11 +7074,7 @@ IfxScuEru_setInterruptGatingPattern:
 	.uaword	.LASF9
 	.byte	0x2
 	.uahalf	0x400
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1d
@@ -10034,11 +7083,7 @@ IfxScuEru_setInterruptGatingPattern:
 	.string	"SMU"
 	.byte	0x2
 	.uahalf	0x401
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1c
@@ -10047,11 +7092,7 @@ IfxScuEru_setInterruptGatingPattern:
 	.string	"SW"
 	.byte	0x2
 	.uahalf	0x402
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1b
@@ -10060,11 +7101,7 @@ IfxScuEru_setInterruptGatingPattern:
 	.string	"STM0"
 	.byte	0x2
 	.uahalf	0x403
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1a
@@ -10073,11 +7110,7 @@ IfxScuEru_setInterruptGatingPattern:
 	.string	"STM1"
 	.byte	0x2
 	.uahalf	0x404
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1
 	.byte	0x19
@@ -10086,11 +7119,7 @@ IfxScuEru_setInterruptGatingPattern:
 	.string	"STM2"
 	.byte	0x2
 	.uahalf	0x405
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1
 	.byte	0x18
@@ -10099,11 +7128,7 @@ IfxScuEru_setInterruptGatingPattern:
 	.uaword	.LASF15
 	.byte	0x2
 	.uahalf	0x406
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x8
 	.byte	0x10
@@ -10112,11 +7137,7 @@ IfxScuEru_setInterruptGatingPattern:
 	.string	"PORST"
 	.byte	0x2
 	.uahalf	0x407
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1
 	.byte	0xf
@@ -10125,11 +7146,7 @@ IfxScuEru_setInterruptGatingPattern:
 	.uaword	.LASF23
 	.byte	0x2
 	.uahalf	0x408
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1
 	.byte	0xe
@@ -10138,11 +7155,7 @@ IfxScuEru_setInterruptGatingPattern:
 	.string	"CB0"
 	.byte	0x2
 	.uahalf	0x409
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1
 	.byte	0xd
@@ -10151,11 +7164,7 @@ IfxScuEru_setInterruptGatingPattern:
 	.string	"CB1"
 	.byte	0x2
 	.uahalf	0x40a
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1
 	.byte	0xc
@@ -10164,11 +7173,7 @@ IfxScuEru_setInterruptGatingPattern:
 	.string	"CB3"
 	.byte	0x2
 	.uahalf	0x40b
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1
 	.byte	0xb
@@ -10177,11 +7182,7 @@ IfxScuEru_setInterruptGatingPattern:
 	.uaword	.LASF25
 	.byte	0x2
 	.uahalf	0x40c
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x2
 	.byte	0x9
@@ -10190,11 +7191,7 @@ IfxScuEru_setInterruptGatingPattern:
 	.string	"EVR13"
 	.byte	0x2
 	.uahalf	0x40d
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1
 	.byte	0x8
@@ -10203,11 +7200,7 @@ IfxScuEru_setInterruptGatingPattern:
 	.string	"EVR33"
 	.byte	0x2
 	.uahalf	0x40e
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1
 	.byte	0x7
@@ -10216,11 +7209,7 @@ IfxScuEru_setInterruptGatingPattern:
 	.string	"SWD"
 	.byte	0x2
 	.uahalf	0x40f
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1
 	.byte	0x6
@@ -10229,11 +7218,7 @@ IfxScuEru_setInterruptGatingPattern:
 	.uaword	.LASF3
 	.byte	0x2
 	.uahalf	0x410
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x2
 	.byte	0x4
@@ -10242,11 +7227,7 @@ IfxScuEru_setInterruptGatingPattern:
 	.string	"STBYR"
 	.byte	0x2
 	.uahalf	0x411
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1
 	.byte	0x3
@@ -10255,11 +7236,7 @@ IfxScuEru_setInterruptGatingPattern:
 	.string	"reserved_29"
 	.byte	0x2
 	.uahalf	0x412
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x3
 	.byte	0
@@ -10269,30 +7246,18 @@ IfxScuEru_setInterruptGatingPattern:
 	.string	"Ifx_SCU_RSTSTAT_Bits"
 	.byte	0x2
 	.uahalf	0x413
-<<<<<<< HEAD
 	.uaword	0x3b2e
-=======
-	.uaword	0x3b37
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0xa
 	.string	"_Ifx_SCU_SAFECON_Bits"
 	.byte	0x4
 	.byte	0x2
 	.uahalf	0x416
-<<<<<<< HEAD
 	.uaword	0x3d0f
-=======
-	.uaword	0x3d18
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0x8
 	.string	"HBT"
 	.byte	0x2
 	.uahalf	0x418
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1f
@@ -10301,11 +7266,7 @@ IfxScuEru_setInterruptGatingPattern:
 	.uaword	.LASF22
 	.byte	0x2
 	.uahalf	0x419
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1f
 	.byte	0
@@ -10315,30 +7276,18 @@ IfxScuEru_setInterruptGatingPattern:
 	.string	"Ifx_SCU_SAFECON_Bits"
 	.byte	0x2
 	.uahalf	0x41a
-<<<<<<< HEAD
 	.uaword	0x3ccf
-=======
-	.uaword	0x3cd8
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0xa
 	.string	"_Ifx_SCU_STSTAT_Bits"
 	.byte	0x4
 	.byte	0x2
 	.uahalf	0x41d
-<<<<<<< HEAD
 	.uaword	0x3e0f
-=======
-	.uaword	0x3e18
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0x8
 	.string	"HWCFG"
 	.byte	0x2
 	.uahalf	0x41f
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x8
 	.byte	0x18
@@ -10347,11 +7296,7 @@ IfxScuEru_setInterruptGatingPattern:
 	.string	"FTM"
 	.byte	0x2
 	.uahalf	0x420
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x7
 	.byte	0x11
@@ -10360,11 +7305,7 @@ IfxScuEru_setInterruptGatingPattern:
 	.string	"MODE"
 	.byte	0x2
 	.uahalf	0x421
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1
 	.byte	0x10
@@ -10373,11 +7314,7 @@ IfxScuEru_setInterruptGatingPattern:
 	.uaword	.LASF11
 	.byte	0x2
 	.uahalf	0x422
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1
 	.byte	0xf
@@ -10386,11 +7323,7 @@ IfxScuEru_setInterruptGatingPattern:
 	.string	"LUDIS"
 	.byte	0x2
 	.uahalf	0x423
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1
 	.byte	0xe
@@ -10399,11 +7332,7 @@ IfxScuEru_setInterruptGatingPattern:
 	.uaword	.LASF16
 	.byte	0x2
 	.uahalf	0x424
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1
 	.byte	0xd
@@ -10412,11 +7341,7 @@ IfxScuEru_setInterruptGatingPattern:
 	.string	"TRSTL"
 	.byte	0x2
 	.uahalf	0x425
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1
 	.byte	0xc
@@ -10425,11 +7350,7 @@ IfxScuEru_setInterruptGatingPattern:
 	.string	"SPDEN"
 	.byte	0x2
 	.uahalf	0x426
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1
 	.byte	0xb
@@ -10438,11 +7359,7 @@ IfxScuEru_setInterruptGatingPattern:
 	.uaword	.LASF25
 	.byte	0x2
 	.uahalf	0x427
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x3
 	.byte	0x8
@@ -10451,11 +7368,7 @@ IfxScuEru_setInterruptGatingPattern:
 	.string	"RAMINT"
 	.byte	0x2
 	.uahalf	0x428
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1
 	.byte	0x7
@@ -10464,11 +7377,7 @@ IfxScuEru_setInterruptGatingPattern:
 	.string	"reserved_25"
 	.byte	0x2
 	.uahalf	0x429
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x7
 	.byte	0
@@ -10478,30 +7387,18 @@ IfxScuEru_setInterruptGatingPattern:
 	.string	"Ifx_SCU_STSTAT_Bits"
 	.byte	0x2
 	.uahalf	0x42a
-<<<<<<< HEAD
 	.uaword	0x3d2c
-=======
-	.uaword	0x3d35
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0xa
 	.string	"_Ifx_SCU_SWRSTCON_Bits"
 	.byte	0x4
 	.byte	0x2
 	.uahalf	0x42d
-<<<<<<< HEAD
 	.uaword	0x3e81
-=======
-	.uaword	0x3e8a
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0x7
 	.uaword	.LASF0
 	.byte	0x2
 	.uahalf	0x42f
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1f
@@ -10510,11 +7407,7 @@ IfxScuEru_setInterruptGatingPattern:
 	.string	"SWRSTREQ"
 	.byte	0x2
 	.uahalf	0x430
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1e
@@ -10523,11 +7416,7 @@ IfxScuEru_setInterruptGatingPattern:
 	.uaword	.LASF9
 	.byte	0x2
 	.uahalf	0x431
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1e
 	.byte	0
@@ -10537,30 +7426,18 @@ IfxScuEru_setInterruptGatingPattern:
 	.string	"Ifx_SCU_SWRSTCON_Bits"
 	.byte	0x2
 	.uahalf	0x432
-<<<<<<< HEAD
 	.uaword	0x3e2b
-=======
-	.uaword	0x3e34
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0xa
 	.string	"_Ifx_SCU_SYSCON_Bits"
 	.byte	0x4
 	.byte	0x2
 	.uahalf	0x435
-<<<<<<< HEAD
 	.uaword	0x3f43
-=======
-	.uaword	0x3f4c
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0x8
 	.string	"CCTRIG0"
 	.byte	0x2
 	.uahalf	0x437
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1f
@@ -10569,11 +7446,7 @@ IfxScuEru_setInterruptGatingPattern:
 	.uaword	.LASF22
 	.byte	0x2
 	.uahalf	0x438
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1e
@@ -10582,11 +7455,7 @@ IfxScuEru_setInterruptGatingPattern:
 	.string	"RAMINTM"
 	.byte	0x2
 	.uahalf	0x439
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x2
 	.byte	0x1c
@@ -10595,11 +7464,7 @@ IfxScuEru_setInterruptGatingPattern:
 	.string	"SETLUDIS"
 	.byte	0x2
 	.uahalf	0x43a
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1b
@@ -10608,11 +7473,7 @@ IfxScuEru_setInterruptGatingPattern:
 	.string	"reserved_5"
 	.byte	0x2
 	.uahalf	0x43b
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x3
 	.byte	0x18
@@ -10621,11 +7482,7 @@ IfxScuEru_setInterruptGatingPattern:
 	.string	"DATM"
 	.byte	0x2
 	.uahalf	0x43c
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1
 	.byte	0x17
@@ -10634,11 +7491,7 @@ IfxScuEru_setInterruptGatingPattern:
 	.uaword	.LASF18
 	.byte	0x2
 	.uahalf	0x43d
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x17
 	.byte	0
@@ -10648,30 +7501,18 @@ IfxScuEru_setInterruptGatingPattern:
 	.string	"Ifx_SCU_SYSCON_Bits"
 	.byte	0x2
 	.uahalf	0x43e
-<<<<<<< HEAD
 	.uaword	0x3e9f
-=======
-	.uaword	0x3ea8
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0xa
 	.string	"_Ifx_SCU_TRAPCLR_Bits"
 	.byte	0x4
 	.byte	0x2
 	.uahalf	0x441
-<<<<<<< HEAD
 	.uaword	0x3fd0
-=======
-	.uaword	0x3fd9
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0x7
 	.uaword	.LASF34
 	.byte	0x2
 	.uahalf	0x443
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1f
@@ -10680,11 +7521,7 @@ IfxScuEru_setInterruptGatingPattern:
 	.uaword	.LASF35
 	.byte	0x2
 	.uahalf	0x444
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1e
@@ -10693,11 +7530,7 @@ IfxScuEru_setInterruptGatingPattern:
 	.uaword	.LASF9
 	.byte	0x2
 	.uahalf	0x445
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1d
@@ -10706,11 +7539,7 @@ IfxScuEru_setInterruptGatingPattern:
 	.string	"SMUT"
 	.byte	0x2
 	.uahalf	0x446
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1c
@@ -10719,11 +7548,7 @@ IfxScuEru_setInterruptGatingPattern:
 	.uaword	.LASF4
 	.byte	0x2
 	.uahalf	0x447
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1c
 	.byte	0
@@ -10733,30 +7558,18 @@ IfxScuEru_setInterruptGatingPattern:
 	.string	"Ifx_SCU_TRAPCLR_Bits"
 	.byte	0x2
 	.uahalf	0x448
-<<<<<<< HEAD
 	.uaword	0x3f5f
-=======
-	.uaword	0x3f68
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0xa
 	.string	"_Ifx_SCU_TRAPDIS_Bits"
 	.byte	0x4
 	.byte	0x2
 	.uahalf	0x44b
-<<<<<<< HEAD
 	.uaword	0x405e
-=======
-	.uaword	0x4067
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0x7
 	.uaword	.LASF34
 	.byte	0x2
 	.uahalf	0x44d
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1f
@@ -10765,11 +7578,7 @@ IfxScuEru_setInterruptGatingPattern:
 	.uaword	.LASF35
 	.byte	0x2
 	.uahalf	0x44e
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1e
@@ -10778,11 +7587,7 @@ IfxScuEru_setInterruptGatingPattern:
 	.uaword	.LASF9
 	.byte	0x2
 	.uahalf	0x44f
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1d
@@ -10791,11 +7596,7 @@ IfxScuEru_setInterruptGatingPattern:
 	.string	"SMUT"
 	.byte	0x2
 	.uahalf	0x450
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1c
@@ -10804,11 +7605,7 @@ IfxScuEru_setInterruptGatingPattern:
 	.uaword	.LASF4
 	.byte	0x2
 	.uahalf	0x451
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1c
 	.byte	0
@@ -10818,30 +7615,18 @@ IfxScuEru_setInterruptGatingPattern:
 	.string	"Ifx_SCU_TRAPDIS_Bits"
 	.byte	0x2
 	.uahalf	0x452
-<<<<<<< HEAD
 	.uaword	0x3fed
-=======
-	.uaword	0x3ff6
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0xa
 	.string	"_Ifx_SCU_TRAPSET_Bits"
 	.byte	0x4
 	.byte	0x2
 	.uahalf	0x455
-<<<<<<< HEAD
 	.uaword	0x40ec
-=======
-	.uaword	0x40f5
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0x7
 	.uaword	.LASF34
 	.byte	0x2
 	.uahalf	0x457
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1f
@@ -10850,11 +7635,7 @@ IfxScuEru_setInterruptGatingPattern:
 	.uaword	.LASF35
 	.byte	0x2
 	.uahalf	0x458
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1e
@@ -10863,11 +7644,7 @@ IfxScuEru_setInterruptGatingPattern:
 	.uaword	.LASF9
 	.byte	0x2
 	.uahalf	0x459
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1d
@@ -10876,11 +7653,7 @@ IfxScuEru_setInterruptGatingPattern:
 	.string	"SMUT"
 	.byte	0x2
 	.uahalf	0x45a
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1c
@@ -10889,11 +7662,7 @@ IfxScuEru_setInterruptGatingPattern:
 	.uaword	.LASF4
 	.byte	0x2
 	.uahalf	0x45b
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1c
 	.byte	0
@@ -10903,30 +7672,18 @@ IfxScuEru_setInterruptGatingPattern:
 	.string	"Ifx_SCU_TRAPSET_Bits"
 	.byte	0x2
 	.uahalf	0x45c
-<<<<<<< HEAD
 	.uaword	0x407b
-=======
-	.uaword	0x4084
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0xa
 	.string	"_Ifx_SCU_TRAPSTAT_Bits"
 	.byte	0x4
 	.byte	0x2
 	.uahalf	0x45f
-<<<<<<< HEAD
 	.uaword	0x417b
-=======
-	.uaword	0x4184
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0x7
 	.uaword	.LASF34
 	.byte	0x2
 	.uahalf	0x461
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1f
@@ -10935,11 +7692,7 @@ IfxScuEru_setInterruptGatingPattern:
 	.uaword	.LASF35
 	.byte	0x2
 	.uahalf	0x462
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1e
@@ -10948,11 +7701,7 @@ IfxScuEru_setInterruptGatingPattern:
 	.uaword	.LASF9
 	.byte	0x2
 	.uahalf	0x463
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1d
@@ -10961,11 +7710,7 @@ IfxScuEru_setInterruptGatingPattern:
 	.string	"SMUT"
 	.byte	0x2
 	.uahalf	0x464
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1c
@@ -10974,11 +7719,7 @@ IfxScuEru_setInterruptGatingPattern:
 	.uaword	.LASF4
 	.byte	0x2
 	.uahalf	0x465
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1c
 	.byte	0
@@ -10988,30 +7729,18 @@ IfxScuEru_setInterruptGatingPattern:
 	.string	"Ifx_SCU_TRAPSTAT_Bits"
 	.byte	0x2
 	.uahalf	0x466
-<<<<<<< HEAD
 	.uaword	0x4109
-=======
-	.uaword	0x4112
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0xa
 	.string	"_Ifx_SCU_WDTCPU_CON0_Bits"
 	.byte	0x4
 	.byte	0x2
 	.uahalf	0x469
-<<<<<<< HEAD
 	.uaword	0x4200
-=======
-	.uaword	0x4209
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0x8
 	.string	"ENDINIT"
 	.byte	0x2
 	.uahalf	0x46b
-<<<<<<< HEAD
 	.uaword	0x4200
-=======
-	.uaword	0x4209
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1f
@@ -11020,11 +7749,7 @@ IfxScuEru_setInterruptGatingPattern:
 	.string	"LCK"
 	.byte	0x2
 	.uahalf	0x46c
-<<<<<<< HEAD
 	.uaword	0x4200
-=======
-	.uaword	0x4209
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1e
@@ -11033,11 +7758,7 @@ IfxScuEru_setInterruptGatingPattern:
 	.string	"PW"
 	.byte	0x2
 	.uahalf	0x46d
-<<<<<<< HEAD
 	.uaword	0x4200
-=======
-	.uaword	0x4209
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0xe
 	.byte	0x10
@@ -11046,50 +7767,30 @@ IfxScuEru_setInterruptGatingPattern:
 	.string	"REL"
 	.byte	0x2
 	.uahalf	0x46e
-<<<<<<< HEAD
 	.uaword	0x4200
-=======
-	.uaword	0x4209
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x10
 	.byte	0
 	.byte	0
 	.byte	0
 	.uleb128 0xb
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0x9
 	.string	"Ifx_SCU_WDTCPU_CON0_Bits"
 	.byte	0x2
 	.uahalf	0x46f
-<<<<<<< HEAD
 	.uaword	0x4199
-=======
-	.uaword	0x41a2
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0xa
 	.string	"_Ifx_SCU_WDTCPU_CON1_Bits"
 	.byte	0x4
 	.byte	0x2
 	.uahalf	0x472
-<<<<<<< HEAD
 	.uaword	0x42e9
-=======
-	.uaword	0x42f2
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0x7
 	.uaword	.LASF0
 	.byte	0x2
 	.uahalf	0x474
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x2
 	.byte	0x1e
@@ -11098,11 +7799,7 @@ IfxScuEru_setInterruptGatingPattern:
 	.string	"IR0"
 	.byte	0x2
 	.uahalf	0x475
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1d
@@ -11111,11 +7808,7 @@ IfxScuEru_setInterruptGatingPattern:
 	.string	"DR"
 	.byte	0x2
 	.uahalf	0x476
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1c
@@ -11124,11 +7817,7 @@ IfxScuEru_setInterruptGatingPattern:
 	.uaword	.LASF4
 	.byte	0x2
 	.uahalf	0x477
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1b
@@ -11137,11 +7826,7 @@ IfxScuEru_setInterruptGatingPattern:
 	.string	"IR1"
 	.byte	0x2
 	.uahalf	0x478
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1a
@@ -11150,11 +7835,7 @@ IfxScuEru_setInterruptGatingPattern:
 	.string	"UR"
 	.byte	0x2
 	.uahalf	0x479
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1
 	.byte	0x19
@@ -11163,11 +7844,7 @@ IfxScuEru_setInterruptGatingPattern:
 	.string	"PAR"
 	.byte	0x2
 	.uahalf	0x47a
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1
 	.byte	0x18
@@ -11176,11 +7853,7 @@ IfxScuEru_setInterruptGatingPattern:
 	.string	"TCR"
 	.byte	0x2
 	.uahalf	0x47b
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1
 	.byte	0x17
@@ -11189,11 +7862,7 @@ IfxScuEru_setInterruptGatingPattern:
 	.string	"TCTR"
 	.byte	0x2
 	.uahalf	0x47c
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x7
 	.byte	0x10
@@ -11202,11 +7871,7 @@ IfxScuEru_setInterruptGatingPattern:
 	.uaword	.LASF11
 	.byte	0x2
 	.uahalf	0x47d
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x10
 	.byte	0
@@ -11216,30 +7881,18 @@ IfxScuEru_setInterruptGatingPattern:
 	.string	"Ifx_SCU_WDTCPU_CON1_Bits"
 	.byte	0x2
 	.uahalf	0x47e
-<<<<<<< HEAD
 	.uaword	0x4226
-=======
-	.uaword	0x422f
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0xa
 	.string	"_Ifx_SCU_WDTCPU_SR_Bits"
 	.byte	0x4
 	.byte	0x2
 	.uahalf	0x481
-<<<<<<< HEAD
 	.uaword	0x43d7
-=======
-	.uaword	0x43e0
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0x8
 	.string	"AE"
 	.byte	0x2
 	.uahalf	0x483
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1f
@@ -11248,11 +7901,7 @@ IfxScuEru_setInterruptGatingPattern:
 	.string	"OE"
 	.byte	0x2
 	.uahalf	0x484
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1e
@@ -11261,11 +7910,7 @@ IfxScuEru_setInterruptGatingPattern:
 	.string	"IS0"
 	.byte	0x2
 	.uahalf	0x485
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1d
@@ -11274,11 +7919,7 @@ IfxScuEru_setInterruptGatingPattern:
 	.string	"DS"
 	.byte	0x2
 	.uahalf	0x486
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1c
@@ -11287,11 +7928,7 @@ IfxScuEru_setInterruptGatingPattern:
 	.string	"TO"
 	.byte	0x2
 	.uahalf	0x487
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1b
@@ -11300,11 +7937,7 @@ IfxScuEru_setInterruptGatingPattern:
 	.string	"IS1"
 	.byte	0x2
 	.uahalf	0x488
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1a
@@ -11313,11 +7946,7 @@ IfxScuEru_setInterruptGatingPattern:
 	.string	"US"
 	.byte	0x2
 	.uahalf	0x489
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1
 	.byte	0x19
@@ -11326,11 +7955,7 @@ IfxScuEru_setInterruptGatingPattern:
 	.string	"PAS"
 	.byte	0x2
 	.uahalf	0x48a
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1
 	.byte	0x18
@@ -11339,11 +7964,7 @@ IfxScuEru_setInterruptGatingPattern:
 	.string	"TCS"
 	.byte	0x2
 	.uahalf	0x48b
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1
 	.byte	0x17
@@ -11352,11 +7973,7 @@ IfxScuEru_setInterruptGatingPattern:
 	.string	"TCT"
 	.byte	0x2
 	.uahalf	0x48c
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x7
 	.byte	0x10
@@ -11365,11 +7982,7 @@ IfxScuEru_setInterruptGatingPattern:
 	.string	"TIM"
 	.byte	0x2
 	.uahalf	0x48d
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x10
 	.byte	0
@@ -11379,30 +7992,18 @@ IfxScuEru_setInterruptGatingPattern:
 	.string	"Ifx_SCU_WDTCPU_SR_Bits"
 	.byte	0x2
 	.uahalf	0x48e
-<<<<<<< HEAD
 	.uaword	0x430a
-=======
-	.uaword	0x4313
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0xa
 	.string	"_Ifx_SCU_WDTS_CON0_Bits"
 	.byte	0x4
 	.byte	0x2
 	.uahalf	0x491
-<<<<<<< HEAD
 	.uaword	0x445b
-=======
-	.uaword	0x4464
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0x8
 	.string	"ENDINIT"
 	.byte	0x2
 	.uahalf	0x493
-<<<<<<< HEAD
 	.uaword	0x4200
-=======
-	.uaword	0x4209
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1f
@@ -11411,11 +8012,7 @@ IfxScuEru_setInterruptGatingPattern:
 	.string	"LCK"
 	.byte	0x2
 	.uahalf	0x494
-<<<<<<< HEAD
 	.uaword	0x4200
-=======
-	.uaword	0x4209
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1e
@@ -11424,11 +8021,7 @@ IfxScuEru_setInterruptGatingPattern:
 	.string	"PW"
 	.byte	0x2
 	.uahalf	0x495
-<<<<<<< HEAD
 	.uaword	0x4200
-=======
-	.uaword	0x4209
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0xe
 	.byte	0x10
@@ -11437,11 +8030,7 @@ IfxScuEru_setInterruptGatingPattern:
 	.string	"REL"
 	.byte	0x2
 	.uahalf	0x496
-<<<<<<< HEAD
 	.uaword	0x4200
-=======
-	.uaword	0x4209
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x10
 	.byte	0
@@ -11451,30 +8040,18 @@ IfxScuEru_setInterruptGatingPattern:
 	.string	"Ifx_SCU_WDTS_CON0_Bits"
 	.byte	0x2
 	.uahalf	0x497
-<<<<<<< HEAD
 	.uaword	0x43f6
-=======
-	.uaword	0x43ff
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0xa
 	.string	"_Ifx_SCU_WDTS_CON1_Bits"
 	.byte	0x4
 	.byte	0x2
 	.uahalf	0x49a
-<<<<<<< HEAD
 	.uaword	0x454e
-=======
-	.uaword	0x4557
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0x8
 	.string	"CLRIRF"
 	.byte	0x2
 	.uahalf	0x49c
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1f
@@ -11483,11 +8060,7 @@ IfxScuEru_setInterruptGatingPattern:
 	.uaword	.LASF22
 	.byte	0x2
 	.uahalf	0x49d
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1e
@@ -11496,11 +8069,7 @@ IfxScuEru_setInterruptGatingPattern:
 	.string	"IR0"
 	.byte	0x2
 	.uahalf	0x49e
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1d
@@ -11509,11 +8078,7 @@ IfxScuEru_setInterruptGatingPattern:
 	.string	"DR"
 	.byte	0x2
 	.uahalf	0x49f
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1c
@@ -11522,11 +8087,7 @@ IfxScuEru_setInterruptGatingPattern:
 	.uaword	.LASF4
 	.byte	0x2
 	.uahalf	0x4a0
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1b
@@ -11535,11 +8096,7 @@ IfxScuEru_setInterruptGatingPattern:
 	.string	"IR1"
 	.byte	0x2
 	.uahalf	0x4a1
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1a
@@ -11548,11 +8105,7 @@ IfxScuEru_setInterruptGatingPattern:
 	.string	"UR"
 	.byte	0x2
 	.uahalf	0x4a2
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1
 	.byte	0x19
@@ -11561,11 +8114,7 @@ IfxScuEru_setInterruptGatingPattern:
 	.string	"PAR"
 	.byte	0x2
 	.uahalf	0x4a3
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1
 	.byte	0x18
@@ -11574,11 +8123,7 @@ IfxScuEru_setInterruptGatingPattern:
 	.string	"TCR"
 	.byte	0x2
 	.uahalf	0x4a4
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1
 	.byte	0x17
@@ -11587,11 +8132,7 @@ IfxScuEru_setInterruptGatingPattern:
 	.string	"TCTR"
 	.byte	0x2
 	.uahalf	0x4a5
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x7
 	.byte	0x10
@@ -11600,11 +8141,7 @@ IfxScuEru_setInterruptGatingPattern:
 	.uaword	.LASF11
 	.byte	0x2
 	.uahalf	0x4a6
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x10
 	.byte	0
@@ -11614,30 +8151,18 @@ IfxScuEru_setInterruptGatingPattern:
 	.string	"Ifx_SCU_WDTS_CON1_Bits"
 	.byte	0x2
 	.uahalf	0x4a7
-<<<<<<< HEAD
 	.uaword	0x447a
-=======
-	.uaword	0x4483
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0xa
 	.string	"_Ifx_SCU_WDTS_SR_Bits"
 	.byte	0x4
 	.byte	0x2
 	.uahalf	0x4aa
-<<<<<<< HEAD
 	.uaword	0x4638
-=======
-	.uaword	0x4641
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0x8
 	.string	"AE"
 	.byte	0x2
 	.uahalf	0x4ac
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1f
@@ -11646,11 +8171,7 @@ IfxScuEru_setInterruptGatingPattern:
 	.string	"OE"
 	.byte	0x2
 	.uahalf	0x4ad
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1e
@@ -11659,11 +8180,7 @@ IfxScuEru_setInterruptGatingPattern:
 	.string	"IS0"
 	.byte	0x2
 	.uahalf	0x4ae
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1d
@@ -11672,11 +8189,7 @@ IfxScuEru_setInterruptGatingPattern:
 	.string	"DS"
 	.byte	0x2
 	.uahalf	0x4af
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1c
@@ -11685,11 +8198,7 @@ IfxScuEru_setInterruptGatingPattern:
 	.string	"TO"
 	.byte	0x2
 	.uahalf	0x4b0
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1b
@@ -11698,11 +8207,7 @@ IfxScuEru_setInterruptGatingPattern:
 	.string	"IS1"
 	.byte	0x2
 	.uahalf	0x4b1
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1a
@@ -11711,11 +8216,7 @@ IfxScuEru_setInterruptGatingPattern:
 	.string	"US"
 	.byte	0x2
 	.uahalf	0x4b2
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1
 	.byte	0x19
@@ -11724,11 +8225,7 @@ IfxScuEru_setInterruptGatingPattern:
 	.string	"PAS"
 	.byte	0x2
 	.uahalf	0x4b3
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1
 	.byte	0x18
@@ -11737,11 +8234,7 @@ IfxScuEru_setInterruptGatingPattern:
 	.string	"TCS"
 	.byte	0x2
 	.uahalf	0x4b4
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x1
 	.byte	0x17
@@ -11750,11 +8243,7 @@ IfxScuEru_setInterruptGatingPattern:
 	.string	"TCT"
 	.byte	0x2
 	.uahalf	0x4b5
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x7
 	.byte	0x10
@@ -11763,11 +8252,7 @@ IfxScuEru_setInterruptGatingPattern:
 	.string	"TIM"
 	.byte	0x2
 	.uahalf	0x4b6
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0x10
 	.byte	0
@@ -11777,47 +8262,27 @@ IfxScuEru_setInterruptGatingPattern:
 	.string	"Ifx_SCU_WDTS_SR_Bits"
 	.byte	0x2
 	.uahalf	0x4b7
-<<<<<<< HEAD
 	.uaword	0x456d
-=======
-	.uaword	0x4576
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0xc
 	.byte	0x4
 	.byte	0x2
 	.uahalf	0x4bf
-<<<<<<< HEAD
 	.uaword	0x467d
-=======
-	.uaword	0x4686
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0xd
 	.string	"U"
 	.byte	0x2
 	.uahalf	0x4c1
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0xd
 	.string	"I"
 	.byte	0x2
 	.uahalf	0x4c2
-<<<<<<< HEAD
 	.uaword	0x467d
-=======
-	.uaword	0x4686
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0xd
 	.string	"B"
 	.byte	0x2
 	.uahalf	0x4c3
-<<<<<<< HEAD
 	.uaword	0x38b
-=======
-	.uaword	0x394
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0
 	.uleb128 0x4
 	.byte	0x4
@@ -11827,5304 +8292,3039 @@ IfxScuEru_setInterruptGatingPattern:
 	.string	"Ifx_SCU_ACCEN0"
 	.byte	0x2
 	.uahalf	0x4c4
-<<<<<<< HEAD
 	.uaword	0x4655
-=======
-	.uaword	0x465e
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0xc
 	.byte	0x4
 	.byte	0x2
 	.uahalf	0x4c7
-<<<<<<< HEAD
 	.uaword	0x46c3
-=======
-	.uaword	0x46cc
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0xd
 	.string	"U"
 	.byte	0x2
 	.uahalf	0x4c9
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0xd
 	.string	"I"
 	.byte	0x2
 	.uahalf	0x4ca
-<<<<<<< HEAD
 	.uaword	0x467d
-=======
-	.uaword	0x4686
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0xd
 	.string	"B"
 	.byte	0x2
 	.uahalf	0x4cb
-<<<<<<< HEAD
 	.uaword	0x3d3
-=======
-	.uaword	0x3dc
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0
 	.uleb128 0x9
 	.string	"Ifx_SCU_ACCEN1"
 	.byte	0x2
 	.uahalf	0x4cc
-<<<<<<< HEAD
 	.uaword	0x469b
-=======
-	.uaword	0x46a4
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0xc
 	.byte	0x4
 	.byte	0x2
 	.uahalf	0x4cf
-<<<<<<< HEAD
 	.uaword	0x4702
-=======
-	.uaword	0x470b
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0xd
 	.string	"U"
 	.byte	0x2
 	.uahalf	0x4d1
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0xd
 	.string	"I"
 	.byte	0x2
 	.uahalf	0x4d2
-<<<<<<< HEAD
 	.uaword	0x467d
-=======
-	.uaword	0x4686
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0xd
 	.string	"B"
 	.byte	0x2
 	.uahalf	0x4d3
-<<<<<<< HEAD
 	.uaword	0x455
-=======
-	.uaword	0x45e
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0
 	.uleb128 0x9
 	.string	"Ifx_SCU_ARSTDIS"
 	.byte	0x2
 	.uahalf	0x4d4
-<<<<<<< HEAD
 	.uaword	0x46da
-=======
-	.uaword	0x46e3
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0xc
 	.byte	0x4
 	.byte	0x2
 	.uahalf	0x4d7
-<<<<<<< HEAD
 	.uaword	0x4742
-=======
-	.uaword	0x474b
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0xd
 	.string	"U"
 	.byte	0x2
 	.uahalf	0x4d9
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0xd
 	.string	"I"
 	.byte	0x2
 	.uahalf	0x4da
-<<<<<<< HEAD
 	.uaword	0x467d
-=======
-	.uaword	0x4686
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0xd
 	.string	"B"
 	.byte	0x2
 	.uahalf	0x4db
-<<<<<<< HEAD
 	.uaword	0x55f
-=======
-	.uaword	0x568
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0
 	.uleb128 0x9
 	.string	"Ifx_SCU_CCUCON0"
 	.byte	0x2
 	.uahalf	0x4dc
-<<<<<<< HEAD
 	.uaword	0x471a
-=======
-	.uaword	0x4723
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0xc
 	.byte	0x4
 	.byte	0x2
 	.uahalf	0x4df
-<<<<<<< HEAD
 	.uaword	0x4782
-=======
-	.uaword	0x478b
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0xd
 	.string	"U"
 	.byte	0x2
 	.uahalf	0x4e1
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0xd
 	.string	"I"
 	.byte	0x2
 	.uahalf	0x4e2
-<<<<<<< HEAD
 	.uaword	0x467d
-=======
-	.uaword	0x4686
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0xd
 	.string	"B"
 	.byte	0x2
 	.uahalf	0x4e3
-<<<<<<< HEAD
 	.uaword	0x64f
-=======
-	.uaword	0x658
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0
 	.uleb128 0x9
 	.string	"Ifx_SCU_CCUCON1"
 	.byte	0x2
 	.uahalf	0x4e4
-<<<<<<< HEAD
 	.uaword	0x475a
-=======
-	.uaword	0x4763
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0xc
 	.byte	0x4
 	.byte	0x2
 	.uahalf	0x4e7
-<<<<<<< HEAD
 	.uaword	0x47c2
-=======
-	.uaword	0x47cb
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0xd
 	.string	"U"
 	.byte	0x2
 	.uahalf	0x4e9
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0xd
 	.string	"I"
 	.byte	0x2
 	.uahalf	0x4ea
-<<<<<<< HEAD
 	.uaword	0x467d
-=======
-	.uaword	0x4686
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0xd
 	.string	"B"
 	.byte	0x2
 	.uahalf	0x4eb
-<<<<<<< HEAD
 	.uaword	0x6c8
-=======
-	.uaword	0x6d1
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0
 	.uleb128 0x9
 	.string	"Ifx_SCU_CCUCON2"
 	.byte	0x2
 	.uahalf	0x4ec
-<<<<<<< HEAD
 	.uaword	0x479a
-=======
-	.uaword	0x47a3
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0xc
 	.byte	0x4
 	.byte	0x2
 	.uahalf	0x4ef
-<<<<<<< HEAD
 	.uaword	0x4802
-=======
-	.uaword	0x480b
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0xd
 	.string	"U"
 	.byte	0x2
 	.uahalf	0x4f1
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0xd
 	.string	"I"
 	.byte	0x2
 	.uahalf	0x4f2
-<<<<<<< HEAD
 	.uaword	0x467d
-=======
-	.uaword	0x4686
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0xd
 	.string	"B"
 	.byte	0x2
 	.uahalf	0x4f3
-<<<<<<< HEAD
 	.uaword	0x7b2
-=======
-	.uaword	0x7bb
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0
 	.uleb128 0x9
 	.string	"Ifx_SCU_CCUCON3"
 	.byte	0x2
 	.uahalf	0x4f4
-<<<<<<< HEAD
 	.uaword	0x47da
-=======
-	.uaword	0x47e3
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0xc
 	.byte	0x4
 	.byte	0x2
 	.uahalf	0x4f7
-<<<<<<< HEAD
 	.uaword	0x4842
-=======
-	.uaword	0x484b
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0xd
 	.string	"U"
 	.byte	0x2
 	.uahalf	0x4f9
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0xd
 	.string	"I"
 	.byte	0x2
 	.uahalf	0x4fa
-<<<<<<< HEAD
 	.uaword	0x467d
-=======
-	.uaword	0x4686
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0xd
 	.string	"B"
 	.byte	0x2
 	.uahalf	0x4fb
-<<<<<<< HEAD
 	.uaword	0x894
-=======
-	.uaword	0x89d
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0
 	.uleb128 0x9
 	.string	"Ifx_SCU_CCUCON4"
 	.byte	0x2
 	.uahalf	0x4fc
-<<<<<<< HEAD
 	.uaword	0x481a
-=======
-	.uaword	0x4823
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0xc
 	.byte	0x4
 	.byte	0x2
 	.uahalf	0x4ff
-<<<<<<< HEAD
 	.uaword	0x4882
-=======
-	.uaword	0x488b
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0xd
 	.string	"U"
 	.byte	0x2
 	.uahalf	0x501
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0xd
 	.string	"I"
 	.byte	0x2
 	.uahalf	0x502
-<<<<<<< HEAD
 	.uaword	0x467d
-=======
-	.uaword	0x4686
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0xd
 	.string	"B"
 	.byte	0x2
 	.uahalf	0x503
-<<<<<<< HEAD
 	.uaword	0x90d
-=======
-	.uaword	0x916
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0
 	.uleb128 0x9
 	.string	"Ifx_SCU_CCUCON5"
 	.byte	0x2
 	.uahalf	0x504
-<<<<<<< HEAD
 	.uaword	0x485a
-=======
-	.uaword	0x4863
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0xc
 	.byte	0x4
 	.byte	0x2
 	.uahalf	0x507
-<<<<<<< HEAD
 	.uaword	0x48c2
-=======
-	.uaword	0x48cb
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0xd
 	.string	"U"
 	.byte	0x2
 	.uahalf	0x509
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0xd
 	.string	"I"
 	.byte	0x2
 	.uahalf	0x50a
-<<<<<<< HEAD
 	.uaword	0x467d
-=======
-	.uaword	0x4686
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0xd
 	.string	"B"
 	.byte	0x2
 	.uahalf	0x50b
-<<<<<<< HEAD
 	.uaword	0x96a
-=======
-	.uaword	0x973
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0
 	.uleb128 0x9
 	.string	"Ifx_SCU_CCUCON6"
 	.byte	0x2
 	.uahalf	0x50c
-<<<<<<< HEAD
 	.uaword	0x489a
-=======
-	.uaword	0x48a3
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0xc
 	.byte	0x4
 	.byte	0x2
 	.uahalf	0x50f
-<<<<<<< HEAD
 	.uaword	0x4902
-=======
-	.uaword	0x490b
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0xd
 	.string	"U"
 	.byte	0x2
 	.uahalf	0x511
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0xd
 	.string	"I"
 	.byte	0x2
 	.uahalf	0x512
-<<<<<<< HEAD
 	.uaword	0x467d
-=======
-	.uaword	0x4686
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0xd
 	.string	"B"
 	.byte	0x2
 	.uahalf	0x513
-<<<<<<< HEAD
 	.uaword	0x9c7
-=======
-	.uaword	0x9d0
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0
 	.uleb128 0x9
 	.string	"Ifx_SCU_CCUCON7"
 	.byte	0x2
 	.uahalf	0x514
-<<<<<<< HEAD
 	.uaword	0x48da
-=======
-	.uaword	0x48e3
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0xc
 	.byte	0x4
 	.byte	0x2
 	.uahalf	0x517
-<<<<<<< HEAD
 	.uaword	0x4942
-=======
-	.uaword	0x494b
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0xd
 	.string	"U"
 	.byte	0x2
 	.uahalf	0x519
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0xd
 	.string	"I"
 	.byte	0x2
 	.uahalf	0x51a
-<<<<<<< HEAD
 	.uaword	0x467d
-=======
-	.uaword	0x4686
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0xd
 	.string	"B"
 	.byte	0x2
 	.uahalf	0x51b
-<<<<<<< HEAD
 	.uaword	0xa24
-=======
-	.uaword	0xa2d
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0
 	.uleb128 0x9
 	.string	"Ifx_SCU_CCUCON8"
 	.byte	0x2
 	.uahalf	0x51c
-<<<<<<< HEAD
 	.uaword	0x491a
-=======
-	.uaword	0x4923
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0xc
 	.byte	0x4
 	.byte	0x2
 	.uahalf	0x51f
-<<<<<<< HEAD
 	.uaword	0x4982
-=======
-	.uaword	0x498b
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0xd
 	.string	"U"
 	.byte	0x2
 	.uahalf	0x521
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0xd
 	.string	"I"
 	.byte	0x2
 	.uahalf	0x522
-<<<<<<< HEAD
 	.uaword	0x467d
-=======
-	.uaword	0x4686
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0xd
 	.string	"B"
 	.byte	0x2
 	.uahalf	0x523
-<<<<<<< HEAD
 	.uaword	0xaed
-=======
-	.uaword	0xaf6
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0
 	.uleb128 0x9
 	.string	"Ifx_SCU_CHIPID"
 	.byte	0x2
 	.uahalf	0x524
-<<<<<<< HEAD
 	.uaword	0x495a
-=======
-	.uaword	0x4963
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0xc
 	.byte	0x4
 	.byte	0x2
 	.uahalf	0x527
-<<<<<<< HEAD
 	.uaword	0x49c1
-=======
-	.uaword	0x49ca
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0xd
 	.string	"U"
 	.byte	0x2
 	.uahalf	0x529
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0xd
 	.string	"I"
 	.byte	0x2
 	.uahalf	0x52a
-<<<<<<< HEAD
 	.uaword	0x467d
-=======
-	.uaword	0x4686
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0xd
 	.string	"B"
 	.byte	0x2
 	.uahalf	0x52b
-<<<<<<< HEAD
 	.uaword	0xb82
-=======
-	.uaword	0xb8b
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0
 	.uleb128 0x9
 	.string	"Ifx_SCU_DTSCON"
 	.byte	0x2
 	.uahalf	0x52c
-<<<<<<< HEAD
 	.uaword	0x4999
-=======
-	.uaword	0x49a2
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0xc
 	.byte	0x4
 	.byte	0x2
 	.uahalf	0x52f
-<<<<<<< HEAD
 	.uaword	0x4a00
-=======
-	.uaword	0x4a09
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0xd
 	.string	"U"
 	.byte	0x2
 	.uahalf	0x531
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0xd
 	.string	"I"
 	.byte	0x2
 	.uahalf	0x532
-<<<<<<< HEAD
 	.uaword	0x467d
-=======
-	.uaword	0x4686
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0xd
 	.string	"B"
 	.byte	0x2
 	.uahalf	0x533
-<<<<<<< HEAD
 	.uaword	0xc28
-=======
-	.uaword	0xc31
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0
 	.uleb128 0x9
 	.string	"Ifx_SCU_DTSLIM"
 	.byte	0x2
 	.uahalf	0x534
-<<<<<<< HEAD
 	.uaword	0x49d8
-=======
-	.uaword	0x49e1
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0xc
 	.byte	0x4
 	.byte	0x2
 	.uahalf	0x537
-<<<<<<< HEAD
 	.uaword	0x4a3f
-=======
-	.uaword	0x4a48
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0xd
 	.string	"U"
 	.byte	0x2
 	.uahalf	0x539
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0xd
 	.string	"I"
 	.byte	0x2
 	.uahalf	0x53a
-<<<<<<< HEAD
 	.uaword	0x467d
-=======
-	.uaword	0x4686
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0xd
 	.string	"B"
 	.byte	0x2
 	.uahalf	0x53b
-<<<<<<< HEAD
 	.uaword	0xcb5
-=======
-	.uaword	0xcbe
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0
 	.uleb128 0x9
 	.string	"Ifx_SCU_DTSSTAT"
 	.byte	0x2
 	.uahalf	0x53c
-<<<<<<< HEAD
 	.uaword	0x4a17
-=======
-	.uaword	0x4a20
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0xc
 	.byte	0x4
 	.byte	0x2
 	.uahalf	0x53f
-<<<<<<< HEAD
 	.uaword	0x4a7f
-=======
-	.uaword	0x4a88
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0xd
 	.string	"U"
 	.byte	0x2
 	.uahalf	0x541
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0xd
 	.string	"I"
 	.byte	0x2
 	.uahalf	0x542
-<<<<<<< HEAD
 	.uaword	0x467d
-=======
-	.uaword	0x4686
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0xd
 	.string	"B"
 	.byte	0x2
 	.uahalf	0x543
-<<<<<<< HEAD
 	.uaword	0xe11
-=======
-	.uaword	0xe1a
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0
 	.uleb128 0x9
 	.string	"Ifx_SCU_EICR"
 	.byte	0x2
 	.uahalf	0x544
-<<<<<<< HEAD
 	.uaword	0x4a57
-=======
-	.uaword	0x4a60
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0xc
 	.byte	0x4
 	.byte	0x2
 	.uahalf	0x547
-<<<<<<< HEAD
 	.uaword	0x4abc
-=======
-	.uaword	0x4ac5
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0xd
 	.string	"U"
 	.byte	0x2
 	.uahalf	0x549
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0xd
 	.string	"I"
 	.byte	0x2
 	.uahalf	0x54a
-<<<<<<< HEAD
 	.uaword	0x467d
-=======
-	.uaword	0x4686
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0xd
 	.string	"B"
 	.byte	0x2
 	.uahalf	0x54b
-<<<<<<< HEAD
 	.uaword	0xee8
-=======
-	.uaword	0xef1
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0
 	.uleb128 0x9
 	.string	"Ifx_SCU_EIFR"
 	.byte	0x2
 	.uahalf	0x54c
-<<<<<<< HEAD
 	.uaword	0x4a94
-=======
-	.uaword	0x4a9d
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0xc
 	.byte	0x4
 	.byte	0x2
 	.uahalf	0x54f
-<<<<<<< HEAD
 	.uaword	0x4af9
-=======
-	.uaword	0x4b02
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0xd
 	.string	"U"
 	.byte	0x2
 	.uahalf	0x551
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0xd
 	.string	"I"
 	.byte	0x2
 	.uahalf	0x552
-<<<<<<< HEAD
 	.uaword	0x467d
-=======
-	.uaword	0x4686
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0xd
 	.string	"B"
 	.byte	0x2
 	.uahalf	0x553
-<<<<<<< HEAD
 	.uaword	0xfda
-=======
-	.uaword	0xfe3
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0
 	.uleb128 0x9
 	.string	"Ifx_SCU_EMSR"
 	.byte	0x2
 	.uahalf	0x554
-<<<<<<< HEAD
 	.uaword	0x4ad1
-=======
-	.uaword	0x4ada
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0xc
 	.byte	0x4
 	.byte	0x2
 	.uahalf	0x557
-<<<<<<< HEAD
 	.uaword	0x4b36
-=======
-	.uaword	0x4b3f
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0xd
 	.string	"U"
 	.byte	0x2
 	.uahalf	0x559
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0xd
 	.string	"I"
 	.byte	0x2
 	.uahalf	0x55a
-<<<<<<< HEAD
 	.uaword	0x467d
-=======
-	.uaword	0x4686
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0xd
 	.string	"B"
 	.byte	0x2
 	.uahalf	0x55b
-<<<<<<< HEAD
 	.uaword	0x1045
-=======
-	.uaword	0x104e
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0
 	.uleb128 0x9
 	.string	"Ifx_SCU_ESRCFG"
 	.byte	0x2
 	.uahalf	0x55c
-<<<<<<< HEAD
 	.uaword	0x4b0e
-=======
-	.uaword	0x4b17
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0xc
 	.byte	0x4
 	.byte	0x2
 	.uahalf	0x55f
-<<<<<<< HEAD
 	.uaword	0x4b75
-=======
-	.uaword	0x4b7e
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0xd
 	.string	"U"
 	.byte	0x2
 	.uahalf	0x561
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0xd
 	.string	"I"
 	.byte	0x2
 	.uahalf	0x562
-<<<<<<< HEAD
 	.uaword	0x467d
-=======
-	.uaword	0x4686
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0xd
 	.string	"B"
 	.byte	0x2
 	.uahalf	0x563
-<<<<<<< HEAD
 	.uaword	0x10b1
-=======
-	.uaword	0x10ba
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0
 	.uleb128 0x9
 	.string	"Ifx_SCU_ESROCFG"
 	.byte	0x2
 	.uahalf	0x564
-<<<<<<< HEAD
 	.uaword	0x4b4d
-=======
-	.uaword	0x4b56
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0xc
 	.byte	0x4
 	.byte	0x2
 	.uahalf	0x567
-<<<<<<< HEAD
 	.uaword	0x4bb5
-=======
-	.uaword	0x4bbe
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0xd
 	.string	"U"
 	.byte	0x2
 	.uahalf	0x569
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0xd
 	.string	"I"
 	.byte	0x2
 	.uahalf	0x56a
-<<<<<<< HEAD
 	.uaword	0x467d
-=======
-	.uaword	0x4686
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0xd
 	.string	"B"
 	.byte	0x2
 	.uahalf	0x56b
-<<<<<<< HEAD
 	.uaword	0x114b
-=======
-	.uaword	0x1154
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0
 	.uleb128 0x9
 	.string	"Ifx_SCU_EVR13CON"
 	.byte	0x2
 	.uahalf	0x56c
-<<<<<<< HEAD
 	.uaword	0x4b8d
-=======
-	.uaword	0x4b96
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0xc
 	.byte	0x4
 	.byte	0x2
 	.uahalf	0x56f
-<<<<<<< HEAD
 	.uaword	0x4bf6
-=======
-	.uaword	0x4bff
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0xd
 	.string	"U"
 	.byte	0x2
 	.uahalf	0x571
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0xd
 	.string	"I"
 	.byte	0x2
 	.uahalf	0x572
-<<<<<<< HEAD
 	.uaword	0x467d
-=======
-	.uaword	0x4686
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0xd
 	.string	"B"
 	.byte	0x2
 	.uahalf	0x573
-<<<<<<< HEAD
 	.uaword	0x11e6
-=======
-	.uaword	0x11ef
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0
 	.uleb128 0x9
 	.string	"Ifx_SCU_EVR33CON"
 	.byte	0x2
 	.uahalf	0x574
-<<<<<<< HEAD
 	.uaword	0x4bce
-=======
-	.uaword	0x4bd7
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0xc
 	.byte	0x4
 	.byte	0x2
 	.uahalf	0x577
-<<<<<<< HEAD
 	.uaword	0x4c37
-=======
-	.uaword	0x4c40
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0xd
 	.string	"U"
 	.byte	0x2
 	.uahalf	0x579
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0xd
 	.string	"I"
 	.byte	0x2
 	.uahalf	0x57a
-<<<<<<< HEAD
 	.uaword	0x467d
-=======
-	.uaword	0x4686
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0xd
 	.string	"B"
 	.byte	0x2
 	.uahalf	0x57b
-<<<<<<< HEAD
 	.uaword	0x1281
-=======
-	.uaword	0x128a
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0
 	.uleb128 0x9
 	.string	"Ifx_SCU_EVRADCSTAT"
 	.byte	0x2
 	.uahalf	0x57c
-<<<<<<< HEAD
 	.uaword	0x4c0f
-=======
-	.uaword	0x4c18
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0xc
 	.byte	0x4
 	.byte	0x2
 	.uahalf	0x57f
-<<<<<<< HEAD
 	.uaword	0x4c7a
-=======
-	.uaword	0x4c83
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0xd
 	.string	"U"
 	.byte	0x2
 	.uahalf	0x581
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0xd
 	.string	"I"
 	.byte	0x2
 	.uahalf	0x582
-<<<<<<< HEAD
 	.uaword	0x467d
-=======
-	.uaword	0x4686
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0xd
 	.string	"B"
 	.byte	0x2
 	.uahalf	0x583
-<<<<<<< HEAD
 	.uaword	0x131f
-=======
-	.uaword	0x1328
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0
 	.uleb128 0x9
 	.string	"Ifx_SCU_EVRDVSTAT"
 	.byte	0x2
 	.uahalf	0x584
-<<<<<<< HEAD
 	.uaword	0x4c52
-=======
-	.uaword	0x4c5b
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0xc
 	.byte	0x4
 	.byte	0x2
 	.uahalf	0x587
-<<<<<<< HEAD
 	.uaword	0x4cbc
-=======
-	.uaword	0x4cc5
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0xd
 	.string	"U"
 	.byte	0x2
 	.uahalf	0x589
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0xd
 	.string	"I"
 	.byte	0x2
 	.uahalf	0x58a
-<<<<<<< HEAD
 	.uaword	0x467d
-=======
-	.uaword	0x4686
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0xd
 	.string	"B"
 	.byte	0x2
 	.uahalf	0x58b
-<<<<<<< HEAD
 	.uaword	0x1467
-=======
-	.uaword	0x1470
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0
 	.uleb128 0x9
 	.string	"Ifx_SCU_EVRMONCTRL"
 	.byte	0x2
 	.uahalf	0x58c
-<<<<<<< HEAD
 	.uaword	0x4c94
-=======
-	.uaword	0x4c9d
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0xc
 	.byte	0x4
 	.byte	0x2
 	.uahalf	0x58f
-<<<<<<< HEAD
 	.uaword	0x4cff
-=======
-	.uaword	0x4d08
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0xd
 	.string	"U"
 	.byte	0x2
 	.uahalf	0x591
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0xd
 	.string	"I"
 	.byte	0x2
 	.uahalf	0x592
-<<<<<<< HEAD
 	.uaword	0x467d
-=======
-	.uaword	0x4686
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0xd
 	.string	"B"
 	.byte	0x2
 	.uahalf	0x593
-<<<<<<< HEAD
 	.uaword	0x151b
-=======
-	.uaword	0x1524
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0
 	.uleb128 0x9
 	.string	"Ifx_SCU_EVROVMON"
 	.byte	0x2
 	.uahalf	0x594
-<<<<<<< HEAD
 	.uaword	0x4cd7
-=======
-	.uaword	0x4ce0
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0xc
 	.byte	0x4
 	.byte	0x2
 	.uahalf	0x597
-<<<<<<< HEAD
 	.uaword	0x4d40
-=======
-	.uaword	0x4d49
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0xd
 	.string	"U"
 	.byte	0x2
 	.uahalf	0x599
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0xd
 	.string	"I"
 	.byte	0x2
 	.uahalf	0x59a
-<<<<<<< HEAD
 	.uaword	0x467d
-=======
-	.uaword	0x4686
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0xd
 	.string	"B"
 	.byte	0x2
 	.uahalf	0x59b
-<<<<<<< HEAD
 	.uaword	0x1627
-=======
-	.uaword	0x1630
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0
 	.uleb128 0x9
 	.string	"Ifx_SCU_EVRRSTCON"
 	.byte	0x2
 	.uahalf	0x59c
-<<<<<<< HEAD
 	.uaword	0x4d18
-=======
-	.uaword	0x4d21
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0xc
 	.byte	0x4
 	.byte	0x2
 	.uahalf	0x59f
-<<<<<<< HEAD
 	.uaword	0x4d82
-=======
-	.uaword	0x4d8b
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0xd
 	.string	"U"
 	.byte	0x2
 	.uahalf	0x5a1
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0xd
 	.string	"I"
 	.byte	0x2
 	.uahalf	0x5a2
-<<<<<<< HEAD
 	.uaword	0x467d
-=======
-	.uaword	0x4686
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0xd
 	.string	"B"
 	.byte	0x2
 	.uahalf	0x5a3
-<<<<<<< HEAD
 	.uaword	0x16bd
-=======
-	.uaword	0x16c6
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0
 	.uleb128 0x9
 	.string	"Ifx_SCU_EVRSDCOEFF1"
 	.byte	0x2
 	.uahalf	0x5a4
-<<<<<<< HEAD
 	.uaword	0x4d5a
-=======
-	.uaword	0x4d63
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0xc
 	.byte	0x4
 	.byte	0x2
 	.uahalf	0x5a7
-<<<<<<< HEAD
 	.uaword	0x4dc6
-=======
-	.uaword	0x4dcf
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0xd
 	.string	"U"
 	.byte	0x2
 	.uahalf	0x5a9
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0xd
 	.string	"I"
 	.byte	0x2
 	.uahalf	0x5aa
-<<<<<<< HEAD
 	.uaword	0x467d
-=======
-	.uaword	0x4686
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0xd
 	.string	"B"
 	.byte	0x2
 	.uahalf	0x5ab
-<<<<<<< HEAD
 	.uaword	0x1758
-=======
-	.uaword	0x1761
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0
 	.uleb128 0x9
 	.string	"Ifx_SCU_EVRSDCOEFF2"
 	.byte	0x2
 	.uahalf	0x5ac
-<<<<<<< HEAD
 	.uaword	0x4d9e
-=======
-	.uaword	0x4da7
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0xc
 	.byte	0x4
 	.byte	0x2
 	.uahalf	0x5af
-<<<<<<< HEAD
 	.uaword	0x4e0a
-=======
-	.uaword	0x4e13
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0xd
 	.string	"U"
 	.byte	0x2
 	.uahalf	0x5b1
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0xd
 	.string	"I"
 	.byte	0x2
 	.uahalf	0x5b2
-<<<<<<< HEAD
 	.uaword	0x467d
-=======
-	.uaword	0x4686
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0xd
 	.string	"B"
 	.byte	0x2
 	.uahalf	0x5b3
-<<<<<<< HEAD
 	.uaword	0x17f9
-=======
-	.uaword	0x1802
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0
 	.uleb128 0x9
 	.string	"Ifx_SCU_EVRSDCOEFF3"
 	.byte	0x2
 	.uahalf	0x5b4
-<<<<<<< HEAD
 	.uaword	0x4de2
-=======
-	.uaword	0x4deb
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0xc
 	.byte	0x4
 	.byte	0x2
 	.uahalf	0x5b7
-<<<<<<< HEAD
 	.uaword	0x4e4e
-=======
-	.uaword	0x4e57
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0xd
 	.string	"U"
 	.byte	0x2
 	.uahalf	0x5b9
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0xd
 	.string	"I"
 	.byte	0x2
 	.uahalf	0x5ba
-<<<<<<< HEAD
 	.uaword	0x467d
-=======
-	.uaword	0x4686
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0xd
 	.string	"B"
 	.byte	0x2
 	.uahalf	0x5bb
-<<<<<<< HEAD
 	.uaword	0x1886
-=======
-	.uaword	0x188f
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0
 	.uleb128 0x9
 	.string	"Ifx_SCU_EVRSDCOEFF4"
 	.byte	0x2
 	.uahalf	0x5bc
-<<<<<<< HEAD
 	.uaword	0x4e26
-=======
-	.uaword	0x4e2f
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0xc
 	.byte	0x4
 	.byte	0x2
 	.uahalf	0x5bf
-<<<<<<< HEAD
 	.uaword	0x4e92
-=======
-	.uaword	0x4e9b
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0xd
 	.string	"U"
 	.byte	0x2
 	.uahalf	0x5c1
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0xd
 	.string	"I"
 	.byte	0x2
 	.uahalf	0x5c2
-<<<<<<< HEAD
 	.uaword	0x467d
-=======
-	.uaword	0x4686
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0xd
 	.string	"B"
 	.byte	0x2
 	.uahalf	0x5c3
-<<<<<<< HEAD
 	.uaword	0x192a
-=======
-	.uaword	0x1933
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0
 	.uleb128 0x9
 	.string	"Ifx_SCU_EVRSDCOEFF5"
 	.byte	0x2
 	.uahalf	0x5c4
-<<<<<<< HEAD
 	.uaword	0x4e6a
-=======
-	.uaword	0x4e73
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0xc
 	.byte	0x4
 	.byte	0x2
 	.uahalf	0x5c7
-<<<<<<< HEAD
 	.uaword	0x4ed6
-=======
-	.uaword	0x4edf
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0xd
 	.string	"U"
 	.byte	0x2
 	.uahalf	0x5c9
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0xd
 	.string	"I"
 	.byte	0x2
 	.uahalf	0x5ca
-<<<<<<< HEAD
 	.uaword	0x467d
-=======
-	.uaword	0x4686
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0xd
 	.string	"B"
 	.byte	0x2
 	.uahalf	0x5cb
-<<<<<<< HEAD
 	.uaword	0x19b9
-=======
-	.uaword	0x19c2
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0
 	.uleb128 0x9
 	.string	"Ifx_SCU_EVRSDCOEFF6"
 	.byte	0x2
 	.uahalf	0x5cc
-<<<<<<< HEAD
 	.uaword	0x4eae
-=======
-	.uaword	0x4eb7
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0xc
 	.byte	0x4
 	.byte	0x2
 	.uahalf	0x5cf
-<<<<<<< HEAD
 	.uaword	0x4f1a
-=======
-	.uaword	0x4f23
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0xd
 	.string	"U"
 	.byte	0x2
 	.uahalf	0x5d1
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0xd
 	.string	"I"
 	.byte	0x2
 	.uahalf	0x5d2
-<<<<<<< HEAD
 	.uaword	0x467d
-=======
-	.uaword	0x4686
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0xd
 	.string	"B"
 	.byte	0x2
 	.uahalf	0x5d3
-<<<<<<< HEAD
 	.uaword	0x1a6f
-=======
-	.uaword	0x1a78
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0
 	.uleb128 0x9
 	.string	"Ifx_SCU_EVRSDCTRL1"
 	.byte	0x2
 	.uahalf	0x5d4
-<<<<<<< HEAD
 	.uaword	0x4ef2
-=======
-	.uaword	0x4efb
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0xc
 	.byte	0x4
 	.byte	0x2
 	.uahalf	0x5d7
-<<<<<<< HEAD
 	.uaword	0x4f5d
-=======
-	.uaword	0x4f66
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0xd
 	.string	"U"
 	.byte	0x2
 	.uahalf	0x5d9
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0xd
 	.string	"I"
 	.byte	0x2
 	.uahalf	0x5da
-<<<<<<< HEAD
 	.uaword	0x467d
-=======
-	.uaword	0x4686
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0xd
 	.string	"B"
 	.byte	0x2
 	.uahalf	0x5db
-<<<<<<< HEAD
 	.uaword	0x1b1d
-=======
-	.uaword	0x1b26
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0
 	.uleb128 0x9
 	.string	"Ifx_SCU_EVRSDCTRL2"
 	.byte	0x2
 	.uahalf	0x5dc
-<<<<<<< HEAD
 	.uaword	0x4f35
-=======
-	.uaword	0x4f3e
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0xc
 	.byte	0x4
 	.byte	0x2
 	.uahalf	0x5df
-<<<<<<< HEAD
 	.uaword	0x4fa0
-=======
-	.uaword	0x4fa9
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0xd
 	.string	"U"
 	.byte	0x2
 	.uahalf	0x5e1
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0xd
 	.string	"I"
 	.byte	0x2
 	.uahalf	0x5e2
-<<<<<<< HEAD
 	.uaword	0x467d
-=======
-	.uaword	0x4686
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0xd
 	.string	"B"
 	.byte	0x2
 	.uahalf	0x5e3
-<<<<<<< HEAD
 	.uaword	0x1bbc
-=======
-	.uaword	0x1bc5
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0
 	.uleb128 0x9
 	.string	"Ifx_SCU_EVRSDCTRL3"
 	.byte	0x2
 	.uahalf	0x5e4
-<<<<<<< HEAD
 	.uaword	0x4f78
-=======
-	.uaword	0x4f81
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0xc
 	.byte	0x4
 	.byte	0x2
 	.uahalf	0x5e7
-<<<<<<< HEAD
 	.uaword	0x4fe3
-=======
-	.uaword	0x4fec
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0xd
 	.string	"U"
 	.byte	0x2
 	.uahalf	0x5e9
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0xd
 	.string	"I"
 	.byte	0x2
 	.uahalf	0x5ea
-<<<<<<< HEAD
 	.uaword	0x467d
-=======
-	.uaword	0x4686
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0xd
 	.string	"B"
 	.byte	0x2
 	.uahalf	0x5eb
-<<<<<<< HEAD
 	.uaword	0x1c43
-=======
-	.uaword	0x1c4c
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0
 	.uleb128 0x9
 	.string	"Ifx_SCU_EVRSDCTRL4"
 	.byte	0x2
 	.uahalf	0x5ec
-<<<<<<< HEAD
 	.uaword	0x4fbb
-=======
-	.uaword	0x4fc4
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0xc
 	.byte	0x4
 	.byte	0x2
 	.uahalf	0x5ef
-<<<<<<< HEAD
 	.uaword	0x5026
-=======
-	.uaword	0x502f
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0xd
 	.string	"U"
 	.byte	0x2
 	.uahalf	0x5f1
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0xd
 	.string	"I"
 	.byte	0x2
 	.uahalf	0x5f2
-<<<<<<< HEAD
 	.uaword	0x467d
-=======
-	.uaword	0x4686
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0xd
 	.string	"B"
 	.byte	0x2
 	.uahalf	0x5f3
-<<<<<<< HEAD
 	.uaword	0x1d5e
-=======
-	.uaword	0x1d67
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0
 	.uleb128 0x9
 	.string	"Ifx_SCU_EVRSTAT"
 	.byte	0x2
 	.uahalf	0x5f4
-<<<<<<< HEAD
 	.uaword	0x4ffe
-=======
-	.uaword	0x5007
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0xc
 	.byte	0x4
 	.byte	0x2
 	.uahalf	0x5f7
-<<<<<<< HEAD
 	.uaword	0x5066
-=======
-	.uaword	0x506f
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0xd
 	.string	"U"
 	.byte	0x2
 	.uahalf	0x5f9
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0xd
 	.string	"I"
 	.byte	0x2
 	.uahalf	0x5fa
-<<<<<<< HEAD
 	.uaword	0x467d
-=======
-	.uaword	0x4686
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0xd
 	.string	"B"
 	.byte	0x2
 	.uahalf	0x5fb
-<<<<<<< HEAD
 	.uaword	0x1df7
-=======
-	.uaword	0x1e00
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0
 	.uleb128 0x9
 	.string	"Ifx_SCU_EVRTRIM"
 	.byte	0x2
 	.uahalf	0x5fc
-<<<<<<< HEAD
 	.uaword	0x503e
-=======
-	.uaword	0x5047
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0xc
 	.byte	0x4
 	.byte	0x2
 	.uahalf	0x5ff
-<<<<<<< HEAD
 	.uaword	0x50a6
-=======
-	.uaword	0x50af
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0xd
 	.string	"U"
 	.byte	0x2
 	.uahalf	0x601
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0xd
 	.string	"I"
 	.byte	0x2
 	.uahalf	0x602
-<<<<<<< HEAD
 	.uaword	0x467d
-=======
-	.uaword	0x4686
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0xd
 	.string	"B"
 	.byte	0x2
 	.uahalf	0x603
-<<<<<<< HEAD
 	.uaword	0x1ea8
-=======
-	.uaword	0x1eb1
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0
 	.uleb128 0x9
 	.string	"Ifx_SCU_EVRUVMON"
 	.byte	0x2
 	.uahalf	0x604
-<<<<<<< HEAD
 	.uaword	0x507e
-=======
-	.uaword	0x5087
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0xc
 	.byte	0x4
 	.byte	0x2
 	.uahalf	0x607
-<<<<<<< HEAD
 	.uaword	0x50e7
-=======
-	.uaword	0x50f0
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0xd
 	.string	"U"
 	.byte	0x2
 	.uahalf	0x609
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0xd
 	.string	"I"
 	.byte	0x2
 	.uahalf	0x60a
-<<<<<<< HEAD
 	.uaword	0x467d
-=======
-	.uaword	0x4686
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0xd
 	.string	"B"
 	.byte	0x2
 	.uahalf	0x60b
-<<<<<<< HEAD
 	.uaword	0x1f79
-=======
-	.uaword	0x1f82
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0
 	.uleb128 0x9
 	.string	"Ifx_SCU_EXTCON"
 	.byte	0x2
 	.uahalf	0x60c
-<<<<<<< HEAD
 	.uaword	0x50bf
-=======
-	.uaword	0x50c8
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0xc
 	.byte	0x4
 	.byte	0x2
 	.uahalf	0x60f
-<<<<<<< HEAD
 	.uaword	0x5126
-=======
-	.uaword	0x512f
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0xd
 	.string	"U"
 	.byte	0x2
 	.uahalf	0x611
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0xd
 	.string	"I"
 	.byte	0x2
 	.uahalf	0x612
-<<<<<<< HEAD
 	.uaword	0x467d
-=======
-	.uaword	0x4686
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0xd
 	.string	"B"
 	.byte	0x2
 	.uahalf	0x613
-<<<<<<< HEAD
 	.uaword	0x2017
-=======
-	.uaword	0x2020
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0
 	.uleb128 0x9
 	.string	"Ifx_SCU_FDR"
 	.byte	0x2
 	.uahalf	0x614
-<<<<<<< HEAD
 	.uaword	0x50fe
-=======
-	.uaword	0x5107
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0xc
 	.byte	0x4
 	.byte	0x2
 	.uahalf	0x617
-<<<<<<< HEAD
 	.uaword	0x5162
-=======
-	.uaword	0x516b
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0xd
 	.string	"U"
 	.byte	0x2
 	.uahalf	0x619
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0xd
 	.string	"I"
 	.byte	0x2
 	.uahalf	0x61a
-<<<<<<< HEAD
 	.uaword	0x467d
-=======
-	.uaword	0x4686
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0xd
 	.string	"B"
 	.byte	0x2
 	.uahalf	0x61b
-<<<<<<< HEAD
 	.uaword	0x216c
-=======
-	.uaword	0x2175
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0
 	.uleb128 0x9
 	.string	"Ifx_SCU_FMR"
 	.byte	0x2
 	.uahalf	0x61c
-<<<<<<< HEAD
 	.uaword	0x513a
-=======
-	.uaword	0x5143
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0xc
 	.byte	0x4
 	.byte	0x2
 	.uahalf	0x61f
-<<<<<<< HEAD
 	.uaword	0x519e
-=======
-	.uaword	0x51a7
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0xd
 	.string	"U"
 	.byte	0x2
 	.uahalf	0x621
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0xd
 	.string	"I"
 	.byte	0x2
 	.uahalf	0x622
-<<<<<<< HEAD
 	.uaword	0x467d
-=======
-	.uaword	0x4686
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0xd
 	.string	"B"
 	.byte	0x2
 	.uahalf	0x623
-<<<<<<< HEAD
 	.uaword	0x21dd
-=======
-	.uaword	0x21e6
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0
 	.uleb128 0x9
 	.string	"Ifx_SCU_ID"
 	.byte	0x2
 	.uahalf	0x624
-<<<<<<< HEAD
 	.uaword	0x5176
-=======
-	.uaword	0x517f
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0xc
 	.byte	0x4
 	.byte	0x2
 	.uahalf	0x627
-<<<<<<< HEAD
 	.uaword	0x51d9
-=======
-	.uaword	0x51e2
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0xd
 	.string	"U"
 	.byte	0x2
 	.uahalf	0x629
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0xd
 	.string	"I"
 	.byte	0x2
 	.uahalf	0x62a
-<<<<<<< HEAD
 	.uaword	0x467d
-=======
-	.uaword	0x4686
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0xd
 	.string	"B"
 	.byte	0x2
 	.uahalf	0x62b
-<<<<<<< HEAD
 	.uaword	0x23a8
-=======
-	.uaword	0x23b1
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0
 	.uleb128 0x9
 	.string	"Ifx_SCU_IGCR"
 	.byte	0x2
 	.uahalf	0x62c
-<<<<<<< HEAD
 	.uaword	0x51b1
-=======
-	.uaword	0x51ba
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0xc
 	.byte	0x4
 	.byte	0x2
 	.uahalf	0x62f
-<<<<<<< HEAD
 	.uaword	0x5216
-=======
-	.uaword	0x521f
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0xd
 	.string	"U"
 	.byte	0x2
 	.uahalf	0x631
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0xd
 	.string	"I"
 	.byte	0x2
 	.uahalf	0x632
-<<<<<<< HEAD
 	.uaword	0x467d
-=======
-	.uaword	0x4686
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0xd
 	.string	"B"
 	.byte	0x2
 	.uahalf	0x633
-<<<<<<< HEAD
 	.uaword	0x240b
-=======
-	.uaword	0x2414
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0
 	.uleb128 0x9
 	.string	"Ifx_SCU_IN"
 	.byte	0x2
 	.uahalf	0x634
-<<<<<<< HEAD
 	.uaword	0x51ee
-=======
-	.uaword	0x51f7
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0xc
 	.byte	0x4
 	.byte	0x2
 	.uahalf	0x637
-<<<<<<< HEAD
 	.uaword	0x5251
-=======
-	.uaword	0x525a
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0xd
 	.string	"U"
 	.byte	0x2
 	.uahalf	0x639
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0xd
 	.string	"I"
 	.byte	0x2
 	.uahalf	0x63a
-<<<<<<< HEAD
 	.uaword	0x467d
-=======
-	.uaword	0x4686
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0xd
 	.string	"B"
 	.byte	0x2
 	.uahalf	0x63b
-<<<<<<< HEAD
 	.uaword	0x2490
-=======
-	.uaword	0x2499
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0
 	.uleb128 0x9
 	.string	"Ifx_SCU_IOCR"
 	.byte	0x2
 	.uahalf	0x63c
-<<<<<<< HEAD
 	.uaword	0x5229
-=======
-	.uaword	0x5232
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0xc
 	.byte	0x4
 	.byte	0x2
 	.uahalf	0x63f
-<<<<<<< HEAD
 	.uaword	0x528e
-=======
-	.uaword	0x5297
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0xd
 	.string	"U"
 	.byte	0x2
 	.uahalf	0x641
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0xd
 	.string	"I"
 	.byte	0x2
 	.uahalf	0x642
-<<<<<<< HEAD
 	.uaword	0x467d
-=======
-	.uaword	0x4686
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0xd
 	.string	"B"
 	.byte	0x2
 	.uahalf	0x643
-<<<<<<< HEAD
 	.uaword	0x251d
-=======
-	.uaword	0x2526
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0
 	.uleb128 0x9
 	.string	"Ifx_SCU_LBISTCTRL0"
 	.byte	0x2
 	.uahalf	0x644
-<<<<<<< HEAD
 	.uaword	0x5266
-=======
-	.uaword	0x526f
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0xc
 	.byte	0x4
 	.byte	0x2
 	.uahalf	0x647
-<<<<<<< HEAD
 	.uaword	0x52d1
-=======
-	.uaword	0x52da
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0xd
 	.string	"U"
 	.byte	0x2
 	.uahalf	0x649
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0xd
 	.string	"I"
 	.byte	0x2
 	.uahalf	0x64a
-<<<<<<< HEAD
 	.uaword	0x467d
-=======
-	.uaword	0x4686
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0xd
 	.string	"B"
 	.byte	0x2
 	.uahalf	0x64b
-<<<<<<< HEAD
 	.uaword	0x25bd
-=======
-	.uaword	0x25c6
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0
 	.uleb128 0x9
 	.string	"Ifx_SCU_LBISTCTRL1"
 	.byte	0x2
 	.uahalf	0x64c
-<<<<<<< HEAD
 	.uaword	0x52a9
-=======
-	.uaword	0x52b2
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0xc
 	.byte	0x4
 	.byte	0x2
 	.uahalf	0x64f
-<<<<<<< HEAD
 	.uaword	0x5314
-=======
-	.uaword	0x531d
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0xd
 	.string	"U"
 	.byte	0x2
 	.uahalf	0x651
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0xd
 	.string	"I"
 	.byte	0x2
 	.uahalf	0x652
-<<<<<<< HEAD
 	.uaword	0x467d
-=======
-	.uaword	0x4686
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0xd
 	.string	"B"
 	.byte	0x2
 	.uahalf	0x653
-<<<<<<< HEAD
 	.uaword	0x263c
-=======
-	.uaword	0x2645
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0
 	.uleb128 0x9
 	.string	"Ifx_SCU_LBISTCTRL2"
 	.byte	0x2
 	.uahalf	0x654
-<<<<<<< HEAD
 	.uaword	0x52ec
-=======
-	.uaword	0x52f5
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0xc
 	.byte	0x4
 	.byte	0x2
 	.uahalf	0x657
-<<<<<<< HEAD
 	.uaword	0x5357
-=======
-	.uaword	0x5360
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0xd
 	.string	"U"
 	.byte	0x2
 	.uahalf	0x659
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0xd
 	.string	"I"
 	.byte	0x2
 	.uahalf	0x65a
-<<<<<<< HEAD
 	.uaword	0x467d
-=======
-	.uaword	0x4686
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0xd
 	.string	"B"
 	.byte	0x2
 	.uahalf	0x65b
-<<<<<<< HEAD
 	.uaword	0x26bb
-=======
-	.uaword	0x26c4
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0
 	.uleb128 0x9
 	.string	"Ifx_SCU_LCLCON"
 	.byte	0x2
 	.uahalf	0x65c
-<<<<<<< HEAD
 	.uaword	0x532f
-=======
-	.uaword	0x5338
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0xc
 	.byte	0x4
 	.byte	0x2
 	.uahalf	0x65f
-<<<<<<< HEAD
 	.uaword	0x5396
-=======
-	.uaword	0x539f
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0xd
 	.string	"U"
 	.byte	0x2
 	.uahalf	0x661
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0xd
 	.string	"I"
 	.byte	0x2
 	.uahalf	0x662
-<<<<<<< HEAD
 	.uaword	0x467d
-=======
-	.uaword	0x4686
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0xd
 	.string	"B"
 	.byte	0x2
 	.uahalf	0x663
-<<<<<<< HEAD
 	.uaword	0x272b
-=======
-	.uaword	0x2734
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0
 	.uleb128 0x9
 	.string	"Ifx_SCU_LCLTEST"
 	.byte	0x2
 	.uahalf	0x664
-<<<<<<< HEAD
 	.uaword	0x536e
-=======
-	.uaword	0x5377
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0xc
 	.byte	0x4
 	.byte	0x2
 	.uahalf	0x667
-<<<<<<< HEAD
 	.uaword	0x53d6
-=======
-	.uaword	0x53df
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0xd
 	.string	"U"
 	.byte	0x2
 	.uahalf	0x669
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0xd
 	.string	"I"
 	.byte	0x2
 	.uahalf	0x66a
-<<<<<<< HEAD
 	.uaword	0x467d
-=======
-	.uaword	0x4686
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0xd
 	.string	"B"
 	.byte	0x2
 	.uahalf	0x66b
-<<<<<<< HEAD
 	.uaword	0x2799
-=======
-	.uaword	0x27a2
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0
 	.uleb128 0x9
 	.string	"Ifx_SCU_MANID"
 	.byte	0x2
 	.uahalf	0x66c
-<<<<<<< HEAD
 	.uaword	0x53ae
-=======
-	.uaword	0x53b7
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0xc
 	.byte	0x4
 	.byte	0x2
 	.uahalf	0x66f
-<<<<<<< HEAD
 	.uaword	0x5414
-=======
-	.uaword	0x541d
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0xd
 	.string	"U"
 	.byte	0x2
 	.uahalf	0x671
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0xd
 	.string	"I"
 	.byte	0x2
 	.uahalf	0x672
-<<<<<<< HEAD
 	.uaword	0x467d
-=======
-	.uaword	0x4686
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0xd
 	.string	"B"
 	.byte	0x2
 	.uahalf	0x673
-<<<<<<< HEAD
 	.uaword	0x2832
-=======
-	.uaword	0x283b
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0
 	.uleb128 0x9
 	.string	"Ifx_SCU_OMR"
 	.byte	0x2
 	.uahalf	0x674
-<<<<<<< HEAD
 	.uaword	0x53ec
-=======
-	.uaword	0x53f5
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0xc
 	.byte	0x4
 	.byte	0x2
 	.uahalf	0x677
-<<<<<<< HEAD
 	.uaword	0x5450
-=======
-	.uaword	0x5459
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0xd
 	.string	"U"
 	.byte	0x2
 	.uahalf	0x679
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0xd
 	.string	"I"
 	.byte	0x2
 	.uahalf	0x67a
-<<<<<<< HEAD
 	.uaword	0x467d
-=======
-	.uaword	0x4686
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0xd
 	.string	"B"
 	.byte	0x2
 	.uahalf	0x67b
-<<<<<<< HEAD
 	.uaword	0x29ba
-=======
-	.uaword	0x29c3
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0
 	.uleb128 0x9
 	.string	"Ifx_SCU_OSCCON"
 	.byte	0x2
 	.uahalf	0x67c
-<<<<<<< HEAD
 	.uaword	0x5428
-=======
-	.uaword	0x5431
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0xc
 	.byte	0x4
 	.byte	0x2
 	.uahalf	0x67f
-<<<<<<< HEAD
 	.uaword	0x548f
-=======
-	.uaword	0x5498
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0xd
 	.string	"U"
 	.byte	0x2
 	.uahalf	0x681
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0xd
 	.string	"I"
 	.byte	0x2
 	.uahalf	0x682
-<<<<<<< HEAD
 	.uaword	0x467d
-=======
-	.uaword	0x4686
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0xd
 	.string	"B"
 	.byte	0x2
 	.uahalf	0x683
-<<<<<<< HEAD
 	.uaword	0x2a20
-=======
-	.uaword	0x2a29
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0
 	.uleb128 0x9
 	.string	"Ifx_SCU_OUT"
 	.byte	0x2
 	.uahalf	0x684
-<<<<<<< HEAD
 	.uaword	0x5467
-=======
-	.uaword	0x5470
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0xc
 	.byte	0x4
 	.byte	0x2
 	.uahalf	0x687
-<<<<<<< HEAD
 	.uaword	0x54cb
-=======
-	.uaword	0x54d4
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0xd
 	.string	"U"
 	.byte	0x2
 	.uahalf	0x689
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0xd
 	.string	"I"
 	.byte	0x2
 	.uahalf	0x68a
-<<<<<<< HEAD
 	.uaword	0x467d
-=======
-	.uaword	0x4686
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0xd
 	.string	"B"
 	.byte	0x2
 	.uahalf	0x68b
-<<<<<<< HEAD
 	.uaword	0x2b1e
-=======
-	.uaword	0x2b27
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0
 	.uleb128 0x9
 	.string	"Ifx_SCU_OVCCON"
 	.byte	0x2
 	.uahalf	0x68c
-<<<<<<< HEAD
 	.uaword	0x54a3
-=======
-	.uaword	0x54ac
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0xc
 	.byte	0x4
 	.byte	0x2
 	.uahalf	0x68f
-<<<<<<< HEAD
 	.uaword	0x550a
-=======
-	.uaword	0x5513
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0xd
 	.string	"U"
 	.byte	0x2
 	.uahalf	0x691
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0xd
 	.string	"I"
 	.byte	0x2
 	.uahalf	0x692
-<<<<<<< HEAD
 	.uaword	0x467d
-=======
-	.uaword	0x4686
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0xd
 	.string	"B"
 	.byte	0x2
 	.uahalf	0x693
-<<<<<<< HEAD
 	.uaword	0x2ba2
-=======
-	.uaword	0x2bab
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0
 	.uleb128 0x9
 	.string	"Ifx_SCU_OVCENABLE"
 	.byte	0x2
 	.uahalf	0x694
-<<<<<<< HEAD
 	.uaword	0x54e2
-=======
-	.uaword	0x54eb
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0xc
 	.byte	0x4
 	.byte	0x2
 	.uahalf	0x697
-<<<<<<< HEAD
 	.uaword	0x554c
-=======
-	.uaword	0x5555
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0xd
 	.string	"U"
 	.byte	0x2
 	.uahalf	0x699
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0xd
 	.string	"I"
 	.byte	0x2
 	.uahalf	0x69a
-<<<<<<< HEAD
 	.uaword	0x467d
-=======
-	.uaword	0x4686
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0xd
 	.string	"B"
 	.byte	0x2
 	.uahalf	0x69b
-<<<<<<< HEAD
 	.uaword	0x2c13
-=======
-	.uaword	0x2c1c
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0
 	.uleb128 0x9
 	.string	"Ifx_SCU_PDISC"
 	.byte	0x2
 	.uahalf	0x69c
-<<<<<<< HEAD
 	.uaword	0x5524
-=======
-	.uaword	0x552d
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0xc
 	.byte	0x4
 	.byte	0x2
 	.uahalf	0x69f
-<<<<<<< HEAD
 	.uaword	0x558a
-=======
-	.uaword	0x5593
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0xd
 	.string	"U"
 	.byte	0x2
 	.uahalf	0x6a1
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0xd
 	.string	"I"
 	.byte	0x2
 	.uahalf	0x6a2
-<<<<<<< HEAD
 	.uaword	0x467d
-=======
-	.uaword	0x4686
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0xd
 	.string	"B"
 	.byte	0x2
 	.uahalf	0x6a3
-<<<<<<< HEAD
 	.uaword	0x2c9a
-=======
-	.uaword	0x2ca3
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0
 	.uleb128 0x9
 	.string	"Ifx_SCU_PDR"
 	.byte	0x2
 	.uahalf	0x6a4
-<<<<<<< HEAD
 	.uaword	0x5562
-=======
-	.uaword	0x556b
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0xc
 	.byte	0x4
 	.byte	0x2
 	.uahalf	0x6a7
-<<<<<<< HEAD
 	.uaword	0x55c6
-=======
-	.uaword	0x55cf
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0xd
 	.string	"U"
 	.byte	0x2
 	.uahalf	0x6a9
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0xd
 	.string	"I"
 	.byte	0x2
 	.uahalf	0x6aa
-<<<<<<< HEAD
 	.uaword	0x467d
-=======
-	.uaword	0x4686
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0xd
 	.string	"B"
 	.byte	0x2
 	.uahalf	0x6ab
-<<<<<<< HEAD
 	.uaword	0x2d68
-=======
-	.uaword	0x2d71
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0
 	.uleb128 0x9
 	.string	"Ifx_SCU_PDRR"
 	.byte	0x2
 	.uahalf	0x6ac
-<<<<<<< HEAD
 	.uaword	0x559e
-=======
-	.uaword	0x55a7
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0xc
 	.byte	0x4
 	.byte	0x2
 	.uahalf	0x6af
-<<<<<<< HEAD
 	.uaword	0x5603
-=======
-	.uaword	0x560c
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0xd
 	.string	"U"
 	.byte	0x2
 	.uahalf	0x6b1
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0xd
 	.string	"I"
 	.byte	0x2
 	.uahalf	0x6b2
-<<<<<<< HEAD
 	.uaword	0x467d
-=======
-	.uaword	0x4686
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0xd
 	.string	"B"
 	.byte	0x2
 	.uahalf	0x6b3
-<<<<<<< HEAD
 	.uaword	0x2ea1
-=======
-	.uaword	0x2eaa
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0
 	.uleb128 0x9
 	.string	"Ifx_SCU_PLLCON0"
 	.byte	0x2
 	.uahalf	0x6b4
-<<<<<<< HEAD
 	.uaword	0x55db
-=======
-	.uaword	0x55e4
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0xc
 	.byte	0x4
 	.byte	0x2
 	.uahalf	0x6b7
-<<<<<<< HEAD
 	.uaword	0x5643
-=======
-	.uaword	0x564c
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0xd
 	.string	"U"
 	.byte	0x2
 	.uahalf	0x6b9
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0xd
 	.string	"I"
 	.byte	0x2
 	.uahalf	0x6ba
-<<<<<<< HEAD
 	.uaword	0x467d
-=======
-	.uaword	0x4686
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0xd
 	.string	"B"
 	.byte	0x2
 	.uahalf	0x6bb
-<<<<<<< HEAD
 	.uaword	0x2f44
-=======
-	.uaword	0x2f4d
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0
 	.uleb128 0x9
 	.string	"Ifx_SCU_PLLCON1"
 	.byte	0x2
 	.uahalf	0x6bc
-<<<<<<< HEAD
 	.uaword	0x561b
-=======
-	.uaword	0x5624
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0xc
 	.byte	0x4
 	.byte	0x2
 	.uahalf	0x6bf
-<<<<<<< HEAD
 	.uaword	0x5683
-=======
-	.uaword	0x568c
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0xd
 	.string	"U"
 	.byte	0x2
 	.uahalf	0x6c1
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0xd
 	.string	"I"
 	.byte	0x2
 	.uahalf	0x6c2
-<<<<<<< HEAD
 	.uaword	0x467d
-=======
-	.uaword	0x4686
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0xd
 	.string	"B"
 	.byte	0x2
 	.uahalf	0x6c3
-<<<<<<< HEAD
 	.uaword	0x2fa4
-=======
-	.uaword	0x2fad
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0
 	.uleb128 0x9
 	.string	"Ifx_SCU_PLLCON2"
 	.byte	0x2
 	.uahalf	0x6c4
-<<<<<<< HEAD
 	.uaword	0x565b
-=======
-	.uaword	0x5664
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0xc
 	.byte	0x4
 	.byte	0x2
 	.uahalf	0x6c7
-<<<<<<< HEAD
 	.uaword	0x56c3
-=======
-	.uaword	0x56cc
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0xd
 	.string	"U"
 	.byte	0x2
 	.uahalf	0x6c9
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0xd
 	.string	"I"
 	.byte	0x2
 	.uahalf	0x6ca
-<<<<<<< HEAD
 	.uaword	0x467d
-=======
-	.uaword	0x4686
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0xd
 	.string	"B"
 	.byte	0x2
 	.uahalf	0x6cb
-<<<<<<< HEAD
 	.uaword	0x30e2
-=======
-	.uaword	0x30eb
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0
 	.uleb128 0x9
 	.string	"Ifx_SCU_PLLERAYCON0"
 	.byte	0x2
 	.uahalf	0x6cc
-<<<<<<< HEAD
 	.uaword	0x569b
-=======
-	.uaword	0x56a4
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0xc
 	.byte	0x4
 	.byte	0x2
 	.uahalf	0x6cf
-<<<<<<< HEAD
 	.uaword	0x5707
-=======
-	.uaword	0x5710
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0xd
 	.string	"U"
 	.byte	0x2
 	.uahalf	0x6d1
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0xd
 	.string	"I"
 	.byte	0x2
 	.uahalf	0x6d2
-<<<<<<< HEAD
 	.uaword	0x467d
-=======
-	.uaword	0x4686
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0xd
 	.string	"B"
 	.byte	0x2
 	.uahalf	0x6d3
-<<<<<<< HEAD
 	.uaword	0x318d
-=======
-	.uaword	0x3196
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0
 	.uleb128 0x9
 	.string	"Ifx_SCU_PLLERAYCON1"
 	.byte	0x2
 	.uahalf	0x6d4
-<<<<<<< HEAD
 	.uaword	0x56df
-=======
-	.uaword	0x56e8
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0xc
 	.byte	0x4
 	.byte	0x2
 	.uahalf	0x6d7
-<<<<<<< HEAD
 	.uaword	0x574b
-=======
-	.uaword	0x5754
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0xd
 	.string	"U"
 	.byte	0x2
 	.uahalf	0x6d9
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0xd
 	.string	"I"
 	.byte	0x2
 	.uahalf	0x6da
-<<<<<<< HEAD
 	.uaword	0x467d
-=======
-	.uaword	0x4686
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0xd
 	.string	"B"
 	.byte	0x2
 	.uahalf	0x6db
-<<<<<<< HEAD
 	.uaword	0x3255
-=======
-	.uaword	0x325e
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0
 	.uleb128 0x9
 	.string	"Ifx_SCU_PLLERAYSTAT"
 	.byte	0x2
 	.uahalf	0x6dc
-<<<<<<< HEAD
 	.uaword	0x5723
-=======
-	.uaword	0x572c
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0xc
 	.byte	0x4
 	.byte	0x2
 	.uahalf	0x6df
-<<<<<<< HEAD
 	.uaword	0x578f
-=======
-	.uaword	0x5798
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0xd
 	.string	"U"
 	.byte	0x2
 	.uahalf	0x6e1
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0xd
 	.string	"I"
 	.byte	0x2
 	.uahalf	0x6e2
-<<<<<<< HEAD
 	.uaword	0x467d
-=======
-	.uaword	0x4686
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0xd
 	.string	"B"
 	.byte	0x2
 	.uahalf	0x6e3
-<<<<<<< HEAD
 	.uaword	0x3338
-=======
-	.uaword	0x3341
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0
 	.uleb128 0x9
 	.string	"Ifx_SCU_PLLSTAT"
 	.byte	0x2
 	.uahalf	0x6e4
-<<<<<<< HEAD
 	.uaword	0x5767
-=======
-	.uaword	0x5770
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0xc
 	.byte	0x4
 	.byte	0x2
 	.uahalf	0x6e7
-<<<<<<< HEAD
 	.uaword	0x57cf
-=======
-	.uaword	0x57d8
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0xd
 	.string	"U"
 	.byte	0x2
 	.uahalf	0x6e9
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0xd
 	.string	"I"
 	.byte	0x2
 	.uahalf	0x6ea
-<<<<<<< HEAD
 	.uaword	0x467d
-=======
-	.uaword	0x4686
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0xd
 	.string	"B"
 	.byte	0x2
 	.uahalf	0x6eb
-<<<<<<< HEAD
 	.uaword	0x33ca
-=======
-	.uaword	0x33d3
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0
 	.uleb128 0x9
 	.string	"Ifx_SCU_PMCSR"
 	.byte	0x2
 	.uahalf	0x6ec
-<<<<<<< HEAD
 	.uaword	0x57a7
-=======
-	.uaword	0x57b0
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0xc
 	.byte	0x4
 	.byte	0x2
 	.uahalf	0x6ef
-<<<<<<< HEAD
 	.uaword	0x580d
-=======
-	.uaword	0x5816
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0xd
 	.string	"U"
 	.byte	0x2
 	.uahalf	0x6f1
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0xd
 	.string	"I"
 	.byte	0x2
 	.uahalf	0x6f2
-<<<<<<< HEAD
 	.uaword	0x467d
-=======
-	.uaword	0x4686
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0xd
 	.string	"B"
 	.byte	0x2
 	.uahalf	0x6f3
-<<<<<<< HEAD
 	.uaword	0x35d2
-=======
-	.uaword	0x35db
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0
 	.uleb128 0x9
 	.string	"Ifx_SCU_PMSWCR0"
 	.byte	0x2
 	.uahalf	0x6f4
-<<<<<<< HEAD
 	.uaword	0x57e5
-=======
-	.uaword	0x57ee
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0xc
 	.byte	0x4
 	.byte	0x2
 	.uahalf	0x6f7
-<<<<<<< HEAD
 	.uaword	0x584d
-=======
-	.uaword	0x5856
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0xd
 	.string	"U"
 	.byte	0x2
 	.uahalf	0x6f9
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0xd
 	.string	"I"
 	.byte	0x2
 	.uahalf	0x6fa
-<<<<<<< HEAD
 	.uaword	0x467d
-=======
-	.uaword	0x4686
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0xd
 	.string	"B"
 	.byte	0x2
 	.uahalf	0x6fb
-<<<<<<< HEAD
 	.uaword	0x36bb
-=======
-	.uaword	0x36c4
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0
 	.uleb128 0x9
 	.string	"Ifx_SCU_PMSWCR1"
 	.byte	0x2
 	.uahalf	0x6fc
-<<<<<<< HEAD
 	.uaword	0x5825
-=======
-	.uaword	0x582e
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0xc
 	.byte	0x4
 	.byte	0x2
 	.uahalf	0x6ff
-<<<<<<< HEAD
 	.uaword	0x588d
-=======
-	.uaword	0x5896
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0xd
 	.string	"U"
 	.byte	0x2
 	.uahalf	0x701
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0xd
 	.string	"I"
 	.byte	0x2
 	.uahalf	0x702
-<<<<<<< HEAD
 	.uaword	0x467d
-=======
-	.uaword	0x4686
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0xd
 	.string	"B"
 	.byte	0x2
 	.uahalf	0x703
-<<<<<<< HEAD
 	.uaword	0x3871
-=======
-	.uaword	0x387a
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0
 	.uleb128 0x9
 	.string	"Ifx_SCU_PMSWSTAT"
 	.byte	0x2
 	.uahalf	0x704
-<<<<<<< HEAD
 	.uaword	0x5865
-=======
-	.uaword	0x586e
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0xc
 	.byte	0x4
 	.byte	0x2
 	.uahalf	0x707
-<<<<<<< HEAD
 	.uaword	0x58ce
-=======
-	.uaword	0x58d7
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0xd
 	.string	"U"
 	.byte	0x2
 	.uahalf	0x709
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0xd
 	.string	"I"
 	.byte	0x2
 	.uahalf	0x70a
-<<<<<<< HEAD
 	.uaword	0x467d
-=======
-	.uaword	0x4686
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0xd
 	.string	"B"
 	.byte	0x2
 	.uahalf	0x70b
-<<<<<<< HEAD
 	.uaword	0x3979
-=======
-	.uaword	0x3982
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0
 	.uleb128 0x9
 	.string	"Ifx_SCU_PMSWSTATCLR"
 	.byte	0x2
 	.uahalf	0x70c
-<<<<<<< HEAD
 	.uaword	0x58a6
-=======
-	.uaword	0x58af
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0xc
 	.byte	0x4
 	.byte	0x2
 	.uahalf	0x70f
-<<<<<<< HEAD
 	.uaword	0x5912
-=======
-	.uaword	0x591b
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0xd
 	.string	"U"
 	.byte	0x2
 	.uahalf	0x711
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0xd
 	.string	"I"
 	.byte	0x2
 	.uahalf	0x712
-<<<<<<< HEAD
 	.uaword	0x467d
-=======
-	.uaword	0x4686
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0xd
 	.string	"B"
 	.byte	0x2
 	.uahalf	0x713
-<<<<<<< HEAD
 	.uaword	0x3b12
-=======
-	.uaword	0x3b1b
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0
 	.uleb128 0x9
 	.string	"Ifx_SCU_RSTCON"
 	.byte	0x2
 	.uahalf	0x714
-<<<<<<< HEAD
 	.uaword	0x58ea
-=======
-	.uaword	0x58f3
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0xc
 	.byte	0x4
 	.byte	0x2
 	.uahalf	0x717
-<<<<<<< HEAD
 	.uaword	0x5951
-=======
-	.uaword	0x595a
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0xd
 	.string	"U"
 	.byte	0x2
 	.uahalf	0x719
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0xd
 	.string	"I"
 	.byte	0x2
 	.uahalf	0x71a
-<<<<<<< HEAD
 	.uaword	0x467d
-=======
-	.uaword	0x4686
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0xd
 	.string	"B"
 	.byte	0x2
 	.uahalf	0x71b
-<<<<<<< HEAD
 	.uaword	0x3a42
-=======
-	.uaword	0x3a4b
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0
 	.uleb128 0x9
 	.string	"Ifx_SCU_RSTCON2"
 	.byte	0x2
 	.uahalf	0x71c
-<<<<<<< HEAD
 	.uaword	0x5929
-=======
-	.uaword	0x5932
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0xc
 	.byte	0x4
 	.byte	0x2
 	.uahalf	0x71f
-<<<<<<< HEAD
 	.uaword	0x5991
-=======
-	.uaword	0x599a
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0xd
 	.string	"U"
 	.byte	0x2
 	.uahalf	0x721
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0xd
 	.string	"I"
 	.byte	0x2
 	.uahalf	0x722
-<<<<<<< HEAD
 	.uaword	0x467d
-=======
-	.uaword	0x4686
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0xd
 	.string	"B"
 	.byte	0x2
 	.uahalf	0x723
-<<<<<<< HEAD
 	.uaword	0x3cb2
-=======
-	.uaword	0x3cbb
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0
 	.uleb128 0x9
 	.string	"Ifx_SCU_RSTSTAT"
 	.byte	0x2
 	.uahalf	0x724
-<<<<<<< HEAD
 	.uaword	0x5969
-=======
-	.uaword	0x5972
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0xc
 	.byte	0x4
 	.byte	0x2
 	.uahalf	0x727
-<<<<<<< HEAD
 	.uaword	0x59d1
-=======
-	.uaword	0x59da
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0xd
 	.string	"U"
 	.byte	0x2
 	.uahalf	0x729
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0xd
 	.string	"I"
 	.byte	0x2
 	.uahalf	0x72a
-<<<<<<< HEAD
 	.uaword	0x467d
-=======
-	.uaword	0x4686
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0xd
 	.string	"B"
 	.byte	0x2
 	.uahalf	0x72b
-<<<<<<< HEAD
 	.uaword	0x3d0f
-=======
-	.uaword	0x3d18
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0
 	.uleb128 0x9
 	.string	"Ifx_SCU_SAFECON"
 	.byte	0x2
 	.uahalf	0x72c
-<<<<<<< HEAD
 	.uaword	0x59a9
-=======
-	.uaword	0x59b2
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0xc
 	.byte	0x4
 	.byte	0x2
 	.uahalf	0x72f
-<<<<<<< HEAD
 	.uaword	0x5a11
-=======
-	.uaword	0x5a1a
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0xd
 	.string	"U"
 	.byte	0x2
 	.uahalf	0x731
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0xd
 	.string	"I"
 	.byte	0x2
 	.uahalf	0x732
-<<<<<<< HEAD
 	.uaword	0x467d
-=======
-	.uaword	0x4686
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0xd
 	.string	"B"
 	.byte	0x2
 	.uahalf	0x733
-<<<<<<< HEAD
 	.uaword	0x3e0f
-=======
-	.uaword	0x3e18
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0
 	.uleb128 0x9
 	.string	"Ifx_SCU_STSTAT"
 	.byte	0x2
 	.uahalf	0x734
-<<<<<<< HEAD
 	.uaword	0x59e9
-=======
-	.uaword	0x59f2
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0xc
 	.byte	0x4
 	.byte	0x2
 	.uahalf	0x737
-<<<<<<< HEAD
 	.uaword	0x5a50
-=======
-	.uaword	0x5a59
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0xd
 	.string	"U"
 	.byte	0x2
 	.uahalf	0x739
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0xd
 	.string	"I"
 	.byte	0x2
 	.uahalf	0x73a
-<<<<<<< HEAD
 	.uaword	0x467d
-=======
-	.uaword	0x4686
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0xd
 	.string	"B"
 	.byte	0x2
 	.uahalf	0x73b
-<<<<<<< HEAD
 	.uaword	0x3e81
-=======
-	.uaword	0x3e8a
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0
 	.uleb128 0x9
 	.string	"Ifx_SCU_SWRSTCON"
 	.byte	0x2
 	.uahalf	0x73c
-<<<<<<< HEAD
 	.uaword	0x5a28
-=======
-	.uaword	0x5a31
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0xc
 	.byte	0x4
 	.byte	0x2
 	.uahalf	0x73f
-<<<<<<< HEAD
 	.uaword	0x5a91
-=======
-	.uaword	0x5a9a
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0xd
 	.string	"U"
 	.byte	0x2
 	.uahalf	0x741
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0xd
 	.string	"I"
 	.byte	0x2
 	.uahalf	0x742
-<<<<<<< HEAD
 	.uaword	0x467d
-=======
-	.uaword	0x4686
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0xd
 	.string	"B"
 	.byte	0x2
 	.uahalf	0x743
-<<<<<<< HEAD
 	.uaword	0x3f43
-=======
-	.uaword	0x3f4c
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0
 	.uleb128 0x9
 	.string	"Ifx_SCU_SYSCON"
 	.byte	0x2
 	.uahalf	0x744
-<<<<<<< HEAD
 	.uaword	0x5a69
-=======
-	.uaword	0x5a72
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0xc
 	.byte	0x4
 	.byte	0x2
 	.uahalf	0x747
-<<<<<<< HEAD
 	.uaword	0x5ad0
-=======
-	.uaword	0x5ad9
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0xd
 	.string	"U"
 	.byte	0x2
 	.uahalf	0x749
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0xd
 	.string	"I"
 	.byte	0x2
 	.uahalf	0x74a
-<<<<<<< HEAD
 	.uaword	0x467d
-=======
-	.uaword	0x4686
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0xd
 	.string	"B"
 	.byte	0x2
 	.uahalf	0x74b
-<<<<<<< HEAD
 	.uaword	0x3fd0
-=======
-	.uaword	0x3fd9
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0
 	.uleb128 0x9
 	.string	"Ifx_SCU_TRAPCLR"
 	.byte	0x2
 	.uahalf	0x74c
-<<<<<<< HEAD
 	.uaword	0x5aa8
-=======
-	.uaword	0x5ab1
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0xc
 	.byte	0x4
 	.byte	0x2
 	.uahalf	0x74f
-<<<<<<< HEAD
 	.uaword	0x5b10
-=======
-	.uaword	0x5b19
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0xd
 	.string	"U"
 	.byte	0x2
 	.uahalf	0x751
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0xd
 	.string	"I"
 	.byte	0x2
 	.uahalf	0x752
-<<<<<<< HEAD
 	.uaword	0x467d
-=======
-	.uaword	0x4686
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0xd
 	.string	"B"
 	.byte	0x2
 	.uahalf	0x753
-<<<<<<< HEAD
 	.uaword	0x405e
-=======
-	.uaword	0x4067
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0
 	.uleb128 0x9
 	.string	"Ifx_SCU_TRAPDIS"
 	.byte	0x2
 	.uahalf	0x754
-<<<<<<< HEAD
 	.uaword	0x5ae8
-=======
-	.uaword	0x5af1
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0xc
 	.byte	0x4
 	.byte	0x2
 	.uahalf	0x757
-<<<<<<< HEAD
 	.uaword	0x5b50
-=======
-	.uaword	0x5b59
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0xd
 	.string	"U"
 	.byte	0x2
 	.uahalf	0x759
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0xd
 	.string	"I"
 	.byte	0x2
 	.uahalf	0x75a
-<<<<<<< HEAD
 	.uaword	0x467d
-=======
-	.uaword	0x4686
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0xd
 	.string	"B"
 	.byte	0x2
 	.uahalf	0x75b
-<<<<<<< HEAD
 	.uaword	0x40ec
-=======
-	.uaword	0x40f5
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0
 	.uleb128 0x9
 	.string	"Ifx_SCU_TRAPSET"
 	.byte	0x2
 	.uahalf	0x75c
-<<<<<<< HEAD
 	.uaword	0x5b28
-=======
-	.uaword	0x5b31
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0xc
 	.byte	0x4
 	.byte	0x2
 	.uahalf	0x75f
-<<<<<<< HEAD
 	.uaword	0x5b90
-=======
-	.uaword	0x5b99
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0xd
 	.string	"U"
 	.byte	0x2
 	.uahalf	0x761
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0xd
 	.string	"I"
 	.byte	0x2
 	.uahalf	0x762
-<<<<<<< HEAD
 	.uaword	0x467d
-=======
-	.uaword	0x4686
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0xd
 	.string	"B"
 	.byte	0x2
 	.uahalf	0x763
-<<<<<<< HEAD
 	.uaword	0x417b
-=======
-	.uaword	0x4184
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0
 	.uleb128 0x9
 	.string	"Ifx_SCU_TRAPSTAT"
 	.byte	0x2
 	.uahalf	0x764
-<<<<<<< HEAD
 	.uaword	0x5b68
-=======
-	.uaword	0x5b71
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0xc
 	.byte	0x4
 	.byte	0x2
 	.uahalf	0x767
-<<<<<<< HEAD
 	.uaword	0x5bd1
-=======
-	.uaword	0x5bda
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0xd
 	.string	"U"
 	.byte	0x2
 	.uahalf	0x769
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0xd
 	.string	"I"
 	.byte	0x2
 	.uahalf	0x76a
-<<<<<<< HEAD
 	.uaword	0x467d
-=======
-	.uaword	0x4686
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0xd
 	.string	"B"
 	.byte	0x2
 	.uahalf	0x76b
-<<<<<<< HEAD
 	.uaword	0x4205
-=======
-	.uaword	0x420e
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0
 	.uleb128 0x9
 	.string	"Ifx_SCU_WDTCPU_CON0"
 	.byte	0x2
 	.uahalf	0x76c
-<<<<<<< HEAD
 	.uaword	0x5ba9
-=======
-	.uaword	0x5bb2
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0xc
 	.byte	0x4
 	.byte	0x2
 	.uahalf	0x76f
-<<<<<<< HEAD
 	.uaword	0x5c15
-=======
-	.uaword	0x5c1e
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0xd
 	.string	"U"
 	.byte	0x2
 	.uahalf	0x771
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0xd
 	.string	"I"
 	.byte	0x2
 	.uahalf	0x772
-<<<<<<< HEAD
 	.uaword	0x467d
-=======
-	.uaword	0x4686
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0xd
 	.string	"B"
 	.byte	0x2
 	.uahalf	0x773
-<<<<<<< HEAD
 	.uaword	0x42e9
-=======
-	.uaword	0x42f2
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0
 	.uleb128 0x9
 	.string	"Ifx_SCU_WDTCPU_CON1"
 	.byte	0x2
 	.uahalf	0x774
-<<<<<<< HEAD
 	.uaword	0x5bed
-=======
-	.uaword	0x5bf6
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0xc
 	.byte	0x4
 	.byte	0x2
 	.uahalf	0x777
-<<<<<<< HEAD
 	.uaword	0x5c59
-=======
-	.uaword	0x5c62
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0xd
 	.string	"U"
 	.byte	0x2
 	.uahalf	0x779
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0xd
 	.string	"I"
 	.byte	0x2
 	.uahalf	0x77a
-<<<<<<< HEAD
 	.uaword	0x467d
-=======
-	.uaword	0x4686
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0xd
 	.string	"B"
 	.byte	0x2
 	.uahalf	0x77b
-<<<<<<< HEAD
 	.uaword	0x43d7
-=======
-	.uaword	0x43e0
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0
 	.uleb128 0x9
 	.string	"Ifx_SCU_WDTCPU_SR"
 	.byte	0x2
 	.uahalf	0x77c
-<<<<<<< HEAD
 	.uaword	0x5c31
-=======
-	.uaword	0x5c3a
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0xc
 	.byte	0x4
 	.byte	0x2
 	.uahalf	0x77f
-<<<<<<< HEAD
 	.uaword	0x5c9b
-=======
-	.uaword	0x5ca4
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0xd
 	.string	"U"
 	.byte	0x2
 	.uahalf	0x781
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0xd
 	.string	"I"
 	.byte	0x2
 	.uahalf	0x782
-<<<<<<< HEAD
 	.uaword	0x467d
-=======
-	.uaword	0x4686
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0xd
 	.string	"B"
 	.byte	0x2
 	.uahalf	0x783
-<<<<<<< HEAD
 	.uaword	0x445b
-=======
-	.uaword	0x4464
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0
 	.uleb128 0x9
 	.string	"Ifx_SCU_WDTS_CON0"
 	.byte	0x2
 	.uahalf	0x784
-<<<<<<< HEAD
 	.uaword	0x5c73
-=======
-	.uaword	0x5c7c
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0xc
 	.byte	0x4
 	.byte	0x2
 	.uahalf	0x787
-<<<<<<< HEAD
 	.uaword	0x5cdd
-=======
-	.uaword	0x5ce6
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0xd
 	.string	"U"
 	.byte	0x2
 	.uahalf	0x789
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0xd
 	.string	"I"
 	.byte	0x2
 	.uahalf	0x78a
-<<<<<<< HEAD
 	.uaword	0x467d
-=======
-	.uaword	0x4686
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0xd
 	.string	"B"
 	.byte	0x2
 	.uahalf	0x78b
-<<<<<<< HEAD
 	.uaword	0x454e
-=======
-	.uaword	0x4557
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0
 	.uleb128 0x9
 	.string	"Ifx_SCU_WDTS_CON1"
 	.byte	0x2
 	.uahalf	0x78c
-<<<<<<< HEAD
 	.uaword	0x5cb5
-=======
-	.uaword	0x5cbe
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0xc
 	.byte	0x4
 	.byte	0x2
 	.uahalf	0x78f
-<<<<<<< HEAD
 	.uaword	0x5d1f
-=======
-	.uaword	0x5d28
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0xd
 	.string	"U"
 	.byte	0x2
 	.uahalf	0x791
-<<<<<<< HEAD
 	.uaword	0x37b
-=======
-	.uaword	0x384
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0xd
 	.string	"I"
 	.byte	0x2
 	.uahalf	0x792
-<<<<<<< HEAD
 	.uaword	0x467d
-=======
-	.uaword	0x4686
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0xd
 	.string	"B"
 	.byte	0x2
 	.uahalf	0x793
-<<<<<<< HEAD
 	.uaword	0x4638
-=======
-	.uaword	0x4641
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0
 	.uleb128 0x9
 	.string	"Ifx_SCU_WDTS_SR"
 	.byte	0x2
 	.uahalf	0x794
-<<<<<<< HEAD
 	.uaword	0x5cf7
-=======
-	.uaword	0x5d00
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0xa
 	.string	"_Ifx_SCU_WDTCPU"
 	.byte	0xc
 	.byte	0x2
 	.uahalf	0x79f
-<<<<<<< HEAD
 	.uaword	0x5d79
-=======
-	.uaword	0x5d82
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0xe
 	.string	"CON0"
 	.byte	0x2
 	.uahalf	0x7a1
-<<<<<<< HEAD
 	.uaword	0x5bd1
-=======
-	.uaword	0x5bda
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0
 	.uleb128 0xe
 	.string	"CON1"
 	.byte	0x2
 	.uahalf	0x7a2
-<<<<<<< HEAD
 	.uaword	0x5c15
-=======
-	.uaword	0x5c1e
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.uleb128 0xe
 	.string	"SR"
 	.byte	0x2
 	.uahalf	0x7a3
-<<<<<<< HEAD
 	.uaword	0x5c59
-=======
-	.uaword	0x5c62
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x8
 	.byte	0
 	.uleb128 0x9
 	.string	"Ifx_SCU_WDTCPU"
 	.byte	0x2
 	.uahalf	0x7a4
-<<<<<<< HEAD
 	.uaword	0x5d90
 	.uleb128 0xb
 	.uaword	0x5d37
-=======
-	.uaword	0x5d99
-	.uleb128 0xb
-	.uaword	0x5d40
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0xa
 	.string	"_Ifx_SCU_WDTS"
 	.byte	0xc
 	.byte	0x2
 	.uahalf	0x7a7
-<<<<<<< HEAD
 	.uaword	0x5dd5
-=======
-	.uaword	0x5dde
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0xe
 	.string	"CON0"
 	.byte	0x2
 	.uahalf	0x7a9
-<<<<<<< HEAD
 	.uaword	0x5c9b
-=======
-	.uaword	0x5ca4
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0
 	.uleb128 0xe
 	.string	"CON1"
 	.byte	0x2
 	.uahalf	0x7aa
-<<<<<<< HEAD
 	.uaword	0x5cdd
-=======
-	.uaword	0x5ce6
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.uleb128 0xe
 	.string	"SR"
 	.byte	0x2
 	.uahalf	0x7ab
-<<<<<<< HEAD
 	.uaword	0x5d1f
-=======
-	.uaword	0x5d28
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x8
 	.byte	0
 	.uleb128 0x9
 	.string	"Ifx_SCU_WDTS"
 	.byte	0x2
 	.uahalf	0x7ac
-<<<<<<< HEAD
 	.uaword	0x5dea
 	.uleb128 0xb
 	.uaword	0x5d95
-=======
-	.uaword	0x5df3
-	.uleb128 0xb
-	.uaword	0x5d9e
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0xf
 	.string	"_Ifx_SCU"
 	.uahalf	0x400
 	.byte	0x2
 	.uahalf	0x7b9
-<<<<<<< HEAD
 	.uaword	0x6566
-=======
-	.uaword	0x656f
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0x10
 	.uaword	.LASF0
 	.byte	0x2
 	.uahalf	0x7bb
-<<<<<<< HEAD
 	.uaword	0x6566
-=======
-	.uaword	0x656f
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0
 	.uleb128 0xe
 	.string	"ID"
 	.byte	0x2
 	.uahalf	0x7bc
-<<<<<<< HEAD
 	.uaword	0x519e
-=======
-	.uaword	0x51a7
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x8
 	.uleb128 0xe
 	.string	"reserved_C"
 	.byte	0x2
 	.uahalf	0x7bd
-<<<<<<< HEAD
 	.uaword	0x6593
-=======
-	.uaword	0x659c
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0xc
 	.uleb128 0xe
 	.string	"OSCCON"
 	.byte	0x2
 	.uahalf	0x7be
-<<<<<<< HEAD
 	.uaword	0x5450
-=======
-	.uaword	0x5459
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x10
 	.uleb128 0xe
 	.string	"PLLSTAT"
 	.byte	0x2
 	.uahalf	0x7bf
-<<<<<<< HEAD
 	.uaword	0x578f
-=======
-	.uaword	0x5798
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x14
 	.uleb128 0xe
 	.string	"PLLCON0"
 	.byte	0x2
 	.uahalf	0x7c0
-<<<<<<< HEAD
 	.uaword	0x5603
-=======
-	.uaword	0x560c
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x18
 	.uleb128 0xe
 	.string	"PLLCON1"
 	.byte	0x2
 	.uahalf	0x7c1
-<<<<<<< HEAD
 	.uaword	0x5643
-=======
-	.uaword	0x564c
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x1c
 	.uleb128 0xe
 	.string	"PLLCON2"
 	.byte	0x2
 	.uahalf	0x7c2
-<<<<<<< HEAD
 	.uaword	0x5683
-=======
-	.uaword	0x568c
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x20
 	.uleb128 0xe
 	.string	"PLLERAYSTAT"
 	.byte	0x2
 	.uahalf	0x7c3
-<<<<<<< HEAD
 	.uaword	0x574b
-=======
-	.uaword	0x5754
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x24
 	.uleb128 0xe
 	.string	"PLLERAYCON0"
 	.byte	0x2
 	.uahalf	0x7c4
-<<<<<<< HEAD
 	.uaword	0x56c3
-=======
-	.uaword	0x56cc
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x28
 	.uleb128 0xe
 	.string	"PLLERAYCON1"
 	.byte	0x2
 	.uahalf	0x7c5
-<<<<<<< HEAD
 	.uaword	0x5707
-=======
-	.uaword	0x5710
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x2c
 	.uleb128 0xe
 	.string	"CCUCON0"
 	.byte	0x2
 	.uahalf	0x7c6
-<<<<<<< HEAD
 	.uaword	0x4742
-=======
-	.uaword	0x474b
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x30
 	.uleb128 0xe
 	.string	"CCUCON1"
 	.byte	0x2
 	.uahalf	0x7c7
-<<<<<<< HEAD
 	.uaword	0x4782
-=======
-	.uaword	0x478b
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x34
 	.uleb128 0xe
 	.string	"FDR"
 	.byte	0x2
 	.uahalf	0x7c8
-<<<<<<< HEAD
 	.uaword	0x5126
-=======
-	.uaword	0x512f
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x38
 	.uleb128 0xe
 	.string	"EXTCON"
 	.byte	0x2
 	.uahalf	0x7c9
-<<<<<<< HEAD
 	.uaword	0x50e7
-=======
-	.uaword	0x50f0
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x3c
 	.uleb128 0xe
 	.string	"CCUCON2"
 	.byte	0x2
 	.uahalf	0x7ca
-<<<<<<< HEAD
 	.uaword	0x47c2
-=======
-	.uaword	0x47cb
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x40
 	.uleb128 0xe
 	.string	"CCUCON3"
 	.byte	0x2
 	.uahalf	0x7cb
-<<<<<<< HEAD
 	.uaword	0x4802
-=======
-	.uaword	0x480b
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x44
 	.uleb128 0xe
 	.string	"CCUCON4"
 	.byte	0x2
 	.uahalf	0x7cc
-<<<<<<< HEAD
 	.uaword	0x4842
-=======
-	.uaword	0x484b
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x48
 	.uleb128 0xe
 	.string	"CCUCON5"
 	.byte	0x2
 	.uahalf	0x7cd
-<<<<<<< HEAD
 	.uaword	0x4882
-=======
-	.uaword	0x488b
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4c
 	.uleb128 0xe
 	.string	"RSTSTAT"
 	.byte	0x2
 	.uahalf	0x7ce
-<<<<<<< HEAD
 	.uaword	0x5991
-=======
-	.uaword	0x599a
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x50
 	.uleb128 0xe
 	.string	"reserved_54"
 	.byte	0x2
 	.uahalf	0x7cf
-<<<<<<< HEAD
 	.uaword	0x6593
-=======
-	.uaword	0x659c
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x54
 	.uleb128 0xe
 	.string	"RSTCON"
 	.byte	0x2
 	.uahalf	0x7d0
-<<<<<<< HEAD
 	.uaword	0x5912
-=======
-	.uaword	0x591b
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x58
 	.uleb128 0xe
 	.string	"ARSTDIS"
 	.byte	0x2
 	.uahalf	0x7d1
-<<<<<<< HEAD
 	.uaword	0x4702
-=======
-	.uaword	0x470b
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x5c
 	.uleb128 0xe
 	.string	"SWRSTCON"
 	.byte	0x2
 	.uahalf	0x7d2
-<<<<<<< HEAD
 	.uaword	0x5a50
-=======
-	.uaword	0x5a59
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x60
 	.uleb128 0xe
 	.string	"RSTCON2"
 	.byte	0x2
 	.uahalf	0x7d3
-<<<<<<< HEAD
 	.uaword	0x5951
-=======
-	.uaword	0x595a
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x64
 	.uleb128 0xe
 	.string	"reserved_68"
 	.byte	0x2
 	.uahalf	0x7d4
-<<<<<<< HEAD
 	.uaword	0x6593
-=======
-	.uaword	0x659c
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x68
 	.uleb128 0xe
 	.string	"EVRRSTCON"
 	.byte	0x2
 	.uahalf	0x7d5
-<<<<<<< HEAD
 	.uaword	0x4d40
-=======
-	.uaword	0x4d49
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x6c
 	.uleb128 0xe
 	.string	"ESRCFG"
 	.byte	0x2
 	.uahalf	0x7d6
-<<<<<<< HEAD
 	.uaword	0x65a3
-=======
-	.uaword	0x65ac
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x70
 	.uleb128 0xe
 	.string	"ESROCFG"
 	.byte	0x2
 	.uahalf	0x7d7
-<<<<<<< HEAD
 	.uaword	0x4b75
-=======
-	.uaword	0x4b7e
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x78
 	.uleb128 0xe
 	.string	"SYSCON"
 	.byte	0x2
 	.uahalf	0x7d8
-<<<<<<< HEAD
 	.uaword	0x5a91
-=======
-	.uaword	0x5a9a
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x7c
 	.uleb128 0xe
 	.string	"CCUCON6"
 	.byte	0x2
 	.uahalf	0x7d9
-<<<<<<< HEAD
 	.uaword	0x48c2
-=======
-	.uaword	0x48cb
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x80
 	.uleb128 0xe
 	.string	"CCUCON7"
 	.byte	0x2
 	.uahalf	0x7da
-<<<<<<< HEAD
 	.uaword	0x4902
-=======
-	.uaword	0x490b
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x84
 	.uleb128 0xe
 	.string	"CCUCON8"
 	.byte	0x2
 	.uahalf	0x7db
-<<<<<<< HEAD
 	.uaword	0x4942
-=======
-	.uaword	0x494b
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x88
 	.uleb128 0xe
 	.string	"reserved_8C"
 	.byte	0x2
 	.uahalf	0x7dc
-<<<<<<< HEAD
 	.uaword	0x65b3
-=======
-	.uaword	0x65bc
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x8c
 	.uleb128 0xe
 	.string	"PDR"
 	.byte	0x2
 	.uahalf	0x7dd
-<<<<<<< HEAD
 	.uaword	0x558a
-=======
-	.uaword	0x5593
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x9c
 	.uleb128 0xe
 	.string	"IOCR"
 	.byte	0x2
 	.uahalf	0x7de
-<<<<<<< HEAD
 	.uaword	0x5251
-=======
-	.uaword	0x525a
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0xa0
 	.uleb128 0xe
 	.string	"OUT"
 	.byte	0x2
 	.uahalf	0x7df
-<<<<<<< HEAD
 	.uaword	0x548f
-=======
-	.uaword	0x5498
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0xa4
 	.uleb128 0xe
 	.string	"OMR"
 	.byte	0x2
 	.uahalf	0x7e0
-<<<<<<< HEAD
 	.uaword	0x5414
-=======
-	.uaword	0x541d
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0xa8
 	.uleb128 0xe
 	.string	"IN"
 	.byte	0x2
 	.uahalf	0x7e1
-<<<<<<< HEAD
 	.uaword	0x5216
-=======
-	.uaword	0x521f
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0xac
 	.uleb128 0xe
 	.string	"EVRSTAT"
 	.byte	0x2
 	.uahalf	0x7e2
-<<<<<<< HEAD
 	.uaword	0x5026
-=======
-	.uaword	0x502f
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0xb0
 	.uleb128 0xe
 	.string	"EVRDVSTAT"
 	.byte	0x2
 	.uahalf	0x7e3
-<<<<<<< HEAD
 	.uaword	0x4c7a
-=======
-	.uaword	0x4c83
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0xb4
 	.uleb128 0xe
 	.string	"EVR13CON"
 	.byte	0x2
 	.uahalf	0x7e4
-<<<<<<< HEAD
 	.uaword	0x4bb5
-=======
-	.uaword	0x4bbe
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0xb8
 	.uleb128 0xe
 	.string	"EVR33CON"
 	.byte	0x2
 	.uahalf	0x7e5
-<<<<<<< HEAD
 	.uaword	0x4bf6
-=======
-	.uaword	0x4bff
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0xbc
 	.uleb128 0xe
 	.string	"STSTAT"
 	.byte	0x2
 	.uahalf	0x7e6
-<<<<<<< HEAD
 	.uaword	0x5a11
-=======
-	.uaword	0x5a1a
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0xc0
 	.uleb128 0xe
 	.string	"reserved_C4"
 	.byte	0x2
 	.uahalf	0x7e7
-<<<<<<< HEAD
 	.uaword	0x6593
-=======
-	.uaword	0x659c
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0xc4
 	.uleb128 0xe
 	.string	"PMSWCR0"
 	.byte	0x2
 	.uahalf	0x7e8
-<<<<<<< HEAD
 	.uaword	0x580d
-=======
-	.uaword	0x5816
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0xc8
 	.uleb128 0xe
 	.string	"PMSWSTAT"
 	.byte	0x2
 	.uahalf	0x7e9
-<<<<<<< HEAD
 	.uaword	0x588d
-=======
-	.uaword	0x5896
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0xcc
 	.uleb128 0xe
 	.string	"PMSWSTATCLR"
 	.byte	0x2
 	.uahalf	0x7ea
-<<<<<<< HEAD
 	.uaword	0x58ce
-=======
-	.uaword	0x58d7
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0xd0
 	.uleb128 0xe
 	.string	"PMCSR"
 	.byte	0x2
 	.uahalf	0x7eb
-<<<<<<< HEAD
 	.uaword	0x65c3
-=======
-	.uaword	0x65cc
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0xd4
 	.uleb128 0xe
 	.string	"DTSSTAT"
 	.byte	0x2
 	.uahalf	0x7ec
-<<<<<<< HEAD
 	.uaword	0x4a3f
-=======
-	.uaword	0x4a48
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0xe0
 	.uleb128 0xe
 	.string	"DTSCON"
 	.byte	0x2
 	.uahalf	0x7ed
-<<<<<<< HEAD
 	.uaword	0x49c1
-=======
-	.uaword	0x49ca
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0xe4
 	.uleb128 0xe
 	.string	"PMSWCR1"
 	.byte	0x2
 	.uahalf	0x7ee
-<<<<<<< HEAD
 	.uaword	0x584d
-=======
-	.uaword	0x5856
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0xe8
 	.uleb128 0xe
 	.string	"reserved_EC"
 	.byte	0x2
 	.uahalf	0x7ef
-<<<<<<< HEAD
 	.uaword	0x6593
-=======
-	.uaword	0x659c
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0xec
 	.uleb128 0xe
 	.string	"WDTS"
 	.byte	0x2
 	.uahalf	0x7f0
-<<<<<<< HEAD
 	.uaword	0x5dd5
-=======
-	.uaword	0x5dde
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0xf0
 	.uleb128 0xe
 	.string	"EMSR"
 	.byte	0x2
 	.uahalf	0x7f1
-<<<<<<< HEAD
 	.uaword	0x4af9
-=======
-	.uaword	0x4b02
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0xfc
 	.uleb128 0x11
 	.string	"WDTCPU"
 	.byte	0x2
 	.uahalf	0x7f2
-<<<<<<< HEAD
 	.uaword	0x65e3
-=======
-	.uaword	0x65ec
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uahalf	0x100
 	.uleb128 0x11
 	.string	"TRAPSTAT"
 	.byte	0x2
 	.uahalf	0x7f3
-<<<<<<< HEAD
 	.uaword	0x5b90
-=======
-	.uaword	0x5b99
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uahalf	0x124
 	.uleb128 0x11
 	.string	"TRAPSET"
 	.byte	0x2
 	.uahalf	0x7f4
-<<<<<<< HEAD
 	.uaword	0x5b50
-=======
-	.uaword	0x5b59
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uahalf	0x128
 	.uleb128 0x11
 	.string	"TRAPCLR"
 	.byte	0x2
 	.uahalf	0x7f5
-<<<<<<< HEAD
 	.uaword	0x5ad0
-=======
-	.uaword	0x5ad9
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uahalf	0x12c
 	.uleb128 0x11
 	.string	"TRAPDIS"
 	.byte	0x2
 	.uahalf	0x7f6
-<<<<<<< HEAD
 	.uaword	0x5b10
-=======
-	.uaword	0x5b19
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uahalf	0x130
 	.uleb128 0x11
 	.string	"LCLCON0"
 	.byte	0x2
 	.uahalf	0x7f7
-<<<<<<< HEAD
 	.uaword	0x5357
-=======
-	.uaword	0x5360
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uahalf	0x134
 	.uleb128 0x11
 	.string	"LCLCON1"
 	.byte	0x2
 	.uahalf	0x7f8
-<<<<<<< HEAD
 	.uaword	0x5357
-=======
-	.uaword	0x5360
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uahalf	0x138
 	.uleb128 0x11
 	.string	"LCLTEST"
 	.byte	0x2
 	.uahalf	0x7f9
-<<<<<<< HEAD
 	.uaword	0x5396
-=======
-	.uaword	0x539f
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uahalf	0x13c
 	.uleb128 0x11
 	.string	"CHIPID"
 	.byte	0x2
 	.uahalf	0x7fa
-<<<<<<< HEAD
 	.uaword	0x4982
-=======
-	.uaword	0x498b
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uahalf	0x140
 	.uleb128 0x11
 	.string	"MANID"
 	.byte	0x2
 	.uahalf	0x7fb
-<<<<<<< HEAD
 	.uaword	0x53d6
-=======
-	.uaword	0x53df
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uahalf	0x144
 	.uleb128 0x11
 	.string	"reserved_148"
 	.byte	0x2
 	.uahalf	0x7fc
-<<<<<<< HEAD
 	.uaword	0x6566
-=======
-	.uaword	0x656f
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uahalf	0x148
 	.uleb128 0x11
 	.string	"SAFECON"
 	.byte	0x2
 	.uahalf	0x7fd
-<<<<<<< HEAD
 	.uaword	0x59d1
-=======
-	.uaword	0x59da
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uahalf	0x150
 	.uleb128 0x11
 	.string	"reserved_154"
 	.byte	0x2
 	.uahalf	0x7fe
-<<<<<<< HEAD
 	.uaword	0x65b3
-=======
-	.uaword	0x65bc
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uahalf	0x154
 	.uleb128 0x11
 	.string	"LBISTCTRL0"
 	.byte	0x2
 	.uahalf	0x7ff
-<<<<<<< HEAD
 	.uaword	0x528e
-=======
-	.uaword	0x5297
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uahalf	0x164
 	.uleb128 0x11
 	.string	"LBISTCTRL1"
 	.byte	0x2
 	.uahalf	0x800
-<<<<<<< HEAD
 	.uaword	0x52d1
-=======
-	.uaword	0x52da
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uahalf	0x168
 	.uleb128 0x11
 	.string	"LBISTCTRL2"
 	.byte	0x2
 	.uahalf	0x801
-<<<<<<< HEAD
 	.uaword	0x5314
-=======
-	.uaword	0x531d
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uahalf	0x16c
 	.uleb128 0x11
 	.string	"reserved_170"
 	.byte	0x2
 	.uahalf	0x802
-<<<<<<< HEAD
 	.uaword	0x65e8
-=======
-	.uaword	0x65f1
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uahalf	0x170
 	.uleb128 0x11
 	.string	"PDISC"
 	.byte	0x2
 	.uahalf	0x803
-<<<<<<< HEAD
 	.uaword	0x554c
-=======
-	.uaword	0x5555
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uahalf	0x18c
 	.uleb128 0x11
 	.string	"reserved_190"
 	.byte	0x2
 	.uahalf	0x804
-<<<<<<< HEAD
 	.uaword	0x6566
-=======
-	.uaword	0x656f
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uahalf	0x190
 	.uleb128 0x11
 	.string	"EVRTRIM"
 	.byte	0x2
 	.uahalf	0x805
-<<<<<<< HEAD
 	.uaword	0x5066
-=======
-	.uaword	0x506f
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uahalf	0x198
 	.uleb128 0x11
 	.string	"EVRADCSTAT"
 	.byte	0x2
 	.uahalf	0x806
-<<<<<<< HEAD
 	.uaword	0x4c37
-=======
-	.uaword	0x4c40
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uahalf	0x19c
 	.uleb128 0x11
 	.string	"EVRUVMON"
 	.byte	0x2
 	.uahalf	0x807
-<<<<<<< HEAD
 	.uaword	0x50a6
-=======
-	.uaword	0x50af
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uahalf	0x1a0
 	.uleb128 0x11
 	.string	"EVROVMON"
 	.byte	0x2
 	.uahalf	0x808
-<<<<<<< HEAD
 	.uaword	0x4cff
-=======
-	.uaword	0x4d08
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uahalf	0x1a4
 	.uleb128 0x11
 	.string	"EVRMONCTRL"
 	.byte	0x2
 	.uahalf	0x809
-<<<<<<< HEAD
 	.uaword	0x4cbc
-=======
-	.uaword	0x4cc5
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uahalf	0x1a8
 	.uleb128 0x11
 	.string	"reserved_1AC"
 	.byte	0x2
 	.uahalf	0x80a
-<<<<<<< HEAD
 	.uaword	0x6593
-=======
-	.uaword	0x659c
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uahalf	0x1ac
 	.uleb128 0x11
 	.string	"EVRSDCTRL1"
 	.byte	0x2
 	.uahalf	0x80b
-<<<<<<< HEAD
 	.uaword	0x4f1a
-=======
-	.uaword	0x4f23
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uahalf	0x1b0
 	.uleb128 0x11
 	.string	"EVRSDCTRL2"
 	.byte	0x2
 	.uahalf	0x80c
-<<<<<<< HEAD
 	.uaword	0x4f5d
-=======
-	.uaword	0x4f66
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uahalf	0x1b4
 	.uleb128 0x11
 	.string	"EVRSDCTRL3"
 	.byte	0x2
 	.uahalf	0x80d
-<<<<<<< HEAD
 	.uaword	0x4fa0
-=======
-	.uaword	0x4fa9
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uahalf	0x1b8
 	.uleb128 0x11
 	.string	"EVRSDCTRL4"
 	.byte	0x2
 	.uahalf	0x80e
-<<<<<<< HEAD
 	.uaword	0x4fe3
-=======
-	.uaword	0x4fec
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uahalf	0x1bc
 	.uleb128 0x11
 	.string	"EVRSDCOEFF1"
 	.byte	0x2
 	.uahalf	0x80f
-<<<<<<< HEAD
 	.uaword	0x4d82
-=======
-	.uaword	0x4d8b
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uahalf	0x1c0
 	.uleb128 0x11
 	.string	"EVRSDCOEFF2"
 	.byte	0x2
 	.uahalf	0x810
-<<<<<<< HEAD
 	.uaword	0x4dc6
-=======
-	.uaword	0x4dcf
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uahalf	0x1c4
 	.uleb128 0x11
 	.string	"EVRSDCOEFF3"
 	.byte	0x2
 	.uahalf	0x811
-<<<<<<< HEAD
 	.uaword	0x4e0a
-=======
-	.uaword	0x4e13
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uahalf	0x1c8
 	.uleb128 0x11
 	.string	"EVRSDCOEFF4"
 	.byte	0x2
 	.uahalf	0x812
-<<<<<<< HEAD
 	.uaword	0x4e4e
-=======
-	.uaword	0x4e57
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uahalf	0x1cc
 	.uleb128 0x11
 	.string	"EVRSDCOEFF5"
 	.byte	0x2
 	.uahalf	0x813
-<<<<<<< HEAD
 	.uaword	0x4e92
-=======
-	.uaword	0x4e9b
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uahalf	0x1d0
 	.uleb128 0x11
 	.string	"EVRSDCOEFF6"
 	.byte	0x2
 	.uahalf	0x814
-<<<<<<< HEAD
 	.uaword	0x4ed6
-=======
-	.uaword	0x4edf
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uahalf	0x1d4
 	.uleb128 0x11
 	.string	"reserved_1D8"
 	.byte	0x2
 	.uahalf	0x815
-<<<<<<< HEAD
 	.uaword	0x6566
-=======
-	.uaword	0x656f
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uahalf	0x1d8
 	.uleb128 0x11
 	.string	"OVCENABLE"
 	.byte	0x2
 	.uahalf	0x816
-<<<<<<< HEAD
 	.uaword	0x550a
-=======
-	.uaword	0x5513
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uahalf	0x1e0
 	.uleb128 0x11
 	.string	"OVCCON"
 	.byte	0x2
 	.uahalf	0x817
-<<<<<<< HEAD
 	.uaword	0x54cb
-=======
-	.uaword	0x54d4
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uahalf	0x1e4
 	.uleb128 0x11
 	.string	"reserved_1E8"
 	.byte	0x2
 	.uahalf	0x818
-<<<<<<< HEAD
 	.uaword	0x65f8
-=======
-	.uaword	0x6601
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uahalf	0x1e8
 	.uleb128 0x11
 	.string	"EICR"
 	.byte	0x2
 	.uahalf	0x819
-<<<<<<< HEAD
 	.uaword	0x6608
-=======
-	.uaword	0x6611
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uahalf	0x210
 	.uleb128 0x11
 	.string	"EIFR"
 	.byte	0x2
 	.uahalf	0x81a
-<<<<<<< HEAD
 	.uaword	0x4abc
-=======
-	.uaword	0x4ac5
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uahalf	0x220
 	.uleb128 0x11
 	.string	"FMR"
 	.byte	0x2
 	.uahalf	0x81b
-<<<<<<< HEAD
 	.uaword	0x5162
-=======
-	.uaword	0x516b
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uahalf	0x224
 	.uleb128 0x11
 	.string	"PDRR"
 	.byte	0x2
 	.uahalf	0x81c
-<<<<<<< HEAD
 	.uaword	0x55c6
-=======
-	.uaword	0x55cf
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uahalf	0x228
 	.uleb128 0x11
 	.string	"IGCR"
 	.byte	0x2
 	.uahalf	0x81d
-<<<<<<< HEAD
 	.uaword	0x6618
-=======
-	.uaword	0x6621
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uahalf	0x22c
 	.uleb128 0x11
 	.string	"reserved_23C"
 	.byte	0x2
 	.uahalf	0x81e
-<<<<<<< HEAD
 	.uaword	0x6593
-=======
-	.uaword	0x659c
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uahalf	0x23c
 	.uleb128 0x11
 	.string	"DTSLIM"
 	.byte	0x2
 	.uahalf	0x81f
-<<<<<<< HEAD
 	.uaword	0x4a00
-=======
-	.uaword	0x4a09
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uahalf	0x240
 	.uleb128 0x11
 	.string	"reserved_244"
 	.byte	0x2
 	.uahalf	0x820
-<<<<<<< HEAD
 	.uaword	0x6628
-=======
-	.uaword	0x6631
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uahalf	0x244
 	.uleb128 0x11
 	.string	"ACCEN1"
 	.byte	0x2
 	.uahalf	0x821
-<<<<<<< HEAD
 	.uaword	0x46c3
-=======
-	.uaword	0x46cc
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uahalf	0x3f8
 	.uleb128 0x11
 	.string	"ACCEN0"
 	.byte	0x2
 	.uahalf	0x822
-<<<<<<< HEAD
 	.uaword	0x4684
 	.uahalf	0x3fc
 	.byte	0
@@ -17133,16 +11333,6 @@ IfxScuEru_setInterruptGatingPattern:
 	.uaword	0x6576
 	.uleb128 0x13
 	.uaword	0x6576
-=======
-	.uaword	0x468d
-	.uahalf	0x3fc
-	.byte	0
-	.uleb128 0x12
-	.uaword	0x658b
-	.uaword	0x657f
-	.uleb128 0x13
-	.uaword	0x657f
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x7
 	.byte	0
 	.uleb128 0x4
@@ -17154,7 +11344,6 @@ IfxScuEru_setInterruptGatingPattern:
 	.byte	0x8
 	.string	"unsigned char"
 	.uleb128 0x12
-<<<<<<< HEAD
 	.uaword	0x6582
 	.uaword	0x65a3
 	.uleb128 0x13
@@ -17224,92 +11413,15 @@ IfxScuEru_setInterruptGatingPattern:
 	.uaword	0x6639
 	.uleb128 0x14
 	.uaword	0x6576
-=======
-	.uaword	0x658b
-	.uaword	0x65ac
-	.uleb128 0x13
-	.uaword	0x657f
-	.byte	0x3
-	.byte	0
-	.uleb128 0x12
-	.uaword	0x4b3f
-	.uaword	0x65bc
-	.uleb128 0x13
-	.uaword	0x657f
-	.byte	0x1
-	.byte	0
-	.uleb128 0x12
-	.uaword	0x658b
-	.uaword	0x65cc
-	.uleb128 0x13
-	.uaword	0x657f
-	.byte	0xf
-	.byte	0
-	.uleb128 0x12
-	.uaword	0x57d8
-	.uaword	0x65dc
-	.uleb128 0x13
-	.uaword	0x657f
-	.byte	0x2
-	.byte	0
-	.uleb128 0x12
-	.uaword	0x5d82
-	.uaword	0x65ec
-	.uleb128 0x13
-	.uaword	0x657f
-	.byte	0x2
-	.byte	0
-	.uleb128 0xb
-	.uaword	0x65dc
-	.uleb128 0x12
-	.uaword	0x658b
-	.uaword	0x6601
-	.uleb128 0x13
-	.uaword	0x657f
-	.byte	0x1b
-	.byte	0
-	.uleb128 0x12
-	.uaword	0x658b
-	.uaword	0x6611
-	.uleb128 0x13
-	.uaword	0x657f
-	.byte	0x27
-	.byte	0
-	.uleb128 0x12
-	.uaword	0x4a88
-	.uaword	0x6621
-	.uleb128 0x13
-	.uaword	0x657f
-	.byte	0x3
-	.byte	0
-	.uleb128 0x12
-	.uaword	0x51e2
-	.uaword	0x6631
-	.uleb128 0x13
-	.uaword	0x657f
-	.byte	0x3
-	.byte	0
-	.uleb128 0x12
-	.uaword	0x658b
-	.uaword	0x6642
-	.uleb128 0x14
-	.uaword	0x657f
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uahalf	0x1b3
 	.byte	0
 	.uleb128 0x9
 	.string	"Ifx_SCU"
 	.byte	0x2
 	.uahalf	0x823
-<<<<<<< HEAD
 	.uaword	0x6649
 	.uleb128 0xb
 	.uaword	0x5def
-=======
-	.uaword	0x6652
-	.uleb128 0xb
-	.uaword	0x5df8
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0x4
 	.byte	0x4
 	.byte	0x5
@@ -17322,11 +11434,7 @@ IfxScuEru_setInterruptGatingPattern:
 	.string	"boolean"
 	.byte	0x3
 	.byte	0x68
-<<<<<<< HEAD
 	.uaword	0x6582
-=======
-	.uaword	0x658b
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0x4
 	.byte	0x2
 	.byte	0x7
@@ -17335,11 +11443,7 @@ IfxScuEru_setInterruptGatingPattern:
 	.string	"uint32"
 	.byte	0x3
 	.byte	0x74
-<<<<<<< HEAD
 	.uaword	0x665a
-=======
-	.uaword	0x6663
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0x4
 	.byte	0x8
 	.byte	0x7
@@ -17356,11 +11460,7 @@ IfxScuEru_setInterruptGatingPattern:
 	.string	"sint32"
 	.byte	0x3
 	.byte	0x86
-<<<<<<< HEAD
 	.uaword	0x664e
-=======
-	.uaword	0x6657
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0x4
 	.byte	0x8
 	.byte	0x5
@@ -17379,60 +11479,36 @@ IfxScuEru_setInterruptGatingPattern:
 	.string	"char"
 	.uleb128 0x15
 	.byte	0x4
-<<<<<<< HEAD
 	.uaword	0x6718
-=======
-	.uaword	0x6721
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0x16
 	.uleb128 0x17
 	.byte	0x8
 	.byte	0x4
 	.byte	0x8c
-<<<<<<< HEAD
 	.uaword	0x673d
-=======
-	.uaword	0x6746
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0x18
 	.string	"module"
 	.byte	0x4
 	.byte	0x8e
-<<<<<<< HEAD
 	.uaword	0x6712
-=======
-	.uaword	0x671b
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0
 	.uleb128 0x19
 	.uaword	.LASF36
 	.byte	0x4
 	.byte	0x8f
-<<<<<<< HEAD
 	.uaword	0x66d8
-=======
-	.uaword	0x66e1
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x4
 	.byte	0
 	.uleb128 0x5
 	.string	"IfxModule_IndexMap"
 	.byte	0x4
 	.byte	0x90
-<<<<<<< HEAD
 	.uaword	0x6719
-=======
-	.uaword	0x6722
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0x1a
 	.byte	0x1
 	.byte	0x5
 	.byte	0x50
-<<<<<<< HEAD
 	.uaword	0x67f4
-=======
-	.uaword	0x67fd
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0x1b
 	.string	"IfxScuEru_ExternalInputSelection_0"
 	.sleb128 0
@@ -17450,20 +11526,12 @@ IfxScuEru_setInterruptGatingPattern:
 	.string	"IfxScuEru_ExternalInputSelection"
 	.byte	0x5
 	.byte	0x55
-<<<<<<< HEAD
 	.uaword	0x6757
-=======
-	.uaword	0x6760
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0x1a
 	.byte	0x1
 	.byte	0x5
 	.byte	0x5a
-<<<<<<< HEAD
 	.uaword	0x68fd
-=======
-	.uaword	0x6906
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0x1b
 	.string	"IfxScuEru_InputChannel_0"
 	.sleb128 0
@@ -17493,20 +11561,12 @@ IfxScuEru_setInterruptGatingPattern:
 	.string	"IfxScuEru_InputChannel"
 	.byte	0x5
 	.byte	0x63
-<<<<<<< HEAD
 	.uaword	0x681c
-=======
-	.uaword	0x6825
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0x1a
 	.byte	0x1
 	.byte	0x5
 	.byte	0x69
-<<<<<<< HEAD
 	.uaword	0x6a1c
-=======
-	.uaword	0x6a25
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0x1b
 	.string	"IfxScuEru_InputNodePointer_0"
 	.sleb128 0
@@ -17536,20 +11596,12 @@ IfxScuEru_setInterruptGatingPattern:
 	.string	"IfxScuEru_InputNodePointer"
 	.byte	0x5
 	.byte	0x72
-<<<<<<< HEAD
 	.uaword	0x691b
-=======
-	.uaword	0x6924
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0x1a
 	.byte	0x1
 	.byte	0x5
 	.byte	0x78
-<<<<<<< HEAD
 	.uaword	0x6afe
-=======
-	.uaword	0x6b07
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0x1b
 	.string	"IfxScuEru_InterruptGatingPattern_none"
 	.sleb128 0
@@ -17567,20 +11619,12 @@ IfxScuEru_setInterruptGatingPattern:
 	.string	"IfxScuEru_InterruptGatingPattern"
 	.byte	0x5
 	.byte	0x7d
-<<<<<<< HEAD
 	.uaword	0x6a3e
-=======
-	.uaword	0x6a47
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0x1a
 	.byte	0x1
 	.byte	0x5
 	.byte	0x82
-<<<<<<< HEAD
 	.uaword	0x6c0f
-=======
-	.uaword	0x6c18
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0x1b
 	.string	"IfxScuEru_OutputChannel_0"
 	.sleb128 0
@@ -17610,11 +11654,7 @@ IfxScuEru_setInterruptGatingPattern:
 	.string	"IfxScuEru_OutputChannel"
 	.byte	0x5
 	.byte	0x8b
-<<<<<<< HEAD
 	.uaword	0x6b26
-=======
-	.uaword	0x6b2f
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0x1c
 	.byte	0x1
 	.string	"IfxScuEru_clearAllEventFlags"
@@ -17626,20 +11666,12 @@ IfxScuEru_setInterruptGatingPattern:
 	.byte	0x1
 	.byte	0x9c
 	.byte	0x1
-<<<<<<< HEAD
 	.uaword	0x6c6f
-=======
-	.uaword	0x6c78
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0x1d
 	.uaword	.LASF37
 	.byte	0x1
 	.byte	0x3f
-<<<<<<< HEAD
 	.uaword	0x6694
-=======
-	.uaword	0x669d
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uaword	0xff0000
 	.byte	0
 	.uleb128 0x1c
@@ -17653,30 +11685,18 @@ IfxScuEru_setInterruptGatingPattern:
 	.byte	0x1
 	.byte	0x9c
 	.byte	0x1
-<<<<<<< HEAD
 	.uaword	0x6cb9
-=======
-	.uaword	0x6cc2
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0x1e
 	.uaword	.LASF38
 	.byte	0x1
 	.byte	0x44
-<<<<<<< HEAD
 	.uaword	0x68fd
-=======
-	.uaword	0x6906
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uaword	.LLST0
 	.uleb128 0x1f
 	.uaword	.LASF37
 	.byte	0x1
 	.byte	0x46
-<<<<<<< HEAD
 	.uaword	0x6694
-=======
-	.uaword	0x669d
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x1
 	.byte	0x5f
 	.byte	0
@@ -17691,41 +11711,25 @@ IfxScuEru_setInterruptGatingPattern:
 	.byte	0x1
 	.byte	0x9c
 	.byte	0x1
-<<<<<<< HEAD
 	.uaword	0x6d22
-=======
-	.uaword	0x6d2b
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0x20
 	.uaword	.LASF38
 	.byte	0x1
 	.byte	0x4b
-<<<<<<< HEAD
 	.uaword	0x68fd
-=======
-	.uaword	0x6906
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x1
 	.byte	0x54
 	.uleb128 0x21
 	.uaword	.LASF36
 	.byte	0x1
 	.byte	0x4e
-<<<<<<< HEAD
 	.uaword	0x6694
-=======
-	.uaword	0x669d
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uaword	.LLST1
 	.uleb128 0x21
 	.uaword	.LASF37
 	.byte	0x1
 	.byte	0x4f
-<<<<<<< HEAD
 	.uaword	0x6694
-=======
-	.uaword	0x669d
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uaword	.LLST2
 	.byte	0
 	.uleb128 0x1c
@@ -17739,41 +11743,25 @@ IfxScuEru_setInterruptGatingPattern:
 	.byte	0x1
 	.byte	0x9c
 	.byte	0x1
-<<<<<<< HEAD
 	.uaword	0x6d8c
-=======
-	.uaword	0x6d95
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0x20
 	.uaword	.LASF39
 	.byte	0x1
 	.byte	0x5d
-<<<<<<< HEAD
 	.uaword	0x6c0f
-=======
-	.uaword	0x6c18
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x1
 	.byte	0x54
 	.uleb128 0x21
 	.uaword	.LASF36
 	.byte	0x1
 	.byte	0x60
-<<<<<<< HEAD
 	.uaword	0x6694
-=======
-	.uaword	0x669d
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uaword	.LLST3
 	.uleb128 0x21
 	.uaword	.LASF37
 	.byte	0x1
 	.byte	0x61
-<<<<<<< HEAD
 	.uaword	0x6694
-=======
-	.uaword	0x669d
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uaword	.LLST4
 	.byte	0
 	.uleb128 0x1c
@@ -17787,41 +11775,25 @@ IfxScuEru_setInterruptGatingPattern:
 	.byte	0x1
 	.byte	0x9c
 	.byte	0x1
-<<<<<<< HEAD
 	.uaword	0x6def
-=======
-	.uaword	0x6df8
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0x20
 	.uaword	.LASF38
 	.byte	0x1
 	.byte	0x6f
-<<<<<<< HEAD
 	.uaword	0x68fd
-=======
-	.uaword	0x6906
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x1
 	.byte	0x54
 	.uleb128 0x22
 	.string	"triggerSelect"
 	.byte	0x1
 	.byte	0x6f
-<<<<<<< HEAD
 	.uaword	0x6a1c
-=======
-	.uaword	0x6a25
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uaword	.LLST5
 	.uleb128 0x21
 	.uaword	.LASF36
 	.byte	0x1
 	.byte	0x72
-<<<<<<< HEAD
 	.uaword	0x6694
-=======
-	.uaword	0x669d
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uaword	.LLST6
 	.byte	0
 	.uleb128 0x1c
@@ -17835,31 +11807,19 @@ IfxScuEru_setInterruptGatingPattern:
 	.byte	0x1
 	.byte	0x9c
 	.byte	0x1
-<<<<<<< HEAD
 	.uaword	0x6e3b
-=======
-	.uaword	0x6e44
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0x20
 	.uaword	.LASF38
 	.byte	0x1
 	.byte	0x7f
-<<<<<<< HEAD
 	.uaword	0x68fd
-=======
-	.uaword	0x6906
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x1
 	.byte	0x54
 	.uleb128 0x21
 	.uaword	.LASF36
 	.byte	0x1
 	.byte	0x82
-<<<<<<< HEAD
 	.uaword	0x6694
-=======
-	.uaword	0x669d
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uaword	.LLST7
 	.byte	0
 	.uleb128 0x1c
@@ -17873,31 +11833,19 @@ IfxScuEru_setInterruptGatingPattern:
 	.byte	0x1
 	.byte	0x9c
 	.byte	0x1
-<<<<<<< HEAD
 	.uaword	0x6e92
-=======
-	.uaword	0x6e9b
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0x20
 	.uaword	.LASF38
 	.byte	0x1
 	.byte	0x8f
-<<<<<<< HEAD
 	.uaword	0x68fd
-=======
-	.uaword	0x6906
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x1
 	.byte	0x54
 	.uleb128 0x21
 	.uaword	.LASF36
 	.byte	0x1
 	.byte	0x92
-<<<<<<< HEAD
 	.uaword	0x6694
-=======
-	.uaword	0x669d
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uaword	.LLST8
 	.byte	0
 	.uleb128 0x1c
@@ -17911,31 +11859,19 @@ IfxScuEru_setInterruptGatingPattern:
 	.byte	0x1
 	.byte	0x9c
 	.byte	0x1
-<<<<<<< HEAD
 	.uaword	0x6eec
-=======
-	.uaword	0x6ef5
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0x20
 	.uaword	.LASF39
 	.byte	0x1
 	.byte	0x9f
-<<<<<<< HEAD
 	.uaword	0x6c0f
-=======
-	.uaword	0x6c18
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x1
 	.byte	0x54
 	.uleb128 0x21
 	.uaword	.LASF36
 	.byte	0x1
 	.byte	0xa2
-<<<<<<< HEAD
 	.uaword	0x6694
-=======
-	.uaword	0x669d
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uaword	.LLST9
 	.byte	0
 	.uleb128 0x1c
@@ -17949,31 +11885,19 @@ IfxScuEru_setInterruptGatingPattern:
 	.byte	0x1
 	.byte	0x9c
 	.byte	0x1
-<<<<<<< HEAD
 	.uaword	0x6f42
-=======
-	.uaword	0x6f4b
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0x20
 	.uaword	.LASF38
 	.byte	0x1
 	.byte	0xaf
-<<<<<<< HEAD
 	.uaword	0x68fd
-=======
-	.uaword	0x6906
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x1
 	.byte	0x54
 	.uleb128 0x21
 	.uaword	.LASF36
 	.byte	0x1
 	.byte	0xb2
-<<<<<<< HEAD
 	.uaword	0x6694
-=======
-	.uaword	0x669d
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uaword	.LLST10
 	.byte	0
 	.uleb128 0x1c
@@ -17987,31 +11911,19 @@ IfxScuEru_setInterruptGatingPattern:
 	.byte	0x1
 	.byte	0x9c
 	.byte	0x1
-<<<<<<< HEAD
 	.uaword	0x6f91
-=======
-	.uaword	0x6f9a
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0x20
 	.uaword	.LASF38
 	.byte	0x1
 	.byte	0xbf
-<<<<<<< HEAD
 	.uaword	0x68fd
-=======
-	.uaword	0x6906
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x1
 	.byte	0x54
 	.uleb128 0x21
 	.uaword	.LASF36
 	.byte	0x1
 	.byte	0xc2
-<<<<<<< HEAD
 	.uaword	0x6694
-=======
-	.uaword	0x669d
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uaword	.LLST11
 	.byte	0
 	.uleb128 0x1c
@@ -18025,31 +11937,19 @@ IfxScuEru_setInterruptGatingPattern:
 	.byte	0x1
 	.byte	0x9c
 	.byte	0x1
-<<<<<<< HEAD
 	.uaword	0x6fdc
-=======
-	.uaword	0x6fe5
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0x20
 	.uaword	.LASF38
 	.byte	0x1
 	.byte	0xcf
-<<<<<<< HEAD
 	.uaword	0x68fd
-=======
-	.uaword	0x6906
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x1
 	.byte	0x54
 	.uleb128 0x21
 	.uaword	.LASF36
 	.byte	0x1
 	.byte	0xd2
-<<<<<<< HEAD
 	.uaword	0x6694
-=======
-	.uaword	0x669d
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uaword	.LLST12
 	.byte	0
 	.uleb128 0x1c
@@ -18063,31 +11963,19 @@ IfxScuEru_setInterruptGatingPattern:
 	.byte	0x1
 	.byte	0x9c
 	.byte	0x1
-<<<<<<< HEAD
 	.uaword	0x7032
-=======
-	.uaword	0x703b
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0x20
 	.uaword	.LASF38
 	.byte	0x1
 	.byte	0xdf
-<<<<<<< HEAD
 	.uaword	0x68fd
-=======
-	.uaword	0x6906
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x1
 	.byte	0x54
 	.uleb128 0x21
 	.uaword	.LASF36
 	.byte	0x1
 	.byte	0xe2
-<<<<<<< HEAD
 	.uaword	0x6694
-=======
-	.uaword	0x669d
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uaword	.LLST13
 	.byte	0
 	.uleb128 0x1c
@@ -18101,31 +11989,19 @@ IfxScuEru_setInterruptGatingPattern:
 	.byte	0x1
 	.byte	0x9c
 	.byte	0x1
-<<<<<<< HEAD
 	.uaword	0x708b
-=======
-	.uaword	0x7094
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0x20
 	.uaword	.LASF39
 	.byte	0x1
 	.byte	0xef
-<<<<<<< HEAD
 	.uaword	0x6c0f
-=======
-	.uaword	0x6c18
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x1
 	.byte	0x54
 	.uleb128 0x21
 	.uaword	.LASF36
 	.byte	0x1
 	.byte	0xf2
-<<<<<<< HEAD
 	.uaword	0x6694
-=======
-	.uaword	0x669d
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uaword	.LLST14
 	.byte	0
 	.uleb128 0x1c
@@ -18139,31 +12015,19 @@ IfxScuEru_setInterruptGatingPattern:
 	.byte	0x1
 	.byte	0x9c
 	.byte	0x1
-<<<<<<< HEAD
 	.uaword	0x70e1
-=======
-	.uaword	0x70ea
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0x20
 	.uaword	.LASF38
 	.byte	0x1
 	.byte	0xff
-<<<<<<< HEAD
 	.uaword	0x68fd
-=======
-	.uaword	0x6906
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x1
 	.byte	0x54
 	.uleb128 0x23
 	.uaword	.LASF36
 	.byte	0x1
 	.uahalf	0x102
-<<<<<<< HEAD
 	.uaword	0x6694
-=======
-	.uaword	0x669d
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uaword	.LLST15
 	.byte	0
 	.uleb128 0x24
@@ -18177,31 +12041,19 @@ IfxScuEru_setInterruptGatingPattern:
 	.byte	0x1
 	.byte	0x9c
 	.byte	0x1
-<<<<<<< HEAD
 	.uaword	0x7132
-=======
-	.uaword	0x713b
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0x25
 	.uaword	.LASF38
 	.byte	0x1
 	.uahalf	0x10f
-<<<<<<< HEAD
 	.uaword	0x68fd
-=======
-	.uaword	0x6906
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x1
 	.byte	0x54
 	.uleb128 0x23
 	.uaword	.LASF36
 	.byte	0x1
 	.uahalf	0x112
-<<<<<<< HEAD
 	.uaword	0x6694
-=======
-	.uaword	0x669d
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uaword	.LLST16
 	.byte	0
 	.uleb128 0x26
@@ -18210,11 +12062,7 @@ IfxScuEru_setInterruptGatingPattern:
 	.byte	0x1
 	.uahalf	0x11f
 	.byte	0x1
-<<<<<<< HEAD
 	.uaword	0x6694
-=======
-	.uaword	0x669d
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uaword	.LFB233
 	.uaword	.LFE233
 	.byte	0x1
@@ -18226,41 +12074,25 @@ IfxScuEru_setInterruptGatingPattern:
 	.byte	0x1
 	.uahalf	0x125
 	.byte	0x1
-<<<<<<< HEAD
 	.uaword	0x666f
-=======
-	.uaword	0x6678
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uaword	.LFB234
 	.uaword	.LFE234
 	.byte	0x1
 	.byte	0x9c
 	.byte	0x1
-<<<<<<< HEAD
 	.uaword	0x71c2
-=======
-	.uaword	0x71cb
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0x25
 	.uaword	.LASF38
 	.byte	0x1
 	.uahalf	0x125
-<<<<<<< HEAD
 	.uaword	0x68fd
-=======
-	.uaword	0x6906
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x1
 	.byte	0x54
 	.uleb128 0x28
 	.uaword	.LASF37
 	.byte	0x1
 	.uahalf	0x127
-<<<<<<< HEAD
 	.uaword	0x6694
-=======
-	.uaword	0x669d
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x8
 	.byte	0x31
 	.byte	0x74
@@ -18277,61 +12109,37 @@ IfxScuEru_setInterruptGatingPattern:
 	.byte	0x1
 	.uahalf	0x12c
 	.byte	0x1
-<<<<<<< HEAD
 	.uaword	0x6694
-=======
-	.uaword	0x669d
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uaword	.LFB235
 	.uaword	.LFE235
 	.byte	0x1
 	.byte	0x9c
 	.byte	0x1
-<<<<<<< HEAD
 	.uaword	0x7244
-=======
-	.uaword	0x724d
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0x25
 	.uaword	.LASF38
 	.byte	0x1
 	.uahalf	0x12c
-<<<<<<< HEAD
 	.uaword	0x68fd
-=======
-	.uaword	0x6906
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x1
 	.byte	0x54
 	.uleb128 0x23
 	.uaword	.LASF36
 	.byte	0x1
 	.uahalf	0x12f
-<<<<<<< HEAD
 	.uaword	0x6694
-=======
-	.uaword	0x669d
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uaword	.LLST17
 	.uleb128 0x29
 	.string	"status"
 	.byte	0x1
 	.uahalf	0x130
-<<<<<<< HEAD
 	.uaword	0x6694
-=======
-	.uaword	0x669d
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uaword	.LLST18
 	.uleb128 0x23
 	.uaword	.LASF37
 	.byte	0x1
 	.uahalf	0x130
-<<<<<<< HEAD
 	.uaword	0x6694
-=======
-	.uaword	0x669d
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uaword	.LLST19
 	.byte	0
 	.uleb128 0x27
@@ -18340,61 +12148,37 @@ IfxScuEru_setInterruptGatingPattern:
 	.byte	0x1
 	.uahalf	0x140
 	.byte	0x1
-<<<<<<< HEAD
 	.uaword	0x6694
-=======
-	.uaword	0x669d
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uaword	.LFB236
 	.uaword	.LFE236
 	.byte	0x1
 	.byte	0x9c
 	.byte	0x1
-<<<<<<< HEAD
 	.uaword	0x72c7
-=======
-	.uaword	0x72d0
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0x25
 	.uaword	.LASF39
 	.byte	0x1
 	.uahalf	0x140
-<<<<<<< HEAD
 	.uaword	0x6c0f
-=======
-	.uaword	0x6c18
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x1
 	.byte	0x54
 	.uleb128 0x23
 	.uaword	.LASF36
 	.byte	0x1
 	.uahalf	0x143
-<<<<<<< HEAD
 	.uaword	0x6694
-=======
-	.uaword	0x669d
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uaword	.LLST20
 	.uleb128 0x29
 	.string	"status"
 	.byte	0x1
 	.uahalf	0x144
-<<<<<<< HEAD
 	.uaword	0x6694
-=======
-	.uaword	0x669d
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uaword	.LLST21
 	.uleb128 0x23
 	.uaword	.LASF37
 	.byte	0x1
 	.uahalf	0x144
-<<<<<<< HEAD
 	.uaword	0x6694
-=======
-	.uaword	0x669d
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uaword	.LLST22
 	.byte	0
 	.uleb128 0x27
@@ -18403,41 +12187,25 @@ IfxScuEru_setInterruptGatingPattern:
 	.byte	0x1
 	.uahalf	0x154
 	.byte	0x1
-<<<<<<< HEAD
 	.uaword	0x666f
-=======
-	.uaword	0x6678
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uaword	.LFB237
 	.uaword	.LFE237
 	.byte	0x1
 	.byte	0x9c
 	.byte	0x1
-<<<<<<< HEAD
 	.uaword	0x7328
-=======
-	.uaword	0x7331
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0x25
 	.uaword	.LASF39
 	.byte	0x1
 	.uahalf	0x154
-<<<<<<< HEAD
 	.uaword	0x6c0f
-=======
-	.uaword	0x6c18
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x1
 	.byte	0x54
 	.uleb128 0x28
 	.uaword	.LASF37
 	.byte	0x1
 	.uahalf	0x156
-<<<<<<< HEAD
 	.uaword	0x6694
-=======
-	.uaword	0x669d
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x8
 	.byte	0x31
 	.byte	0x74
@@ -18454,11 +12222,7 @@ IfxScuEru_setInterruptGatingPattern:
 	.byte	0x1
 	.uahalf	0x15b
 	.byte	0x1
-<<<<<<< HEAD
 	.uaword	0x6694
-=======
-	.uaword	0x669d
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uaword	.LFB238
 	.uaword	.LFE238
 	.byte	0x1
@@ -18475,41 +12239,25 @@ IfxScuEru_setInterruptGatingPattern:
 	.byte	0x1
 	.byte	0x9c
 	.byte	0x1
-<<<<<<< HEAD
 	.uaword	0x73d0
-=======
-	.uaword	0x73d9
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0x25
 	.uaword	.LASF38
 	.byte	0x1
 	.uahalf	0x161
-<<<<<<< HEAD
 	.uaword	0x68fd
-=======
-	.uaword	0x6906
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x1
 	.byte	0x54
 	.uleb128 0x2a
 	.string	"inputSignal"
 	.byte	0x1
 	.uahalf	0x161
-<<<<<<< HEAD
 	.uaword	0x67f4
-=======
-	.uaword	0x67fd
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uaword	.LLST23
 	.uleb128 0x23
 	.uaword	.LASF36
 	.byte	0x1
 	.uahalf	0x164
-<<<<<<< HEAD
 	.uaword	0x6694
-=======
-	.uaword	0x669d
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uaword	.LLST24
 	.byte	0
 	.uleb128 0x24
@@ -18523,30 +12271,18 @@ IfxScuEru_setInterruptGatingPattern:
 	.byte	0x1
 	.byte	0x9c
 	.byte	0x1
-<<<<<<< HEAD
 	.uaword	0x741b
-=======
-	.uaword	0x7424
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0x2b
 	.uaword	.LASF38
 	.byte	0x1
 	.uahalf	0x171
-<<<<<<< HEAD
 	.uaword	0x68fd
-=======
-	.uaword	0x6906
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uaword	.LLST25
 	.uleb128 0x28
 	.uaword	.LASF37
 	.byte	0x1
 	.uahalf	0x173
-<<<<<<< HEAD
 	.uaword	0x6694
-=======
-	.uaword	0x669d
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x1
 	.byte	0x54
 	.byte	0
@@ -18561,80 +12297,48 @@ IfxScuEru_setInterruptGatingPattern:
 	.byte	0x1
 	.byte	0x9c
 	.byte	0x1
-<<<<<<< HEAD
 	.uaword	0x74dc
-=======
-	.uaword	0x74e5
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0x25
 	.uaword	.LASF39
 	.byte	0x1
 	.uahalf	0x178
-<<<<<<< HEAD
 	.uaword	0x6c0f
-=======
-	.uaword	0x6c18
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x1
 	.byte	0x54
 	.uleb128 0x2b
 	.uaword	.LASF38
 	.byte	0x1
 	.uahalf	0x178
-<<<<<<< HEAD
 	.uaword	0x68fd
-=======
-	.uaword	0x6906
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uaword	.LLST26
 	.uleb128 0x2c
 	.string	"state"
 	.byte	0x1
 	.uahalf	0x178
-<<<<<<< HEAD
 	.uaword	0x666f
-=======
-	.uaword	0x6678
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x1
 	.byte	0x56
 	.uleb128 0x29
 	.string	"shift"
 	.byte	0x1
 	.uahalf	0x17a
-<<<<<<< HEAD
 	.uaword	0x6694
-=======
-	.uaword	0x669d
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uaword	.LLST27
 	.uleb128 0x23
 	.uaword	.LASF37
 	.byte	0x1
 	.uahalf	0x17a
-<<<<<<< HEAD
 	.uaword	0x6694
-=======
-	.uaword	0x669d
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uaword	.LLST28
 	.uleb128 0x2d
 	.uaword	.LBB2
 	.uaword	.LBE2
-<<<<<<< HEAD
 	.uaword	0x74bc
-=======
-	.uaword	0x74c5
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0x2e
 	.uaword	.LASF36
 	.byte	0x1
 	.uahalf	0x181
-<<<<<<< HEAD
 	.uaword	0x6694
-=======
-	.uaword	0x669d
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0
 	.uleb128 0x2f
 	.uaword	.LBB3
@@ -18643,11 +12347,7 @@ IfxScuEru_setInterruptGatingPattern:
 	.uaword	.LASF36
 	.byte	0x1
 	.uahalf	0x189
-<<<<<<< HEAD
 	.uaword	0x6694
-=======
-	.uaword	0x669d
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x8
 	.byte	0x74
 	.sleb128 0
@@ -18670,37 +12370,24 @@ IfxScuEru_setInterruptGatingPattern:
 	.byte	0x1
 	.byte	0x9c
 	.byte	0x1
-<<<<<<< HEAD
 	.uaword	0x754e
-=======
-	.uaword	0x7557
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uleb128 0x25
 	.uaword	.LASF39
 	.byte	0x1
 	.uahalf	0x18f
-<<<<<<< HEAD
 	.uaword	0x6c0f
-=======
-	.uaword	0x6c18
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x1
 	.byte	0x54
 	.uleb128 0x2a
 	.string	"gatingPattern"
 	.byte	0x1
 	.uahalf	0x18f
-<<<<<<< HEAD
 	.uaword	0x6afe
-=======
-	.uaword	0x6b07
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.uaword	.LLST29
 	.uleb128 0x23
 	.uaword	.LASF36
 	.byte	0x1
 	.uahalf	0x192
-<<<<<<< HEAD
 	.uaword	0x6694
 	.uaword	.LLST30
 	.byte	0
@@ -18709,35 +12396,17 @@ IfxScuEru_setInterruptGatingPattern:
 	.uaword	0x755e
 	.uleb128 0x13
 	.uaword	0x6576
-=======
-	.uaword	0x669d
-	.uaword	.LLST30
-	.byte	0
-	.uleb128 0x12
-	.uaword	0x6746
-	.uaword	0x7567
-	.uleb128 0x13
-	.uaword	0x657f
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0x2
 	.byte	0
 	.uleb128 0x30
 	.string	"IfxCpu_cfg_indexMap"
 	.byte	0x6
 	.byte	0xa7
-<<<<<<< HEAD
 	.uaword	0x757b
 	.byte	0x1
 	.byte	0x1
 	.uleb128 0x31
 	.uaword	0x754e
-=======
-	.uaword	0x7584
-	.byte	0x1
-	.byte	0x1
-	.uleb128 0x31
-	.uaword	0x7557
->>>>>>> adc7d333971c05d6a16c5a691e1a1d9793215330
 	.byte	0
 .section .debug_abbrev,"",@progbits
 .Ldebug_abbrev0:
