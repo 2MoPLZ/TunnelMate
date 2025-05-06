@@ -53,26 +53,37 @@ CPU test_application {
 		APP_SRC = "asw.c";
 		APP_SRC = "Lcd_Driver.c";
 		APP_SRC = "ultrasonic_Driver.c";
+		APP_SRC = "uart_Driver.c";
+		APP_SRC = "Button_Driver.c";
+		APP_SRC = "infotainment_System.c";
+	};
+	ISR ASCLIN3_TX {
+		CATEGORY = 2;
+		PRIORITY = 19;
+		HANDLER = "asclin3TxISR";
+		SOURCE = "ASCLIN3TX";
+	};
+	ISR ASCLIN0_RX {
+		CATEGORY = 2;
+		PRIORITY = 4;
+		HANDLER = "asclin0RxISR";
+		SOURCE = "ASCLIN0RX";
 	};
 	ISR ASCLIN0_TX {
 		CATEGORY = 2;
-		PRIORITY = 19;
+		PRIORITY = 5;
 		HANDLER = "asclin0TxISR";
 		SOURCE = "ASCLIN0TX";
 	};
-	TASK Task1 {
-		PRIORITY = 3;
-		STACK = SHARED;
-		SCHEDULE = FULL;
-		AUTOSTART = FALSE;
-		ACTIVATION = 1;
+	ISR ButtonISR {
+		CATEGORY = 2;
+		SOURCE = "SCUERU0";
+		PRIORITY = 10;
 	};
-	TASK TaskLCD {
-		PRIORITY = 9;
-		STACK = SHARED;
-		SCHEDULE = FULL;
-		AUTOSTART = FALSE;
-		ACTIVATION = 1;
+	ISR TimerISR {
+		CATEGORY = 2;
+		SOURCE = "STM0SR0";
+		PRIORITY = 2;
 	};
 	TASK TaskUltrasonic {
 		PRIORITY = 10;
@@ -80,10 +91,5 @@ CPU test_application {
 		SCHEDULE = FULL;
 		AUTOSTART = FALSE;
 		ACTIVATION = 1;
-	};
-	ISR TimerISR {
-		CATEGORY = 2;
-		SOURCE = "STM0SR0";
-		PRIORITY = 2;
 	};
 };

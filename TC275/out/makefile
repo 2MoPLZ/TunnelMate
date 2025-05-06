@@ -100,6 +100,9 @@ OS_EE_APP_CFG_SRCS += bsw.c
 OS_EE_APP_CFG_SRCS += asw.c
 OS_EE_APP_CFG_SRCS += Lcd_Driver.c
 OS_EE_APP_CFG_SRCS += ultrasonic_Driver.c
+OS_EE_APP_CFG_SRCS += uart_Driver.c
+OS_EE_APP_CFG_SRCS += Button_Driver.c
+OS_EE_APP_CFG_SRCS += infotainment_System.c
 
 
 export OS_EE_APP_CFG_SRCS
