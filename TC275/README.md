@@ -1,4 +1,4 @@
-## 🚗 TC275 Dashboard + Sensor ZCU
+# 🚗 TC275 Dashboard + Sensor ZCU
 
 This TC275 board controls ***Dashboard(LCD shield)*** and ***two Ultrasonic Sensors*** and ***one Photoresistor*** on ***OSEK/VDX RTOS***
 
@@ -9,7 +9,7 @@ This TC275 board controls ***Dashboard(LCD shield)*** and ***two Ultrasonic Sens
 ---
 
 
-### 🛠️ System Overview
+## 🛠️ System Overview
 
 | Component      | Description                            |
 |----------------|----------------------------------------|
@@ -20,31 +20,123 @@ This TC275 board controls ***Dashboard(LCD shield)*** and ***two Ultrasonic Sens
 
 ---
 
-### 🚀 How to Run
+## 🚀 How to Run
+ ```bash
+    # run in terminal
+    1. cd TunnelMate/TC275
+    2. make config
+    3. make
 
-1. cd TunnelMate/TC275
-2. make config
-3. make
-4. board configuration
-5. load program (TunnelMate/TC275/out/erika3app.elf)
-    
+    # flash program to TC275
+    1. board configuration
+    2. load program (TunnelMate/TC275/out/erika3app.elf)
+```
 
 ---
 
-### 📡 Hardware Spec
+## 📡 Hardware Spec
+
+
+
+
 
 ---
+## lcd driver
 
-### 📡 Task scheduling diagram 
+### HW pin map
+| Arduino Signal Name  |  TC275T Pin Assignment  |
+|----------------------|-------------------------|
+| Digital pin 5 (PWM)  |  P2.3                   |
+| Digital pin 6 (PWM)  |  P2.4                   |
+| Digital pin 7 (PWM)  |  P2.5                   |
+| Digital pin 8 (PWM)  |  P2.6                   |
+| Digital pin 9 (PWM)  |  P2.7                   |
+| Digital pin 10 (PWM) |  P10.5                  |
+
+</br>
+</br>
+
+### schematic diagram 
+![image](https://github.com/user-attachments/assets/903882b2-ea99-4a42-974d-a38678a1c551)
+
+
+### SW function
+- lcd_init(void) : 가장 처음 lcd 디스플레이 출력
+- lcd_clear(void) : 현재 적용되어있는 lcd 디스플레이 초기화
+- lcd_print(const char *str) : str 에 들어있는 내용을 lcd 디스플레이에 출력
+- lcd_goto(d1, d2) : d1 : 출력할 줄 , d2 : 출력 시작점
+---
+
+</br>
+</br>
+
+## button driver
+
+### HW pin map
+| Arduino Signal Name  |  TC275T Pin Assignment  |
+|----------------------|-------------------------|
+| Analog pin 0         |  SAR4.7/P32.3           |
+| Digital pin 2 (PWM)  |  P2.0                   |
+
+</br>
+</br>
+
+### schematic diagram 
+![image](https://github.com/user-attachments/assets/e86b638a-d4fc-4b73-82d0-1e74b14e6183)
+
+
+
+### conf.oil setting
+```cpp
+    ISR ButtonISR {
+        CATEGORY = 2;
+        SOURCE = "SCUERU0";
+        PRIORITY = 10;
+    };
+```
+
+### asw.c setting
+```cpp
+    ISR2(ButtonISR)
+    {
+        unsigned int buttonState;
+        DisableAllInterrupts();
+        osEE_tc_delay(5000);
+        printfSerial("interuppt");
+        buttonState = readLcdButtons();
+
+        osEE_tc_delay(3000);
+        EnableAllInterrupts();
+    }
+```
+
+### SW function
+- readLcdButtons(void) : A0 에서 읽은 핀에 대한 값을 버튼번호로 매핑하여 반환
+
+### return value
+| A0 value             |  return value           |
+|----------------------|-------------------------|
+| A0 < 100             |  btnUP     0            |
+| A0 < 1000            |  btnDOWN   1            |
+| A0 < 2500            |  btnLEFT   2            |
+| A0 < 3500            |  btnRIGHT  3            |
+| A0 >= 4000           |  btnNONE   4            |
+
+
+---
+## infotainment system
+
+
+
+
+## 📡 Task scheduling diagram 
 ![TC275 Task Scheduling Diagram](./figure/esp32_arduino_settings.png)
 ---
 
-### 📡 Hardware Spec
-
----
 
 
-### 📦 UART Packet Format
+
+## 📦 UART Packet Format
 
 | Field            | Size (bytes) | Description                        |
 |------------------|---------------|------------------------------------|
