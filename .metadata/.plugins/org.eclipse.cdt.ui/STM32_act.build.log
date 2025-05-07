@@ -1,17 +1,10 @@
-17:22:20 **** Incremental Build of configuration Debug for project STM32_act ****
+13:50:54 **** Incremental Build of configuration Debug for project STM32_act ****
 make -j12 all 
-arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xB -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
-arm-none-eabi-gcc -o "STM32_act.elf" @"objects.list"   -mcpu=cortex-m3 -T"C:\proj_autoever\TunnelMate\STM32_act\STM32F103RBTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="STM32_act.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
-Finished building target: STM32_act.elf
- 
 arm-none-eabi-size  STM32_act.elf 
-arm-none-eabi-objdump -h -S STM32_act.elf  > "STM32_act.list"
    text	   data	    bss	    dec	    hex	filename
-  16456	    128	   2480	  19064	   4a78	STM32_act.elf
+  17564	    128	   2488	  20180	   4ed4	STM32_act.elf
 Finished building: default.size.stdout
  
-Finished building: STM32_act.list
- 
 
-17:22:21 Build Finished. 0 errors, 0 warnings. (took 1s.132ms)
+13:50:55 Build Finished. 0 errors, 0 warnings. (took 666ms)
 

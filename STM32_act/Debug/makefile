@@ -60,8 +60,8 @@ all: main-build
 main-build: STM32_act.elf secondary-outputs
 
 # Tool invocations
-STM32_act.elf STM32_act.map: $(OBJS) $(USER_OBJS) C:\project\TunnelMate\STM32_act\STM32F103RBTX_FLASH.ld makefile objects.list $(OPTIONAL_TOOL_DEPS)
-	arm-none-eabi-gcc -o "STM32_act.elf" @"objects.list" $(USER_OBJS) $(LIBS) -mcpu=cortex-m3 -T"C:\project\TunnelMate\STM32_act\STM32F103RBTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="STM32_act.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+STM32_act.elf STM32_act.map: $(OBJS) $(USER_OBJS) C:\proj_autoever\TunnelMate\STM32_act\STM32F103RBTX_FLASH.ld makefile objects.list $(OPTIONAL_TOOL_DEPS)
+	arm-none-eabi-gcc -o "STM32_act.elf" @"objects.list" $(USER_OBJS) $(LIBS) -mcpu=cortex-m3 -T"C:\proj_autoever\TunnelMate\STM32_act\STM32F103RBTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="STM32_act.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
 	@echo 'Finished building target: $@'
 	@echo ' '
 
