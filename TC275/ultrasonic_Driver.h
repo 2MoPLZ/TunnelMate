@@ -22,18 +22,6 @@
 #include "illd\src\ConfigurationIsr.h"
 #include "illd\src\Configuration.h"
 
-#include "illd/Libraries/iLLD/TC27D/Tricore/Cpu/Std/Ifx_Types.h"
-#include "illd/Libraries/iLLD/TC27D/Tricore/Cpu/Std/IfxCpu.h"
-#include "illd/Libraries/iLLD/TC27D/Tricore/Scu/Std/IfxScuWdt.h"
-
-#include "illd/Libraries/iLLD/TC27D/Tricore/Cpu/Irq/IfxCpu_Irq.h"
-#include "illd/Libraries/iLLD/TC27D/Tricore/Stm/Std/IfxStm.h"
-
-#include "illd\Libraries\iLLD\TC27D\Tricore\Port\Std\IfxPort.h"
-
-#include "illd\Libraries\iLLD\TC27D\Tricore\Scu\Std\IfxScuEru.h"
-
-
 #define TRIG_PIN    &MODULE_P10, 1    // P10.1 (D12 on shield)
 #define ECHO_PIN    &MODULE_P10, 2    // P10.2 (D13 on shield)
 

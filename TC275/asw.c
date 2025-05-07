@@ -1,4 +1,19 @@
 #include "bsw.h"
+#include "uart_Driver.h"
+
+struct ActuatorPacket sendActuatorPkt = {
+    .start_byte = 0xAA,
+    .packet_id = 0x01,
+    .led_rgb = 7, // red=1, green = 1, blue=1
+    .fan = 2,
+    .led = 1,
+    .buzzer = 0,
+    .driving_mode = 7,
+    .servo_chair = 0,
+    .servo_window = 2048,
+    .servo_air = 2048
+};
+
 
 ISR2(ButtonISR)
 {
@@ -26,23 +41,10 @@ ISR2(TimerISR)
     /************** ONE-TIME-TASK ********************/
 
     // code for packet uart send test//
-    if (c == 1)
+    if (c % 2 == 1)
     {
-        struct ActuatorPacket sendActuatorPkt = {
-            .start_byte = 0xAA,
-            .packet_id = 0x01,
-            .led_rgb = 7, // red=1, green = 1, blue=1
-            .fan = 2,
-            .led = 1,
-            .buzzer = 0,
-            .driving_mode = 7,
-            .servo_chair = 1024,
-            .servo_window = 2048,
-            .servo_air = 2048};
-
-        
         sendActuatorPacket(&sendActuatorPkt);
-        printfSerial("ActuatorPacket sent...");
+        printfSerial("ActuatorPacket sent, chair=%d...",sendActuatorPkt.servo_chair++);
 
         // struct SensorPacket sendSensorPkt = {
         //     .start_byte = 0xAA,
@@ -50,25 +52,18 @@ ISR2(TimerISR)
         //     .photo = 2048,
         //     .ultra_sonic1 = 33333,
         //     .ultra_sonic2 = 44444};
-        
-    }
-    if (c == 3)
-    {
-        struct ActuatorPacket recievedActuatorPkt;
-        readActuatorPacket(recievedActuatorPkt);
-        printfSerial("ActuatorPacket recieved...");
 
         printfSerial("\n[ start:%02x id:%02x led:%d fan:%d buzz:%d led:%d mode:%d chair:%d window:%d air:%d ]",
-            recievedActuatorPkt.start_byte,
-            recievedActuatorPkt.packet_id,
-            recievedActuatorPkt.led_rgb,
-            recievedActuatorPkt.fan,
-            recievedActuatorPkt.led,
-            recievedActuatorPkt.buzzer,
-            recievedActuatorPkt.driving_mode,
-            recievedActuatorPkt.servo_chair,
-            recievedActuatorPkt.servo_window,
-            recievedActuatorPkt.servo_air);
+            g_RecievedActuatorPacket.start_byte,
+            g_RecievedActuatorPacket.packet_id,
+            g_RecievedActuatorPacket.led_rgb,
+            g_RecievedActuatorPacket.fan,
+            g_RecievedActuatorPacket.led,
+            g_RecievedActuatorPacket.buzzer,
+            g_RecievedActuatorPacket.driving_mode,
+            g_RecievedActuatorPacket.servo_chair,
+            g_RecievedActuatorPacket.servo_window,
+            g_RecievedActuatorPacket.servo_air);   
     }
     // code for packet uart send test end//
 

@@ -49,21 +49,12 @@ IfxVadc_cfg_srcAddresses:
 	.word	-268203332
 .section .text,"ax",@progbits
 .Letext0:
-<<<<<<< HEAD
-	.file 1 "C:\\Users\\USER\\Desktop\\WORKSP~1\\TUNNEL~1\\TC275/illd\\Libraries\\Infra\\Sfr\\TC27D\\_Reg\\IfxSrc_regdef.h"
-	.file 2 "C:\\Users\\USER\\Desktop\\WORKSP~1\\TUNNEL~1\\TC275/illd\\Libraries\\iLLD\\TC27D\\Tricore\\Cpu\\Std\\Platform_Types.h"
-	.file 3 "C:\\Users\\USER\\Desktop\\WORKSP~1\\TUNNEL~1\\TC275\\illd\\Libraries\\iLLD\\TC27D\\Tricore\\_Impl\\IfxVadc_cfg.c"
+	.file 1 "C:\\TUNNEL~1\\TC275/illd\\Libraries\\Infra\\Sfr\\TC27D\\_Reg\\IfxSrc_regdef.h"
+	.file 2 "C:\\TUNNEL~1\\TC275/illd\\Libraries\\iLLD\\TC27D\\Tricore\\Cpu\\Std\\Platform_Types.h"
+	.file 3 "C:\\TUNNEL~1\\TC275\\illd\\Libraries\\iLLD\\TC27D\\Tricore\\_Impl\\IfxVadc_cfg.c"
 .section .debug_info,"",@progbits
 .Ldebug_info0:
-	.uaword	0x40a
-=======
-	.file 1 "C:\\Users\\USER\\OneDrive\\Desktop\\tunnel\\TUNNEL~1\\TC275/illd\\Libraries\\Infra\\Sfr\\TC27D\\_Reg\\IfxSrc_regdef.h"
-	.file 2 "C:\\Users\\USER\\OneDrive\\Desktop\\tunnel\\TUNNEL~1\\TC275/illd\\Libraries\\iLLD\\TC27D\\Tricore\\Cpu\\Std\\Platform_Types.h"
-	.file 3 "C:\\Users\\USER\\OneDrive\\Desktop\\tunnel\\TUNNEL~1\\TC275\\illd\\Libraries\\iLLD\\TC27D\\Tricore\\_Impl\\IfxVadc_cfg.c"
-.section .debug_info,"",@progbits
-.Ldebug_info0:
-	.uaword	0x411
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x3ee
 	.uahalf	0x3
 	.uaword	.Ldebug_abbrev0
 	.byte	0x4
@@ -71,11 +62,7 @@ IfxVadc_cfg_srcAddresses:
 	.ascii	"GNU C 4.9."
 	.string	"4 build on 2019-06-07 -mlicense-dir=c:\\hightec\\toolchains\\tricore\\v4.9.3.0-infineon-1.0\\bin\\../lib/gcc/tricore/4.9.4/../../../../licenses -mcpu=tc27xx -g -Os -fno-common -fshort-enums -fstrict-volatile-bitfields -finline-functions -fzero-initialized-in-bss"
 	.byte	0x1
-<<<<<<< HEAD
-	.string	"C:\\Users\\USER\\Desktop\\WORKSP~1\\TUNNEL~1\\TC275\\illd\\Libraries\\iLLD\\TC27D\\Tricore\\_Impl\\IfxVadc_cfg.c"
-=======
-	.string	"C:\\Users\\USER\\OneDrive\\Desktop\\tunnel\\TUNNEL~1\\TC275\\illd\\Libraries\\iLLD\\TC27D\\Tricore\\_Impl\\IfxVadc_cfg.c"
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.string	"C:\\TUNNEL~1\\TC275\\illd\\Libraries\\iLLD\\TC27D\\Tricore\\_Impl\\IfxVadc_cfg.c"
 	.uaword	.Ldebug_line0
 	.uleb128 0x2
 	.byte	0x4
@@ -101,11 +88,7 @@ IfxVadc_cfg_srcAddresses:
 	.string	"uint32"
 	.byte	0x2
 	.byte	0x74
-<<<<<<< HEAD
-	.uaword	0x18c
-=======
-	.uaword	0x193
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x170
 	.uleb128 0x2
 	.byte	0x8
 	.byte	0x7
@@ -139,20 +122,12 @@ IfxVadc_cfg_srcAddresses:
 	.byte	0x4
 	.byte	0x1
 	.byte	0x3f
-<<<<<<< HEAD
-	.uaword	0x364
-=======
-	.uaword	0x36b
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x348
 	.uleb128 0x5
 	.string	"SRPN"
 	.byte	0x1
 	.byte	0x41
-<<<<<<< HEAD
-	.uaword	0x364
-=======
-	.uaword	0x36b
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x348
 	.byte	0x4
 	.byte	0x8
 	.byte	0x18
@@ -161,11 +136,7 @@ IfxVadc_cfg_srcAddresses:
 	.string	"reserved_8"
 	.byte	0x1
 	.byte	0x42
-<<<<<<< HEAD
-	.uaword	0x364
-=======
-	.uaword	0x36b
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x348
 	.byte	0x4
 	.byte	0x2
 	.byte	0x16
@@ -174,11 +145,7 @@ IfxVadc_cfg_srcAddresses:
 	.string	"SRE"
 	.byte	0x1
 	.byte	0x43
-<<<<<<< HEAD
-	.uaword	0x364
-=======
-	.uaword	0x36b
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x348
 	.byte	0x4
 	.byte	0x1
 	.byte	0x15
@@ -187,11 +154,7 @@ IfxVadc_cfg_srcAddresses:
 	.string	"TOS"
 	.byte	0x1
 	.byte	0x44
-<<<<<<< HEAD
-	.uaword	0x364
-=======
-	.uaword	0x36b
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x348
 	.byte	0x4
 	.byte	0x2
 	.byte	0x13
@@ -200,11 +163,7 @@ IfxVadc_cfg_srcAddresses:
 	.string	"reserved_13"
 	.byte	0x1
 	.byte	0x45
-<<<<<<< HEAD
-	.uaword	0x364
-=======
-	.uaword	0x36b
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x348
 	.byte	0x4
 	.byte	0x3
 	.byte	0x10
@@ -213,11 +172,7 @@ IfxVadc_cfg_srcAddresses:
 	.string	"ECC"
 	.byte	0x1
 	.byte	0x46
-<<<<<<< HEAD
-	.uaword	0x364
-=======
-	.uaword	0x36b
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x348
 	.byte	0x4
 	.byte	0x6
 	.byte	0xa
@@ -226,11 +181,7 @@ IfxVadc_cfg_srcAddresses:
 	.string	"reserved_22"
 	.byte	0x1
 	.byte	0x47
-<<<<<<< HEAD
-	.uaword	0x364
-=======
-	.uaword	0x36b
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x348
 	.byte	0x4
 	.byte	0x2
 	.byte	0x8
@@ -239,11 +190,7 @@ IfxVadc_cfg_srcAddresses:
 	.string	"SRR"
 	.byte	0x1
 	.byte	0x48
-<<<<<<< HEAD
-	.uaword	0x364
-=======
-	.uaword	0x36b
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x348
 	.byte	0x4
 	.byte	0x1
 	.byte	0x7
@@ -252,11 +199,7 @@ IfxVadc_cfg_srcAddresses:
 	.string	"CLRR"
 	.byte	0x1
 	.byte	0x49
-<<<<<<< HEAD
-	.uaword	0x364
-=======
-	.uaword	0x36b
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x348
 	.byte	0x4
 	.byte	0x1
 	.byte	0x6
@@ -265,11 +208,7 @@ IfxVadc_cfg_srcAddresses:
 	.string	"SETR"
 	.byte	0x1
 	.byte	0x4a
-<<<<<<< HEAD
-	.uaword	0x364
-=======
-	.uaword	0x36b
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x348
 	.byte	0x4
 	.byte	0x1
 	.byte	0x5
@@ -278,11 +217,7 @@ IfxVadc_cfg_srcAddresses:
 	.string	"IOV"
 	.byte	0x1
 	.byte	0x4b
-<<<<<<< HEAD
-	.uaword	0x364
-=======
-	.uaword	0x36b
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x348
 	.byte	0x4
 	.byte	0x1
 	.byte	0x4
@@ -291,11 +226,7 @@ IfxVadc_cfg_srcAddresses:
 	.string	"IOVCLR"
 	.byte	0x1
 	.byte	0x4c
-<<<<<<< HEAD
-	.uaword	0x364
-=======
-	.uaword	0x36b
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x348
 	.byte	0x4
 	.byte	0x1
 	.byte	0x3
@@ -304,11 +235,7 @@ IfxVadc_cfg_srcAddresses:
 	.string	"SWS"
 	.byte	0x1
 	.byte	0x4d
-<<<<<<< HEAD
-	.uaword	0x364
-=======
-	.uaword	0x36b
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x348
 	.byte	0x4
 	.byte	0x1
 	.byte	0x2
@@ -317,11 +244,7 @@ IfxVadc_cfg_srcAddresses:
 	.string	"SWSCLR"
 	.byte	0x1
 	.byte	0x4e
-<<<<<<< HEAD
-	.uaword	0x364
-=======
-	.uaword	0x36b
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x348
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1
@@ -330,11 +253,7 @@ IfxVadc_cfg_srcAddresses:
 	.string	"reserved_31"
 	.byte	0x1
 	.byte	0x4f
-<<<<<<< HEAD
-	.uaword	0x364
-=======
-	.uaword	0x36b
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x348
 	.byte	0x4
 	.byte	0x1
 	.byte	0
@@ -348,94 +267,55 @@ IfxVadc_cfg_srcAddresses:
 	.string	"Ifx_SRC_SRCR_Bits"
 	.byte	0x1
 	.byte	0x50
-<<<<<<< HEAD
-	.uaword	0x23f
-=======
-	.uaword	0x246
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x223
 	.uleb128 0x6
 	.byte	0x4
 	.byte	0x1
 	.byte	0x58
-<<<<<<< HEAD
-	.uaword	0x3b1
-=======
-	.uaword	0x3b8
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x395
 	.uleb128 0x7
 	.string	"U"
 	.byte	0x1
 	.byte	0x5a
-<<<<<<< HEAD
-	.uaword	0x364
-=======
-	.uaword	0x36b
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x348
 	.uleb128 0x7
 	.string	"I"
 	.byte	0x1
 	.byte	0x5b
-<<<<<<< HEAD
-	.uaword	0x1a1
-=======
-	.uaword	0x1a8
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x185
 	.uleb128 0x7
 	.string	"B"
 	.byte	0x1
 	.byte	0x5c
-<<<<<<< HEAD
-	.uaword	0x374
-=======
-	.uaword	0x37b
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x358
 	.byte	0
 	.uleb128 0x3
 	.string	"Ifx_SRC_SRCR"
 	.byte	0x1
 	.byte	0x5d
-<<<<<<< HEAD
-	.uaword	0x38d
-=======
-	.uaword	0x394
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x371
 	.uleb128 0x2
 	.byte	0x4
 	.byte	0x7
 	.string	"sizetype"
 	.uleb128 0x8
-<<<<<<< HEAD
-	.uaword	0x1cf
-	.uaword	0x3e1
-	.uleb128 0x9
+	.uaword	0x1b3
 	.uaword	0x3c5
-=======
-	.uaword	0x1d6
-	.uaword	0x3e8
 	.uleb128 0x9
-	.uaword	0x3cc
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x3a9
 	.byte	0x27
 	.byte	0
 	.uleb128 0xa
 	.string	"IfxVadc_cfg_srcAddresses"
 	.byte	0x3
 	.byte	0x34
-<<<<<<< HEAD
-	.uaword	0x408
-=======
-	.uaword	0x40f
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x3ec
 	.byte	0x1
 	.byte	0x5
 	.byte	0x3
 	.uaword	IfxVadc_cfg_srcAddresses
 	.uleb128 0xb
-<<<<<<< HEAD
-	.uaword	0x3d1
-=======
-	.uaword	0x3d8
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x3b5
 	.byte	0
 .section .debug_abbrev,"",@progbits
 .Ldebug_abbrev0:
