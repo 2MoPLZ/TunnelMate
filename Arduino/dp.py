@@ -23,23 +23,24 @@ def create_table():
         connection = get_connection()
         with connection.cursor() as cursor:
             sql = """
-            CREATE TABLE IF NOT EXISTS sensor_data (
+            CREATE TABLE IF NOT EXISTS actuator_data (
                 id INT AUTO_INCREMENT PRIMARY KEY,
                 mac_address VARCHAR(20),
                 led_rgb TINYINT UNSIGNED,
+                fan TINYINT UNSIGNED,
+                led TINYINT,
+                buzzer TINYINT,
+                driving_mode TINYINT UNSIGNED,
                 servo_chair SMALLINT UNSIGNED,
                 servo_window SMALLINT UNSIGNED,
-                fan TINYINT UNSIGNED,
-                led TINYINT(1),
-                buzzer TINYINT(1),
-                darkmode TINYINT(1),
-                setting TINYINT UNSIGNED,
-                created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+                servo_air SMALLINT UNSIGNED,
+                created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+                updated_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP
             );
             """
             cursor.execute(sql)
             connection.commit()
-            print("✅ Table 'sensor_data' created or already exists.")
+            print("✅ Table 'actuator_data' created or already exists.")
     except Exception as e:
         print(f"Error creating table: {e}")
     finally:
@@ -50,12 +51,26 @@ def insert_data(mac_address, data):
         connection = get_connection()
         with connection.cursor() as cursor:
             sql = """
-            INSERT INTO sensor_data (
-                mac_address, led_rgb, servo_chair, servo_window,
-                fan, led, buzzer, darkmode, setting
+            INSERT INTO actuator_data (
+                mac_address, 
+                led_rgb, 
+                fan, 
+                led, 
+                buzzer, 
+                driving_mode,
+                servo_chair,
+                servo_window,
+                servo_air
             ) VALUES (
-                %(mac_address)s, %(led_rgb)s, %(servo_chair)s, %(servo_window)s,
-                %(fan)s, %(led)s, %(buzzer)s, %(darkmode)s, %(setting)s
+                %(mac_address)s, 
+                %(led_rgb)s, 
+                %(fan)s, 
+                %(led)s, 
+                %(buzzer)s, 
+                %(driving_mode)s, 
+                %(servo_chair)s,
+                %(servo_window)s,
+                %(servo_air)s
             )
             """
             data["mac_address"] = mac_address
@@ -70,7 +85,7 @@ def select_data(mac_address):
     try:
         connection = get_connection()
         with connection.cursor() as cursor:
-            sql = "SELECT * FROM sensor_data WHERE mac_address = %s ORDER BY created_at DESC LIMIT 1"
+            sql = "SELECT * FROM actuator_data WHERE mac_address = %s ORDER BY created_at DESC LIMIT 1"
             cursor.execute(sql, (mac_address,))
             return cursor.fetchone()
     except Exception as e:
@@ -84,7 +99,7 @@ def update_data(mac_address, new_data):
         connection = get_connection()
         with connection.cursor() as cursor:
             # 가장 최신 레코드만 업데이트
-            sql_id = "SELECT id FROM sensor_data WHERE mac_address = %s ORDER BY created_at DESC LIMIT 1"
+            sql_id = "SELECT id FROM actuator_data WHERE mac_address = %s ORDER BY created_at DESC LIMIT 1"
             cursor.execute(sql_id, (mac_address,))
             row = cursor.fetchone()
             if not row:
@@ -93,7 +108,7 @@ def update_data(mac_address, new_data):
             record_id = row["id"]
 
             fields = ", ".join([f"{key} = %({key})s" for key in new_data])
-            sql = f"UPDATE sensor_data SET {fields} WHERE id = {record_id}"
+            sql = f"UPDATE actuator_data SET {fields} WHERE id = {record_id}"
             cursor.execute(sql, new_data)
             connection.commit()
     except Exception as e:
