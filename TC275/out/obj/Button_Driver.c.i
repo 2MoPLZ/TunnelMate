@@ -20797,7 +20797,7 @@ typedef struct
 } ERUconfig;
 # 16 "C:\\Users\\USER\\Desktop\\WORKSP~1\\TUNNEL~1\\TC275\\Button_Driver.h" 2
 # 25 "C:\\Users\\USER\\Desktop\\WORKSP~1\\TUNNEL~1\\TC275\\Button_Driver.h"
-int readLcdButtons();
+int readLcdButtons(void);
 # 2 "C:\\Users\\USER\\Desktop\\WORKSP~1\\TUNNEL~1\\TC275\\Button_Driver.c" 2
 # 1 "C:\\Users\\USER\\Desktop\\WORKSP~1\\TUNNEL~1\\TC275\\bsw.h" 1
 
@@ -22477,7 +22477,6 @@ void initPeripheralsAndERU(void);
 void initADC(void);
 uint16 readADCValue(uint8 channel);
 # 3 "C:\\Users\\USER\\Desktop\\WORKSP~1\\TUNNEL~1\\TC275\\Button_Driver.c" 2
-
 
 
 int readLcdButtons(void)

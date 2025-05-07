@@ -2,7 +2,6 @@
 #include "bsw.h"
 
 
-
 int readLcdButtons(void)
 {
     unsigned adc_key_in;

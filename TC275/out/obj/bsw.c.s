@@ -24,26 +24,26 @@
 UART_init:
 .LFB576:
 	.file 1 "C:\\Users\\USER\\Desktop\\WORKSP~1\\TUNNEL~1\\TC275\\bsw.c"
-	.loc 1 44 0
+	.loc 1 45 0
 	sub.a	%SP, 96
 .LCFI0:
-	.loc 1 47 0
+	.loc 1 48 0
 	lea	%a4, [%SP] 36
 	lea	%a5, -268433152
-	.loc 1 48 0
+	.loc 1 49 0
 	mov	%d15, 1
-	.loc 1 47 0
+	.loc 1 48 0
 	call	IfxAsclin_Asc_initModuleConfig
 .LVL0:
-	.loc 1 48 0
-	st.h	[%SP] 44, %d15
 	.loc 1 49 0
+	st.h	[%SP] 44, %d15
+	.loc 1 50 0
 	movh	%d15, 18401
 	st.w	[%SP] 40, %d15
-	.loc 1 50 0
+	.loc 1 51 0
 	mov	%d15, 3
 	st.b	[%SP] 46, %d15
-	.loc 1 52 0
+	.loc 1 53 0
 	mov	%d15, 19
 	st.h	[%SP] 64, %d15
 .LBB70:
@@ -60,7 +60,7 @@ UART_init:
 .LBE72:
 .LBE71:
 .LBE70:
-	.loc 1 59 0
+	.loc 1 60 0
 	movh	%d2, hi:.LC0
 	mov.a	%a3, %d2
 .LBB74:
@@ -70,38 +70,38 @@ UART_init:
 .LVL2:
 .LBE73:
 .LBE74:
-	.loc 1 59 0
+	.loc 1 60 0
 	lea	%a15, [%SP] 4
 	mov.aa	%a4, %a15
 	lea	%a2, [%a3] lo:.LC0
-	.loc 1 54 0
+	.loc 1 55 0
 	st.b	[%SP] 70, %d15
-	.loc 1 59 0
+	.loc 1 60 0
 		# #chunks=4, chunksize=8, remains=0
 	lea	%a3, 4-1
 	0:
 	ld.d	%e2, [%a2+]8
 	st.d	[%a4+]8, %e2
 	loop	%a3, 0b
-	.loc 1 56 0
+	.loc 1 57 0
 	movh	%d15, hi:g_AsclinAsc
 .LVL3:
 	addi	%d15, %d15, lo:g_AsclinAsc
-	.loc 1 68 0
+	.loc 1 69 0
 	movh.a	%a4, hi:g_AsclinAsc+596
-	.loc 1 56 0
+	.loc 1 57 0
 	st.w	[%SP] 80, %d15
-	.loc 1 68 0
+	.loc 1 69 0
 	lea	%a4, [%a4] lo:g_AsclinAsc+596
-	.loc 1 57 0
+	.loc 1 58 0
 	mov	%d15, 258
-	.loc 1 68 0
+	.loc 1 69 0
 	lea	%a5, [%SP] 36
-	.loc 1 57 0
+	.loc 1 58 0
 	st.h	[%SP] 78, %d15
-	.loc 1 66 0
+	.loc 1 67 0
 	st.a	[%SP] 72, %a15
-	.loc 1 68 0
+	.loc 1 69 0
 	j	IfxAsclin_Asc_initModule
 .LVL4:
 .LFE576:
@@ -111,16 +111,16 @@ UART_init:
 	.type	printfSerial, @function
 printfSerial:
 .LFB577:
-	.loc 1 74 0
+	.loc 1 75 0
 .LVL5:
 	sub.a	%SP, 232
 .LCFI1:
-	.loc 1 74 0
-	mov.aa	%a15, %a4
 	.loc 1 75 0
+	mov.aa	%a15, %a4
+	.loc 1 76 0
 	call	EnableAllInterrupts
 .LVL6:
-	.loc 1 79 0
+	.loc 1 80 0
 	mov.aa	%a5, %a15
 	lea	%a4, [%SP] 104
 	mov	%d4, 128
@@ -128,7 +128,7 @@ printfSerial:
 .LVL7:
 	call	vsnprintf
 .LVL8:
-	.loc 1 83 0
+	.loc 1 84 0
 	lea	%a4, [%SP] 104
 	call	strlen
 .LVL9:
@@ -137,29 +137,29 @@ printfSerial:
 	lea	%a15, [%a15] lo:g_AsclinAsc
 	st.h	[%a15] 634, %d2
 .LVL11:
-	.loc 1 84 0
+	.loc 1 85 0
 	mov	%d15, 0
 .LVL12:
 .L3:
-	.loc 1 85 0 discriminator 1
+	.loc 1 86 0 discriminator 1
 	lea	%a4, [%SP] 104
 	call	strlen
 .LVL13:
 	jge.u	%d15, %d2, .L6
-	.loc 1 86 0 discriminator 2
+	.loc 1 87 0 discriminator 2
 	lea	%a3, [%SP] 4
 	addsc.a	%a2, %a3, %d15, 0
 	lea	%a3, [%SP] 104
 	addsc.a	%a15, %a3, %d15, 0
-	.loc 1 85 0 discriminator 2
+	.loc 1 86 0 discriminator 2
 	add	%d15, 1
 .LVL14:
-	.loc 1 86 0 discriminator 2
+	.loc 1 87 0 discriminator 2
 	ld.bu	%d2, [%a15]0
 	st.b	[%a2]0, %d2
 	j	.L3
 .L6:
-	.loc 1 89 0
+	.loc 1 90 0
 	movh.a	%a4, hi:g_AsclinAsc+596
 	movh.a	%a6, hi:g_AsclinAsc+634
 	mov	%d4, -1
@@ -177,7 +177,7 @@ printfSerial:
 	.type	mdelay, @function
 mdelay:
 .LFB578:
-	.loc 1 93 0
+	.loc 1 94 0
 .LVL16:
 .LBB75:
 .LBB76:
@@ -186,7 +186,7 @@ mdelay:
 	ld.w	%d10, 0xf0000010
 .LBE76:
 .LBE75:
-	.loc 1 93 0
+	.loc 1 94 0
 	mov	%d11, %d4
 .LBB79:
 .LBB77:
@@ -216,7 +216,7 @@ mdelay:
 .LVL18:
 .LBE78:
 .LBE96:
-	.loc 1 94 0
+	.loc 1 95 0
 	mov	%e4, %d12, %d10
 .LBB97:
 .LBB92:
@@ -228,7 +228,7 @@ mdelay:
 .LBE88:
 .LBE92:
 .LBE97:
-	.loc 1 94 0
+	.loc 1 95 0
 	or	%d5, %d9
 .LBB98:
 .LBB93:
@@ -240,7 +240,7 @@ mdelay:
 .LBE89:
 .LBE93:
 .LBE98:
-	.loc 1 94 0
+	.loc 1 95 0
 	call	__floatundisf
 .LVL19:
 .LBB99:
@@ -253,7 +253,7 @@ mdelay:
 .LBE90:
 .LBE94:
 .LBE99:
-	.loc 1 94 0
+	.loc 1 95 0
 	movh	%d10, 17530
 .LBB100:
 .LBB95:
@@ -275,12 +275,12 @@ mdelay:
 .LBE103:
 .LBE102:
 .LBE101:
-	.loc 1 94 0
+	.loc 1 95 0
 	div.f	%d15, %d15, %d10
 	div.f	%d2, %d2, %d15
-	.loc 1 97 0
+	.loc 1 98 0
 	mov	%d14, %d10
-	.loc 1 94 0
+	.loc 1 95 0
 	ftouz	%d15, %d2
 .LVL20:
 .LBB117:
@@ -304,7 +304,7 @@ mdelay:
 .LBE121:
 .LBE120:
 .LBE119:
-	.loc 1 96 0
+	.loc 1 97 0
 	mov	%d4, 20
 	div.u	%e4, %d11, %d4
 .LBB126:
@@ -318,10 +318,10 @@ mdelay:
 .LBE124:
 .LBE125:
 .LBE126:
-	.loc 1 95 0
+	.loc 1 96 0
 	mov	%d11, 0
 .LVL25:
-	.loc 1 96 0
+	.loc 1 97 0
 	mov	%d13, %d4
 .LVL26:
 .L9:
@@ -366,7 +366,7 @@ mdelay:
 .LBE110:
 .LBE114:
 .LBE132:
-	.loc 1 97 0
+	.loc 1 98 0
 	mov	%d4, %d12
 	or	%d5, %d9
 .LBB133:
@@ -381,7 +381,7 @@ mdelay:
 .LBE111:
 .LBE115:
 .LBE133:
-	.loc 1 97 0
+	.loc 1 98 0
 	call	__floatundisf
 .LVL31:
 .LBB134:
@@ -397,11 +397,11 @@ mdelay:
 .LBE112:
 .LBE116:
 .LBE134:
-	.loc 1 97 0
+	.loc 1 98 0
 	div.f	%d8, %d8, %d10
 	div.f	%d2, %d2, %d8
 	ftouz	%d2, %d2
-	.loc 1 98 0
+	.loc 1 99 0
 	sub	%d2, %d15
 	lt.u	%d2, %d2, 20
 	jnz	%d2, .L9
@@ -456,7 +456,7 @@ mdelay:
 .LBE149:
 .LBE154:
 .LBE161:
-	.loc 1 100 0
+	.loc 1 101 0
 	mov	%d4, %d12
 	or	%d5, %d9
 .LBB162:
@@ -469,7 +469,7 @@ mdelay:
 .LBE150:
 .LBE155:
 .LBE162:
-	.loc 1 100 0
+	.loc 1 101 0
 	call	__floatundisf
 .LVL34:
 .LBB163:
@@ -482,7 +482,7 @@ mdelay:
 .LBE151:
 .LBE156:
 .LBE163:
-	.loc 1 99 0
+	.loc 1 100 0
 	add	%d11, 1
 .LVL35:
 .LBB164:
@@ -495,7 +495,7 @@ mdelay:
 .LBE152:
 .LBE157:
 .LBE164:
-	.loc 1 100 0
+	.loc 1 101 0
 	div.f	%d15, %d15, %d14
 	div.f	%d2, %d2, %d15
 	ftouz	%d15, %d2
@@ -503,7 +503,7 @@ mdelay:
 	j	.L9
 .LVL37:
 .L12:
-	.loc 1 103 0
+	.loc 1 104 0
 	ret
 .LFE578:
 	.size	mdelay, .-mdelay
@@ -512,15 +512,15 @@ mdelay:
 	.type	initVADCModule, @function
 initVADCModule:
 .LFB580:
-	.loc 1 118 0
+	.loc 1 119 0
 	sub.a	%SP, 40
 .LCFI2:
-	.loc 1 120 0
+	.loc 1 121 0
 	lea	%a4, [%SP] 4
 	movh.a	%a5, 61442
 	call	IfxVadc_Adc_initModuleConfig
 .LVL38:
-	.loc 1 121 0
+	.loc 1 122 0
 	movh.a	%a4, hi:g_vadc
 	lea	%a4, [%a4] lo:g_vadc
 	lea	%a5, [%SP] 4
@@ -533,36 +533,36 @@ initVADCModule:
 	.type	initVADCGroup, @function
 initVADCGroup:
 .LFB581:
-	.loc 1 126 0
+	.loc 1 127 0
 	sub.a	%SP, 56
 .LCFI3:
-	.loc 1 128 0
+	.loc 1 129 0
 	movh.a	%a5, hi:g_vadc
 	mov.aa	%a4, %SP
 	lea	%a5, [%a5] lo:g_vadc
 	call	IfxVadc_Adc_initGroupConfig
 .LVL40:
-	.loc 1 130 0
-	mov	%d15, 4
-	.loc 1 140 0
-	movh.a	%a4, hi:g_vadcGroup
-	.loc 1 130 0
-	st.b	[%SP] 4, %d15
 	.loc 1 131 0
+	mov	%d15, 4
+	.loc 1 141 0
+	movh.a	%a4, hi:g_vadcGroup
+	.loc 1 131 0
+	st.b	[%SP] 4, %d15
+	.loc 1 132 0
 	st.b	[%SP] 5, %d15
-	.loc 1 140 0
+	.loc 1 141 0
 	lea	%a4, [%a4] lo:g_vadcGroup
-	.loc 1 134 0
-	mov	%d15, 1
-	.loc 1 140 0
-	mov.aa	%a5, %SP
-	.loc 1 134 0
-	st.b	[%SP] 53, %d15
 	.loc 1 135 0
+	mov	%d15, 1
+	.loc 1 141 0
+	mov.aa	%a5, %SP
+	.loc 1 135 0
+	st.b	[%SP] 53, %d15
+	.loc 1 136 0
 	st.b	[%SP] 40, %d15
-	.loc 1 138 0
+	.loc 1 139 0
 	st.b	[%SP] 44, %d15
-	.loc 1 140 0
+	.loc 1 141 0
 	j	IfxVadc_Adc_initGroup
 .LVL41:
 .LFE581:
@@ -572,12 +572,12 @@ initVADCGroup:
 	.type	initVADCChannels, @function
 initVADCChannels:
 .LFB582:
-	.loc 1 145 0
+	.loc 1 146 0
 .LVL42:
 .LBB165:
-	.loc 1 151 0
+	.loc 1 152 0
 	movh.a	%a14, hi:g_vadcGroup
-	.loc 1 154 0
+	.loc 1 155 0
 	movh	%d11, hi:g_vadcChannelIDs
 	movh	%d10, hi:g_vadcChannel
 .LBB166:
@@ -588,17 +588,17 @@ initVADCChannels:
 .LBE167:
 .LBE166:
 .LBE165:
-	.loc 1 145 0
+	.loc 1 146 0
 	sub.a	%SP, 96
 .LCFI4:
-	.loc 1 145 0
+	.loc 1 146 0
 	mov	%d15, 0
 .LBB174:
-	.loc 1 151 0
+	.loc 1 152 0
 	lea	%a14, [%a14] lo:g_vadcGroup
-	.loc 1 154 0
+	.loc 1 155 0
 	addi	%d11, %d11, lo:g_vadcChannelIDs
-	.loc 1 156 0
+	.loc 1 157 0
 	mov	%d9, 1
 	addi	%d10, %d10, lo:g_vadcChannel
 .LBB172:
@@ -611,36 +611,36 @@ initVADCChannels:
 	mov.aa	%a12, %SP
 .LBE170:
 .LBE172:
-	.loc 1 151 0 discriminator 3
+	.loc 1 152 0 discriminator 3
 	mov.aa	%a5, %a14
 	mov.a	%a2, %d8
-	.loc 1 154 0 discriminator 3
+	.loc 1 155 0 discriminator 3
 	lea	%a15, [%SP] 96
 	add.a	%a12, %a2
-	.loc 1 151 0 discriminator 3
+	.loc 1 152 0 discriminator 3
 	mov.aa	%a4, %a12
 	call	IfxVadc_Adc_initChannelConfig
 .LVL44:
-	.loc 1 154 0 discriminator 3
+	.loc 1 155 0 discriminator 3
 	mov.a	%a3, %d8
-	.loc 1 160 0 discriminator 3
+	.loc 1 161 0 discriminator 3
 	mov.aa	%a5, %a12
-	.loc 1 154 0 discriminator 3
+	.loc 1 155 0 discriminator 3
 	add.a	%a15, %a3
 	mov.a	%a3, %d11
 	addsc.a	%a2, %a3, %d15, 0
-	.loc 1 155 0 discriminator 3
+	.loc 1 156 0 discriminator 3
 	st.b	[%a15] -81, %d15
-	.loc 1 154 0 discriminator 3
+	.loc 1 155 0 discriminator 3
 	ld.bu	%d2, [%a2]0
-	.loc 1 160 0 discriminator 3
+	.loc 1 161 0 discriminator 3
 	mov.a	%a2, %d10
 	addsc.a	%a4, %a2, %d15, 3
-	.loc 1 154 0 discriminator 3
+	.loc 1 155 0 discriminator 3
 	st.b	[%a15] -84, %d2
-	.loc 1 156 0 discriminator 3
+	.loc 1 157 0 discriminator 3
 	st.b	[%a15] -94, %d9
-	.loc 1 160 0 discriminator 3
+	.loc 1 161 0 discriminator 3
 	call	IfxVadc_Adc_initChannel
 .LVL45:
 	ld.a	%a2, [%a13]0
@@ -648,7 +648,7 @@ initVADCChannels:
 	add	%d15, 1
 .LVL46:
 	addsc.a	%a2, %a2, %d2, 2
-	.loc 1 163 0 discriminator 3
+	.loc 1 164 0 discriminator 3
 	ld.b	%d2, [%a15] -84
 .LBB173:
 .LBB171:
@@ -667,9 +667,9 @@ initVADCChannels:
 .LBE171:
 .LBE173:
 .LBE174:
-	.loc 1 149 0 discriminator 3
+	.loc 1 150 0 discriminator 3
 	jne	%d15, 4, .L16
-	.loc 1 169 0
+	.loc 1 170 0
 	ret
 .LFE582:
 	.size	initVADCChannels, .-initVADCChannels
@@ -678,20 +678,20 @@ initVADCChannels:
 	.type	initADC, @function
 initADC:
 .LFB579:
-	.loc 1 107 0
+	.loc 1 108 0
 .LBB175:
 .LBB176:
 	.loc 5 1288 0
 	movh.a	%a15, hi:g_vadc
 .LBE176:
 .LBE175:
-	.loc 1 108 0
+	.loc 1 109 0
 	call	initVADCModule
 .LVL49:
-	.loc 1 109 0
+	.loc 1 110 0
 	call	initVADCGroup
 .LVL50:
-	.loc 1 110 0
+	.loc 1 111 0
 	call	initVADCChannels
 .LVL51:
 .LBB180:
@@ -717,7 +717,7 @@ initADC:
 	.type	readADCValue, @function
 readADCValue:
 .LFB583:
-	.loc 1 173 0
+	.loc 1 174 0
 .LVL53:
 .LBB181:
 .LBB182:
@@ -744,9 +744,9 @@ readADCValue:
 .LBE183:
 .LBE182:
 .LBE181:
-	.loc 1 178 0 is_stmt 1 discriminator 1
+	.loc 1 179 0 is_stmt 1 discriminator 1
 	jgez	%d15, .L20
-	.loc 1 181 0
+	.loc 1 182 0
 	ret
 .LFE583:
 	.size	readADCValue, .-readADCValue
@@ -755,15 +755,15 @@ readADCValue:
 	.type	initPeripheralsAndERU, @function
 initPeripheralsAndERU:
 .LFB584:
-	.loc 1 184 0
-	.loc 1 186 0
+	.loc 1 185 0
+	.loc 1 187 0
 	movh.a	%a4, 61444
 	lea	%a4, [%a4] -8192
 	mov	%d4, 7
 	mov	%d5, 16
 	call	IfxPort_setPinMode
 .LVL57:
-	.loc 1 190 0
+	.loc 1 191 0
 	movh.a	%a15, hi:IfxScu_REQ6_P02_0_IN
 	lea	%a15, [%a15] lo:IfxScu_REQ6_P02_0_IN
 .LBB185:
@@ -777,7 +777,7 @@ initPeripheralsAndERU:
 .LBE187:
 .LBE186:
 .LBE185:
-	.loc 1 190 0
+	.loc 1 191 0
 	movh.a	%a13, hi:g_ERUconfig
 .LBB195:
 .LBB193:
@@ -790,7 +790,7 @@ initPeripheralsAndERU:
 .LBE191:
 .LBE193:
 .LBE195:
-	.loc 1 190 0
+	.loc 1 191 0
 	st.a	[%a13] lo:g_ERUconfig, %a15
 .LVL58:
 .LBB196:
@@ -810,38 +810,38 @@ initPeripheralsAndERU:
 .LVL60:
 .LBE194:
 .LBE196:
-	.loc 1 198 0
+	.loc 1 199 0
 	ld.a	%a15, [%a13] lo:g_ERUconfig
-	.loc 1 190 0
+	.loc 1 191 0
 	lea	%a12, [%a13] lo:g_ERUconfig
-	.loc 1 206 0
+	.loc 1 207 0
 	mov	%d15, 0
-	.loc 1 198 0
+	.loc 1 199 0
 	ld.bu	%d4, [%a15] 4
 	st.b	[%a12] 4, %d4
-	.loc 1 203 0
+	.loc 1 204 0
 	call	IfxScuEru_enableFallingEdgeDetection
 .LVL61:
-	.loc 1 212 0
+	.loc 1 213 0
 	ld.bu	%d4, [%a12] 4
-	.loc 1 206 0
+	.loc 1 207 0
 	st.b	[%a12] 6, %d15
-	.loc 1 208 0
+	.loc 1 209 0
 	st.b	[%a12] 5, %d15
-	.loc 1 212 0
+	.loc 1 213 0
 	call	IfxScuEru_enableTriggerPulse
 .LVL62:
-	.loc 1 214 0
+	.loc 1 215 0
 	ld.bu	%d4, [%a12] 4
 	ld.bu	%d5, [%a12] 5
 	call	IfxScuEru_connectTrigger
 .LVL63:
-	.loc 1 217 0
+	.loc 1 218 0
 	ld.bu	%d4, [%a12] 6
 	mov	%d5, 1
 	call	IfxScuEru_setInterruptGatingPattern
 .LVL64:
-	.loc 1 221 0
+	.loc 1 222 0
 	ld.bu	%d15, [%a12] 6
 	and	%d15, %d15, 3
 	sh	%d15, 2
@@ -889,8 +889,8 @@ initPeripheralsAndERU:
 	.type	asclin0TxISR, @function
 asclin0TxISR:
 .LFB585:
-	.loc 1 227 0
 	.loc 1 228 0
+	.loc 1 229 0
 	movh.a	%a4, hi:g_AsclinAsc+596
 	lea	%a4, [%a4] lo:g_AsclinAsc+596
 	j	IfxAsclin_Asc_isrTransmit
@@ -910,54 +910,54 @@ asclin0TxISR:
 	.type	main, @function
 main:
 .LFB586:
-	.loc 1 232 0
 	.loc 1 233 0
+	.loc 1 234 0
 	call	osEE_tc_stm_set_clockpersec
 .LVL69:
-	.loc 1 234 0
+	.loc 1 235 0
 	movh	%d4, 15
 	mov	%d5, 1
 	addi	%d4, %d4, 16960
 	call	osEE_tc_stm_set_sr0
 .LVL70:
-	.loc 1 236 0
+	.loc 1 237 0
 	call	UART_init
 .LVL71:
-	.loc 1 237 0
+	.loc 1 238 0
 	call	initADC
 .LVL72:
-	.loc 1 238 0
+	.loc 1 239 0
 	call	initPeripheralsAndERU
 .LVL73:
-	.loc 1 241 0
+	.loc 1 242 0
 	call	lcd_init
 .LVL74:
-	.loc 1 242 0
+	.loc 1 243 0
 	call	initUltrasonic
 .LVL75:
-	.loc 1 243 0
+	.loc 1 244 0
 	call	initInfotainment
 .LVL76:
-	.loc 1 247 0
+	.loc 1 248 0
 	movh.a	%a4, hi:.LC1
 	lea	%a4, [%a4] lo:.LC1
 	call	printfSerial
 .LVL77:
-	.loc 1 248 0
+	.loc 1 249 0
 	movh.a	%a4, hi:.LC2
 	lea	%a4, [%a4] lo:.LC2
 	call	printfSerial
 .LVL78:
-	.loc 1 249 0
+	.loc 1 250 0
 	movh.a	%a4, hi:.LC3
 	lea	%a4, [%a4] lo:.LC3
 	call	printfSerial
 .LVL79:
-	.loc 1 251 0
+	.loc 1 252 0
 	mov	%d4, 0
 	call	StartOS
 .LVL80:
-	.loc 1 253 0
+	.loc 1 254 0
 	mov	%d2, 0
 	ret
 .LFE586:
@@ -35747,7 +35747,7 @@ g_AsclinAsc:
 	.byte	0x1
 	.string	"UART_init"
 	.byte	0x1
-	.byte	0x2b
+	.byte	0x2c
 	.byte	0x1
 	.uaword	.LFB576
 	.uaword	.LFE576
@@ -35758,7 +35758,7 @@ g_AsclinAsc:
 	.uleb128 0x34
 	.string	"ascConfig"
 	.byte	0x1
-	.byte	0x2e
+	.byte	0x2f
 	.uaword	0xfcfd
 	.byte	0x2
 	.byte	0x91
@@ -35766,7 +35766,7 @@ g_AsclinAsc:
 	.uleb128 0x34
 	.string	"pins"
 	.byte	0x1
-	.byte	0x3b
+	.byte	0x3c
 	.uaword	0xfcf8
 	.byte	0x3
 	.byte	0x91
@@ -35776,7 +35776,7 @@ g_AsclinAsc:
 	.uaword	.LBB70
 	.uaword	.Ldebug_ranges0+0
 	.byte	0x1
-	.byte	0x36
+	.byte	0x37
 	.uaword	0x170d2
 	.uleb128 0x36
 	.uaword	.Ldebug_ranges0+0
@@ -35830,7 +35830,7 @@ g_AsclinAsc:
 	.byte	0x1
 	.string	"printfSerial"
 	.byte	0x1
-	.byte	0x49
+	.byte	0x4a
 	.byte	0x1
 	.uaword	.LFB577
 	.uaword	.LFE577
@@ -35841,14 +35841,14 @@ g_AsclinAsc:
 	.uleb128 0x3d
 	.string	"fmt"
 	.byte	0x1
-	.byte	0x49
+	.byte	0x4a
 	.uaword	0x29e
 	.uaword	.LLST1
 	.uleb128 0x3e
 	.uleb128 0x34
 	.string	"buf"
 	.byte	0x1
-	.byte	0x4c
+	.byte	0x4d
 	.uaword	0x171f9
 	.byte	0x3
 	.byte	0x91
@@ -35856,13 +35856,13 @@ g_AsclinAsc:
 	.uleb128 0x3f
 	.string	"args"
 	.byte	0x1
-	.byte	0x4d
+	.byte	0x4e
 	.uaword	0x16c79
 	.uaword	.LLST2
 	.uleb128 0x34
 	.string	"txData"
 	.byte	0x1
-	.byte	0x52
+	.byte	0x53
 	.uaword	0x17209
 	.byte	0x3
 	.byte	0x91
@@ -35870,7 +35870,7 @@ g_AsclinAsc:
 	.uleb128 0x3f
 	.string	"i"
 	.byte	0x1
-	.byte	0x54
+	.byte	0x55
 	.uaword	0x17b
 	.uaword	.LLST3
 	.uleb128 0x40
@@ -35969,7 +35969,7 @@ g_AsclinAsc:
 	.byte	0x1
 	.string	"mdelay"
 	.byte	0x1
-	.byte	0x5c
+	.byte	0x5d
 	.byte	0x1
 	.uaword	.LFB578
 	.uaword	.LFE578
@@ -35980,31 +35980,31 @@ g_AsclinAsc:
 	.uleb128 0x3d
 	.string	"delay_ms"
 	.byte	0x1
-	.byte	0x5c
+	.byte	0x5d
 	.uaword	0x1ac
 	.uaword	.LLST4
 	.uleb128 0x3f
 	.string	"prev_ms"
 	.byte	0x1
-	.byte	0x5e
+	.byte	0x5f
 	.uaword	0x1ac
 	.uaword	.LLST5
 	.uleb128 0x3f
 	.string	"current_ms"
 	.byte	0x1
-	.byte	0x5e
+	.byte	0x5f
 	.uaword	0x1ac
 	.uaword	.LLST6
 	.uleb128 0x42
 	.string	"period_ms"
 	.byte	0x1
-	.byte	0x5f
+	.byte	0x60
 	.uaword	0x1ac
 	.byte	0x14
 	.uleb128 0x3f
 	.string	"cnt"
 	.byte	0x1
-	.byte	0x5f
+	.byte	0x60
 	.uaword	0x1ac
 	.uaword	.LLST7
 	.uleb128 0x35
@@ -36012,7 +36012,7 @@ g_AsclinAsc:
 	.uaword	.LBB75
 	.uaword	.Ldebug_ranges0+0x18
 	.byte	0x1
-	.byte	0x5e
+	.byte	0x5f
 	.uaword	0x172bb
 	.uleb128 0x43
 	.uaword	0x16f28
@@ -36028,7 +36028,7 @@ g_AsclinAsc:
 	.uaword	.LBB80
 	.uaword	.Ldebug_ranges0+0x38
 	.byte	0x1
-	.byte	0x5e
+	.byte	0x5f
 	.uaword	0x172fe
 	.uleb128 0x43
 	.uaword	0x16cfd
@@ -36054,7 +36054,7 @@ g_AsclinAsc:
 	.uaword	.LBB101
 	.uaword	.Ldebug_ranges0+0x68
 	.byte	0x1
-	.byte	0x61
+	.byte	0x62
 	.uaword	0x17340
 	.uleb128 0x45
 	.uaword	0x16cfd
@@ -36080,7 +36080,7 @@ g_AsclinAsc:
 	.uaword	.LBB117
 	.uaword	.LBE117
 	.byte	0x1
-	.byte	0x5e
+	.byte	0x5f
 	.uaword	0x1736d
 	.uleb128 0x43
 	.uaword	0x16f28
@@ -36097,7 +36097,7 @@ g_AsclinAsc:
 	.uaword	.LBB119
 	.uaword	.Ldebug_ranges0+0x98
 	.byte	0x1
-	.byte	0x5e
+	.byte	0x5f
 	.uaword	0x173b0
 	.uleb128 0x43
 	.uaword	0x16cfd
@@ -36123,7 +36123,7 @@ g_AsclinAsc:
 	.uaword	.LBB127
 	.uaword	.Ldebug_ranges0+0xb0
 	.byte	0x1
-	.byte	0x61
+	.byte	0x62
 	.uaword	0x173d8
 	.uleb128 0x45
 	.uaword	0x16f28
@@ -36139,7 +36139,7 @@ g_AsclinAsc:
 	.uaword	.LBB135
 	.uaword	.Ldebug_ranges0+0xc8
 	.byte	0x1
-	.byte	0x64
+	.byte	0x65
 	.uaword	0x17400
 	.uleb128 0x45
 	.uaword	0x16f28
@@ -36155,7 +36155,7 @@ g_AsclinAsc:
 	.uaword	.LBB139
 	.uaword	.Ldebug_ranges0+0xe8
 	.byte	0x1
-	.byte	0x64
+	.byte	0x65
 	.uleb128 0x45
 	.uaword	0x16cfd
 	.uaword	.LLST10
@@ -36180,7 +36180,7 @@ g_AsclinAsc:
 	.byte	0x1
 	.string	"initVADCModule"
 	.byte	0x1
-	.byte	0x75
+	.byte	0x76
 	.byte	0x1
 	.uaword	.LFB580
 	.uaword	.LFE580
@@ -36191,7 +36191,7 @@ g_AsclinAsc:
 	.uleb128 0x34
 	.string	"adcConf"
 	.byte	0x1
-	.byte	0x77
+	.byte	0x78
 	.uaword	0x16738
 	.byte	0x2
 	.byte	0x91
@@ -36235,7 +36235,7 @@ g_AsclinAsc:
 	.byte	0x1
 	.string	"initVADCGroup"
 	.byte	0x1
-	.byte	0x7d
+	.byte	0x7e
 	.byte	0x1
 	.uaword	.LFB581
 	.uaword	.LFE581
@@ -36246,7 +36246,7 @@ g_AsclinAsc:
 	.uleb128 0x34
 	.string	"adcGroupConf"
 	.byte	0x1
-	.byte	0x7f
+	.byte	0x80
 	.uaword	0x1681a
 	.byte	0x2
 	.byte	0x91
@@ -36290,7 +36290,7 @@ g_AsclinAsc:
 	.byte	0x1
 	.string	"initVADCChannels"
 	.byte	0x1
-	.byte	0x90
+	.byte	0x91
 	.byte	0x1
 	.uaword	.LFB582
 	.uaword	.LFE582
@@ -36301,7 +36301,7 @@ g_AsclinAsc:
 	.uleb128 0x34
 	.string	"adcChannelConf"
 	.byte	0x1
-	.byte	0x92
+	.byte	0x93
 	.uaword	0x17674
 	.byte	0x3
 	.byte	0x91
@@ -36309,7 +36309,7 @@ g_AsclinAsc:
 	.uleb128 0x3f
 	.string	"chn"
 	.byte	0x1
-	.byte	0x94
+	.byte	0x95
 	.uaword	0x1ee
 	.uaword	.LLST12
 	.uleb128 0x36
@@ -36317,7 +36317,7 @@ g_AsclinAsc:
 	.uleb128 0x34
 	.string	"chnEnableBit"
 	.byte	0x1
-	.byte	0xa3
+	.byte	0xa4
 	.uaword	0x17b
 	.byte	0xc
 	.byte	0x31
@@ -36334,7 +36334,7 @@ g_AsclinAsc:
 	.uleb128 0x34
 	.string	"mask"
 	.byte	0x1
-	.byte	0xa4
+	.byte	0xa5
 	.uaword	0x17b
 	.byte	0xc
 	.byte	0x31
@@ -36353,7 +36353,7 @@ g_AsclinAsc:
 	.uaword	.LBB166
 	.uaword	.Ldebug_ranges0+0x138
 	.byte	0x1
-	.byte	0xa5
+	.byte	0xa6
 	.uaword	0x1763d
 	.uleb128 0x48
 	.uaword	0x16e3d
@@ -36481,7 +36481,7 @@ g_AsclinAsc:
 	.byte	0x1
 	.string	"initADC"
 	.byte	0x1
-	.byte	0x6a
+	.byte	0x6b
 	.byte	0x1
 	.uaword	.LFB579
 	.uaword	.LFE579
@@ -36494,7 +36494,7 @@ g_AsclinAsc:
 	.uaword	.LBB175
 	.uaword	.Ldebug_ranges0+0x158
 	.byte	0x1
-	.byte	0x71
+	.byte	0x72
 	.uaword	0x176d8
 	.uleb128 0x48
 	.uaword	0x16f6e
@@ -36528,7 +36528,7 @@ g_AsclinAsc:
 	.byte	0x1
 	.string	"readADCValue"
 	.byte	0x1
-	.byte	0xac
+	.byte	0xad
 	.byte	0x1
 	.uaword	0x1ee
 	.uaword	.LFB583
@@ -36540,14 +36540,14 @@ g_AsclinAsc:
 	.uleb128 0x4c
 	.uaword	.LASF89
 	.byte	0x1
-	.byte	0xac
+	.byte	0xad
 	.uaword	0x1e1
 	.byte	0x1
 	.byte	0x54
 	.uleb128 0x34
 	.string	"conversionResult"
 	.byte	0x1
-	.byte	0xae
+	.byte	0xaf
 	.uaword	0x14037
 	.byte	0x5
 	.byte	0x52
@@ -36560,7 +36560,7 @@ g_AsclinAsc:
 	.uaword	.LBB181
 	.uaword	.LBE181
 	.byte	0x1
-	.byte	0xb1
+	.byte	0xb2
 	.uleb128 0x48
 	.uaword	0x16f9f
 	.byte	0xe
@@ -36623,7 +36623,7 @@ g_AsclinAsc:
 	.byte	0x1
 	.string	"initPeripheralsAndERU"
 	.byte	0x1
-	.byte	0xb7
+	.byte	0xb8
 	.byte	0x1
 	.uaword	.LFB584
 	.uaword	.LFE584
@@ -36636,7 +36636,7 @@ g_AsclinAsc:
 	.uaword	.LBB185
 	.uaword	.Ldebug_ranges0+0x170
 	.byte	0x1
-	.byte	0xc3
+	.byte	0xc4
 	.uaword	0x17858
 	.uleb128 0x4e
 	.uaword	0x16fdd
@@ -36708,7 +36708,7 @@ g_AsclinAsc:
 	.uaword	.LBB197
 	.uaword	.LBE197
 	.byte	0x1
-	.byte	0xde
+	.byte	0xdf
 	.uaword	0x17897
 	.uleb128 0x4e
 	.uaword	0x17027
@@ -36737,7 +36737,7 @@ g_AsclinAsc:
 	.uaword	.LBB201
 	.uaword	.LBE201
 	.byte	0x1
-	.byte	0xdf
+	.byte	0xe0
 	.uaword	0x178b2
 	.uleb128 0x48
 	.uaword	0x17051
@@ -36788,7 +36788,7 @@ g_AsclinAsc:
 	.byte	0x1
 	.string	"asclin0TxISR"
 	.byte	0x1
-	.byte	0xe2
+	.byte	0xe3
 	.byte	0x1
 	.uaword	.LFB585
 	.uaword	.LFE585
@@ -36812,7 +36812,7 @@ g_AsclinAsc:
 	.byte	0x1
 	.string	"main"
 	.byte	0x1
-	.byte	0xe7
+	.byte	0xe8
 	.byte	0x1
 	.uaword	0x18b
 	.uaword	.LFB586
@@ -37034,7 +37034,7 @@ g_AsclinAsc:
 	.uleb128 0x54
 	.string	"g_AsclinAsc"
 	.byte	0x1
-	.byte	0x1f
+	.byte	0x20
 	.uaword	0x16907
 	.byte	0x1
 	.byte	0x5
@@ -37043,7 +37043,7 @@ g_AsclinAsc:
 	.uleb128 0x54
 	.string	"g_ERUconfig"
 	.byte	0x1
-	.byte	0x20
+	.byte	0x21
 	.uaword	0x16992
 	.byte	0x1
 	.byte	0x5
@@ -37052,7 +37052,7 @@ g_AsclinAsc:
 	.uleb128 0x54
 	.string	"g_vadc"
 	.byte	0x1
-	.byte	0x21
+	.byte	0x22
 	.uaword	0x16102
 	.byte	0x1
 	.byte	0x5
@@ -37061,7 +37061,7 @@ g_AsclinAsc:
 	.uleb128 0x54
 	.string	"g_vadcGroup"
 	.byte	0x1
-	.byte	0x22
+	.byte	0x23
 	.uaword	0x16357
 	.byte	0x1
 	.byte	0x5
@@ -37077,7 +37077,7 @@ g_AsclinAsc:
 	.uleb128 0x54
 	.string	"g_vadcChannel"
 	.byte	0x1
-	.byte	0x23
+	.byte	0x24
 	.uaword	0x17b98
 	.byte	0x1
 	.byte	0x5
@@ -37093,7 +37093,7 @@ g_AsclinAsc:
 	.uleb128 0x54
 	.string	"g_vadcChannelIDs"
 	.byte	0x1
-	.byte	0x25
+	.byte	0x26
 	.uaword	0x17bc4
 	.byte	0x1
 	.byte	0x5

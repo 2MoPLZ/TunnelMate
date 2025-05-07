@@ -23340,7 +23340,7 @@ void delay_us(unsigned long delay);
 # 11 "C:\\Users\\USER\\Desktop\\WORKSP~1\\TUNNEL~1\\TC275\\bsw.c" 2
 # 1 "C:\\Users\\USER\\Desktop\\WORKSP~1\\TUNNEL~1\\TC275\\Button_Driver.h" 1
 # 25 "C:\\Users\\USER\\Desktop\\WORKSP~1\\TUNNEL~1\\TC275\\Button_Driver.h"
-int readLcdButtons();
+int readLcdButtons(void);
 # 12 "C:\\Users\\USER\\Desktop\\WORKSP~1\\TUNNEL~1\\TC275\\bsw.c" 2
 # 1 "C:\\Users\\USER\\Desktop\\WORKSP~1\\TUNNEL~1\\TC275\\infotainment_System.h" 1
 # 17 "C:\\Users\\USER\\Desktop\\WORKSP~1\\TUNNEL~1\\TC275\\infotainment_System.h"
@@ -23377,6 +23377,10 @@ void printStateRed();
 void printStateGreen();
 void printStateBlue();
 # 13 "C:\\Users\\USER\\Desktop\\WORKSP~1\\TUNNEL~1\\TC275\\bsw.c" 2
+# 1 "C:\\Users\\USER\\Desktop\\WORKSP~1\\TUNNEL~1\\TC275\\photoresistor_Driver.h" 1
+# 19 "C:\\Users\\USER\\Desktop\\WORKSP~1\\TUNNEL~1\\TC275\\photoresistor_Driver.h"
+int getPhotoresiter();
+# 14 "C:\\Users\\USER\\Desktop\\WORKSP~1\\TUNNEL~1\\TC275\\bsw.c" 2
 
 
 # 1 "c:\\hightec\\toolchains\\tricore\\v4.9.3.0-infineon-1.0\\tricore\\include\\string.h" 1 3
@@ -23450,7 +23454,7 @@ char *strupr (char *);
 # 101 "c:\\hightec\\toolchains\\tricore\\v4.9.3.0-infineon-1.0\\tricore\\include\\string.h" 2 3
 
 
-# 16 "C:\\Users\\USER\\Desktop\\WORKSP~1\\TUNNEL~1\\TC275\\bsw.c" 2
+# 17 "C:\\Users\\USER\\Desktop\\WORKSP~1\\TUNNEL~1\\TC275\\bsw.c" 2
 
 
 

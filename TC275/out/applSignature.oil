@@ -55,6 +55,7 @@ CPU test_application {
 		APP_SRC = "ultrasonic_Driver.c";
 		APP_SRC = "Button_Driver.c";
 		APP_SRC = "infotainment_System.c";
+		APP_SRC = "photoresistor_Driver.c";
 	};
 	ISR ASCLIN0_TX {
 		CATEGORY = 2;

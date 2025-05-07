@@ -22475,8 +22475,6 @@ uint16 readADCValue(uint8 channel);
 void FuncTask1 ( void )
 {
     printfSerial("Task1 Begins...");
-    int a0 = readADCValue(3);
-    printfSerial("%d",a0);
     mdelay(3000);
     printfSerial("Task1 Finishes...");
 
@@ -22493,7 +22491,7 @@ void FuncTaskLCD ( void )
 
 void FuncTaskUltrasonic ( void )
 {
-    printfSerial("%d",getUltrasonic());
+
 }
 
 void ButtonISR(void)
@@ -22521,4 +22519,6 @@ void TimerISR(void)
     ActivateTask((4U));
     ActivateTask((5U));
     printfSerial("\n%4ld: ", c++);
+    int photoValue = getPhotoresiter();
+    printfSerial("%d: ", photoValue);
 }

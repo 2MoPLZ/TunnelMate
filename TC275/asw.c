@@ -3,8 +3,6 @@
 TASK(Task1)
 {
     printfSerial("Task1 Begins...");
-    int a0 = readADCValue(3);
-    printfSerial("%d",a0);
     mdelay(3000);
     printfSerial("Task1 Finishes...");
 
@@ -21,7 +19,7 @@ TASK(TaskLCD)
 
 TASK(TaskUltrasonic)
 {   
-    printfSerial("%d",getUltrasonic());
+    //printfSerial("%d",getUltrasonic());
 }
 
 ISR2(ButtonISR)
@@ -49,4 +47,6 @@ ISR2(TimerISR)
     ActivateTask(TaskLCD);
     ActivateTask(TaskUltrasonic);
     printfSerial("\n%4ld: ", c++);
+    int photoValue = getPhotoresiter();
+    printfSerial("%d: ", photoValue);
 }

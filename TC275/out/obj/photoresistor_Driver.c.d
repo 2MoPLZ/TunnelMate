@@ -1,4 +1,6 @@
-obj/bsw.c.o: /cygdrive/c/Users/USER/Desktop/WORKSP~1/TUNNEL~1/TC275/bsw.c \
+obj/photoresistor_Driver.c.o: \
+ /cygdrive/c/Users/USER/Desktop/WORKSP~1/TUNNEL~1/TC275/photoresistor_Driver.c \
+ /cygdrive/c/Users/USER/Desktop/WORKSP~1/TUNNEL~1/TC275/photoresistor_Driver.h \
  /cygdrive/c/Users/USER/Desktop/WORKSP~1/TUNNEL~1/TC275/illd/src/ConfigurationIsr.h \
  /cygdrive/c/Users/USER/Desktop/WORKSP~1/TUNNEL~1/TC275/illd/src/Configuration.h \
  /cygdrive/c/Users/USER/Desktop/WORKSP~1/TUNNEL~1/TC275/illd/Configurations/Ifx_Cfg.h \
@@ -68,8 +70,7 @@ obj/bsw.c.o: /cygdrive/c/Users/USER/Desktop/WORKSP~1/TUNNEL~1/TC275/bsw.c \
  /cygdrive/c/Users/USER/Desktop/WORKSP~1/TUNNEL~1/TC275/illd/Libraries/Infra/Sfr/TC27D/_Reg/IfxCcu6_bf.h \
  /cygdrive/c/Users/USER/Desktop/WORKSP~1/TUNNEL~1/TC275/illd/Libraries/iLLD/TC27D/Tricore/Scu/Std/IfxScuWdt.h \
  /cygdrive/c/Users/USER/Desktop/WORKSP~1/TUNNEL~1/TC275/illd/Libraries/iLLD/TC27D/Tricore/Port/Std/IfxPort.h \
- /cygdrive/c/Users/USER/Desktop/WORKSP~1/TUNNEL~1/TC275/illd/Libraries/iLLD/TC27D/Tricore/Src/Std/IfxSrc.h \
- /cygdrive/c/Users/USER/Desktop/WORKSP~1/TUNNEL~1/TC275/illd/Libraries/iLLD/TC27D/Tricore/Cpu/Irq/IfxCpu_Irq.h \
+ /cygdrive/c/Users/USER/Desktop/WORKSP~1/TUNNEL~1/TC275/bsw.h \
  /cygdrive/c/Users/USER/Desktop/WORKSP~1/TUNNEL~1/TC275/illd/Libraries/iLLD/TC27D/Tricore/Cpu/Std/Ifx_Types.h \
  /cygdrive/c/Users/USER/Desktop/WORKSP~1/TUNNEL~1/TC275/erika/inc/ee.h \
  /cygdrive/c/Users/USER/Desktop/WORKSP~1/TUNNEL~1/TC275/erika/inc/ee_cfg.h \
@@ -98,21 +99,9 @@ obj/bsw.c.o: /cygdrive/c/Users/USER/Desktop/WORKSP~1/TUNNEL~1/TC275/bsw.c \
  /cygdrive/c/Users/USER/Desktop/WORKSP~1/TUNNEL~1/TC275/erika/inc/ee_scheduler_types.h \
  /cygdrive/c/Users/USER/Desktop/WORKSP~1/TUNNEL~1/TC275/erika/inc/ee_assert.h \
  /cygdrive/c/Users/USER/Desktop/WORKSP~1/TUNNEL~1/TC275/erika/inc/ee.h \
- /cygdrive/c/Users/USER/Desktop/WORKSP~1/TUNNEL~1/TC275/out/ee_declcfg.h \
- /cygdrive/c/Users/USER/Desktop/WORKSP~1/TUNNEL~1/TC275/Lcd_driver.h \
- /cygdrive/c/Users/USER/Desktop/WORKSP~1/TUNNEL~1/TC275/illd/src/IfxPort.h \
- /cygdrive/c/Users/USER/Desktop/WORKSP~1/TUNNEL~1/TC275/ultrasonic_Driver.h \
- /cygdrive/c/Users/USER/Desktop/WORKSP~1/TUNNEL~1/TC275/illd/Libraries/iLLD/TC27D/Tricore/Cpu/Std/Ifx_Types.h \
- /cygdrive/c/Users/USER/Desktop/WORKSP~1/TUNNEL~1/TC275/illd/Libraries/iLLD/TC27D/Tricore/Cpu/Std/IfxCpu.h \
- /cygdrive/c/Users/USER/Desktop/WORKSP~1/TUNNEL~1/TC275/illd/Libraries/iLLD/TC27D/Tricore/Scu/Std/IfxScuWdt.h \
- /cygdrive/c/Users/USER/Desktop/WORKSP~1/TUNNEL~1/TC275/illd/Libraries/iLLD/TC27D/Tricore/Cpu/Irq/IfxCpu_Irq.h \
- /cygdrive/c/Users/USER/Desktop/WORKSP~1/TUNNEL~1/TC275/illd/Libraries/iLLD/TC27D/Tricore/Stm/Std/IfxStm.h \
- /cygdrive/c/Users/USER/Desktop/WORKSP~1/TUNNEL~1/TC275/illd/Libraries/iLLD/TC27D/Tricore/Port/Std/IfxPort.h \
- /cygdrive/c/Users/USER/Desktop/WORKSP~1/TUNNEL~1/TC275/illd/Libraries/iLLD/TC27D/Tricore/Scu/Std/IfxScuEru.h \
- /cygdrive/c/Users/USER/Desktop/WORKSP~1/TUNNEL~1/TC275/Button_Driver.h \
- /cygdrive/c/Users/USER/Desktop/WORKSP~1/TUNNEL~1/TC275/infotainment_System.h \
- /cygdrive/c/Users/USER/Desktop/WORKSP~1/TUNNEL~1/TC275/Lcd_Driver.h \
- /cygdrive/c/Users/USER/Desktop/WORKSP~1/TUNNEL~1/TC275/photoresistor_Driver.h
+ /cygdrive/c/Users/USER/Desktop/WORKSP~1/TUNNEL~1/TC275/out/ee_declcfg.h
+
+/cygdrive/c/Users/USER/Desktop/WORKSP~1/TUNNEL~1/TC275/photoresistor_Driver.h:
 
 /cygdrive/c/Users/USER/Desktop/WORKSP~1/TUNNEL~1/TC275/illd/src/ConfigurationIsr.h:
 
@@ -252,9 +241,7 @@ obj/bsw.c.o: /cygdrive/c/Users/USER/Desktop/WORKSP~1/TUNNEL~1/TC275/bsw.c \
 
 /cygdrive/c/Users/USER/Desktop/WORKSP~1/TUNNEL~1/TC275/illd/Libraries/iLLD/TC27D/Tricore/Port/Std/IfxPort.h:
 
-/cygdrive/c/Users/USER/Desktop/WORKSP~1/TUNNEL~1/TC275/illd/Libraries/iLLD/TC27D/Tricore/Src/Std/IfxSrc.h:
-
-/cygdrive/c/Users/USER/Desktop/WORKSP~1/TUNNEL~1/TC275/illd/Libraries/iLLD/TC27D/Tricore/Cpu/Irq/IfxCpu_Irq.h:
+/cygdrive/c/Users/USER/Desktop/WORKSP~1/TUNNEL~1/TC275/bsw.h:
 
 /cygdrive/c/Users/USER/Desktop/WORKSP~1/TUNNEL~1/TC275/illd/Libraries/iLLD/TC27D/Tricore/Cpu/Std/Ifx_Types.h:
 
@@ -313,31 +300,3 @@ obj/bsw.c.o: /cygdrive/c/Users/USER/Desktop/WORKSP~1/TUNNEL~1/TC275/bsw.c \
 /cygdrive/c/Users/USER/Desktop/WORKSP~1/TUNNEL~1/TC275/erika/inc/ee.h:
 
 /cygdrive/c/Users/USER/Desktop/WORKSP~1/TUNNEL~1/TC275/out/ee_declcfg.h:
-
-/cygdrive/c/Users/USER/Desktop/WORKSP~1/TUNNEL~1/TC275/Lcd_driver.h:
-
-/cygdrive/c/Users/USER/Desktop/WORKSP~1/TUNNEL~1/TC275/illd/src/IfxPort.h:
-
-/cygdrive/c/Users/USER/Desktop/WORKSP~1/TUNNEL~1/TC275/ultrasonic_Driver.h:
-
-/cygdrive/c/Users/USER/Desktop/WORKSP~1/TUNNEL~1/TC275/illd/Libraries/iLLD/TC27D/Tricore/Cpu/Std/Ifx_Types.h:
-
-/cygdrive/c/Users/USER/Desktop/WORKSP~1/TUNNEL~1/TC275/illd/Libraries/iLLD/TC27D/Tricore/Cpu/Std/IfxCpu.h:
-
-/cygdrive/c/Users/USER/Desktop/WORKSP~1/TUNNEL~1/TC275/illd/Libraries/iLLD/TC27D/Tricore/Scu/Std/IfxScuWdt.h:
-
-/cygdrive/c/Users/USER/Desktop/WORKSP~1/TUNNEL~1/TC275/illd/Libraries/iLLD/TC27D/Tricore/Cpu/Irq/IfxCpu_Irq.h:
-
-/cygdrive/c/Users/USER/Desktop/WORKSP~1/TUNNEL~1/TC275/illd/Libraries/iLLD/TC27D/Tricore/Stm/Std/IfxStm.h:
-
-/cygdrive/c/Users/USER/Desktop/WORKSP~1/TUNNEL~1/TC275/illd/Libraries/iLLD/TC27D/Tricore/Port/Std/IfxPort.h:
-
-/cygdrive/c/Users/USER/Desktop/WORKSP~1/TUNNEL~1/TC275/illd/Libraries/iLLD/TC27D/Tricore/Scu/Std/IfxScuEru.h:
-
-/cygdrive/c/Users/USER/Desktop/WORKSP~1/TUNNEL~1/TC275/Button_Driver.h:
-
-/cygdrive/c/Users/USER/Desktop/WORKSP~1/TUNNEL~1/TC275/infotainment_System.h:
-
-/cygdrive/c/Users/USER/Desktop/WORKSP~1/TUNNEL~1/TC275/Lcd_Driver.h:
-
-/cygdrive/c/Users/USER/Desktop/WORKSP~1/TUNNEL~1/TC275/photoresistor_Driver.h:
