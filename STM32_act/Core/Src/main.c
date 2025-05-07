@@ -77,6 +77,7 @@ void fanTask(void);
 void ledTask(void);
 void rgbTask(void);
 void buzzerTask(void);
+void handlePacket(void);
 /* USER CODE END PFP */
 
 /* Private user code ---------------------------------------------------------*/
@@ -93,26 +94,20 @@ task_t taskTable[NUM_TASK] = {
 	{buzzerTask, 0, 10, 0, DEACTIVATED}
 };
 
-////control value
-typedef struct
-{
-	uint8_t rgbMode;
-    uint8_t fanSpeed;
-    uint8_t ledEnable;
-    uint8_t buzzerEnable;
-    uint16_t seatPulse;
-    uint16_t windowPulse;
-
-} controlValue_t;
-controlValue_t controlValue;
-
 ////for uart
-static uint8_t rx_buffer[256];
-static uint8_t tx_buffer[256];
+#define RX_BUFFER_SIZE 256
+#define RX_PTR_LIMIT 200
+static uint8_t tx_buffer[RX_BUFFER_SIZE];
+static uint8_t rx_buffer[RX_BUFFER_SIZE];
 static struct ActuatorPacket testpacket = {0,};
 static struct ActuatorPacket controlPacket = {0,};
-static uint8_t g_crc = 0;
 uint8_t packetReceived = 0;
+uint8_t rxPtr = 0;
+
+enum driving_mode_t{
+  DRIVING_NORMAL = 1,
+  DRIVING_TERNEL = 2
+};
 
 /* USER CODE END 0 */
 
@@ -160,7 +155,7 @@ int main(void)
   initScheduler();
 
   //for test
-  if(HAL_UART_Receive_IT(&huart1,rx_buffer,ACTUATOR_PACKET_SIZE) != HAL_OK){
+  if(HAL_UART_Receive_IT(&huart1,rx_buffer + rxPtr,ACTUATOR_PACKET_SIZE) != HAL_OK){
 	  Error_Handler();
   }
   ///
@@ -171,6 +166,11 @@ int main(void)
   /* USER CODE BEGIN WHILE */
   while (1)
   {
+    if(packetReceived == 1)
+    {
+      packetReceived = 0;
+      handlePacket();
+    }
     scheduler();
     /* USER CODE END WHILE */
 
@@ -543,40 +543,51 @@ static void MX_GPIO_Init(void)
 }
 
 /* USER CODE BEGIN 4 */
+void handlePacket(void)
+{
+  uint8_t _crc = calculate_checksum(rx_buffer+rxPtr,ACTUATOR_PACKET_SIZE-1);
+	if(_crc == rx_buffer[rxPtr+ACTUATOR_PACKET_SIZE-1])
+	{ 
+    deserialize_actuator_packet(rx_buffer, &controlPacket);
+	}
+  else
+  {
+    //do nothing
+  }
+
+  if(rxPtr > RX_PTR_LIMIT)
+  {
+    rxPtr = 0;
+  }
+  else
+  {
+    rxPtr += ACTUATOR_PACKET_SIZE;
+  }
+  HAL_UART_Receive_IT(&huart1,rx_buffer+rxPtr,ACTUATOR_PACKET_SIZE);
+}
 void HAL_UART_RxCpltCallback(UART_HandleTypeDef *huart)
 {
   if(huart->Instance == huart1.Instance)
   {
-	  //packetReceived = 1;
-	  g_crc = calculate_checksum(rx_buffer,ACTUATOR_PACKET_SIZE-1);
-		if(g_crc == rx_buffer[ACTUATOR_PACKET_SIZE-1])
-		{
-		  deserialize_actuator_packet(rx_buffer, &controlPacket);
-		  controlValue.buzzerEnable = controlPacket.buzzer;
-		  controlValue.rgbMode = controlPacket.led_rgb;
-		  controlValue.fanSpeed = controlPacket.fan;
-		  controlValue.seatPulse = controlPacket.servo_chair;
-		  controlValue.windowPulse = controlPacket.servo_window;
-		  controlValue.ledEnable = controlPacket.led;
-		}
-		HAL_UART_Receive_IT(&huart1,rx_buffer,ACTUATOR_PACKET_SIZE);
+    packetReceived = 1;
   }
 }
 void HAL_UART_ErrorCallback(UART_HandleTypeDef *huart)
 {
   if(huart->Instance == huart1.Instance)
   {
-    HAL_UART_Receive_IT(&huart1, rx_buffer, ACTUATOR_PACKET_SIZE);
+    HAL_UART_Receive_IT(&huart1, rx_buffer + rxPtr, ACTUATOR_PACKET_SIZE);
   }
 }
 void initControlValue(void)
 {
-	controlValue.seatPulse = arrayServo[SERVO_SEAT].initialPulse;
-	controlValue.windowPulse = arrayServo[SERVO_WINDOW].initialPulse;
-	controlValue.ledEnable = 0;
-	controlValue.buzzerEnable = 0;
-	controlValue.fanSpeed = 0;
-	controlValue.rgbMode = 0;
+  controlPacket.driving_mode = DRIVING_NORMAL;
+	controlPacket.servo_chair = arrayServo[SERVO_SEAT].initialPulse;
+	controlPacket.servo_window = arrayServo[SERVO_WINDOW].initialPulse;
+	controlPacket.led = 0;
+	controlPacket.buzzer = 0;
+	controlPacket.fan = 0;
+	controlPacket.led_rgb = 0;
 }
 void testTask(void)
 {
@@ -615,9 +626,9 @@ void seatTask(void)
 {
 	uint16_t unitPulse = getUnitPulse(SERVO_SEAT);
 	uint16_t currentPulse = getPulse(SERVO_SEAT);
-	if(controlValue.seatPulse > currentPulse)
+	if(controlPacket.servo_chair > currentPulse)
 	{
-		if((controlValue.seatPulse) - currentPulse > unitPulse)
+		if((controlPacket.servo_chair) - currentPulse > unitPulse)
 		{
 			setPulse(SERVO_SEAT,(currentPulse+unitPulse));
 		}
@@ -626,9 +637,9 @@ void seatTask(void)
 			//do nothing
 		}
 	}
-	else if(controlValue.seatPulse < currentPulse)
+	else if(controlPacket.servo_chair < currentPulse)
 	{
-		if((currentPulse - controlValue.seatPulse) > unitPulse)
+		if((currentPulse - controlPacket.servo_chair) > unitPulse)
 		{
 			setPulse(SERVO_SEAT,(currentPulse-unitPulse));
 		}
@@ -642,9 +653,9 @@ void windowTask(void)
 {
 	uint16_t unitPulse = getUnitPulse(SERVO_WINDOW);
 	uint16_t currentPulse = getPulse(SERVO_WINDOW);
-	if(controlValue.windowPulse > currentPulse)
+	if(controlPacket.servo_window > currentPulse)
 	{
-		if((controlValue.windowPulse) - currentPulse > unitPulse)
+		if((controlPacket.servo_window) - currentPulse > unitPulse)
 		{
 			setPulse(SERVO_WINDOW,(currentPulse+unitPulse));
 		}
@@ -653,9 +664,9 @@ void windowTask(void)
 			//do nothing
 		}
 	}
-	else if(controlValue.windowPulse < currentPulse)
+	else if(controlPacket.servo_window < currentPulse)
 	{
-		if((currentPulse - controlValue.windowPulse) > unitPulse)
+		if((currentPulse - controlPacket.servo_window) > unitPulse)
 		{
 			setPulse(SERVO_WINDOW,(currentPulse-unitPulse));
 		}
@@ -667,18 +678,18 @@ void windowTask(void)
 }
 void fanTask(void)
 {
-	if(controlValue.fanSpeed == 0)
+	if(controlPacket.fan == 0)
 	{
 		stopFan();
 	}
 	else
 	{
-		setSpeedFan(controlValue.fanSpeed);
+		setLevelFan(controlPacket.fan);
 	}
 }
 void ledTask(void)
 {
-	if(controlValue.ledEnable == 0)
+	if(controlPacket.led == 0)
 	{
 		offHeadLight();
 	}
@@ -692,15 +703,16 @@ void rgbTask(void)
 	static uint8_t rgb_red =0;
 	static uint8_t rgb_green =0;
 	static uint8_t rgb_blue =0;
-	rgb_red = 0x4 & controlValue.rgbMode;
-	rgb_green = 0x2 & controlValue.rgbMode;
-	rgb_blue = 0x1 & controlValue.rgbMode;
+	rgb_red = 0x1 & controlPacket.led_rgb ;
+	rgb_green = 0x2 & controlPacket.led_rgb ;
+	rgb_blue = 0x4 & controlPacket.led_rgb ;
 
-	if(controlValue.rgbMode == 0)
-	{
-		setColorRgb(0, 0, 0);
-	}
-	else{
+	if(controlPacket.driving_mode == DRIVING_TERNEL)
+  {
+    setColorRgb(700*rgb_red, 700*rgb_green, 700*rgb_blue);
+  }
+	else
+  {
 		setColorRgb(999*rgb_red, 999*rgb_green, 999*rgb_blue);
 	}
 }
@@ -710,24 +722,18 @@ void buzzerTask(void)
     static uint32_t last_tick = 0;
     static uint8_t buzzer_state = 0;
     static uint8_t step_count = 0;
-    static uint8_t buzzer_done = 0;
+    static uint8_t buzzer_on = 0;
 
     uint32_t now = HAL_GetTick();
 
-    if (controlValue.buzzerEnable == 0) {
-
-        offBuzzer();
-        buzzer_state = 0;
-        step_count = 0;
-        buzzer_done = 0;
-        return;
+    if(controlPacket.buzzer != 0 && buzzer_on == 0)
+    {
+      buzzer_on = 1;
     }
 
-    if (buzzer_done) {
-        return;
-    }
-
-    switch (buzzer_state) {
+    if(buzzer_on)
+    {
+      switch (buzzer_state) {
         case 0:
             onBuzzer();
             last_tick = now;
@@ -746,7 +752,7 @@ void buzzerTask(void)
             if (now - last_tick >= 100) {
                 step_count++;
                 if (step_count >= 3) {
-                    buzzer_done = 1;
+                    buzzer_on = 0;
                 } else {
                     onBuzzer();
                     last_tick = now;
@@ -754,7 +760,10 @@ void buzzerTask(void)
                 }
             }
             break;
+      }
     }
+   
+   return; 
 }
 /* USER CODE END 4 */
 
