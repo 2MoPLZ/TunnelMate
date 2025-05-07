@@ -13,6 +13,8 @@
         "ifxscuwdt.h": "c",
         "stdint.h": "c",
         "ifx_cfg.h": "c",
-        "ifxglobal_cfg.h": "c"
+        "ifxglobal_cfg.h": "c",
+        "button_driver.h": "c",
+        "uart_driver.h": "c"
     }
 }

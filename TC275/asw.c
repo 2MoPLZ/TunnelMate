@@ -1,24 +1,5 @@
 #include "bsw.h"
 
-<<<<<<< HEAD
-TASK(Task1)
-{
-    printfSerial("Task1 Begins...");
-    int a0 = readADCValue(3);
-    printfSerial("%d",a0);
-    mdelay(3000);
-    printfSerial("Task1 Finishes...");
-
-    TerminateTask();
-}
-
-TASK(TaskLCD)
-{   
-    // lcd_clear(); // LCD 출력 내용 초기화 함수
-    // printInfoDisplay();  
-
-    TerminateTask();
-=======
 ISR2(ButtonISR)
 {
     unsigned int buttonState;
@@ -30,7 +11,6 @@ ISR2(ButtonISR)
 
     osEE_tc_delay(3000);
     EnableAllInterrupts();
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
 }
 
 TASK(TaskUltrasonic)
@@ -38,35 +18,10 @@ TASK(TaskUltrasonic)
     printfSerial("ultrasonic:(%d)", getUltrasonic());
 }
 
-<<<<<<< HEAD
-ISR2(ButtonISR)
-{
-    unsigned int buttonState;
-    DisableAllInterrupts();
-    osEE_tc_delay(5000);
-    printfSerial("interuppt");
-    buttonState = readLcdButtons();
-    updateInfoState(buttonState);
-
-    osEE_tc_delay(3000);
-    EnableAllInterrupts();
-}
-
-
-
-=======
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
 ISR2(TimerISR)
 {
     static long c = -4;
     osEE_tc_stm_set_sr0_next_match(1000000U);
-<<<<<<< HEAD
-    if (c == 0)
-        ActivateTask(Task1);
-    if (c % 2 == 0)
-    ActivateTask(TaskLCD);
-    ActivateTask(TaskUltrasonic);
-=======
 
     /************** ONE-TIME-TASK ********************/
 
@@ -118,7 +73,6 @@ ISR2(TimerISR)
     // code for packet uart send test end//
 
     /************** basic-TASK (every 1s) ********************/
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
     printfSerial("\n%4ld: ", c++);
     ActivateTask(TaskUltrasonic);
 

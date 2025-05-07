@@ -8,10 +8,7 @@
 /* custom driver added start*/
 #include "Lcd_driver.h"
 #include "ultrasonic_Driver.h"
-<<<<<<< HEAD
-=======
 #include "uart_Driver.h"
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
 #include "Button_Driver.h"
 #include "infotainment_System.h"
 /* custom driver added end*/
@@ -251,11 +248,7 @@ int main(void)
     /* custom driver init() added start*/
     lcd_init();
     initUltrasonic();
-<<<<<<< HEAD
-    initInfotainment();
-=======
     initUartDriver();
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
     /* custom driver added end*/
 
     printfSerial("\n...............\n");
