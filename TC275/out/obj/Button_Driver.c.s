@@ -10,11 +10,7 @@
 	.type	readLcdButtons, @function
 readLcdButtons:
 .LFB574:
-<<<<<<< HEAD
-	.file 1 "C:\\Users\\USER\\Desktop\\WORKSP~1\\TUNNEL~1\\TC275\\Button_Driver.c"
-=======
-	.file 1 "C:\\Users\\USER\\OneDrive\\Desktop\\tunnel\\TUNNEL~1\\TC275\\Button_Driver.c"
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.file 1 "C:\\TUNNEL~1\\TC275\\Button_Driver.c"
 	.loc 1 7 0
 	sub.a	%SP, 8
 .LCFI0:
@@ -98,23 +94,13 @@ readLcdButtons:
 .LEFDE0:
 .section .text,"ax",@progbits
 .Letext0:
-<<<<<<< HEAD
-	.file 2 "C:\\Users\\USER\\Desktop\\WORKSP~1\\TUNNEL~1\\TC275/illd\\Libraries\\iLLD\\TC27D\\Tricore\\Cpu\\Std\\Platform_Types.h"
-	.file 3 "C:\\Users\\USER\\Desktop\\WORKSP~1\\TUNNEL~1\\TC275/illd\\Libraries\\iLLD\\TC27D\\Tricore\\Cpu\\Std/Ifx_Types.h"
-	.file 4 "C:\\Users\\USER\\Desktop\\WORKSP~1\\TUNNEL~1\\TC275/illd\\Libraries\\iLLD\\TC27D\\Tricore\\_Impl/IfxCpu_cfg.h"
-	.file 5 "C:\\Users\\USER\\Desktop\\WORKSP~1\\TUNNEL~1\\TC275\\bsw.h"
+	.file 2 "C:\\TUNNEL~1\\TC275/illd\\Libraries\\iLLD\\TC27D\\Tricore\\Cpu\\Std\\Platform_Types.h"
+	.file 3 "C:\\TUNNEL~1\\TC275/illd\\Libraries\\iLLD\\TC27D\\Tricore\\Cpu\\Std/Ifx_Types.h"
+	.file 4 "C:\\TUNNEL~1\\TC275/illd\\Libraries\\iLLD\\TC27D\\Tricore\\_Impl/IfxCpu_cfg.h"
+	.file 5 "C:\\TUNNEL~1\\TC275\\bsw.h"
 .section .debug_info,"",@progbits
 .Ldebug_info0:
-	.uaword	0x395
-=======
-	.file 2 "C:\\Users\\USER\\OneDrive\\Desktop\\tunnel\\TUNNEL~1\\TC275/illd\\Libraries\\iLLD\\TC27D\\Tricore\\Cpu\\Std\\Platform_Types.h"
-	.file 3 "C:\\Users\\USER\\OneDrive\\Desktop\\tunnel\\TUNNEL~1\\TC275/illd\\Libraries\\iLLD\\TC27D\\Tricore\\Cpu\\Std/Ifx_Types.h"
-	.file 4 "C:\\Users\\USER\\OneDrive\\Desktop\\tunnel\\TUNNEL~1\\TC275/illd\\Libraries\\iLLD\\TC27D\\Tricore\\_Impl/IfxCpu_cfg.h"
-	.file 5 "C:\\Users\\USER\\OneDrive\\Desktop\\tunnel\\TUNNEL~1\\TC275\\bsw.h"
-.section .debug_info,"",@progbits
-.Ldebug_info0:
-	.uaword	0x39c
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x379
 	.uahalf	0x3
 	.uaword	.Ldebug_abbrev0
 	.byte	0x4
@@ -122,11 +108,7 @@ readLcdButtons:
 	.ascii	"GNU C 4.9."
 	.string	"4 build on 2019-06-07 -mlicense-dir=c:\\hightec\\toolchains\\tricore\\v4.9.3.0-infineon-1.0\\bin\\../lib/gcc/tricore/4.9.4/../../../../licenses -mcpu=tc27xx -g -Os -fno-common -fshort-enums -fstrict-volatile-bitfields -finline-functions -fzero-initialized-in-bss"
 	.byte	0x1
-<<<<<<< HEAD
-	.string	"C:\\Users\\USER\\Desktop\\WORKSP~1\\TUNNEL~1\\TC275\\Button_Driver.c"
-=======
-	.string	"C:\\Users\\USER\\OneDrive\\Desktop\\tunnel\\TUNNEL~1\\TC275\\Button_Driver.c"
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.string	"C:\\TUNNEL~1\\TC275\\Button_Driver.c"
 	.uaword	.Ltext0
 	.uaword	.Letext0
 	.uaword	.Ldebug_line0
@@ -150,20 +132,12 @@ readLcdButtons:
 	.string	"uint8"
 	.byte	0x2
 	.byte	0x6c
-<<<<<<< HEAD
-	.uaword	0x18a
-=======
-	.uaword	0x191
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x16e
 	.uleb128 0x3
 	.string	"uint16"
 	.byte	0x2
 	.byte	0x70
-<<<<<<< HEAD
-	.uaword	0x1b6
-=======
-	.uaword	0x1bd
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x19a
 	.uleb128 0x2
 	.byte	0x2
 	.byte	0x7
@@ -184,11 +158,7 @@ readLcdButtons:
 	.string	"sint32"
 	.byte	0x2
 	.byte	0x86
-<<<<<<< HEAD
-	.uaword	0x162
-=======
-	.uaword	0x169
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x146
 	.uleb128 0x2
 	.byte	0x8
 	.byte	0x5
@@ -203,66 +173,40 @@ readLcdButtons:
 	.string	"double"
 	.uleb128 0x4
 	.byte	0x4
-<<<<<<< HEAD
-	.uaword	0x23a
+	.uaword	0x21e
 	.uleb128 0x5
-	.uaword	0x23f
-=======
-	.uaword	0x241
-	.uleb128 0x5
-	.uaword	0x246
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x223
 	.uleb128 0x2
 	.byte	0x1
 	.byte	0x6
 	.string	"char"
 	.uleb128 0x4
 	.byte	0x4
-<<<<<<< HEAD
-	.uaword	0x24d
-=======
-	.uaword	0x254
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x231
 	.uleb128 0x6
 	.uleb128 0x7
 	.byte	0x8
 	.byte	0x3
 	.byte	0x8c
-<<<<<<< HEAD
-	.uaword	0x274
-=======
-	.uaword	0x27b
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x258
 	.uleb128 0x8
 	.string	"module"
 	.byte	0x3
 	.byte	0x8e
-<<<<<<< HEAD
-	.uaword	0x247
-=======
-	.uaword	0x24e
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x22b
 	.byte	0
 	.uleb128 0x8
 	.string	"index"
 	.byte	0x3
 	.byte	0x8f
-<<<<<<< HEAD
-	.uaword	0x202
-=======
-	.uaword	0x209
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x1e6
 	.byte	0x4
 	.byte	0
 	.uleb128 0x3
 	.string	"IfxModule_IndexMap"
 	.byte	0x3
 	.byte	0x90
-<<<<<<< HEAD
-	.uaword	0x24e
-=======
-	.uaword	0x255
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x232
 	.uleb128 0x2
 	.byte	0x4
 	.byte	0x7
@@ -277,51 +221,30 @@ readLcdButtons:
 	.byte	0x1
 	.byte	0x6
 	.byte	0x1
-<<<<<<< HEAD
-	.uaword	0x183
-=======
-	.uaword	0x18a
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x167
 	.uaword	.LFB574
 	.uaword	.LFE574
 	.byte	0x1
 	.byte	0x9c
 	.byte	0x1
-<<<<<<< HEAD
-	.uaword	0x32b
-=======
-	.uaword	0x332
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x30f
 	.uleb128 0xa
 	.string	"adc_key_in"
 	.byte	0x1
 	.byte	0x8
-<<<<<<< HEAD
-	.uaword	0x28e
-=======
-	.uaword	0x295
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x272
 	.uaword	.LLST0
 	.uleb128 0xb
 	.string	"button_state"
 	.byte	0x1
 	.byte	0x9
-<<<<<<< HEAD
-	.uaword	0x183
-=======
-	.uaword	0x18a
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x167
 	.byte	0x1
 	.byte	0x52
 	.uleb128 0xc
 	.uaword	.LVL0
-<<<<<<< HEAD
-	.uaword	0x35d
-	.uaword	0x310
-=======
-	.uaword	0x364
-	.uaword	0x317
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x341
+	.uaword	0x2f4
 	.uleb128 0xd
 	.byte	0x1
 	.byte	0x54
@@ -330,11 +253,7 @@ readLcdButtons:
 	.byte	0
 	.uleb128 0xe
 	.uaword	.LVL2
-<<<<<<< HEAD
-	.uaword	0x37e
-=======
-	.uaword	0x385
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x362
 	.uleb128 0xd
 	.byte	0x1
 	.byte	0x64
@@ -351,75 +270,42 @@ readLcdButtons:
 	.byte	0
 	.byte	0
 	.uleb128 0xf
-<<<<<<< HEAD
-	.uaword	0x274
-	.uaword	0x33b
+	.uaword	0x258
+	.uaword	0x31f
 	.uleb128 0x10
-	.uaword	0x29e
-=======
-	.uaword	0x27b
-	.uaword	0x342
-	.uleb128 0x10
-	.uaword	0x2a5
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x282
 	.byte	0x2
 	.byte	0
 	.uleb128 0x11
 	.string	"IfxCpu_cfg_indexMap"
 	.byte	0x4
 	.byte	0xa7
-<<<<<<< HEAD
-	.uaword	0x358
+	.uaword	0x33c
 	.byte	0x1
 	.byte	0x1
 	.uleb128 0x5
-	.uaword	0x32b
-=======
-	.uaword	0x35f
-	.byte	0x1
-	.byte	0x1
-	.uleb128 0x5
-	.uaword	0x332
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x30f
 	.uleb128 0x12
 	.byte	0x1
 	.string	"readADCValue"
 	.byte	0x5
-<<<<<<< HEAD
-	.byte	0x10
-	.byte	0x1
-	.uaword	0x1a8
-	.byte	0x1
-	.uaword	0x37e
-	.uleb128 0x13
-	.uaword	0x19b
-=======
 	.byte	0x11
 	.byte	0x1
-	.uaword	0x1af
+	.uaword	0x18c
 	.byte	0x1
-	.uaword	0x385
+	.uaword	0x362
 	.uleb128 0x13
-	.uaword	0x1a2
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x17f
 	.byte	0
 	.uleb128 0x14
 	.byte	0x1
 	.string	"printfSerial"
 	.byte	0x5
-<<<<<<< HEAD
-	.byte	0xd
-	.byte	0x1
-	.byte	0x1
-	.uleb128 0x13
-	.uaword	0x234
-=======
 	.byte	0xe
 	.byte	0x1
 	.byte	0x1
 	.uleb128 0x13
-	.uaword	0x23b
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x218
 	.uleb128 0x15
 	.byte	0
 	.byte	0

@@ -1,44 +1,22 @@
-<<<<<<< HEAD
-# 1 "C:\\Users\\USER\\Desktop\\WORKSP~1\\TUNNEL~1\\TC275\\illd\\src\\IfxStdIf_DPipe.c"
-# 1 "C:\\Users\\USER\\Desktop\\workspace\\TunnelMate\\TC275\\out//"
+# 1 "C:\\TUNNEL~1\\TC275\\illd\\src\\IfxStdIf_DPipe.c"
+# 1 "C:\\TunnelMate\\TC275\\out//"
 # 1 "<built-in>"
 # 1 "<command-line>"
-# 1 "C:\\Users\\USER\\Desktop\\WORKSP~1\\TUNNEL~1\\TC275\\illd\\src\\IfxStdIf_DPipe.c"
-# 43 "C:\\Users\\USER\\Desktop\\WORKSP~1\\TUNNEL~1\\TC275\\illd\\src\\IfxStdIf_DPipe.c"
-# 1 "C:\\Users\\USER\\Desktop\\WORKSP~1\\TUNNEL~1\\TC275/illd\\Libraries\\Service\\CpuGeneric\\StdIf\\IfxStdIf_DPipe.h" 1
-# 61 "C:\\Users\\USER\\Desktop\\WORKSP~1\\TUNNEL~1\\TC275/illd\\Libraries\\Service\\CpuGeneric\\StdIf\\IfxStdIf_DPipe.h"
-# 1 "C:\\Users\\USER\\Desktop\\WORKSP~1\\TUNNEL~1\\TC275/illd\\Libraries\\Service\\CpuGeneric\\StdIf\\IfxStdIf.h" 1
-# 113 "C:\\Users\\USER\\Desktop\\WORKSP~1\\TUNNEL~1\\TC275/illd\\Libraries\\Service\\CpuGeneric\\StdIf\\IfxStdIf.h"
-# 1 "C:\\Users\\USER\\Desktop\\WORKSP~1\\TUNNEL~1\\TC275/illd\\Libraries\\iLLD\\TC27D\\Tricore\\Cpu\\Std\\Ifx_Types.h" 1
-# 46 "C:\\Users\\USER\\Desktop\\WORKSP~1\\TUNNEL~1\\TC275/illd\\Libraries\\iLLD\\TC27D\\Tricore\\Cpu\\Std\\Ifx_Types.h"
-# 1 "C:\\Users\\USER\\Desktop\\WORKSP~1\\TUNNEL~1\\TC275/illd\\Libraries\\Infra\\Platform\\Tricore\\Compilers/Compilers.h" 1
-# 46 "C:\\Users\\USER\\Desktop\\WORKSP~1\\TUNNEL~1\\TC275/illd\\Libraries\\Infra\\Platform\\Tricore\\Compilers/Compilers.h"
-# 1 "C:\\Users\\USER\\Desktop\\WORKSP~1\\TUNNEL~1\\TC275/illd\\Configurations\\Ifx_Cfg.h" 1
-# 47 "C:\\Users\\USER\\Desktop\\WORKSP~1\\TUNNEL~1\\TC275/illd\\Libraries\\Infra\\Platform\\Tricore\\Compilers/Compilers.h" 2
-# 81 "C:\\Users\\USER\\Desktop\\WORKSP~1\\TUNNEL~1\\TC275/illd\\Libraries\\Infra\\Platform\\Tricore\\Compilers/Compilers.h"
-# 1 "C:\\Users\\USER\\Desktop\\WORKSP~1\\TUNNEL~1\\TC275/illd\\Libraries\\Infra\\Platform\\Tricore\\Compilers/CompilerGnuc.h" 1
-# 46 "C:\\Users\\USER\\Desktop\\WORKSP~1\\TUNNEL~1\\TC275/illd\\Libraries\\Infra\\Platform\\Tricore\\Compilers/CompilerGnuc.h"
-=======
-# 1 "C:\\Users\\USER\\OneDrive\\Desktop\\tunnel\\TUNNEL~1\\TC275\\illd\\src\\IfxStdIf_DPipe.c"
-# 1 "C:\\Users\\USER\\OneDrive\\Desktop\\tunnel\\TunnelMate\\TC275\\out//"
-# 1 "<built-in>"
-# 1 "<command-line>"
-# 1 "C:\\Users\\USER\\OneDrive\\Desktop\\tunnel\\TUNNEL~1\\TC275\\illd\\src\\IfxStdIf_DPipe.c"
-# 43 "C:\\Users\\USER\\OneDrive\\Desktop\\tunnel\\TUNNEL~1\\TC275\\illd\\src\\IfxStdIf_DPipe.c"
-# 1 "C:\\Users\\USER\\OneDrive\\Desktop\\tunnel\\TUNNEL~1\\TC275/illd\\Libraries\\Service\\CpuGeneric\\StdIf\\IfxStdIf_DPipe.h" 1
-# 61 "C:\\Users\\USER\\OneDrive\\Desktop\\tunnel\\TUNNEL~1\\TC275/illd\\Libraries\\Service\\CpuGeneric\\StdIf\\IfxStdIf_DPipe.h"
-# 1 "C:\\Users\\USER\\OneDrive\\Desktop\\tunnel\\TUNNEL~1\\TC275/illd\\Libraries\\Service\\CpuGeneric\\StdIf\\IfxStdIf.h" 1
-# 113 "C:\\Users\\USER\\OneDrive\\Desktop\\tunnel\\TUNNEL~1\\TC275/illd\\Libraries\\Service\\CpuGeneric\\StdIf\\IfxStdIf.h"
-# 1 "C:\\Users\\USER\\OneDrive\\Desktop\\tunnel\\TUNNEL~1\\TC275/illd\\Libraries\\iLLD\\TC27D\\Tricore\\Cpu\\Std\\Ifx_Types.h" 1
-# 46 "C:\\Users\\USER\\OneDrive\\Desktop\\tunnel\\TUNNEL~1\\TC275/illd\\Libraries\\iLLD\\TC27D\\Tricore\\Cpu\\Std\\Ifx_Types.h"
-# 1 "C:\\Users\\USER\\OneDrive\\Desktop\\tunnel\\TUNNEL~1\\TC275/illd\\Libraries\\Infra\\Platform\\Tricore\\Compilers/Compilers.h" 1
-# 46 "C:\\Users\\USER\\OneDrive\\Desktop\\tunnel\\TUNNEL~1\\TC275/illd\\Libraries\\Infra\\Platform\\Tricore\\Compilers/Compilers.h"
-# 1 "C:\\Users\\USER\\OneDrive\\Desktop\\tunnel\\TUNNEL~1\\TC275/illd\\Configurations\\Ifx_Cfg.h" 1
-# 47 "C:\\Users\\USER\\OneDrive\\Desktop\\tunnel\\TUNNEL~1\\TC275/illd\\Libraries\\Infra\\Platform\\Tricore\\Compilers/Compilers.h" 2
-# 81 "C:\\Users\\USER\\OneDrive\\Desktop\\tunnel\\TUNNEL~1\\TC275/illd\\Libraries\\Infra\\Platform\\Tricore\\Compilers/Compilers.h"
-# 1 "C:\\Users\\USER\\OneDrive\\Desktop\\tunnel\\TUNNEL~1\\TC275/illd\\Libraries\\Infra\\Platform\\Tricore\\Compilers/CompilerGnuc.h" 1
-# 46 "C:\\Users\\USER\\OneDrive\\Desktop\\tunnel\\TUNNEL~1\\TC275/illd\\Libraries\\Infra\\Platform\\Tricore\\Compilers/CompilerGnuc.h"
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+# 1 "C:\\TUNNEL~1\\TC275\\illd\\src\\IfxStdIf_DPipe.c"
+# 43 "C:\\TUNNEL~1\\TC275\\illd\\src\\IfxStdIf_DPipe.c"
+# 1 "C:\\TUNNEL~1\\TC275/illd\\Libraries\\Service\\CpuGeneric\\StdIf\\IfxStdIf_DPipe.h" 1
+# 61 "C:\\TUNNEL~1\\TC275/illd\\Libraries\\Service\\CpuGeneric\\StdIf\\IfxStdIf_DPipe.h"
+# 1 "C:\\TUNNEL~1\\TC275/illd\\Libraries\\Service\\CpuGeneric\\StdIf\\IfxStdIf.h" 1
+# 113 "C:\\TUNNEL~1\\TC275/illd\\Libraries\\Service\\CpuGeneric\\StdIf\\IfxStdIf.h"
+# 1 "C:\\TUNNEL~1\\TC275/illd\\Libraries\\iLLD\\TC27D\\Tricore\\Cpu\\Std\\Ifx_Types.h" 1
+# 46 "C:\\TUNNEL~1\\TC275/illd\\Libraries\\iLLD\\TC27D\\Tricore\\Cpu\\Std\\Ifx_Types.h"
+# 1 "C:\\TUNNEL~1\\TC275/illd\\Libraries\\Infra\\Platform\\Tricore\\Compilers/Compilers.h" 1
+# 46 "C:\\TUNNEL~1\\TC275/illd\\Libraries\\Infra\\Platform\\Tricore\\Compilers/Compilers.h"
+# 1 "C:\\TUNNEL~1\\TC275/illd\\Configurations\\Ifx_Cfg.h" 1
+# 47 "C:\\TUNNEL~1\\TC275/illd\\Libraries\\Infra\\Platform\\Tricore\\Compilers/Compilers.h" 2
+# 81 "C:\\TUNNEL~1\\TC275/illd\\Libraries\\Infra\\Platform\\Tricore\\Compilers/Compilers.h"
+# 1 "C:\\TUNNEL~1\\TC275/illd\\Libraries\\Infra\\Platform\\Tricore\\Compilers/CompilerGnuc.h" 1
+# 46 "C:\\TUNNEL~1\\TC275/illd\\Libraries\\Infra\\Platform\\Tricore\\Compilers/CompilerGnuc.h"
 # 1 "c:\\hightec\\toolchains\\tricore\\v4.9.3.0-infineon-1.0\\lib\\gcc\\tricore\\4.9.4\\include\\stddef.h" 1 3 4
 # 147 "c:\\hightec\\toolchains\\tricore\\v4.9.3.0-infineon-1.0\\lib\\gcc\\tricore\\4.9.4\\include\\stddef.h" 3 4
 typedef long int ptrdiff_t;
@@ -46,23 +24,13 @@ typedef long int ptrdiff_t;
 typedef long unsigned int size_t;
 # 324 "c:\\hightec\\toolchains\\tricore\\v4.9.3.0-infineon-1.0\\lib\\gcc\\tricore\\4.9.4\\include\\stddef.h" 3 4
 typedef int wchar_t;
-<<<<<<< HEAD
-# 47 "C:\\Users\\USER\\Desktop\\WORKSP~1\\TUNNEL~1\\TC275/illd\\Libraries\\Infra\\Platform\\Tricore\\Compilers/CompilerGnuc.h" 2
-# 82 "C:\\Users\\USER\\Desktop\\WORKSP~1\\TUNNEL~1\\TC275/illd\\Libraries\\Infra\\Platform\\Tricore\\Compilers/Compilers.h" 2
-# 93 "C:\\Users\\USER\\Desktop\\WORKSP~1\\TUNNEL~1\\TC275/illd\\Libraries\\Infra\\Platform\\Tricore\\Compilers/Compilers.h"
+# 47 "C:\\TUNNEL~1\\TC275/illd\\Libraries\\Infra\\Platform\\Tricore\\Compilers/CompilerGnuc.h" 2
+# 82 "C:\\TUNNEL~1\\TC275/illd\\Libraries\\Infra\\Platform\\Tricore\\Compilers/Compilers.h" 2
+# 93 "C:\\TUNNEL~1\\TC275/illd\\Libraries\\Infra\\Platform\\Tricore\\Compilers/Compilers.h"
 void Ifx_C_Init(void);
-# 47 "C:\\Users\\USER\\Desktop\\WORKSP~1\\TUNNEL~1\\TC275/illd\\Libraries\\iLLD\\TC27D\\Tricore\\Cpu\\Std\\Ifx_Types.h" 2
-# 1 "C:\\Users\\USER\\Desktop\\WORKSP~1\\TUNNEL~1\\TC275/illd\\Libraries\\iLLD\\TC27D\\Tricore\\Cpu\\Std\\Platform_Types.h" 1
-# 104 "C:\\Users\\USER\\Desktop\\WORKSP~1\\TUNNEL~1\\TC275/illd\\Libraries\\iLLD\\TC27D\\Tricore\\Cpu\\Std\\Platform_Types.h"
-=======
-# 47 "C:\\Users\\USER\\OneDrive\\Desktop\\tunnel\\TUNNEL~1\\TC275/illd\\Libraries\\Infra\\Platform\\Tricore\\Compilers/CompilerGnuc.h" 2
-# 82 "C:\\Users\\USER\\OneDrive\\Desktop\\tunnel\\TUNNEL~1\\TC275/illd\\Libraries\\Infra\\Platform\\Tricore\\Compilers/Compilers.h" 2
-# 93 "C:\\Users\\USER\\OneDrive\\Desktop\\tunnel\\TUNNEL~1\\TC275/illd\\Libraries\\Infra\\Platform\\Tricore\\Compilers/Compilers.h"
-void Ifx_C_Init(void);
-# 47 "C:\\Users\\USER\\OneDrive\\Desktop\\tunnel\\TUNNEL~1\\TC275/illd\\Libraries\\iLLD\\TC27D\\Tricore\\Cpu\\Std\\Ifx_Types.h" 2
-# 1 "C:\\Users\\USER\\OneDrive\\Desktop\\tunnel\\TUNNEL~1\\TC275/illd\\Libraries\\iLLD\\TC27D\\Tricore\\Cpu\\Std\\Platform_Types.h" 1
-# 104 "C:\\Users\\USER\\OneDrive\\Desktop\\tunnel\\TUNNEL~1\\TC275/illd\\Libraries\\iLLD\\TC27D\\Tricore\\Cpu\\Std\\Platform_Types.h"
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+# 47 "C:\\TUNNEL~1\\TC275/illd\\Libraries\\iLLD\\TC27D\\Tricore\\Cpu\\Std\\Ifx_Types.h" 2
+# 1 "C:\\TUNNEL~1\\TC275/illd\\Libraries\\iLLD\\TC27D\\Tricore\\Cpu\\Std\\Platform_Types.h" 1
+# 104 "C:\\TUNNEL~1\\TC275/illd\\Libraries\\iLLD\\TC27D\\Tricore\\Cpu\\Std\\Platform_Types.h"
 typedef unsigned char boolean;
 
 
@@ -135,11 +103,7 @@ typedef float float32;
 
 
 typedef double float64;
-<<<<<<< HEAD
-# 48 "C:\\Users\\USER\\Desktop\\WORKSP~1\\TUNNEL~1\\TC275/illd\\Libraries\\iLLD\\TC27D\\Tricore\\Cpu\\Std\\Ifx_Types.h" 2
-=======
-# 48 "C:\\Users\\USER\\OneDrive\\Desktop\\tunnel\\TUNNEL~1\\TC275/illd\\Libraries\\iLLD\\TC27D\\Tricore\\Cpu\\Std\\Ifx_Types.h" 2
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+# 48 "C:\\TUNNEL~1\\TC275/illd\\Libraries\\iLLD\\TC27D\\Tricore\\Cpu\\Std\\Ifx_Types.h" 2
 
 
 
@@ -169,11 +133,7 @@ typedef struct
 } csint16;
 
 typedef sint64 Ifx_TickTime;
-<<<<<<< HEAD
-# 89 "C:\\Users\\USER\\Desktop\\WORKSP~1\\TUNNEL~1\\TC275/illd\\Libraries\\iLLD\\TC27D\\Tricore\\Cpu\\Std\\Ifx_Types.h"
-=======
-# 89 "C:\\Users\\USER\\OneDrive\\Desktop\\tunnel\\TUNNEL~1\\TC275/illd\\Libraries\\iLLD\\TC27D\\Tricore\\Cpu\\Std\\Ifx_Types.h"
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+# 89 "C:\\TUNNEL~1\\TC275/illd\\Libraries\\iLLD\\TC27D\\Tricore\\Cpu\\Std\\Ifx_Types.h"
 typedef sint16 Ifx_SizeT;
 
 
@@ -236,22 +196,14 @@ typedef struct
     Ifx_TickTime timestamp;
     uint8 data;
 }Ifx_DataBufferMode_TimeStampSingle;
-<<<<<<< HEAD
-# 161 "C:\\Users\\USER\\Desktop\\WORKSP~1\\TUNNEL~1\\TC275/illd\\Libraries\\iLLD\\TC27D\\Tricore\\Cpu\\Std\\Ifx_Types.h"
-=======
-# 161 "C:\\Users\\USER\\OneDrive\\Desktop\\tunnel\\TUNNEL~1\\TC275/illd\\Libraries\\iLLD\\TC27D\\Tricore\\Cpu\\Std\\Ifx_Types.h"
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+# 161 "C:\\TUNNEL~1\\TC275/illd\\Libraries\\iLLD\\TC27D\\Tricore\\Cpu\\Std\\Ifx_Types.h"
 typedef enum
 {
     Ifx_DataBufferMode_normal = 0,
     Ifx_DataBufferMode_timeStampSingle,
 
 }Ifx_DataBufferMode;
-<<<<<<< HEAD
-# 175 "C:\\Users\\USER\\Desktop\\WORKSP~1\\TUNNEL~1\\TC275/illd\\Libraries\\iLLD\\TC27D\\Tricore\\Cpu\\Std\\Ifx_Types.h"
-=======
-# 175 "C:\\Users\\USER\\OneDrive\\Desktop\\tunnel\\TUNNEL~1\\TC275/illd\\Libraries\\iLLD\\TC27D\\Tricore\\Cpu\\Std\\Ifx_Types.h"
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+# 175 "C:\\TUNNEL~1\\TC275/illd\\Libraries\\iLLD\\TC27D\\Tricore\\Cpu\\Std\\Ifx_Types.h"
 typedef enum
 {
     Ifx_Pwm_Mode_centerAligned = 0,
@@ -267,13 +219,8 @@ typedef enum
 
 
 
-<<<<<<< HEAD
-# 1 "C:\\Users\\USER\\Desktop\\WORKSP~1\\TUNNEL~1\\TC275/illd\\Libraries\\iLLD\\TC27D\\Tricore\\Cpu\\Std\\Ifx_TypesGnuc.h" 1
-# 44 "C:\\Users\\USER\\Desktop\\WORKSP~1\\TUNNEL~1\\TC275/illd\\Libraries\\iLLD\\TC27D\\Tricore\\Cpu\\Std\\Ifx_TypesGnuc.h"
-=======
-# 1 "C:\\Users\\USER\\OneDrive\\Desktop\\tunnel\\TUNNEL~1\\TC275/illd\\Libraries\\iLLD\\TC27D\\Tricore\\Cpu\\Std\\Ifx_TypesGnuc.h" 1
-# 44 "C:\\Users\\USER\\OneDrive\\Desktop\\tunnel\\TUNNEL~1\\TC275/illd\\Libraries\\iLLD\\TC27D\\Tricore\\Cpu\\Std\\Ifx_TypesGnuc.h"
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+# 1 "C:\\TUNNEL~1\\TC275/illd\\Libraries\\iLLD\\TC27D\\Tricore\\Cpu\\Std\\Ifx_TypesGnuc.h" 1
+# 44 "C:\\TUNNEL~1\\TC275/illd\\Libraries\\iLLD\\TC27D\\Tricore\\Cpu\\Std\\Ifx_TypesGnuc.h"
 # 1 "c:\\hightec\\toolchains\\tricore\\v4.9.3.0-infineon-1.0\\tricore\\include\\machine\\cint.h" 1 3
 # 24 "c:\\hightec\\toolchains\\tricore\\v4.9.3.0-infineon-1.0\\tricore\\include\\machine\\cint.h" 3
 extern void _init_vectab (void);
@@ -306,11 +253,7 @@ extern int _remove_chained_int_handler (int intno, void *ptr);
 
 
 extern int _install_trap_handler (int trapno, void (*handler) (int));
-<<<<<<< HEAD
-# 45 "C:\\Users\\USER\\Desktop\\WORKSP~1\\TUNNEL~1\\TC275/illd\\Libraries\\iLLD\\TC27D\\Tricore\\Cpu\\Std\\Ifx_TypesGnuc.h" 2
-=======
-# 45 "C:\\Users\\USER\\OneDrive\\Desktop\\tunnel\\TUNNEL~1\\TC275/illd\\Libraries\\iLLD\\TC27D\\Tricore\\Cpu\\Std\\Ifx_TypesGnuc.h" 2
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+# 45 "C:\\TUNNEL~1\\TC275/illd\\Libraries\\iLLD\\TC27D\\Tricore\\Cpu\\Std\\Ifx_TypesGnuc.h" 2
 
 
 typedef long fract;
@@ -320,11 +263,7 @@ typedef long __packb;
 typedef unsigned long __upackb;
 typedef long __packhw;
 typedef unsigned long __upackhw;
-<<<<<<< HEAD
-# 191 "C:\\Users\\USER\\Desktop\\WORKSP~1\\TUNNEL~1\\TC275/illd\\Libraries\\iLLD\\TC27D\\Tricore\\Cpu\\Std\\Ifx_Types.h" 2
-=======
-# 191 "C:\\Users\\USER\\OneDrive\\Desktop\\tunnel\\TUNNEL~1\\TC275/illd\\Libraries\\iLLD\\TC27D\\Tricore\\Cpu\\Std\\Ifx_Types.h" 2
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+# 191 "C:\\TUNNEL~1\\TC275/illd\\Libraries\\iLLD\\TC27D\\Tricore\\Cpu\\Std\\Ifx_Types.h" 2
 
 
 
@@ -341,17 +280,10 @@ typedef struct
     sfract real;
     sfract imag;
 } csfract;
-<<<<<<< HEAD
-# 114 "C:\\Users\\USER\\Desktop\\WORKSP~1\\TUNNEL~1\\TC275/illd\\Libraries\\Service\\CpuGeneric\\StdIf\\IfxStdIf.h" 2
+# 114 "C:\\TUNNEL~1\\TC275/illd\\Libraries\\Service\\CpuGeneric\\StdIf\\IfxStdIf.h" 2
 
 typedef void *IfxStdIf_InterfaceDriver;
-# 62 "C:\\Users\\USER\\Desktop\\WORKSP~1\\TUNNEL~1\\TC275/illd\\Libraries\\Service\\CpuGeneric\\StdIf\\IfxStdIf_DPipe.h" 2
-=======
-# 114 "C:\\Users\\USER\\OneDrive\\Desktop\\tunnel\\TUNNEL~1\\TC275/illd\\Libraries\\Service\\CpuGeneric\\StdIf\\IfxStdIf.h" 2
-
-typedef void *IfxStdIf_InterfaceDriver;
-# 62 "C:\\Users\\USER\\OneDrive\\Desktop\\tunnel\\TUNNEL~1\\TC275/illd\\Libraries\\Service\\CpuGeneric\\StdIf\\IfxStdIf_DPipe.h" 2
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+# 62 "C:\\TUNNEL~1\\TC275/illd\\Libraries\\Service\\CpuGeneric\\StdIf\\IfxStdIf_DPipe.h" 2
 
 
 
@@ -362,15 +294,9 @@ typedef struct IfxStdIf_DPipe_ IfxStdIf_DPipe;
 
 typedef volatile boolean *IfxStdIf_DPipe_WriteEvent;
 typedef volatile boolean *IfxStdIf_DPipe_ReadEvent;
-<<<<<<< HEAD
-# 89 "C:\\Users\\USER\\Desktop\\WORKSP~1\\TUNNEL~1\\TC275/illd\\Libraries\\Service\\CpuGeneric\\StdIf\\IfxStdIf_DPipe.h"
+# 89 "C:\\TUNNEL~1\\TC275/illd\\Libraries\\Service\\CpuGeneric\\StdIf\\IfxStdIf_DPipe.h"
 typedef boolean (*IfxStdIf_DPipe_Write)(IfxStdIf_InterfaceDriver stdIf, void *data, Ifx_SizeT *count, Ifx_TickTime timeout);
-# 104 "C:\\Users\\USER\\Desktop\\WORKSP~1\\TUNNEL~1\\TC275/illd\\Libraries\\Service\\CpuGeneric\\StdIf\\IfxStdIf_DPipe.h"
-=======
-# 89 "C:\\Users\\USER\\OneDrive\\Desktop\\tunnel\\TUNNEL~1\\TC275/illd\\Libraries\\Service\\CpuGeneric\\StdIf\\IfxStdIf_DPipe.h"
-typedef boolean (*IfxStdIf_DPipe_Write)(IfxStdIf_InterfaceDriver stdIf, void *data, Ifx_SizeT *count, Ifx_TickTime timeout);
-# 104 "C:\\Users\\USER\\OneDrive\\Desktop\\tunnel\\TUNNEL~1\\TC275/illd\\Libraries\\Service\\CpuGeneric\\StdIf\\IfxStdIf_DPipe.h"
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+# 104 "C:\\TUNNEL~1\\TC275/illd\\Libraries\\Service\\CpuGeneric\\StdIf\\IfxStdIf_DPipe.h"
 typedef boolean (*IfxStdIf_DPipe_Read)(IfxStdIf_InterfaceDriver stdIf, void *data, Ifx_SizeT *count, Ifx_TickTime timeout);
 
 
@@ -420,19 +346,11 @@ typedef sint32 (*IfxStdIf_DPipe_GetWriteCount)(IfxStdIf_InterfaceDriver stdIf);
 
 
 typedef IfxStdIf_DPipe_WriteEvent (*IfxStdIf_DPipe_GetWriteEvent)(IfxStdIf_InterfaceDriver stdIf);
-<<<<<<< HEAD
-# 163 "C:\\Users\\USER\\Desktop\\WORKSP~1\\TUNNEL~1\\TC275/illd\\Libraries\\Service\\CpuGeneric\\StdIf\\IfxStdIf_DPipe.h"
+# 163 "C:\\TUNNEL~1\\TC275/illd\\Libraries\\Service\\CpuGeneric\\StdIf\\IfxStdIf_DPipe.h"
 typedef boolean (*IfxStdIf_DPipe_CanReadCount)(IfxStdIf_InterfaceDriver stdIf, Ifx_SizeT count, Ifx_TickTime timeout);
-# 174 "C:\\Users\\USER\\Desktop\\WORKSP~1\\TUNNEL~1\\TC275/illd\\Libraries\\Service\\CpuGeneric\\StdIf\\IfxStdIf_DPipe.h"
+# 174 "C:\\TUNNEL~1\\TC275/illd\\Libraries\\Service\\CpuGeneric\\StdIf\\IfxStdIf_DPipe.h"
 typedef boolean (*IfxStdIf_DPipe_CanWriteCount)(IfxStdIf_InterfaceDriver stdIf, Ifx_SizeT count, Ifx_TickTime timeout);
-# 183 "C:\\Users\\USER\\Desktop\\WORKSP~1\\TUNNEL~1\\TC275/illd\\Libraries\\Service\\CpuGeneric\\StdIf\\IfxStdIf_DPipe.h"
-=======
-# 163 "C:\\Users\\USER\\OneDrive\\Desktop\\tunnel\\TUNNEL~1\\TC275/illd\\Libraries\\Service\\CpuGeneric\\StdIf\\IfxStdIf_DPipe.h"
-typedef boolean (*IfxStdIf_DPipe_CanReadCount)(IfxStdIf_InterfaceDriver stdIf, Ifx_SizeT count, Ifx_TickTime timeout);
-# 174 "C:\\Users\\USER\\OneDrive\\Desktop\\tunnel\\TUNNEL~1\\TC275/illd\\Libraries\\Service\\CpuGeneric\\StdIf\\IfxStdIf_DPipe.h"
-typedef boolean (*IfxStdIf_DPipe_CanWriteCount)(IfxStdIf_InterfaceDriver stdIf, Ifx_SizeT count, Ifx_TickTime timeout);
-# 183 "C:\\Users\\USER\\OneDrive\\Desktop\\tunnel\\TUNNEL~1\\TC275/illd\\Libraries\\Service\\CpuGeneric\\StdIf\\IfxStdIf_DPipe.h"
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+# 183 "C:\\TUNNEL~1\\TC275/illd\\Libraries\\Service\\CpuGeneric\\StdIf\\IfxStdIf_DPipe.h"
 typedef boolean (*IfxStdIf_DPipe_FlushTx)(IfxStdIf_InterfaceDriver stdIf, Ifx_TickTime timeout);
 
 
@@ -644,21 +562,12 @@ static inline __attribute__ ((always_inline)) void IfxStdIf_DPipe_resetSendCount
 
 
 extern void IfxStdIf_DPipe_print(IfxStdIf_DPipe *stdIf, pchar format, ...);
-<<<<<<< HEAD
-# 44 "C:\\Users\\USER\\Desktop\\WORKSP~1\\TUNNEL~1\\TC275\\illd\\src\\IfxStdIf_DPipe.c" 2
-# 1 "C:\\Users\\USER\\Desktop\\WORKSP~1\\TUNNEL~1\\TC275/illd\\Libraries\\Service\\CpuGeneric\\_Utilities/Ifx_Assert.h" 1
-# 51 "C:\\Users\\USER\\Desktop\\WORKSP~1\\TUNNEL~1\\TC275/illd\\Libraries\\Service\\CpuGeneric\\_Utilities/Ifx_Assert.h"
-# 1 "C:\\Users\\USER\\Desktop\\WORKSP~1\\TUNNEL~1\\TC275/illd\\Libraries\\iLLD\\TC27D\\Tricore\\Cpu\\Std/Ifx_Types.h" 1
-# 52 "C:\\Users\\USER\\Desktop\\WORKSP~1\\TUNNEL~1\\TC275/illd\\Libraries\\Service\\CpuGeneric\\_Utilities/Ifx_Assert.h" 2
-# 45 "C:\\Users\\USER\\Desktop\\WORKSP~1\\TUNNEL~1\\TC275\\illd\\src\\IfxStdIf_DPipe.c" 2
-=======
-# 44 "C:\\Users\\USER\\OneDrive\\Desktop\\tunnel\\TUNNEL~1\\TC275\\illd\\src\\IfxStdIf_DPipe.c" 2
-# 1 "C:\\Users\\USER\\OneDrive\\Desktop\\tunnel\\TUNNEL~1\\TC275/illd\\Libraries\\Service\\CpuGeneric\\_Utilities/Ifx_Assert.h" 1
-# 51 "C:\\Users\\USER\\OneDrive\\Desktop\\tunnel\\TUNNEL~1\\TC275/illd\\Libraries\\Service\\CpuGeneric\\_Utilities/Ifx_Assert.h"
-# 1 "C:\\Users\\USER\\OneDrive\\Desktop\\tunnel\\TUNNEL~1\\TC275/illd\\Libraries\\iLLD\\TC27D\\Tricore\\Cpu\\Std/Ifx_Types.h" 1
-# 52 "C:\\Users\\USER\\OneDrive\\Desktop\\tunnel\\TUNNEL~1\\TC275/illd\\Libraries\\Service\\CpuGeneric\\_Utilities/Ifx_Assert.h" 2
-# 45 "C:\\Users\\USER\\OneDrive\\Desktop\\tunnel\\TUNNEL~1\\TC275\\illd\\src\\IfxStdIf_DPipe.c" 2
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+# 44 "C:\\TUNNEL~1\\TC275\\illd\\src\\IfxStdIf_DPipe.c" 2
+# 1 "C:\\TUNNEL~1\\TC275/illd\\Libraries\\Service\\CpuGeneric\\_Utilities/Ifx_Assert.h" 1
+# 51 "C:\\TUNNEL~1\\TC275/illd\\Libraries\\Service\\CpuGeneric\\_Utilities/Ifx_Assert.h"
+# 1 "C:\\TUNNEL~1\\TC275/illd\\Libraries\\iLLD\\TC27D\\Tricore\\Cpu\\Std/Ifx_Types.h" 1
+# 52 "C:\\TUNNEL~1\\TC275/illd\\Libraries\\Service\\CpuGeneric\\_Utilities/Ifx_Assert.h" 2
+# 45 "C:\\TUNNEL~1\\TC275\\illd\\src\\IfxStdIf_DPipe.c" 2
 
 # 1 "c:\\hightec\\toolchains\\tricore\\v4.9.3.0-infineon-1.0\\tricore\\include\\string.h" 1 3
 # 10 "c:\\hightec\\toolchains\\tricore\\v4.9.3.0-infineon-1.0\\tricore\\include\\string.h" 3
@@ -1069,11 +978,7 @@ char *strupr (char *);
 # 101 "c:\\hightec\\toolchains\\tricore\\v4.9.3.0-infineon-1.0\\tricore\\include\\string.h" 2 3
 
 
-<<<<<<< HEAD
-# 47 "C:\\Users\\USER\\Desktop\\WORKSP~1\\TUNNEL~1\\TC275\\illd\\src\\IfxStdIf_DPipe.c" 2
-=======
-# 47 "C:\\Users\\USER\\OneDrive\\Desktop\\tunnel\\TUNNEL~1\\TC275\\illd\\src\\IfxStdIf_DPipe.c" 2
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+# 47 "C:\\TUNNEL~1\\TC275\\illd\\src\\IfxStdIf_DPipe.c" 2
 # 1 "c:\\hightec\\toolchains\\tricore\\v4.9.3.0-infineon-1.0\\tricore\\include\\stdio.h" 1 3
 # 34 "c:\\hightec\\toolchains\\tricore\\v4.9.3.0-infineon-1.0\\tricore\\include\\stdio.h" 3
 # 1 "c:\\hightec\\toolchains\\tricore\\v4.9.3.0-infineon-1.0\\lib\\gcc\\tricore\\4.9.4\\include\\stddef.h" 1 3 4
@@ -1552,19 +1457,11 @@ FILE *_fopencookie_r (struct _reent *, void *__cookie, const char *__mode, cooki
                                                          ;
 # 687 "c:\\hightec\\toolchains\\tricore\\v4.9.3.0-infineon-1.0\\tricore\\include\\stdio.h" 3
 
-<<<<<<< HEAD
-# 48 "C:\\Users\\USER\\Desktop\\WORKSP~1\\TUNNEL~1\\TC275\\illd\\src\\IfxStdIf_DPipe.c" 2
+# 48 "C:\\TUNNEL~1\\TC275\\illd\\src\\IfxStdIf_DPipe.c" 2
 # 1 "c:\\hightec\\toolchains\\tricore\\v4.9.3.0-infineon-1.0\\lib\\gcc\\tricore\\4.9.4\\include\\stdarg.h" 1 3 4
 # 98 "c:\\hightec\\toolchains\\tricore\\v4.9.3.0-infineon-1.0\\lib\\gcc\\tricore\\4.9.4\\include\\stdarg.h" 3 4
 typedef __gnuc_va_list va_list;
-# 49 "C:\\Users\\USER\\Desktop\\WORKSP~1\\TUNNEL~1\\TC275\\illd\\src\\IfxStdIf_DPipe.c" 2
-=======
-# 48 "C:\\Users\\USER\\OneDrive\\Desktop\\tunnel\\TUNNEL~1\\TC275\\illd\\src\\IfxStdIf_DPipe.c" 2
-# 1 "c:\\hightec\\toolchains\\tricore\\v4.9.3.0-infineon-1.0\\lib\\gcc\\tricore\\4.9.4\\include\\stdarg.h" 1 3 4
-# 98 "c:\\hightec\\toolchains\\tricore\\v4.9.3.0-infineon-1.0\\lib\\gcc\\tricore\\4.9.4\\include\\stdarg.h" 3 4
-typedef __gnuc_va_list va_list;
-# 49 "C:\\Users\\USER\\OneDrive\\Desktop\\tunnel\\TUNNEL~1\\TC275\\illd\\src\\IfxStdIf_DPipe.c" 2
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+# 49 "C:\\TUNNEL~1\\TC275\\illd\\src\\IfxStdIf_DPipe.c" 2
 
 void IfxStdIf_DPipe_print(IfxStdIf_DPipe *stdIf, pchar format, ...)
 {

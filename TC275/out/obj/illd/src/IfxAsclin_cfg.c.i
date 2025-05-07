@@ -1,40 +1,20 @@
-<<<<<<< HEAD
-# 1 "C:\\Users\\USER\\Desktop\\WORKSP~1\\TUNNEL~1\\TC275\\illd\\src\\IfxAsclin_cfg.c"
-# 1 "C:\\Users\\USER\\Desktop\\workspace\\TunnelMate\\TC275\\out//"
+# 1 "C:\\TUNNEL~1\\TC275\\illd\\src\\IfxAsclin_cfg.c"
+# 1 "C:\\TunnelMate\\TC275\\out//"
 # 1 "<built-in>"
 # 1 "<command-line>"
-# 1 "C:\\Users\\USER\\Desktop\\WORKSP~1\\TUNNEL~1\\TC275\\illd\\src\\IfxAsclin_cfg.c"
-# 48 "C:\\Users\\USER\\Desktop\\WORKSP~1\\TUNNEL~1\\TC275\\illd\\src\\IfxAsclin_cfg.c"
-# 1 "C:\\Users\\USER\\Desktop\\WORKSP~1\\TUNNEL~1\\TC275/illd\\Libraries\\iLLD\\TC27D\\Tricore\\_Impl\\IfxAsclin_cfg.h" 1
-# 60 "C:\\Users\\USER\\Desktop\\WORKSP~1\\TUNNEL~1\\TC275/illd\\Libraries\\iLLD\\TC27D\\Tricore\\_Impl\\IfxAsclin_cfg.h"
-# 1 "C:\\Users\\USER\\Desktop\\WORKSP~1\\TUNNEL~1\\TC275/illd\\Libraries\\iLLD\\TC27D\\Tricore\\Cpu\\Std/Ifx_Types.h" 1
-# 46 "C:\\Users\\USER\\Desktop\\WORKSP~1\\TUNNEL~1\\TC275/illd\\Libraries\\iLLD\\TC27D\\Tricore\\Cpu\\Std/Ifx_Types.h"
-# 1 "C:\\Users\\USER\\Desktop\\WORKSP~1\\TUNNEL~1\\TC275/illd\\Libraries\\Infra\\Platform\\Tricore\\Compilers/Compilers.h" 1
-# 46 "C:\\Users\\USER\\Desktop\\WORKSP~1\\TUNNEL~1\\TC275/illd\\Libraries\\Infra\\Platform\\Tricore\\Compilers/Compilers.h"
-# 1 "C:\\Users\\USER\\Desktop\\WORKSP~1\\TUNNEL~1\\TC275/illd\\Configurations\\Ifx_Cfg.h" 1
-# 47 "C:\\Users\\USER\\Desktop\\WORKSP~1\\TUNNEL~1\\TC275/illd\\Libraries\\Infra\\Platform\\Tricore\\Compilers/Compilers.h" 2
-# 81 "C:\\Users\\USER\\Desktop\\WORKSP~1\\TUNNEL~1\\TC275/illd\\Libraries\\Infra\\Platform\\Tricore\\Compilers/Compilers.h"
-# 1 "C:\\Users\\USER\\Desktop\\WORKSP~1\\TUNNEL~1\\TC275/illd\\Libraries\\Infra\\Platform\\Tricore\\Compilers/CompilerGnuc.h" 1
-# 46 "C:\\Users\\USER\\Desktop\\WORKSP~1\\TUNNEL~1\\TC275/illd\\Libraries\\Infra\\Platform\\Tricore\\Compilers/CompilerGnuc.h"
-=======
-# 1 "C:\\Users\\USER\\OneDrive\\Desktop\\tunnel\\TUNNEL~1\\TC275\\illd\\src\\IfxAsclin_cfg.c"
-# 1 "C:\\Users\\USER\\OneDrive\\Desktop\\tunnel\\TunnelMate\\TC275\\out//"
-# 1 "<built-in>"
-# 1 "<command-line>"
-# 1 "C:\\Users\\USER\\OneDrive\\Desktop\\tunnel\\TUNNEL~1\\TC275\\illd\\src\\IfxAsclin_cfg.c"
-# 48 "C:\\Users\\USER\\OneDrive\\Desktop\\tunnel\\TUNNEL~1\\TC275\\illd\\src\\IfxAsclin_cfg.c"
-# 1 "C:\\Users\\USER\\OneDrive\\Desktop\\tunnel\\TUNNEL~1\\TC275/illd\\Libraries\\iLLD\\TC27D\\Tricore\\_Impl\\IfxAsclin_cfg.h" 1
-# 60 "C:\\Users\\USER\\OneDrive\\Desktop\\tunnel\\TUNNEL~1\\TC275/illd\\Libraries\\iLLD\\TC27D\\Tricore\\_Impl\\IfxAsclin_cfg.h"
-# 1 "C:\\Users\\USER\\OneDrive\\Desktop\\tunnel\\TUNNEL~1\\TC275/illd\\Libraries\\iLLD\\TC27D\\Tricore\\Cpu\\Std/Ifx_Types.h" 1
-# 46 "C:\\Users\\USER\\OneDrive\\Desktop\\tunnel\\TUNNEL~1\\TC275/illd\\Libraries\\iLLD\\TC27D\\Tricore\\Cpu\\Std/Ifx_Types.h"
-# 1 "C:\\Users\\USER\\OneDrive\\Desktop\\tunnel\\TUNNEL~1\\TC275/illd\\Libraries\\Infra\\Platform\\Tricore\\Compilers/Compilers.h" 1
-# 46 "C:\\Users\\USER\\OneDrive\\Desktop\\tunnel\\TUNNEL~1\\TC275/illd\\Libraries\\Infra\\Platform\\Tricore\\Compilers/Compilers.h"
-# 1 "C:\\Users\\USER\\OneDrive\\Desktop\\tunnel\\TUNNEL~1\\TC275/illd\\Configurations\\Ifx_Cfg.h" 1
-# 47 "C:\\Users\\USER\\OneDrive\\Desktop\\tunnel\\TUNNEL~1\\TC275/illd\\Libraries\\Infra\\Platform\\Tricore\\Compilers/Compilers.h" 2
-# 81 "C:\\Users\\USER\\OneDrive\\Desktop\\tunnel\\TUNNEL~1\\TC275/illd\\Libraries\\Infra\\Platform\\Tricore\\Compilers/Compilers.h"
-# 1 "C:\\Users\\USER\\OneDrive\\Desktop\\tunnel\\TUNNEL~1\\TC275/illd\\Libraries\\Infra\\Platform\\Tricore\\Compilers/CompilerGnuc.h" 1
-# 46 "C:\\Users\\USER\\OneDrive\\Desktop\\tunnel\\TUNNEL~1\\TC275/illd\\Libraries\\Infra\\Platform\\Tricore\\Compilers/CompilerGnuc.h"
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+# 1 "C:\\TUNNEL~1\\TC275\\illd\\src\\IfxAsclin_cfg.c"
+# 48 "C:\\TUNNEL~1\\TC275\\illd\\src\\IfxAsclin_cfg.c"
+# 1 "C:\\TUNNEL~1\\TC275/illd\\Libraries\\iLLD\\TC27D\\Tricore\\_Impl\\IfxAsclin_cfg.h" 1
+# 60 "C:\\TUNNEL~1\\TC275/illd\\Libraries\\iLLD\\TC27D\\Tricore\\_Impl\\IfxAsclin_cfg.h"
+# 1 "C:\\TUNNEL~1\\TC275/illd\\Libraries\\iLLD\\TC27D\\Tricore\\Cpu\\Std/Ifx_Types.h" 1
+# 46 "C:\\TUNNEL~1\\TC275/illd\\Libraries\\iLLD\\TC27D\\Tricore\\Cpu\\Std/Ifx_Types.h"
+# 1 "C:\\TUNNEL~1\\TC275/illd\\Libraries\\Infra\\Platform\\Tricore\\Compilers/Compilers.h" 1
+# 46 "C:\\TUNNEL~1\\TC275/illd\\Libraries\\Infra\\Platform\\Tricore\\Compilers/Compilers.h"
+# 1 "C:\\TUNNEL~1\\TC275/illd\\Configurations\\Ifx_Cfg.h" 1
+# 47 "C:\\TUNNEL~1\\TC275/illd\\Libraries\\Infra\\Platform\\Tricore\\Compilers/Compilers.h" 2
+# 81 "C:\\TUNNEL~1\\TC275/illd\\Libraries\\Infra\\Platform\\Tricore\\Compilers/Compilers.h"
+# 1 "C:\\TUNNEL~1\\TC275/illd\\Libraries\\Infra\\Platform\\Tricore\\Compilers/CompilerGnuc.h" 1
+# 46 "C:\\TUNNEL~1\\TC275/illd\\Libraries\\Infra\\Platform\\Tricore\\Compilers/CompilerGnuc.h"
 # 1 "c:\\hightec\\toolchains\\tricore\\v4.9.3.0-infineon-1.0\\lib\\gcc\\tricore\\4.9.4\\include\\stddef.h" 1 3 4
 # 147 "c:\\hightec\\toolchains\\tricore\\v4.9.3.0-infineon-1.0\\lib\\gcc\\tricore\\4.9.4\\include\\stddef.h" 3 4
 typedef long int ptrdiff_t;
@@ -42,23 +22,13 @@ typedef long int ptrdiff_t;
 typedef long unsigned int size_t;
 # 324 "c:\\hightec\\toolchains\\tricore\\v4.9.3.0-infineon-1.0\\lib\\gcc\\tricore\\4.9.4\\include\\stddef.h" 3 4
 typedef int wchar_t;
-<<<<<<< HEAD
-# 47 "C:\\Users\\USER\\Desktop\\WORKSP~1\\TUNNEL~1\\TC275/illd\\Libraries\\Infra\\Platform\\Tricore\\Compilers/CompilerGnuc.h" 2
-# 82 "C:\\Users\\USER\\Desktop\\WORKSP~1\\TUNNEL~1\\TC275/illd\\Libraries\\Infra\\Platform\\Tricore\\Compilers/Compilers.h" 2
-# 93 "C:\\Users\\USER\\Desktop\\WORKSP~1\\TUNNEL~1\\TC275/illd\\Libraries\\Infra\\Platform\\Tricore\\Compilers/Compilers.h"
+# 47 "C:\\TUNNEL~1\\TC275/illd\\Libraries\\Infra\\Platform\\Tricore\\Compilers/CompilerGnuc.h" 2
+# 82 "C:\\TUNNEL~1\\TC275/illd\\Libraries\\Infra\\Platform\\Tricore\\Compilers/Compilers.h" 2
+# 93 "C:\\TUNNEL~1\\TC275/illd\\Libraries\\Infra\\Platform\\Tricore\\Compilers/Compilers.h"
 void Ifx_C_Init(void);
-# 47 "C:\\Users\\USER\\Desktop\\WORKSP~1\\TUNNEL~1\\TC275/illd\\Libraries\\iLLD\\TC27D\\Tricore\\Cpu\\Std/Ifx_Types.h" 2
-# 1 "C:\\Users\\USER\\Desktop\\WORKSP~1\\TUNNEL~1\\TC275/illd\\Libraries\\iLLD\\TC27D\\Tricore\\Cpu\\Std\\Platform_Types.h" 1
-# 104 "C:\\Users\\USER\\Desktop\\WORKSP~1\\TUNNEL~1\\TC275/illd\\Libraries\\iLLD\\TC27D\\Tricore\\Cpu\\Std\\Platform_Types.h"
-=======
-# 47 "C:\\Users\\USER\\OneDrive\\Desktop\\tunnel\\TUNNEL~1\\TC275/illd\\Libraries\\Infra\\Platform\\Tricore\\Compilers/CompilerGnuc.h" 2
-# 82 "C:\\Users\\USER\\OneDrive\\Desktop\\tunnel\\TUNNEL~1\\TC275/illd\\Libraries\\Infra\\Platform\\Tricore\\Compilers/Compilers.h" 2
-# 93 "C:\\Users\\USER\\OneDrive\\Desktop\\tunnel\\TUNNEL~1\\TC275/illd\\Libraries\\Infra\\Platform\\Tricore\\Compilers/Compilers.h"
-void Ifx_C_Init(void);
-# 47 "C:\\Users\\USER\\OneDrive\\Desktop\\tunnel\\TUNNEL~1\\TC275/illd\\Libraries\\iLLD\\TC27D\\Tricore\\Cpu\\Std/Ifx_Types.h" 2
-# 1 "C:\\Users\\USER\\OneDrive\\Desktop\\tunnel\\TUNNEL~1\\TC275/illd\\Libraries\\iLLD\\TC27D\\Tricore\\Cpu\\Std\\Platform_Types.h" 1
-# 104 "C:\\Users\\USER\\OneDrive\\Desktop\\tunnel\\TUNNEL~1\\TC275/illd\\Libraries\\iLLD\\TC27D\\Tricore\\Cpu\\Std\\Platform_Types.h"
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+# 47 "C:\\TUNNEL~1\\TC275/illd\\Libraries\\iLLD\\TC27D\\Tricore\\Cpu\\Std/Ifx_Types.h" 2
+# 1 "C:\\TUNNEL~1\\TC275/illd\\Libraries\\iLLD\\TC27D\\Tricore\\Cpu\\Std\\Platform_Types.h" 1
+# 104 "C:\\TUNNEL~1\\TC275/illd\\Libraries\\iLLD\\TC27D\\Tricore\\Cpu\\Std\\Platform_Types.h"
 typedef unsigned char boolean;
 
 
@@ -131,11 +101,7 @@ typedef float float32;
 
 
 typedef double float64;
-<<<<<<< HEAD
-# 48 "C:\\Users\\USER\\Desktop\\WORKSP~1\\TUNNEL~1\\TC275/illd\\Libraries\\iLLD\\TC27D\\Tricore\\Cpu\\Std/Ifx_Types.h" 2
-=======
-# 48 "C:\\Users\\USER\\OneDrive\\Desktop\\tunnel\\TUNNEL~1\\TC275/illd\\Libraries\\iLLD\\TC27D\\Tricore\\Cpu\\Std/Ifx_Types.h" 2
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+# 48 "C:\\TUNNEL~1\\TC275/illd\\Libraries\\iLLD\\TC27D\\Tricore\\Cpu\\Std/Ifx_Types.h" 2
 
 
 
@@ -165,11 +131,7 @@ typedef struct
 } csint16;
 
 typedef sint64 Ifx_TickTime;
-<<<<<<< HEAD
-# 89 "C:\\Users\\USER\\Desktop\\WORKSP~1\\TUNNEL~1\\TC275/illd\\Libraries\\iLLD\\TC27D\\Tricore\\Cpu\\Std/Ifx_Types.h"
-=======
-# 89 "C:\\Users\\USER\\OneDrive\\Desktop\\tunnel\\TUNNEL~1\\TC275/illd\\Libraries\\iLLD\\TC27D\\Tricore\\Cpu\\Std/Ifx_Types.h"
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+# 89 "C:\\TUNNEL~1\\TC275/illd\\Libraries\\iLLD\\TC27D\\Tricore\\Cpu\\Std/Ifx_Types.h"
 typedef sint16 Ifx_SizeT;
 
 
@@ -232,22 +194,14 @@ typedef struct
     Ifx_TickTime timestamp;
     uint8 data;
 }Ifx_DataBufferMode_TimeStampSingle;
-<<<<<<< HEAD
-# 161 "C:\\Users\\USER\\Desktop\\WORKSP~1\\TUNNEL~1\\TC275/illd\\Libraries\\iLLD\\TC27D\\Tricore\\Cpu\\Std/Ifx_Types.h"
-=======
-# 161 "C:\\Users\\USER\\OneDrive\\Desktop\\tunnel\\TUNNEL~1\\TC275/illd\\Libraries\\iLLD\\TC27D\\Tricore\\Cpu\\Std/Ifx_Types.h"
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+# 161 "C:\\TUNNEL~1\\TC275/illd\\Libraries\\iLLD\\TC27D\\Tricore\\Cpu\\Std/Ifx_Types.h"
 typedef enum
 {
     Ifx_DataBufferMode_normal = 0,
     Ifx_DataBufferMode_timeStampSingle,
 
 }Ifx_DataBufferMode;
-<<<<<<< HEAD
-# 175 "C:\\Users\\USER\\Desktop\\WORKSP~1\\TUNNEL~1\\TC275/illd\\Libraries\\iLLD\\TC27D\\Tricore\\Cpu\\Std/Ifx_Types.h"
-=======
-# 175 "C:\\Users\\USER\\OneDrive\\Desktop\\tunnel\\TUNNEL~1\\TC275/illd\\Libraries\\iLLD\\TC27D\\Tricore\\Cpu\\Std/Ifx_Types.h"
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+# 175 "C:\\TUNNEL~1\\TC275/illd\\Libraries\\iLLD\\TC27D\\Tricore\\Cpu\\Std/Ifx_Types.h"
 typedef enum
 {
     Ifx_Pwm_Mode_centerAligned = 0,
@@ -263,13 +217,8 @@ typedef enum
 
 
 
-<<<<<<< HEAD
-# 1 "C:\\Users\\USER\\Desktop\\WORKSP~1\\TUNNEL~1\\TC275/illd\\Libraries\\iLLD\\TC27D\\Tricore\\Cpu\\Std/Ifx_TypesGnuc.h" 1
-# 44 "C:\\Users\\USER\\Desktop\\WORKSP~1\\TUNNEL~1\\TC275/illd\\Libraries\\iLLD\\TC27D\\Tricore\\Cpu\\Std/Ifx_TypesGnuc.h"
-=======
-# 1 "C:\\Users\\USER\\OneDrive\\Desktop\\tunnel\\TUNNEL~1\\TC275/illd\\Libraries\\iLLD\\TC27D\\Tricore\\Cpu\\Std/Ifx_TypesGnuc.h" 1
-# 44 "C:\\Users\\USER\\OneDrive\\Desktop\\tunnel\\TUNNEL~1\\TC275/illd\\Libraries\\iLLD\\TC27D\\Tricore\\Cpu\\Std/Ifx_TypesGnuc.h"
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+# 1 "C:\\TUNNEL~1\\TC275/illd\\Libraries\\iLLD\\TC27D\\Tricore\\Cpu\\Std/Ifx_TypesGnuc.h" 1
+# 44 "C:\\TUNNEL~1\\TC275/illd\\Libraries\\iLLD\\TC27D\\Tricore\\Cpu\\Std/Ifx_TypesGnuc.h"
 # 1 "c:\\hightec\\toolchains\\tricore\\v4.9.3.0-infineon-1.0\\tricore\\include\\machine\\cint.h" 1 3
 # 24 "c:\\hightec\\toolchains\\tricore\\v4.9.3.0-infineon-1.0\\tricore\\include\\machine\\cint.h" 3
 extern void _init_vectab (void);
@@ -302,11 +251,7 @@ extern int _remove_chained_int_handler (int intno, void *ptr);
 
 
 extern int _install_trap_handler (int trapno, void (*handler) (int));
-<<<<<<< HEAD
-# 45 "C:\\Users\\USER\\Desktop\\WORKSP~1\\TUNNEL~1\\TC275/illd\\Libraries\\iLLD\\TC27D\\Tricore\\Cpu\\Std/Ifx_TypesGnuc.h" 2
-=======
-# 45 "C:\\Users\\USER\\OneDrive\\Desktop\\tunnel\\TUNNEL~1\\TC275/illd\\Libraries\\iLLD\\TC27D\\Tricore\\Cpu\\Std/Ifx_TypesGnuc.h" 2
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+# 45 "C:\\TUNNEL~1\\TC275/illd\\Libraries\\iLLD\\TC27D\\Tricore\\Cpu\\Std/Ifx_TypesGnuc.h" 2
 
 
 typedef long fract;
@@ -316,11 +261,7 @@ typedef long __packb;
 typedef unsigned long __upackb;
 typedef long __packhw;
 typedef unsigned long __upackhw;
-<<<<<<< HEAD
-# 191 "C:\\Users\\USER\\Desktop\\WORKSP~1\\TUNNEL~1\\TC275/illd\\Libraries\\iLLD\\TC27D\\Tricore\\Cpu\\Std/Ifx_Types.h" 2
-=======
-# 191 "C:\\Users\\USER\\OneDrive\\Desktop\\tunnel\\TUNNEL~1\\TC275/illd\\Libraries\\iLLD\\TC27D\\Tricore\\Cpu\\Std/Ifx_Types.h" 2
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+# 191 "C:\\TUNNEL~1\\TC275/illd\\Libraries\\iLLD\\TC27D\\Tricore\\Cpu\\Std/Ifx_Types.h" 2
 
 
 
@@ -337,23 +278,13 @@ typedef struct
     sfract real;
     sfract imag;
 } csfract;
-<<<<<<< HEAD
-# 61 "C:\\Users\\USER\\Desktop\\WORKSP~1\\TUNNEL~1\\TC275/illd\\Libraries\\iLLD\\TC27D\\Tricore\\_Impl\\IfxAsclin_cfg.h" 2
-# 1 "C:\\Users\\USER\\Desktop\\WORKSP~1\\TUNNEL~1\\TC275/illd\\Libraries\\Infra\\Sfr\\TC27D\\_Reg\\IfxAsclin_reg.h" 1
-# 63 "C:\\Users\\USER\\Desktop\\WORKSP~1\\TUNNEL~1\\TC275/illd\\Libraries\\Infra\\Sfr\\TC27D\\_Reg\\IfxAsclin_reg.h"
-# 1 "C:\\Users\\USER\\Desktop\\WORKSP~1\\TUNNEL~1\\TC275/illd\\Libraries\\Infra\\Sfr\\TC27D\\_Reg\\IfxAsclin_regdef.h" 1
-# 57 "C:\\Users\\USER\\Desktop\\WORKSP~1\\TUNNEL~1\\TC275/illd\\Libraries\\Infra\\Sfr\\TC27D\\_Reg\\IfxAsclin_regdef.h"
-# 1 "C:\\Users\\USER\\Desktop\\WORKSP~1\\TUNNEL~1\\TC275/illd\\Libraries\\Infra\\Sfr\\TC27D\\_Reg\\Ifx_TypesReg.h" 1
-# 58 "C:\\Users\\USER\\Desktop\\WORKSP~1\\TUNNEL~1\\TC275/illd\\Libraries\\Infra\\Sfr\\TC27D\\_Reg\\IfxAsclin_regdef.h" 2
-=======
-# 61 "C:\\Users\\USER\\OneDrive\\Desktop\\tunnel\\TUNNEL~1\\TC275/illd\\Libraries\\iLLD\\TC27D\\Tricore\\_Impl\\IfxAsclin_cfg.h" 2
-# 1 "C:\\Users\\USER\\OneDrive\\Desktop\\tunnel\\TUNNEL~1\\TC275/illd\\Libraries\\Infra\\Sfr\\TC27D\\_Reg\\IfxAsclin_reg.h" 1
-# 63 "C:\\Users\\USER\\OneDrive\\Desktop\\tunnel\\TUNNEL~1\\TC275/illd\\Libraries\\Infra\\Sfr\\TC27D\\_Reg\\IfxAsclin_reg.h"
-# 1 "C:\\Users\\USER\\OneDrive\\Desktop\\tunnel\\TUNNEL~1\\TC275/illd\\Libraries\\Infra\\Sfr\\TC27D\\_Reg\\IfxAsclin_regdef.h" 1
-# 57 "C:\\Users\\USER\\OneDrive\\Desktop\\tunnel\\TUNNEL~1\\TC275/illd\\Libraries\\Infra\\Sfr\\TC27D\\_Reg\\IfxAsclin_regdef.h"
-# 1 "C:\\Users\\USER\\OneDrive\\Desktop\\tunnel\\TUNNEL~1\\TC275/illd\\Libraries\\Infra\\Sfr\\TC27D\\_Reg\\Ifx_TypesReg.h" 1
-# 58 "C:\\Users\\USER\\OneDrive\\Desktop\\tunnel\\TUNNEL~1\\TC275/illd\\Libraries\\Infra\\Sfr\\TC27D\\_Reg\\IfxAsclin_regdef.h" 2
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+# 61 "C:\\TUNNEL~1\\TC275/illd\\Libraries\\iLLD\\TC27D\\Tricore\\_Impl\\IfxAsclin_cfg.h" 2
+# 1 "C:\\TUNNEL~1\\TC275/illd\\Libraries\\Infra\\Sfr\\TC27D\\_Reg\\IfxAsclin_reg.h" 1
+# 63 "C:\\TUNNEL~1\\TC275/illd\\Libraries\\Infra\\Sfr\\TC27D\\_Reg\\IfxAsclin_reg.h"
+# 1 "C:\\TUNNEL~1\\TC275/illd\\Libraries\\Infra\\Sfr\\TC27D\\_Reg\\IfxAsclin_regdef.h" 1
+# 57 "C:\\TUNNEL~1\\TC275/illd\\Libraries\\Infra\\Sfr\\TC27D\\_Reg\\IfxAsclin_regdef.h"
+# 1 "C:\\TUNNEL~1\\TC275/illd\\Libraries\\Infra\\Sfr\\TC27D\\_Reg\\Ifx_TypesReg.h" 1
+# 58 "C:\\TUNNEL~1\\TC275/illd\\Libraries\\Infra\\Sfr\\TC27D\\_Reg\\IfxAsclin_regdef.h" 2
 
 
 
@@ -951,22 +882,14 @@ typedef union
     signed int I;
     Ifx_ASCLIN_TXFIFOCON_Bits B;
 } Ifx_ASCLIN_TXFIFOCON;
-<<<<<<< HEAD
-# 665 "C:\\Users\\USER\\Desktop\\WORKSP~1\\TUNNEL~1\\TC275/illd\\Libraries\\Infra\\Sfr\\TC27D\\_Reg\\IfxAsclin_regdef.h"
-=======
-# 665 "C:\\Users\\USER\\OneDrive\\Desktop\\tunnel\\TUNNEL~1\\TC275/illd\\Libraries\\Infra\\Sfr\\TC27D\\_Reg\\IfxAsclin_regdef.h"
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+# 665 "C:\\TUNNEL~1\\TC275/illd\\Libraries\\Infra\\Sfr\\TC27D\\_Reg\\IfxAsclin_regdef.h"
 typedef volatile struct _Ifx_ASCLIN_LIN
 {
     Ifx_ASCLIN_LIN_CON CON;
     Ifx_ASCLIN_LIN_BTIMER BTIMER;
     Ifx_ASCLIN_LIN_HTIMER HTIMER;
 } Ifx_ASCLIN_LIN;
-<<<<<<< HEAD
-# 683 "C:\\Users\\USER\\Desktop\\WORKSP~1\\TUNNEL~1\\TC275/illd\\Libraries\\Infra\\Sfr\\TC27D\\_Reg\\IfxAsclin_regdef.h"
-=======
-# 683 "C:\\Users\\USER\\OneDrive\\Desktop\\tunnel\\TUNNEL~1\\TC275/illd\\Libraries\\Infra\\Sfr\\TC27D\\_Reg\\IfxAsclin_regdef.h"
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+# 683 "C:\\TUNNEL~1\\TC275/illd\\Libraries\\Infra\\Sfr\\TC27D\\_Reg\\IfxAsclin_regdef.h"
 typedef volatile struct _Ifx_ASCLIN
 {
     Ifx_ASCLIN_CLC CLC;
@@ -996,15 +919,9 @@ typedef volatile struct _Ifx_ASCLIN
     Ifx_ASCLIN_ACCEN1 ACCEN1;
     Ifx_ASCLIN_ACCEN0 ACCEN0;
 } Ifx_ASCLIN;
-<<<<<<< HEAD
-# 64 "C:\\Users\\USER\\Desktop\\WORKSP~1\\TUNNEL~1\\TC275/illd\\Libraries\\Infra\\Sfr\\TC27D\\_Reg\\IfxAsclin_reg.h" 2
-# 62 "C:\\Users\\USER\\Desktop\\WORKSP~1\\TUNNEL~1\\TC275/illd\\Libraries\\iLLD\\TC27D\\Tricore\\_Impl\\IfxAsclin_cfg.h" 2
-# 77 "C:\\Users\\USER\\Desktop\\WORKSP~1\\TUNNEL~1\\TC275/illd\\Libraries\\iLLD\\TC27D\\Tricore\\_Impl\\IfxAsclin_cfg.h"
-=======
-# 64 "C:\\Users\\USER\\OneDrive\\Desktop\\tunnel\\TUNNEL~1\\TC275/illd\\Libraries\\Infra\\Sfr\\TC27D\\_Reg\\IfxAsclin_reg.h" 2
-# 62 "C:\\Users\\USER\\OneDrive\\Desktop\\tunnel\\TUNNEL~1\\TC275/illd\\Libraries\\iLLD\\TC27D\\Tricore\\_Impl\\IfxAsclin_cfg.h" 2
-# 77 "C:\\Users\\USER\\OneDrive\\Desktop\\tunnel\\TUNNEL~1\\TC275/illd\\Libraries\\iLLD\\TC27D\\Tricore\\_Impl\\IfxAsclin_cfg.h"
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+# 64 "C:\\TUNNEL~1\\TC275/illd\\Libraries\\Infra\\Sfr\\TC27D\\_Reg\\IfxAsclin_reg.h" 2
+# 62 "C:\\TUNNEL~1\\TC275/illd\\Libraries\\iLLD\\TC27D\\Tricore\\_Impl\\IfxAsclin_cfg.h" 2
+# 77 "C:\\TUNNEL~1\\TC275/illd\\Libraries\\iLLD\\TC27D\\Tricore\\_Impl\\IfxAsclin_cfg.h"
 typedef enum
 {
     IfxAsclin_Index_none = -1,
@@ -1020,11 +937,7 @@ typedef enum
 
 
 extern const IfxModule_IndexMap IfxAsclin_cfg_indexMap[(4)];
-<<<<<<< HEAD
-# 49 "C:\\Users\\USER\\Desktop\\WORKSP~1\\TUNNEL~1\\TC275\\illd\\src\\IfxAsclin_cfg.c" 2
-=======
-# 49 "C:\\Users\\USER\\OneDrive\\Desktop\\tunnel\\TUNNEL~1\\TC275\\illd\\src\\IfxAsclin_cfg.c" 2
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+# 49 "C:\\TUNNEL~1\\TC275\\illd\\src\\IfxAsclin_cfg.c" 2
 
 
 
