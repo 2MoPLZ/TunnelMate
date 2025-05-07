@@ -6,11 +6,7 @@
 	.type	IfxVadc_Adc_deInitGroup, @function
 IfxVadc_Adc_deInitGroup:
 .LFB355:
-<<<<<<< HEAD
-	.file 1 "C:\\Users\\USER\\Desktop\\WORKSP~1\\TUNNEL~1\\TC275\\illd\\src\\IfxVadc_Adc.c"
-=======
-	.file 1 "C:\\Users\\USER\\OneDrive\\Desktop\\tunnel\\TUNNEL~1\\TC275\\illd\\src\\IfxVadc_Adc.c"
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.file 1 "C:\\TUNNEL~1\\TC275\\illd\\src\\IfxVadc_Adc.c"
 	.loc 1 132 0
 .LVL0:
 	.loc 1 139 0
@@ -28,11 +24,7 @@ IfxVadc_Adc_deInitGroup:
 .LVL4:
 .LBB224:
 .LBB225:
-<<<<<<< HEAD
-	.file 2 "C:\\Users\\USER\\Desktop\\WORKSP~1\\TUNNEL~1\\TC275/illd\\Libraries\\iLLD\\TC27D\\Tricore\\Vadc\\Std/IfxVadc.h"
-=======
-	.file 2 "C:\\Users\\USER\\OneDrive\\Desktop\\tunnel\\TUNNEL~1\\TC275/illd\\Libraries\\iLLD\\TC27D\\Tricore\\Vadc\\Std/IfxVadc.h"
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.file 2 "C:\\TUNNEL~1\\TC275/illd\\Libraries\\iLLD\\TC27D\\Tricore\\Vadc\\Std/IfxVadc.h"
 	.loc 2 2153 0
 	ld.w	%d2, [%a13]0
 .LBE225:
@@ -1098,11 +1090,7 @@ IfxVadc_Adc_initChannel:
 .LBE353:
 .LBB355:
 .LBB356:
-<<<<<<< HEAD
-	.file 3 "C:\\Users\\USER\\Desktop\\WORKSP~1\\TUNNEL~1\\TC275/illd\\Libraries\\iLLD\\TC27D\\Tricore\\Src\\Std/IfxSrc.h"
-=======
-	.file 3 "C:\\Users\\USER\\OneDrive\\Desktop\\tunnel\\TUNNEL~1\\TC275/illd\\Libraries\\iLLD\\TC27D\\Tricore\\Src\\Std/IfxSrc.h"
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.file 3 "C:\\TUNNEL~1\\TC275/illd\\Libraries\\iLLD\\TC27D\\Tricore\\Src\\Std/IfxSrc.h"
 	.loc 3 273 0
 	ld.w	%d2, [%a2]0
 .LVL130:
@@ -1950,11 +1938,7 @@ IfxVadc_Adc_initGroup:
 .LBB464:
 .LBB465:
 .LBB466:
-<<<<<<< HEAD
-	.file 4 "C:\\Users\\USER\\Desktop\\WORKSP~1\\TUNNEL~1\\TC275/illd\\Libraries\\iLLD\\TC27D\\Tricore\\Cpu\\Std\\IfxCpu_IntrinsicsGnuc.h"
-=======
-	.file 4 "C:\\Users\\USER\\OneDrive\\Desktop\\tunnel\\TUNNEL~1\\TC275/illd\\Libraries\\iLLD\\TC27D\\Tricore\\Cpu\\Std\\IfxCpu_IntrinsicsGnuc.h"
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.file 4 "C:\\TUNNEL~1\\TC275/illd\\Libraries\\iLLD\\TC27D\\Tricore\\Cpu\\Std\\IfxCpu_IntrinsicsGnuc.h"
 	.loc 4 195 0
 	mov	%d4, 255
 .LVL249:
@@ -2006,11 +1990,7 @@ IfxVadc_Adc_initGroup:
 .LBB467:
 	.loc 4 195 0
 #APP
-<<<<<<< HEAD
-	# 195 "C:\Users\USER\Desktop\WORKSP~1\TUNNEL~1\TC275/illd\Libraries\iLLD\TC27D\Tricore\Cpu\Std\IfxCpu_IntrinsicsGnuc.h" 1
-=======
-	# 195 "C:\Users\USER\OneDrive\Desktop\tunnel\TUNNEL~1\TC275/illd\Libraries\iLLD\TC27D\Tricore\Cpu\Std\IfxCpu_IntrinsicsGnuc.h" 1
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	# 195 "C:\TUNNEL~1\TC275/illd\Libraries\iLLD\TC27D\Tricore\Cpu\Std\IfxCpu_IntrinsicsGnuc.h" 1
 	min.u %d3, %d3, %d4
 	# 0 "" 2
 .LVL254:
@@ -2206,11 +2186,7 @@ IfxVadc_Adc_initModule:
 .LBB482:
 	.loc 4 195 0
 #APP
-<<<<<<< HEAD
-	# 195 "C:\Users\USER\Desktop\WORKSP~1\TUNNEL~1\TC275/illd\Libraries\iLLD\TC27D\Tricore\Cpu\Std\IfxCpu_IntrinsicsGnuc.h" 1
-=======
-	# 195 "C:\Users\USER\OneDrive\Desktop\tunnel\TUNNEL~1\TC275/illd\Libraries\iLLD\TC27D\Tricore\Cpu\Std\IfxCpu_IntrinsicsGnuc.h" 1
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	# 195 "C:\TUNNEL~1\TC275/illd\Libraries\iLLD\TC27D\Tricore\Cpu\Std\IfxCpu_IntrinsicsGnuc.h" 1
 	min.u %d15, %d15, %d6
 	# 0 "" 2
 .LVL278:
@@ -2459,11 +2435,7 @@ IfxVadc_Adc_initExternalMultiplexerMode:
 .LBB505:
 .LBB506:
 .LBB507:
-<<<<<<< HEAD
-	.file 5 "C:\\Users\\USER\\Desktop\\WORKSP~1\\TUNNEL~1\\TC275/illd\\Libraries\\iLLD\\TC27D\\Tricore\\Port\\Std/IfxPort.h"
-=======
-	.file 5 "C:\\Users\\USER\\OneDrive\\Desktop\\tunnel\\TUNNEL~1\\TC275/illd\\Libraries\\iLLD\\TC27D\\Tricore\\Port\\Std/IfxPort.h"
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.file 5 "C:\\TUNNEL~1\\TC275/illd\\Libraries\\iLLD\\TC27D\\Tricore\\Port\\Std/IfxPort.h"
 	.loc 5 586 0
 	ld.bu	%d3, [%a13] 12
 	ld.bu	%d2, [%a15] 24
@@ -2717,39 +2689,21 @@ IfxVadc_Adc_masterIndex:
 .LEFDE24:
 .section .text,"ax",@progbits
 .Letext0:
-<<<<<<< HEAD
-	.file 6 "C:\\Users\\USER\\Desktop\\WORKSP~1\\TUNNEL~1\\TC275/illd\\Libraries\\iLLD\\TC27D\\Tricore\\_Impl/IfxSrc_cfg.h"
-	.file 7 "C:\\Users\\USER\\Desktop\\WORKSP~1\\TUNNEL~1\\TC275/illd\\Libraries\\iLLD\\TC27D\\Tricore\\Cpu\\Std\\Platform_Types.h"
-	.file 8 "C:\\Users\\USER\\Desktop\\WORKSP~1\\TUNNEL~1\\TC275/illd\\Libraries\\iLLD\\TC27D\\Tricore\\Cpu\\Std\\Ifx_Types.h"
-	.file 9 "C:\\Users\\USER\\Desktop\\WORKSP~1\\TUNNEL~1\\TC275/illd\\Libraries\\Infra\\Sfr\\TC27D\\_Reg\\IfxSrc_regdef.h"
-	.file 10 "C:\\Users\\USER\\Desktop\\WORKSP~1\\TUNNEL~1\\TC275/illd\\Libraries\\iLLD\\TC27D\\Tricore\\_Impl/IfxVadc_cfg.h"
-	.file 11 "C:\\Users\\USER\\Desktop\\WORKSP~1\\TUNNEL~1\\TC275/illd\\Libraries\\Infra\\Sfr\\TC27D\\_Reg\\IfxVadc_regdef.h"
-	.file 12 "C:\\Users\\USER\\Desktop\\WORKSP~1\\TUNNEL~1\\TC275/illd\\Libraries\\Infra\\Sfr\\TC27D\\_Reg\\IfxPort_regdef.h"
-	.file 13 "C:\\Users\\USER\\Desktop\\WORKSP~1\\TUNNEL~1\\TC275/illd\\Libraries\\iLLD\\TC27D\\Tricore\\_PinMap/IfxVadc_PinMap.h"
-	.file 14 "C:\\Users\\USER\\Desktop\\WORKSP~1\\TUNNEL~1\\TC275/illd\\Libraries\\iLLD\\TC27D\\Tricore\\_Impl/IfxCpu_cfg.h"
-	.file 15 "C:\\Users\\USER\\Desktop\\WORKSP~1\\TUNNEL~1\\TC275/illd\\Libraries\\iLLD\\TC27D\\Tricore\\Vadc\\Adc\\IfxVadc_Adc.h"
-	.file 16 "C:\\Users\\USER\\Desktop\\WORKSP~1\\TUNNEL~1\\TC275/illd\\Libraries\\iLLD\\TC27D\\Tricore\\Scu\\Std/IfxScuWdt.h"
-	.file 17 "C:\\Users\\USER\\Desktop\\WORKSP~1\\TUNNEL~1\\TC275/illd\\Libraries\\iLLD\\TC27D\\Tricore\\Scu\\Std/IfxScuCcu.h"
+	.file 6 "C:\\TUNNEL~1\\TC275/illd\\Libraries\\iLLD\\TC27D\\Tricore\\_Impl/IfxSrc_cfg.h"
+	.file 7 "C:\\TUNNEL~1\\TC275/illd\\Libraries\\iLLD\\TC27D\\Tricore\\Cpu\\Std\\Platform_Types.h"
+	.file 8 "C:\\TUNNEL~1\\TC275/illd\\Libraries\\iLLD\\TC27D\\Tricore\\Cpu\\Std\\Ifx_Types.h"
+	.file 9 "C:\\TUNNEL~1\\TC275/illd\\Libraries\\Infra\\Sfr\\TC27D\\_Reg\\IfxSrc_regdef.h"
+	.file 10 "C:\\TUNNEL~1\\TC275/illd\\Libraries\\iLLD\\TC27D\\Tricore\\_Impl/IfxVadc_cfg.h"
+	.file 11 "C:\\TUNNEL~1\\TC275/illd\\Libraries\\Infra\\Sfr\\TC27D\\_Reg\\IfxVadc_regdef.h"
+	.file 12 "C:\\TUNNEL~1\\TC275/illd\\Libraries\\Infra\\Sfr\\TC27D\\_Reg\\IfxPort_regdef.h"
+	.file 13 "C:\\TUNNEL~1\\TC275/illd\\Libraries\\iLLD\\TC27D\\Tricore\\_PinMap/IfxVadc_PinMap.h"
+	.file 14 "C:\\TUNNEL~1\\TC275/illd\\Libraries\\iLLD\\TC27D\\Tricore\\_Impl/IfxCpu_cfg.h"
+	.file 15 "C:\\TUNNEL~1\\TC275/illd\\Libraries\\iLLD\\TC27D\\Tricore\\Vadc\\Adc\\IfxVadc_Adc.h"
+	.file 16 "C:\\TUNNEL~1\\TC275/illd\\Libraries\\iLLD\\TC27D\\Tricore\\Scu\\Std/IfxScuWdt.h"
+	.file 17 "C:\\TUNNEL~1\\TC275/illd\\Libraries\\iLLD\\TC27D\\Tricore\\Scu\\Std/IfxScuCcu.h"
 .section .debug_info,"",@progbits
 .Ldebug_info0:
-	.uaword	0xdbe0
-=======
-	.file 6 "C:\\Users\\USER\\OneDrive\\Desktop\\tunnel\\TUNNEL~1\\TC275/illd\\Libraries\\iLLD\\TC27D\\Tricore\\_Impl/IfxSrc_cfg.h"
-	.file 7 "C:\\Users\\USER\\OneDrive\\Desktop\\tunnel\\TUNNEL~1\\TC275/illd\\Libraries\\iLLD\\TC27D\\Tricore\\Cpu\\Std\\Platform_Types.h"
-	.file 8 "C:\\Users\\USER\\OneDrive\\Desktop\\tunnel\\TUNNEL~1\\TC275/illd\\Libraries\\iLLD\\TC27D\\Tricore\\Cpu\\Std\\Ifx_Types.h"
-	.file 9 "C:\\Users\\USER\\OneDrive\\Desktop\\tunnel\\TUNNEL~1\\TC275/illd\\Libraries\\Infra\\Sfr\\TC27D\\_Reg\\IfxSrc_regdef.h"
-	.file 10 "C:\\Users\\USER\\OneDrive\\Desktop\\tunnel\\TUNNEL~1\\TC275/illd\\Libraries\\iLLD\\TC27D\\Tricore\\_Impl/IfxVadc_cfg.h"
-	.file 11 "C:\\Users\\USER\\OneDrive\\Desktop\\tunnel\\TUNNEL~1\\TC275/illd\\Libraries\\Infra\\Sfr\\TC27D\\_Reg\\IfxVadc_regdef.h"
-	.file 12 "C:\\Users\\USER\\OneDrive\\Desktop\\tunnel\\TUNNEL~1\\TC275/illd\\Libraries\\Infra\\Sfr\\TC27D\\_Reg\\IfxPort_regdef.h"
-	.file 13 "C:\\Users\\USER\\OneDrive\\Desktop\\tunnel\\TUNNEL~1\\TC275/illd\\Libraries\\iLLD\\TC27D\\Tricore\\_PinMap/IfxVadc_PinMap.h"
-	.file 14 "C:\\Users\\USER\\OneDrive\\Desktop\\tunnel\\TUNNEL~1\\TC275/illd\\Libraries\\iLLD\\TC27D\\Tricore\\_Impl/IfxCpu_cfg.h"
-	.file 15 "C:\\Users\\USER\\OneDrive\\Desktop\\tunnel\\TUNNEL~1\\TC275/illd\\Libraries\\iLLD\\TC27D\\Tricore\\Vadc\\Adc\\IfxVadc_Adc.h"
-	.file 16 "C:\\Users\\USER\\OneDrive\\Desktop\\tunnel\\TUNNEL~1\\TC275/illd\\Libraries\\iLLD\\TC27D\\Tricore\\Scu\\Std/IfxScuWdt.h"
-	.file 17 "C:\\Users\\USER\\OneDrive\\Desktop\\tunnel\\TUNNEL~1\\TC275/illd\\Libraries\\iLLD\\TC27D\\Tricore\\Scu\\Std/IfxScuCcu.h"
-.section .debug_info,"",@progbits
-.Ldebug_info0:
-	.uaword	0xdbe7
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0xdbc4
 	.uahalf	0x3
 	.uaword	.Ldebug_abbrev0
 	.byte	0x4
@@ -2757,11 +2711,7 @@ IfxVadc_Adc_masterIndex:
 	.ascii	"GNU C 4.9."
 	.string	"4 build on 2019-06-07 -mlicense-dir=c:\\hightec\\toolchains\\tricore\\v4.9.3.0-infineon-1.0\\bin\\../lib/gcc/tricore/4.9.4/../../../../licenses -mcpu=tc27xx -g -Os -fno-common -fshort-enums -fstrict-volatile-bitfields -finline-functions -fzero-initialized-in-bss"
 	.byte	0x1
-<<<<<<< HEAD
-	.string	"C:\\Users\\USER\\Desktop\\WORKSP~1\\TUNNEL~1\\TC275\\illd\\src\\IfxVadc_Adc.c"
-=======
-	.string	"C:\\Users\\USER\\OneDrive\\Desktop\\tunnel\\TUNNEL~1\\TC275\\illd\\src\\IfxVadc_Adc.c"
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.string	"C:\\TUNNEL~1\\TC275\\illd\\src\\IfxVadc_Adc.c"
 	.uaword	.Ltext0
 	.uaword	.Letext0
 	.uaword	.Ldebug_line0
@@ -2777,11 +2727,7 @@ IfxVadc_Adc_masterIndex:
 	.byte	0x1
 	.byte	0x6
 	.byte	0x43
-<<<<<<< HEAD
-	.uaword	0x1d2
-=======
-	.uaword	0x1d9
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x1b6
 	.uleb128 0x4
 	.string	"IfxSrc_Tos_cpu0"
 	.sleb128 0
@@ -2799,11 +2745,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"IfxSrc_Tos"
 	.byte	0x6
 	.byte	0x48
-<<<<<<< HEAD
-	.uaword	0x182
-=======
-	.uaword	0x189
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x166
 	.uleb128 0x2
 	.byte	0x4
 	.byte	0x5
@@ -2820,11 +2762,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"boolean"
 	.byte	0x7
 	.byte	0x68
-<<<<<<< HEAD
-	.uaword	0x21b
-=======
-	.uaword	0x222
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x1ff
 	.uleb128 0x2
 	.byte	0x1
 	.byte	0x8
@@ -2833,20 +2771,12 @@ IfxVadc_Adc_masterIndex:
 	.string	"uint8"
 	.byte	0x7
 	.byte	0x6c
-<<<<<<< HEAD
-	.uaword	0x21b
-=======
-	.uaword	0x222
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x1ff
 	.uleb128 0x5
 	.string	"uint16"
 	.byte	0x7
 	.byte	0x70
-<<<<<<< HEAD
-	.uaword	0x247
-=======
-	.uaword	0x24e
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x22b
 	.uleb128 0x2
 	.byte	0x2
 	.byte	0x7
@@ -2855,11 +2785,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"uint32"
 	.byte	0x7
 	.byte	0x74
-<<<<<<< HEAD
-	.uaword	0x1f0
-=======
-	.uaword	0x1f7
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x1d4
 	.uleb128 0x2
 	.byte	0x8
 	.byte	0x7
@@ -2876,11 +2802,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"sint32"
 	.byte	0x7
 	.byte	0x86
-<<<<<<< HEAD
-	.uaword	0x1e4
-=======
-	.uaword	0x1eb
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x1c8
 	.uleb128 0x2
 	.byte	0x8
 	.byte	0x5
@@ -2889,11 +2811,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"float32"
 	.byte	0x7
 	.byte	0xaa
-<<<<<<< HEAD
-	.uaword	0x169
-=======
-	.uaword	0x170
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x14d
 	.uleb128 0x2
 	.byte	0x8
 	.byte	0x4
@@ -2904,79 +2822,47 @@ IfxVadc_Adc_masterIndex:
 	.string	"char"
 	.uleb128 0x6
 	.byte	0x4
-<<<<<<< HEAD
-	.uaword	0x2e7
-=======
-	.uaword	0x2ee
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x2cb
 	.uleb128 0x7
 	.uleb128 0x5
 	.string	"Ifx_Priority"
 	.byte	0x8
 	.byte	0x64
-<<<<<<< HEAD
-	.uaword	0x239
-=======
-	.uaword	0x240
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x21d
 	.uleb128 0x8
 	.byte	0x8
 	.byte	0x8
 	.byte	0x8c
-<<<<<<< HEAD
-	.uaword	0x31f
-=======
-	.uaword	0x326
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x303
 	.uleb128 0x9
 	.uaword	.LASF0
 	.byte	0x8
 	.byte	0x8e
-<<<<<<< HEAD
-	.uaword	0x2e1
-=======
-	.uaword	0x2e8
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x2c5
 	.byte	0
 	.uleb128 0xa
 	.string	"index"
 	.byte	0x8
 	.byte	0x8f
-<<<<<<< HEAD
-	.uaword	0x2a1
-=======
-	.uaword	0x2a8
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x285
 	.byte	0x4
 	.byte	0
 	.uleb128 0x5
 	.string	"IfxModule_IndexMap"
 	.byte	0x8
 	.byte	0x90
-<<<<<<< HEAD
-	.uaword	0x2fc
-=======
-	.uaword	0x303
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x2e0
 	.uleb128 0xb
 	.string	"_Ifx_SRC_SRCR_Bits"
 	.byte	0x4
 	.byte	0x9
 	.byte	0x3f
-<<<<<<< HEAD
-	.uaword	0x43f
-=======
-	.uaword	0x446
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x423
 	.uleb128 0xc
 	.string	"SRPN"
 	.byte	0x9
 	.byte	0x41
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x8
 	.byte	0x18
@@ -2985,11 +2871,7 @@ IfxVadc_Adc_masterIndex:
 	.uaword	.LASF1
 	.byte	0x9
 	.byte	0x42
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x2
 	.byte	0x16
@@ -2998,11 +2880,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"SRE"
 	.byte	0x9
 	.byte	0x43
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x1
 	.byte	0x15
@@ -3011,11 +2889,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"TOS"
 	.byte	0x9
 	.byte	0x44
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x2
 	.byte	0x13
@@ -3024,11 +2898,7 @@ IfxVadc_Adc_masterIndex:
 	.uaword	.LASF2
 	.byte	0x9
 	.byte	0x45
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x3
 	.byte	0x10
@@ -3037,11 +2907,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"ECC"
 	.byte	0x9
 	.byte	0x46
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x6
 	.byte	0xa
@@ -3050,11 +2916,7 @@ IfxVadc_Adc_masterIndex:
 	.uaword	.LASF3
 	.byte	0x9
 	.byte	0x47
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x2
 	.byte	0x8
@@ -3063,11 +2925,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"SRR"
 	.byte	0x9
 	.byte	0x48
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x1
 	.byte	0x7
@@ -3076,11 +2934,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"CLRR"
 	.byte	0x9
 	.byte	0x49
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x1
 	.byte	0x6
@@ -3089,11 +2943,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"SETR"
 	.byte	0x9
 	.byte	0x4a
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x1
 	.byte	0x5
@@ -3102,11 +2952,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"IOV"
 	.byte	0x9
 	.byte	0x4b
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x1
 	.byte	0x4
@@ -3115,11 +2961,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"IOVCLR"
 	.byte	0x9
 	.byte	0x4c
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x1
 	.byte	0x3
@@ -3128,11 +2970,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"SWS"
 	.byte	0x9
 	.byte	0x4d
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x1
 	.byte	0x2
@@ -3141,11 +2979,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"SWSCLR"
 	.byte	0x9
 	.byte	0x4e
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1
@@ -3154,11 +2988,7 @@ IfxVadc_Adc_masterIndex:
 	.uaword	.LASF4
 	.byte	0x9
 	.byte	0x4f
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x1
 	.byte	0
@@ -3168,210 +2998,112 @@ IfxVadc_Adc_masterIndex:
 	.string	"Ifx_SRC_SRCR_Bits"
 	.byte	0x9
 	.byte	0x50
-<<<<<<< HEAD
-	.uaword	0x339
-=======
-	.uaword	0x340
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x31d
 	.uleb128 0xe
 	.byte	0x4
 	.byte	0x9
 	.byte	0x58
-<<<<<<< HEAD
-	.uaword	0x47c
-=======
-	.uaword	0x483
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x460
 	.uleb128 0xf
 	.string	"U"
 	.byte	0x9
 	.byte	0x5a
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.uleb128 0xf
 	.string	"I"
 	.byte	0x9
 	.byte	0x5b
-<<<<<<< HEAD
-	.uaword	0x205
-=======
-	.uaword	0x20c
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x1e9
 	.uleb128 0xf
 	.string	"B"
 	.byte	0x9
 	.byte	0x5c
-<<<<<<< HEAD
-	.uaword	0x43f
-=======
-	.uaword	0x446
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x423
 	.byte	0
 	.uleb128 0x5
 	.string	"Ifx_SRC_SRCR"
 	.byte	0x9
 	.byte	0x5d
-<<<<<<< HEAD
-	.uaword	0x458
-=======
-	.uaword	0x45f
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x43c
 	.uleb128 0x2
 	.byte	0x4
 	.byte	0x7
 	.string	"sizetype"
 	.uleb128 0x10
-<<<<<<< HEAD
-	.uaword	0x21b
-	.uaword	0x4ac
-	.uleb128 0x11
+	.uaword	0x1ff
 	.uaword	0x490
+	.uleb128 0x11
+	.uaword	0x474
 	.byte	0xb
 	.byte	0
 	.uleb128 0x10
-	.uaword	0x21b
-	.uaword	0x4bc
+	.uaword	0x1ff
+	.uaword	0x4a0
 	.uleb128 0x11
-	.uaword	0x490
+	.uaword	0x474
 	.byte	0x27
 	.byte	0
 	.uleb128 0x10
-	.uaword	0x21b
-	.uaword	0x4cc
+	.uaword	0x1ff
+	.uaword	0x4b0
 	.uleb128 0x11
-	.uaword	0x490
+	.uaword	0x474
 	.byte	0xf
 	.byte	0
 	.uleb128 0x10
-	.uaword	0x21b
-	.uaword	0x4dc
+	.uaword	0x1ff
+	.uaword	0x4c0
 	.uleb128 0x11
-	.uaword	0x490
+	.uaword	0x474
 	.byte	0x17
 	.byte	0
 	.uleb128 0x10
-	.uaword	0x21b
-	.uaword	0x4ec
+	.uaword	0x1ff
+	.uaword	0x4d0
 	.uleb128 0x11
-	.uaword	0x490
+	.uaword	0x474
 	.byte	0x3
 	.byte	0
 	.uleb128 0x10
-	.uaword	0x21b
-	.uaword	0x4fc
+	.uaword	0x1ff
+	.uaword	0x4e0
 	.uleb128 0x11
-	.uaword	0x490
+	.uaword	0x474
 	.byte	0x7
 	.byte	0
 	.uleb128 0x10
-	.uaword	0x21b
-	.uaword	0x50c
+	.uaword	0x1ff
+	.uaword	0x4f0
 	.uleb128 0x11
-	.uaword	0x490
+	.uaword	0x474
 	.byte	0x5f
 	.byte	0
 	.uleb128 0x10
-	.uaword	0x21b
-	.uaword	0x51c
+	.uaword	0x1ff
+	.uaword	0x500
 	.uleb128 0x11
-	.uaword	0x490
+	.uaword	0x474
 	.byte	0x1b
 	.byte	0
 	.uleb128 0x10
-	.uaword	0x21b
-	.uaword	0x52c
+	.uaword	0x1ff
+	.uaword	0x510
 	.uleb128 0x11
-	.uaword	0x490
+	.uaword	0x474
 	.byte	0x1f
 	.byte	0
 	.uleb128 0x10
-	.uaword	0x21b
-	.uaword	0x53c
+	.uaword	0x1ff
+	.uaword	0x520
 	.uleb128 0x11
-	.uaword	0x490
-=======
-	.uaword	0x222
-	.uaword	0x4b3
-	.uleb128 0x11
-	.uaword	0x497
-	.byte	0xb
-	.byte	0
-	.uleb128 0x10
-	.uaword	0x222
-	.uaword	0x4c3
-	.uleb128 0x11
-	.uaword	0x497
-	.byte	0x27
-	.byte	0
-	.uleb128 0x10
-	.uaword	0x222
-	.uaword	0x4d3
-	.uleb128 0x11
-	.uaword	0x497
-	.byte	0xf
-	.byte	0
-	.uleb128 0x10
-	.uaword	0x222
-	.uaword	0x4e3
-	.uleb128 0x11
-	.uaword	0x497
-	.byte	0x17
-	.byte	0
-	.uleb128 0x10
-	.uaword	0x222
-	.uaword	0x4f3
-	.uleb128 0x11
-	.uaword	0x497
-	.byte	0x3
-	.byte	0
-	.uleb128 0x10
-	.uaword	0x222
-	.uaword	0x503
-	.uleb128 0x11
-	.uaword	0x497
-	.byte	0x7
-	.byte	0
-	.uleb128 0x10
-	.uaword	0x222
-	.uaword	0x513
-	.uleb128 0x11
-	.uaword	0x497
-	.byte	0x5f
-	.byte	0
-	.uleb128 0x10
-	.uaword	0x222
-	.uaword	0x523
-	.uleb128 0x11
-	.uaword	0x497
-	.byte	0x1b
-	.byte	0
-	.uleb128 0x10
-	.uaword	0x222
-	.uaword	0x533
-	.uleb128 0x11
-	.uaword	0x497
-	.byte	0x1f
-	.byte	0
-	.uleb128 0x10
-	.uaword	0x222
-	.uaword	0x543
-	.uleb128 0x11
-	.uaword	0x497
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x474
 	.byte	0x3f
 	.byte	0
 	.uleb128 0x3
 	.byte	0x1
 	.byte	0xa
 	.byte	0x75
-<<<<<<< HEAD
-	.uaword	0x619
-=======
-	.uaword	0x620
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x5fd
 	.uleb128 0x4
 	.string	"IfxVadc_GroupId_0"
 	.sleb128 0
@@ -3407,30 +3139,18 @@ IfxVadc_Adc_masterIndex:
 	.string	"IfxVadc_GroupId"
 	.byte	0xa
 	.byte	0x80
-<<<<<<< HEAD
-	.uaword	0x53c
-=======
-	.uaword	0x543
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x520
 	.uleb128 0xb
 	.string	"_Ifx_VADC_ACCEN0_Bits"
 	.byte	0x4
 	.byte	0xb
 	.byte	0x43
-<<<<<<< HEAD
-	.uaword	0x845
-=======
-	.uaword	0x84c
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x829
 	.uleb128 0xc
 	.string	"EN0"
 	.byte	0xb
 	.byte	0x45
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1f
@@ -3439,11 +3159,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"EN1"
 	.byte	0xb
 	.byte	0x46
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1e
@@ -3452,11 +3168,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"EN2"
 	.byte	0xb
 	.byte	0x47
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1d
@@ -3465,11 +3177,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"EN3"
 	.byte	0xb
 	.byte	0x48
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1c
@@ -3478,11 +3186,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"EN4"
 	.byte	0xb
 	.byte	0x49
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1b
@@ -3491,11 +3195,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"EN5"
 	.byte	0xb
 	.byte	0x4a
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1a
@@ -3504,11 +3204,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"EN6"
 	.byte	0xb
 	.byte	0x4b
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x1
 	.byte	0x19
@@ -3517,11 +3213,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"EN7"
 	.byte	0xb
 	.byte	0x4c
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x1
 	.byte	0x18
@@ -3530,11 +3222,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"EN8"
 	.byte	0xb
 	.byte	0x4d
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x1
 	.byte	0x17
@@ -3543,11 +3231,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"EN9"
 	.byte	0xb
 	.byte	0x4e
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x1
 	.byte	0x16
@@ -3556,11 +3240,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"EN10"
 	.byte	0xb
 	.byte	0x4f
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x1
 	.byte	0x15
@@ -3569,11 +3249,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"EN11"
 	.byte	0xb
 	.byte	0x50
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x1
 	.byte	0x14
@@ -3582,11 +3258,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"EN12"
 	.byte	0xb
 	.byte	0x51
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x1
 	.byte	0x13
@@ -3595,11 +3267,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"EN13"
 	.byte	0xb
 	.byte	0x52
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x1
 	.byte	0x12
@@ -3608,11 +3276,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"EN14"
 	.byte	0xb
 	.byte	0x53
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x1
 	.byte	0x11
@@ -3621,11 +3285,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"EN15"
 	.byte	0xb
 	.byte	0x54
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x1
 	.byte	0x10
@@ -3634,11 +3294,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"EN16"
 	.byte	0xb
 	.byte	0x55
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x1
 	.byte	0xf
@@ -3647,11 +3303,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"EN17"
 	.byte	0xb
 	.byte	0x56
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x1
 	.byte	0xe
@@ -3660,11 +3312,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"EN18"
 	.byte	0xb
 	.byte	0x57
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x1
 	.byte	0xd
@@ -3673,11 +3321,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"EN19"
 	.byte	0xb
 	.byte	0x58
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x1
 	.byte	0xc
@@ -3686,11 +3330,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"EN20"
 	.byte	0xb
 	.byte	0x59
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x1
 	.byte	0xb
@@ -3699,11 +3339,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"EN21"
 	.byte	0xb
 	.byte	0x5a
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x1
 	.byte	0xa
@@ -3712,11 +3348,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"EN22"
 	.byte	0xb
 	.byte	0x5b
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x1
 	.byte	0x9
@@ -3725,11 +3357,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"EN23"
 	.byte	0xb
 	.byte	0x5c
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x1
 	.byte	0x8
@@ -3738,11 +3366,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"EN24"
 	.byte	0xb
 	.byte	0x5d
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x1
 	.byte	0x7
@@ -3751,11 +3375,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"EN25"
 	.byte	0xb
 	.byte	0x5e
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x1
 	.byte	0x6
@@ -3764,11 +3384,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"EN26"
 	.byte	0xb
 	.byte	0x5f
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x1
 	.byte	0x5
@@ -3777,11 +3393,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"EN27"
 	.byte	0xb
 	.byte	0x60
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x1
 	.byte	0x4
@@ -3790,11 +3402,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"EN28"
 	.byte	0xb
 	.byte	0x61
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x1
 	.byte	0x3
@@ -3803,11 +3411,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"EN29"
 	.byte	0xb
 	.byte	0x62
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x1
 	.byte	0x2
@@ -3816,11 +3420,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"EN30"
 	.byte	0xb
 	.byte	0x63
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1
@@ -3829,11 +3429,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"EN31"
 	.byte	0xb
 	.byte	0x64
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x1
 	.byte	0
@@ -3843,30 +3439,18 @@ IfxVadc_Adc_masterIndex:
 	.string	"Ifx_VADC_ACCEN0_Bits"
 	.byte	0xb
 	.byte	0x65
-<<<<<<< HEAD
-	.uaword	0x630
-=======
-	.uaword	0x637
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x614
 	.uleb128 0xb
 	.string	"_Ifx_VADC_ACCPROT0_Bits"
 	.byte	0x4
 	.byte	0xb
 	.byte	0x68
-<<<<<<< HEAD
-	.uaword	0x9c0
-=======
-	.uaword	0x9c7
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x9a4
 	.uleb128 0xc
 	.string	"APC0"
 	.byte	0xb
 	.byte	0x6a
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1f
@@ -3875,11 +3459,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"APC1"
 	.byte	0xb
 	.byte	0x6b
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1e
@@ -3888,11 +3468,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"APC2"
 	.byte	0xb
 	.byte	0x6c
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1d
@@ -3901,11 +3477,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"APC3"
 	.byte	0xb
 	.byte	0x6d
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1c
@@ -3914,11 +3486,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"APC4"
 	.byte	0xb
 	.byte	0x6e
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1b
@@ -3927,11 +3495,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"APC5"
 	.byte	0xb
 	.byte	0x6f
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1a
@@ -3940,11 +3504,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"APC6"
 	.byte	0xb
 	.byte	0x70
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x1
 	.byte	0x19
@@ -3953,11 +3513,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"APC7"
 	.byte	0xb
 	.byte	0x71
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x1
 	.byte	0x18
@@ -3966,11 +3522,7 @@ IfxVadc_Adc_masterIndex:
 	.uaword	.LASF1
 	.byte	0xb
 	.byte	0x72
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x7
 	.byte	0x11
@@ -3979,11 +3531,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"APEM"
 	.byte	0xb
 	.byte	0x73
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x1
 	.byte	0x10
@@ -3992,11 +3540,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"API0"
 	.byte	0xb
 	.byte	0x74
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x1
 	.byte	0xf
@@ -4005,11 +3549,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"API1"
 	.byte	0xb
 	.byte	0x75
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x1
 	.byte	0xe
@@ -4018,11 +3558,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"API2"
 	.byte	0xb
 	.byte	0x76
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x1
 	.byte	0xd
@@ -4031,11 +3567,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"API3"
 	.byte	0xb
 	.byte	0x77
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x1
 	.byte	0xc
@@ -4044,11 +3576,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"API4"
 	.byte	0xb
 	.byte	0x78
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x1
 	.byte	0xb
@@ -4057,11 +3585,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"API5"
 	.byte	0xb
 	.byte	0x79
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x1
 	.byte	0xa
@@ -4070,11 +3594,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"API6"
 	.byte	0xb
 	.byte	0x7a
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x1
 	.byte	0x9
@@ -4083,11 +3603,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"API7"
 	.byte	0xb
 	.byte	0x7b
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x1
 	.byte	0x8
@@ -4096,11 +3612,7 @@ IfxVadc_Adc_masterIndex:
 	.uaword	.LASF5
 	.byte	0xb
 	.byte	0x7c
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x7
 	.byte	0x1
@@ -4109,11 +3621,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"APGC"
 	.byte	0xb
 	.byte	0x7d
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x1
 	.byte	0
@@ -4123,30 +3631,18 @@ IfxVadc_Adc_masterIndex:
 	.string	"Ifx_VADC_ACCPROT0_Bits"
 	.byte	0xb
 	.byte	0x7e
-<<<<<<< HEAD
-	.uaword	0x861
-=======
-	.uaword	0x868
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x845
 	.uleb128 0xb
 	.string	"_Ifx_VADC_ACCPROT1_Bits"
 	.byte	0x4
 	.byte	0xb
 	.byte	0x81
-<<<<<<< HEAD
-	.uaword	0xb2d
-=======
-	.uaword	0xb34
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0xb11
 	.uleb128 0xc
 	.string	"APS0"
 	.byte	0xb
 	.byte	0x83
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1f
@@ -4155,11 +3651,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"APS1"
 	.byte	0xb
 	.byte	0x84
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1e
@@ -4168,11 +3660,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"APS2"
 	.byte	0xb
 	.byte	0x85
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1d
@@ -4181,11 +3669,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"APS3"
 	.byte	0xb
 	.byte	0x86
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1c
@@ -4194,11 +3678,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"APS4"
 	.byte	0xb
 	.byte	0x87
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1b
@@ -4207,11 +3687,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"APS5"
 	.byte	0xb
 	.byte	0x88
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1a
@@ -4220,11 +3696,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"APS6"
 	.byte	0xb
 	.byte	0x89
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x1
 	.byte	0x19
@@ -4233,11 +3705,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"APS7"
 	.byte	0xb
 	.byte	0x8a
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x1
 	.byte	0x18
@@ -4246,11 +3714,7 @@ IfxVadc_Adc_masterIndex:
 	.uaword	.LASF1
 	.byte	0xb
 	.byte	0x8b
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x7
 	.byte	0x11
@@ -4259,11 +3723,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"APTF"
 	.byte	0xb
 	.byte	0x8c
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x1
 	.byte	0x10
@@ -4272,11 +3732,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"APR0"
 	.byte	0xb
 	.byte	0x8d
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x1
 	.byte	0xf
@@ -4285,11 +3741,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"APR1"
 	.byte	0xb
 	.byte	0x8e
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x1
 	.byte	0xe
@@ -4298,11 +3750,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"APR2"
 	.byte	0xb
 	.byte	0x8f
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x1
 	.byte	0xd
@@ -4311,11 +3759,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"APR3"
 	.byte	0xb
 	.byte	0x90
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x1
 	.byte	0xc
@@ -4324,11 +3768,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"APR4"
 	.byte	0xb
 	.byte	0x91
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x1
 	.byte	0xb
@@ -4337,11 +3777,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"APR5"
 	.byte	0xb
 	.byte	0x92
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x1
 	.byte	0xa
@@ -4350,11 +3786,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"APR6"
 	.byte	0xb
 	.byte	0x93
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x1
 	.byte	0x9
@@ -4363,11 +3795,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"APR7"
 	.byte	0xb
 	.byte	0x94
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x1
 	.byte	0x8
@@ -4376,11 +3804,7 @@ IfxVadc_Adc_masterIndex:
 	.uaword	.LASF5
 	.byte	0xb
 	.byte	0x95
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x8
 	.byte	0
@@ -4390,30 +3814,18 @@ IfxVadc_Adc_masterIndex:
 	.string	"Ifx_VADC_ACCPROT1_Bits"
 	.byte	0xb
 	.byte	0x96
-<<<<<<< HEAD
-	.uaword	0x9de
-=======
-	.uaword	0x9e5
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x9c2
 	.uleb128 0xb
 	.string	"_Ifx_VADC_BRSCTRL_Bits"
 	.byte	0x4
 	.byte	0xb
 	.byte	0x99
-<<<<<<< HEAD
-	.uaword	0xc1a
-=======
-	.uaword	0xc21
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0xbfe
 	.uleb128 0xd
 	.uaword	.LASF6
 	.byte	0xb
 	.byte	0x9b
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x4
 	.byte	0x1c
@@ -4422,11 +3834,7 @@ IfxVadc_Adc_masterIndex:
 	.uaword	.LASF7
 	.byte	0xb
 	.byte	0x9c
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x4
 	.byte	0x18
@@ -4435,11 +3843,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"XTSEL"
 	.byte	0xb
 	.byte	0x9d
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x4
 	.byte	0x14
@@ -4448,11 +3852,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"XTLVL"
 	.byte	0xb
 	.byte	0x9e
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x1
 	.byte	0x13
@@ -4461,11 +3861,7 @@ IfxVadc_Adc_masterIndex:
 	.uaword	.LASF8
 	.byte	0xb
 	.byte	0x9f
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x2
 	.byte	0x11
@@ -4474,11 +3870,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"XTWC"
 	.byte	0xb
 	.byte	0xa0
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x1
 	.byte	0x10
@@ -4487,11 +3879,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"GTSEL"
 	.byte	0xb
 	.byte	0xa1
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x4
 	.byte	0xc
@@ -4500,11 +3888,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"GTLVL"
 	.byte	0xb
 	.byte	0xa2
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x1
 	.byte	0xb
@@ -4513,11 +3897,7 @@ IfxVadc_Adc_masterIndex:
 	.uaword	.LASF9
 	.byte	0xb
 	.byte	0xa3
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x2
 	.byte	0x9
@@ -4526,11 +3906,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"GTWC"
 	.byte	0xb
 	.byte	0xa4
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x1
 	.byte	0x8
@@ -4539,11 +3915,7 @@ IfxVadc_Adc_masterIndex:
 	.uaword	.LASF5
 	.byte	0xb
 	.byte	0xa5
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x8
 	.byte	0
@@ -4553,30 +3925,18 @@ IfxVadc_Adc_masterIndex:
 	.string	"Ifx_VADC_BRSCTRL_Bits"
 	.byte	0xb
 	.byte	0xa6
-<<<<<<< HEAD
-	.uaword	0xb4b
-=======
-	.uaword	0xb52
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0xb2f
 	.uleb128 0xb
 	.string	"_Ifx_VADC_BRSMR_Bits"
 	.byte	0x4
 	.byte	0xb
 	.byte	0xa9
-<<<<<<< HEAD
-	.uaword	0xd13
-=======
-	.uaword	0xd1a
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0xcf7
 	.uleb128 0xc
 	.string	"ENGT"
 	.byte	0xb
 	.byte	0xab
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x2
 	.byte	0x1e
@@ -4585,11 +3945,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"ENTR"
 	.byte	0xb
 	.byte	0xac
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1d
@@ -4598,11 +3954,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"ENSI"
 	.byte	0xb
 	.byte	0xad
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1c
@@ -4611,11 +3963,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"SCAN"
 	.byte	0xb
 	.byte	0xae
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1b
@@ -4624,11 +3972,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"LDM"
 	.byte	0xb
 	.byte	0xaf
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1a
@@ -4637,11 +3981,7 @@ IfxVadc_Adc_masterIndex:
 	.uaword	.LASF10
 	.byte	0xb
 	.byte	0xb0
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x1
 	.byte	0x19
@@ -4650,11 +3990,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"REQGT"
 	.byte	0xb
 	.byte	0xb1
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x1
 	.byte	0x18
@@ -4663,11 +3999,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"CLRPND"
 	.byte	0xb
 	.byte	0xb2
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x1
 	.byte	0x17
@@ -4676,11 +4008,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"LDEV"
 	.byte	0xb
 	.byte	0xb3
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x1
 	.byte	0x16
@@ -4689,11 +4017,7 @@ IfxVadc_Adc_masterIndex:
 	.uaword	.LASF11
 	.byte	0xb
 	.byte	0xb4
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x6
 	.byte	0x10
@@ -4702,11 +4026,7 @@ IfxVadc_Adc_masterIndex:
 	.uaword	.LASF12
 	.byte	0xb
 	.byte	0xb5
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x1
 	.byte	0xf
@@ -4715,11 +4035,7 @@ IfxVadc_Adc_masterIndex:
 	.uaword	.LASF13
 	.byte	0xb
 	.byte	0xb6
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0xf
 	.byte	0
@@ -4729,30 +4045,18 @@ IfxVadc_Adc_masterIndex:
 	.string	"Ifx_VADC_BRSMR_Bits"
 	.byte	0xb
 	.byte	0xb7
-<<<<<<< HEAD
-	.uaword	0xc37
-=======
-	.uaword	0xc3e
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0xc1b
 	.uleb128 0xb
 	.string	"_Ifx_VADC_BRSPND_Bits"
 	.byte	0x4
 	.byte	0xb
 	.byte	0xba
-<<<<<<< HEAD
-	.uaword	0xd60
-=======
-	.uaword	0xd67
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0xd44
 	.uleb128 0xc
 	.string	"CHPNDGy"
 	.byte	0xb
 	.byte	0xbc
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x20
 	.byte	0
@@ -4762,30 +4066,18 @@ IfxVadc_Adc_masterIndex:
 	.string	"Ifx_VADC_BRSPND_Bits"
 	.byte	0xb
 	.byte	0xbd
-<<<<<<< HEAD
-	.uaword	0xd2e
-=======
-	.uaword	0xd35
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0xd12
 	.uleb128 0xb
 	.string	"_Ifx_VADC_BRSSEL_Bits"
 	.byte	0x4
 	.byte	0xb
 	.byte	0xc0
-<<<<<<< HEAD
-	.uaword	0xdae
-=======
-	.uaword	0xdb5
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0xd92
 	.uleb128 0xc
 	.string	"CHSELGy"
 	.byte	0xb
 	.byte	0xc2
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x20
 	.byte	0
@@ -4795,30 +4087,18 @@ IfxVadc_Adc_masterIndex:
 	.string	"Ifx_VADC_BRSSEL_Bits"
 	.byte	0xb
 	.byte	0xc3
-<<<<<<< HEAD
-	.uaword	0xd7c
-=======
-	.uaword	0xd83
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0xd60
 	.uleb128 0xb
 	.string	"_Ifx_VADC_CLC_Bits"
 	.byte	0x4
 	.byte	0xb
 	.byte	0xc6
-<<<<<<< HEAD
-	.uaword	0xe34
-=======
-	.uaword	0xe3b
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0xe18
 	.uleb128 0xc
 	.string	"DISR"
 	.byte	0xb
 	.byte	0xc8
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1f
@@ -4827,11 +4107,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"DISS"
 	.byte	0xb
 	.byte	0xc9
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1e
@@ -4840,11 +4116,7 @@ IfxVadc_Adc_masterIndex:
 	.uaword	.LASF14
 	.byte	0xb
 	.byte	0xca
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1d
@@ -4853,11 +4125,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"EDIS"
 	.byte	0xb
 	.byte	0xcb
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1c
@@ -4866,11 +4134,7 @@ IfxVadc_Adc_masterIndex:
 	.uaword	.LASF7
 	.byte	0xb
 	.byte	0xcc
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x1c
 	.byte	0
@@ -4880,30 +4144,18 @@ IfxVadc_Adc_masterIndex:
 	.string	"Ifx_VADC_CLC_Bits"
 	.byte	0xb
 	.byte	0xcd
-<<<<<<< HEAD
-	.uaword	0xdca
-=======
-	.uaword	0xdd1
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0xdae
 	.uleb128 0xb
 	.string	"_Ifx_VADC_EMUXSEL_Bits"
 	.byte	0x4
 	.byte	0xb
 	.byte	0xd0
-<<<<<<< HEAD
-	.uaword	0xea4
-=======
-	.uaword	0xeab
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0xe88
 	.uleb128 0xc
 	.string	"EMUXGRP0"
 	.byte	0xb
 	.byte	0xd2
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x4
 	.byte	0x1c
@@ -4912,11 +4164,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"EMUXGRP1"
 	.byte	0xb
 	.byte	0xd3
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x4
 	.byte	0x18
@@ -4925,11 +4173,7 @@ IfxVadc_Adc_masterIndex:
 	.uaword	.LASF1
 	.byte	0xb
 	.byte	0xd4
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x18
 	.byte	0
@@ -4939,30 +4183,18 @@ IfxVadc_Adc_masterIndex:
 	.string	"Ifx_VADC_EMUXSEL_Bits"
 	.byte	0xb
 	.byte	0xd5
-<<<<<<< HEAD
-	.uaword	0xe4d
-=======
-	.uaword	0xe54
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0xe31
 	.uleb128 0xb
 	.string	"_Ifx_VADC_G_ALIAS_Bits"
 	.byte	0x4
 	.byte	0xb
 	.byte	0xd8
-<<<<<<< HEAD
-	.uaword	0xf23
-=======
-	.uaword	0xf2a
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0xf07
 	.uleb128 0xc
 	.string	"ALIAS0"
 	.byte	0xb
 	.byte	0xda
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x5
 	.byte	0x1b
@@ -4971,11 +4203,7 @@ IfxVadc_Adc_masterIndex:
 	.uaword	.LASF15
 	.byte	0xb
 	.byte	0xdb
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x3
 	.byte	0x18
@@ -4984,11 +4212,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"ALIAS1"
 	.byte	0xb
 	.byte	0xdc
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x5
 	.byte	0x13
@@ -4997,11 +4221,7 @@ IfxVadc_Adc_masterIndex:
 	.uaword	.LASF2
 	.byte	0xb
 	.byte	0xdd
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x13
 	.byte	0
@@ -5011,30 +4231,18 @@ IfxVadc_Adc_masterIndex:
 	.string	"Ifx_VADC_G_ALIAS_Bits"
 	.byte	0xb
 	.byte	0xde
-<<<<<<< HEAD
-	.uaword	0xec1
-=======
-	.uaword	0xec8
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0xea5
 	.uleb128 0xb
 	.string	"_Ifx_VADC_G_ARBCFG_Bits"
 	.byte	0x4
 	.byte	0xb
 	.byte	0xe1
-<<<<<<< HEAD
-	.uaword	0x105c
-=======
-	.uaword	0x1063
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x1040
 	.uleb128 0xc
 	.string	"ANONC"
 	.byte	0xb
 	.byte	0xe3
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x2
 	.byte	0x1e
@@ -5043,11 +4251,7 @@ IfxVadc_Adc_masterIndex:
 	.uaword	.LASF14
 	.byte	0xb
 	.byte	0xe4
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x2
 	.byte	0x1c
@@ -5056,11 +4260,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"ARBRND"
 	.byte	0xb
 	.byte	0xe5
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x2
 	.byte	0x1a
@@ -5069,11 +4269,7 @@ IfxVadc_Adc_masterIndex:
 	.uaword	.LASF10
 	.byte	0xb
 	.byte	0xe6
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x1
 	.byte	0x19
@@ -5082,11 +4278,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"ARBM"
 	.byte	0xb
 	.byte	0xe7
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x1
 	.byte	0x18
@@ -5095,11 +4287,7 @@ IfxVadc_Adc_masterIndex:
 	.uaword	.LASF1
 	.byte	0xb
 	.byte	0xe8
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x8
 	.byte	0x10
@@ -5108,11 +4296,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"ANONS"
 	.byte	0xb
 	.byte	0xe9
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x2
 	.byte	0xe
@@ -5121,11 +4305,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"CSRC"
 	.byte	0xb
 	.byte	0xea
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x2
 	.byte	0xc
@@ -5134,11 +4314,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"CHNR"
 	.byte	0xb
 	.byte	0xeb
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x5
 	.byte	0x7
@@ -5147,11 +4323,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"SYNRUN"
 	.byte	0xb
 	.byte	0xec
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x1
 	.byte	0x6
@@ -5160,11 +4332,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"reserved_26"
 	.byte	0xb
 	.byte	0xed
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x2
 	.byte	0x4
@@ -5173,11 +4341,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"CAL"
 	.byte	0xb
 	.byte	0xee
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x1
 	.byte	0x3
@@ -5186,11 +4350,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"CALS"
 	.byte	0xb
 	.byte	0xef
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x1
 	.byte	0x2
@@ -5199,11 +4359,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"BUSY"
 	.byte	0xb
 	.byte	0xf0
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1
@@ -5212,11 +4368,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"SAMPLE"
 	.byte	0xb
 	.byte	0xf1
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x1
 	.byte	0
@@ -5226,30 +4378,18 @@ IfxVadc_Adc_masterIndex:
 	.string	"Ifx_VADC_G_ARBCFG_Bits"
 	.byte	0xb
 	.byte	0xf2
-<<<<<<< HEAD
-	.uaword	0xf40
-=======
-	.uaword	0xf47
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0xf24
 	.uleb128 0xb
 	.string	"_Ifx_VADC_G_ARBPR_Bits"
 	.byte	0x4
 	.byte	0xb
 	.byte	0xf5
-<<<<<<< HEAD
-	.uaword	0x1180
-=======
-	.uaword	0x1187
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x1164
 	.uleb128 0xc
 	.string	"PRIO0"
 	.byte	0xb
 	.byte	0xf7
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x2
 	.byte	0x1e
@@ -5258,11 +4398,7 @@ IfxVadc_Adc_masterIndex:
 	.uaword	.LASF14
 	.byte	0xb
 	.byte	0xf8
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1d
@@ -5271,11 +4407,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"CSM0"
 	.byte	0xb
 	.byte	0xf9
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1c
@@ -5284,11 +4416,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"PRIO1"
 	.byte	0xb
 	.byte	0xfa
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x2
 	.byte	0x1a
@@ -5297,11 +4425,7 @@ IfxVadc_Adc_masterIndex:
 	.uaword	.LASF10
 	.byte	0xb
 	.byte	0xfb
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x1
 	.byte	0x19
@@ -5310,11 +4434,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"CSM1"
 	.byte	0xb
 	.byte	0xfc
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x1
 	.byte	0x18
@@ -5323,11 +4443,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"PRIO2"
 	.byte	0xb
 	.byte	0xfd
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x2
 	.byte	0x16
@@ -5336,11 +4452,7 @@ IfxVadc_Adc_masterIndex:
 	.uaword	.LASF11
 	.byte	0xb
 	.byte	0xfe
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x1
 	.byte	0x15
@@ -5349,11 +4461,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"CSM2"
 	.byte	0xb
 	.byte	0xff
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x1
 	.byte	0x14
@@ -5362,11 +4470,7 @@ IfxVadc_Adc_masterIndex:
 	.uaword	.LASF16
 	.byte	0xb
 	.uahalf	0x100
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0xc
 	.byte	0x8
@@ -5375,11 +4479,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"ASEN0"
 	.byte	0xb
 	.uahalf	0x101
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x1
 	.byte	0x7
@@ -5388,11 +4488,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"ASEN1"
 	.byte	0xb
 	.uahalf	0x102
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x1
 	.byte	0x6
@@ -5401,11 +4497,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"ASEN2"
 	.byte	0xb
 	.uahalf	0x103
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x1
 	.byte	0x5
@@ -5414,11 +4506,7 @@ IfxVadc_Adc_masterIndex:
 	.uaword	.LASF17
 	.byte	0xb
 	.uahalf	0x104
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x5
 	.byte	0
@@ -5428,30 +4516,18 @@ IfxVadc_Adc_masterIndex:
 	.string	"Ifx_VADC_G_ARBPR_Bits"
 	.byte	0xb
 	.uahalf	0x105
-<<<<<<< HEAD
-	.uaword	0x107a
-=======
-	.uaword	0x1081
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x105e
 	.uleb128 0x15
 	.string	"_Ifx_VADC_G_ASCTRL_Bits"
 	.byte	0x4
 	.byte	0xb
 	.uahalf	0x108
-<<<<<<< HEAD
-	.uaword	0x12ac
-=======
-	.uaword	0x12b3
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x1290
 	.uleb128 0x12
 	.uaword	.LASF6
 	.byte	0xb
 	.uahalf	0x10a
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x4
 	.byte	0x1c
@@ -5460,11 +4536,7 @@ IfxVadc_Adc_masterIndex:
 	.uaword	.LASF7
 	.byte	0xb
 	.uahalf	0x10b
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x4
 	.byte	0x18
@@ -5473,11 +4545,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"XTSEL"
 	.byte	0xb
 	.uahalf	0x10c
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x4
 	.byte	0x14
@@ -5486,11 +4554,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"XTLVL"
 	.byte	0xb
 	.uahalf	0x10d
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x1
 	.byte	0x13
@@ -5499,11 +4563,7 @@ IfxVadc_Adc_masterIndex:
 	.uaword	.LASF8
 	.byte	0xb
 	.uahalf	0x10e
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x2
 	.byte	0x11
@@ -5512,11 +4572,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"XTWC"
 	.byte	0xb
 	.uahalf	0x10f
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x1
 	.byte	0x10
@@ -5525,11 +4581,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"GTSEL"
 	.byte	0xb
 	.uahalf	0x110
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x4
 	.byte	0xc
@@ -5538,11 +4590,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"GTLVL"
 	.byte	0xb
 	.uahalf	0x111
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x1
 	.byte	0xb
@@ -5551,11 +4599,7 @@ IfxVadc_Adc_masterIndex:
 	.uaword	.LASF9
 	.byte	0xb
 	.uahalf	0x112
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x2
 	.byte	0x9
@@ -5564,11 +4608,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"GTWC"
 	.byte	0xb
 	.uahalf	0x113
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x1
 	.byte	0x8
@@ -5577,11 +4617,7 @@ IfxVadc_Adc_masterIndex:
 	.uaword	.LASF5
 	.byte	0xb
 	.uahalf	0x114
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x4
 	.byte	0x4
@@ -5590,11 +4626,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"TMEN"
 	.byte	0xb
 	.uahalf	0x115
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x1
 	.byte	0x3
@@ -5603,11 +4635,7 @@ IfxVadc_Adc_masterIndex:
 	.uaword	.LASF18
 	.byte	0xb
 	.uahalf	0x116
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x2
 	.byte	0x1
@@ -5616,11 +4644,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"TMWC"
 	.byte	0xb
 	.uahalf	0x117
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x1
 	.byte	0
@@ -5630,30 +4654,18 @@ IfxVadc_Adc_masterIndex:
 	.string	"Ifx_VADC_G_ASCTRL_Bits"
 	.byte	0xb
 	.uahalf	0x118
-<<<<<<< HEAD
-	.uaword	0x119e
-=======
-	.uaword	0x11a5
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x1182
 	.uleb128 0x15
 	.string	"_Ifx_VADC_G_ASMR_Bits"
 	.byte	0x4
 	.byte	0xb
 	.uahalf	0x11b
-<<<<<<< HEAD
-	.uaword	0x13b5
-=======
-	.uaword	0x13bc
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x1399
 	.uleb128 0x13
 	.string	"ENGT"
 	.byte	0xb
 	.uahalf	0x11d
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x2
 	.byte	0x1e
@@ -5662,11 +4674,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"ENTR"
 	.byte	0xb
 	.uahalf	0x11e
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1d
@@ -5675,11 +4683,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"ENSI"
 	.byte	0xb
 	.uahalf	0x11f
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1c
@@ -5688,11 +4692,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"SCAN"
 	.byte	0xb
 	.uahalf	0x120
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1b
@@ -5701,11 +4701,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"LDM"
 	.byte	0xb
 	.uahalf	0x121
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1a
@@ -5714,11 +4710,7 @@ IfxVadc_Adc_masterIndex:
 	.uaword	.LASF10
 	.byte	0xb
 	.uahalf	0x122
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x1
 	.byte	0x19
@@ -5727,11 +4719,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"REQGT"
 	.byte	0xb
 	.uahalf	0x123
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x1
 	.byte	0x18
@@ -5740,11 +4728,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"CLRPND"
 	.byte	0xb
 	.uahalf	0x124
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x1
 	.byte	0x17
@@ -5753,11 +4737,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"LDEV"
 	.byte	0xb
 	.uahalf	0x125
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x1
 	.byte	0x16
@@ -5766,11 +4746,7 @@ IfxVadc_Adc_masterIndex:
 	.uaword	.LASF11
 	.byte	0xb
 	.uahalf	0x126
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x6
 	.byte	0x10
@@ -5779,11 +4755,7 @@ IfxVadc_Adc_masterIndex:
 	.uaword	.LASF12
 	.byte	0xb
 	.uahalf	0x127
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x1
 	.byte	0xf
@@ -5792,11 +4764,7 @@ IfxVadc_Adc_masterIndex:
 	.uaword	.LASF13
 	.byte	0xb
 	.uahalf	0x128
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0xf
 	.byte	0
@@ -5806,30 +4774,18 @@ IfxVadc_Adc_masterIndex:
 	.string	"Ifx_VADC_G_ASMR_Bits"
 	.byte	0xb
 	.uahalf	0x129
-<<<<<<< HEAD
-	.uaword	0x12cb
-=======
-	.uaword	0x12d2
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x12af
 	.uleb128 0x15
 	.string	"_Ifx_VADC_G_ASPND_Bits"
 	.byte	0x4
 	.byte	0xb
 	.uahalf	0x12c
-<<<<<<< HEAD
-	.uaword	0x1405
-=======
-	.uaword	0x140c
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x13e9
 	.uleb128 0x13
 	.string	"CHPND"
 	.byte	0xb
 	.uahalf	0x12e
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x20
 	.byte	0
@@ -5839,30 +4795,18 @@ IfxVadc_Adc_masterIndex:
 	.string	"Ifx_VADC_G_ASPND_Bits"
 	.byte	0xb
 	.uahalf	0x12f
-<<<<<<< HEAD
-	.uaword	0x13d2
-=======
-	.uaword	0x13d9
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x13b6
 	.uleb128 0x15
 	.string	"_Ifx_VADC_G_ASSEL_Bits"
 	.byte	0x4
 	.byte	0xb
 	.uahalf	0x132
-<<<<<<< HEAD
-	.uaword	0x1456
-=======
-	.uaword	0x145d
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x143a
 	.uleb128 0x13
 	.string	"CHSEL"
 	.byte	0xb
 	.uahalf	0x134
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x20
 	.byte	0
@@ -5872,30 +4816,18 @@ IfxVadc_Adc_masterIndex:
 	.string	"Ifx_VADC_G_ASSEL_Bits"
 	.byte	0xb
 	.uahalf	0x135
-<<<<<<< HEAD
-	.uaword	0x1423
-=======
-	.uaword	0x142a
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x1407
 	.uleb128 0x15
 	.string	"_Ifx_VADC_G_BFL_Bits"
 	.byte	0x4
 	.byte	0xb
 	.uahalf	0x138
-<<<<<<< HEAD
-	.uaword	0x158f
-=======
-	.uaword	0x1596
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x1573
 	.uleb128 0x13
 	.string	"BFL0"
 	.byte	0xb
 	.uahalf	0x13a
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1f
@@ -5904,11 +4836,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"BFL1"
 	.byte	0xb
 	.uahalf	0x13b
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1e
@@ -5917,11 +4845,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"BFL2"
 	.byte	0xb
 	.uahalf	0x13c
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1d
@@ -5930,11 +4854,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"BFL3"
 	.byte	0xb
 	.uahalf	0x13d
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1c
@@ -5943,11 +4863,7 @@ IfxVadc_Adc_masterIndex:
 	.uaword	.LASF7
 	.byte	0xb
 	.uahalf	0x13e
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x4
 	.byte	0x18
@@ -5956,11 +4872,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"BFA0"
 	.byte	0xb
 	.uahalf	0x13f
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x1
 	.byte	0x17
@@ -5969,11 +4881,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"BFA1"
 	.byte	0xb
 	.uahalf	0x140
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x1
 	.byte	0x16
@@ -5982,11 +4890,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"BFA2"
 	.byte	0xb
 	.uahalf	0x141
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x1
 	.byte	0x15
@@ -5995,11 +4899,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"BFA3"
 	.byte	0xb
 	.uahalf	0x142
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x1
 	.byte	0x14
@@ -6008,11 +4908,7 @@ IfxVadc_Adc_masterIndex:
 	.uaword	.LASF16
 	.byte	0xb
 	.uahalf	0x143
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x4
 	.byte	0x10
@@ -6021,11 +4917,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"BFI0"
 	.byte	0xb
 	.uahalf	0x144
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x1
 	.byte	0xf
@@ -6034,11 +4926,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"BFI1"
 	.byte	0xb
 	.uahalf	0x145
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x1
 	.byte	0xe
@@ -6047,11 +4935,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"BFI2"
 	.byte	0xb
 	.uahalf	0x146
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x1
 	.byte	0xd
@@ -6060,11 +4944,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"BFI3"
 	.byte	0xb
 	.uahalf	0x147
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x1
 	.byte	0xc
@@ -6073,11 +4953,7 @@ IfxVadc_Adc_masterIndex:
 	.uaword	.LASF19
 	.byte	0xb
 	.uahalf	0x148
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0xc
 	.byte	0
@@ -6087,30 +4963,18 @@ IfxVadc_Adc_masterIndex:
 	.string	"Ifx_VADC_G_BFL_Bits"
 	.byte	0xb
 	.uahalf	0x149
-<<<<<<< HEAD
-	.uaword	0x1474
-=======
-	.uaword	0x147b
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x1458
 	.uleb128 0x15
 	.string	"_Ifx_VADC_G_BFLC_Bits"
 	.byte	0x4
 	.byte	0xb
 	.uahalf	0x14c
-<<<<<<< HEAD
-	.uaword	0x161f
-=======
-	.uaword	0x1626
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x1603
 	.uleb128 0x13
 	.string	"BFM0"
 	.byte	0xb
 	.uahalf	0x14e
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x4
 	.byte	0x1c
@@ -6119,11 +4983,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"BFM1"
 	.byte	0xb
 	.uahalf	0x14f
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x4
 	.byte	0x18
@@ -6132,11 +4992,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"BFM2"
 	.byte	0xb
 	.uahalf	0x150
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x4
 	.byte	0x14
@@ -6145,11 +5001,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"BFM3"
 	.byte	0xb
 	.uahalf	0x151
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x4
 	.byte	0x10
@@ -6158,11 +5010,7 @@ IfxVadc_Adc_masterIndex:
 	.uaword	.LASF20
 	.byte	0xb
 	.uahalf	0x152
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x10
 	.byte	0
@@ -6172,30 +5020,18 @@ IfxVadc_Adc_masterIndex:
 	.string	"Ifx_VADC_G_BFLC_Bits"
 	.byte	0xb
 	.uahalf	0x153
-<<<<<<< HEAD
-	.uaword	0x15ab
-=======
-	.uaword	0x15b2
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x158f
 	.uleb128 0x15
 	.string	"_Ifx_VADC_G_BFLNP_Bits"
 	.byte	0x4
 	.byte	0xb
 	.uahalf	0x156
-<<<<<<< HEAD
-	.uaword	0x16b9
-=======
-	.uaword	0x16c0
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x169d
 	.uleb128 0x13
 	.string	"BFL0NP"
 	.byte	0xb
 	.uahalf	0x158
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x4
 	.byte	0x1c
@@ -6204,11 +5040,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"BFL1NP"
 	.byte	0xb
 	.uahalf	0x159
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x4
 	.byte	0x18
@@ -6217,11 +5049,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"BFL2NP"
 	.byte	0xb
 	.uahalf	0x15a
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x4
 	.byte	0x14
@@ -6230,11 +5058,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"BFL3NP"
 	.byte	0xb
 	.uahalf	0x15b
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x4
 	.byte	0x10
@@ -6243,11 +5067,7 @@ IfxVadc_Adc_masterIndex:
 	.uaword	.LASF20
 	.byte	0xb
 	.uahalf	0x15c
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x10
 	.byte	0
@@ -6257,30 +5077,18 @@ IfxVadc_Adc_masterIndex:
 	.string	"Ifx_VADC_G_BFLNP_Bits"
 	.byte	0xb
 	.uahalf	0x15d
-<<<<<<< HEAD
-	.uaword	0x163c
-=======
-	.uaword	0x1643
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x1620
 	.uleb128 0x15
 	.string	"_Ifx_VADC_G_BFLS_Bits"
 	.byte	0x4
 	.byte	0xb
 	.uahalf	0x160
-<<<<<<< HEAD
-	.uaword	0x179f
-=======
-	.uaword	0x17a6
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x1783
 	.uleb128 0x13
 	.string	"BFC0"
 	.byte	0xb
 	.uahalf	0x162
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1f
@@ -6289,11 +5097,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"BFC1"
 	.byte	0xb
 	.uahalf	0x163
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1e
@@ -6302,11 +5106,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"BFC2"
 	.byte	0xb
 	.uahalf	0x164
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1d
@@ -6315,11 +5115,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"BFC3"
 	.byte	0xb
 	.uahalf	0x165
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1c
@@ -6328,11 +5124,7 @@ IfxVadc_Adc_masterIndex:
 	.uaword	.LASF7
 	.byte	0xb
 	.uahalf	0x166
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0xc
 	.byte	0x10
@@ -6341,11 +5133,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"BFS0"
 	.byte	0xb
 	.uahalf	0x167
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x1
 	.byte	0xf
@@ -6354,11 +5142,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"BFS1"
 	.byte	0xb
 	.uahalf	0x168
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x1
 	.byte	0xe
@@ -6367,11 +5151,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"BFS2"
 	.byte	0xb
 	.uahalf	0x169
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x1
 	.byte	0xd
@@ -6380,11 +5160,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"BFS3"
 	.byte	0xb
 	.uahalf	0x16a
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x1
 	.byte	0xc
@@ -6393,11 +5169,7 @@ IfxVadc_Adc_masterIndex:
 	.uaword	.LASF19
 	.byte	0xb
 	.uahalf	0x16b
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0xc
 	.byte	0
@@ -6407,30 +5179,18 @@ IfxVadc_Adc_masterIndex:
 	.string	"Ifx_VADC_G_BFLS_Bits"
 	.byte	0xb
 	.uahalf	0x16c
-<<<<<<< HEAD
-	.uaword	0x16d7
-=======
-	.uaword	0x16de
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x16bb
 	.uleb128 0x15
 	.string	"_Ifx_VADC_G_BOUND_Bits"
 	.byte	0x4
 	.byte	0xb
 	.uahalf	0x16f
-<<<<<<< HEAD
-	.uaword	0x181d
-=======
-	.uaword	0x1824
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x1801
 	.uleb128 0x12
 	.uaword	.LASF21
 	.byte	0xb
 	.uahalf	0x171
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0xc
 	.byte	0x14
@@ -6439,11 +5199,7 @@ IfxVadc_Adc_masterIndex:
 	.uaword	.LASF16
 	.byte	0xb
 	.uahalf	0x172
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x4
 	.byte	0x10
@@ -6452,11 +5208,7 @@ IfxVadc_Adc_masterIndex:
 	.uaword	.LASF22
 	.byte	0xb
 	.uahalf	0x173
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0xc
 	.byte	0x4
@@ -6465,11 +5217,7 @@ IfxVadc_Adc_masterIndex:
 	.uaword	.LASF23
 	.byte	0xb
 	.uahalf	0x174
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x4
 	.byte	0
@@ -6479,30 +5227,18 @@ IfxVadc_Adc_masterIndex:
 	.string	"Ifx_VADC_G_BOUND_Bits"
 	.byte	0xb
 	.uahalf	0x175
-<<<<<<< HEAD
-	.uaword	0x17bc
-=======
-	.uaword	0x17c3
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x17a0
 	.uleb128 0x15
 	.string	"_Ifx_VADC_G_CEFCLR_Bits"
 	.byte	0x4
 	.byte	0xb
 	.uahalf	0x178
-<<<<<<< HEAD
-	.uaword	0x18f5
-=======
-	.uaword	0x18fc
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x18d9
 	.uleb128 0x13
 	.string	"CEV0"
 	.byte	0xb
 	.uahalf	0x17a
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1f
@@ -6511,11 +5247,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"CEV1"
 	.byte	0xb
 	.uahalf	0x17b
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1e
@@ -6524,11 +5256,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"CEV2"
 	.byte	0xb
 	.uahalf	0x17c
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1d
@@ -6537,11 +5265,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"CEV3"
 	.byte	0xb
 	.uahalf	0x17d
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1c
@@ -6550,11 +5274,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"CEV4"
 	.byte	0xb
 	.uahalf	0x17e
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1b
@@ -6563,11 +5283,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"CEV5"
 	.byte	0xb
 	.uahalf	0x17f
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1a
@@ -6576,11 +5292,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"CEV6"
 	.byte	0xb
 	.uahalf	0x180
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x1
 	.byte	0x19
@@ -6589,11 +5301,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"CEV7"
 	.byte	0xb
 	.uahalf	0x181
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x1
 	.byte	0x18
@@ -6602,11 +5310,7 @@ IfxVadc_Adc_masterIndex:
 	.uaword	.LASF1
 	.byte	0xb
 	.uahalf	0x182
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x18
 	.byte	0
@@ -6616,30 +5320,18 @@ IfxVadc_Adc_masterIndex:
 	.string	"Ifx_VADC_G_CEFCLR_Bits"
 	.byte	0xb
 	.uahalf	0x183
-<<<<<<< HEAD
-	.uaword	0x183b
-=======
-	.uaword	0x1842
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x181f
 	.uleb128 0x15
 	.string	"_Ifx_VADC_G_CEFLAG_Bits"
 	.byte	0x4
 	.byte	0xb
 	.uahalf	0x186
-<<<<<<< HEAD
-	.uaword	0x19ce
-=======
-	.uaword	0x19d5
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x19b2
 	.uleb128 0x13
 	.string	"CEV0"
 	.byte	0xb
 	.uahalf	0x188
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1f
@@ -6648,11 +5340,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"CEV1"
 	.byte	0xb
 	.uahalf	0x189
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1e
@@ -6661,11 +5349,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"CEV2"
 	.byte	0xb
 	.uahalf	0x18a
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1d
@@ -6674,11 +5358,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"CEV3"
 	.byte	0xb
 	.uahalf	0x18b
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1c
@@ -6687,11 +5367,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"CEV4"
 	.byte	0xb
 	.uahalf	0x18c
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1b
@@ -6700,11 +5376,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"CEV5"
 	.byte	0xb
 	.uahalf	0x18d
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1a
@@ -6713,11 +5385,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"CEV6"
 	.byte	0xb
 	.uahalf	0x18e
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x1
 	.byte	0x19
@@ -6726,11 +5394,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"CEV7"
 	.byte	0xb
 	.uahalf	0x18f
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x1
 	.byte	0x18
@@ -6739,11 +5403,7 @@ IfxVadc_Adc_masterIndex:
 	.uaword	.LASF1
 	.byte	0xb
 	.uahalf	0x190
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x18
 	.byte	0
@@ -6753,30 +5413,18 @@ IfxVadc_Adc_masterIndex:
 	.string	"Ifx_VADC_G_CEFLAG_Bits"
 	.byte	0xb
 	.uahalf	0x191
-<<<<<<< HEAD
-	.uaword	0x1914
-=======
-	.uaword	0x191b
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x18f8
 	.uleb128 0x15
 	.string	"_Ifx_VADC_G_CEVNP0_Bits"
 	.byte	0x4
 	.byte	0xb
 	.uahalf	0x194
-<<<<<<< HEAD
-	.uaword	0x1aa7
-=======
-	.uaword	0x1aae
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x1a8b
 	.uleb128 0x13
 	.string	"CEV0NP"
 	.byte	0xb
 	.uahalf	0x196
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x4
 	.byte	0x1c
@@ -6785,11 +5433,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"CEV1NP"
 	.byte	0xb
 	.uahalf	0x197
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x4
 	.byte	0x18
@@ -6798,11 +5442,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"CEV2NP"
 	.byte	0xb
 	.uahalf	0x198
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x4
 	.byte	0x14
@@ -6811,11 +5451,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"CEV3NP"
 	.byte	0xb
 	.uahalf	0x199
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x4
 	.byte	0x10
@@ -6824,11 +5460,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"CEV4NP"
 	.byte	0xb
 	.uahalf	0x19a
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x4
 	.byte	0xc
@@ -6837,11 +5469,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"CEV5NP"
 	.byte	0xb
 	.uahalf	0x19b
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x4
 	.byte	0x8
@@ -6850,11 +5478,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"CEV6NP"
 	.byte	0xb
 	.uahalf	0x19c
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x4
 	.byte	0x4
@@ -6863,11 +5487,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"CEV7NP"
 	.byte	0xb
 	.uahalf	0x19d
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x4
 	.byte	0
@@ -6877,30 +5497,18 @@ IfxVadc_Adc_masterIndex:
 	.string	"Ifx_VADC_G_CEVNP0_Bits"
 	.byte	0xb
 	.uahalf	0x19e
-<<<<<<< HEAD
-	.uaword	0x19ed
-=======
-	.uaword	0x19f4
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x19d1
 	.uleb128 0x15
 	.string	"_Ifx_VADC_G_CHASS_Bits"
 	.byte	0x4
 	.byte	0xb
 	.uahalf	0x1a1
-<<<<<<< HEAD
-	.uaword	0x1d5d
-=======
-	.uaword	0x1d64
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x1d41
 	.uleb128 0x13
 	.string	"ASSCH0"
 	.byte	0xb
 	.uahalf	0x1a3
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1f
@@ -6909,11 +5517,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"ASSCH1"
 	.byte	0xb
 	.uahalf	0x1a4
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1e
@@ -6922,11 +5526,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"ASSCH2"
 	.byte	0xb
 	.uahalf	0x1a5
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1d
@@ -6935,11 +5535,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"ASSCH3"
 	.byte	0xb
 	.uahalf	0x1a6
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1c
@@ -6948,11 +5544,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"ASSCH4"
 	.byte	0xb
 	.uahalf	0x1a7
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1b
@@ -6961,11 +5553,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"ASSCH5"
 	.byte	0xb
 	.uahalf	0x1a8
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1a
@@ -6974,11 +5562,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"ASSCH6"
 	.byte	0xb
 	.uahalf	0x1a9
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x1
 	.byte	0x19
@@ -6987,11 +5571,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"ASSCH7"
 	.byte	0xb
 	.uahalf	0x1aa
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x1
 	.byte	0x18
@@ -7000,11 +5580,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"ASSCH8"
 	.byte	0xb
 	.uahalf	0x1ab
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x1
 	.byte	0x17
@@ -7013,11 +5589,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"ASSCH9"
 	.byte	0xb
 	.uahalf	0x1ac
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x1
 	.byte	0x16
@@ -7026,11 +5598,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"ASSCH10"
 	.byte	0xb
 	.uahalf	0x1ad
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x1
 	.byte	0x15
@@ -7039,11 +5607,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"ASSCH11"
 	.byte	0xb
 	.uahalf	0x1ae
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x1
 	.byte	0x14
@@ -7052,11 +5616,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"ASSCH12"
 	.byte	0xb
 	.uahalf	0x1af
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x1
 	.byte	0x13
@@ -7065,11 +5625,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"ASSCH13"
 	.byte	0xb
 	.uahalf	0x1b0
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x1
 	.byte	0x12
@@ -7078,11 +5634,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"ASSCH14"
 	.byte	0xb
 	.uahalf	0x1b1
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x1
 	.byte	0x11
@@ -7091,11 +5643,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"ASSCH15"
 	.byte	0xb
 	.uahalf	0x1b2
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x1
 	.byte	0x10
@@ -7104,11 +5652,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"ASSCH16"
 	.byte	0xb
 	.uahalf	0x1b3
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x1
 	.byte	0xf
@@ -7117,11 +5661,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"ASSCH17"
 	.byte	0xb
 	.uahalf	0x1b4
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x1
 	.byte	0xe
@@ -7130,11 +5670,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"ASSCH18"
 	.byte	0xb
 	.uahalf	0x1b5
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x1
 	.byte	0xd
@@ -7143,11 +5679,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"ASSCH19"
 	.byte	0xb
 	.uahalf	0x1b6
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x1
 	.byte	0xc
@@ -7156,11 +5688,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"ASSCH20"
 	.byte	0xb
 	.uahalf	0x1b7
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x1
 	.byte	0xb
@@ -7169,11 +5697,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"ASSCH21"
 	.byte	0xb
 	.uahalf	0x1b8
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x1
 	.byte	0xa
@@ -7182,11 +5706,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"ASSCH22"
 	.byte	0xb
 	.uahalf	0x1b9
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x1
 	.byte	0x9
@@ -7195,11 +5715,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"ASSCH23"
 	.byte	0xb
 	.uahalf	0x1ba
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x1
 	.byte	0x8
@@ -7208,11 +5724,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"ASSCH24"
 	.byte	0xb
 	.uahalf	0x1bb
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x1
 	.byte	0x7
@@ -7221,11 +5733,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"ASSCH25"
 	.byte	0xb
 	.uahalf	0x1bc
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x1
 	.byte	0x6
@@ -7234,11 +5742,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"ASSCH26"
 	.byte	0xb
 	.uahalf	0x1bd
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x1
 	.byte	0x5
@@ -7247,11 +5751,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"ASSCH27"
 	.byte	0xb
 	.uahalf	0x1be
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x1
 	.byte	0x4
@@ -7260,11 +5760,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"ASSCH28"
 	.byte	0xb
 	.uahalf	0x1bf
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x1
 	.byte	0x3
@@ -7273,11 +5769,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"ASSCH29"
 	.byte	0xb
 	.uahalf	0x1c0
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x1
 	.byte	0x2
@@ -7286,11 +5778,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"ASSCH30"
 	.byte	0xb
 	.uahalf	0x1c1
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1
@@ -7299,11 +5787,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"ASSCH31"
 	.byte	0xb
 	.uahalf	0x1c2
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x1
 	.byte	0
@@ -7313,30 +5797,18 @@ IfxVadc_Adc_masterIndex:
 	.string	"Ifx_VADC_G_CHASS_Bits"
 	.byte	0xb
 	.uahalf	0x1c3
-<<<<<<< HEAD
-	.uaword	0x1ac6
-=======
-	.uaword	0x1acd
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x1aaa
 	.uleb128 0x15
 	.string	"_Ifx_VADC_G_CHCTR_Bits"
 	.byte	0x4
 	.byte	0xb
 	.uahalf	0x1c6
-<<<<<<< HEAD
-	.uaword	0x1eb1
-=======
-	.uaword	0x1eb8
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x1e95
 	.uleb128 0x13
 	.string	"ICLSEL"
 	.byte	0xb
 	.uahalf	0x1c8
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x2
 	.byte	0x1e
@@ -7345,11 +5817,7 @@ IfxVadc_Adc_masterIndex:
 	.uaword	.LASF14
 	.byte	0xb
 	.uahalf	0x1c9
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x2
 	.byte	0x1c
@@ -7358,11 +5826,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"BNDSELL"
 	.byte	0xb
 	.uahalf	0x1ca
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x2
 	.byte	0x1a
@@ -7371,11 +5835,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"BNDSELU"
 	.byte	0xb
 	.uahalf	0x1cb
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x2
 	.byte	0x18
@@ -7384,11 +5844,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"CHEVMODE"
 	.byte	0xb
 	.uahalf	0x1cc
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x2
 	.byte	0x16
@@ -7397,11 +5853,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"SYNC"
 	.byte	0xb
 	.uahalf	0x1cd
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x1
 	.byte	0x15
@@ -7410,11 +5862,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"REFSEL"
 	.byte	0xb
 	.uahalf	0x1ce
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x1
 	.byte	0x14
@@ -7423,11 +5871,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"BNDSELX"
 	.byte	0xb
 	.uahalf	0x1cf
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x4
 	.byte	0x10
@@ -7436,11 +5880,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"RESREG"
 	.byte	0xb
 	.uahalf	0x1d0
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x4
 	.byte	0xc
@@ -7449,11 +5889,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"RESTBS"
 	.byte	0xb
 	.uahalf	0x1d1
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x1
 	.byte	0xb
@@ -7462,11 +5898,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"RESPOS"
 	.byte	0xb
 	.uahalf	0x1d2
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x1
 	.byte	0xa
@@ -7475,11 +5907,7 @@ IfxVadc_Adc_masterIndex:
 	.uaword	.LASF3
 	.byte	0xb
 	.uahalf	0x1d3
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x6
 	.byte	0x4
@@ -7488,11 +5916,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"BWDCH"
 	.byte	0xb
 	.uahalf	0x1d4
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x2
 	.byte	0x2
@@ -7501,11 +5925,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"BWDEN"
 	.byte	0xb
 	.uahalf	0x1d5
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1
@@ -7514,11 +5934,7 @@ IfxVadc_Adc_masterIndex:
 	.uaword	.LASF4
 	.byte	0xb
 	.uahalf	0x1d6
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x1
 	.byte	0
@@ -7528,30 +5944,18 @@ IfxVadc_Adc_masterIndex:
 	.string	"Ifx_VADC_G_CHCTR_Bits"
 	.byte	0xb
 	.uahalf	0x1d7
-<<<<<<< HEAD
-	.uaword	0x1d7b
-=======
-	.uaword	0x1d82
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x1d5f
 	.uleb128 0x15
 	.string	"_Ifx_VADC_G_EMUXCTR_Bits"
 	.byte	0x4
 	.byte	0xb
 	.uahalf	0x1da
-<<<<<<< HEAD
-	.uaword	0x1fac
-=======
-	.uaword	0x1fb3
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x1f90
 	.uleb128 0x13
 	.string	"EMUXSET"
 	.byte	0xb
 	.uahalf	0x1dc
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x3
 	.byte	0x1d
@@ -7560,11 +5964,7 @@ IfxVadc_Adc_masterIndex:
 	.uaword	.LASF24
 	.byte	0xb
 	.uahalf	0x1dd
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x5
 	.byte	0x18
@@ -7573,11 +5973,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"EMUXACT"
 	.byte	0xb
 	.uahalf	0x1de
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x3
 	.byte	0x15
@@ -7586,11 +5982,7 @@ IfxVadc_Adc_masterIndex:
 	.uaword	.LASF25
 	.byte	0xb
 	.uahalf	0x1df
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x5
 	.byte	0x10
@@ -7599,11 +5991,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"EMUXCH"
 	.byte	0xb
 	.uahalf	0x1e0
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0xa
 	.byte	0x6
@@ -7612,11 +6000,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"EMUXMODE"
 	.byte	0xb
 	.uahalf	0x1e1
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x2
 	.byte	0x4
@@ -7625,11 +6009,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"EMXCOD"
 	.byte	0xb
 	.uahalf	0x1e2
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x1
 	.byte	0x3
@@ -7638,11 +6018,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"EMXST"
 	.byte	0xb
 	.uahalf	0x1e3
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x1
 	.byte	0x2
@@ -7651,11 +6027,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"EMXCSS"
 	.byte	0xb
 	.uahalf	0x1e4
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1
@@ -7664,11 +6036,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"EMXWC"
 	.byte	0xb
 	.uahalf	0x1e5
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x1
 	.byte	0
@@ -7678,30 +6046,18 @@ IfxVadc_Adc_masterIndex:
 	.string	"Ifx_VADC_G_EMUXCTR_Bits"
 	.byte	0xb
 	.uahalf	0x1e6
-<<<<<<< HEAD
-	.uaword	0x1ecf
-=======
-	.uaword	0x1ed6
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x1eb3
 	.uleb128 0x15
 	.string	"_Ifx_VADC_G_Q0R0_Bits"
 	.byte	0x4
 	.byte	0xb
 	.uahalf	0x1e9
-<<<<<<< HEAD
-	.uaword	0x204b
-=======
-	.uaword	0x2052
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x202f
 	.uleb128 0x12
 	.uaword	.LASF26
 	.byte	0xb
 	.uahalf	0x1eb
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x5
 	.byte	0x1b
@@ -7710,11 +6066,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"RF"
 	.byte	0xb
 	.uahalf	0x1ec
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1a
@@ -7723,11 +6075,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"ENSI"
 	.byte	0xb
 	.uahalf	0x1ed
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x1
 	.byte	0x19
@@ -7736,11 +6084,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"EXTR"
 	.byte	0xb
 	.uahalf	0x1ee
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x1
 	.byte	0x18
@@ -7749,11 +6093,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"V"
 	.byte	0xb
 	.uahalf	0x1ef
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x1
 	.byte	0x17
@@ -7762,11 +6102,7 @@ IfxVadc_Adc_masterIndex:
 	.uaword	.LASF27
 	.byte	0xb
 	.uahalf	0x1f0
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x17
 	.byte	0
@@ -7776,30 +6112,18 @@ IfxVadc_Adc_masterIndex:
 	.string	"Ifx_VADC_G_Q0R0_Bits"
 	.byte	0xb
 	.uahalf	0x1f1
-<<<<<<< HEAD
-	.uaword	0x1fcc
-=======
-	.uaword	0x1fd3
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x1fb0
 	.uleb128 0x15
 	.string	"_Ifx_VADC_G_QBUR0_Bits"
 	.byte	0x4
 	.byte	0xb
 	.uahalf	0x1f4
-<<<<<<< HEAD
-	.uaword	0x20e8
-=======
-	.uaword	0x20ef
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x20cc
 	.uleb128 0x12
 	.uaword	.LASF26
 	.byte	0xb
 	.uahalf	0x1f6
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x5
 	.byte	0x1b
@@ -7808,11 +6132,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"RF"
 	.byte	0xb
 	.uahalf	0x1f7
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1a
@@ -7821,11 +6141,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"ENSI"
 	.byte	0xb
 	.uahalf	0x1f8
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x1
 	.byte	0x19
@@ -7834,11 +6150,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"EXTR"
 	.byte	0xb
 	.uahalf	0x1f9
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x1
 	.byte	0x18
@@ -7847,11 +6159,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"V"
 	.byte	0xb
 	.uahalf	0x1fa
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x1
 	.byte	0x17
@@ -7860,11 +6168,7 @@ IfxVadc_Adc_masterIndex:
 	.uaword	.LASF27
 	.byte	0xb
 	.uahalf	0x1fb
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x17
 	.byte	0
@@ -7874,30 +6178,18 @@ IfxVadc_Adc_masterIndex:
 	.string	"Ifx_VADC_G_QBUR0_Bits"
 	.byte	0xb
 	.uahalf	0x1fc
-<<<<<<< HEAD
-	.uaword	0x2068
-=======
-	.uaword	0x206f
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x204c
 	.uleb128 0x15
 	.string	"_Ifx_VADC_G_QCTRL0_Bits"
 	.byte	0x4
 	.byte	0xb
 	.uahalf	0x1ff
-<<<<<<< HEAD
-	.uaword	0x2214
-=======
-	.uaword	0x221b
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x21f8
 	.uleb128 0x12
 	.uaword	.LASF6
 	.byte	0xb
 	.uahalf	0x201
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x4
 	.byte	0x1c
@@ -7906,11 +6198,7 @@ IfxVadc_Adc_masterIndex:
 	.uaword	.LASF7
 	.byte	0xb
 	.uahalf	0x202
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x4
 	.byte	0x18
@@ -7919,11 +6207,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"XTSEL"
 	.byte	0xb
 	.uahalf	0x203
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x4
 	.byte	0x14
@@ -7932,11 +6216,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"XTLVL"
 	.byte	0xb
 	.uahalf	0x204
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x1
 	.byte	0x13
@@ -7945,11 +6225,7 @@ IfxVadc_Adc_masterIndex:
 	.uaword	.LASF8
 	.byte	0xb
 	.uahalf	0x205
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x2
 	.byte	0x11
@@ -7958,11 +6234,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"XTWC"
 	.byte	0xb
 	.uahalf	0x206
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x1
 	.byte	0x10
@@ -7971,11 +6243,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"GTSEL"
 	.byte	0xb
 	.uahalf	0x207
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x4
 	.byte	0xc
@@ -7984,11 +6252,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"GTLVL"
 	.byte	0xb
 	.uahalf	0x208
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x1
 	.byte	0xb
@@ -7997,11 +6261,7 @@ IfxVadc_Adc_masterIndex:
 	.uaword	.LASF9
 	.byte	0xb
 	.uahalf	0x209
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x2
 	.byte	0x9
@@ -8010,11 +6270,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"GTWC"
 	.byte	0xb
 	.uahalf	0x20a
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x1
 	.byte	0x8
@@ -8023,11 +6279,7 @@ IfxVadc_Adc_masterIndex:
 	.uaword	.LASF5
 	.byte	0xb
 	.uahalf	0x20b
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x4
 	.byte	0x4
@@ -8036,11 +6288,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"TMEN"
 	.byte	0xb
 	.uahalf	0x20c
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x1
 	.byte	0x3
@@ -8049,11 +6297,7 @@ IfxVadc_Adc_masterIndex:
 	.uaword	.LASF18
 	.byte	0xb
 	.uahalf	0x20d
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x2
 	.byte	0x1
@@ -8062,11 +6306,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"TMWC"
 	.byte	0xb
 	.uahalf	0x20e
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x1
 	.byte	0
@@ -8076,30 +6316,18 @@ IfxVadc_Adc_masterIndex:
 	.string	"Ifx_VADC_G_QCTRL0_Bits"
 	.byte	0xb
 	.uahalf	0x20f
-<<<<<<< HEAD
-	.uaword	0x2106
-=======
-	.uaword	0x210d
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x20ea
 	.uleb128 0x15
 	.string	"_Ifx_VADC_G_QINR0_Bits"
 	.byte	0x4
 	.byte	0xb
 	.uahalf	0x212
-<<<<<<< HEAD
-	.uaword	0x22a5
-=======
-	.uaword	0x22ac
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x2289
 	.uleb128 0x12
 	.uaword	.LASF26
 	.byte	0xb
 	.uahalf	0x214
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x5
 	.byte	0x1b
@@ -8108,11 +6336,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"RF"
 	.byte	0xb
 	.uahalf	0x215
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1a
@@ -8121,11 +6345,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"ENSI"
 	.byte	0xb
 	.uahalf	0x216
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x1
 	.byte	0x19
@@ -8134,11 +6354,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"EXTR"
 	.byte	0xb
 	.uahalf	0x217
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x1
 	.byte	0x18
@@ -8147,11 +6363,7 @@ IfxVadc_Adc_masterIndex:
 	.uaword	.LASF1
 	.byte	0xb
 	.uahalf	0x218
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x18
 	.byte	0
@@ -8161,30 +6373,18 @@ IfxVadc_Adc_masterIndex:
 	.string	"Ifx_VADC_G_QINR0_Bits"
 	.byte	0xb
 	.uahalf	0x219
-<<<<<<< HEAD
-	.uaword	0x2233
-=======
-	.uaword	0x223a
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x2217
 	.uleb128 0x15
 	.string	"_Ifx_VADC_G_QMR0_Bits"
 	.byte	0x4
 	.byte	0xb
 	.uahalf	0x21c
-<<<<<<< HEAD
-	.uaword	0x2389
-=======
-	.uaword	0x2390
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x236d
 	.uleb128 0x13
 	.string	"ENGT"
 	.byte	0xb
 	.uahalf	0x21e
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x2
 	.byte	0x1e
@@ -8193,11 +6393,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"ENTR"
 	.byte	0xb
 	.uahalf	0x21f
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1d
@@ -8206,11 +6402,7 @@ IfxVadc_Adc_masterIndex:
 	.uaword	.LASF24
 	.byte	0xb
 	.uahalf	0x220
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x5
 	.byte	0x18
@@ -8219,11 +6411,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"CLRV"
 	.byte	0xb
 	.uahalf	0x221
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x1
 	.byte	0x17
@@ -8232,11 +6420,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"TREV"
 	.byte	0xb
 	.uahalf	0x222
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x1
 	.byte	0x16
@@ -8245,11 +6429,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"FLUSH"
 	.byte	0xb
 	.uahalf	0x223
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x1
 	.byte	0x15
@@ -8258,11 +6438,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"CEV"
 	.byte	0xb
 	.uahalf	0x224
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x1
 	.byte	0x14
@@ -8271,11 +6447,7 @@ IfxVadc_Adc_masterIndex:
 	.uaword	.LASF16
 	.byte	0xb
 	.uahalf	0x225
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x4
 	.byte	0x10
@@ -8284,11 +6456,7 @@ IfxVadc_Adc_masterIndex:
 	.uaword	.LASF12
 	.byte	0xb
 	.uahalf	0x226
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x1
 	.byte	0xf
@@ -8297,11 +6465,7 @@ IfxVadc_Adc_masterIndex:
 	.uaword	.LASF13
 	.byte	0xb
 	.uahalf	0x227
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0xf
 	.byte	0
@@ -8311,30 +6475,18 @@ IfxVadc_Adc_masterIndex:
 	.string	"Ifx_VADC_G_QMR0_Bits"
 	.byte	0xb
 	.uahalf	0x228
-<<<<<<< HEAD
-	.uaword	0x22c3
-=======
-	.uaword	0x22ca
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x22a7
 	.uleb128 0x15
 	.string	"_Ifx_VADC_G_QSR0_Bits"
 	.byte	0x4
 	.byte	0xb
 	.uahalf	0x22b
-<<<<<<< HEAD
-	.uaword	0x243a
-=======
-	.uaword	0x2441
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x241e
 	.uleb128 0x13
 	.string	"FILL"
 	.byte	0xb
 	.uahalf	0x22d
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x4
 	.byte	0x1c
@@ -8343,11 +6495,7 @@ IfxVadc_Adc_masterIndex:
 	.uaword	.LASF7
 	.byte	0xb
 	.uahalf	0x22e
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1b
@@ -8356,11 +6504,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"EMPTY"
 	.byte	0xb
 	.uahalf	0x22f
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1a
@@ -8369,11 +6513,7 @@ IfxVadc_Adc_masterIndex:
 	.uaword	.LASF10
 	.byte	0xb
 	.uahalf	0x230
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x1
 	.byte	0x19
@@ -8382,11 +6522,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"REQGT"
 	.byte	0xb
 	.uahalf	0x231
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x1
 	.byte	0x18
@@ -8395,11 +6531,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"EV"
 	.byte	0xb
 	.uahalf	0x232
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x1
 	.byte	0x17
@@ -8408,11 +6540,7 @@ IfxVadc_Adc_masterIndex:
 	.uaword	.LASF27
 	.byte	0xb
 	.uahalf	0x233
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x17
 	.byte	0
@@ -8422,30 +6550,18 @@ IfxVadc_Adc_masterIndex:
 	.string	"Ifx_VADC_G_QSR0_Bits"
 	.byte	0xb
 	.uahalf	0x234
-<<<<<<< HEAD
-	.uaword	0x23a6
-=======
-	.uaword	0x23ad
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x238a
 	.uleb128 0x15
 	.string	"_Ifx_VADC_G_RCR_Bits"
 	.byte	0x4
 	.byte	0xb
 	.uahalf	0x237
-<<<<<<< HEAD
-	.uaword	0x24fa
-=======
-	.uaword	0x2501
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x24de
 	.uleb128 0x12
 	.uaword	.LASF28
 	.byte	0xb
 	.uahalf	0x239
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x10
 	.byte	0x10
@@ -8454,11 +6570,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"DRCTR"
 	.byte	0xb
 	.uahalf	0x23a
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x4
 	.byte	0xc
@@ -8467,11 +6579,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"DMM"
 	.byte	0xb
 	.uahalf	0x23b
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x2
 	.byte	0xa
@@ -8480,11 +6588,7 @@ IfxVadc_Adc_masterIndex:
 	.uaword	.LASF3
 	.byte	0xb
 	.uahalf	0x23c
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x2
 	.byte	0x8
@@ -8493,11 +6597,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"WFR"
 	.byte	0xb
 	.uahalf	0x23d
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x1
 	.byte	0x7
@@ -8506,11 +6606,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"FEN"
 	.byte	0xb
 	.uahalf	0x23e
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x2
 	.byte	0x5
@@ -8519,11 +6615,7 @@ IfxVadc_Adc_masterIndex:
 	.uaword	.LASF17
 	.byte	0xb
 	.uahalf	0x23f
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x4
 	.byte	0x1
@@ -8532,11 +6624,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"SRGEN"
 	.byte	0xb
 	.uahalf	0x240
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x1
 	.byte	0
@@ -8546,30 +6634,18 @@ IfxVadc_Adc_masterIndex:
 	.string	"Ifx_VADC_G_RCR_Bits"
 	.byte	0xb
 	.uahalf	0x241
-<<<<<<< HEAD
-	.uaword	0x2457
-=======
-	.uaword	0x245e
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x243b
 	.uleb128 0x15
 	.string	"_Ifx_VADC_G_REFCLR_Bits"
 	.byte	0x4
 	.byte	0xb
 	.uahalf	0x244
-<<<<<<< HEAD
-	.uaword	0x265e
-=======
-	.uaword	0x2665
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x2642
 	.uleb128 0x13
 	.string	"REV0"
 	.byte	0xb
 	.uahalf	0x246
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1f
@@ -8578,11 +6654,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"REV1"
 	.byte	0xb
 	.uahalf	0x247
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1e
@@ -8591,11 +6663,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"REV2"
 	.byte	0xb
 	.uahalf	0x248
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1d
@@ -8604,11 +6672,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"REV3"
 	.byte	0xb
 	.uahalf	0x249
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1c
@@ -8617,11 +6681,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"REV4"
 	.byte	0xb
 	.uahalf	0x24a
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1b
@@ -8630,11 +6690,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"REV5"
 	.byte	0xb
 	.uahalf	0x24b
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1a
@@ -8643,11 +6699,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"REV6"
 	.byte	0xb
 	.uahalf	0x24c
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x1
 	.byte	0x19
@@ -8656,11 +6708,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"REV7"
 	.byte	0xb
 	.uahalf	0x24d
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x1
 	.byte	0x18
@@ -8669,11 +6717,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"REV8"
 	.byte	0xb
 	.uahalf	0x24e
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x1
 	.byte	0x17
@@ -8682,11 +6726,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"REV9"
 	.byte	0xb
 	.uahalf	0x24f
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x1
 	.byte	0x16
@@ -8695,11 +6735,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"REV10"
 	.byte	0xb
 	.uahalf	0x250
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x1
 	.byte	0x15
@@ -8708,11 +6744,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"REV11"
 	.byte	0xb
 	.uahalf	0x251
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x1
 	.byte	0x14
@@ -8721,11 +6753,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"REV12"
 	.byte	0xb
 	.uahalf	0x252
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x1
 	.byte	0x13
@@ -8734,11 +6762,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"REV13"
 	.byte	0xb
 	.uahalf	0x253
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x1
 	.byte	0x12
@@ -8747,11 +6771,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"REV14"
 	.byte	0xb
 	.uahalf	0x254
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x1
 	.byte	0x11
@@ -8760,11 +6780,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"REV15"
 	.byte	0xb
 	.uahalf	0x255
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x1
 	.byte	0x10
@@ -8773,11 +6789,7 @@ IfxVadc_Adc_masterIndex:
 	.uaword	.LASF20
 	.byte	0xb
 	.uahalf	0x256
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x10
 	.byte	0
@@ -8787,30 +6799,18 @@ IfxVadc_Adc_masterIndex:
 	.string	"Ifx_VADC_G_REFCLR_Bits"
 	.byte	0xb
 	.uahalf	0x257
-<<<<<<< HEAD
-	.uaword	0x2516
-=======
-	.uaword	0x251d
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x24fa
 	.uleb128 0x15
 	.string	"_Ifx_VADC_G_REFLAG_Bits"
 	.byte	0x4
 	.byte	0xb
 	.uahalf	0x25a
-<<<<<<< HEAD
-	.uaword	0x27c5
-=======
-	.uaword	0x27cc
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x27a9
 	.uleb128 0x13
 	.string	"REV0"
 	.byte	0xb
 	.uahalf	0x25c
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1f
@@ -8819,11 +6819,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"REV1"
 	.byte	0xb
 	.uahalf	0x25d
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1e
@@ -8832,11 +6828,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"REV2"
 	.byte	0xb
 	.uahalf	0x25e
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1d
@@ -8845,11 +6837,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"REV3"
 	.byte	0xb
 	.uahalf	0x25f
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1c
@@ -8858,11 +6846,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"REV4"
 	.byte	0xb
 	.uahalf	0x260
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1b
@@ -8871,11 +6855,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"REV5"
 	.byte	0xb
 	.uahalf	0x261
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1a
@@ -8884,11 +6864,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"REV6"
 	.byte	0xb
 	.uahalf	0x262
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x1
 	.byte	0x19
@@ -8897,11 +6873,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"REV7"
 	.byte	0xb
 	.uahalf	0x263
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x1
 	.byte	0x18
@@ -8910,11 +6882,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"REV8"
 	.byte	0xb
 	.uahalf	0x264
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x1
 	.byte	0x17
@@ -8923,11 +6891,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"REV9"
 	.byte	0xb
 	.uahalf	0x265
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x1
 	.byte	0x16
@@ -8936,11 +6900,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"REV10"
 	.byte	0xb
 	.uahalf	0x266
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x1
 	.byte	0x15
@@ -8949,11 +6909,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"REV11"
 	.byte	0xb
 	.uahalf	0x267
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x1
 	.byte	0x14
@@ -8962,11 +6918,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"REV12"
 	.byte	0xb
 	.uahalf	0x268
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x1
 	.byte	0x13
@@ -8975,11 +6927,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"REV13"
 	.byte	0xb
 	.uahalf	0x269
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x1
 	.byte	0x12
@@ -8988,11 +6936,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"REV14"
 	.byte	0xb
 	.uahalf	0x26a
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x1
 	.byte	0x11
@@ -9001,11 +6945,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"REV15"
 	.byte	0xb
 	.uahalf	0x26b
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x1
 	.byte	0x10
@@ -9014,11 +6954,7 @@ IfxVadc_Adc_masterIndex:
 	.uaword	.LASF20
 	.byte	0xb
 	.uahalf	0x26c
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x10
 	.byte	0
@@ -9028,30 +6964,18 @@ IfxVadc_Adc_masterIndex:
 	.string	"Ifx_VADC_G_REFLAG_Bits"
 	.byte	0xb
 	.uahalf	0x26d
-<<<<<<< HEAD
-	.uaword	0x267d
-=======
-	.uaword	0x2684
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x2661
 	.uleb128 0x15
 	.string	"_Ifx_VADC_G_RES_Bits"
 	.byte	0x4
 	.byte	0xb
 	.uahalf	0x270
-<<<<<<< HEAD
-	.uaword	0x2874
-=======
-	.uaword	0x287b
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x2858
 	.uleb128 0x12
 	.uaword	.LASF29
 	.byte	0xb
 	.uahalf	0x272
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x10
 	.byte	0x10
@@ -9060,11 +6984,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"DRC"
 	.byte	0xb
 	.uahalf	0x273
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x4
 	.byte	0xc
@@ -9073,11 +6993,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"CHNR"
 	.byte	0xb
 	.uahalf	0x274
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x5
 	.byte	0x7
@@ -9086,11 +7002,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"EMUX"
 	.byte	0xb
 	.uahalf	0x275
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x3
 	.byte	0x4
@@ -9099,11 +7011,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"CRS"
 	.byte	0xb
 	.uahalf	0x276
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x2
 	.byte	0x2
@@ -9112,11 +7020,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"FCR"
 	.byte	0xb
 	.uahalf	0x277
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1
@@ -9125,11 +7029,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"VF"
 	.byte	0xb
 	.uahalf	0x278
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x1
 	.byte	0
@@ -9139,30 +7039,18 @@ IfxVadc_Adc_masterIndex:
 	.string	"Ifx_VADC_G_RES_Bits"
 	.byte	0xb
 	.uahalf	0x279
-<<<<<<< HEAD
-	.uaword	0x27e4
-=======
-	.uaword	0x27eb
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x27c8
 	.uleb128 0x15
 	.string	"_Ifx_VADC_G_RESD_Bits"
 	.byte	0x4
 	.byte	0xb
 	.uahalf	0x27c
-<<<<<<< HEAD
-	.uaword	0x2921
-=======
-	.uaword	0x2928
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x2905
 	.uleb128 0x12
 	.uaword	.LASF29
 	.byte	0xb
 	.uahalf	0x27e
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x10
 	.byte	0x10
@@ -9171,11 +7059,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"DRC"
 	.byte	0xb
 	.uahalf	0x27f
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x4
 	.byte	0xc
@@ -9184,11 +7068,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"CHNR"
 	.byte	0xb
 	.uahalf	0x280
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x5
 	.byte	0x7
@@ -9197,11 +7077,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"EMUX"
 	.byte	0xb
 	.uahalf	0x281
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x3
 	.byte	0x4
@@ -9210,11 +7086,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"CRS"
 	.byte	0xb
 	.uahalf	0x282
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x2
 	.byte	0x2
@@ -9223,11 +7095,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"FCR"
 	.byte	0xb
 	.uahalf	0x283
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1
@@ -9236,11 +7104,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"VF"
 	.byte	0xb
 	.uahalf	0x284
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x1
 	.byte	0
@@ -9250,30 +7114,18 @@ IfxVadc_Adc_masterIndex:
 	.string	"Ifx_VADC_G_RESD_Bits"
 	.byte	0xb
 	.uahalf	0x285
-<<<<<<< HEAD
-	.uaword	0x2890
-=======
-	.uaword	0x2897
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x2874
 	.uleb128 0x15
 	.string	"_Ifx_VADC_G_REVNP0_Bits"
 	.byte	0x4
 	.byte	0xb
 	.uahalf	0x288
-<<<<<<< HEAD
-	.uaword	0x29f8
-=======
-	.uaword	0x29ff
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x29dc
 	.uleb128 0x13
 	.string	"REV0NP"
 	.byte	0xb
 	.uahalf	0x28a
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x4
 	.byte	0x1c
@@ -9282,11 +7134,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"REV1NP"
 	.byte	0xb
 	.uahalf	0x28b
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x4
 	.byte	0x18
@@ -9295,11 +7143,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"REV2NP"
 	.byte	0xb
 	.uahalf	0x28c
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x4
 	.byte	0x14
@@ -9308,11 +7152,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"REV3NP"
 	.byte	0xb
 	.uahalf	0x28d
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x4
 	.byte	0x10
@@ -9321,11 +7161,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"REV4NP"
 	.byte	0xb
 	.uahalf	0x28e
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x4
 	.byte	0xc
@@ -9334,11 +7170,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"REV5NP"
 	.byte	0xb
 	.uahalf	0x28f
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x4
 	.byte	0x8
@@ -9347,11 +7179,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"REV6NP"
 	.byte	0xb
 	.uahalf	0x290
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x4
 	.byte	0x4
@@ -9360,11 +7188,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"REV7NP"
 	.byte	0xb
 	.uahalf	0x291
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x4
 	.byte	0
@@ -9374,30 +7198,18 @@ IfxVadc_Adc_masterIndex:
 	.string	"Ifx_VADC_G_REVNP0_Bits"
 	.byte	0xb
 	.uahalf	0x292
-<<<<<<< HEAD
-	.uaword	0x293e
-=======
-	.uaword	0x2945
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x2922
 	.uleb128 0x15
 	.string	"_Ifx_VADC_G_REVNP1_Bits"
 	.byte	0x4
 	.byte	0xb
 	.uahalf	0x295
-<<<<<<< HEAD
-	.uaword	0x2ad7
-=======
-	.uaword	0x2ade
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x2abb
 	.uleb128 0x13
 	.string	"REV8NP"
 	.byte	0xb
 	.uahalf	0x297
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x4
 	.byte	0x1c
@@ -9406,11 +7218,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"REV9NP"
 	.byte	0xb
 	.uahalf	0x298
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x4
 	.byte	0x18
@@ -9419,11 +7227,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"REV10NP"
 	.byte	0xb
 	.uahalf	0x299
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x4
 	.byte	0x14
@@ -9432,11 +7236,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"REV11NP"
 	.byte	0xb
 	.uahalf	0x29a
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x4
 	.byte	0x10
@@ -9445,11 +7245,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"REV12NP"
 	.byte	0xb
 	.uahalf	0x29b
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x4
 	.byte	0xc
@@ -9458,11 +7254,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"REV13NP"
 	.byte	0xb
 	.uahalf	0x29c
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x4
 	.byte	0x8
@@ -9471,11 +7263,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"REV14NP"
 	.byte	0xb
 	.uahalf	0x29d
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x4
 	.byte	0x4
@@ -9484,11 +7272,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"REV15NP"
 	.byte	0xb
 	.uahalf	0x29e
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x4
 	.byte	0
@@ -9498,30 +7282,18 @@ IfxVadc_Adc_masterIndex:
 	.string	"Ifx_VADC_G_REVNP1_Bits"
 	.byte	0xb
 	.uahalf	0x29f
-<<<<<<< HEAD
-	.uaword	0x2a17
-=======
-	.uaword	0x2a1e
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x29fb
 	.uleb128 0x15
 	.string	"_Ifx_VADC_G_RRASS_Bits"
 	.byte	0x4
 	.byte	0xb
 	.uahalf	0x2a2
-<<<<<<< HEAD
-	.uaword	0x2c5d
-=======
-	.uaword	0x2c64
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x2c41
 	.uleb128 0x13
 	.string	"ASSRR0"
 	.byte	0xb
 	.uahalf	0x2a4
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1f
@@ -9530,11 +7302,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"ASSRR1"
 	.byte	0xb
 	.uahalf	0x2a5
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1e
@@ -9543,11 +7311,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"ASSRR2"
 	.byte	0xb
 	.uahalf	0x2a6
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1d
@@ -9556,11 +7320,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"ASSRR3"
 	.byte	0xb
 	.uahalf	0x2a7
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1c
@@ -9569,11 +7329,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"ASSRR4"
 	.byte	0xb
 	.uahalf	0x2a8
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1b
@@ -9582,11 +7338,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"ASSRR5"
 	.byte	0xb
 	.uahalf	0x2a9
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1a
@@ -9595,11 +7347,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"ASSRR6"
 	.byte	0xb
 	.uahalf	0x2aa
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x1
 	.byte	0x19
@@ -9608,11 +7356,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"ASSRR7"
 	.byte	0xb
 	.uahalf	0x2ab
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x1
 	.byte	0x18
@@ -9621,11 +7365,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"ASSRR8"
 	.byte	0xb
 	.uahalf	0x2ac
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x1
 	.byte	0x17
@@ -9634,11 +7374,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"ASSRR9"
 	.byte	0xb
 	.uahalf	0x2ad
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x1
 	.byte	0x16
@@ -9647,11 +7383,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"ASSRR10"
 	.byte	0xb
 	.uahalf	0x2ae
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x1
 	.byte	0x15
@@ -9660,11 +7392,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"ASSRR11"
 	.byte	0xb
 	.uahalf	0x2af
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x1
 	.byte	0x14
@@ -9673,11 +7401,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"ASSRR12"
 	.byte	0xb
 	.uahalf	0x2b0
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x1
 	.byte	0x13
@@ -9686,11 +7410,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"ASSRR13"
 	.byte	0xb
 	.uahalf	0x2b1
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x1
 	.byte	0x12
@@ -9699,11 +7419,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"ASSRR14"
 	.byte	0xb
 	.uahalf	0x2b2
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x1
 	.byte	0x11
@@ -9712,11 +7428,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"ASSRR15"
 	.byte	0xb
 	.uahalf	0x2b3
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x1
 	.byte	0x10
@@ -9725,11 +7437,7 @@ IfxVadc_Adc_masterIndex:
 	.uaword	.LASF20
 	.byte	0xb
 	.uahalf	0x2b4
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x10
 	.byte	0
@@ -9739,30 +7447,18 @@ IfxVadc_Adc_masterIndex:
 	.string	"Ifx_VADC_G_RRASS_Bits"
 	.byte	0xb
 	.uahalf	0x2b5
-<<<<<<< HEAD
-	.uaword	0x2af6
-=======
-	.uaword	0x2afd
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x2ada
 	.uleb128 0x15
 	.string	"_Ifx_VADC_G_SEFCLR_Bits"
 	.byte	0x4
 	.byte	0xb
 	.uahalf	0x2b8
-<<<<<<< HEAD
-	.uaword	0x2ccf
-=======
-	.uaword	0x2cd6
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x2cb3
 	.uleb128 0x13
 	.string	"SEV0"
 	.byte	0xb
 	.uahalf	0x2ba
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1f
@@ -9771,11 +7467,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"SEV1"
 	.byte	0xb
 	.uahalf	0x2bb
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1e
@@ -9784,11 +7476,7 @@ IfxVadc_Adc_masterIndex:
 	.uaword	.LASF14
 	.byte	0xb
 	.uahalf	0x2bc
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x1e
 	.byte	0
@@ -9798,30 +7486,18 @@ IfxVadc_Adc_masterIndex:
 	.string	"Ifx_VADC_G_SEFCLR_Bits"
 	.byte	0xb
 	.uahalf	0x2bd
-<<<<<<< HEAD
-	.uaword	0x2c7b
-=======
-	.uaword	0x2c82
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x2c5f
 	.uleb128 0x15
 	.string	"_Ifx_VADC_G_SEFLAG_Bits"
 	.byte	0x4
 	.byte	0xb
 	.uahalf	0x2c0
-<<<<<<< HEAD
-	.uaword	0x2d42
-=======
-	.uaword	0x2d49
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x2d26
 	.uleb128 0x13
 	.string	"SEV0"
 	.byte	0xb
 	.uahalf	0x2c2
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1f
@@ -9830,11 +7506,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"SEV1"
 	.byte	0xb
 	.uahalf	0x2c3
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1e
@@ -9843,11 +7515,7 @@ IfxVadc_Adc_masterIndex:
 	.uaword	.LASF14
 	.byte	0xb
 	.uahalf	0x2c4
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x1e
 	.byte	0
@@ -9857,30 +7525,18 @@ IfxVadc_Adc_masterIndex:
 	.string	"Ifx_VADC_G_SEFLAG_Bits"
 	.byte	0xb
 	.uahalf	0x2c5
-<<<<<<< HEAD
-	.uaword	0x2cee
-=======
-	.uaword	0x2cf5
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x2cd2
 	.uleb128 0x15
 	.string	"_Ifx_VADC_G_SEVNP_Bits"
 	.byte	0x4
 	.byte	0xb
 	.uahalf	0x2c8
-<<<<<<< HEAD
-	.uaword	0x2db8
-=======
-	.uaword	0x2dbf
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x2d9c
 	.uleb128 0x13
 	.string	"SEV0NP"
 	.byte	0xb
 	.uahalf	0x2ca
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x4
 	.byte	0x1c
@@ -9889,11 +7545,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"SEV1NP"
 	.byte	0xb
 	.uahalf	0x2cb
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x4
 	.byte	0x18
@@ -9902,11 +7554,7 @@ IfxVadc_Adc_masterIndex:
 	.uaword	.LASF1
 	.byte	0xb
 	.uahalf	0x2cc
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x18
 	.byte	0
@@ -9916,30 +7564,18 @@ IfxVadc_Adc_masterIndex:
 	.string	"Ifx_VADC_G_SEVNP_Bits"
 	.byte	0xb
 	.uahalf	0x2cd
-<<<<<<< HEAD
-	.uaword	0x2d61
-=======
-	.uaword	0x2d68
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x2d45
 	.uleb128 0x15
 	.string	"_Ifx_VADC_G_SRACT_Bits"
 	.byte	0x4
 	.byte	0xb
 	.uahalf	0x2d0
-<<<<<<< HEAD
-	.uaword	0x2ea7
-=======
-	.uaword	0x2eae
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x2e8b
 	.uleb128 0x13
 	.string	"AGSR0"
 	.byte	0xb
 	.uahalf	0x2d2
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1f
@@ -9948,11 +7584,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"AGSR1"
 	.byte	0xb
 	.uahalf	0x2d3
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1e
@@ -9961,11 +7593,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"AGSR2"
 	.byte	0xb
 	.uahalf	0x2d4
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1d
@@ -9974,11 +7602,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"AGSR3"
 	.byte	0xb
 	.uahalf	0x2d5
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1c
@@ -9987,11 +7611,7 @@ IfxVadc_Adc_masterIndex:
 	.uaword	.LASF7
 	.byte	0xb
 	.uahalf	0x2d6
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x4
 	.byte	0x18
@@ -10000,11 +7620,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"ASSR0"
 	.byte	0xb
 	.uahalf	0x2d7
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x1
 	.byte	0x17
@@ -10013,11 +7629,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"ASSR1"
 	.byte	0xb
 	.uahalf	0x2d8
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x1
 	.byte	0x16
@@ -10026,11 +7638,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"ASSR2"
 	.byte	0xb
 	.uahalf	0x2d9
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x1
 	.byte	0x15
@@ -10039,11 +7647,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"ASSR3"
 	.byte	0xb
 	.uahalf	0x2da
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x1
 	.byte	0x14
@@ -10052,11 +7656,7 @@ IfxVadc_Adc_masterIndex:
 	.uaword	.LASF16
 	.byte	0xb
 	.uahalf	0x2db
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x14
 	.byte	0
@@ -10066,30 +7666,18 @@ IfxVadc_Adc_masterIndex:
 	.string	"Ifx_VADC_G_SRACT_Bits"
 	.byte	0xb
 	.uahalf	0x2dc
-<<<<<<< HEAD
-	.uaword	0x2dd6
-=======
-	.uaword	0x2ddd
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x2dba
 	.uleb128 0x15
 	.string	"_Ifx_VADC_G_SYNCTR_Bits"
 	.byte	0x4
 	.byte	0xb
 	.uahalf	0x2df
-<<<<<<< HEAD
-	.uaword	0x2f52
-=======
-	.uaword	0x2f59
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x2f36
 	.uleb128 0x13
 	.string	"STSEL"
 	.byte	0xb
 	.uahalf	0x2e1
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x2
 	.byte	0x1e
@@ -10098,11 +7686,7 @@ IfxVadc_Adc_masterIndex:
 	.uaword	.LASF14
 	.byte	0xb
 	.uahalf	0x2e2
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x2
 	.byte	0x1c
@@ -10111,11 +7695,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"EVALR1"
 	.byte	0xb
 	.uahalf	0x2e3
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1b
@@ -10124,11 +7704,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"EVALR2"
 	.byte	0xb
 	.uahalf	0x2e4
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1a
@@ -10137,11 +7713,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"EVALR3"
 	.byte	0xb
 	.uahalf	0x2e5
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x1
 	.byte	0x19
@@ -10150,11 +7722,7 @@ IfxVadc_Adc_masterIndex:
 	.uaword	.LASF30
 	.byte	0xb
 	.uahalf	0x2e6
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x19
 	.byte	0
@@ -10164,30 +7732,18 @@ IfxVadc_Adc_masterIndex:
 	.string	"Ifx_VADC_G_SYNCTR_Bits"
 	.byte	0xb
 	.uahalf	0x2e7
-<<<<<<< HEAD
-	.uaword	0x2ec5
-=======
-	.uaword	0x2ecc
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x2ea9
 	.uleb128 0x15
 	.string	"_Ifx_VADC_G_VFR_Bits"
 	.byte	0x4
 	.byte	0xb
 	.uahalf	0x2ea
-<<<<<<< HEAD
-	.uaword	0x30a6
-=======
-	.uaword	0x30ad
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x308a
 	.uleb128 0x13
 	.string	"VF0"
 	.byte	0xb
 	.uahalf	0x2ec
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1f
@@ -10196,11 +7752,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"VF1"
 	.byte	0xb
 	.uahalf	0x2ed
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1e
@@ -10209,11 +7761,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"VF2"
 	.byte	0xb
 	.uahalf	0x2ee
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1d
@@ -10222,11 +7770,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"VF3"
 	.byte	0xb
 	.uahalf	0x2ef
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1c
@@ -10235,11 +7779,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"VF4"
 	.byte	0xb
 	.uahalf	0x2f0
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1b
@@ -10248,11 +7788,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"VF5"
 	.byte	0xb
 	.uahalf	0x2f1
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1a
@@ -10261,11 +7797,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"VF6"
 	.byte	0xb
 	.uahalf	0x2f2
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x1
 	.byte	0x19
@@ -10274,11 +7806,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"VF7"
 	.byte	0xb
 	.uahalf	0x2f3
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x1
 	.byte	0x18
@@ -10287,11 +7815,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"VF8"
 	.byte	0xb
 	.uahalf	0x2f4
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x1
 	.byte	0x17
@@ -10300,11 +7824,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"VF9"
 	.byte	0xb
 	.uahalf	0x2f5
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x1
 	.byte	0x16
@@ -10313,11 +7833,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"VF10"
 	.byte	0xb
 	.uahalf	0x2f6
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x1
 	.byte	0x15
@@ -10326,11 +7842,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"VF11"
 	.byte	0xb
 	.uahalf	0x2f7
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x1
 	.byte	0x14
@@ -10339,11 +7851,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"VF12"
 	.byte	0xb
 	.uahalf	0x2f8
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x1
 	.byte	0x13
@@ -10352,11 +7860,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"VF13"
 	.byte	0xb
 	.uahalf	0x2f9
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x1
 	.byte	0x12
@@ -10365,11 +7869,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"VF14"
 	.byte	0xb
 	.uahalf	0x2fa
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x1
 	.byte	0x11
@@ -10378,11 +7878,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"VF15"
 	.byte	0xb
 	.uahalf	0x2fb
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x1
 	.byte	0x10
@@ -10391,11 +7887,7 @@ IfxVadc_Adc_masterIndex:
 	.uaword	.LASF20
 	.byte	0xb
 	.uahalf	0x2fc
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x10
 	.byte	0
@@ -10405,30 +7897,18 @@ IfxVadc_Adc_masterIndex:
 	.string	"Ifx_VADC_G_VFR_Bits"
 	.byte	0xb
 	.uahalf	0x2fd
-<<<<<<< HEAD
-	.uaword	0x2f71
-=======
-	.uaword	0x2f78
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x2f55
 	.uleb128 0x15
 	.string	"_Ifx_VADC_GLOBBOUND_Bits"
 	.byte	0x4
 	.byte	0xb
 	.uahalf	0x300
-<<<<<<< HEAD
-	.uaword	0x3125
-=======
-	.uaword	0x312c
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x3109
 	.uleb128 0x12
 	.uaword	.LASF21
 	.byte	0xb
 	.uahalf	0x302
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0xc
 	.byte	0x14
@@ -10437,11 +7917,7 @@ IfxVadc_Adc_masterIndex:
 	.uaword	.LASF16
 	.byte	0xb
 	.uahalf	0x303
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x4
 	.byte	0x10
@@ -10450,11 +7926,7 @@ IfxVadc_Adc_masterIndex:
 	.uaword	.LASF22
 	.byte	0xb
 	.uahalf	0x304
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0xc
 	.byte	0x4
@@ -10463,11 +7935,7 @@ IfxVadc_Adc_masterIndex:
 	.uaword	.LASF23
 	.byte	0xb
 	.uahalf	0x305
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x4
 	.byte	0
@@ -10477,30 +7945,18 @@ IfxVadc_Adc_masterIndex:
 	.string	"Ifx_VADC_GLOBBOUND_Bits"
 	.byte	0xb
 	.uahalf	0x306
-<<<<<<< HEAD
-	.uaword	0x30c2
-=======
-	.uaword	0x30c9
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x30a6
 	.uleb128 0x15
 	.string	"_Ifx_VADC_GLOBCFG_Bits"
 	.byte	0x4
 	.byte	0xb
 	.uahalf	0x309
-<<<<<<< HEAD
-	.uaword	0x32ba
-=======
-	.uaword	0x32c1
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x329e
 	.uleb128 0x13
 	.string	"DIVA"
 	.byte	0xb
 	.uahalf	0x30b
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x5
 	.byte	0x1b
@@ -10509,11 +7965,7 @@ IfxVadc_Adc_masterIndex:
 	.uaword	.LASF15
 	.byte	0xb
 	.uahalf	0x30c
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x2
 	.byte	0x19
@@ -10522,11 +7974,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"DCMSB"
 	.byte	0xb
 	.uahalf	0x30d
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x1
 	.byte	0x18
@@ -10535,11 +7983,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"DIVD"
 	.byte	0xb
 	.uahalf	0x30e
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x2
 	.byte	0x16
@@ -10548,11 +7992,7 @@ IfxVadc_Adc_masterIndex:
 	.uaword	.LASF11
 	.byte	0xb
 	.uahalf	0x30f
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x2
 	.byte	0x14
@@ -10561,11 +8001,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"REFPC"
 	.byte	0xb
 	.uahalf	0x310
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x1
 	.byte	0x13
@@ -10574,11 +8010,7 @@ IfxVadc_Adc_masterIndex:
 	.uaword	.LASF2
 	.byte	0xb
 	.uahalf	0x311
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x1
 	.byte	0x12
@@ -10587,11 +8019,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"LOSUP"
 	.byte	0xb
 	.uahalf	0x312
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x1
 	.byte	0x11
@@ -10600,11 +8028,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"DIVWC"
 	.byte	0xb
 	.uahalf	0x313
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x1
 	.byte	0x10
@@ -10613,11 +8037,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"DPCAL0"
 	.byte	0xb
 	.uahalf	0x314
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x1
 	.byte	0xf
@@ -10626,11 +8046,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"DPCAL1"
 	.byte	0xb
 	.uahalf	0x315
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x1
 	.byte	0xe
@@ -10639,11 +8055,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"DPCAL2"
 	.byte	0xb
 	.uahalf	0x316
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x1
 	.byte	0xd
@@ -10652,11 +8064,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"DPCAL3"
 	.byte	0xb
 	.uahalf	0x317
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x1
 	.byte	0xc
@@ -10665,11 +8073,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"DPCAL4"
 	.byte	0xb
 	.uahalf	0x318
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x1
 	.byte	0xb
@@ -10678,11 +8082,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"DPCAL5"
 	.byte	0xb
 	.uahalf	0x319
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x1
 	.byte	0xa
@@ -10691,11 +8091,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"DPCAL6"
 	.byte	0xb
 	.uahalf	0x31a
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x1
 	.byte	0x9
@@ -10704,11 +8100,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"DPCAL7"
 	.byte	0xb
 	.uahalf	0x31b
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x1
 	.byte	0x8
@@ -10717,11 +8109,7 @@ IfxVadc_Adc_masterIndex:
 	.uaword	.LASF5
 	.byte	0xb
 	.uahalf	0x31c
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x7
 	.byte	0x1
@@ -10730,11 +8118,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"SUCAL"
 	.byte	0xb
 	.uahalf	0x31d
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x1
 	.byte	0
@@ -10744,30 +8128,18 @@ IfxVadc_Adc_masterIndex:
 	.string	"Ifx_VADC_GLOBCFG_Bits"
 	.byte	0xb
 	.uahalf	0x31e
-<<<<<<< HEAD
-	.uaword	0x3145
-=======
-	.uaword	0x314c
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x3129
 	.uleb128 0x15
 	.string	"_Ifx_VADC_GLOBEFLAG_Bits"
 	.byte	0x4
 	.byte	0xb
 	.uahalf	0x321
-<<<<<<< HEAD
-	.uaword	0x338d
-=======
-	.uaword	0x3394
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x3371
 	.uleb128 0x13
 	.string	"SEVGLB"
 	.byte	0xb
 	.uahalf	0x323
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1f
@@ -10776,11 +8148,7 @@ IfxVadc_Adc_masterIndex:
 	.uaword	.LASF31
 	.byte	0xb
 	.uahalf	0x324
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x7
 	.byte	0x18
@@ -10789,11 +8157,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"REVGLB"
 	.byte	0xb
 	.uahalf	0x325
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x1
 	.byte	0x17
@@ -10802,11 +8166,7 @@ IfxVadc_Adc_masterIndex:
 	.uaword	.LASF27
 	.byte	0xb
 	.uahalf	0x326
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x7
 	.byte	0x10
@@ -10815,11 +8175,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"SEVGLBCLR"
 	.byte	0xb
 	.uahalf	0x327
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x1
 	.byte	0xf
@@ -10828,11 +8184,7 @@ IfxVadc_Adc_masterIndex:
 	.uaword	.LASF13
 	.byte	0xb
 	.uahalf	0x328
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x7
 	.byte	0x8
@@ -10841,11 +8193,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"REVGLBCLR"
 	.byte	0xb
 	.uahalf	0x329
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x1
 	.byte	0x7
@@ -10854,11 +8202,7 @@ IfxVadc_Adc_masterIndex:
 	.uaword	.LASF32
 	.byte	0xb
 	.uahalf	0x32a
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x7
 	.byte	0
@@ -10868,30 +8212,18 @@ IfxVadc_Adc_masterIndex:
 	.string	"Ifx_VADC_GLOBEFLAG_Bits"
 	.byte	0xb
 	.uahalf	0x32b
-<<<<<<< HEAD
-	.uaword	0x32d8
-=======
-	.uaword	0x32df
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x32bc
 	.uleb128 0x15
 	.string	"_Ifx_VADC_GLOBEVNP_Bits"
 	.byte	0x4
 	.byte	0xb
 	.uahalf	0x32e
-<<<<<<< HEAD
-	.uaword	0x3415
-=======
-	.uaword	0x341c
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x33f9
 	.uleb128 0x13
 	.string	"SEV0NP"
 	.byte	0xb
 	.uahalf	0x330
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x4
 	.byte	0x1c
@@ -10900,11 +8232,7 @@ IfxVadc_Adc_masterIndex:
 	.uaword	.LASF7
 	.byte	0xb
 	.uahalf	0x331
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0xc
 	.byte	0x10
@@ -10913,11 +8241,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"REV0NP"
 	.byte	0xb
 	.uahalf	0x332
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x4
 	.byte	0xc
@@ -10926,11 +8250,7 @@ IfxVadc_Adc_masterIndex:
 	.uaword	.LASF19
 	.byte	0xb
 	.uahalf	0x333
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0xc
 	.byte	0
@@ -10940,30 +8260,18 @@ IfxVadc_Adc_masterIndex:
 	.string	"Ifx_VADC_GLOBEVNP_Bits"
 	.byte	0xb
 	.uahalf	0x334
-<<<<<<< HEAD
-	.uaword	0x33ad
-=======
-	.uaword	0x33b4
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x3391
 	.uleb128 0x15
 	.string	"_Ifx_VADC_GLOBRCR_Bits"
 	.byte	0x4
 	.byte	0xb
 	.uahalf	0x337
-<<<<<<< HEAD
-	.uaword	0x34b9
-=======
-	.uaword	0x34c0
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x349d
 	.uleb128 0x12
 	.uaword	.LASF28
 	.byte	0xb
 	.uahalf	0x339
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x10
 	.byte	0x10
@@ -10972,11 +8280,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"DRCTR"
 	.byte	0xb
 	.uahalf	0x33a
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x4
 	.byte	0xc
@@ -10985,11 +8289,7 @@ IfxVadc_Adc_masterIndex:
 	.uaword	.LASF19
 	.byte	0xb
 	.uahalf	0x33b
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x4
 	.byte	0x8
@@ -10998,11 +8298,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"WFR"
 	.byte	0xb
 	.uahalf	0x33c
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x1
 	.byte	0x7
@@ -11011,11 +8307,7 @@ IfxVadc_Adc_masterIndex:
 	.uaword	.LASF32
 	.byte	0xb
 	.uahalf	0x33d
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x6
 	.byte	0x1
@@ -11024,11 +8316,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"SRGEN"
 	.byte	0xb
 	.uahalf	0x33e
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x1
 	.byte	0
@@ -11038,30 +8326,18 @@ IfxVadc_Adc_masterIndex:
 	.string	"Ifx_VADC_GLOBRCR_Bits"
 	.byte	0xb
 	.uahalf	0x33f
-<<<<<<< HEAD
-	.uaword	0x3434
-=======
-	.uaword	0x343b
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x3418
 	.uleb128 0x15
 	.string	"_Ifx_VADC_GLOBRES_Bits"
 	.byte	0x4
 	.byte	0xb
 	.uahalf	0x342
-<<<<<<< HEAD
-	.uaword	0x3569
-=======
-	.uaword	0x3570
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x354d
 	.uleb128 0x12
 	.uaword	.LASF29
 	.byte	0xb
 	.uahalf	0x344
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x10
 	.byte	0x10
@@ -11070,11 +8346,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"GNR"
 	.byte	0xb
 	.uahalf	0x345
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x4
 	.byte	0xc
@@ -11083,11 +8355,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"CHNR"
 	.byte	0xb
 	.uahalf	0x346
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x5
 	.byte	0x7
@@ -11096,11 +8364,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"EMUX"
 	.byte	0xb
 	.uahalf	0x347
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x3
 	.byte	0x4
@@ -11109,11 +8373,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"CRS"
 	.byte	0xb
 	.uahalf	0x348
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x2
 	.byte	0x2
@@ -11122,11 +8382,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"FCR"
 	.byte	0xb
 	.uahalf	0x349
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1
@@ -11135,11 +8391,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"VF"
 	.byte	0xb
 	.uahalf	0x34a
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x1
 	.byte	0
@@ -11149,30 +8401,18 @@ IfxVadc_Adc_masterIndex:
 	.string	"Ifx_VADC_GLOBRES_Bits"
 	.byte	0xb
 	.uahalf	0x34b
-<<<<<<< HEAD
-	.uaword	0x34d7
-=======
-	.uaword	0x34de
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x34bb
 	.uleb128 0x15
 	.string	"_Ifx_VADC_GLOBRESD_Bits"
 	.byte	0x4
 	.byte	0xb
 	.uahalf	0x34e
-<<<<<<< HEAD
-	.uaword	0x361a
-=======
-	.uaword	0x3621
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x35fe
 	.uleb128 0x12
 	.uaword	.LASF29
 	.byte	0xb
 	.uahalf	0x350
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x10
 	.byte	0x10
@@ -11181,11 +8421,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"GNR"
 	.byte	0xb
 	.uahalf	0x351
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x4
 	.byte	0xc
@@ -11194,11 +8430,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"CHNR"
 	.byte	0xb
 	.uahalf	0x352
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x5
 	.byte	0x7
@@ -11207,11 +8439,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"EMUX"
 	.byte	0xb
 	.uahalf	0x353
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x3
 	.byte	0x4
@@ -11220,11 +8448,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"CRS"
 	.byte	0xb
 	.uahalf	0x354
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x2
 	.byte	0x2
@@ -11233,11 +8457,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"FCR"
 	.byte	0xb
 	.uahalf	0x355
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1
@@ -11246,11 +8466,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"VF"
 	.byte	0xb
 	.uahalf	0x356
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x1
 	.byte	0
@@ -11260,30 +8476,18 @@ IfxVadc_Adc_masterIndex:
 	.string	"Ifx_VADC_GLOBRESD_Bits"
 	.byte	0xb
 	.uahalf	0x357
-<<<<<<< HEAD
-	.uaword	0x3587
-=======
-	.uaword	0x358e
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x356b
 	.uleb128 0x15
 	.string	"_Ifx_VADC_GLOBTF_Bits"
 	.byte	0x4
 	.byte	0xb
 	.uahalf	0x35a
-<<<<<<< HEAD
-	.uaword	0x372a
-=======
-	.uaword	0x3731
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x370e
 	.uleb128 0x13
 	.string	"CDCH"
 	.byte	0xb
 	.uahalf	0x35c
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x4
 	.byte	0x1c
@@ -11292,11 +8496,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"CDGR"
 	.byte	0xb
 	.uahalf	0x35d
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x4
 	.byte	0x18
@@ -11305,11 +8505,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"CDEN"
 	.byte	0xb
 	.uahalf	0x35e
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x1
 	.byte	0x17
@@ -11318,11 +8514,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"CDSEL"
 	.byte	0xb
 	.uahalf	0x35f
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x2
 	.byte	0x15
@@ -11331,11 +8523,7 @@ IfxVadc_Adc_masterIndex:
 	.uaword	.LASF25
 	.byte	0xb
 	.uahalf	0x360
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x4
 	.byte	0x11
@@ -11344,11 +8532,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"CDWC"
 	.byte	0xb
 	.uahalf	0x361
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x1
 	.byte	0x10
@@ -11357,11 +8541,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"PDD"
 	.byte	0xb
 	.uahalf	0x362
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x1
 	.byte	0xf
@@ -11370,11 +8550,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"MDPD"
 	.byte	0xb
 	.uahalf	0x363
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x1
 	.byte	0xe
@@ -11383,11 +8559,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"MDPU"
 	.byte	0xb
 	.uahalf	0x364
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x1
 	.byte	0xd
@@ -11396,11 +8568,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"reserved_19"
 	.byte	0xb
 	.uahalf	0x365
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x4
 	.byte	0x9
@@ -11409,11 +8577,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"MDWC"
 	.byte	0xb
 	.uahalf	0x366
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x1
 	.byte	0x8
@@ -11422,11 +8586,7 @@ IfxVadc_Adc_masterIndex:
 	.uaword	.LASF5
 	.byte	0xb
 	.uahalf	0x367
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x8
 	.byte	0
@@ -11436,30 +8596,18 @@ IfxVadc_Adc_masterIndex:
 	.string	"Ifx_VADC_GLOBTF_Bits"
 	.byte	0xb
 	.uahalf	0x368
-<<<<<<< HEAD
-	.uaword	0x3639
-=======
-	.uaword	0x3640
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x361d
 	.uleb128 0x15
 	.string	"_Ifx_VADC_ICLASS_Bits"
 	.byte	0x4
 	.byte	0xb
 	.uahalf	0x36b
-<<<<<<< HEAD
-	.uaword	0x37e9
-=======
-	.uaword	0x37f0
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x37cd
 	.uleb128 0x13
 	.string	"STCS"
 	.byte	0xb
 	.uahalf	0x36d
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x5
 	.byte	0x1b
@@ -11468,11 +8616,7 @@ IfxVadc_Adc_masterIndex:
 	.uaword	.LASF15
 	.byte	0xb
 	.uahalf	0x36e
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x3
 	.byte	0x18
@@ -11481,11 +8625,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"CMS"
 	.byte	0xb
 	.uahalf	0x36f
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x3
 	.byte	0x15
@@ -11494,11 +8634,7 @@ IfxVadc_Adc_masterIndex:
 	.uaword	.LASF25
 	.byte	0xb
 	.uahalf	0x370
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x5
 	.byte	0x10
@@ -11507,11 +8643,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"STCE"
 	.byte	0xb
 	.uahalf	0x371
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x5
 	.byte	0xb
@@ -11520,11 +8652,7 @@ IfxVadc_Adc_masterIndex:
 	.uaword	.LASF9
 	.byte	0xb
 	.uahalf	0x372
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x3
 	.byte	0x8
@@ -11533,11 +8661,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"CME"
 	.byte	0xb
 	.uahalf	0x373
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x3
 	.byte	0x5
@@ -11546,11 +8670,7 @@ IfxVadc_Adc_masterIndex:
 	.uaword	.LASF17
 	.byte	0xb
 	.uahalf	0x374
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x5
 	.byte	0
@@ -11560,30 +8680,18 @@ IfxVadc_Adc_masterIndex:
 	.string	"Ifx_VADC_ICLASS_Bits"
 	.byte	0xb
 	.uahalf	0x375
-<<<<<<< HEAD
-	.uaword	0x3747
-=======
-	.uaword	0x374e
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x372b
 	.uleb128 0x15
 	.string	"_Ifx_VADC_ID_Bits"
 	.byte	0x4
 	.byte	0xb
 	.uahalf	0x378
-<<<<<<< HEAD
-	.uaword	0x385b
-=======
-	.uaword	0x3862
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x383f
 	.uleb128 0x13
 	.string	"MOD_REV"
 	.byte	0xb
 	.uahalf	0x37a
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x8
 	.byte	0x18
@@ -11592,11 +8700,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"MOD_TYPE"
 	.byte	0xb
 	.uahalf	0x37b
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x8
 	.byte	0x10
@@ -11605,11 +8709,7 @@ IfxVadc_Adc_masterIndex:
 	.uaword	.LASF33
 	.byte	0xb
 	.uahalf	0x37c
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x10
 	.byte	0
@@ -11619,30 +8719,18 @@ IfxVadc_Adc_masterIndex:
 	.string	"Ifx_VADC_ID_Bits"
 	.byte	0xb
 	.uahalf	0x37d
-<<<<<<< HEAD
-	.uaword	0x3806
-=======
-	.uaword	0x380d
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x37ea
 	.uleb128 0x15
 	.string	"_Ifx_VADC_KRST0_Bits"
 	.byte	0x4
 	.byte	0xb
 	.uahalf	0x380
-<<<<<<< HEAD
-	.uaword	0x38c7
-=======
-	.uaword	0x38ce
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x38ab
 	.uleb128 0x13
 	.string	"RST"
 	.byte	0xb
 	.uahalf	0x382
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1f
@@ -11651,11 +8739,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"RSTSTAT"
 	.byte	0xb
 	.uahalf	0x383
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1e
@@ -11664,11 +8748,7 @@ IfxVadc_Adc_masterIndex:
 	.uaword	.LASF14
 	.byte	0xb
 	.uahalf	0x384
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x1e
 	.byte	0
@@ -11678,30 +8758,18 @@ IfxVadc_Adc_masterIndex:
 	.string	"Ifx_VADC_KRST0_Bits"
 	.byte	0xb
 	.uahalf	0x385
-<<<<<<< HEAD
-	.uaword	0x3874
-=======
-	.uaword	0x387b
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x3858
 	.uleb128 0x15
 	.string	"_Ifx_VADC_KRST1_Bits"
 	.byte	0x4
 	.byte	0xb
 	.uahalf	0x388
-<<<<<<< HEAD
-	.uaword	0x3922
-=======
-	.uaword	0x3929
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x3906
 	.uleb128 0x13
 	.string	"RST"
 	.byte	0xb
 	.uahalf	0x38a
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1f
@@ -11710,11 +8778,7 @@ IfxVadc_Adc_masterIndex:
 	.uaword	.LASF31
 	.byte	0xb
 	.uahalf	0x38b
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x1f
 	.byte	0
@@ -11724,30 +8788,18 @@ IfxVadc_Adc_masterIndex:
 	.string	"Ifx_VADC_KRST1_Bits"
 	.byte	0xb
 	.uahalf	0x38c
-<<<<<<< HEAD
-	.uaword	0x38e3
-=======
-	.uaword	0x38ea
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x38c7
 	.uleb128 0x15
 	.string	"_Ifx_VADC_KRSTCLR_Bits"
 	.byte	0x4
 	.byte	0xb
 	.uahalf	0x38f
-<<<<<<< HEAD
-	.uaword	0x397f
-=======
-	.uaword	0x3986
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x3963
 	.uleb128 0x13
 	.string	"CLR"
 	.byte	0xb
 	.uahalf	0x391
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1f
@@ -11756,11 +8808,7 @@ IfxVadc_Adc_masterIndex:
 	.uaword	.LASF31
 	.byte	0xb
 	.uahalf	0x392
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x1f
 	.byte	0
@@ -11770,30 +8818,18 @@ IfxVadc_Adc_masterIndex:
 	.string	"Ifx_VADC_KRSTCLR_Bits"
 	.byte	0xb
 	.uahalf	0x393
-<<<<<<< HEAD
-	.uaword	0x393e
-=======
-	.uaword	0x3945
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x3922
 	.uleb128 0x15
 	.string	"_Ifx_VADC_OCS_Bits"
 	.byte	0x4
 	.byte	0xb
 	.uahalf	0x396
-<<<<<<< HEAD
-	.uaword	0x3a48
-=======
-	.uaword	0x3a4f
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x3a2c
 	.uleb128 0x13
 	.string	"TGS"
 	.byte	0xb
 	.uahalf	0x398
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x2
 	.byte	0x1e
@@ -11802,11 +8838,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"TGB"
 	.byte	0xb
 	.uahalf	0x399
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1d
@@ -11815,11 +8847,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"TG_P"
 	.byte	0xb
 	.uahalf	0x39a
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1c
@@ -11828,11 +8856,7 @@ IfxVadc_Adc_masterIndex:
 	.uaword	.LASF7
 	.byte	0xb
 	.uahalf	0x39b
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x14
 	.byte	0x8
@@ -11841,11 +8865,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"SUS"
 	.byte	0xb
 	.uahalf	0x39c
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x4
 	.byte	0x4
@@ -11854,11 +8874,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"SUS_P"
 	.byte	0xb
 	.uahalf	0x39d
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x1
 	.byte	0x3
@@ -11867,11 +8883,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"SUSSTA"
 	.byte	0xb
 	.uahalf	0x39e
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x1
 	.byte	0x2
@@ -11880,11 +8892,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"reserved_30"
 	.byte	0xb
 	.uahalf	0x39f
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x2
 	.byte	0
@@ -11894,4160 +8902,2372 @@ IfxVadc_Adc_masterIndex:
 	.string	"Ifx_VADC_OCS_Bits"
 	.byte	0xb
 	.uahalf	0x3a0
-<<<<<<< HEAD
-	.uaword	0x399d
-=======
-	.uaword	0x39a4
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x3981
 	.uleb128 0x16
 	.byte	0x4
 	.byte	0xb
 	.uahalf	0x3a8
-<<<<<<< HEAD
-	.uaword	0x3a8a
-=======
-	.uaword	0x3a91
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x3a6e
 	.uleb128 0x17
 	.string	"U"
 	.byte	0xb
 	.uahalf	0x3aa
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.uleb128 0x17
 	.string	"I"
 	.byte	0xb
 	.uahalf	0x3ab
-<<<<<<< HEAD
-	.uaword	0x205
-=======
-	.uaword	0x20c
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x1e9
 	.uleb128 0x17
 	.string	"B"
 	.byte	0xb
 	.uahalf	0x3ac
-<<<<<<< HEAD
-	.uaword	0x845
-=======
-	.uaword	0x84c
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x829
 	.byte	0
 	.uleb128 0x14
 	.string	"Ifx_VADC_ACCEN0"
 	.byte	0xb
 	.uahalf	0x3ad
-<<<<<<< HEAD
-	.uaword	0x3a62
-=======
-	.uaword	0x3a69
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x3a46
 	.uleb128 0x16
 	.byte	0x4
 	.byte	0xb
 	.uahalf	0x3b0
-<<<<<<< HEAD
-	.uaword	0x3aca
-=======
-	.uaword	0x3ad1
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x3aae
 	.uleb128 0x17
 	.string	"U"
 	.byte	0xb
 	.uahalf	0x3b2
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.uleb128 0x17
 	.string	"I"
 	.byte	0xb
 	.uahalf	0x3b3
-<<<<<<< HEAD
-	.uaword	0x205
-=======
-	.uaword	0x20c
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x1e9
 	.uleb128 0x17
 	.string	"B"
 	.byte	0xb
 	.uahalf	0x3b4
-<<<<<<< HEAD
-	.uaword	0x9c0
-=======
-	.uaword	0x9c7
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x9a4
 	.byte	0
 	.uleb128 0x14
 	.string	"Ifx_VADC_ACCPROT0"
 	.byte	0xb
 	.uahalf	0x3b5
-<<<<<<< HEAD
-	.uaword	0x3aa2
-=======
-	.uaword	0x3aa9
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x3a86
 	.uleb128 0x16
 	.byte	0x4
 	.byte	0xb
 	.uahalf	0x3b8
-<<<<<<< HEAD
-	.uaword	0x3b0c
-=======
-	.uaword	0x3b13
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x3af0
 	.uleb128 0x17
 	.string	"U"
 	.byte	0xb
 	.uahalf	0x3ba
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.uleb128 0x17
 	.string	"I"
 	.byte	0xb
 	.uahalf	0x3bb
-<<<<<<< HEAD
-	.uaword	0x205
-=======
-	.uaword	0x20c
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x1e9
 	.uleb128 0x17
 	.string	"B"
 	.byte	0xb
 	.uahalf	0x3bc
-<<<<<<< HEAD
-	.uaword	0xb2d
-=======
-	.uaword	0xb34
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0xb11
 	.byte	0
 	.uleb128 0x14
 	.string	"Ifx_VADC_ACCPROT1"
 	.byte	0xb
 	.uahalf	0x3bd
-<<<<<<< HEAD
-	.uaword	0x3ae4
-=======
-	.uaword	0x3aeb
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x3ac8
 	.uleb128 0x16
 	.byte	0x4
 	.byte	0xb
 	.uahalf	0x3c0
-<<<<<<< HEAD
-	.uaword	0x3b4e
-=======
-	.uaword	0x3b55
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x3b32
 	.uleb128 0x17
 	.string	"U"
 	.byte	0xb
 	.uahalf	0x3c2
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.uleb128 0x17
 	.string	"I"
 	.byte	0xb
 	.uahalf	0x3c3
-<<<<<<< HEAD
-	.uaword	0x205
-=======
-	.uaword	0x20c
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x1e9
 	.uleb128 0x17
 	.string	"B"
 	.byte	0xb
 	.uahalf	0x3c4
-<<<<<<< HEAD
-	.uaword	0xc1a
-=======
-	.uaword	0xc21
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0xbfe
 	.byte	0
 	.uleb128 0x14
 	.string	"Ifx_VADC_BRSCTRL"
 	.byte	0xb
 	.uahalf	0x3c5
-<<<<<<< HEAD
-	.uaword	0x3b26
-=======
-	.uaword	0x3b2d
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x3b0a
 	.uleb128 0x16
 	.byte	0x4
 	.byte	0xb
 	.uahalf	0x3c8
-<<<<<<< HEAD
-	.uaword	0x3b8f
-=======
-	.uaword	0x3b96
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x3b73
 	.uleb128 0x17
 	.string	"U"
 	.byte	0xb
 	.uahalf	0x3ca
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.uleb128 0x17
 	.string	"I"
 	.byte	0xb
 	.uahalf	0x3cb
-<<<<<<< HEAD
-	.uaword	0x205
-=======
-	.uaword	0x20c
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x1e9
 	.uleb128 0x17
 	.string	"B"
 	.byte	0xb
 	.uahalf	0x3cc
-<<<<<<< HEAD
-	.uaword	0xd13
-=======
-	.uaword	0xd1a
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0xcf7
 	.byte	0
 	.uleb128 0x14
 	.string	"Ifx_VADC_BRSMR"
 	.byte	0xb
 	.uahalf	0x3cd
-<<<<<<< HEAD
-	.uaword	0x3b67
-=======
-	.uaword	0x3b6e
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x3b4b
 	.uleb128 0x16
 	.byte	0x4
 	.byte	0xb
 	.uahalf	0x3d0
-<<<<<<< HEAD
-	.uaword	0x3bce
-=======
-	.uaword	0x3bd5
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x3bb2
 	.uleb128 0x17
 	.string	"U"
 	.byte	0xb
 	.uahalf	0x3d2
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.uleb128 0x17
 	.string	"I"
 	.byte	0xb
 	.uahalf	0x3d3
-<<<<<<< HEAD
-	.uaword	0x205
-=======
-	.uaword	0x20c
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x1e9
 	.uleb128 0x17
 	.string	"B"
 	.byte	0xb
 	.uahalf	0x3d4
-<<<<<<< HEAD
-	.uaword	0xd60
-=======
-	.uaword	0xd67
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0xd44
 	.byte	0
 	.uleb128 0x14
 	.string	"Ifx_VADC_BRSPND"
 	.byte	0xb
 	.uahalf	0x3d5
-<<<<<<< HEAD
-	.uaword	0x3ba6
-=======
-	.uaword	0x3bad
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x3b8a
 	.uleb128 0x16
 	.byte	0x4
 	.byte	0xb
 	.uahalf	0x3d8
-<<<<<<< HEAD
-	.uaword	0x3c0e
-=======
-	.uaword	0x3c15
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x3bf2
 	.uleb128 0x17
 	.string	"U"
 	.byte	0xb
 	.uahalf	0x3da
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.uleb128 0x17
 	.string	"I"
 	.byte	0xb
 	.uahalf	0x3db
-<<<<<<< HEAD
-	.uaword	0x205
-=======
-	.uaword	0x20c
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x1e9
 	.uleb128 0x17
 	.string	"B"
 	.byte	0xb
 	.uahalf	0x3dc
-<<<<<<< HEAD
-	.uaword	0xdae
-=======
-	.uaword	0xdb5
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0xd92
 	.byte	0
 	.uleb128 0x14
 	.string	"Ifx_VADC_BRSSEL"
 	.byte	0xb
 	.uahalf	0x3dd
-<<<<<<< HEAD
-	.uaword	0x3be6
-=======
-	.uaword	0x3bed
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x3bca
 	.uleb128 0x16
 	.byte	0x4
 	.byte	0xb
 	.uahalf	0x3e0
-<<<<<<< HEAD
-	.uaword	0x3c4e
-=======
-	.uaword	0x3c55
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x3c32
 	.uleb128 0x17
 	.string	"U"
 	.byte	0xb
 	.uahalf	0x3e2
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.uleb128 0x17
 	.string	"I"
 	.byte	0xb
 	.uahalf	0x3e3
-<<<<<<< HEAD
-	.uaword	0x205
-=======
-	.uaword	0x20c
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x1e9
 	.uleb128 0x17
 	.string	"B"
 	.byte	0xb
 	.uahalf	0x3e4
-<<<<<<< HEAD
-	.uaword	0xe34
-=======
-	.uaword	0xe3b
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0xe18
 	.byte	0
 	.uleb128 0x14
 	.string	"Ifx_VADC_CLC"
 	.byte	0xb
 	.uahalf	0x3e5
-<<<<<<< HEAD
-	.uaword	0x3c26
-=======
-	.uaword	0x3c2d
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x3c0a
 	.uleb128 0x16
 	.byte	0x4
 	.byte	0xb
 	.uahalf	0x3e8
-<<<<<<< HEAD
-	.uaword	0x3c8b
-=======
-	.uaword	0x3c92
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x3c6f
 	.uleb128 0x17
 	.string	"U"
 	.byte	0xb
 	.uahalf	0x3ea
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.uleb128 0x17
 	.string	"I"
 	.byte	0xb
 	.uahalf	0x3eb
-<<<<<<< HEAD
-	.uaword	0x205
-=======
-	.uaword	0x20c
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x1e9
 	.uleb128 0x17
 	.string	"B"
 	.byte	0xb
 	.uahalf	0x3ec
-<<<<<<< HEAD
-	.uaword	0xea4
-=======
-	.uaword	0xeab
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0xe88
 	.byte	0
 	.uleb128 0x14
 	.string	"Ifx_VADC_EMUXSEL"
 	.byte	0xb
 	.uahalf	0x3ed
-<<<<<<< HEAD
-	.uaword	0x3c63
-=======
-	.uaword	0x3c6a
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x3c47
 	.uleb128 0x16
 	.byte	0x4
 	.byte	0xb
 	.uahalf	0x3f0
-<<<<<<< HEAD
-	.uaword	0x3ccc
-=======
-	.uaword	0x3cd3
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x3cb0
 	.uleb128 0x17
 	.string	"U"
 	.byte	0xb
 	.uahalf	0x3f2
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.uleb128 0x17
 	.string	"I"
 	.byte	0xb
 	.uahalf	0x3f3
-<<<<<<< HEAD
-	.uaword	0x205
-=======
-	.uaword	0x20c
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x1e9
 	.uleb128 0x17
 	.string	"B"
 	.byte	0xb
 	.uahalf	0x3f4
-<<<<<<< HEAD
-	.uaword	0xf23
-=======
-	.uaword	0xf2a
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0xf07
 	.byte	0
 	.uleb128 0x14
 	.string	"Ifx_VADC_G_ALIAS"
 	.byte	0xb
 	.uahalf	0x3f5
-<<<<<<< HEAD
-	.uaword	0x3ca4
-=======
-	.uaword	0x3cab
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x3c88
 	.uleb128 0x16
 	.byte	0x4
 	.byte	0xb
 	.uahalf	0x3f8
-<<<<<<< HEAD
-	.uaword	0x3d0d
-=======
-	.uaword	0x3d14
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x3cf1
 	.uleb128 0x17
 	.string	"U"
 	.byte	0xb
 	.uahalf	0x3fa
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.uleb128 0x17
 	.string	"I"
 	.byte	0xb
 	.uahalf	0x3fb
-<<<<<<< HEAD
-	.uaword	0x205
-=======
-	.uaword	0x20c
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x1e9
 	.uleb128 0x17
 	.string	"B"
 	.byte	0xb
 	.uahalf	0x3fc
-<<<<<<< HEAD
-	.uaword	0x105c
-=======
-	.uaword	0x1063
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x1040
 	.byte	0
 	.uleb128 0x14
 	.string	"Ifx_VADC_G_ARBCFG"
 	.byte	0xb
 	.uahalf	0x3fd
-<<<<<<< HEAD
-	.uaword	0x3ce5
-=======
-	.uaword	0x3cec
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x3cc9
 	.uleb128 0x16
 	.byte	0x4
 	.byte	0xb
 	.uahalf	0x400
-<<<<<<< HEAD
-	.uaword	0x3d4f
-=======
-	.uaword	0x3d56
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x3d33
 	.uleb128 0x17
 	.string	"U"
 	.byte	0xb
 	.uahalf	0x402
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.uleb128 0x17
 	.string	"I"
 	.byte	0xb
 	.uahalf	0x403
-<<<<<<< HEAD
-	.uaword	0x205
-=======
-	.uaword	0x20c
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x1e9
 	.uleb128 0x17
 	.string	"B"
 	.byte	0xb
 	.uahalf	0x404
-<<<<<<< HEAD
-	.uaword	0x1180
-=======
-	.uaword	0x1187
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x1164
 	.byte	0
 	.uleb128 0x14
 	.string	"Ifx_VADC_G_ARBPR"
 	.byte	0xb
 	.uahalf	0x405
-<<<<<<< HEAD
-	.uaword	0x3d27
-=======
-	.uaword	0x3d2e
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x3d0b
 	.uleb128 0x16
 	.byte	0x4
 	.byte	0xb
 	.uahalf	0x408
-<<<<<<< HEAD
-	.uaword	0x3d90
-=======
-	.uaword	0x3d97
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x3d74
 	.uleb128 0x17
 	.string	"U"
 	.byte	0xb
 	.uahalf	0x40a
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.uleb128 0x17
 	.string	"I"
 	.byte	0xb
 	.uahalf	0x40b
-<<<<<<< HEAD
-	.uaword	0x205
-=======
-	.uaword	0x20c
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x1e9
 	.uleb128 0x17
 	.string	"B"
 	.byte	0xb
 	.uahalf	0x40c
-<<<<<<< HEAD
-	.uaword	0x12ac
-=======
-	.uaword	0x12b3
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x1290
 	.byte	0
 	.uleb128 0x14
 	.string	"Ifx_VADC_G_ASCTRL"
 	.byte	0xb
 	.uahalf	0x40d
-<<<<<<< HEAD
-	.uaword	0x3d68
-=======
-	.uaword	0x3d6f
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x3d4c
 	.uleb128 0x16
 	.byte	0x4
 	.byte	0xb
 	.uahalf	0x410
-<<<<<<< HEAD
-	.uaword	0x3dd2
-=======
-	.uaword	0x3dd9
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x3db6
 	.uleb128 0x17
 	.string	"U"
 	.byte	0xb
 	.uahalf	0x412
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.uleb128 0x17
 	.string	"I"
 	.byte	0xb
 	.uahalf	0x413
-<<<<<<< HEAD
-	.uaword	0x205
-=======
-	.uaword	0x20c
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x1e9
 	.uleb128 0x17
 	.string	"B"
 	.byte	0xb
 	.uahalf	0x414
-<<<<<<< HEAD
-	.uaword	0x13b5
-=======
-	.uaword	0x13bc
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x1399
 	.byte	0
 	.uleb128 0x14
 	.string	"Ifx_VADC_G_ASMR"
 	.byte	0xb
 	.uahalf	0x415
-<<<<<<< HEAD
-	.uaword	0x3daa
-=======
-	.uaword	0x3db1
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x3d8e
 	.uleb128 0x16
 	.byte	0x4
 	.byte	0xb
 	.uahalf	0x418
-<<<<<<< HEAD
-	.uaword	0x3e12
-=======
-	.uaword	0x3e19
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x3df6
 	.uleb128 0x17
 	.string	"U"
 	.byte	0xb
 	.uahalf	0x41a
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.uleb128 0x17
 	.string	"I"
 	.byte	0xb
 	.uahalf	0x41b
-<<<<<<< HEAD
-	.uaword	0x205
-=======
-	.uaword	0x20c
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x1e9
 	.uleb128 0x17
 	.string	"B"
 	.byte	0xb
 	.uahalf	0x41c
-<<<<<<< HEAD
-	.uaword	0x1405
-=======
-	.uaword	0x140c
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x13e9
 	.byte	0
 	.uleb128 0x14
 	.string	"Ifx_VADC_G_ASPND"
 	.byte	0xb
 	.uahalf	0x41d
-<<<<<<< HEAD
-	.uaword	0x3dea
-=======
-	.uaword	0x3df1
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x3dce
 	.uleb128 0x16
 	.byte	0x4
 	.byte	0xb
 	.uahalf	0x420
-<<<<<<< HEAD
-	.uaword	0x3e53
-=======
-	.uaword	0x3e5a
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x3e37
 	.uleb128 0x17
 	.string	"U"
 	.byte	0xb
 	.uahalf	0x422
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.uleb128 0x17
 	.string	"I"
 	.byte	0xb
 	.uahalf	0x423
-<<<<<<< HEAD
-	.uaword	0x205
-=======
-	.uaword	0x20c
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x1e9
 	.uleb128 0x17
 	.string	"B"
 	.byte	0xb
 	.uahalf	0x424
-<<<<<<< HEAD
-	.uaword	0x1456
-=======
-	.uaword	0x145d
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x143a
 	.byte	0
 	.uleb128 0x14
 	.string	"Ifx_VADC_G_ASSEL"
 	.byte	0xb
 	.uahalf	0x425
-<<<<<<< HEAD
-	.uaword	0x3e2b
-=======
-	.uaword	0x3e32
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x3e0f
 	.uleb128 0x16
 	.byte	0x4
 	.byte	0xb
 	.uahalf	0x428
-<<<<<<< HEAD
-	.uaword	0x3e94
-=======
-	.uaword	0x3e9b
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x3e78
 	.uleb128 0x17
 	.string	"U"
 	.byte	0xb
 	.uahalf	0x42a
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.uleb128 0x17
 	.string	"I"
 	.byte	0xb
 	.uahalf	0x42b
-<<<<<<< HEAD
-	.uaword	0x205
-=======
-	.uaword	0x20c
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x1e9
 	.uleb128 0x17
 	.string	"B"
 	.byte	0xb
 	.uahalf	0x42c
-<<<<<<< HEAD
-	.uaword	0x158f
-=======
-	.uaword	0x1596
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x1573
 	.byte	0
 	.uleb128 0x14
 	.string	"Ifx_VADC_G_BFL"
 	.byte	0xb
 	.uahalf	0x42d
-<<<<<<< HEAD
-	.uaword	0x3e6c
-=======
-	.uaword	0x3e73
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x3e50
 	.uleb128 0x16
 	.byte	0x4
 	.byte	0xb
 	.uahalf	0x430
-<<<<<<< HEAD
-	.uaword	0x3ed3
-=======
-	.uaword	0x3eda
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x3eb7
 	.uleb128 0x17
 	.string	"U"
 	.byte	0xb
 	.uahalf	0x432
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.uleb128 0x17
 	.string	"I"
 	.byte	0xb
 	.uahalf	0x433
-<<<<<<< HEAD
-	.uaword	0x205
-=======
-	.uaword	0x20c
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x1e9
 	.uleb128 0x17
 	.string	"B"
 	.byte	0xb
 	.uahalf	0x434
-<<<<<<< HEAD
-	.uaword	0x161f
-=======
-	.uaword	0x1626
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x1603
 	.byte	0
 	.uleb128 0x14
 	.string	"Ifx_VADC_G_BFLC"
 	.byte	0xb
 	.uahalf	0x435
-<<<<<<< HEAD
-	.uaword	0x3eab
-=======
-	.uaword	0x3eb2
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x3e8f
 	.uleb128 0x16
 	.byte	0x4
 	.byte	0xb
 	.uahalf	0x438
-<<<<<<< HEAD
-	.uaword	0x3f13
-=======
-	.uaword	0x3f1a
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x3ef7
 	.uleb128 0x17
 	.string	"U"
 	.byte	0xb
 	.uahalf	0x43a
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.uleb128 0x17
 	.string	"I"
 	.byte	0xb
 	.uahalf	0x43b
-<<<<<<< HEAD
-	.uaword	0x205
-=======
-	.uaword	0x20c
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x1e9
 	.uleb128 0x17
 	.string	"B"
 	.byte	0xb
 	.uahalf	0x43c
-<<<<<<< HEAD
-	.uaword	0x16b9
-=======
-	.uaword	0x16c0
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x169d
 	.byte	0
 	.uleb128 0x14
 	.string	"Ifx_VADC_G_BFLNP"
 	.byte	0xb
 	.uahalf	0x43d
-<<<<<<< HEAD
-	.uaword	0x3eeb
-=======
-	.uaword	0x3ef2
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x3ecf
 	.uleb128 0x16
 	.byte	0x4
 	.byte	0xb
 	.uahalf	0x440
-<<<<<<< HEAD
-	.uaword	0x3f54
-=======
-	.uaword	0x3f5b
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x3f38
 	.uleb128 0x17
 	.string	"U"
 	.byte	0xb
 	.uahalf	0x442
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.uleb128 0x17
 	.string	"I"
 	.byte	0xb
 	.uahalf	0x443
-<<<<<<< HEAD
-	.uaword	0x205
-=======
-	.uaword	0x20c
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x1e9
 	.uleb128 0x17
 	.string	"B"
 	.byte	0xb
 	.uahalf	0x444
-<<<<<<< HEAD
-	.uaword	0x179f
-=======
-	.uaword	0x17a6
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x1783
 	.byte	0
 	.uleb128 0x14
 	.string	"Ifx_VADC_G_BFLS"
 	.byte	0xb
 	.uahalf	0x445
-<<<<<<< HEAD
-	.uaword	0x3f2c
-=======
-	.uaword	0x3f33
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x3f10
 	.uleb128 0x16
 	.byte	0x4
 	.byte	0xb
 	.uahalf	0x448
-<<<<<<< HEAD
-	.uaword	0x3f94
-=======
-	.uaword	0x3f9b
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x3f78
 	.uleb128 0x17
 	.string	"U"
 	.byte	0xb
 	.uahalf	0x44a
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.uleb128 0x17
 	.string	"I"
 	.byte	0xb
 	.uahalf	0x44b
-<<<<<<< HEAD
-	.uaword	0x205
-=======
-	.uaword	0x20c
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x1e9
 	.uleb128 0x17
 	.string	"B"
 	.byte	0xb
 	.uahalf	0x44c
-<<<<<<< HEAD
-	.uaword	0x181d
-=======
-	.uaword	0x1824
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x1801
 	.byte	0
 	.uleb128 0x14
 	.string	"Ifx_VADC_G_BOUND"
 	.byte	0xb
 	.uahalf	0x44d
-<<<<<<< HEAD
-	.uaword	0x3f6c
-=======
-	.uaword	0x3f73
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x3f50
 	.uleb128 0x16
 	.byte	0x4
 	.byte	0xb
 	.uahalf	0x450
-<<<<<<< HEAD
-	.uaword	0x3fd5
-=======
-	.uaword	0x3fdc
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x3fb9
 	.uleb128 0x17
 	.string	"U"
 	.byte	0xb
 	.uahalf	0x452
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.uleb128 0x17
 	.string	"I"
 	.byte	0xb
 	.uahalf	0x453
-<<<<<<< HEAD
-	.uaword	0x205
-=======
-	.uaword	0x20c
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x1e9
 	.uleb128 0x17
 	.string	"B"
 	.byte	0xb
 	.uahalf	0x454
-<<<<<<< HEAD
-	.uaword	0x18f5
-=======
-	.uaword	0x18fc
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x18d9
 	.byte	0
 	.uleb128 0x14
 	.string	"Ifx_VADC_G_CEFCLR"
 	.byte	0xb
 	.uahalf	0x455
-<<<<<<< HEAD
-	.uaword	0x3fad
-=======
-	.uaword	0x3fb4
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x3f91
 	.uleb128 0x16
 	.byte	0x4
 	.byte	0xb
 	.uahalf	0x458
-<<<<<<< HEAD
-	.uaword	0x4017
-=======
-	.uaword	0x401e
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x3ffb
 	.uleb128 0x17
 	.string	"U"
 	.byte	0xb
 	.uahalf	0x45a
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.uleb128 0x17
 	.string	"I"
 	.byte	0xb
 	.uahalf	0x45b
-<<<<<<< HEAD
-	.uaword	0x205
-=======
-	.uaword	0x20c
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x1e9
 	.uleb128 0x17
 	.string	"B"
 	.byte	0xb
 	.uahalf	0x45c
-<<<<<<< HEAD
-	.uaword	0x19ce
-=======
-	.uaword	0x19d5
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x19b2
 	.byte	0
 	.uleb128 0x14
 	.string	"Ifx_VADC_G_CEFLAG"
 	.byte	0xb
 	.uahalf	0x45d
-<<<<<<< HEAD
-	.uaword	0x3fef
-=======
-	.uaword	0x3ff6
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x3fd3
 	.uleb128 0x16
 	.byte	0x4
 	.byte	0xb
 	.uahalf	0x460
-<<<<<<< HEAD
-	.uaword	0x4059
-=======
-	.uaword	0x4060
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x403d
 	.uleb128 0x17
 	.string	"U"
 	.byte	0xb
 	.uahalf	0x462
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.uleb128 0x17
 	.string	"I"
 	.byte	0xb
 	.uahalf	0x463
-<<<<<<< HEAD
-	.uaword	0x205
-=======
-	.uaword	0x20c
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x1e9
 	.uleb128 0x17
 	.string	"B"
 	.byte	0xb
 	.uahalf	0x464
-<<<<<<< HEAD
-	.uaword	0x1aa7
-=======
-	.uaword	0x1aae
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x1a8b
 	.byte	0
 	.uleb128 0x14
 	.string	"Ifx_VADC_G_CEVNP0"
 	.byte	0xb
 	.uahalf	0x465
-<<<<<<< HEAD
-	.uaword	0x4031
-=======
-	.uaword	0x4038
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x4015
 	.uleb128 0x16
 	.byte	0x4
 	.byte	0xb
 	.uahalf	0x468
-<<<<<<< HEAD
-	.uaword	0x409b
-=======
-	.uaword	0x40a2
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x407f
 	.uleb128 0x17
 	.string	"U"
 	.byte	0xb
 	.uahalf	0x46a
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.uleb128 0x17
 	.string	"I"
 	.byte	0xb
 	.uahalf	0x46b
-<<<<<<< HEAD
-	.uaword	0x205
-=======
-	.uaword	0x20c
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x1e9
 	.uleb128 0x17
 	.string	"B"
 	.byte	0xb
 	.uahalf	0x46c
-<<<<<<< HEAD
-	.uaword	0x1d5d
-=======
-	.uaword	0x1d64
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x1d41
 	.byte	0
 	.uleb128 0x14
 	.string	"Ifx_VADC_G_CHASS"
 	.byte	0xb
 	.uahalf	0x46d
-<<<<<<< HEAD
-	.uaword	0x4073
-=======
-	.uaword	0x407a
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x4057
 	.uleb128 0x16
 	.byte	0x4
 	.byte	0xb
 	.uahalf	0x470
-<<<<<<< HEAD
-	.uaword	0x40dc
-=======
-	.uaword	0x40e3
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x40c0
 	.uleb128 0x17
 	.string	"U"
 	.byte	0xb
 	.uahalf	0x472
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.uleb128 0x17
 	.string	"I"
 	.byte	0xb
 	.uahalf	0x473
-<<<<<<< HEAD
-	.uaword	0x205
-=======
-	.uaword	0x20c
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x1e9
 	.uleb128 0x17
 	.string	"B"
 	.byte	0xb
 	.uahalf	0x474
-<<<<<<< HEAD
-	.uaword	0x1eb1
-=======
-	.uaword	0x1eb8
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x1e95
 	.byte	0
 	.uleb128 0x14
 	.string	"Ifx_VADC_G_CHCTR"
 	.byte	0xb
 	.uahalf	0x475
-<<<<<<< HEAD
-	.uaword	0x40b4
-=======
-	.uaword	0x40bb
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x4098
 	.uleb128 0x16
 	.byte	0x4
 	.byte	0xb
 	.uahalf	0x478
-<<<<<<< HEAD
-	.uaword	0x411d
-=======
-	.uaword	0x4124
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x4101
 	.uleb128 0x17
 	.string	"U"
 	.byte	0xb
 	.uahalf	0x47a
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.uleb128 0x17
 	.string	"I"
 	.byte	0xb
 	.uahalf	0x47b
-<<<<<<< HEAD
-	.uaword	0x205
-=======
-	.uaword	0x20c
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x1e9
 	.uleb128 0x17
 	.string	"B"
 	.byte	0xb
 	.uahalf	0x47c
-<<<<<<< HEAD
-	.uaword	0x1fac
-=======
-	.uaword	0x1fb3
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x1f90
 	.byte	0
 	.uleb128 0x14
 	.string	"Ifx_VADC_G_EMUXCTR"
 	.byte	0xb
 	.uahalf	0x47d
-<<<<<<< HEAD
-	.uaword	0x40f5
-=======
-	.uaword	0x40fc
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x40d9
 	.uleb128 0x16
 	.byte	0x4
 	.byte	0xb
 	.uahalf	0x480
-<<<<<<< HEAD
-	.uaword	0x4160
-=======
-	.uaword	0x4167
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x4144
 	.uleb128 0x17
 	.string	"U"
 	.byte	0xb
 	.uahalf	0x482
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.uleb128 0x17
 	.string	"I"
 	.byte	0xb
 	.uahalf	0x483
-<<<<<<< HEAD
-	.uaword	0x205
-=======
-	.uaword	0x20c
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x1e9
 	.uleb128 0x17
 	.string	"B"
 	.byte	0xb
 	.uahalf	0x484
-<<<<<<< HEAD
-	.uaword	0x204b
-=======
-	.uaword	0x2052
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x202f
 	.byte	0
 	.uleb128 0x14
 	.string	"Ifx_VADC_G_Q0R0"
 	.byte	0xb
 	.uahalf	0x485
-<<<<<<< HEAD
-	.uaword	0x4138
-=======
-	.uaword	0x413f
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x411c
 	.uleb128 0x16
 	.byte	0x4
 	.byte	0xb
 	.uahalf	0x488
-<<<<<<< HEAD
-	.uaword	0x41a0
-=======
-	.uaword	0x41a7
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x4184
 	.uleb128 0x17
 	.string	"U"
 	.byte	0xb
 	.uahalf	0x48a
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.uleb128 0x17
 	.string	"I"
 	.byte	0xb
 	.uahalf	0x48b
-<<<<<<< HEAD
-	.uaword	0x205
-=======
-	.uaword	0x20c
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x1e9
 	.uleb128 0x17
 	.string	"B"
 	.byte	0xb
 	.uahalf	0x48c
-<<<<<<< HEAD
-	.uaword	0x20e8
-=======
-	.uaword	0x20ef
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x20cc
 	.byte	0
 	.uleb128 0x14
 	.string	"Ifx_VADC_G_QBUR0"
 	.byte	0xb
 	.uahalf	0x48d
-<<<<<<< HEAD
-	.uaword	0x4178
-=======
-	.uaword	0x417f
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x415c
 	.uleb128 0x16
 	.byte	0x4
 	.byte	0xb
 	.uahalf	0x490
-<<<<<<< HEAD
-	.uaword	0x41e1
-=======
-	.uaword	0x41e8
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x41c5
 	.uleb128 0x17
 	.string	"U"
 	.byte	0xb
 	.uahalf	0x492
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.uleb128 0x17
 	.string	"I"
 	.byte	0xb
 	.uahalf	0x493
-<<<<<<< HEAD
-	.uaword	0x205
-=======
-	.uaword	0x20c
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x1e9
 	.uleb128 0x17
 	.string	"B"
 	.byte	0xb
 	.uahalf	0x494
-<<<<<<< HEAD
-	.uaword	0x2214
-=======
-	.uaword	0x221b
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x21f8
 	.byte	0
 	.uleb128 0x14
 	.string	"Ifx_VADC_G_QCTRL0"
 	.byte	0xb
 	.uahalf	0x495
-<<<<<<< HEAD
-	.uaword	0x41b9
-=======
-	.uaword	0x41c0
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x419d
 	.uleb128 0x16
 	.byte	0x4
 	.byte	0xb
 	.uahalf	0x498
-<<<<<<< HEAD
-	.uaword	0x4223
-=======
-	.uaword	0x422a
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x4207
 	.uleb128 0x17
 	.string	"U"
 	.byte	0xb
 	.uahalf	0x49a
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.uleb128 0x17
 	.string	"I"
 	.byte	0xb
 	.uahalf	0x49b
-<<<<<<< HEAD
-	.uaword	0x205
-=======
-	.uaword	0x20c
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x1e9
 	.uleb128 0x17
 	.string	"B"
 	.byte	0xb
 	.uahalf	0x49c
-<<<<<<< HEAD
-	.uaword	0x22a5
-=======
-	.uaword	0x22ac
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x2289
 	.byte	0
 	.uleb128 0x14
 	.string	"Ifx_VADC_G_QINR0"
 	.byte	0xb
 	.uahalf	0x49d
-<<<<<<< HEAD
-	.uaword	0x41fb
-=======
-	.uaword	0x4202
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x41df
 	.uleb128 0x16
 	.byte	0x4
 	.byte	0xb
 	.uahalf	0x4a0
-<<<<<<< HEAD
-	.uaword	0x4264
-=======
-	.uaword	0x426b
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x4248
 	.uleb128 0x17
 	.string	"U"
 	.byte	0xb
 	.uahalf	0x4a2
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.uleb128 0x17
 	.string	"I"
 	.byte	0xb
 	.uahalf	0x4a3
-<<<<<<< HEAD
-	.uaword	0x205
-=======
-	.uaword	0x20c
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x1e9
 	.uleb128 0x17
 	.string	"B"
 	.byte	0xb
 	.uahalf	0x4a4
-<<<<<<< HEAD
-	.uaword	0x2389
-=======
-	.uaword	0x2390
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x236d
 	.byte	0
 	.uleb128 0x14
 	.string	"Ifx_VADC_G_QMR0"
 	.byte	0xb
 	.uahalf	0x4a5
-<<<<<<< HEAD
-	.uaword	0x423c
-=======
-	.uaword	0x4243
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x4220
 	.uleb128 0x16
 	.byte	0x4
 	.byte	0xb
 	.uahalf	0x4a8
-<<<<<<< HEAD
-	.uaword	0x42a4
-=======
-	.uaword	0x42ab
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x4288
 	.uleb128 0x17
 	.string	"U"
 	.byte	0xb
 	.uahalf	0x4aa
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.uleb128 0x17
 	.string	"I"
 	.byte	0xb
 	.uahalf	0x4ab
-<<<<<<< HEAD
-	.uaword	0x205
-=======
-	.uaword	0x20c
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x1e9
 	.uleb128 0x17
 	.string	"B"
 	.byte	0xb
 	.uahalf	0x4ac
-<<<<<<< HEAD
-	.uaword	0x243a
-=======
-	.uaword	0x2441
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x241e
 	.byte	0
 	.uleb128 0x14
 	.string	"Ifx_VADC_G_QSR0"
 	.byte	0xb
 	.uahalf	0x4ad
-<<<<<<< HEAD
-	.uaword	0x427c
-=======
-	.uaword	0x4283
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x4260
 	.uleb128 0x16
 	.byte	0x4
 	.byte	0xb
 	.uahalf	0x4b0
-<<<<<<< HEAD
-	.uaword	0x42e4
-=======
-	.uaword	0x42eb
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x42c8
 	.uleb128 0x17
 	.string	"U"
 	.byte	0xb
 	.uahalf	0x4b2
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.uleb128 0x17
 	.string	"I"
 	.byte	0xb
 	.uahalf	0x4b3
-<<<<<<< HEAD
-	.uaword	0x205
-=======
-	.uaword	0x20c
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x1e9
 	.uleb128 0x17
 	.string	"B"
 	.byte	0xb
 	.uahalf	0x4b4
-<<<<<<< HEAD
-	.uaword	0x24fa
-=======
-	.uaword	0x2501
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x24de
 	.byte	0
 	.uleb128 0x14
 	.string	"Ifx_VADC_G_RCR"
 	.byte	0xb
 	.uahalf	0x4b5
-<<<<<<< HEAD
-	.uaword	0x42bc
-=======
-	.uaword	0x42c3
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x42a0
 	.uleb128 0x16
 	.byte	0x4
 	.byte	0xb
 	.uahalf	0x4b8
-<<<<<<< HEAD
-	.uaword	0x4323
-=======
-	.uaword	0x432a
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x4307
 	.uleb128 0x17
 	.string	"U"
 	.byte	0xb
 	.uahalf	0x4ba
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.uleb128 0x17
 	.string	"I"
 	.byte	0xb
 	.uahalf	0x4bb
-<<<<<<< HEAD
-	.uaword	0x205
-=======
-	.uaword	0x20c
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x1e9
 	.uleb128 0x17
 	.string	"B"
 	.byte	0xb
 	.uahalf	0x4bc
-<<<<<<< HEAD
-	.uaword	0x265e
-=======
-	.uaword	0x2665
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x2642
 	.byte	0
 	.uleb128 0x14
 	.string	"Ifx_VADC_G_REFCLR"
 	.byte	0xb
 	.uahalf	0x4bd
-<<<<<<< HEAD
-	.uaword	0x42fb
-=======
-	.uaword	0x4302
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x42df
 	.uleb128 0x16
 	.byte	0x4
 	.byte	0xb
 	.uahalf	0x4c0
-<<<<<<< HEAD
-	.uaword	0x4365
-=======
-	.uaword	0x436c
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x4349
 	.uleb128 0x17
 	.string	"U"
 	.byte	0xb
 	.uahalf	0x4c2
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.uleb128 0x17
 	.string	"I"
 	.byte	0xb
 	.uahalf	0x4c3
-<<<<<<< HEAD
-	.uaword	0x205
-=======
-	.uaword	0x20c
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x1e9
 	.uleb128 0x17
 	.string	"B"
 	.byte	0xb
 	.uahalf	0x4c4
-<<<<<<< HEAD
-	.uaword	0x27c5
-=======
-	.uaword	0x27cc
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x27a9
 	.byte	0
 	.uleb128 0x14
 	.string	"Ifx_VADC_G_REFLAG"
 	.byte	0xb
 	.uahalf	0x4c5
-<<<<<<< HEAD
-	.uaword	0x433d
-=======
-	.uaword	0x4344
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x4321
 	.uleb128 0x16
 	.byte	0x4
 	.byte	0xb
 	.uahalf	0x4c8
-<<<<<<< HEAD
-	.uaword	0x43a7
-=======
-	.uaword	0x43ae
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x438b
 	.uleb128 0x17
 	.string	"U"
 	.byte	0xb
 	.uahalf	0x4ca
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.uleb128 0x17
 	.string	"I"
 	.byte	0xb
 	.uahalf	0x4cb
-<<<<<<< HEAD
-	.uaword	0x205
-=======
-	.uaword	0x20c
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x1e9
 	.uleb128 0x17
 	.string	"B"
 	.byte	0xb
 	.uahalf	0x4cc
-<<<<<<< HEAD
-	.uaword	0x2874
-=======
-	.uaword	0x287b
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x2858
 	.byte	0
 	.uleb128 0x14
 	.string	"Ifx_VADC_G_RES"
 	.byte	0xb
 	.uahalf	0x4cd
-<<<<<<< HEAD
-	.uaword	0x437f
-=======
-	.uaword	0x4386
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x4363
 	.uleb128 0x16
 	.byte	0x4
 	.byte	0xb
 	.uahalf	0x4d0
-<<<<<<< HEAD
-	.uaword	0x43e6
-=======
-	.uaword	0x43ed
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x43ca
 	.uleb128 0x17
 	.string	"U"
 	.byte	0xb
 	.uahalf	0x4d2
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.uleb128 0x17
 	.string	"I"
 	.byte	0xb
 	.uahalf	0x4d3
-<<<<<<< HEAD
-	.uaword	0x205
-=======
-	.uaword	0x20c
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x1e9
 	.uleb128 0x17
 	.string	"B"
 	.byte	0xb
 	.uahalf	0x4d4
-<<<<<<< HEAD
-	.uaword	0x2921
-=======
-	.uaword	0x2928
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x2905
 	.byte	0
 	.uleb128 0x14
 	.string	"Ifx_VADC_G_RESD"
 	.byte	0xb
 	.uahalf	0x4d5
-<<<<<<< HEAD
-	.uaword	0x43be
-=======
-	.uaword	0x43c5
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x43a2
 	.uleb128 0x16
 	.byte	0x4
 	.byte	0xb
 	.uahalf	0x4d8
-<<<<<<< HEAD
-	.uaword	0x4426
-=======
-	.uaword	0x442d
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x440a
 	.uleb128 0x17
 	.string	"U"
 	.byte	0xb
 	.uahalf	0x4da
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.uleb128 0x17
 	.string	"I"
 	.byte	0xb
 	.uahalf	0x4db
-<<<<<<< HEAD
-	.uaword	0x205
-=======
-	.uaword	0x20c
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x1e9
 	.uleb128 0x17
 	.string	"B"
 	.byte	0xb
 	.uahalf	0x4dc
-<<<<<<< HEAD
-	.uaword	0x29f8
-=======
-	.uaword	0x29ff
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x29dc
 	.byte	0
 	.uleb128 0x14
 	.string	"Ifx_VADC_G_REVNP0"
 	.byte	0xb
 	.uahalf	0x4dd
-<<<<<<< HEAD
-	.uaword	0x43fe
-=======
-	.uaword	0x4405
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x43e2
 	.uleb128 0x16
 	.byte	0x4
 	.byte	0xb
 	.uahalf	0x4e0
-<<<<<<< HEAD
-	.uaword	0x4468
-=======
-	.uaword	0x446f
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x444c
 	.uleb128 0x17
 	.string	"U"
 	.byte	0xb
 	.uahalf	0x4e2
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.uleb128 0x17
 	.string	"I"
 	.byte	0xb
 	.uahalf	0x4e3
-<<<<<<< HEAD
-	.uaword	0x205
-=======
-	.uaword	0x20c
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x1e9
 	.uleb128 0x17
 	.string	"B"
 	.byte	0xb
 	.uahalf	0x4e4
-<<<<<<< HEAD
-	.uaword	0x2ad7
-=======
-	.uaword	0x2ade
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x2abb
 	.byte	0
 	.uleb128 0x14
 	.string	"Ifx_VADC_G_REVNP1"
 	.byte	0xb
 	.uahalf	0x4e5
-<<<<<<< HEAD
-	.uaword	0x4440
-=======
-	.uaword	0x4447
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x4424
 	.uleb128 0x16
 	.byte	0x4
 	.byte	0xb
 	.uahalf	0x4e8
-<<<<<<< HEAD
-	.uaword	0x44aa
-=======
-	.uaword	0x44b1
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x448e
 	.uleb128 0x17
 	.string	"U"
 	.byte	0xb
 	.uahalf	0x4ea
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.uleb128 0x17
 	.string	"I"
 	.byte	0xb
 	.uahalf	0x4eb
-<<<<<<< HEAD
-	.uaword	0x205
-=======
-	.uaword	0x20c
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x1e9
 	.uleb128 0x17
 	.string	"B"
 	.byte	0xb
 	.uahalf	0x4ec
-<<<<<<< HEAD
-	.uaword	0x2c5d
-=======
-	.uaword	0x2c64
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x2c41
 	.byte	0
 	.uleb128 0x14
 	.string	"Ifx_VADC_G_RRASS"
 	.byte	0xb
 	.uahalf	0x4ed
-<<<<<<< HEAD
-	.uaword	0x4482
-=======
-	.uaword	0x4489
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x4466
 	.uleb128 0x16
 	.byte	0x4
 	.byte	0xb
 	.uahalf	0x4f0
-<<<<<<< HEAD
-	.uaword	0x44eb
-=======
-	.uaword	0x44f2
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x44cf
 	.uleb128 0x17
 	.string	"U"
 	.byte	0xb
 	.uahalf	0x4f2
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.uleb128 0x17
 	.string	"I"
 	.byte	0xb
 	.uahalf	0x4f3
-<<<<<<< HEAD
-	.uaword	0x205
-=======
-	.uaword	0x20c
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x1e9
 	.uleb128 0x17
 	.string	"B"
 	.byte	0xb
 	.uahalf	0x4f4
-<<<<<<< HEAD
-	.uaword	0x2ccf
-=======
-	.uaword	0x2cd6
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x2cb3
 	.byte	0
 	.uleb128 0x14
 	.string	"Ifx_VADC_G_SEFCLR"
 	.byte	0xb
 	.uahalf	0x4f5
-<<<<<<< HEAD
-	.uaword	0x44c3
-=======
-	.uaword	0x44ca
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x44a7
 	.uleb128 0x16
 	.byte	0x4
 	.byte	0xb
 	.uahalf	0x4f8
-<<<<<<< HEAD
-	.uaword	0x452d
-=======
-	.uaword	0x4534
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x4511
 	.uleb128 0x17
 	.string	"U"
 	.byte	0xb
 	.uahalf	0x4fa
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.uleb128 0x17
 	.string	"I"
 	.byte	0xb
 	.uahalf	0x4fb
-<<<<<<< HEAD
-	.uaword	0x205
-=======
-	.uaword	0x20c
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x1e9
 	.uleb128 0x17
 	.string	"B"
 	.byte	0xb
 	.uahalf	0x4fc
-<<<<<<< HEAD
-	.uaword	0x2d42
-=======
-	.uaword	0x2d49
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x2d26
 	.byte	0
 	.uleb128 0x14
 	.string	"Ifx_VADC_G_SEFLAG"
 	.byte	0xb
 	.uahalf	0x4fd
-<<<<<<< HEAD
-	.uaword	0x4505
-=======
-	.uaword	0x450c
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x44e9
 	.uleb128 0x16
 	.byte	0x4
 	.byte	0xb
 	.uahalf	0x500
-<<<<<<< HEAD
-	.uaword	0x456f
-=======
-	.uaword	0x4576
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x4553
 	.uleb128 0x17
 	.string	"U"
 	.byte	0xb
 	.uahalf	0x502
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.uleb128 0x17
 	.string	"I"
 	.byte	0xb
 	.uahalf	0x503
-<<<<<<< HEAD
-	.uaword	0x205
-=======
-	.uaword	0x20c
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x1e9
 	.uleb128 0x17
 	.string	"B"
 	.byte	0xb
 	.uahalf	0x504
-<<<<<<< HEAD
-	.uaword	0x2db8
-=======
-	.uaword	0x2dbf
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x2d9c
 	.byte	0
 	.uleb128 0x14
 	.string	"Ifx_VADC_G_SEVNP"
 	.byte	0xb
 	.uahalf	0x505
-<<<<<<< HEAD
-	.uaword	0x4547
-=======
-	.uaword	0x454e
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x452b
 	.uleb128 0x16
 	.byte	0x4
 	.byte	0xb
 	.uahalf	0x508
-<<<<<<< HEAD
-	.uaword	0x45b0
-=======
-	.uaword	0x45b7
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x4594
 	.uleb128 0x17
 	.string	"U"
 	.byte	0xb
 	.uahalf	0x50a
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.uleb128 0x17
 	.string	"I"
 	.byte	0xb
 	.uahalf	0x50b
-<<<<<<< HEAD
-	.uaword	0x205
-=======
-	.uaword	0x20c
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x1e9
 	.uleb128 0x17
 	.string	"B"
 	.byte	0xb
 	.uahalf	0x50c
-<<<<<<< HEAD
-	.uaword	0x2ea7
-=======
-	.uaword	0x2eae
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x2e8b
 	.byte	0
 	.uleb128 0x14
 	.string	"Ifx_VADC_G_SRACT"
 	.byte	0xb
 	.uahalf	0x50d
-<<<<<<< HEAD
-	.uaword	0x4588
-=======
-	.uaword	0x458f
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x456c
 	.uleb128 0x16
 	.byte	0x4
 	.byte	0xb
 	.uahalf	0x510
-<<<<<<< HEAD
-	.uaword	0x45f1
-=======
-	.uaword	0x45f8
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x45d5
 	.uleb128 0x17
 	.string	"U"
 	.byte	0xb
 	.uahalf	0x512
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.uleb128 0x17
 	.string	"I"
 	.byte	0xb
 	.uahalf	0x513
-<<<<<<< HEAD
-	.uaword	0x205
-=======
-	.uaword	0x20c
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x1e9
 	.uleb128 0x17
 	.string	"B"
 	.byte	0xb
 	.uahalf	0x514
-<<<<<<< HEAD
-	.uaword	0x2f52
-=======
-	.uaword	0x2f59
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x2f36
 	.byte	0
 	.uleb128 0x14
 	.string	"Ifx_VADC_G_SYNCTR"
 	.byte	0xb
 	.uahalf	0x515
-<<<<<<< HEAD
-	.uaword	0x45c9
-=======
-	.uaword	0x45d0
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x45ad
 	.uleb128 0x16
 	.byte	0x4
 	.byte	0xb
 	.uahalf	0x518
-<<<<<<< HEAD
-	.uaword	0x4633
-=======
-	.uaword	0x463a
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x4617
 	.uleb128 0x17
 	.string	"U"
 	.byte	0xb
 	.uahalf	0x51a
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.uleb128 0x17
 	.string	"I"
 	.byte	0xb
 	.uahalf	0x51b
-<<<<<<< HEAD
-	.uaword	0x205
-=======
-	.uaword	0x20c
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x1e9
 	.uleb128 0x17
 	.string	"B"
 	.byte	0xb
 	.uahalf	0x51c
-<<<<<<< HEAD
-	.uaword	0x30a6
-=======
-	.uaword	0x30ad
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x308a
 	.byte	0
 	.uleb128 0x14
 	.string	"Ifx_VADC_G_VFR"
 	.byte	0xb
 	.uahalf	0x51d
-<<<<<<< HEAD
-	.uaword	0x460b
-=======
-	.uaword	0x4612
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x45ef
 	.uleb128 0x16
 	.byte	0x4
 	.byte	0xb
 	.uahalf	0x520
-<<<<<<< HEAD
-	.uaword	0x4672
-=======
-	.uaword	0x4679
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x4656
 	.uleb128 0x17
 	.string	"U"
 	.byte	0xb
 	.uahalf	0x522
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.uleb128 0x17
 	.string	"I"
 	.byte	0xb
 	.uahalf	0x523
-<<<<<<< HEAD
-	.uaword	0x205
-=======
-	.uaword	0x20c
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x1e9
 	.uleb128 0x17
 	.string	"B"
 	.byte	0xb
 	.uahalf	0x524
-<<<<<<< HEAD
-	.uaword	0x3125
-=======
-	.uaword	0x312c
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x3109
 	.byte	0
 	.uleb128 0x14
 	.string	"Ifx_VADC_GLOBBOUND"
 	.byte	0xb
 	.uahalf	0x525
-<<<<<<< HEAD
-	.uaword	0x464a
-=======
-	.uaword	0x4651
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x462e
 	.uleb128 0x16
 	.byte	0x4
 	.byte	0xb
 	.uahalf	0x528
-<<<<<<< HEAD
-	.uaword	0x46b5
-=======
-	.uaword	0x46bc
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x4699
 	.uleb128 0x17
 	.string	"U"
 	.byte	0xb
 	.uahalf	0x52a
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.uleb128 0x17
 	.string	"I"
 	.byte	0xb
 	.uahalf	0x52b
-<<<<<<< HEAD
-	.uaword	0x205
-=======
-	.uaword	0x20c
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x1e9
 	.uleb128 0x17
 	.string	"B"
 	.byte	0xb
 	.uahalf	0x52c
-<<<<<<< HEAD
-	.uaword	0x32ba
-=======
-	.uaword	0x32c1
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x329e
 	.byte	0
 	.uleb128 0x14
 	.string	"Ifx_VADC_GLOBCFG"
 	.byte	0xb
 	.uahalf	0x52d
-<<<<<<< HEAD
-	.uaword	0x468d
-=======
-	.uaword	0x4694
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x4671
 	.uleb128 0x16
 	.byte	0x4
 	.byte	0xb
 	.uahalf	0x530
-<<<<<<< HEAD
-	.uaword	0x46f6
-=======
-	.uaword	0x46fd
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x46da
 	.uleb128 0x17
 	.string	"U"
 	.byte	0xb
 	.uahalf	0x532
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.uleb128 0x17
 	.string	"I"
 	.byte	0xb
 	.uahalf	0x533
-<<<<<<< HEAD
-	.uaword	0x205
-=======
-	.uaword	0x20c
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x1e9
 	.uleb128 0x17
 	.string	"B"
 	.byte	0xb
 	.uahalf	0x534
-<<<<<<< HEAD
-	.uaword	0x338d
-=======
-	.uaword	0x3394
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x3371
 	.byte	0
 	.uleb128 0x14
 	.string	"Ifx_VADC_GLOBEFLAG"
 	.byte	0xb
 	.uahalf	0x535
-<<<<<<< HEAD
-	.uaword	0x46ce
-=======
-	.uaword	0x46d5
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x46b2
 	.uleb128 0x16
 	.byte	0x4
 	.byte	0xb
 	.uahalf	0x538
-<<<<<<< HEAD
-	.uaword	0x4739
-=======
-	.uaword	0x4740
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x471d
 	.uleb128 0x17
 	.string	"U"
 	.byte	0xb
 	.uahalf	0x53a
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.uleb128 0x17
 	.string	"I"
 	.byte	0xb
 	.uahalf	0x53b
-<<<<<<< HEAD
-	.uaword	0x205
-=======
-	.uaword	0x20c
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x1e9
 	.uleb128 0x17
 	.string	"B"
 	.byte	0xb
 	.uahalf	0x53c
-<<<<<<< HEAD
-	.uaword	0x3415
-=======
-	.uaword	0x341c
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x33f9
 	.byte	0
 	.uleb128 0x14
 	.string	"Ifx_VADC_GLOBEVNP"
 	.byte	0xb
 	.uahalf	0x53d
-<<<<<<< HEAD
-	.uaword	0x4711
-=======
-	.uaword	0x4718
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x46f5
 	.uleb128 0x16
 	.byte	0x4
 	.byte	0xb
 	.uahalf	0x540
-<<<<<<< HEAD
-	.uaword	0x477b
-=======
-	.uaword	0x4782
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x475f
 	.uleb128 0x17
 	.string	"U"
 	.byte	0xb
 	.uahalf	0x542
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.uleb128 0x17
 	.string	"I"
 	.byte	0xb
 	.uahalf	0x543
-<<<<<<< HEAD
-	.uaword	0x205
-=======
-	.uaword	0x20c
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x1e9
 	.uleb128 0x17
 	.string	"B"
 	.byte	0xb
 	.uahalf	0x544
-<<<<<<< HEAD
-	.uaword	0x34b9
-=======
-	.uaword	0x34c0
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x349d
 	.byte	0
 	.uleb128 0x14
 	.string	"Ifx_VADC_GLOBRCR"
 	.byte	0xb
 	.uahalf	0x545
-<<<<<<< HEAD
-	.uaword	0x4753
-=======
-	.uaword	0x475a
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x4737
 	.uleb128 0x16
 	.byte	0x4
 	.byte	0xb
 	.uahalf	0x548
-<<<<<<< HEAD
-	.uaword	0x47bc
-=======
-	.uaword	0x47c3
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x47a0
 	.uleb128 0x17
 	.string	"U"
 	.byte	0xb
 	.uahalf	0x54a
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.uleb128 0x17
 	.string	"I"
 	.byte	0xb
 	.uahalf	0x54b
-<<<<<<< HEAD
-	.uaword	0x205
-=======
-	.uaword	0x20c
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x1e9
 	.uleb128 0x17
 	.string	"B"
 	.byte	0xb
 	.uahalf	0x54c
-<<<<<<< HEAD
-	.uaword	0x3569
-=======
-	.uaword	0x3570
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x354d
 	.byte	0
 	.uleb128 0x14
 	.string	"Ifx_VADC_GLOBRES"
 	.byte	0xb
 	.uahalf	0x54d
-<<<<<<< HEAD
-	.uaword	0x4794
-=======
-	.uaword	0x479b
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x4778
 	.uleb128 0x16
 	.byte	0x4
 	.byte	0xb
 	.uahalf	0x550
-<<<<<<< HEAD
-	.uaword	0x47fd
-=======
-	.uaword	0x4804
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x47e1
 	.uleb128 0x17
 	.string	"U"
 	.byte	0xb
 	.uahalf	0x552
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.uleb128 0x17
 	.string	"I"
 	.byte	0xb
 	.uahalf	0x553
-<<<<<<< HEAD
-	.uaword	0x205
-=======
-	.uaword	0x20c
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x1e9
 	.uleb128 0x17
 	.string	"B"
 	.byte	0xb
 	.uahalf	0x554
-<<<<<<< HEAD
-	.uaword	0x361a
-=======
-	.uaword	0x3621
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x35fe
 	.byte	0
 	.uleb128 0x14
 	.string	"Ifx_VADC_GLOBRESD"
 	.byte	0xb
 	.uahalf	0x555
-<<<<<<< HEAD
-	.uaword	0x47d5
-=======
-	.uaword	0x47dc
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x47b9
 	.uleb128 0x16
 	.byte	0x4
 	.byte	0xb
 	.uahalf	0x558
-<<<<<<< HEAD
-	.uaword	0x483f
-=======
-	.uaword	0x4846
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x4823
 	.uleb128 0x17
 	.string	"U"
 	.byte	0xb
 	.uahalf	0x55a
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.uleb128 0x17
 	.string	"I"
 	.byte	0xb
 	.uahalf	0x55b
-<<<<<<< HEAD
-	.uaword	0x205
-=======
-	.uaword	0x20c
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x1e9
 	.uleb128 0x17
 	.string	"B"
 	.byte	0xb
 	.uahalf	0x55c
-<<<<<<< HEAD
-	.uaword	0x372a
-=======
-	.uaword	0x3731
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x370e
 	.byte	0
 	.uleb128 0x14
 	.string	"Ifx_VADC_GLOBTF"
 	.byte	0xb
 	.uahalf	0x55d
-<<<<<<< HEAD
-	.uaword	0x4817
-=======
-	.uaword	0x481e
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x47fb
 	.uleb128 0x16
 	.byte	0x4
 	.byte	0xb
 	.uahalf	0x560
-<<<<<<< HEAD
-	.uaword	0x487f
-=======
-	.uaword	0x4886
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x4863
 	.uleb128 0x17
 	.string	"U"
 	.byte	0xb
 	.uahalf	0x562
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.uleb128 0x17
 	.string	"I"
 	.byte	0xb
 	.uahalf	0x563
-<<<<<<< HEAD
-	.uaword	0x205
-=======
-	.uaword	0x20c
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x1e9
 	.uleb128 0x17
 	.string	"B"
 	.byte	0xb
 	.uahalf	0x564
-<<<<<<< HEAD
-	.uaword	0x37e9
-=======
-	.uaword	0x37f0
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x37cd
 	.byte	0
 	.uleb128 0x14
 	.string	"Ifx_VADC_ICLASS"
 	.byte	0xb
 	.uahalf	0x565
-<<<<<<< HEAD
-	.uaword	0x4857
-=======
-	.uaword	0x485e
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x483b
 	.uleb128 0x16
 	.byte	0x4
 	.byte	0xb
 	.uahalf	0x568
-<<<<<<< HEAD
-	.uaword	0x48bf
-=======
-	.uaword	0x48c6
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x48a3
 	.uleb128 0x17
 	.string	"U"
 	.byte	0xb
 	.uahalf	0x56a
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.uleb128 0x17
 	.string	"I"
 	.byte	0xb
 	.uahalf	0x56b
-<<<<<<< HEAD
-	.uaword	0x205
-=======
-	.uaword	0x20c
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x1e9
 	.uleb128 0x17
 	.string	"B"
 	.byte	0xb
 	.uahalf	0x56c
-<<<<<<< HEAD
-	.uaword	0x385b
-=======
-	.uaword	0x3862
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x383f
 	.byte	0
 	.uleb128 0x14
 	.string	"Ifx_VADC_ID"
 	.byte	0xb
 	.uahalf	0x56d
-<<<<<<< HEAD
-	.uaword	0x4897
-=======
-	.uaword	0x489e
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x487b
 	.uleb128 0x16
 	.byte	0x4
 	.byte	0xb
 	.uahalf	0x570
-<<<<<<< HEAD
-	.uaword	0x48fb
-=======
-	.uaword	0x4902
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x48df
 	.uleb128 0x17
 	.string	"U"
 	.byte	0xb
 	.uahalf	0x572
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.uleb128 0x17
 	.string	"I"
 	.byte	0xb
 	.uahalf	0x573
-<<<<<<< HEAD
-	.uaword	0x205
-=======
-	.uaword	0x20c
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x1e9
 	.uleb128 0x17
 	.string	"B"
 	.byte	0xb
 	.uahalf	0x574
-<<<<<<< HEAD
-	.uaword	0x38c7
-=======
-	.uaword	0x38ce
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x38ab
 	.byte	0
 	.uleb128 0x14
 	.string	"Ifx_VADC_KRST0"
 	.byte	0xb
 	.uahalf	0x575
-<<<<<<< HEAD
-	.uaword	0x48d3
-=======
-	.uaword	0x48da
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x48b7
 	.uleb128 0x16
 	.byte	0x4
 	.byte	0xb
 	.uahalf	0x578
-<<<<<<< HEAD
-	.uaword	0x493a
-=======
-	.uaword	0x4941
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x491e
 	.uleb128 0x17
 	.string	"U"
 	.byte	0xb
 	.uahalf	0x57a
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.uleb128 0x17
 	.string	"I"
 	.byte	0xb
 	.uahalf	0x57b
-<<<<<<< HEAD
-	.uaword	0x205
-=======
-	.uaword	0x20c
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x1e9
 	.uleb128 0x17
 	.string	"B"
 	.byte	0xb
 	.uahalf	0x57c
-<<<<<<< HEAD
-	.uaword	0x3922
-=======
-	.uaword	0x3929
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x3906
 	.byte	0
 	.uleb128 0x14
 	.string	"Ifx_VADC_KRST1"
 	.byte	0xb
 	.uahalf	0x57d
-<<<<<<< HEAD
-	.uaword	0x4912
-=======
-	.uaword	0x4919
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x48f6
 	.uleb128 0x16
 	.byte	0x4
 	.byte	0xb
 	.uahalf	0x580
-<<<<<<< HEAD
-	.uaword	0x4979
-=======
-	.uaword	0x4980
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x495d
 	.uleb128 0x17
 	.string	"U"
 	.byte	0xb
 	.uahalf	0x582
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.uleb128 0x17
 	.string	"I"
 	.byte	0xb
 	.uahalf	0x583
-<<<<<<< HEAD
-	.uaword	0x205
-=======
-	.uaword	0x20c
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x1e9
 	.uleb128 0x17
 	.string	"B"
 	.byte	0xb
 	.uahalf	0x584
-<<<<<<< HEAD
-	.uaword	0x397f
-=======
-	.uaword	0x3986
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x3963
 	.byte	0
 	.uleb128 0x14
 	.string	"Ifx_VADC_KRSTCLR"
 	.byte	0xb
 	.uahalf	0x585
-<<<<<<< HEAD
-	.uaword	0x4951
-=======
-	.uaword	0x4958
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x4935
 	.uleb128 0x16
 	.byte	0x4
 	.byte	0xb
 	.uahalf	0x588
-<<<<<<< HEAD
-	.uaword	0x49ba
-=======
-	.uaword	0x49c1
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x499e
 	.uleb128 0x17
 	.string	"U"
 	.byte	0xb
 	.uahalf	0x58a
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.uleb128 0x17
 	.string	"I"
 	.byte	0xb
 	.uahalf	0x58b
-<<<<<<< HEAD
-	.uaword	0x205
-=======
-	.uaword	0x20c
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x1e9
 	.uleb128 0x17
 	.string	"B"
 	.byte	0xb
 	.uahalf	0x58c
-<<<<<<< HEAD
-	.uaword	0x3a48
-=======
-	.uaword	0x3a4f
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x3a2c
 	.byte	0
 	.uleb128 0x14
 	.string	"Ifx_VADC_OCS"
 	.byte	0xb
 	.uahalf	0x58d
-<<<<<<< HEAD
-	.uaword	0x4992
-=======
-	.uaword	0x4999
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x4976
 	.uleb128 0x16
 	.byte	0x4
 	.byte	0xb
 	.uahalf	0x5b0
-<<<<<<< HEAD
-	.uaword	0x49f5
-=======
-	.uaword	0x49fc
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x49d9
 	.uleb128 0x17
 	.string	"QBUR0"
 	.byte	0xb
 	.uahalf	0x5b2
-<<<<<<< HEAD
-	.uaword	0x41a0
-=======
-	.uaword	0x41a7
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x4184
 	.uleb128 0x17
 	.string	"QINR0"
 	.byte	0xb
 	.uahalf	0x5b3
-<<<<<<< HEAD
-	.uaword	0x4223
-=======
-	.uaword	0x422a
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x4207
 	.byte	0
 	.uleb128 0x18
 	.string	"_Ifx_VADC_G"
 	.uahalf	0x400
 	.byte	0xb
 	.uahalf	0x598
-<<<<<<< HEAD
-	.uaword	0x4de9
-=======
-	.uaword	0x4df0
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x4dcd
 	.uleb128 0x19
 	.string	"ARBCFG"
 	.byte	0xb
 	.uahalf	0x59a
-<<<<<<< HEAD
-	.uaword	0x3d0d
-=======
-	.uaword	0x3d14
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x3cf1
 	.byte	0
 	.uleb128 0x19
 	.string	"ARBPR"
 	.byte	0xb
 	.uahalf	0x59b
-<<<<<<< HEAD
-	.uaword	0x3d4f
-=======
-	.uaword	0x3d56
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x3d33
 	.byte	0x4
 	.uleb128 0x19
 	.string	"CHASS"
 	.byte	0xb
 	.uahalf	0x59c
-<<<<<<< HEAD
-	.uaword	0x409b
-=======
-	.uaword	0x40a2
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x407f
 	.byte	0x8
 	.uleb128 0x19
 	.string	"RRASS"
 	.byte	0xb
 	.uahalf	0x59d
-<<<<<<< HEAD
-	.uaword	0x44aa
-=======
-	.uaword	0x44b1
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x448e
 	.byte	0xc
 	.uleb128 0x1a
 	.uaword	.LASF11
 	.byte	0xb
 	.uahalf	0x59e
-<<<<<<< HEAD
-	.uaword	0x4bc
-=======
-	.uaword	0x4c3
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x4a0
 	.byte	0x10
 	.uleb128 0x19
 	.string	"ICLASS"
 	.byte	0xb
 	.uahalf	0x59f
-<<<<<<< HEAD
-	.uaword	0x4de9
-=======
-	.uaword	0x4df0
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x4dcd
 	.byte	0x20
 	.uleb128 0x1a
 	.uaword	.LASF23
 	.byte	0xb
 	.uahalf	0x5a0
-<<<<<<< HEAD
-	.uaword	0x4ec
-=======
-	.uaword	0x4f3
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x4d0
 	.byte	0x28
 	.uleb128 0x19
 	.string	"ALIAS"
 	.byte	0xb
 	.uahalf	0x5a1
-<<<<<<< HEAD
-	.uaword	0x3ccc
-=======
-	.uaword	0x3cd3
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x3cb0
 	.byte	0x30
 	.uleb128 0x19
 	.string	"reserved_34"
 	.byte	0xb
 	.uahalf	0x5a2
-<<<<<<< HEAD
-	.uaword	0x4dc
-=======
-	.uaword	0x4e3
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x4c0
 	.byte	0x34
 	.uleb128 0x19
 	.string	"BOUND"
 	.byte	0xb
 	.uahalf	0x5a3
-<<<<<<< HEAD
-	.uaword	0x3f94
-=======
-	.uaword	0x3f9b
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x3f78
 	.byte	0x38
 	.uleb128 0x19
 	.string	"reserved_3C"
 	.byte	0xb
 	.uahalf	0x5a4
-<<<<<<< HEAD
-	.uaword	0x4dc
-=======
-	.uaword	0x4e3
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x4c0
 	.byte	0x3c
 	.uleb128 0x19
 	.string	"SYNCTR"
 	.byte	0xb
 	.uahalf	0x5a5
-<<<<<<< HEAD
-	.uaword	0x45f1
-=======
-	.uaword	0x45f8
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x45d5
 	.byte	0x40
 	.uleb128 0x19
 	.string	"reserved_44"
 	.byte	0xb
 	.uahalf	0x5a6
-<<<<<<< HEAD
-	.uaword	0x4dc
-=======
-	.uaword	0x4e3
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x4c0
 	.byte	0x44
 	.uleb128 0x19
 	.string	"BFL"
 	.byte	0xb
 	.uahalf	0x5a7
-<<<<<<< HEAD
-	.uaword	0x3e94
-=======
-	.uaword	0x3e9b
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x3e78
 	.byte	0x48
 	.uleb128 0x19
 	.string	"BFLS"
 	.byte	0xb
 	.uahalf	0x5a8
-<<<<<<< HEAD
-	.uaword	0x3f54
-=======
-	.uaword	0x3f5b
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x3f38
 	.byte	0x4c
 	.uleb128 0x19
 	.string	"BFLC"
 	.byte	0xb
 	.uahalf	0x5a9
-<<<<<<< HEAD
-	.uaword	0x3ed3
-=======
-	.uaword	0x3eda
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x3eb7
 	.byte	0x50
 	.uleb128 0x19
 	.string	"BFLNP"
 	.byte	0xb
 	.uahalf	0x5aa
-<<<<<<< HEAD
-	.uaword	0x3f13
-=======
-	.uaword	0x3f1a
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x3ef7
 	.byte	0x54
 	.uleb128 0x19
 	.string	"reserved_58"
 	.byte	0xb
 	.uahalf	0x5ab
-<<<<<<< HEAD
-	.uaword	0x4ac
-=======
-	.uaword	0x4b3
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x490
 	.byte	0x58
 	.uleb128 0x19
 	.string	"QCTRL0"
 	.byte	0xb
 	.uahalf	0x5ac
-<<<<<<< HEAD
-	.uaword	0x41e1
-=======
-	.uaword	0x41e8
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x41c5
 	.byte	0x80
 	.uleb128 0x19
 	.string	"QMR0"
 	.byte	0xb
 	.uahalf	0x5ad
-<<<<<<< HEAD
-	.uaword	0x4264
-=======
-	.uaword	0x426b
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x4248
 	.byte	0x84
 	.uleb128 0x19
 	.string	"QSR0"
 	.byte	0xb
 	.uahalf	0x5ae
-<<<<<<< HEAD
-	.uaword	0x42a4
-=======
-	.uaword	0x42ab
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x4288
 	.byte	0x88
 	.uleb128 0x19
 	.string	"Q0R0"
 	.byte	0xb
 	.uahalf	0x5af
-<<<<<<< HEAD
-	.uaword	0x4160
+	.uaword	0x4144
 	.byte	0x8c
 	.uleb128 0x1b
-	.uaword	0x49cf
-=======
-	.uaword	0x4167
-	.byte	0x8c
-	.uleb128 0x1b
-	.uaword	0x49d6
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x49b3
 	.byte	0x90
 	.uleb128 0x19
 	.string	"reserved_94"
 	.byte	0xb
 	.uahalf	0x5b6
-<<<<<<< HEAD
-	.uaword	0x49c
-=======
-	.uaword	0x4a3
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x480
 	.byte	0x94
 	.uleb128 0x19
 	.string	"ASCTRL"
 	.byte	0xb
 	.uahalf	0x5b7
-<<<<<<< HEAD
-	.uaword	0x3d90
-=======
-	.uaword	0x3d97
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x3d74
 	.byte	0xa0
 	.uleb128 0x19
 	.string	"ASMR"
 	.byte	0xb
 	.uahalf	0x5b8
-<<<<<<< HEAD
-	.uaword	0x3dd2
-=======
-	.uaword	0x3dd9
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x3db6
 	.byte	0xa4
 	.uleb128 0x19
 	.string	"ASSEL"
 	.byte	0xb
 	.uahalf	0x5b9
-<<<<<<< HEAD
-	.uaword	0x3e53
-=======
-	.uaword	0x3e5a
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x3e37
 	.byte	0xa8
 	.uleb128 0x19
 	.string	"ASPND"
 	.byte	0xb
 	.uahalf	0x5ba
-<<<<<<< HEAD
-	.uaword	0x3e12
-=======
-	.uaword	0x3e19
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x3df6
 	.byte	0xac
 	.uleb128 0x19
 	.string	"reserved_B0"
 	.byte	0xb
 	.uahalf	0x5bb
-<<<<<<< HEAD
-	.uaword	0x4df9
-=======
-	.uaword	0x4e00
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x4ddd
 	.byte	0xb0
 	.uleb128 0x1c
 	.string	"CEFLAG"
 	.byte	0xb
 	.uahalf	0x5bc
-<<<<<<< HEAD
-	.uaword	0x4017
-=======
-	.uaword	0x401e
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x3ffb
 	.uahalf	0x100
 	.uleb128 0x1c
 	.string	"REFLAG"
 	.byte	0xb
 	.uahalf	0x5bd
-<<<<<<< HEAD
-	.uaword	0x4365
-=======
-	.uaword	0x436c
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x4349
 	.uahalf	0x104
 	.uleb128 0x1c
 	.string	"SEFLAG"
 	.byte	0xb
 	.uahalf	0x5be
-<<<<<<< HEAD
-	.uaword	0x452d
-=======
-	.uaword	0x4534
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x4511
 	.uahalf	0x108
 	.uleb128 0x1c
 	.string	"reserved_10C"
 	.byte	0xb
 	.uahalf	0x5bf
-<<<<<<< HEAD
-	.uaword	0x4dc
-=======
-	.uaword	0x4e3
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x4c0
 	.uahalf	0x10c
 	.uleb128 0x1c
 	.string	"CEFCLR"
 	.byte	0xb
 	.uahalf	0x5c0
-<<<<<<< HEAD
-	.uaword	0x3fd5
-=======
-	.uaword	0x3fdc
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x3fb9
 	.uahalf	0x110
 	.uleb128 0x1c
 	.string	"REFCLR"
 	.byte	0xb
 	.uahalf	0x5c1
-<<<<<<< HEAD
-	.uaword	0x4323
-=======
-	.uaword	0x432a
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x4307
 	.uahalf	0x114
 	.uleb128 0x1c
 	.string	"SEFCLR"
 	.byte	0xb
 	.uahalf	0x5c2
-<<<<<<< HEAD
-	.uaword	0x44eb
-=======
-	.uaword	0x44f2
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x44cf
 	.uahalf	0x118
 	.uleb128 0x1c
 	.string	"reserved_11C"
 	.byte	0xb
 	.uahalf	0x5c3
-<<<<<<< HEAD
-	.uaword	0x4dc
-=======
-	.uaword	0x4e3
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x4c0
 	.uahalf	0x11c
 	.uleb128 0x1c
 	.string	"CEVNP0"
 	.byte	0xb
 	.uahalf	0x5c4
-<<<<<<< HEAD
-	.uaword	0x4059
-=======
-	.uaword	0x4060
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x403d
 	.uahalf	0x120
 	.uleb128 0x1c
 	.string	"reserved_124"
 	.byte	0xb
 	.uahalf	0x5c5
-<<<<<<< HEAD
-	.uaword	0x49c
-=======
-	.uaword	0x4a3
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x480
 	.uahalf	0x124
 	.uleb128 0x1c
 	.string	"REVNP0"
 	.byte	0xb
 	.uahalf	0x5c6
-<<<<<<< HEAD
-	.uaword	0x4426
-=======
-	.uaword	0x442d
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x440a
 	.uahalf	0x130
 	.uleb128 0x1c
 	.string	"REVNP1"
 	.byte	0xb
 	.uahalf	0x5c7
-<<<<<<< HEAD
-	.uaword	0x4468
-=======
-	.uaword	0x446f
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x444c
 	.uahalf	0x134
 	.uleb128 0x1c
 	.string	"reserved_138"
 	.byte	0xb
 	.uahalf	0x5c8
-<<<<<<< HEAD
-	.uaword	0x4ec
-=======
-	.uaword	0x4f3
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x4d0
 	.uahalf	0x138
 	.uleb128 0x1c
 	.string	"SEVNP"
 	.byte	0xb
 	.uahalf	0x5c9
-<<<<<<< HEAD
-	.uaword	0x456f
-=======
-	.uaword	0x4576
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x4553
 	.uahalf	0x140
 	.uleb128 0x1d
 	.uaword	.LASF34
 	.byte	0xb
 	.uahalf	0x5ca
-<<<<<<< HEAD
-	.uaword	0x4dc
-=======
-	.uaword	0x4e3
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x4c0
 	.uahalf	0x144
 	.uleb128 0x1c
 	.string	"SRACT"
 	.byte	0xb
 	.uahalf	0x5cb
-<<<<<<< HEAD
-	.uaword	0x45b0
-=======
-	.uaword	0x45b7
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x4594
 	.uahalf	0x148
 	.uleb128 0x1c
 	.string	"reserved_14C"
 	.byte	0xb
 	.uahalf	0x5cc
-<<<<<<< HEAD
-	.uaword	0x4e09
-=======
-	.uaword	0x4e10
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x4ded
 	.uahalf	0x14c
 	.uleb128 0x1c
 	.string	"EMUXCTR"
 	.byte	0xb
 	.uahalf	0x5cd
-<<<<<<< HEAD
-	.uaword	0x411d
-=======
-	.uaword	0x4124
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x4101
 	.uahalf	0x170
 	.uleb128 0x1c
 	.string	"reserved_174"
 	.byte	0xb
 	.uahalf	0x5ce
-<<<<<<< HEAD
-	.uaword	0x4dc
-=======
-	.uaword	0x4e3
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x4c0
 	.uahalf	0x174
 	.uleb128 0x1c
 	.string	"VFR"
 	.byte	0xb
 	.uahalf	0x5cf
-<<<<<<< HEAD
-	.uaword	0x4633
-=======
-	.uaword	0x463a
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x4617
 	.uahalf	0x178
 	.uleb128 0x1c
 	.string	"reserved_17C"
 	.byte	0xb
 	.uahalf	0x5d0
-<<<<<<< HEAD
-	.uaword	0x4dc
-=======
-	.uaword	0x4e3
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x4c0
 	.uahalf	0x17c
 	.uleb128 0x1c
 	.string	"CHCTR"
 	.byte	0xb
 	.uahalf	0x5d1
-<<<<<<< HEAD
-	.uaword	0x4e19
-=======
-	.uaword	0x4e20
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x4dfd
 	.uahalf	0x180
 	.uleb128 0x1d
 	.uaword	.LASF35
 	.byte	0xb
 	.uahalf	0x5d2
-<<<<<<< HEAD
-	.uaword	0x4fc
-=======
-	.uaword	0x503
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x4e0
 	.uahalf	0x1a0
 	.uleb128 0x1c
 	.string	"RCR"
 	.byte	0xb
 	.uahalf	0x5d3
-<<<<<<< HEAD
-	.uaword	0x4e29
-=======
-	.uaword	0x4e30
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x4e0d
 	.uahalf	0x200
 	.uleb128 0x1c
 	.string	"reserved_240"
 	.byte	0xb
 	.uahalf	0x5d4
-<<<<<<< HEAD
-	.uaword	0x52c
-=======
-	.uaword	0x533
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x510
 	.uahalf	0x240
 	.uleb128 0x1c
 	.string	"RES"
 	.byte	0xb
 	.uahalf	0x5d5
-<<<<<<< HEAD
-	.uaword	0x4e39
-=======
-	.uaword	0x4e40
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x4e1d
 	.uahalf	0x280
 	.uleb128 0x1c
 	.string	"reserved_2C0"
 	.byte	0xb
 	.uahalf	0x5d6
-<<<<<<< HEAD
-	.uaword	0x52c
-=======
-	.uaword	0x533
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x510
 	.uahalf	0x2c0
 	.uleb128 0x1c
 	.string	"RESD"
 	.byte	0xb
 	.uahalf	0x5d7
-<<<<<<< HEAD
-	.uaword	0x4e49
-=======
-	.uaword	0x4e50
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x4e2d
 	.uahalf	0x300
 	.uleb128 0x1c
 	.string	"reserved_340"
 	.byte	0xb
 	.uahalf	0x5d8
-<<<<<<< HEAD
-	.uaword	0x4e59
+	.uaword	0x4e3d
 	.uahalf	0x340
 	.byte	0
 	.uleb128 0x10
-	.uaword	0x487f
-	.uaword	0x4df9
+	.uaword	0x4863
+	.uaword	0x4ddd
 	.uleb128 0x11
-	.uaword	0x490
+	.uaword	0x474
 	.byte	0x1
 	.byte	0
 	.uleb128 0x10
-	.uaword	0x21b
-	.uaword	0x4e09
+	.uaword	0x1ff
+	.uaword	0x4ded
 	.uleb128 0x11
-	.uaword	0x490
+	.uaword	0x474
 	.byte	0x4f
 	.byte	0
 	.uleb128 0x10
-	.uaword	0x21b
-	.uaword	0x4e19
+	.uaword	0x1ff
+	.uaword	0x4dfd
 	.uleb128 0x11
-	.uaword	0x490
+	.uaword	0x474
 	.byte	0x23
 	.byte	0
 	.uleb128 0x10
-	.uaword	0x40dc
-	.uaword	0x4e29
+	.uaword	0x40c0
+	.uaword	0x4e0d
 	.uleb128 0x11
-	.uaword	0x490
+	.uaword	0x474
 	.byte	0x7
 	.byte	0
 	.uleb128 0x10
-	.uaword	0x42e4
-	.uaword	0x4e39
+	.uaword	0x42c8
+	.uaword	0x4e1d
 	.uleb128 0x11
-	.uaword	0x490
+	.uaword	0x474
 	.byte	0xf
 	.byte	0
 	.uleb128 0x10
-	.uaword	0x43a7
-	.uaword	0x4e49
+	.uaword	0x438b
+	.uaword	0x4e2d
 	.uleb128 0x11
-	.uaword	0x490
+	.uaword	0x474
 	.byte	0xf
 	.byte	0
 	.uleb128 0x10
-	.uaword	0x43e6
-	.uaword	0x4e59
+	.uaword	0x43ca
+	.uaword	0x4e3d
 	.uleb128 0x11
-	.uaword	0x490
+	.uaword	0x474
 	.byte	0xf
 	.byte	0
 	.uleb128 0x10
-	.uaword	0x21b
-	.uaword	0x4e69
+	.uaword	0x1ff
+	.uaword	0x4e4d
 	.uleb128 0x11
-	.uaword	0x490
-=======
-	.uaword	0x4e60
-	.uahalf	0x340
-	.byte	0
-	.uleb128 0x10
-	.uaword	0x4886
-	.uaword	0x4e00
-	.uleb128 0x11
-	.uaword	0x497
-	.byte	0x1
-	.byte	0
-	.uleb128 0x10
-	.uaword	0x222
-	.uaword	0x4e10
-	.uleb128 0x11
-	.uaword	0x497
-	.byte	0x4f
-	.byte	0
-	.uleb128 0x10
-	.uaword	0x222
-	.uaword	0x4e20
-	.uleb128 0x11
-	.uaword	0x497
-	.byte	0x23
-	.byte	0
-	.uleb128 0x10
-	.uaword	0x40e3
-	.uaword	0x4e30
-	.uleb128 0x11
-	.uaword	0x497
-	.byte	0x7
-	.byte	0
-	.uleb128 0x10
-	.uaword	0x42eb
-	.uaword	0x4e40
-	.uleb128 0x11
-	.uaword	0x497
-	.byte	0xf
-	.byte	0
-	.uleb128 0x10
-	.uaword	0x43ae
-	.uaword	0x4e50
-	.uleb128 0x11
-	.uaword	0x497
-	.byte	0xf
-	.byte	0
-	.uleb128 0x10
-	.uaword	0x43ed
-	.uaword	0x4e60
-	.uleb128 0x11
-	.uaword	0x497
-	.byte	0xf
-	.byte	0
-	.uleb128 0x10
-	.uaword	0x222
-	.uaword	0x4e70
-	.uleb128 0x11
-	.uaword	0x497
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x474
 	.byte	0xbf
 	.byte	0
 	.uleb128 0x14
 	.string	"Ifx_VADC_G"
 	.byte	0xb
 	.uahalf	0x5d9
-<<<<<<< HEAD
-	.uaword	0x4e7c
+	.uaword	0x4e60
 	.uleb128 0x1e
-	.uaword	0x49f5
-=======
-	.uaword	0x4e83
-	.uleb128 0x1e
-	.uaword	0x49fc
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x49d9
 	.uleb128 0x18
 	.string	"_Ifx_VADC"
 	.uahalf	0x4000
 	.byte	0xb
 	.uahalf	0x5e6
-<<<<<<< HEAD
-	.uaword	0x51a9
-=======
-	.uaword	0x51b0
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x518d
 	.uleb128 0x19
 	.string	"CLC"
 	.byte	0xb
 	.uahalf	0x5e8
-<<<<<<< HEAD
-	.uaword	0x3c4e
-=======
-	.uaword	0x3c55
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x3c32
 	.byte	0
 	.uleb128 0x1a
 	.uaword	.LASF7
 	.byte	0xb
 	.uahalf	0x5e9
-<<<<<<< HEAD
-	.uaword	0x4dc
-=======
-	.uaword	0x4e3
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x4c0
 	.byte	0x4
 	.uleb128 0x19
 	.string	"ID"
 	.byte	0xb
 	.uahalf	0x5ea
-<<<<<<< HEAD
-	.uaword	0x48bf
-=======
-	.uaword	0x48c6
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x48a3
 	.byte	0x8
 	.uleb128 0x1a
 	.uaword	.LASF36
 	.byte	0xb
 	.uahalf	0x5eb
-<<<<<<< HEAD
-	.uaword	0x50c
-=======
-	.uaword	0x513
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x4f0
 	.byte	0xc
 	.uleb128 0x19
 	.string	"OCS"
 	.byte	0xb
 	.uahalf	0x5ec
-<<<<<<< HEAD
-	.uaword	0x49ba
-=======
-	.uaword	0x49c1
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x499e
 	.byte	0x28
 	.uleb128 0x19
 	.string	"KRSTCLR"
 	.byte	0xb
 	.uahalf	0x5ed
-<<<<<<< HEAD
-	.uaword	0x4979
-=======
-	.uaword	0x4980
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x495d
 	.byte	0x2c
 	.uleb128 0x19
 	.string	"KRST1"
 	.byte	0xb
 	.uahalf	0x5ee
-<<<<<<< HEAD
-	.uaword	0x493a
-=======
-	.uaword	0x4941
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x491e
 	.byte	0x30
 	.uleb128 0x19
 	.string	"KRST0"
 	.byte	0xb
 	.uahalf	0x5ef
-<<<<<<< HEAD
-	.uaword	0x48fb
-=======
-	.uaword	0x4902
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x48df
 	.byte	0x34
 	.uleb128 0x19
 	.string	"reserved_38"
 	.byte	0xb
 	.uahalf	0x5f0
-<<<<<<< HEAD
-	.uaword	0x4dc
-=======
-	.uaword	0x4e3
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x4c0
 	.byte	0x38
 	.uleb128 0x19
 	.string	"ACCEN0"
 	.byte	0xb
 	.uahalf	0x5f1
-<<<<<<< HEAD
-	.uaword	0x3a8a
-=======
-	.uaword	0x3a91
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x3a6e
 	.byte	0x3c
 	.uleb128 0x19
 	.string	"reserved_40"
 	.byte	0xb
 	.uahalf	0x5f2
-<<<<<<< HEAD
-	.uaword	0x52c
-=======
-	.uaword	0x533
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x510
 	.byte	0x40
 	.uleb128 0x19
 	.string	"GLOBCFG"
 	.byte	0xb
 	.uahalf	0x5f3
-<<<<<<< HEAD
-	.uaword	0x46b5
-=======
-	.uaword	0x46bc
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x4699
 	.byte	0x80
 	.uleb128 0x19
 	.string	"reserved_84"
 	.byte	0xb
 	.uahalf	0x5f4
-<<<<<<< HEAD
-	.uaword	0x4dc
-=======
-	.uaword	0x4e3
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x4c0
 	.byte	0x84
 	.uleb128 0x19
 	.string	"ACCPROT0"
 	.byte	0xb
 	.uahalf	0x5f5
-<<<<<<< HEAD
-	.uaword	0x3aca
-=======
-	.uaword	0x3ad1
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x3aae
 	.byte	0x88
 	.uleb128 0x19
 	.string	"ACCPROT1"
 	.byte	0xb
 	.uahalf	0x5f6
-<<<<<<< HEAD
-	.uaword	0x3b0c
-=======
-	.uaword	0x3b13
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x3af0
 	.byte	0x8c
 	.uleb128 0x19
 	.string	"reserved_90"
 	.byte	0xb
 	.uahalf	0x5f7
-<<<<<<< HEAD
-	.uaword	0x4bc
-=======
-	.uaword	0x4c3
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x4a0
 	.byte	0x90
 	.uleb128 0x19
 	.string	"GLOBICLASS"
 	.byte	0xb
 	.uahalf	0x5f8
-<<<<<<< HEAD
-	.uaword	0x4de9
-=======
-	.uaword	0x4df0
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x4dcd
 	.byte	0xa0
 	.uleb128 0x19
 	.string	"reserved_A8"
 	.byte	0xb
 	.uahalf	0x5f9
-<<<<<<< HEAD
-	.uaword	0x4bc
-=======
-	.uaword	0x4c3
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x4a0
 	.byte	0xa8
 	.uleb128 0x19
 	.string	"GLOBBOUND"
 	.byte	0xb
 	.uahalf	0x5fa
-<<<<<<< HEAD
-	.uaword	0x4672
-=======
-	.uaword	0x4679
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x4656
 	.byte	0xb8
 	.uleb128 0x19
 	.string	"reserved_BC"
 	.byte	0xb
 	.uahalf	0x5fb
-<<<<<<< HEAD
-	.uaword	0x4e09
-=======
-	.uaword	0x4e10
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x4ded
 	.byte	0xbc
 	.uleb128 0x19
 	.string	"GLOBEFLAG"
 	.byte	0xb
 	.uahalf	0x5fc
-<<<<<<< HEAD
-	.uaword	0x46f6
-=======
-	.uaword	0x46fd
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x46da
 	.byte	0xe0
 	.uleb128 0x19
 	.string	"reserved_E4"
 	.byte	0xb
 	.uahalf	0x5fd
-<<<<<<< HEAD
-	.uaword	0x51a9
-=======
-	.uaword	0x51b0
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x518d
 	.byte	0xe4
 	.uleb128 0x1c
 	.string	"GLOBEVNP"
 	.byte	0xb
 	.uahalf	0x5fe
-<<<<<<< HEAD
-	.uaword	0x4739
-=======
-	.uaword	0x4740
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x471d
 	.uahalf	0x140
 	.uleb128 0x1d
 	.uaword	.LASF34
 	.byte	0xb
 	.uahalf	0x5ff
-<<<<<<< HEAD
-	.uaword	0x50c
-=======
-	.uaword	0x513
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x4f0
 	.uahalf	0x144
 	.uleb128 0x1c
 	.string	"GLOBTF"
 	.byte	0xb
 	.uahalf	0x600
-<<<<<<< HEAD
-	.uaword	0x483f
-=======
-	.uaword	0x4846
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x4823
 	.uahalf	0x160
 	.uleb128 0x1c
 	.string	"reserved_164"
 	.byte	0xb
 	.uahalf	0x601
-<<<<<<< HEAD
-	.uaword	0x50c
-=======
-	.uaword	0x513
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x4f0
 	.uahalf	0x164
 	.uleb128 0x1c
 	.string	"BRSSEL"
 	.byte	0xb
 	.uahalf	0x602
-<<<<<<< HEAD
-	.uaword	0x51b9
-=======
-	.uaword	0x51c0
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x519d
 	.uahalf	0x180
 	.uleb128 0x1d
 	.uaword	.LASF35
 	.byte	0xb
 	.uahalf	0x603
-<<<<<<< HEAD
-	.uaword	0x51c
-=======
-	.uaword	0x523
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x500
 	.uahalf	0x1a0
 	.uleb128 0x1c
 	.string	"BRSPND"
 	.byte	0xb
 	.uahalf	0x604
-<<<<<<< HEAD
-	.uaword	0x51c9
-=======
-	.uaword	0x51d0
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x51ad
 	.uahalf	0x1c0
 	.uleb128 0x1c
 	.string	"reserved_1E0"
 	.byte	0xb
 	.uahalf	0x605
-<<<<<<< HEAD
-	.uaword	0x51c
-=======
-	.uaword	0x523
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x500
 	.uahalf	0x1e0
 	.uleb128 0x1c
 	.string	"BRSCTRL"
 	.byte	0xb
 	.uahalf	0x606
-<<<<<<< HEAD
-	.uaword	0x3b4e
-=======
-	.uaword	0x3b55
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x3b32
 	.uahalf	0x200
 	.uleb128 0x1c
 	.string	"BRSMR"
 	.byte	0xb
 	.uahalf	0x607
-<<<<<<< HEAD
-	.uaword	0x3b8f
-=======
-	.uaword	0x3b96
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x3b73
 	.uahalf	0x204
 	.uleb128 0x1c
 	.string	"reserved_208"
 	.byte	0xb
 	.uahalf	0x608
-<<<<<<< HEAD
-	.uaword	0x51d9
-=======
-	.uaword	0x51e0
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x51bd
 	.uahalf	0x208
 	.uleb128 0x1c
 	.string	"GLOBRCR"
 	.byte	0xb
 	.uahalf	0x609
-<<<<<<< HEAD
-	.uaword	0x477b
-=======
-	.uaword	0x4782
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x475f
 	.uahalf	0x280
 	.uleb128 0x1c
 	.string	"reserved_284"
 	.byte	0xb
 	.uahalf	0x60a
-<<<<<<< HEAD
-	.uaword	0x51e9
-=======
-	.uaword	0x51f0
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x51cd
 	.uahalf	0x284
 	.uleb128 0x1c
 	.string	"GLOBRES"
 	.byte	0xb
 	.uahalf	0x60b
-<<<<<<< HEAD
-	.uaword	0x47bc
-=======
-	.uaword	0x47c3
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x47a0
 	.uahalf	0x300
 	.uleb128 0x1c
 	.string	"reserved_304"
 	.byte	0xb
 	.uahalf	0x60c
-<<<<<<< HEAD
-	.uaword	0x51e9
-=======
-	.uaword	0x51f0
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x51cd
 	.uahalf	0x304
 	.uleb128 0x1c
 	.string	"GLOBRESD"
 	.byte	0xb
 	.uahalf	0x60d
-<<<<<<< HEAD
-	.uaword	0x47fd
-=======
-	.uaword	0x4804
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x47e1
 	.uahalf	0x380
 	.uleb128 0x1c
 	.string	"reserved_384"
 	.byte	0xb
 	.uahalf	0x60e
-<<<<<<< HEAD
-	.uaword	0x51f9
-=======
-	.uaword	0x5200
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x51dd
 	.uahalf	0x384
 	.uleb128 0x1c
 	.string	"EMUXSEL"
 	.byte	0xb
 	.uahalf	0x60f
-<<<<<<< HEAD
-	.uaword	0x3c8b
-=======
-	.uaword	0x3c92
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x3c6f
 	.uahalf	0x3f0
 	.uleb128 0x1c
 	.string	"reserved_3F4"
 	.byte	0xb
 	.uahalf	0x610
-<<<<<<< HEAD
-	.uaword	0x5209
-=======
-	.uaword	0x5210
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x51ed
 	.uahalf	0x3f4
 	.uleb128 0x1c
 	.string	"G"
 	.byte	0xb
 	.uahalf	0x611
-<<<<<<< HEAD
-	.uaword	0x5229
-=======
-	.uaword	0x5230
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x520d
 	.uahalf	0x480
 	.uleb128 0x1c
 	.string	"reserved_2480"
 	.byte	0xb
 	.uahalf	0x612
-<<<<<<< HEAD
-	.uaword	0x522e
+	.uaword	0x5212
 	.uahalf	0x2480
 	.byte	0
 	.uleb128 0x10
-	.uaword	0x21b
-	.uaword	0x51b9
+	.uaword	0x1ff
+	.uaword	0x519d
 	.uleb128 0x11
-	.uaword	0x490
+	.uaword	0x474
 	.byte	0x5b
 	.byte	0
 	.uleb128 0x10
-	.uaword	0x3c0e
-	.uaword	0x51c9
+	.uaword	0x3bf2
+	.uaword	0x51ad
 	.uleb128 0x11
-	.uaword	0x490
+	.uaword	0x474
 	.byte	0x7
 	.byte	0
 	.uleb128 0x10
-	.uaword	0x3bce
-	.uaword	0x51d9
+	.uaword	0x3bb2
+	.uaword	0x51bd
 	.uleb128 0x11
-	.uaword	0x490
+	.uaword	0x474
 	.byte	0x7
 	.byte	0
 	.uleb128 0x10
-	.uaword	0x21b
-	.uaword	0x51e9
+	.uaword	0x1ff
+	.uaword	0x51cd
 	.uleb128 0x11
-	.uaword	0x490
+	.uaword	0x474
 	.byte	0x77
 	.byte	0
 	.uleb128 0x10
-	.uaword	0x21b
-	.uaword	0x51f9
+	.uaword	0x1ff
+	.uaword	0x51dd
 	.uleb128 0x11
-	.uaword	0x490
+	.uaword	0x474
 	.byte	0x7b
 	.byte	0
 	.uleb128 0x10
-	.uaword	0x21b
-	.uaword	0x5209
+	.uaword	0x1ff
+	.uaword	0x51ed
 	.uleb128 0x11
-	.uaword	0x490
+	.uaword	0x474
 	.byte	0x6b
 	.byte	0
 	.uleb128 0x10
-	.uaword	0x21b
-	.uaword	0x5219
+	.uaword	0x1ff
+	.uaword	0x51fd
 	.uleb128 0x11
-	.uaword	0x490
+	.uaword	0x474
 	.byte	0x8b
 	.byte	0
 	.uleb128 0x10
-	.uaword	0x4e69
-	.uaword	0x5229
+	.uaword	0x4e4d
+	.uaword	0x520d
 	.uleb128 0x11
-	.uaword	0x490
+	.uaword	0x474
 	.byte	0x7
 	.byte	0
 	.uleb128 0x1e
-	.uaword	0x5219
+	.uaword	0x51fd
 	.uleb128 0x10
-	.uaword	0x21b
-	.uaword	0x523f
+	.uaword	0x1ff
+	.uaword	0x5223
 	.uleb128 0x1f
-	.uaword	0x490
-=======
-	.uaword	0x5235
-	.uahalf	0x2480
-	.byte	0
-	.uleb128 0x10
-	.uaword	0x222
-	.uaword	0x51c0
-	.uleb128 0x11
-	.uaword	0x497
-	.byte	0x5b
-	.byte	0
-	.uleb128 0x10
-	.uaword	0x3c15
-	.uaword	0x51d0
-	.uleb128 0x11
-	.uaword	0x497
-	.byte	0x7
-	.byte	0
-	.uleb128 0x10
-	.uaword	0x3bd5
-	.uaword	0x51e0
-	.uleb128 0x11
-	.uaword	0x497
-	.byte	0x7
-	.byte	0
-	.uleb128 0x10
-	.uaword	0x222
-	.uaword	0x51f0
-	.uleb128 0x11
-	.uaword	0x497
-	.byte	0x77
-	.byte	0
-	.uleb128 0x10
-	.uaword	0x222
-	.uaword	0x5200
-	.uleb128 0x11
-	.uaword	0x497
-	.byte	0x7b
-	.byte	0
-	.uleb128 0x10
-	.uaword	0x222
-	.uaword	0x5210
-	.uleb128 0x11
-	.uaword	0x497
-	.byte	0x6b
-	.byte	0
-	.uleb128 0x10
-	.uaword	0x222
-	.uaword	0x5220
-	.uleb128 0x11
-	.uaword	0x497
-	.byte	0x8b
-	.byte	0
-	.uleb128 0x10
-	.uaword	0x4e70
-	.uaword	0x5230
-	.uleb128 0x11
-	.uaword	0x497
-	.byte	0x7
-	.byte	0
-	.uleb128 0x1e
-	.uaword	0x5220
-	.uleb128 0x10
-	.uaword	0x222
-	.uaword	0x5246
-	.uleb128 0x1f
-	.uaword	0x497
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x474
 	.uahalf	0x1b7f
 	.byte	0
 	.uleb128 0x14
 	.string	"Ifx_VADC"
 	.byte	0xb
 	.uahalf	0x613
-<<<<<<< HEAD
-	.uaword	0x5250
+	.uaword	0x5234
 	.uleb128 0x1e
-	.uaword	0x4e81
-=======
-	.uaword	0x5257
-	.uleb128 0x1e
-	.uaword	0x4e88
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x4e65
 	.uleb128 0xb
 	.string	"_Ifx_P_ACCEN0_Bits"
 	.byte	0x4
 	.byte	0xc
 	.byte	0x3f
-<<<<<<< HEAD
-	.uaword	0x5467
-=======
-	.uaword	0x546e
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x544b
 	.uleb128 0xc
 	.string	"EN0"
 	.byte	0xc
 	.byte	0x41
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1f
@@ -16056,11 +11276,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"EN1"
 	.byte	0xc
 	.byte	0x42
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1e
@@ -16069,11 +11285,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"EN2"
 	.byte	0xc
 	.byte	0x43
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1d
@@ -16082,11 +11294,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"EN3"
 	.byte	0xc
 	.byte	0x44
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1c
@@ -16095,11 +11303,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"EN4"
 	.byte	0xc
 	.byte	0x45
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1b
@@ -16108,11 +11312,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"EN5"
 	.byte	0xc
 	.byte	0x46
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1a
@@ -16121,11 +11321,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"EN6"
 	.byte	0xc
 	.byte	0x47
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x1
 	.byte	0x19
@@ -16134,11 +11330,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"EN7"
 	.byte	0xc
 	.byte	0x48
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x1
 	.byte	0x18
@@ -16147,11 +11339,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"EN8"
 	.byte	0xc
 	.byte	0x49
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x1
 	.byte	0x17
@@ -16160,11 +11348,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"EN9"
 	.byte	0xc
 	.byte	0x4a
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x1
 	.byte	0x16
@@ -16173,11 +11357,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"EN10"
 	.byte	0xc
 	.byte	0x4b
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x1
 	.byte	0x15
@@ -16186,11 +11366,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"EN11"
 	.byte	0xc
 	.byte	0x4c
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x1
 	.byte	0x14
@@ -16199,11 +11375,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"EN12"
 	.byte	0xc
 	.byte	0x4d
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x1
 	.byte	0x13
@@ -16212,11 +11384,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"EN13"
 	.byte	0xc
 	.byte	0x4e
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x1
 	.byte	0x12
@@ -16225,11 +11393,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"EN14"
 	.byte	0xc
 	.byte	0x4f
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x1
 	.byte	0x11
@@ -16238,11 +11402,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"EN15"
 	.byte	0xc
 	.byte	0x50
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x1
 	.byte	0x10
@@ -16251,11 +11411,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"EN16"
 	.byte	0xc
 	.byte	0x51
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x1
 	.byte	0xf
@@ -16264,11 +11420,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"EN17"
 	.byte	0xc
 	.byte	0x52
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x1
 	.byte	0xe
@@ -16277,11 +11429,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"EN18"
 	.byte	0xc
 	.byte	0x53
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x1
 	.byte	0xd
@@ -16290,11 +11438,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"EN19"
 	.byte	0xc
 	.byte	0x54
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x1
 	.byte	0xc
@@ -16303,11 +11447,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"EN20"
 	.byte	0xc
 	.byte	0x55
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x1
 	.byte	0xb
@@ -16316,11 +11456,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"EN21"
 	.byte	0xc
 	.byte	0x56
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x1
 	.byte	0xa
@@ -16329,11 +11465,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"EN22"
 	.byte	0xc
 	.byte	0x57
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x1
 	.byte	0x9
@@ -16342,11 +11474,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"EN23"
 	.byte	0xc
 	.byte	0x58
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x1
 	.byte	0x8
@@ -16355,11 +11483,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"EN24"
 	.byte	0xc
 	.byte	0x59
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x1
 	.byte	0x7
@@ -16368,11 +11492,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"EN25"
 	.byte	0xc
 	.byte	0x5a
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x1
 	.byte	0x6
@@ -16381,11 +11501,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"EN26"
 	.byte	0xc
 	.byte	0x5b
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x1
 	.byte	0x5
@@ -16394,11 +11510,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"EN27"
 	.byte	0xc
 	.byte	0x5c
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x1
 	.byte	0x4
@@ -16407,11 +11519,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"EN28"
 	.byte	0xc
 	.byte	0x5d
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x1
 	.byte	0x3
@@ -16420,11 +11528,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"EN29"
 	.byte	0xc
 	.byte	0x5e
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x1
 	.byte	0x2
@@ -16433,11 +11537,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"EN30"
 	.byte	0xc
 	.byte	0x5f
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1
@@ -16446,11 +11546,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"EN31"
 	.byte	0xc
 	.byte	0x60
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x1
 	.byte	0
@@ -16460,30 +11556,18 @@ IfxVadc_Adc_masterIndex:
 	.string	"Ifx_P_ACCEN0_Bits"
 	.byte	0xc
 	.byte	0x61
-<<<<<<< HEAD
-	.uaword	0x5255
-=======
-	.uaword	0x525c
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x5239
 	.uleb128 0xb
 	.string	"_Ifx_P_ACCEN1_Bits"
 	.byte	0x4
 	.byte	0xc
 	.byte	0x64
-<<<<<<< HEAD
-	.uaword	0x54ab
-=======
-	.uaword	0x54b2
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x548f
 	.uleb128 0xd
 	.uaword	.LASF28
 	.byte	0xc
 	.byte	0x66
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x20
 	.byte	0
@@ -16493,30 +11577,18 @@ IfxVadc_Adc_masterIndex:
 	.string	"Ifx_P_ACCEN1_Bits"
 	.byte	0xc
 	.byte	0x67
-<<<<<<< HEAD
-	.uaword	0x5480
-=======
-	.uaword	0x5487
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x5464
 	.uleb128 0xb
 	.string	"_Ifx_P_ESR_Bits"
 	.byte	0x4
 	.byte	0xc
 	.byte	0x6a
-<<<<<<< HEAD
-	.uaword	0x55e2
-=======
-	.uaword	0x55e9
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x55c6
 	.uleb128 0xc
 	.string	"EN0"
 	.byte	0xc
 	.byte	0x6c
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1f
@@ -16525,11 +11597,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"EN1"
 	.byte	0xc
 	.byte	0x6d
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1e
@@ -16538,11 +11606,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"EN2"
 	.byte	0xc
 	.byte	0x6e
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1d
@@ -16551,11 +11615,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"EN3"
 	.byte	0xc
 	.byte	0x6f
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1c
@@ -16564,11 +11624,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"EN4"
 	.byte	0xc
 	.byte	0x70
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1b
@@ -16577,11 +11633,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"EN5"
 	.byte	0xc
 	.byte	0x71
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1a
@@ -16590,11 +11642,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"EN6"
 	.byte	0xc
 	.byte	0x72
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x1
 	.byte	0x19
@@ -16603,11 +11651,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"EN7"
 	.byte	0xc
 	.byte	0x73
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x1
 	.byte	0x18
@@ -16616,11 +11660,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"EN8"
 	.byte	0xc
 	.byte	0x74
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x1
 	.byte	0x17
@@ -16629,11 +11669,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"EN9"
 	.byte	0xc
 	.byte	0x75
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x1
 	.byte	0x16
@@ -16642,11 +11678,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"EN10"
 	.byte	0xc
 	.byte	0x76
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x1
 	.byte	0x15
@@ -16655,11 +11687,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"EN11"
 	.byte	0xc
 	.byte	0x77
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x1
 	.byte	0x14
@@ -16668,11 +11696,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"EN12"
 	.byte	0xc
 	.byte	0x78
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x1
 	.byte	0x13
@@ -16681,11 +11705,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"EN13"
 	.byte	0xc
 	.byte	0x79
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x1
 	.byte	0x12
@@ -16694,11 +11714,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"EN14"
 	.byte	0xc
 	.byte	0x7a
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x1
 	.byte	0x11
@@ -16707,11 +11723,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"EN15"
 	.byte	0xc
 	.byte	0x7b
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x1
 	.byte	0x10
@@ -16720,11 +11732,7 @@ IfxVadc_Adc_masterIndex:
 	.uaword	.LASF20
 	.byte	0xc
 	.byte	0x7c
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x10
 	.byte	0
@@ -16734,30 +11742,18 @@ IfxVadc_Adc_masterIndex:
 	.string	"Ifx_P_ESR_Bits"
 	.byte	0xc
 	.byte	0x7d
-<<<<<<< HEAD
-	.uaword	0x54c4
-=======
-	.uaword	0x54cb
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x54a8
 	.uleb128 0xb
 	.string	"_Ifx_P_ID_Bits"
 	.byte	0x4
 	.byte	0xc
 	.byte	0x80
-<<<<<<< HEAD
-	.uaword	0x5644
-=======
-	.uaword	0x564b
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x5628
 	.uleb128 0xc
 	.string	"MODREV"
 	.byte	0xc
 	.byte	0x82
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x8
 	.byte	0x18
@@ -16766,11 +11762,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"MODTYPE"
 	.byte	0xc
 	.byte	0x83
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x8
 	.byte	0x10
@@ -16779,11 +11771,7 @@ IfxVadc_Adc_masterIndex:
 	.uaword	.LASF33
 	.byte	0xc
 	.byte	0x84
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x10
 	.byte	0
@@ -16793,30 +11781,18 @@ IfxVadc_Adc_masterIndex:
 	.string	"Ifx_P_ID_Bits"
 	.byte	0xc
 	.byte	0x85
-<<<<<<< HEAD
-	.uaword	0x55f8
-=======
-	.uaword	0x55ff
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x55dc
 	.uleb128 0xb
 	.string	"_Ifx_P_IN_Bits"
 	.byte	0x4
 	.byte	0xc
 	.byte	0x88
-<<<<<<< HEAD
-	.uaword	0x5766
-=======
-	.uaword	0x576d
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x574a
 	.uleb128 0xc
 	.string	"P0"
 	.byte	0xc
 	.byte	0x8a
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1f
@@ -16825,11 +11801,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"P1"
 	.byte	0xc
 	.byte	0x8b
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1e
@@ -16838,11 +11810,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"P2"
 	.byte	0xc
 	.byte	0x8c
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1d
@@ -16851,11 +11819,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"P3"
 	.byte	0xc
 	.byte	0x8d
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1c
@@ -16864,11 +11828,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"P4"
 	.byte	0xc
 	.byte	0x8e
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1b
@@ -16877,11 +11837,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"P5"
 	.byte	0xc
 	.byte	0x8f
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1a
@@ -16890,11 +11846,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"P6"
 	.byte	0xc
 	.byte	0x90
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x1
 	.byte	0x19
@@ -16903,11 +11855,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"P7"
 	.byte	0xc
 	.byte	0x91
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x1
 	.byte	0x18
@@ -16916,11 +11864,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"P8"
 	.byte	0xc
 	.byte	0x92
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x1
 	.byte	0x17
@@ -16929,11 +11873,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"P9"
 	.byte	0xc
 	.byte	0x93
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x1
 	.byte	0x16
@@ -16942,11 +11882,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"P10"
 	.byte	0xc
 	.byte	0x94
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x1
 	.byte	0x15
@@ -16955,11 +11891,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"P11"
 	.byte	0xc
 	.byte	0x95
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x1
 	.byte	0x14
@@ -16968,11 +11900,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"P12"
 	.byte	0xc
 	.byte	0x96
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x1
 	.byte	0x13
@@ -16981,11 +11909,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"P13"
 	.byte	0xc
 	.byte	0x97
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x1
 	.byte	0x12
@@ -16994,11 +11918,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"P14"
 	.byte	0xc
 	.byte	0x98
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x1
 	.byte	0x11
@@ -17007,11 +11927,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"P15"
 	.byte	0xc
 	.byte	0x99
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x1
 	.byte	0x10
@@ -17020,11 +11936,7 @@ IfxVadc_Adc_masterIndex:
 	.uaword	.LASF20
 	.byte	0xc
 	.byte	0x9a
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x10
 	.byte	0
@@ -17034,30 +11946,18 @@ IfxVadc_Adc_masterIndex:
 	.string	"Ifx_P_IN_Bits"
 	.byte	0xc
 	.byte	0x9b
-<<<<<<< HEAD
-	.uaword	0x5659
-=======
-	.uaword	0x5660
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x563d
 	.uleb128 0xb
 	.string	"_Ifx_P_IOCR0_Bits"
 	.byte	0x4
 	.byte	0xc
 	.byte	0x9e
-<<<<<<< HEAD
-	.uaword	0x580e
-=======
-	.uaword	0x5815
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x57f2
 	.uleb128 0xd
 	.uaword	.LASF28
 	.byte	0xc
 	.byte	0xa0
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x3
 	.byte	0x1d
@@ -17066,11 +11966,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"PC0"
 	.byte	0xc
 	.byte	0xa1
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x5
 	.byte	0x18
@@ -17079,11 +11975,7 @@ IfxVadc_Adc_masterIndex:
 	.uaword	.LASF1
 	.byte	0xc
 	.byte	0xa2
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x3
 	.byte	0x15
@@ -17092,11 +11984,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"PC1"
 	.byte	0xc
 	.byte	0xa3
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x5
 	.byte	0x10
@@ -17105,11 +11993,7 @@ IfxVadc_Adc_masterIndex:
 	.uaword	.LASF20
 	.byte	0xc
 	.byte	0xa4
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x3
 	.byte	0xd
@@ -17118,11 +12002,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"PC2"
 	.byte	0xc
 	.byte	0xa5
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x5
 	.byte	0x8
@@ -17131,11 +12011,7 @@ IfxVadc_Adc_masterIndex:
 	.uaword	.LASF5
 	.byte	0xc
 	.byte	0xa6
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x3
 	.byte	0x5
@@ -17144,11 +12020,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"PC3"
 	.byte	0xc
 	.byte	0xa7
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x5
 	.byte	0
@@ -17158,30 +12030,18 @@ IfxVadc_Adc_masterIndex:
 	.string	"Ifx_P_IOCR0_Bits"
 	.byte	0xc
 	.byte	0xa8
-<<<<<<< HEAD
-	.uaword	0x577b
-=======
-	.uaword	0x5782
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x575f
 	.uleb128 0xb
 	.string	"_Ifx_P_IOCR12_Bits"
 	.byte	0x4
 	.byte	0xc
 	.byte	0xab
-<<<<<<< HEAD
-	.uaword	0x58be
-=======
-	.uaword	0x58c5
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x58a2
 	.uleb128 0xd
 	.uaword	.LASF28
 	.byte	0xc
 	.byte	0xad
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x3
 	.byte	0x1d
@@ -17190,11 +12050,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"PC12"
 	.byte	0xc
 	.byte	0xae
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x5
 	.byte	0x18
@@ -17203,11 +12059,7 @@ IfxVadc_Adc_masterIndex:
 	.uaword	.LASF1
 	.byte	0xc
 	.byte	0xaf
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x3
 	.byte	0x15
@@ -17216,11 +12068,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"PC13"
 	.byte	0xc
 	.byte	0xb0
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x5
 	.byte	0x10
@@ -17229,11 +12077,7 @@ IfxVadc_Adc_masterIndex:
 	.uaword	.LASF20
 	.byte	0xc
 	.byte	0xb1
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x3
 	.byte	0xd
@@ -17242,11 +12086,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"PC14"
 	.byte	0xc
 	.byte	0xb2
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x5
 	.byte	0x8
@@ -17255,11 +12095,7 @@ IfxVadc_Adc_masterIndex:
 	.uaword	.LASF5
 	.byte	0xc
 	.byte	0xb3
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x3
 	.byte	0x5
@@ -17268,11 +12104,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"PC15"
 	.byte	0xc
 	.byte	0xb4
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x5
 	.byte	0
@@ -17282,30 +12114,18 @@ IfxVadc_Adc_masterIndex:
 	.string	"Ifx_P_IOCR12_Bits"
 	.byte	0xc
 	.byte	0xb5
-<<<<<<< HEAD
-	.uaword	0x5826
-=======
-	.uaword	0x582d
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x580a
 	.uleb128 0xb
 	.string	"_Ifx_P_IOCR4_Bits"
 	.byte	0x4
 	.byte	0xc
 	.byte	0xb8
-<<<<<<< HEAD
-	.uaword	0x596a
-=======
-	.uaword	0x5971
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x594e
 	.uleb128 0xd
 	.uaword	.LASF28
 	.byte	0xc
 	.byte	0xba
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x3
 	.byte	0x1d
@@ -17314,11 +12134,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"PC4"
 	.byte	0xc
 	.byte	0xbb
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x5
 	.byte	0x18
@@ -17327,11 +12143,7 @@ IfxVadc_Adc_masterIndex:
 	.uaword	.LASF1
 	.byte	0xc
 	.byte	0xbc
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x3
 	.byte	0x15
@@ -17340,11 +12152,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"PC5"
 	.byte	0xc
 	.byte	0xbd
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x5
 	.byte	0x10
@@ -17353,11 +12161,7 @@ IfxVadc_Adc_masterIndex:
 	.uaword	.LASF20
 	.byte	0xc
 	.byte	0xbe
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x3
 	.byte	0xd
@@ -17366,11 +12170,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"PC6"
 	.byte	0xc
 	.byte	0xbf
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x5
 	.byte	0x8
@@ -17379,11 +12179,7 @@ IfxVadc_Adc_masterIndex:
 	.uaword	.LASF5
 	.byte	0xc
 	.byte	0xc0
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x3
 	.byte	0x5
@@ -17392,11 +12188,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"PC7"
 	.byte	0xc
 	.byte	0xc1
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x5
 	.byte	0
@@ -17406,30 +12198,18 @@ IfxVadc_Adc_masterIndex:
 	.string	"Ifx_P_IOCR4_Bits"
 	.byte	0xc
 	.byte	0xc2
-<<<<<<< HEAD
-	.uaword	0x58d7
-=======
-	.uaword	0x58de
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x58bb
 	.uleb128 0xb
 	.string	"_Ifx_P_IOCR8_Bits"
 	.byte	0x4
 	.byte	0xc
 	.byte	0xc5
-<<<<<<< HEAD
-	.uaword	0x5a17
-=======
-	.uaword	0x5a1e
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x59fb
 	.uleb128 0xd
 	.uaword	.LASF28
 	.byte	0xc
 	.byte	0xc7
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x3
 	.byte	0x1d
@@ -17438,11 +12218,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"PC8"
 	.byte	0xc
 	.byte	0xc8
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x5
 	.byte	0x18
@@ -17451,11 +12227,7 @@ IfxVadc_Adc_masterIndex:
 	.uaword	.LASF1
 	.byte	0xc
 	.byte	0xc9
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x3
 	.byte	0x15
@@ -17464,11 +12236,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"PC9"
 	.byte	0xc
 	.byte	0xca
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x5
 	.byte	0x10
@@ -17477,11 +12245,7 @@ IfxVadc_Adc_masterIndex:
 	.uaword	.LASF20
 	.byte	0xc
 	.byte	0xcb
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x3
 	.byte	0xd
@@ -17490,11 +12254,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"PC10"
 	.byte	0xc
 	.byte	0xcc
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x5
 	.byte	0x8
@@ -17503,11 +12263,7 @@ IfxVadc_Adc_masterIndex:
 	.uaword	.LASF5
 	.byte	0xc
 	.byte	0xcd
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x3
 	.byte	0x5
@@ -17516,11 +12272,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"PC11"
 	.byte	0xc
 	.byte	0xce
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x5
 	.byte	0
@@ -17530,30 +12282,18 @@ IfxVadc_Adc_masterIndex:
 	.string	"Ifx_P_IOCR8_Bits"
 	.byte	0xc
 	.byte	0xcf
-<<<<<<< HEAD
-	.uaword	0x5982
-=======
-	.uaword	0x5989
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x5966
 	.uleb128 0xb
 	.string	"_Ifx_P_LPCR0_Bits"
 	.byte	0x4
 	.byte	0xc
 	.byte	0xd2
-<<<<<<< HEAD
-	.uaword	0x5a77
-=======
-	.uaword	0x5a7e
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x5a5b
 	.uleb128 0xd
 	.uaword	.LASF28
 	.byte	0xc
 	.byte	0xd4
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1f
@@ -17562,11 +12302,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"PS1"
 	.byte	0xc
 	.byte	0xd5
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1e
@@ -17575,11 +12311,7 @@ IfxVadc_Adc_masterIndex:
 	.uaword	.LASF14
 	.byte	0xc
 	.byte	0xd6
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x1e
 	.byte	0
@@ -17589,30 +12321,18 @@ IfxVadc_Adc_masterIndex:
 	.string	"Ifx_P_LPCR0_Bits"
 	.byte	0xc
 	.byte	0xd7
-<<<<<<< HEAD
-	.uaword	0x5a2f
-=======
-	.uaword	0x5a36
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x5a13
 	.uleb128 0xb
 	.string	"_Ifx_P_LPCR1_Bits"
 	.byte	0x4
 	.byte	0xc
 	.byte	0xda
-<<<<<<< HEAD
-	.uaword	0x5ad7
-=======
-	.uaword	0x5ade
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x5abb
 	.uleb128 0xd
 	.uaword	.LASF28
 	.byte	0xc
 	.byte	0xdc
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1f
@@ -17621,11 +12341,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"PS1"
 	.byte	0xc
 	.byte	0xdd
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1e
@@ -17634,11 +12350,7 @@ IfxVadc_Adc_masterIndex:
 	.uaword	.LASF14
 	.byte	0xc
 	.byte	0xde
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x1e
 	.byte	0
@@ -17648,30 +12360,18 @@ IfxVadc_Adc_masterIndex:
 	.string	"Ifx_P_LPCR1_Bits"
 	.byte	0xc
 	.byte	0xdf
-<<<<<<< HEAD
-	.uaword	0x5a8f
-=======
-	.uaword	0x5a96
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x5a73
 	.uleb128 0xb
 	.string	"_Ifx_P_LPCR1_P21_Bits"
 	.byte	0x4
 	.byte	0xc
 	.byte	0xe2
-<<<<<<< HEAD
-	.uaword	0x5b67
-=======
-	.uaword	0x5b6e
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x5b4b
 	.uleb128 0xc
 	.string	"RDIS_CTRL"
 	.byte	0xc
 	.byte	0xe4
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1f
@@ -17680,11 +12380,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"RX_DIS"
 	.byte	0xc
 	.byte	0xe5
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1e
@@ -17693,11 +12389,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"TERM"
 	.byte	0xc
 	.byte	0xe6
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1d
@@ -17706,11 +12398,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"LRXTERM"
 	.byte	0xc
 	.byte	0xe7
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x5
 	.byte	0x18
@@ -17719,11 +12407,7 @@ IfxVadc_Adc_masterIndex:
 	.uaword	.LASF1
 	.byte	0xc
 	.byte	0xe8
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x18
 	.byte	0
@@ -17733,30 +12417,18 @@ IfxVadc_Adc_masterIndex:
 	.string	"Ifx_P_LPCR1_P21_Bits"
 	.byte	0xc
 	.byte	0xe9
-<<<<<<< HEAD
-	.uaword	0x5aef
-=======
-	.uaword	0x5af6
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x5ad3
 	.uleb128 0xb
 	.string	"_Ifx_P_LPCR2_Bits"
 	.byte	0x4
 	.byte	0xc
 	.byte	0xec
-<<<<<<< HEAD
-	.uaword	0x5c3a
-=======
-	.uaword	0x5c41
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x5c1e
 	.uleb128 0xd
 	.uaword	.LASF28
 	.byte	0xc
 	.byte	0xee
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x8
 	.byte	0x18
@@ -17765,11 +12437,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"LVDSR"
 	.byte	0xc
 	.byte	0xef
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x1
 	.byte	0x17
@@ -17778,11 +12446,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"LVDSRL"
 	.byte	0xc
 	.byte	0xf0
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x1
 	.byte	0x16
@@ -17791,11 +12455,7 @@ IfxVadc_Adc_masterIndex:
 	.uaword	.LASF11
 	.byte	0xc
 	.byte	0xf1
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x2
 	.byte	0x14
@@ -17804,11 +12464,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"TDIS_CTRL"
 	.byte	0xc
 	.byte	0xf2
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x1
 	.byte	0x13
@@ -17817,11 +12473,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"TX_DIS"
 	.byte	0xc
 	.byte	0xf3
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x1
 	.byte	0x12
@@ -17830,11 +12482,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"TX_PD"
 	.byte	0xc
 	.byte	0xf4
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x1
 	.byte	0x11
@@ -17843,11 +12491,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"TX_PWDPD"
 	.byte	0xc
 	.byte	0xf5
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x1
 	.byte	0x10
@@ -17856,11 +12500,7 @@ IfxVadc_Adc_masterIndex:
 	.uaword	.LASF20
 	.byte	0xc
 	.byte	0xf6
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x10
 	.byte	0
@@ -17870,30 +12510,18 @@ IfxVadc_Adc_masterIndex:
 	.string	"Ifx_P_LPCR2_Bits"
 	.byte	0xc
 	.byte	0xf7
-<<<<<<< HEAD
-	.uaword	0x5b83
-=======
-	.uaword	0x5b8a
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x5b67
 	.uleb128 0xb
 	.string	"_Ifx_P_OMCR0_Bits"
 	.byte	0x4
 	.byte	0xc
 	.byte	0xfa
-<<<<<<< HEAD
-	.uaword	0x5ccd
-=======
-	.uaword	0x5cd4
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x5cb1
 	.uleb128 0xd
 	.uaword	.LASF28
 	.byte	0xc
 	.byte	0xfc
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x10
 	.byte	0x10
@@ -17902,11 +12530,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"PCL0"
 	.byte	0xc
 	.byte	0xfd
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x1
 	.byte	0xf
@@ -17915,11 +12539,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"PCL1"
 	.byte	0xc
 	.byte	0xfe
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x1
 	.byte	0xe
@@ -17928,11 +12548,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"PCL2"
 	.byte	0xc
 	.byte	0xff
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x1
 	.byte	0xd
@@ -17941,11 +12557,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"PCL3"
 	.byte	0xc
 	.uahalf	0x100
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x1
 	.byte	0xc
@@ -17954,11 +12566,7 @@ IfxVadc_Adc_masterIndex:
 	.uaword	.LASF19
 	.byte	0xc
 	.uahalf	0x101
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0xc
 	.byte	0
@@ -17968,30 +12576,18 @@ IfxVadc_Adc_masterIndex:
 	.string	"Ifx_P_OMCR0_Bits"
 	.byte	0xc
 	.uahalf	0x102
-<<<<<<< HEAD
-	.uaword	0x5c52
-=======
-	.uaword	0x5c59
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x5c36
 	.uleb128 0x15
 	.string	"_Ifx_P_OMCR12_Bits"
 	.byte	0x4
 	.byte	0xc
 	.uahalf	0x105
-<<<<<<< HEAD
-	.uaword	0x5d5b
-=======
-	.uaword	0x5d62
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x5d3f
 	.uleb128 0x12
 	.uaword	.LASF28
 	.byte	0xc
 	.uahalf	0x107
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x1c
 	.byte	0x4
@@ -18000,11 +12596,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"PCL12"
 	.byte	0xc
 	.uahalf	0x108
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x1
 	.byte	0x3
@@ -18013,11 +12605,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"PCL13"
 	.byte	0xc
 	.uahalf	0x109
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x1
 	.byte	0x2
@@ -18026,11 +12614,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"PCL14"
 	.byte	0xc
 	.uahalf	0x10a
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1
@@ -18039,11 +12623,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"PCL15"
 	.byte	0xc
 	.uahalf	0x10b
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x1
 	.byte	0
@@ -18053,30 +12633,18 @@ IfxVadc_Adc_masterIndex:
 	.string	"Ifx_P_OMCR12_Bits"
 	.byte	0xc
 	.uahalf	0x10c
-<<<<<<< HEAD
-	.uaword	0x5ce6
-=======
-	.uaword	0x5ced
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x5cca
 	.uleb128 0x15
 	.string	"_Ifx_P_OMCR4_Bits"
 	.byte	0x4
 	.byte	0xc
 	.uahalf	0x10f
-<<<<<<< HEAD
-	.uaword	0x5df5
-=======
-	.uaword	0x5dfc
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x5dd9
 	.uleb128 0x12
 	.uaword	.LASF28
 	.byte	0xc
 	.uahalf	0x111
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x14
 	.byte	0xc
@@ -18085,11 +12653,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"PCL4"
 	.byte	0xc
 	.uahalf	0x112
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x1
 	.byte	0xb
@@ -18098,11 +12662,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"PCL5"
 	.byte	0xc
 	.uahalf	0x113
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x1
 	.byte	0xa
@@ -18111,11 +12671,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"PCL6"
 	.byte	0xc
 	.uahalf	0x114
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x1
 	.byte	0x9
@@ -18124,11 +12680,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"PCL7"
 	.byte	0xc
 	.uahalf	0x115
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x1
 	.byte	0x8
@@ -18137,11 +12689,7 @@ IfxVadc_Adc_masterIndex:
 	.uaword	.LASF5
 	.byte	0xc
 	.uahalf	0x116
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x8
 	.byte	0
@@ -18151,30 +12699,18 @@ IfxVadc_Adc_masterIndex:
 	.string	"Ifx_P_OMCR4_Bits"
 	.byte	0xc
 	.uahalf	0x117
-<<<<<<< HEAD
-	.uaword	0x5d75
-=======
-	.uaword	0x5d7c
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x5d59
 	.uleb128 0x15
 	.string	"_Ifx_P_OMCR8_Bits"
 	.byte	0x4
 	.byte	0xc
 	.uahalf	0x11a
-<<<<<<< HEAD
-	.uaword	0x5e90
-=======
-	.uaword	0x5e97
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x5e74
 	.uleb128 0x12
 	.uaword	.LASF28
 	.byte	0xc
 	.uahalf	0x11c
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x18
 	.byte	0x8
@@ -18183,11 +12719,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"PCL8"
 	.byte	0xc
 	.uahalf	0x11d
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x1
 	.byte	0x7
@@ -18196,11 +12728,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"PCL9"
 	.byte	0xc
 	.uahalf	0x11e
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x1
 	.byte	0x6
@@ -18209,11 +12737,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"PCL10"
 	.byte	0xc
 	.uahalf	0x11f
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x1
 	.byte	0x5
@@ -18222,11 +12746,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"PCL11"
 	.byte	0xc
 	.uahalf	0x120
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x1
 	.byte	0x4
@@ -18235,11 +12755,7 @@ IfxVadc_Adc_masterIndex:
 	.uaword	.LASF23
 	.byte	0xc
 	.uahalf	0x121
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x4
 	.byte	0
@@ -18249,30 +12765,18 @@ IfxVadc_Adc_masterIndex:
 	.string	"Ifx_P_OMCR8_Bits"
 	.byte	0xc
 	.uahalf	0x122
-<<<<<<< HEAD
-	.uaword	0x5e0e
-=======
-	.uaword	0x5e15
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x5df2
 	.uleb128 0x15
 	.string	"_Ifx_P_OMCR_Bits"
 	.byte	0x4
 	.byte	0xc
 	.uahalf	0x125
-<<<<<<< HEAD
-	.uaword	0x5fea
-=======
-	.uaword	0x5ff1
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x5fce
 	.uleb128 0x12
 	.uaword	.LASF28
 	.byte	0xc
 	.uahalf	0x127
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x10
 	.byte	0x10
@@ -18281,11 +12785,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"PCL0"
 	.byte	0xc
 	.uahalf	0x128
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x1
 	.byte	0xf
@@ -18294,11 +12794,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"PCL1"
 	.byte	0xc
 	.uahalf	0x129
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x1
 	.byte	0xe
@@ -18307,11 +12803,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"PCL2"
 	.byte	0xc
 	.uahalf	0x12a
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x1
 	.byte	0xd
@@ -18320,11 +12812,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"PCL3"
 	.byte	0xc
 	.uahalf	0x12b
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x1
 	.byte	0xc
@@ -18333,11 +12821,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"PCL4"
 	.byte	0xc
 	.uahalf	0x12c
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x1
 	.byte	0xb
@@ -18346,11 +12830,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"PCL5"
 	.byte	0xc
 	.uahalf	0x12d
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x1
 	.byte	0xa
@@ -18359,11 +12839,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"PCL6"
 	.byte	0xc
 	.uahalf	0x12e
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x1
 	.byte	0x9
@@ -18372,11 +12848,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"PCL7"
 	.byte	0xc
 	.uahalf	0x12f
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x1
 	.byte	0x8
@@ -18385,11 +12857,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"PCL8"
 	.byte	0xc
 	.uahalf	0x130
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x1
 	.byte	0x7
@@ -18398,11 +12866,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"PCL9"
 	.byte	0xc
 	.uahalf	0x131
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x1
 	.byte	0x6
@@ -18411,11 +12875,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"PCL10"
 	.byte	0xc
 	.uahalf	0x132
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x1
 	.byte	0x5
@@ -18424,11 +12884,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"PCL11"
 	.byte	0xc
 	.uahalf	0x133
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x1
 	.byte	0x4
@@ -18437,11 +12893,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"PCL12"
 	.byte	0xc
 	.uahalf	0x134
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x1
 	.byte	0x3
@@ -18450,11 +12902,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"PCL13"
 	.byte	0xc
 	.uahalf	0x135
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x1
 	.byte	0x2
@@ -18463,11 +12911,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"PCL14"
 	.byte	0xc
 	.uahalf	0x136
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1
@@ -18476,11 +12920,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"PCL15"
 	.byte	0xc
 	.uahalf	0x137
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x1
 	.byte	0
@@ -18490,30 +12930,18 @@ IfxVadc_Adc_masterIndex:
 	.string	"Ifx_P_OMCR_Bits"
 	.byte	0xc
 	.uahalf	0x138
-<<<<<<< HEAD
-	.uaword	0x5ea9
-=======
-	.uaword	0x5eb0
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x5e8d
 	.uleb128 0x15
 	.string	"_Ifx_P_OMR_Bits"
 	.byte	0x4
 	.byte	0xc
 	.uahalf	0x13b
-<<<<<<< HEAD
-	.uaword	0x6238
-=======
-	.uaword	0x623f
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x621c
 	.uleb128 0x13
 	.string	"PS0"
 	.byte	0xc
 	.uahalf	0x13d
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1f
@@ -18522,11 +12950,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"PS1"
 	.byte	0xc
 	.uahalf	0x13e
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1e
@@ -18535,11 +12959,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"PS2"
 	.byte	0xc
 	.uahalf	0x13f
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1d
@@ -18548,11 +12968,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"PS3"
 	.byte	0xc
 	.uahalf	0x140
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1c
@@ -18561,11 +12977,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"PS4"
 	.byte	0xc
 	.uahalf	0x141
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1b
@@ -18574,11 +12986,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"PS5"
 	.byte	0xc
 	.uahalf	0x142
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1a
@@ -18587,11 +12995,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"PS6"
 	.byte	0xc
 	.uahalf	0x143
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x1
 	.byte	0x19
@@ -18600,11 +13004,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"PS7"
 	.byte	0xc
 	.uahalf	0x144
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x1
 	.byte	0x18
@@ -18613,11 +13013,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"PS8"
 	.byte	0xc
 	.uahalf	0x145
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x1
 	.byte	0x17
@@ -18626,11 +13022,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"PS9"
 	.byte	0xc
 	.uahalf	0x146
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x1
 	.byte	0x16
@@ -18639,11 +13031,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"PS10"
 	.byte	0xc
 	.uahalf	0x147
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x1
 	.byte	0x15
@@ -18652,11 +13040,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"PS11"
 	.byte	0xc
 	.uahalf	0x148
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x1
 	.byte	0x14
@@ -18665,11 +13049,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"PS12"
 	.byte	0xc
 	.uahalf	0x149
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x1
 	.byte	0x13
@@ -18678,11 +13058,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"PS13"
 	.byte	0xc
 	.uahalf	0x14a
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x1
 	.byte	0x12
@@ -18691,11 +13067,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"PS14"
 	.byte	0xc
 	.uahalf	0x14b
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x1
 	.byte	0x11
@@ -18704,11 +13076,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"PS15"
 	.byte	0xc
 	.uahalf	0x14c
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x1
 	.byte	0x10
@@ -18717,11 +13085,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"PCL0"
 	.byte	0xc
 	.uahalf	0x14d
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x1
 	.byte	0xf
@@ -18730,11 +13094,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"PCL1"
 	.byte	0xc
 	.uahalf	0x14e
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x1
 	.byte	0xe
@@ -18743,11 +13103,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"PCL2"
 	.byte	0xc
 	.uahalf	0x14f
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x1
 	.byte	0xd
@@ -18756,11 +13112,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"PCL3"
 	.byte	0xc
 	.uahalf	0x150
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x1
 	.byte	0xc
@@ -18769,11 +13121,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"PCL4"
 	.byte	0xc
 	.uahalf	0x151
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x1
 	.byte	0xb
@@ -18782,11 +13130,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"PCL5"
 	.byte	0xc
 	.uahalf	0x152
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x1
 	.byte	0xa
@@ -18795,11 +13139,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"PCL6"
 	.byte	0xc
 	.uahalf	0x153
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x1
 	.byte	0x9
@@ -18808,11 +13148,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"PCL7"
 	.byte	0xc
 	.uahalf	0x154
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x1
 	.byte	0x8
@@ -18821,11 +13157,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"PCL8"
 	.byte	0xc
 	.uahalf	0x155
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x1
 	.byte	0x7
@@ -18834,11 +13166,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"PCL9"
 	.byte	0xc
 	.uahalf	0x156
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x1
 	.byte	0x6
@@ -18847,11 +13175,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"PCL10"
 	.byte	0xc
 	.uahalf	0x157
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x1
 	.byte	0x5
@@ -18860,11 +13184,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"PCL11"
 	.byte	0xc
 	.uahalf	0x158
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x1
 	.byte	0x4
@@ -18873,11 +13193,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"PCL12"
 	.byte	0xc
 	.uahalf	0x159
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x1
 	.byte	0x3
@@ -18886,11 +13202,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"PCL13"
 	.byte	0xc
 	.uahalf	0x15a
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x1
 	.byte	0x2
@@ -18899,11 +13211,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"PCL14"
 	.byte	0xc
 	.uahalf	0x15b
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1
@@ -18912,11 +13220,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"PCL15"
 	.byte	0xc
 	.uahalf	0x15c
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x1
 	.byte	0
@@ -18926,30 +13230,18 @@ IfxVadc_Adc_masterIndex:
 	.string	"Ifx_P_OMR_Bits"
 	.byte	0xc
 	.uahalf	0x15d
-<<<<<<< HEAD
-	.uaword	0x6002
-=======
-	.uaword	0x6009
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x5fe6
 	.uleb128 0x15
 	.string	"_Ifx_P_OMSR0_Bits"
 	.byte	0x4
 	.byte	0xc
 	.uahalf	0x160
-<<<<<<< HEAD
-	.uaword	0x62bb
-=======
-	.uaword	0x62c2
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x629f
 	.uleb128 0x13
 	.string	"PS0"
 	.byte	0xc
 	.uahalf	0x162
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1f
@@ -18958,11 +13250,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"PS1"
 	.byte	0xc
 	.uahalf	0x163
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1e
@@ -18971,11 +13259,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"PS2"
 	.byte	0xc
 	.uahalf	0x164
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1d
@@ -18984,11 +13268,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"PS3"
 	.byte	0xc
 	.uahalf	0x165
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1c
@@ -18997,11 +13277,7 @@ IfxVadc_Adc_masterIndex:
 	.uaword	.LASF7
 	.byte	0xc
 	.uahalf	0x166
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x1c
 	.byte	0
@@ -19011,30 +13287,18 @@ IfxVadc_Adc_masterIndex:
 	.string	"Ifx_P_OMSR0_Bits"
 	.byte	0xc
 	.uahalf	0x167
-<<<<<<< HEAD
-	.uaword	0x624f
-=======
-	.uaword	0x6256
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x6233
 	.uleb128 0x15
 	.string	"_Ifx_P_OMSR12_Bits"
 	.byte	0x4
 	.byte	0xc
 	.uahalf	0x16a
-<<<<<<< HEAD
-	.uaword	0x6355
-=======
-	.uaword	0x635c
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x6339
 	.uleb128 0x12
 	.uaword	.LASF28
 	.byte	0xc
 	.uahalf	0x16c
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0xc
 	.byte	0x14
@@ -19043,11 +13307,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"PS12"
 	.byte	0xc
 	.uahalf	0x16d
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x1
 	.byte	0x13
@@ -19056,11 +13316,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"PS13"
 	.byte	0xc
 	.uahalf	0x16e
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x1
 	.byte	0x12
@@ -19069,11 +13325,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"PS14"
 	.byte	0xc
 	.uahalf	0x16f
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x1
 	.byte	0x11
@@ -19082,11 +13334,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"PS15"
 	.byte	0xc
 	.uahalf	0x170
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x1
 	.byte	0x10
@@ -19095,11 +13343,7 @@ IfxVadc_Adc_masterIndex:
 	.uaword	.LASF20
 	.byte	0xc
 	.uahalf	0x171
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x10
 	.byte	0
@@ -19109,30 +13353,18 @@ IfxVadc_Adc_masterIndex:
 	.string	"Ifx_P_OMSR12_Bits"
 	.byte	0xc
 	.uahalf	0x172
-<<<<<<< HEAD
-	.uaword	0x62d4
-=======
-	.uaword	0x62db
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x62b8
 	.uleb128 0x15
 	.string	"_Ifx_P_OMSR4_Bits"
 	.byte	0x4
 	.byte	0xc
 	.uahalf	0x175
-<<<<<<< HEAD
-	.uaword	0x63eb
-=======
-	.uaword	0x63f2
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x63cf
 	.uleb128 0x12
 	.uaword	.LASF28
 	.byte	0xc
 	.uahalf	0x177
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x4
 	.byte	0x1c
@@ -19141,11 +13373,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"PS4"
 	.byte	0xc
 	.uahalf	0x178
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1b
@@ -19154,11 +13382,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"PS5"
 	.byte	0xc
 	.uahalf	0x179
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1a
@@ -19167,11 +13391,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"PS6"
 	.byte	0xc
 	.uahalf	0x17a
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x1
 	.byte	0x19
@@ -19180,11 +13400,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"PS7"
 	.byte	0xc
 	.uahalf	0x17b
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x1
 	.byte	0x18
@@ -19193,11 +13409,7 @@ IfxVadc_Adc_masterIndex:
 	.uaword	.LASF1
 	.byte	0xc
 	.uahalf	0x17c
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x18
 	.byte	0
@@ -19207,30 +13419,18 @@ IfxVadc_Adc_masterIndex:
 	.string	"Ifx_P_OMSR4_Bits"
 	.byte	0xc
 	.uahalf	0x17d
-<<<<<<< HEAD
-	.uaword	0x636f
-=======
-	.uaword	0x6376
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x6353
 	.uleb128 0x15
 	.string	"_Ifx_P_OMSR8_Bits"
 	.byte	0x4
 	.byte	0xc
 	.uahalf	0x180
-<<<<<<< HEAD
-	.uaword	0x6482
-=======
-	.uaword	0x6489
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x6466
 	.uleb128 0x12
 	.uaword	.LASF28
 	.byte	0xc
 	.uahalf	0x182
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x8
 	.byte	0x18
@@ -19239,11 +13439,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"PS8"
 	.byte	0xc
 	.uahalf	0x183
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x1
 	.byte	0x17
@@ -19252,11 +13448,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"PS9"
 	.byte	0xc
 	.uahalf	0x184
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x1
 	.byte	0x16
@@ -19265,11 +13457,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"PS10"
 	.byte	0xc
 	.uahalf	0x185
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x1
 	.byte	0x15
@@ -19278,11 +13466,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"PS11"
 	.byte	0xc
 	.uahalf	0x186
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x1
 	.byte	0x14
@@ -19291,11 +13475,7 @@ IfxVadc_Adc_masterIndex:
 	.uaword	.LASF16
 	.byte	0xc
 	.uahalf	0x187
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x14
 	.byte	0
@@ -19305,30 +13485,18 @@ IfxVadc_Adc_masterIndex:
 	.string	"Ifx_P_OMSR8_Bits"
 	.byte	0xc
 	.uahalf	0x188
-<<<<<<< HEAD
-	.uaword	0x6404
-=======
-	.uaword	0x640b
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x63e8
 	.uleb128 0x15
 	.string	"_Ifx_P_OMSR_Bits"
 	.byte	0x4
 	.byte	0xc
 	.uahalf	0x18b
-<<<<<<< HEAD
-	.uaword	0x65cc
-=======
-	.uaword	0x65d3
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x65b0
 	.uleb128 0x13
 	.string	"PS0"
 	.byte	0xc
 	.uahalf	0x18d
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1f
@@ -19337,11 +13505,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"PS1"
 	.byte	0xc
 	.uahalf	0x18e
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1e
@@ -19350,11 +13514,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"PS2"
 	.byte	0xc
 	.uahalf	0x18f
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1d
@@ -19363,11 +13523,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"PS3"
 	.byte	0xc
 	.uahalf	0x190
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1c
@@ -19376,11 +13532,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"PS4"
 	.byte	0xc
 	.uahalf	0x191
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1b
@@ -19389,11 +13541,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"PS5"
 	.byte	0xc
 	.uahalf	0x192
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1a
@@ -19402,11 +13550,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"PS6"
 	.byte	0xc
 	.uahalf	0x193
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x1
 	.byte	0x19
@@ -19415,11 +13559,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"PS7"
 	.byte	0xc
 	.uahalf	0x194
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x1
 	.byte	0x18
@@ -19428,11 +13568,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"PS8"
 	.byte	0xc
 	.uahalf	0x195
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x1
 	.byte	0x17
@@ -19441,11 +13577,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"PS9"
 	.byte	0xc
 	.uahalf	0x196
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x1
 	.byte	0x16
@@ -19454,11 +13586,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"PS10"
 	.byte	0xc
 	.uahalf	0x197
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x1
 	.byte	0x15
@@ -19467,11 +13595,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"PS11"
 	.byte	0xc
 	.uahalf	0x198
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x1
 	.byte	0x14
@@ -19480,11 +13604,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"PS12"
 	.byte	0xc
 	.uahalf	0x199
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x1
 	.byte	0x13
@@ -19493,11 +13613,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"PS13"
 	.byte	0xc
 	.uahalf	0x19a
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x1
 	.byte	0x12
@@ -19506,11 +13622,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"PS14"
 	.byte	0xc
 	.uahalf	0x19b
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x1
 	.byte	0x11
@@ -19519,11 +13631,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"PS15"
 	.byte	0xc
 	.uahalf	0x19c
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x1
 	.byte	0x10
@@ -19532,11 +13640,7 @@ IfxVadc_Adc_masterIndex:
 	.uaword	.LASF20
 	.byte	0xc
 	.uahalf	0x19d
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x10
 	.byte	0
@@ -19546,30 +13650,18 @@ IfxVadc_Adc_masterIndex:
 	.string	"Ifx_P_OMSR_Bits"
 	.byte	0xc
 	.uahalf	0x19e
-<<<<<<< HEAD
-	.uaword	0x649b
-=======
-	.uaword	0x64a2
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x647f
 	.uleb128 0x15
 	.string	"_Ifx_P_OUT_Bits"
 	.byte	0x4
 	.byte	0xc
 	.uahalf	0x1a1
-<<<<<<< HEAD
-	.uaword	0x6704
-=======
-	.uaword	0x670b
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x66e8
 	.uleb128 0x13
 	.string	"P0"
 	.byte	0xc
 	.uahalf	0x1a3
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1f
@@ -19578,11 +13670,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"P1"
 	.byte	0xc
 	.uahalf	0x1a4
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1e
@@ -19591,11 +13679,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"P2"
 	.byte	0xc
 	.uahalf	0x1a5
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1d
@@ -19604,11 +13688,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"P3"
 	.byte	0xc
 	.uahalf	0x1a6
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1c
@@ -19617,11 +13697,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"P4"
 	.byte	0xc
 	.uahalf	0x1a7
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1b
@@ -19630,11 +13706,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"P5"
 	.byte	0xc
 	.uahalf	0x1a8
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1a
@@ -19643,11 +13715,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"P6"
 	.byte	0xc
 	.uahalf	0x1a9
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x1
 	.byte	0x19
@@ -19656,11 +13724,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"P7"
 	.byte	0xc
 	.uahalf	0x1aa
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x1
 	.byte	0x18
@@ -19669,11 +13733,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"P8"
 	.byte	0xc
 	.uahalf	0x1ab
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x1
 	.byte	0x17
@@ -19682,11 +13742,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"P9"
 	.byte	0xc
 	.uahalf	0x1ac
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x1
 	.byte	0x16
@@ -19695,11 +13751,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"P10"
 	.byte	0xc
 	.uahalf	0x1ad
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x1
 	.byte	0x15
@@ -19708,11 +13760,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"P11"
 	.byte	0xc
 	.uahalf	0x1ae
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x1
 	.byte	0x14
@@ -19721,11 +13769,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"P12"
 	.byte	0xc
 	.uahalf	0x1af
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x1
 	.byte	0x13
@@ -19734,11 +13778,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"P13"
 	.byte	0xc
 	.uahalf	0x1b0
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x1
 	.byte	0x12
@@ -19747,11 +13787,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"P14"
 	.byte	0xc
 	.uahalf	0x1b1
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x1
 	.byte	0x11
@@ -19760,11 +13796,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"P15"
 	.byte	0xc
 	.uahalf	0x1b2
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x1
 	.byte	0x10
@@ -19773,11 +13805,7 @@ IfxVadc_Adc_masterIndex:
 	.uaword	.LASF20
 	.byte	0xc
 	.uahalf	0x1b3
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x10
 	.byte	0
@@ -19787,30 +13815,18 @@ IfxVadc_Adc_masterIndex:
 	.string	"Ifx_P_OUT_Bits"
 	.byte	0xc
 	.uahalf	0x1b4
-<<<<<<< HEAD
-	.uaword	0x65e4
-=======
-	.uaword	0x65eb
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x65c8
 	.uleb128 0x15
 	.string	"_Ifx_P_PCSR_Bits"
 	.byte	0x4
 	.byte	0xc
 	.uahalf	0x1b7
-<<<<<<< HEAD
-	.uaword	0x6801
-=======
-	.uaword	0x6808
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x67e5
 	.uleb128 0x13
 	.string	"SEL0"
 	.byte	0xc
 	.uahalf	0x1b9
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1f
@@ -19819,11 +13835,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"SEL1"
 	.byte	0xc
 	.uahalf	0x1ba
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1e
@@ -19832,11 +13844,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"SEL2"
 	.byte	0xc
 	.uahalf	0x1bb
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1d
@@ -19845,11 +13853,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"SEL3"
 	.byte	0xc
 	.uahalf	0x1bc
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1c
@@ -19858,11 +13862,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"SEL4"
 	.byte	0xc
 	.uahalf	0x1bd
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1b
@@ -19871,11 +13871,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"SEL5"
 	.byte	0xc
 	.uahalf	0x1be
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1a
@@ -19884,11 +13880,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"SEL6"
 	.byte	0xc
 	.uahalf	0x1bf
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x1
 	.byte	0x19
@@ -19897,11 +13889,7 @@ IfxVadc_Adc_masterIndex:
 	.uaword	.LASF30
 	.byte	0xc
 	.uahalf	0x1c0
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x3
 	.byte	0x16
@@ -19910,11 +13898,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"SEL10"
 	.byte	0xc
 	.uahalf	0x1c1
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x1
 	.byte	0x15
@@ -19923,11 +13907,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"SEL11"
 	.byte	0xc
 	.uahalf	0x1c2
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x1
 	.byte	0x14
@@ -19936,11 +13916,7 @@ IfxVadc_Adc_masterIndex:
 	.uaword	.LASF16
 	.byte	0xc
 	.uahalf	0x1c3
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x13
 	.byte	0x1
@@ -19949,11 +13925,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"LCK"
 	.byte	0xc
 	.uahalf	0x1c4
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x1
 	.byte	0
@@ -19963,30 +13935,18 @@ IfxVadc_Adc_masterIndex:
 	.string	"Ifx_P_PCSR_Bits"
 	.byte	0xc
 	.uahalf	0x1c5
-<<<<<<< HEAD
-	.uaword	0x671b
-=======
-	.uaword	0x6722
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x66ff
 	.uleb128 0x15
 	.string	"_Ifx_P_PDISC_Bits"
 	.byte	0x4
 	.byte	0xc
 	.uahalf	0x1c8
-<<<<<<< HEAD
-	.uaword	0x696b
-=======
-	.uaword	0x6972
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x694f
 	.uleb128 0x13
 	.string	"PDIS0"
 	.byte	0xc
 	.uahalf	0x1ca
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1f
@@ -19995,11 +13955,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"PDIS1"
 	.byte	0xc
 	.uahalf	0x1cb
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1e
@@ -20008,11 +13964,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"PDIS2"
 	.byte	0xc
 	.uahalf	0x1cc
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1d
@@ -20021,11 +13973,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"PDIS3"
 	.byte	0xc
 	.uahalf	0x1cd
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1c
@@ -20034,11 +13982,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"PDIS4"
 	.byte	0xc
 	.uahalf	0x1ce
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1b
@@ -20047,11 +13991,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"PDIS5"
 	.byte	0xc
 	.uahalf	0x1cf
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1a
@@ -20060,11 +14000,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"PDIS6"
 	.byte	0xc
 	.uahalf	0x1d0
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x1
 	.byte	0x19
@@ -20073,11 +14009,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"PDIS7"
 	.byte	0xc
 	.uahalf	0x1d1
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x1
 	.byte	0x18
@@ -20086,11 +14018,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"PDIS8"
 	.byte	0xc
 	.uahalf	0x1d2
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x1
 	.byte	0x17
@@ -20099,11 +14027,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"PDIS9"
 	.byte	0xc
 	.uahalf	0x1d3
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x1
 	.byte	0x16
@@ -20112,11 +14036,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"PDIS10"
 	.byte	0xc
 	.uahalf	0x1d4
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x1
 	.byte	0x15
@@ -20125,11 +14045,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"PDIS11"
 	.byte	0xc
 	.uahalf	0x1d5
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x1
 	.byte	0x14
@@ -20138,11 +14054,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"PDIS12"
 	.byte	0xc
 	.uahalf	0x1d6
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x1
 	.byte	0x13
@@ -20151,11 +14063,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"PDIS13"
 	.byte	0xc
 	.uahalf	0x1d7
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x1
 	.byte	0x12
@@ -20164,11 +14072,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"PDIS14"
 	.byte	0xc
 	.uahalf	0x1d8
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x1
 	.byte	0x11
@@ -20177,11 +14081,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"PDIS15"
 	.byte	0xc
 	.uahalf	0x1d9
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x1
 	.byte	0x10
@@ -20190,11 +14090,7 @@ IfxVadc_Adc_masterIndex:
 	.uaword	.LASF20
 	.byte	0xc
 	.uahalf	0x1da
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x10
 	.byte	0
@@ -20204,30 +14100,18 @@ IfxVadc_Adc_masterIndex:
 	.string	"Ifx_P_PDISC_Bits"
 	.byte	0xc
 	.uahalf	0x1db
-<<<<<<< HEAD
-	.uaword	0x6819
-=======
-	.uaword	0x6820
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x67fd
 	.uleb128 0x15
 	.string	"_Ifx_P_PDR0_Bits"
 	.byte	0x4
 	.byte	0xc
 	.uahalf	0x1de
-<<<<<<< HEAD
-	.uaword	0x6a9f
-=======
-	.uaword	0x6aa6
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x6a83
 	.uleb128 0x13
 	.string	"PD0"
 	.byte	0xc
 	.uahalf	0x1e0
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x3
 	.byte	0x1d
@@ -20236,11 +14120,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"PL0"
 	.byte	0xc
 	.uahalf	0x1e1
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1c
@@ -20249,11 +14129,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"PD1"
 	.byte	0xc
 	.uahalf	0x1e2
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x3
 	.byte	0x19
@@ -20262,11 +14138,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"PL1"
 	.byte	0xc
 	.uahalf	0x1e3
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x1
 	.byte	0x18
@@ -20275,11 +14147,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"PD2"
 	.byte	0xc
 	.uahalf	0x1e4
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x3
 	.byte	0x15
@@ -20288,11 +14156,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"PL2"
 	.byte	0xc
 	.uahalf	0x1e5
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x1
 	.byte	0x14
@@ -20301,11 +14165,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"PD3"
 	.byte	0xc
 	.uahalf	0x1e6
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x3
 	.byte	0x11
@@ -20314,11 +14174,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"PL3"
 	.byte	0xc
 	.uahalf	0x1e7
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x1
 	.byte	0x10
@@ -20327,11 +14183,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"PD4"
 	.byte	0xc
 	.uahalf	0x1e8
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x3
 	.byte	0xd
@@ -20340,11 +14192,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"PL4"
 	.byte	0xc
 	.uahalf	0x1e9
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x1
 	.byte	0xc
@@ -20353,11 +14201,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"PD5"
 	.byte	0xc
 	.uahalf	0x1ea
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x3
 	.byte	0x9
@@ -20366,11 +14210,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"PL5"
 	.byte	0xc
 	.uahalf	0x1eb
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x1
 	.byte	0x8
@@ -20379,11 +14219,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"PD6"
 	.byte	0xc
 	.uahalf	0x1ec
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x3
 	.byte	0x5
@@ -20392,11 +14228,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"PL6"
 	.byte	0xc
 	.uahalf	0x1ed
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x1
 	.byte	0x4
@@ -20405,11 +14237,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"PD7"
 	.byte	0xc
 	.uahalf	0x1ee
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x3
 	.byte	0x1
@@ -20418,11 +14246,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"PL7"
 	.byte	0xc
 	.uahalf	0x1ef
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x1
 	.byte	0
@@ -20432,30 +14256,18 @@ IfxVadc_Adc_masterIndex:
 	.string	"Ifx_P_PDR0_Bits"
 	.byte	0xc
 	.uahalf	0x1f0
-<<<<<<< HEAD
-	.uaword	0x6984
-=======
-	.uaword	0x698b
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x6968
 	.uleb128 0x15
 	.string	"_Ifx_P_PDR1_Bits"
 	.byte	0x4
 	.byte	0xc
 	.uahalf	0x1f3
-<<<<<<< HEAD
-	.uaword	0x6bde
-=======
-	.uaword	0x6be5
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x6bc2
 	.uleb128 0x13
 	.string	"PD8"
 	.byte	0xc
 	.uahalf	0x1f5
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x3
 	.byte	0x1d
@@ -20464,11 +14276,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"PL8"
 	.byte	0xc
 	.uahalf	0x1f6
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1c
@@ -20477,11 +14285,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"PD9"
 	.byte	0xc
 	.uahalf	0x1f7
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x3
 	.byte	0x19
@@ -20490,11 +14294,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"PL9"
 	.byte	0xc
 	.uahalf	0x1f8
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x1
 	.byte	0x18
@@ -20503,11 +14303,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"PD10"
 	.byte	0xc
 	.uahalf	0x1f9
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x3
 	.byte	0x15
@@ -20516,11 +14312,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"PL10"
 	.byte	0xc
 	.uahalf	0x1fa
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x1
 	.byte	0x14
@@ -20529,11 +14321,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"PD11"
 	.byte	0xc
 	.uahalf	0x1fb
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x3
 	.byte	0x11
@@ -20542,11 +14330,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"PL11"
 	.byte	0xc
 	.uahalf	0x1fc
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x1
 	.byte	0x10
@@ -20555,11 +14339,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"PD12"
 	.byte	0xc
 	.uahalf	0x1fd
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x3
 	.byte	0xd
@@ -20568,11 +14348,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"PL12"
 	.byte	0xc
 	.uahalf	0x1fe
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x1
 	.byte	0xc
@@ -20581,11 +14357,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"PD13"
 	.byte	0xc
 	.uahalf	0x1ff
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x3
 	.byte	0x9
@@ -20594,11 +14366,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"PL13"
 	.byte	0xc
 	.uahalf	0x200
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x1
 	.byte	0x8
@@ -20607,11 +14375,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"PD14"
 	.byte	0xc
 	.uahalf	0x201
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x3
 	.byte	0x5
@@ -20620,11 +14384,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"PL14"
 	.byte	0xc
 	.uahalf	0x202
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x1
 	.byte	0x4
@@ -20633,11 +14393,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"PD15"
 	.byte	0xc
 	.uahalf	0x203
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x3
 	.byte	0x1
@@ -20646,11 +14402,7 @@ IfxVadc_Adc_masterIndex:
 	.string	"PL15"
 	.byte	0xc
 	.uahalf	0x204
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.byte	0x4
 	.byte	0x1
 	.byte	0
@@ -20660,1721 +14412,985 @@ IfxVadc_Adc_masterIndex:
 	.string	"Ifx_P_PDR1_Bits"
 	.byte	0xc
 	.uahalf	0x205
-<<<<<<< HEAD
-	.uaword	0x6ab7
-=======
-	.uaword	0x6abe
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x6a9b
 	.uleb128 0x16
 	.byte	0x4
 	.byte	0xc
 	.uahalf	0x20d
-<<<<<<< HEAD
-	.uaword	0x6c1e
-=======
-	.uaword	0x6c25
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x6c02
 	.uleb128 0x17
 	.string	"U"
 	.byte	0xc
 	.uahalf	0x20f
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.uleb128 0x17
 	.string	"I"
 	.byte	0xc
 	.uahalf	0x210
-<<<<<<< HEAD
-	.uaword	0x205
-=======
-	.uaword	0x20c
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x1e9
 	.uleb128 0x17
 	.string	"B"
 	.byte	0xc
 	.uahalf	0x211
-<<<<<<< HEAD
-	.uaword	0x5467
-=======
-	.uaword	0x546e
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x544b
 	.byte	0
 	.uleb128 0x14
 	.string	"Ifx_P_ACCEN0"
 	.byte	0xc
 	.uahalf	0x212
-<<<<<<< HEAD
-	.uaword	0x6bf6
-=======
-	.uaword	0x6bfd
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x6bda
 	.uleb128 0x16
 	.byte	0x4
 	.byte	0xc
 	.uahalf	0x215
-<<<<<<< HEAD
-	.uaword	0x6c5b
-=======
-	.uaword	0x6c62
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x6c3f
 	.uleb128 0x17
 	.string	"U"
 	.byte	0xc
 	.uahalf	0x217
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.uleb128 0x17
 	.string	"I"
 	.byte	0xc
 	.uahalf	0x218
-<<<<<<< HEAD
-	.uaword	0x205
-=======
-	.uaword	0x20c
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x1e9
 	.uleb128 0x17
 	.string	"B"
 	.byte	0xc
 	.uahalf	0x219
-<<<<<<< HEAD
-	.uaword	0x54ab
-=======
-	.uaword	0x54b2
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x548f
 	.byte	0
 	.uleb128 0x14
 	.string	"Ifx_P_ACCEN1"
 	.byte	0xc
 	.uahalf	0x21a
-<<<<<<< HEAD
-	.uaword	0x6c33
-=======
-	.uaword	0x6c3a
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x6c17
 	.uleb128 0x16
 	.byte	0x4
 	.byte	0xc
 	.uahalf	0x21d
-<<<<<<< HEAD
-	.uaword	0x6c98
-=======
-	.uaword	0x6c9f
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x6c7c
 	.uleb128 0x17
 	.string	"U"
 	.byte	0xc
 	.uahalf	0x21f
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.uleb128 0x17
 	.string	"I"
 	.byte	0xc
 	.uahalf	0x220
-<<<<<<< HEAD
-	.uaword	0x205
-=======
-	.uaword	0x20c
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x1e9
 	.uleb128 0x17
 	.string	"B"
 	.byte	0xc
 	.uahalf	0x221
-<<<<<<< HEAD
-	.uaword	0x55e2
-=======
-	.uaword	0x55e9
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x55c6
 	.byte	0
 	.uleb128 0x14
 	.string	"Ifx_P_ESR"
 	.byte	0xc
 	.uahalf	0x222
-<<<<<<< HEAD
-	.uaword	0x6c70
-=======
-	.uaword	0x6c77
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x6c54
 	.uleb128 0x16
 	.byte	0x4
 	.byte	0xc
 	.uahalf	0x225
-<<<<<<< HEAD
-	.uaword	0x6cd2
-=======
-	.uaword	0x6cd9
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x6cb6
 	.uleb128 0x17
 	.string	"U"
 	.byte	0xc
 	.uahalf	0x227
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.uleb128 0x17
 	.string	"I"
 	.byte	0xc
 	.uahalf	0x228
-<<<<<<< HEAD
-	.uaword	0x205
-=======
-	.uaword	0x20c
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x1e9
 	.uleb128 0x17
 	.string	"B"
 	.byte	0xc
 	.uahalf	0x229
-<<<<<<< HEAD
-	.uaword	0x5644
-=======
-	.uaword	0x564b
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x5628
 	.byte	0
 	.uleb128 0x14
 	.string	"Ifx_P_ID"
 	.byte	0xc
 	.uahalf	0x22a
-<<<<<<< HEAD
-	.uaword	0x6caa
-=======
-	.uaword	0x6cb1
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x6c8e
 	.uleb128 0x16
 	.byte	0x4
 	.byte	0xc
 	.uahalf	0x22d
-<<<<<<< HEAD
-	.uaword	0x6d0b
-=======
-	.uaword	0x6d12
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x6cef
 	.uleb128 0x17
 	.string	"U"
 	.byte	0xc
 	.uahalf	0x22f
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.uleb128 0x17
 	.string	"I"
 	.byte	0xc
 	.uahalf	0x230
-<<<<<<< HEAD
-	.uaword	0x205
-=======
-	.uaword	0x20c
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x1e9
 	.uleb128 0x17
 	.string	"B"
 	.byte	0xc
 	.uahalf	0x231
-<<<<<<< HEAD
-	.uaword	0x5766
-=======
-	.uaword	0x576d
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x574a
 	.byte	0
 	.uleb128 0x14
 	.string	"Ifx_P_IN"
 	.byte	0xc
 	.uahalf	0x232
-<<<<<<< HEAD
-	.uaword	0x6ce3
-=======
-	.uaword	0x6cea
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x6cc7
 	.uleb128 0x16
 	.byte	0x4
 	.byte	0xc
 	.uahalf	0x235
-<<<<<<< HEAD
-	.uaword	0x6d44
-=======
-	.uaword	0x6d4b
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x6d28
 	.uleb128 0x17
 	.string	"U"
 	.byte	0xc
 	.uahalf	0x237
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.uleb128 0x17
 	.string	"I"
 	.byte	0xc
 	.uahalf	0x238
-<<<<<<< HEAD
-	.uaword	0x205
-=======
-	.uaword	0x20c
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x1e9
 	.uleb128 0x17
 	.string	"B"
 	.byte	0xc
 	.uahalf	0x239
-<<<<<<< HEAD
-	.uaword	0x580e
-=======
-	.uaword	0x5815
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x57f2
 	.byte	0
 	.uleb128 0x14
 	.string	"Ifx_P_IOCR0"
 	.byte	0xc
 	.uahalf	0x23a
-<<<<<<< HEAD
-	.uaword	0x6d1c
-=======
-	.uaword	0x6d23
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x6d00
 	.uleb128 0x16
 	.byte	0x4
 	.byte	0xc
 	.uahalf	0x23d
-<<<<<<< HEAD
-	.uaword	0x6d80
-=======
-	.uaword	0x6d87
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x6d64
 	.uleb128 0x17
 	.string	"U"
 	.byte	0xc
 	.uahalf	0x23f
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.uleb128 0x17
 	.string	"I"
 	.byte	0xc
 	.uahalf	0x240
-<<<<<<< HEAD
-	.uaword	0x205
-=======
-	.uaword	0x20c
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x1e9
 	.uleb128 0x17
 	.string	"B"
 	.byte	0xc
 	.uahalf	0x241
-<<<<<<< HEAD
-	.uaword	0x58be
-=======
-	.uaword	0x58c5
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x58a2
 	.byte	0
 	.uleb128 0x14
 	.string	"Ifx_P_IOCR12"
 	.byte	0xc
 	.uahalf	0x242
-<<<<<<< HEAD
-	.uaword	0x6d58
-=======
-	.uaword	0x6d5f
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x6d3c
 	.uleb128 0x16
 	.byte	0x4
 	.byte	0xc
 	.uahalf	0x245
-<<<<<<< HEAD
-	.uaword	0x6dbd
-=======
-	.uaword	0x6dc4
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x6da1
 	.uleb128 0x17
 	.string	"U"
 	.byte	0xc
 	.uahalf	0x247
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.uleb128 0x17
 	.string	"I"
 	.byte	0xc
 	.uahalf	0x248
-<<<<<<< HEAD
-	.uaword	0x205
-=======
-	.uaword	0x20c
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x1e9
 	.uleb128 0x17
 	.string	"B"
 	.byte	0xc
 	.uahalf	0x249
-<<<<<<< HEAD
-	.uaword	0x596a
-=======
-	.uaword	0x5971
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x594e
 	.byte	0
 	.uleb128 0x14
 	.string	"Ifx_P_IOCR4"
 	.byte	0xc
 	.uahalf	0x24a
-<<<<<<< HEAD
-	.uaword	0x6d95
-=======
-	.uaword	0x6d9c
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x6d79
 	.uleb128 0x16
 	.byte	0x4
 	.byte	0xc
 	.uahalf	0x24d
-<<<<<<< HEAD
-	.uaword	0x6df9
-=======
-	.uaword	0x6e00
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x6ddd
 	.uleb128 0x17
 	.string	"U"
 	.byte	0xc
 	.uahalf	0x24f
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.uleb128 0x17
 	.string	"I"
 	.byte	0xc
 	.uahalf	0x250
-<<<<<<< HEAD
-	.uaword	0x205
-=======
-	.uaword	0x20c
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x1e9
 	.uleb128 0x17
 	.string	"B"
 	.byte	0xc
 	.uahalf	0x251
-<<<<<<< HEAD
-	.uaword	0x5a17
-=======
-	.uaword	0x5a1e
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x59fb
 	.byte	0
 	.uleb128 0x14
 	.string	"Ifx_P_IOCR8"
 	.byte	0xc
 	.uahalf	0x252
-<<<<<<< HEAD
-	.uaword	0x6dd1
-=======
-	.uaword	0x6dd8
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x6db5
 	.uleb128 0x16
 	.byte	0x4
 	.byte	0xc
 	.uahalf	0x255
-<<<<<<< HEAD
-	.uaword	0x6e35
-=======
-	.uaword	0x6e3c
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x6e19
 	.uleb128 0x17
 	.string	"U"
 	.byte	0xc
 	.uahalf	0x257
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.uleb128 0x17
 	.string	"I"
 	.byte	0xc
 	.uahalf	0x258
-<<<<<<< HEAD
-	.uaword	0x205
-=======
-	.uaword	0x20c
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x1e9
 	.uleb128 0x17
 	.string	"B"
 	.byte	0xc
 	.uahalf	0x259
-<<<<<<< HEAD
-	.uaword	0x5a77
-=======
-	.uaword	0x5a7e
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x5a5b
 	.byte	0
 	.uleb128 0x14
 	.string	"Ifx_P_LPCR0"
 	.byte	0xc
 	.uahalf	0x25a
-<<<<<<< HEAD
-	.uaword	0x6e0d
-=======
-	.uaword	0x6e14
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x6df1
 	.uleb128 0x16
 	.byte	0x4
 	.byte	0xc
 	.uahalf	0x25d
-<<<<<<< HEAD
-	.uaword	0x6e7f
-=======
-	.uaword	0x6e86
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x6e63
 	.uleb128 0x17
 	.string	"U"
 	.byte	0xc
 	.uahalf	0x25f
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.uleb128 0x17
 	.string	"I"
 	.byte	0xc
 	.uahalf	0x260
-<<<<<<< HEAD
-	.uaword	0x205
-=======
-	.uaword	0x20c
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x1e9
 	.uleb128 0x17
 	.string	"B"
 	.byte	0xc
 	.uahalf	0x261
-<<<<<<< HEAD
-	.uaword	0x5ad7
-=======
-	.uaword	0x5ade
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x5abb
 	.uleb128 0x17
 	.string	"B_P21"
 	.byte	0xc
 	.uahalf	0x262
-<<<<<<< HEAD
-	.uaword	0x5b67
-=======
-	.uaword	0x5b6e
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x5b4b
 	.byte	0
 	.uleb128 0x14
 	.string	"Ifx_P_LPCR1"
 	.byte	0xc
 	.uahalf	0x263
-<<<<<<< HEAD
-	.uaword	0x6e49
-=======
-	.uaword	0x6e50
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x6e2d
 	.uleb128 0x16
 	.byte	0x4
 	.byte	0xc
 	.uahalf	0x266
-<<<<<<< HEAD
-	.uaword	0x6ebb
-=======
-	.uaword	0x6ec2
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x6e9f
 	.uleb128 0x17
 	.string	"U"
 	.byte	0xc
 	.uahalf	0x268
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.uleb128 0x17
 	.string	"I"
 	.byte	0xc
 	.uahalf	0x269
-<<<<<<< HEAD
-	.uaword	0x205
-=======
-	.uaword	0x20c
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x1e9
 	.uleb128 0x17
 	.string	"B"
 	.byte	0xc
 	.uahalf	0x26a
-<<<<<<< HEAD
-	.uaword	0x5c3a
-=======
-	.uaword	0x5c41
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x5c1e
 	.byte	0
 	.uleb128 0x14
 	.string	"Ifx_P_LPCR2"
 	.byte	0xc
 	.uahalf	0x26b
-<<<<<<< HEAD
-	.uaword	0x6e93
-=======
-	.uaword	0x6e9a
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x6e77
 	.uleb128 0x16
 	.byte	0x4
 	.byte	0xc
 	.uahalf	0x26e
-<<<<<<< HEAD
-	.uaword	0x6ef7
-=======
-	.uaword	0x6efe
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x6edb
 	.uleb128 0x17
 	.string	"U"
 	.byte	0xc
 	.uahalf	0x270
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.uleb128 0x17
 	.string	"I"
 	.byte	0xc
 	.uahalf	0x271
-<<<<<<< HEAD
-	.uaword	0x205
-=======
-	.uaword	0x20c
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x1e9
 	.uleb128 0x17
 	.string	"B"
 	.byte	0xc
 	.uahalf	0x272
-<<<<<<< HEAD
-	.uaword	0x5fea
-=======
-	.uaword	0x5ff1
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x5fce
 	.byte	0
 	.uleb128 0x14
 	.string	"Ifx_P_OMCR"
 	.byte	0xc
 	.uahalf	0x273
-<<<<<<< HEAD
-	.uaword	0x6ecf
-=======
-	.uaword	0x6ed6
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x6eb3
 	.uleb128 0x16
 	.byte	0x4
 	.byte	0xc
 	.uahalf	0x276
-<<<<<<< HEAD
-	.uaword	0x6f32
-=======
-	.uaword	0x6f39
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x6f16
 	.uleb128 0x17
 	.string	"U"
 	.byte	0xc
 	.uahalf	0x278
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.uleb128 0x17
 	.string	"I"
 	.byte	0xc
 	.uahalf	0x279
-<<<<<<< HEAD
-	.uaword	0x205
-=======
-	.uaword	0x20c
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x1e9
 	.uleb128 0x17
 	.string	"B"
 	.byte	0xc
 	.uahalf	0x27a
-<<<<<<< HEAD
-	.uaword	0x5ccd
-=======
-	.uaword	0x5cd4
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x5cb1
 	.byte	0
 	.uleb128 0x14
 	.string	"Ifx_P_OMCR0"
 	.byte	0xc
 	.uahalf	0x27b
-<<<<<<< HEAD
-	.uaword	0x6f0a
-=======
-	.uaword	0x6f11
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x6eee
 	.uleb128 0x16
 	.byte	0x4
 	.byte	0xc
 	.uahalf	0x27e
-<<<<<<< HEAD
-	.uaword	0x6f6e
-=======
-	.uaword	0x6f75
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x6f52
 	.uleb128 0x17
 	.string	"U"
 	.byte	0xc
 	.uahalf	0x280
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.uleb128 0x17
 	.string	"I"
 	.byte	0xc
 	.uahalf	0x281
-<<<<<<< HEAD
-	.uaword	0x205
-=======
-	.uaword	0x20c
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x1e9
 	.uleb128 0x17
 	.string	"B"
 	.byte	0xc
 	.uahalf	0x282
-<<<<<<< HEAD
-	.uaword	0x5d5b
-=======
-	.uaword	0x5d62
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x5d3f
 	.byte	0
 	.uleb128 0x14
 	.string	"Ifx_P_OMCR12"
 	.byte	0xc
 	.uahalf	0x283
-<<<<<<< HEAD
-	.uaword	0x6f46
-=======
-	.uaword	0x6f4d
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x6f2a
 	.uleb128 0x16
 	.byte	0x4
 	.byte	0xc
 	.uahalf	0x286
-<<<<<<< HEAD
-	.uaword	0x6fab
-=======
-	.uaword	0x6fb2
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x6f8f
 	.uleb128 0x17
 	.string	"U"
 	.byte	0xc
 	.uahalf	0x288
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.uleb128 0x17
 	.string	"I"
 	.byte	0xc
 	.uahalf	0x289
-<<<<<<< HEAD
-	.uaword	0x205
-=======
-	.uaword	0x20c
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x1e9
 	.uleb128 0x17
 	.string	"B"
 	.byte	0xc
 	.uahalf	0x28a
-<<<<<<< HEAD
-	.uaword	0x5df5
-=======
-	.uaword	0x5dfc
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x5dd9
 	.byte	0
 	.uleb128 0x14
 	.string	"Ifx_P_OMCR4"
 	.byte	0xc
 	.uahalf	0x28b
-<<<<<<< HEAD
-	.uaword	0x6f83
-=======
-	.uaword	0x6f8a
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x6f67
 	.uleb128 0x16
 	.byte	0x4
 	.byte	0xc
 	.uahalf	0x28e
-<<<<<<< HEAD
-	.uaword	0x6fe7
-=======
-	.uaword	0x6fee
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x6fcb
 	.uleb128 0x17
 	.string	"U"
 	.byte	0xc
 	.uahalf	0x290
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.uleb128 0x17
 	.string	"I"
 	.byte	0xc
 	.uahalf	0x291
-<<<<<<< HEAD
-	.uaword	0x205
-=======
-	.uaword	0x20c
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x1e9
 	.uleb128 0x17
 	.string	"B"
 	.byte	0xc
 	.uahalf	0x292
-<<<<<<< HEAD
-	.uaword	0x5e90
-=======
-	.uaword	0x5e97
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x5e74
 	.byte	0
 	.uleb128 0x14
 	.string	"Ifx_P_OMCR8"
 	.byte	0xc
 	.uahalf	0x293
-<<<<<<< HEAD
-	.uaword	0x6fbf
-=======
-	.uaword	0x6fc6
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x6fa3
 	.uleb128 0x16
 	.byte	0x4
 	.byte	0xc
 	.uahalf	0x296
-<<<<<<< HEAD
-	.uaword	0x7023
-=======
-	.uaword	0x702a
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x7007
 	.uleb128 0x17
 	.string	"U"
 	.byte	0xc
 	.uahalf	0x298
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.uleb128 0x17
 	.string	"I"
 	.byte	0xc
 	.uahalf	0x299
-<<<<<<< HEAD
-	.uaword	0x205
-=======
-	.uaword	0x20c
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x1e9
 	.uleb128 0x17
 	.string	"B"
 	.byte	0xc
 	.uahalf	0x29a
-<<<<<<< HEAD
-	.uaword	0x6238
-=======
-	.uaword	0x623f
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x621c
 	.byte	0
 	.uleb128 0x14
 	.string	"Ifx_P_OMR"
 	.byte	0xc
 	.uahalf	0x29b
-<<<<<<< HEAD
-	.uaword	0x6ffb
-=======
-	.uaword	0x7002
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x6fdf
 	.uleb128 0x16
 	.byte	0x4
 	.byte	0xc
 	.uahalf	0x29e
-<<<<<<< HEAD
-	.uaword	0x705d
-=======
-	.uaword	0x7064
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x7041
 	.uleb128 0x17
 	.string	"U"
 	.byte	0xc
 	.uahalf	0x2a0
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.uleb128 0x17
 	.string	"I"
 	.byte	0xc
 	.uahalf	0x2a1
-<<<<<<< HEAD
-	.uaword	0x205
-=======
-	.uaword	0x20c
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x1e9
 	.uleb128 0x17
 	.string	"B"
 	.byte	0xc
 	.uahalf	0x2a2
-<<<<<<< HEAD
-	.uaword	0x65cc
-=======
-	.uaword	0x65d3
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x65b0
 	.byte	0
 	.uleb128 0x14
 	.string	"Ifx_P_OMSR"
 	.byte	0xc
 	.uahalf	0x2a3
-<<<<<<< HEAD
-	.uaword	0x7035
-=======
-	.uaword	0x703c
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x7019
 	.uleb128 0x16
 	.byte	0x4
 	.byte	0xc
 	.uahalf	0x2a6
-<<<<<<< HEAD
-	.uaword	0x7098
-=======
-	.uaword	0x709f
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x707c
 	.uleb128 0x17
 	.string	"U"
 	.byte	0xc
 	.uahalf	0x2a8
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.uleb128 0x17
 	.string	"I"
 	.byte	0xc
 	.uahalf	0x2a9
-<<<<<<< HEAD
-	.uaword	0x205
-=======
-	.uaword	0x20c
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x1e9
 	.uleb128 0x17
 	.string	"B"
 	.byte	0xc
 	.uahalf	0x2aa
-<<<<<<< HEAD
-	.uaword	0x62bb
-=======
-	.uaword	0x62c2
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x629f
 	.byte	0
 	.uleb128 0x14
 	.string	"Ifx_P_OMSR0"
 	.byte	0xc
 	.uahalf	0x2ab
-<<<<<<< HEAD
-	.uaword	0x7070
-=======
-	.uaword	0x7077
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x7054
 	.uleb128 0x16
 	.byte	0x4
 	.byte	0xc
 	.uahalf	0x2ae
-<<<<<<< HEAD
-	.uaword	0x70d4
-=======
-	.uaword	0x70db
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x70b8
 	.uleb128 0x17
 	.string	"U"
 	.byte	0xc
 	.uahalf	0x2b0
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.uleb128 0x17
 	.string	"I"
 	.byte	0xc
 	.uahalf	0x2b1
-<<<<<<< HEAD
-	.uaword	0x205
-=======
-	.uaword	0x20c
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x1e9
 	.uleb128 0x17
 	.string	"B"
 	.byte	0xc
 	.uahalf	0x2b2
-<<<<<<< HEAD
-	.uaword	0x6355
-=======
-	.uaword	0x635c
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x6339
 	.byte	0
 	.uleb128 0x14
 	.string	"Ifx_P_OMSR12"
 	.byte	0xc
 	.uahalf	0x2b3
-<<<<<<< HEAD
-	.uaword	0x70ac
-=======
-	.uaword	0x70b3
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x7090
 	.uleb128 0x16
 	.byte	0x4
 	.byte	0xc
 	.uahalf	0x2b6
-<<<<<<< HEAD
-	.uaword	0x7111
-=======
-	.uaword	0x7118
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x70f5
 	.uleb128 0x17
 	.string	"U"
 	.byte	0xc
 	.uahalf	0x2b8
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.uleb128 0x17
 	.string	"I"
 	.byte	0xc
 	.uahalf	0x2b9
-<<<<<<< HEAD
-	.uaword	0x205
-=======
-	.uaword	0x20c
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x1e9
 	.uleb128 0x17
 	.string	"B"
 	.byte	0xc
 	.uahalf	0x2ba
-<<<<<<< HEAD
-	.uaword	0x63eb
-=======
-	.uaword	0x63f2
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x63cf
 	.byte	0
 	.uleb128 0x14
 	.string	"Ifx_P_OMSR4"
 	.byte	0xc
 	.uahalf	0x2bb
-<<<<<<< HEAD
-	.uaword	0x70e9
-=======
-	.uaword	0x70f0
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x70cd
 	.uleb128 0x16
 	.byte	0x4
 	.byte	0xc
 	.uahalf	0x2be
-<<<<<<< HEAD
-	.uaword	0x714d
-=======
-	.uaword	0x7154
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x7131
 	.uleb128 0x17
 	.string	"U"
 	.byte	0xc
 	.uahalf	0x2c0
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.uleb128 0x17
 	.string	"I"
 	.byte	0xc
 	.uahalf	0x2c1
-<<<<<<< HEAD
-	.uaword	0x205
-=======
-	.uaword	0x20c
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x1e9
 	.uleb128 0x17
 	.string	"B"
 	.byte	0xc
 	.uahalf	0x2c2
-<<<<<<< HEAD
-	.uaword	0x6482
-=======
-	.uaword	0x6489
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x6466
 	.byte	0
 	.uleb128 0x14
 	.string	"Ifx_P_OMSR8"
 	.byte	0xc
 	.uahalf	0x2c3
-<<<<<<< HEAD
-	.uaword	0x7125
-=======
-	.uaword	0x712c
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x7109
 	.uleb128 0x16
 	.byte	0x4
 	.byte	0xc
 	.uahalf	0x2c6
-<<<<<<< HEAD
-	.uaword	0x7189
-=======
-	.uaword	0x7190
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x716d
 	.uleb128 0x17
 	.string	"U"
 	.byte	0xc
 	.uahalf	0x2c8
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.uleb128 0x17
 	.string	"I"
 	.byte	0xc
 	.uahalf	0x2c9
-<<<<<<< HEAD
-	.uaword	0x205
-=======
-	.uaword	0x20c
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x1e9
 	.uleb128 0x17
 	.string	"B"
 	.byte	0xc
 	.uahalf	0x2ca
-<<<<<<< HEAD
-	.uaword	0x6704
-=======
-	.uaword	0x670b
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x66e8
 	.byte	0
 	.uleb128 0x14
 	.string	"Ifx_P_OUT"
 	.byte	0xc
 	.uahalf	0x2cb
-<<<<<<< HEAD
-	.uaword	0x7161
-=======
-	.uaword	0x7168
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x7145
 	.uleb128 0x16
 	.byte	0x4
 	.byte	0xc
 	.uahalf	0x2ce
-<<<<<<< HEAD
-	.uaword	0x71c3
-=======
-	.uaword	0x71ca
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x71a7
 	.uleb128 0x17
 	.string	"U"
 	.byte	0xc
 	.uahalf	0x2d0
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.uleb128 0x17
 	.string	"I"
 	.byte	0xc
 	.uahalf	0x2d1
-<<<<<<< HEAD
-	.uaword	0x205
-=======
-	.uaword	0x20c
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x1e9
 	.uleb128 0x17
 	.string	"B"
 	.byte	0xc
 	.uahalf	0x2d2
-<<<<<<< HEAD
-	.uaword	0x6801
-=======
-	.uaword	0x6808
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x67e5
 	.byte	0
 	.uleb128 0x14
 	.string	"Ifx_P_PCSR"
 	.byte	0xc
 	.uahalf	0x2d3
-<<<<<<< HEAD
-	.uaword	0x719b
-=======
-	.uaword	0x71a2
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x717f
 	.uleb128 0x16
 	.byte	0x4
 	.byte	0xc
 	.uahalf	0x2d6
-<<<<<<< HEAD
-	.uaword	0x71fe
-=======
-	.uaword	0x7205
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x71e2
 	.uleb128 0x17
 	.string	"U"
 	.byte	0xc
 	.uahalf	0x2d8
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.uleb128 0x17
 	.string	"I"
 	.byte	0xc
 	.uahalf	0x2d9
-<<<<<<< HEAD
-	.uaword	0x205
-=======
-	.uaword	0x20c
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x1e9
 	.uleb128 0x17
 	.string	"B"
 	.byte	0xc
 	.uahalf	0x2da
-<<<<<<< HEAD
-	.uaword	0x696b
-=======
-	.uaword	0x6972
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x694f
 	.byte	0
 	.uleb128 0x14
 	.string	"Ifx_P_PDISC"
 	.byte	0xc
 	.uahalf	0x2db
-<<<<<<< HEAD
-	.uaword	0x71d6
-=======
-	.uaword	0x71dd
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x71ba
 	.uleb128 0x16
 	.byte	0x4
 	.byte	0xc
 	.uahalf	0x2de
-<<<<<<< HEAD
-	.uaword	0x723a
-=======
-	.uaword	0x7241
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x721e
 	.uleb128 0x17
 	.string	"U"
 	.byte	0xc
 	.uahalf	0x2e0
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.uleb128 0x17
 	.string	"I"
 	.byte	0xc
 	.uahalf	0x2e1
-<<<<<<< HEAD
-	.uaword	0x205
-=======
-	.uaword	0x20c
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x1e9
 	.uleb128 0x17
 	.string	"B"
 	.byte	0xc
 	.uahalf	0x2e2
-<<<<<<< HEAD
-	.uaword	0x6a9f
-=======
-	.uaword	0x6aa6
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x6a83
 	.byte	0
 	.uleb128 0x14
 	.string	"Ifx_P_PDR0"
 	.byte	0xc
 	.uahalf	0x2e3
-<<<<<<< HEAD
-	.uaword	0x7212
-=======
-	.uaword	0x7219
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x71f6
 	.uleb128 0x16
 	.byte	0x4
 	.byte	0xc
 	.uahalf	0x2e6
-<<<<<<< HEAD
-	.uaword	0x7275
-=======
-	.uaword	0x727c
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x7259
 	.uleb128 0x17
 	.string	"U"
 	.byte	0xc
 	.uahalf	0x2e8
-<<<<<<< HEAD
-	.uaword	0x172
-=======
-	.uaword	0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x156
 	.uleb128 0x17
 	.string	"I"
 	.byte	0xc
 	.uahalf	0x2e9
-<<<<<<< HEAD
-	.uaword	0x205
-=======
-	.uaword	0x20c
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x1e9
 	.uleb128 0x17
 	.string	"B"
 	.byte	0xc
 	.uahalf	0x2ea
-<<<<<<< HEAD
-	.uaword	0x6bde
-=======
-	.uaword	0x6be5
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x6bc2
 	.byte	0
 	.uleb128 0x14
 	.string	"Ifx_P_PDR1"
 	.byte	0xc
 	.uahalf	0x2eb
-<<<<<<< HEAD
-	.uaword	0x724d
-=======
-	.uaword	0x7254
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x7231
 	.uleb128 0x18
 	.string	"_Ifx_P"
 	.uahalf	0x100
 	.byte	0xc
 	.uahalf	0x2f6
-<<<<<<< HEAD
-	.uaword	0x74c2
-=======
-	.uaword	0x74c9
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x74a6
 	.uleb128 0x19
 	.string	"OUT"
 	.byte	0xc
 	.uahalf	0x2f8
-<<<<<<< HEAD
-	.uaword	0x7189
-=======
-	.uaword	0x7190
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x716d
 	.byte	0
 	.uleb128 0x19
 	.string	"OMR"
 	.byte	0xc
 	.uahalf	0x2f9
-<<<<<<< HEAD
-	.uaword	0x7023
-=======
-	.uaword	0x702a
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x7007
 	.byte	0x4
 	.uleb128 0x19
 	.string	"ID"
 	.byte	0xc
 	.uahalf	0x2fa
-<<<<<<< HEAD
-	.uaword	0x6cd2
-=======
-	.uaword	0x6cd9
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x6cb6
 	.byte	0x8
 	.uleb128 0x1a
 	.uaword	.LASF36
 	.byte	0xc
 	.uahalf	0x2fb
-<<<<<<< HEAD
-	.uaword	0x4dc
-=======
-	.uaword	0x4e3
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x4c0
 	.byte	0xc
 	.uleb128 0x19
 	.string	"IOCR0"
 	.byte	0xc
 	.uahalf	0x2fc
-<<<<<<< HEAD
-	.uaword	0x6d44
-=======
-	.uaword	0x6d4b
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x6d28
 	.byte	0x10
 	.uleb128 0x19
 	.string	"IOCR4"
 	.byte	0xc
 	.uahalf	0x2fd
-<<<<<<< HEAD
-	.uaword	0x6dbd
-=======
-	.uaword	0x6dc4
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x6da1
 	.byte	0x14
 	.uleb128 0x19
 	.string	"IOCR8"
 	.byte	0xc
 	.uahalf	0x2fe
-<<<<<<< HEAD
-	.uaword	0x6df9
-=======
-	.uaword	0x6e00
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x6ddd
 	.byte	0x18
 	.uleb128 0x19
 	.string	"IOCR12"
 	.byte	0xc
 	.uahalf	0x2ff
-<<<<<<< HEAD
-	.uaword	0x6d80
-=======
-	.uaword	0x6d87
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x6d64
 	.byte	0x1c
 	.uleb128 0x1a
 	.uaword	.LASF19
 	.byte	0xc
 	.uahalf	0x300
-<<<<<<< HEAD
-	.uaword	0x4dc
-=======
-	.uaword	0x4e3
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x4c0
 	.byte	0x20
 	.uleb128 0x19
 	.string	"IN"
 	.byte	0xc
 	.uahalf	0x301
-<<<<<<< HEAD
-	.uaword	0x6d0b
-=======
-	.uaword	0x6d12
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x6cef
 	.byte	0x24
 	.uleb128 0x1a
 	.uaword	.LASF23
 	.byte	0xc
 	.uahalf	0x302
-<<<<<<< HEAD
-	.uaword	0x4cc
-=======
-	.uaword	0x4d3
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x4b0
 	.byte	0x28
 	.uleb128 0x19
 	.string	"PDR0"
 	.byte	0xc
 	.uahalf	0x303
-<<<<<<< HEAD
-	.uaword	0x723a
-=======
-	.uaword	0x7241
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x721e
 	.byte	0x40
 	.uleb128 0x19
 	.string	"PDR1"
 	.byte	0xc
 	.uahalf	0x304
-<<<<<<< HEAD
-	.uaword	0x7275
-=======
-	.uaword	0x727c
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x7259
 	.byte	0x44
 	.uleb128 0x19
 	.string	"reserved_48"
 	.byte	0xc
 	.uahalf	0x305
-<<<<<<< HEAD
-	.uaword	0x4ec
-=======
-	.uaword	0x4f3
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x4d0
 	.byte	0x48
 	.uleb128 0x19
 	.string	"ESR"
 	.byte	0xc
 	.uahalf	0x306
-<<<<<<< HEAD
-	.uaword	0x6c98
-=======
-	.uaword	0x6c9f
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x6c7c
 	.byte	0x50
 	.uleb128 0x19
 	.string	"reserved_54"
 	.byte	0xc
 	.uahalf	0x307
-<<<<<<< HEAD
-	.uaword	0x49c
-=======
-	.uaword	0x4a3
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x480
 	.byte	0x54
 	.uleb128 0x19
 	.string	"PDISC"
 	.byte	0xc
 	.uahalf	0x308
-<<<<<<< HEAD
-	.uaword	0x71fe
-=======
-	.uaword	0x7205
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x71e2
 	.byte	0x60
 	.uleb128 0x19
 	.string	"PCSR"
 	.byte	0xc
 	.uahalf	0x309
-<<<<<<< HEAD
-	.uaword	0x71c3
-=======
-	.uaword	0x71ca
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x71a7
 	.byte	0x64
 	.uleb128 0x19
 	.string	"reserved_68"
 	.byte	0xc
 	.uahalf	0x30a
-<<<<<<< HEAD
-	.uaword	0x4ec
-=======
-	.uaword	0x4f3
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x4d0
 	.byte	0x68
 	.uleb128 0x19
 	.string	"OMSR0"
 	.byte	0xc
 	.uahalf	0x30b
-<<<<<<< HEAD
-	.uaword	0x7098
-=======
-	.uaword	0x709f
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x707c
 	.byte	0x70
 	.uleb128 0x19
 	.string	"OMSR4"
 	.byte	0xc
 	.uahalf	0x30c
-<<<<<<< HEAD
-	.uaword	0x7111
-=======
-	.uaword	0x7118
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x70f5
 	.byte	0x74
 	.uleb128 0x19
 	.string	"OMSR8"
 	.byte	0xc
 	.uahalf	0x30d
-<<<<<<< HEAD
-	.uaword	0x714d
-=======
-	.uaword	0x7154
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x7131
 	.byte	0x78
 	.uleb128 0x19
 	.string	"OMSR12"
 	.byte	0xc
 	.uahalf	0x30e
-<<<<<<< HEAD
-	.uaword	0x70d4
-=======
-	.uaword	0x70db
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x70b8
 	.byte	0x7c
 	.uleb128 0x19
 	.string	"OMCR0"
 	.byte	0xc
 	.uahalf	0x30f
-<<<<<<< HEAD
-	.uaword	0x6f32
-=======
-	.uaword	0x6f39
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x6f16
 	.byte	0x80
 	.uleb128 0x19
 	.string	"OMCR4"
 	.byte	0xc
 	.uahalf	0x310
-<<<<<<< HEAD
-	.uaword	0x6fab
-=======
-	.uaword	0x6fb2
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x6f8f
 	.byte	0x84
 	.uleb128 0x19
 	.string	"OMCR8"
 	.byte	0xc
 	.uahalf	0x311
-<<<<<<< HEAD
-	.uaword	0x6fe7
-=======
-	.uaword	0x6fee
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x6fcb
 	.byte	0x88
 	.uleb128 0x19
 	.string	"OMCR12"
 	.byte	0xc
 	.uahalf	0x312
-<<<<<<< HEAD
-	.uaword	0x6f6e
-=======
-	.uaword	0x6f75
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x6f52
 	.byte	0x8c
 	.uleb128 0x19
 	.string	"OMSR"
 	.byte	0xc
 	.uahalf	0x313
-<<<<<<< HEAD
-	.uaword	0x705d
-=======
-	.uaword	0x7064
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x7041
 	.byte	0x90
 	.uleb128 0x19
 	.string	"OMCR"
 	.byte	0xc
 	.uahalf	0x314
-<<<<<<< HEAD
-	.uaword	0x6ef7
-=======
-	.uaword	0x6efe
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x6edb
 	.byte	0x94
 	.uleb128 0x19
 	.string	"reserved_98"
 	.byte	0xc
 	.uahalf	0x315
-<<<<<<< HEAD
-	.uaword	0x4ec
-=======
-	.uaword	0x4f3
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x4d0
 	.byte	0x98
 	.uleb128 0x19
 	.string	"LPCR0"
 	.byte	0xc
 	.uahalf	0x316
-<<<<<<< HEAD
-	.uaword	0x6e35
-=======
-	.uaword	0x6e3c
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x6e19
 	.byte	0xa0
 	.uleb128 0x19
 	.string	"LPCR1"
 	.byte	0xc
 	.uahalf	0x317
-<<<<<<< HEAD
-	.uaword	0x6e7f
-=======
-	.uaword	0x6e86
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x6e63
 	.byte	0xa4
 	.uleb128 0x19
 	.string	"LPCR2"
 	.byte	0xc
 	.uahalf	0x318
-<<<<<<< HEAD
-	.uaword	0x6ebb
-=======
-	.uaword	0x6ec2
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x6e9f
 	.byte	0xa8
 	.uleb128 0x19
 	.string	"reserved_A4"
 	.byte	0xc
 	.uahalf	0x319
-<<<<<<< HEAD
-	.uaword	0x74c2
-=======
-	.uaword	0x74c9
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x74a6
 	.byte	0xac
 	.uleb128 0x19
 	.string	"ACCEN1"
 	.byte	0xc
 	.uahalf	0x31a
-<<<<<<< HEAD
-	.uaword	0x6c5b
-=======
-	.uaword	0x6c62
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x6c3f
 	.byte	0xf8
 	.uleb128 0x19
 	.string	"ACCEN0"
 	.byte	0xc
 	.uahalf	0x31b
-<<<<<<< HEAD
-	.uaword	0x6c1e
+	.uaword	0x6c02
 	.byte	0xfc
 	.byte	0
 	.uleb128 0x10
-	.uaword	0x21b
-	.uaword	0x74d2
+	.uaword	0x1ff
+	.uaword	0x74b6
 	.uleb128 0x11
-	.uaword	0x490
-=======
-	.uaword	0x6c25
-	.byte	0xfc
-	.byte	0
-	.uleb128 0x10
-	.uaword	0x222
-	.uaword	0x74d9
-	.uleb128 0x11
-	.uaword	0x497
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x474
 	.byte	0x4b
 	.byte	0
 	.uleb128 0x14
 	.string	"Ifx_P"
 	.byte	0xc
 	.uahalf	0x31c
-<<<<<<< HEAD
-	.uaword	0x74e0
+	.uaword	0x74c4
 	.uleb128 0x1e
-	.uaword	0x7288
+	.uaword	0x726c
 	.uleb128 0x6
 	.byte	0x4
-	.uaword	0x74d2
-=======
-	.uaword	0x74e7
-	.uleb128 0x1e
-	.uaword	0x728f
-	.uleb128 0x6
-	.byte	0x4
-	.uaword	0x74d9
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x74b6
 	.uleb128 0x3
 	.byte	0x1
 	.byte	0x5
 	.byte	0x5d
-<<<<<<< HEAD
-	.uaword	0x778b
-=======
-	.uaword	0x7792
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x776f
 	.uleb128 0x4
 	.string	"IfxPort_Mode_inputNoPullDevice"
 	.sleb128 0
@@ -22437,20 +15453,12 @@ IfxVadc_Adc_masterIndex:
 	.string	"IfxPort_Mode"
 	.byte	0x5
 	.byte	0x71
-<<<<<<< HEAD
-	.uaword	0x74eb
-=======
-	.uaword	0x74f2
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x74cf
 	.uleb128 0x3
 	.byte	0x1
 	.byte	0x5
 	.byte	0x76
-<<<<<<< HEAD
-	.uaword	0x787b
-=======
-	.uaword	0x7882
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x785f
 	.uleb128 0x4
 	.string	"IfxPort_OutputIdx_general"
 	.sleb128 128
@@ -22480,20 +15488,12 @@ IfxVadc_Adc_masterIndex:
 	.string	"IfxPort_OutputIdx"
 	.byte	0x5
 	.byte	0x7f
-<<<<<<< HEAD
-	.uaword	0x779f
-=======
-	.uaword	0x77a6
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x7783
 	.uleb128 0x3
 	.byte	0x1
 	.byte	0x5
 	.byte	0x84
-<<<<<<< HEAD
-	.uaword	0x78f6
-=======
-	.uaword	0x78fd
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x78da
 	.uleb128 0x4
 	.string	"IfxPort_OutputMode_pushPull"
 	.sleb128 128
@@ -22508,20 +15508,12 @@ IfxVadc_Adc_masterIndex:
 	.string	"IfxPort_OutputMode"
 	.byte	0x5
 	.byte	0x88
-<<<<<<< HEAD
-	.uaword	0x7894
-=======
-	.uaword	0x789b
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x7878
 	.uleb128 0x3
 	.byte	0x1
 	.byte	0x5
 	.byte	0x8f
-<<<<<<< HEAD
-	.uaword	0x7ab1
-=======
-	.uaword	0x7ab8
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x7a95
 	.uleb128 0x4
 	.string	"IfxPort_PadDriver_cmosAutomotiveSpeed1"
 	.sleb128 0
@@ -22563,118 +15555,69 @@ IfxVadc_Adc_masterIndex:
 	.string	"IfxPort_PadDriver"
 	.byte	0x5
 	.byte	0x9c
-<<<<<<< HEAD
-	.uaword	0x7910
-=======
-	.uaword	0x7917
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x78f4
 	.uleb128 0x8
 	.byte	0x8
 	.byte	0x5
 	.byte	0xbc
-<<<<<<< HEAD
-	.uaword	0x7aec
-=======
-	.uaword	0x7af3
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x7ad0
 	.uleb128 0xa
 	.string	"port"
 	.byte	0x5
 	.byte	0xbe
-<<<<<<< HEAD
-	.uaword	0x74e5
-=======
-	.uaword	0x74ec
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x74c9
 	.byte	0
 	.uleb128 0x9
 	.uaword	.LASF37
 	.byte	0x5
 	.byte	0xbf
-<<<<<<< HEAD
-	.uaword	0x22c
-=======
-	.uaword	0x233
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x210
 	.byte	0x4
 	.byte	0
 	.uleb128 0x5
 	.string	"IfxPort_Pin"
 	.byte	0x5
 	.byte	0xc0
-<<<<<<< HEAD
-	.uaword	0x7aca
+	.uaword	0x7aae
 	.uleb128 0x6
 	.byte	0x4
-	.uaword	0x523f
-=======
-	.uaword	0x7ad1
-	.uleb128 0x6
-	.byte	0x4
-	.uaword	0x5246
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x5223
 	.uleb128 0x8
 	.byte	0x10
 	.byte	0xd
 	.byte	0x41
-<<<<<<< HEAD
-	.uaword	0x7b35
-=======
-	.uaword	0x7b3c
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x7b19
 	.uleb128 0x9
 	.uaword	.LASF0
 	.byte	0xd
 	.byte	0x43
-<<<<<<< HEAD
-	.uaword	0x7aff
-=======
-	.uaword	0x7b06
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x7ae3
 	.byte	0
 	.uleb128 0xa
 	.string	"pin"
 	.byte	0xd
 	.byte	0x44
-<<<<<<< HEAD
-	.uaword	0x7aec
-=======
-	.uaword	0x7af3
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x7ad0
 	.byte	0x4
 	.uleb128 0xa
 	.string	"select"
 	.byte	0xd
 	.byte	0x45
-<<<<<<< HEAD
-	.uaword	0x787b
-=======
-	.uaword	0x7882
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x785f
 	.byte	0xc
 	.byte	0
 	.uleb128 0x5
 	.string	"IfxVadc_Emux_Out"
 	.byte	0xd
 	.byte	0x46
-<<<<<<< HEAD
-	.uaword	0x7b4d
+	.uaword	0x7b31
 	.uleb128 0x20
-	.uaword	0x7b05
-=======
-	.uaword	0x7b54
-	.uleb128 0x20
-	.uaword	0x7b0c
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x7ae9
 	.uleb128 0x3
 	.byte	0x1
 	.byte	0xe
 	.byte	0x87
-<<<<<<< HEAD
-	.uaword	0x7ba2
-=======
-	.uaword	0x7ba9
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x7b86
 	.uleb128 0x4
 	.string	"IfxCpu_Index_0"
 	.sleb128 0
@@ -22692,11 +15635,7 @@ IfxVadc_Adc_masterIndex:
 	.byte	0x1
 	.byte	0x2
 	.byte	0x58
-<<<<<<< HEAD
-	.uaword	0x7c4f
-=======
-	.uaword	0x7c56
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x7c33
 	.uleb128 0x4
 	.string	"IfxVadc_AnalogConverterMode_off"
 	.sleb128 0
@@ -22714,20 +15653,12 @@ IfxVadc_Adc_masterIndex:
 	.string	"IfxVadc_AnalogConverterMode"
 	.byte	0x2
 	.byte	0x5d
-<<<<<<< HEAD
-	.uaword	0x7ba2
-=======
-	.uaword	0x7ba9
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x7b86
 	.uleb128 0x3
 	.byte	0x1
 	.byte	0x2
 	.byte	0x62
-<<<<<<< HEAD
-	.uaword	0x7d0d
-=======
-	.uaword	0x7d14
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x7cf1
 	.uleb128 0x4
 	.string	"IfxVadc_ArbitrationRounds_4_slots"
 	.sleb128 0
@@ -22745,20 +15676,12 @@ IfxVadc_Adc_masterIndex:
 	.string	"IfxVadc_ArbitrationRounds"
 	.byte	0x2
 	.byte	0x67
-<<<<<<< HEAD
-	.uaword	0x7c72
-=======
-	.uaword	0x7c79
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x7c56
 	.uleb128 0x3
 	.byte	0x1
 	.byte	0x2
 	.byte	0x6c
-<<<<<<< HEAD
-	.uaword	0x8023
-=======
-	.uaword	0x802a
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x8007
 	.uleb128 0x4
 	.string	"IfxVadc_BoundaryExtension_standard"
 	.sleb128 0
@@ -22812,20 +15735,12 @@ IfxVadc_Adc_masterIndex:
 	.string	"IfxVadc_BoundaryExtension"
 	.byte	0x2
 	.byte	0x7d
-<<<<<<< HEAD
-	.uaword	0x7d2e
-=======
-	.uaword	0x7d35
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x7d12
 	.uleb128 0x3
 	.byte	0x1
 	.byte	0x2
 	.byte	0x82
-<<<<<<< HEAD
-	.uaword	0x80db
-=======
-	.uaword	0x80e2
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x80bf
 	.uleb128 0x4
 	.string	"IfxVadc_BoundarySelection_group0"
 	.sleb128 0
@@ -22843,20 +15758,12 @@ IfxVadc_Adc_masterIndex:
 	.string	"IfxVadc_BoundarySelection"
 	.byte	0x2
 	.byte	0x87
-<<<<<<< HEAD
-	.uaword	0x8044
-=======
-	.uaword	0x804b
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x8028
 	.uleb128 0x3
 	.byte	0x1
 	.byte	0x2
 	.byte	0x8c
-<<<<<<< HEAD
-	.uaword	0x81ce
-=======
-	.uaword	0x81d5
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x81b2
 	.uleb128 0x4
 	.string	"IfxVadc_ChannelId_none"
 	.sleb128 -1
@@ -22889,20 +15796,12 @@ IfxVadc_Adc_masterIndex:
 	.string	"IfxVadc_ChannelId"
 	.byte	0x2
 	.byte	0x96
-<<<<<<< HEAD
-	.uaword	0x80fc
-=======
-	.uaword	0x8103
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x80e0
 	.uleb128 0x3
 	.byte	0x1
 	.byte	0x2
 	.byte	0x9b
-<<<<<<< HEAD
-	.uaword	0x8238
-=======
-	.uaword	0x823f
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x821c
 	.uleb128 0x4
 	.string	"IfxVadc_ChannelReference_standard"
 	.sleb128 0
@@ -22914,20 +15813,12 @@ IfxVadc_Adc_masterIndex:
 	.string	"IfxVadc_ChannelReference"
 	.byte	0x2
 	.byte	0x9e
-<<<<<<< HEAD
-	.uaword	0x81e7
-=======
-	.uaword	0x81ee
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x81cb
 	.uleb128 0x3
 	.byte	0x1
 	.byte	0x2
 	.byte	0xa3
-<<<<<<< HEAD
-	.uaword	0x82ec
-=======
-	.uaword	0x82f3
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x82d0
 	.uleb128 0x4
 	.string	"IfxVadc_ChannelResolution_12bit"
 	.sleb128 0
@@ -22945,20 +15836,12 @@ IfxVadc_Adc_masterIndex:
 	.string	"IfxVadc_ChannelResolution"
 	.byte	0x2
 	.byte	0xa8
-<<<<<<< HEAD
-	.uaword	0x8258
-=======
-	.uaword	0x825f
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x823c
 	.uleb128 0x3
 	.byte	0x1
 	.byte	0x2
 	.byte	0xad
-<<<<<<< HEAD
-	.uaword	0x84bc
-=======
-	.uaword	0x84c3
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x84a0
 	.uleb128 0x4
 	.string	"IfxVadc_ChannelResult_0"
 	.sleb128 0
@@ -23012,20 +15895,12 @@ IfxVadc_Adc_masterIndex:
 	.string	"IfxVadc_ChannelResult"
 	.byte	0x2
 	.byte	0xbe
-<<<<<<< HEAD
-	.uaword	0x830d
-=======
-	.uaword	0x8314
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x82f1
 	.uleb128 0x3
 	.byte	0x1
 	.byte	0x2
 	.byte	0xc4
-<<<<<<< HEAD
-	.uaword	0x8537
-=======
-	.uaword	0x853e
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x851b
 	.uleb128 0x4
 	.string	"IfxVadc_ChannelSelectionStyle_channelNumber"
 	.sleb128 0
@@ -23037,20 +15912,12 @@ IfxVadc_Adc_masterIndex:
 	.string	"IfxVadc_ChannelSelectionStyle"
 	.byte	0x2
 	.byte	0xc8
-<<<<<<< HEAD
-	.uaword	0x84d9
-=======
-	.uaword	0x84e0
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x84bd
 	.uleb128 0x3
 	.byte	0x1
 	.byte	0x2
 	.byte	0xcd
-<<<<<<< HEAD
-	.uaword	0x8589
-=======
-	.uaword	0x8590
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x856d
 	.uleb128 0x4
 	.string	"IfxVadc_ConversionType_Compatible"
 	.sleb128 0
@@ -23059,20 +15926,12 @@ IfxVadc_Adc_masterIndex:
 	.string	"IfxVadc_ConversionType"
 	.byte	0x2
 	.byte	0xcf
-<<<<<<< HEAD
-	.uaword	0x855c
-=======
-	.uaword	0x8563
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x8540
 	.uleb128 0x3
 	.byte	0x1
 	.byte	0x2
 	.byte	0xd5
-<<<<<<< HEAD
-	.uaword	0x85f2
-=======
-	.uaword	0x85f9
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x85d6
 	.uleb128 0x4
 	.string	"IfxVadc_EmuxCodingScheme_binary"
 	.sleb128 0
@@ -23084,20 +15943,12 @@ IfxVadc_Adc_masterIndex:
 	.string	"IfxVadc_EmuxCodingScheme"
 	.byte	0x2
 	.byte	0xd8
-<<<<<<< HEAD
-	.uaword	0x85a7
-=======
-	.uaword	0x85ae
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x858b
 	.uleb128 0x3
 	.byte	0x1
 	.byte	0x2
 	.byte	0xdd
-<<<<<<< HEAD
-	.uaword	0x864f
-=======
-	.uaword	0x8656
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x8633
 	.uleb128 0x4
 	.string	"IfxVadc_EmuxInterface_0"
 	.sleb128 0
@@ -23109,20 +15960,12 @@ IfxVadc_Adc_masterIndex:
 	.string	"IfxVadc_EmuxInterface"
 	.byte	0x2
 	.byte	0xe0
-<<<<<<< HEAD
-	.uaword	0x8612
-=======
-	.uaword	0x8619
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x85f6
 	.uleb128 0x3
 	.byte	0x1
 	.byte	0x2
 	.byte	0xe6
-<<<<<<< HEAD
-	.uaword	0x86cb
-=======
-	.uaword	0x86d2
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x86af
 	.uleb128 0x4
 	.string	"IfxVadc_EmuxSampleTimeControl_settingChanges"
 	.sleb128 0
@@ -23134,20 +15977,12 @@ IfxVadc_Adc_masterIndex:
 	.string	"IfxVadc_EmuxSampleTimeControl"
 	.byte	0x2
 	.byte	0xe9
-<<<<<<< HEAD
-	.uaword	0x866c
-=======
-	.uaword	0x8673
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x8650
 	.uleb128 0x3
 	.byte	0x1
 	.byte	0x2
 	.byte	0xef
-<<<<<<< HEAD
-	.uaword	0x87d9
-=======
-	.uaword	0x87e0
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x87bd
 	.uleb128 0x4
 	.string	"IfxVadc_EmuxSelectValue_0"
 	.sleb128 0
@@ -23177,20 +16012,12 @@ IfxVadc_Adc_masterIndex:
 	.string	"IfxVadc_EmuxSelectValue"
 	.byte	0x2
 	.byte	0xf8
-<<<<<<< HEAD
-	.uaword	0x86f0
-=======
-	.uaword	0x86f7
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x86d4
 	.uleb128 0x3
 	.byte	0x1
 	.byte	0x2
 	.byte	0xfe
-<<<<<<< HEAD
-	.uaword	0x88b4
-=======
-	.uaword	0x88bb
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x8898
 	.uleb128 0x4
 	.string	"IfxVadc_ExternalMultiplexerMode_softwareControl"
 	.sleb128 0
@@ -23208,20 +16035,12 @@ IfxVadc_Adc_masterIndex:
 	.string	"IfxVadc_ExternalMultiplexerMode"
 	.byte	0x2
 	.uahalf	0x103
-<<<<<<< HEAD
-	.uaword	0x87f8
-=======
-	.uaword	0x87ff
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x87dc
 	.uleb128 0x21
 	.byte	0x1
 	.byte	0x2
 	.uahalf	0x112
-<<<<<<< HEAD
-	.uaword	0x895f
-=======
-	.uaword	0x8966
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x8943
 	.uleb128 0x4
 	.string	"IfxVadc_GatingMode_disabled"
 	.sleb128 0
@@ -23239,20 +16058,12 @@ IfxVadc_Adc_masterIndex:
 	.string	"IfxVadc_GatingMode"
 	.byte	0x2
 	.uahalf	0x117
-<<<<<<< HEAD
-	.uaword	0x88dc
-=======
-	.uaword	0x88e3
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x88c0
 	.uleb128 0x21
 	.byte	0x1
 	.byte	0x2
 	.uahalf	0x11c
-<<<<<<< HEAD
-	.uaword	0x8b1a
-=======
-	.uaword	0x8b21
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x8afe
 	.uleb128 0x4
 	.string	"IfxVadc_GatingSource_0"
 	.sleb128 0
@@ -23306,20 +16117,12 @@ IfxVadc_Adc_masterIndex:
 	.string	"IfxVadc_GatingSource"
 	.byte	0x2
 	.uahalf	0x12d
-<<<<<<< HEAD
-	.uaword	0x897a
-=======
-	.uaword	0x8981
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x895e
 	.uleb128 0x21
 	.byte	0x1
 	.byte	0x2
 	.uahalf	0x132
-<<<<<<< HEAD
-	.uaword	0x8bbb
-=======
-	.uaword	0x8bc2
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x8b9f
 	.uleb128 0x4
 	.string	"IfxVadc_InputClasses_group0"
 	.sleb128 0
@@ -23337,20 +16140,12 @@ IfxVadc_Adc_masterIndex:
 	.string	"IfxVadc_InputClasses"
 	.byte	0x2
 	.uahalf	0x137
-<<<<<<< HEAD
-	.uaword	0x8b37
-=======
-	.uaword	0x8b3e
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x8b1b
 	.uleb128 0x21
 	.byte	0x1
 	.byte	0x2
 	.uahalf	0x13c
-<<<<<<< HEAD
-	.uaword	0x8c66
-=======
-	.uaword	0x8c6d
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x8c4a
 	.uleb128 0x4
 	.string	"IfxVadc_LimitCheck_noCheck"
 	.sleb128 0
@@ -23368,20 +16163,12 @@ IfxVadc_Adc_masterIndex:
 	.string	"IfxVadc_LimitCheck"
 	.byte	0x2
 	.uahalf	0x141
-<<<<<<< HEAD
-	.uaword	0x8bd8
-=======
-	.uaword	0x8bdf
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x8bbc
 	.uleb128 0x21
 	.byte	0x1
 	.byte	0x2
 	.uahalf	0x146
-<<<<<<< HEAD
-	.uaword	0x8cd3
-=======
-	.uaword	0x8cda
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x8cb7
 	.uleb128 0x4
 	.string	"IfxVadc_LowSupplyVoltageSelect_5V"
 	.sleb128 0
@@ -23393,20 +16180,12 @@ IfxVadc_Adc_masterIndex:
 	.string	"IfxVadc_LowSupplyVoltageSelect"
 	.byte	0x2
 	.uahalf	0x149
-<<<<<<< HEAD
-	.uaword	0x8c81
-=======
-	.uaword	0x8c88
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x8c65
 	.uleb128 0x21
 	.byte	0x1
 	.byte	0x2
 	.uahalf	0x14e
-<<<<<<< HEAD
-	.uaword	0x9613
-=======
-	.uaword	0x961a
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x95f7
 	.uleb128 0x4
 	.string	"IfxVadc_Protection_channelControl0"
 	.sleb128 0
@@ -23601,20 +16380,12 @@ IfxVadc_Adc_masterIndex:
 	.string	"IfxVadc_Protection"
 	.byte	0x2
 	.uahalf	0x18e
-<<<<<<< HEAD
-	.uaword	0x8cfa
-=======
-	.uaword	0x8d01
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x8cde
 	.uleb128 0x21
 	.byte	0x1
 	.byte	0x2
 	.uahalf	0x193
-<<<<<<< HEAD
-	.uaword	0x96c8
-=======
-	.uaword	0x96cf
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x96ac
 	.uleb128 0x4
 	.string	"IfxVadc_RequestSlotPriority_lowest"
 	.sleb128 0
@@ -23632,20 +16403,12 @@ IfxVadc_Adc_masterIndex:
 	.string	"IfxVadc_RequestSlotPriority"
 	.byte	0x2
 	.uahalf	0x198
-<<<<<<< HEAD
-	.uaword	0x962e
-=======
-	.uaword	0x9635
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x9612
 	.uleb128 0x21
 	.byte	0x1
 	.byte	0x2
 	.uahalf	0x19d
-<<<<<<< HEAD
-	.uaword	0x9754
-=======
-	.uaword	0x975b
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x9738
 	.uleb128 0x4
 	.string	"IfxVadc_RequestSlotStartMode_waitForStart"
 	.sleb128 0
@@ -23657,20 +16420,12 @@ IfxVadc_Adc_masterIndex:
 	.string	"IfxVadc_RequestSlotStartMode"
 	.byte	0x2
 	.uahalf	0x1a0
-<<<<<<< HEAD
-	.uaword	0x96ec
-=======
-	.uaword	0x96f3
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x96d0
 	.uleb128 0x21
 	.byte	0x1
 	.byte	0x2
 	.uahalf	0x1a5
-<<<<<<< HEAD
-	.uaword	0x97e1
-=======
-	.uaword	0x97e8
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x97c5
 	.uleb128 0x4
 	.string	"IfxVadc_RequestSource_queue"
 	.sleb128 0
@@ -23685,20 +16440,12 @@ IfxVadc_Adc_masterIndex:
 	.string	"IfxVadc_RequestSource"
 	.byte	0x2
 	.uahalf	0x1a9
-<<<<<<< HEAD
-	.uaword	0x9779
-=======
-	.uaword	0x9780
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x975d
 	.uleb128 0x21
 	.byte	0x1
 	.byte	0x2
 	.uahalf	0x1b7
-<<<<<<< HEAD
-	.uaword	0x98c5
-=======
-	.uaword	0x98cc
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x98a9
 	.uleb128 0x4
 	.string	"IfxVadc_SrcNr_group0"
 	.sleb128 0
@@ -23728,20 +16475,12 @@ IfxVadc_Adc_masterIndex:
 	.string	"IfxVadc_SrcNr"
 	.byte	0x2
 	.uahalf	0x1c0
-<<<<<<< HEAD
-	.uaword	0x97ff
-=======
-	.uaword	0x9806
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x97e3
 	.uleb128 0x21
 	.byte	0x1
 	.byte	0x2
 	.uahalf	0x1c7
-<<<<<<< HEAD
-	.uaword	0x99b7
-=======
-	.uaword	0x99be
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x999b
 	.uleb128 0x4
 	.string	"IfxVadc_Status_noError"
 	.sleb128 0
@@ -23768,20 +16507,12 @@ IfxVadc_Adc_masterIndex:
 	.string	"IfxVadc_Status"
 	.byte	0x2
 	.uahalf	0x1cf
-<<<<<<< HEAD
-	.uaword	0x98db
-=======
-	.uaword	0x98e2
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x98bf
 	.uleb128 0x21
 	.byte	0x1
 	.byte	0x2
 	.uahalf	0x1d4
-<<<<<<< HEAD
-	.uaword	0x9a6d
-=======
-	.uaword	0x9a74
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x9a51
 	.uleb128 0x4
 	.string	"IfxVadc_TriggerMode_noExternalTrigger"
 	.sleb128 0
@@ -23799,20 +16530,12 @@ IfxVadc_Adc_masterIndex:
 	.string	"IfxVadc_TriggerMode"
 	.byte	0x2
 	.uahalf	0x1d9
-<<<<<<< HEAD
-	.uaword	0x99ce
-=======
-	.uaword	0x99d5
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x99b2
 	.uleb128 0x21
 	.byte	0x1
 	.byte	0x2
 	.uahalf	0x1de
-<<<<<<< HEAD
-	.uaword	0x9c39
-=======
-	.uaword	0x9c40
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x9c1d
 	.uleb128 0x4
 	.string	"IfxVadc_TriggerSource_0"
 	.sleb128 0
@@ -23866,1193 +16589,699 @@ IfxVadc_Adc_masterIndex:
 	.string	"IfxVadc_TriggerSource"
 	.byte	0x2
 	.uahalf	0x1ef
-<<<<<<< HEAD
-	.uaword	0x9a89
-=======
-	.uaword	0x9a90
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x9a6d
 	.uleb128 0x14
 	.string	"IfxVadc_Adc_SYNCTR_STSEL"
 	.byte	0xf
 	.uahalf	0x16f
-<<<<<<< HEAD
-	.uaword	0x22c
-=======
-	.uaword	0x233
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x210
 	.uleb128 0x22
 	.byte	0x4
 	.byte	0xf
 	.uahalf	0x179
-<<<<<<< HEAD
-	.uaword	0x9c8f
-=======
-	.uaword	0x9c96
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x9c73
 	.uleb128 0x1a
 	.uaword	.LASF38
 	.byte	0xf
 	.uahalf	0x17b
-<<<<<<< HEAD
-	.uaword	0x7aff
-=======
-	.uaword	0x7b06
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x7ae3
 	.byte	0
 	.byte	0
 	.uleb128 0x14
 	.string	"IfxVadc_Adc"
 	.byte	0xf
 	.uahalf	0x17c
-<<<<<<< HEAD
-	.uaword	0x9c78
-=======
-	.uaword	0x9c7f
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x9c5c
 	.uleb128 0x22
 	.byte	0x4
 	.byte	0xf
 	.uahalf	0x180
-<<<<<<< HEAD
-	.uaword	0x9ce1
-=======
-	.uaword	0x9ce8
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x9cc5
 	.uleb128 0x1a
 	.uaword	.LASF39
 	.byte	0xf
 	.uahalf	0x182
-<<<<<<< HEAD
-	.uaword	0x8b1a
-=======
-	.uaword	0x8b21
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x8afe
 	.byte	0
 	.uleb128 0x1a
 	.uaword	.LASF40
 	.byte	0xf
 	.uahalf	0x183
-<<<<<<< HEAD
-	.uaword	0x9c39
-=======
-	.uaword	0x9c40
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x9c1d
 	.byte	0x1
 	.uleb128 0x1a
 	.uaword	.LASF41
 	.byte	0xf
 	.uahalf	0x184
-<<<<<<< HEAD
-	.uaword	0x895f
-=======
-	.uaword	0x8966
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x8943
 	.byte	0x2
 	.uleb128 0x1a
 	.uaword	.LASF42
 	.byte	0xf
 	.uahalf	0x185
-<<<<<<< HEAD
-	.uaword	0x9a6d
-=======
-	.uaword	0x9a74
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x9a51
 	.byte	0x3
 	.byte	0
 	.uleb128 0x14
 	.string	"IfxVadc_Adc_GatingTriggerConfig"
 	.byte	0xf
 	.uahalf	0x186
-<<<<<<< HEAD
-	.uaword	0x9ca3
-=======
-	.uaword	0x9caa
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x9c87
 	.uleb128 0x22
 	.byte	0x4
 	.byte	0xf
 	.uahalf	0x18e
-<<<<<<< HEAD
-	.uaword	0x9d8b
-=======
-	.uaword	0x9d92
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x9d6f
 	.uleb128 0x1a
 	.uaword	.LASF43
 	.byte	0xf
 	.uahalf	0x190
-<<<<<<< HEAD
-	.uaword	0x7d0d
-=======
-	.uaword	0x7d14
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x7cf1
 	.byte	0
 	.uleb128 0x19
 	.string	"requestSlotQueueEnabled"
 	.byte	0xf
 	.uahalf	0x191
-<<<<<<< HEAD
-	.uaword	0x20c
-=======
-	.uaword	0x213
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x1f0
 	.byte	0x1
 	.uleb128 0x19
 	.string	"requestSlotScanEnabled"
 	.byte	0xf
 	.uahalf	0x192
-<<<<<<< HEAD
-	.uaword	0x20c
-=======
-	.uaword	0x213
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x1f0
 	.byte	0x2
 	.uleb128 0x19
 	.string	"requestSlotBackgroundScanEnabled"
 	.byte	0xf
 	.uahalf	0x193
-<<<<<<< HEAD
-	.uaword	0x20c
-=======
-	.uaword	0x213
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x1f0
 	.byte	0x3
 	.byte	0
 	.uleb128 0x14
 	.string	"IfxVadc_Adc_ArbiterConfig"
 	.byte	0xf
 	.uahalf	0x194
-<<<<<<< HEAD
-	.uaword	0x9d09
-=======
-	.uaword	0x9d10
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x9ced
 	.uleb128 0x22
 	.byte	0x8
 	.byte	0xf
 	.uahalf	0x198
-<<<<<<< HEAD
-	.uaword	0x9e01
-=======
-	.uaword	0x9e08
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x9de5
 	.uleb128 0x19
 	.string	"autoBackgroundScanEnabled"
 	.byte	0xf
 	.uahalf	0x19a
-<<<<<<< HEAD
-	.uaword	0x20c
-=======
-	.uaword	0x213
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x1f0
 	.byte	0
 	.uleb128 0x1a
 	.uaword	.LASF44
 	.byte	0xf
 	.uahalf	0x19b
-<<<<<<< HEAD
-	.uaword	0x9ce1
-=======
-	.uaword	0x9ce8
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x9cc5
 	.byte	0x2
 	.uleb128 0x1a
 	.uaword	.LASF45
 	.byte	0xf
 	.uahalf	0x19c
-<<<<<<< HEAD
-	.uaword	0x96c8
-=======
-	.uaword	0x96cf
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x96ac
 	.byte	0x6
 	.uleb128 0x1a
 	.uaword	.LASF46
 	.byte	0xf
 	.uahalf	0x19d
-<<<<<<< HEAD
-	.uaword	0x9754
-=======
-	.uaword	0x975b
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x9738
 	.byte	0x7
 	.byte	0
 	.uleb128 0x14
 	.string	"IfxVadc_Adc_BackgroundScanConfig"
 	.byte	0xf
 	.uahalf	0x19e
-<<<<<<< HEAD
-	.uaword	0x9dad
-=======
-	.uaword	0x9db4
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x9d91
 	.uleb128 0x22
 	.byte	0x8
 	.byte	0xf
 	.uahalf	0x1a2
-<<<<<<< HEAD
-	.uaword	0x9e4e
-=======
-	.uaword	0x9e55
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x9e32
 	.uleb128 0x1a
 	.uaword	.LASF47
 	.byte	0xf
 	.uahalf	0x1a4
-<<<<<<< HEAD
-	.uaword	0x2c0
-=======
-	.uaword	0x2c7
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x2a4
 	.byte	0
 	.uleb128 0x1a
 	.uaword	.LASF48
 	.byte	0xf
 	.uahalf	0x1a5
-<<<<<<< HEAD
-	.uaword	0x82ec
-=======
-	.uaword	0x82f3
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x82d0
 	.byte	0x4
 	.byte	0
 	.uleb128 0x14
 	.string	"IfxVadc_Adc_ClassConfig"
 	.byte	0xf
 	.uahalf	0x1a6
-<<<<<<< HEAD
-	.uaword	0x9e2a
-=======
-	.uaword	0x9e31
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x9e0e
 	.uleb128 0x22
 	.byte	0xc
 	.byte	0xf
 	.uahalf	0x1aa
-<<<<<<< HEAD
-	.uaword	0x9e9f
-=======
-	.uaword	0x9ea6
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x9e83
 	.uleb128 0x1a
 	.uaword	.LASF0
 	.byte	0xf
 	.uahalf	0x1ac
-<<<<<<< HEAD
-	.uaword	0x9c8f
-=======
-	.uaword	0x9c96
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x9c73
 	.byte	0
 	.uleb128 0x1a
 	.uaword	.LASF49
 	.byte	0xf
 	.uahalf	0x1ad
-<<<<<<< HEAD
-	.uaword	0x9e9f
-=======
-	.uaword	0x9ea6
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x9e83
 	.byte	0x4
 	.uleb128 0x1a
 	.uaword	.LASF50
 	.byte	0xf
 	.uahalf	0x1ae
-<<<<<<< HEAD
-	.uaword	0x619
-=======
-	.uaword	0x620
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x5fd
 	.byte	0x8
 	.byte	0
 	.uleb128 0x6
 	.byte	0x4
-<<<<<<< HEAD
-	.uaword	0x4e69
-=======
-	.uaword	0x4e70
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x4e4d
 	.uleb128 0x14
 	.string	"IfxVadc_Adc_Group"
 	.byte	0xf
 	.uahalf	0x1af
-<<<<<<< HEAD
-	.uaword	0x9e6e
-=======
-	.uaword	0x9e75
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x9e52
 	.uleb128 0x22
 	.byte	0x8
 	.byte	0xf
 	.uahalf	0x1b3
-<<<<<<< HEAD
-	.uaword	0x9f0d
-=======
-	.uaword	0x9f14
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x9ef1
 	.uleb128 0x19
 	.string	"flushQueueAfterInit"
 	.byte	0xf
 	.uahalf	0x1b5
-<<<<<<< HEAD
-	.uaword	0x20c
-=======
-	.uaword	0x213
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x1f0
 	.byte	0
 	.uleb128 0x1a
 	.uaword	.LASF44
 	.byte	0xf
 	.uahalf	0x1b6
-<<<<<<< HEAD
-	.uaword	0x9ce1
-=======
-	.uaword	0x9ce8
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x9cc5
 	.byte	0x2
 	.uleb128 0x1a
 	.uaword	.LASF45
 	.byte	0xf
 	.uahalf	0x1b7
-<<<<<<< HEAD
-	.uaword	0x96c8
-=======
-	.uaword	0x96cf
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x96ac
 	.byte	0x6
 	.uleb128 0x1a
 	.uaword	.LASF46
 	.byte	0xf
 	.uahalf	0x1b8
-<<<<<<< HEAD
-	.uaword	0x9754
-=======
-	.uaword	0x975b
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x9738
 	.byte	0x7
 	.byte	0
 	.uleb128 0x14
 	.string	"IfxVadc_Adc_QueueConfig"
 	.byte	0xf
 	.uahalf	0x1b9
-<<<<<<< HEAD
-	.uaword	0x9ebf
-=======
-	.uaword	0x9ec6
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x9ea3
 	.uleb128 0x22
 	.byte	0x8
 	.byte	0xf
 	.uahalf	0x1bd
-<<<<<<< HEAD
-	.uaword	0x9f77
-=======
-	.uaword	0x9f7e
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x9f5b
 	.uleb128 0x19
 	.string	"autoscanEnabled"
 	.byte	0xf
 	.uahalf	0x1bf
-<<<<<<< HEAD
-	.uaword	0x20c
-=======
-	.uaword	0x213
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x1f0
 	.byte	0
 	.uleb128 0x1a
 	.uaword	.LASF44
 	.byte	0xf
 	.uahalf	0x1c0
-<<<<<<< HEAD
-	.uaword	0x9ce1
-=======
-	.uaword	0x9ce8
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x9cc5
 	.byte	0x2
 	.uleb128 0x1a
 	.uaword	.LASF45
 	.byte	0xf
 	.uahalf	0x1c1
-<<<<<<< HEAD
-	.uaword	0x96c8
-=======
-	.uaword	0x96cf
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x96ac
 	.byte	0x6
 	.uleb128 0x1a
 	.uaword	.LASF46
 	.byte	0xf
 	.uahalf	0x1c2
-<<<<<<< HEAD
-	.uaword	0x9754
-=======
-	.uaword	0x975b
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x9738
 	.byte	0x7
 	.byte	0
 	.uleb128 0x14
 	.string	"IfxVadc_Adc_ScanConfig"
 	.byte	0xf
 	.uahalf	0x1c3
-<<<<<<< HEAD
-	.uaword	0x9f2d
-=======
-	.uaword	0x9f34
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x9f11
 	.uleb128 0x22
 	.byte	0x10
 	.byte	0xf
 	.uahalf	0x1c7
-<<<<<<< HEAD
-	.uaword	0x9fc8
-=======
-	.uaword	0x9fcf
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x9fac
 	.uleb128 0x19
 	.string	"pins"
 	.byte	0xf
 	.uahalf	0x1c9
-<<<<<<< HEAD
-	.uaword	0x9fc8
-=======
-	.uaword	0x9fcf
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x9fac
 	.byte	0
 	.uleb128 0x1a
 	.uaword	.LASF51
 	.byte	0xf
 	.uahalf	0x1ca
-<<<<<<< HEAD
-	.uaword	0x78f6
-=======
-	.uaword	0x78fd
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x78da
 	.byte	0xc
 	.uleb128 0x1a
 	.uaword	.LASF52
 	.byte	0xf
 	.uahalf	0x1cb
-<<<<<<< HEAD
-	.uaword	0x7ab1
+	.uaword	0x7a95
 	.byte	0xd
 	.byte	0
 	.uleb128 0x10
-	.uaword	0x9fd8
-	.uaword	0x9fd8
+	.uaword	0x9fbc
+	.uaword	0x9fbc
 	.uleb128 0x11
-	.uaword	0x490
-=======
-	.uaword	0x7ab8
-	.byte	0xd
-	.byte	0
-	.uleb128 0x10
-	.uaword	0x9fdf
-	.uaword	0x9fdf
-	.uleb128 0x11
-	.uaword	0x497
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x474
 	.byte	0x2
 	.byte	0
 	.uleb128 0x6
 	.byte	0x4
-<<<<<<< HEAD
-	.uaword	0x7b4d
-=======
-	.uaword	0x7b54
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x7b31
 	.uleb128 0x14
 	.string	"IfxVadc_Adc_EmuxPinConfig"
 	.byte	0xf
 	.uahalf	0x1cc
-<<<<<<< HEAD
-	.uaword	0x9f96
-=======
-	.uaword	0x9f9d
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x9f7a
 	.uleb128 0x22
 	.byte	0x8
 	.byte	0xf
 	.uahalf	0x1d2
-<<<<<<< HEAD
-	.uaword	0xa037
-=======
-	.uaword	0xa03e
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0xa01b
 	.uleb128 0x1a
 	.uaword	.LASF53
 	.byte	0xf
 	.uahalf	0x1d4
-<<<<<<< HEAD
-	.uaword	0x81ce
-=======
-	.uaword	0x81d5
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x81b2
 	.byte	0
 	.uleb128 0x19
 	.string	"resultreg"
 	.byte	0xf
 	.uahalf	0x1d5
-<<<<<<< HEAD
-	.uaword	0x84bc
-=======
-	.uaword	0x84c3
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x84a0
 	.byte	0x1
 	.uleb128 0x1a
 	.uaword	.LASF49
 	.byte	0xf
 	.uahalf	0x1d6
-<<<<<<< HEAD
-	.uaword	0xa037
-=======
-	.uaword	0xa03e
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0xa01b
 	.byte	0x4
 	.byte	0
 	.uleb128 0x6
 	.byte	0x4
-<<<<<<< HEAD
-	.uaword	0xa03d
+	.uaword	0xa021
 	.uleb128 0x20
-	.uaword	0x9ea5
-=======
-	.uaword	0xa044
-	.uleb128 0x20
-	.uaword	0x9eac
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x9e89
 	.uleb128 0x14
 	.string	"IfxVadc_Adc_Channel"
 	.byte	0xf
 	.uahalf	0x1d7
-<<<<<<< HEAD
-	.uaword	0xa000
-=======
-	.uaword	0xa007
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x9fe4
 	.uleb128 0x22
 	.byte	0x18
 	.byte	0xf
 	.uahalf	0x1db
-<<<<<<< HEAD
-	.uaword	0xa1a3
-=======
-	.uaword	0xa1aa
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0xa187
 	.uleb128 0x1a
 	.uaword	.LASF54
 	.byte	0xf
 	.uahalf	0x1dd
-<<<<<<< HEAD
-	.uaword	0x20c
-=======
-	.uaword	0x213
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x1f0
 	.byte	0
 	.uleb128 0x1a
 	.uaword	.LASF55
 	.byte	0xf
 	.uahalf	0x1de
-<<<<<<< HEAD
-	.uaword	0x20c
-=======
-	.uaword	0x213
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x1f0
 	.byte	0x1
 	.uleb128 0x19
 	.string	"backgroundChannel"
 	.byte	0xf
 	.uahalf	0x1df
-<<<<<<< HEAD
-	.uaword	0x20c
-=======
-	.uaword	0x213
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x1f0
 	.byte	0x2
 	.uleb128 0x1a
 	.uaword	.LASF56
 	.byte	0xf
 	.uahalf	0x1e0
-<<<<<<< HEAD
-	.uaword	0x20c
-=======
-	.uaword	0x213
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x1f0
 	.byte	0x3
 	.uleb128 0x19
 	.string	"resultPriority"
 	.byte	0xf
 	.uahalf	0x1e1
-<<<<<<< HEAD
-	.uaword	0x2e8
-=======
-	.uaword	0x2ef
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x2cc
 	.byte	0x4
 	.uleb128 0x19
 	.string	"channelPriority"
 	.byte	0xf
 	.uahalf	0x1e2
-<<<<<<< HEAD
-	.uaword	0x2e8
-=======
-	.uaword	0x2ef
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x2cc
 	.byte	0x6
 	.uleb128 0x19
 	.string	"resultServProvider"
 	.byte	0xf
 	.uahalf	0x1e3
-<<<<<<< HEAD
-	.uaword	0x1d2
-=======
-	.uaword	0x1d9
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x1b6
 	.byte	0x8
 	.uleb128 0x19
 	.string	"channelServProvider"
 	.byte	0xf
 	.uahalf	0x1e4
-<<<<<<< HEAD
-	.uaword	0x1d2
-=======
-	.uaword	0x1d9
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x1b6
 	.byte	0x9
 	.uleb128 0x1a
 	.uaword	.LASF57
 	.byte	0xf
 	.uahalf	0x1e5
-<<<<<<< HEAD
-	.uaword	0x98c5
-=======
-	.uaword	0x98cc
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x98a9
 	.byte	0xa
 	.uleb128 0x1a
 	.uaword	.LASF58
 	.byte	0xf
 	.uahalf	0x1e6
-<<<<<<< HEAD
-	.uaword	0x98c5
-=======
-	.uaword	0x98cc
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x98a9
 	.byte	0xb
 	.uleb128 0x1a
 	.uaword	.LASF59
 	.byte	0xf
 	.uahalf	0x1e7
-<<<<<<< HEAD
-	.uaword	0x81ce
-=======
-	.uaword	0x81d5
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x81b2
 	.byte	0xc
 	.uleb128 0x1a
 	.uaword	.LASF60
 	.byte	0xf
 	.uahalf	0x1e8
-<<<<<<< HEAD
-	.uaword	0x8bbb
-=======
-	.uaword	0x8bc2
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x8b9f
 	.byte	0xd
 	.uleb128 0x1a
 	.uaword	.LASF61
 	.byte	0xf
 	.uahalf	0x1e9
-<<<<<<< HEAD
-	.uaword	0x8238
-=======
-	.uaword	0x823f
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x821c
 	.byte	0xe
 	.uleb128 0x1a
 	.uaword	.LASF62
 	.byte	0xf
 	.uahalf	0x1ea
-<<<<<<< HEAD
-	.uaword	0x84bc
-=======
-	.uaword	0x84c3
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x84a0
 	.byte	0xf
 	.uleb128 0x1a
 	.uaword	.LASF63
 	.byte	0xf
 	.uahalf	0x1eb
-<<<<<<< HEAD
-	.uaword	0x80db
-=======
-	.uaword	0x80e2
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x80bf
 	.byte	0x10
 	.uleb128 0x1a
 	.uaword	.LASF64
 	.byte	0xf
 	.uahalf	0x1ec
-<<<<<<< HEAD
-	.uaword	0x80db
-=======
-	.uaword	0x80e2
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x80bf
 	.byte	0x11
 	.uleb128 0x1a
 	.uaword	.LASF65
 	.byte	0xf
 	.uahalf	0x1ed
-<<<<<<< HEAD
-	.uaword	0x8023
-=======
-	.uaword	0x802a
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x8007
 	.byte	0x12
 	.uleb128 0x1a
 	.uaword	.LASF66
 	.byte	0xf
 	.uahalf	0x1ee
-<<<<<<< HEAD
-	.uaword	0x8c66
-=======
-	.uaword	0x8c6d
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x8c4a
 	.byte	0x13
 	.uleb128 0x1a
 	.uaword	.LASF49
 	.byte	0xf
 	.uahalf	0x1ef
-<<<<<<< HEAD
-	.uaword	0xa037
-=======
-	.uaword	0xa03e
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0xa01b
 	.byte	0x14
 	.byte	0
 	.uleb128 0x14
 	.string	"IfxVadc_Adc_ChannelConfig"
 	.byte	0xf
 	.uahalf	0x1f0
-<<<<<<< HEAD
-	.uaword	0xa05e
-=======
-	.uaword	0xa065
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0xa042
 	.uleb128 0x22
 	.byte	0x24
 	.byte	0xf
 	.uahalf	0x1f4
-<<<<<<< HEAD
-	.uaword	0xa269
-=======
-	.uaword	0xa270
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0xa24d
 	.uleb128 0x1a
 	.uaword	.LASF38
 	.byte	0xf
 	.uahalf	0x1f6
-<<<<<<< HEAD
-	.uaword	0x7aff
-=======
-	.uaword	0x7b06
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x7ae3
 	.byte	0
 	.uleb128 0x19
 	.string	"globalInputClass"
 	.byte	0xf
 	.uahalf	0x1f7
-<<<<<<< HEAD
-	.uaword	0xa269
-=======
-	.uaword	0xa270
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0xa24d
 	.byte	0x4
 	.uleb128 0x19
 	.string	"digitalFrequency"
 	.byte	0xf
 	.uahalf	0x1f8
-<<<<<<< HEAD
-	.uaword	0x2c0
-=======
-	.uaword	0x2c7
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x2a4
 	.byte	0x14
 	.uleb128 0x1a
 	.uaword	.LASF67
 	.byte	0xf
 	.uahalf	0x1f9
-<<<<<<< HEAD
-	.uaword	0x2c0
-=======
-	.uaword	0x2c7
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x2a4
 	.byte	0x18
 	.uleb128 0x19
 	.string	"moduleFrequency"
 	.byte	0xf
 	.uahalf	0x1fa
-<<<<<<< HEAD
-	.uaword	0x2c0
-=======
-	.uaword	0x2c7
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x2a4
 	.byte	0x1c
 	.uleb128 0x19
 	.string	"startupCalibration"
 	.byte	0xf
 	.uahalf	0x1fb
-<<<<<<< HEAD
-	.uaword	0x20c
-=======
-	.uaword	0x213
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x1f0
 	.byte	0x20
 	.uleb128 0x19
 	.string	"supplyVoltage"
 	.byte	0xf
 	.uahalf	0x1fe
-<<<<<<< HEAD
-	.uaword	0x8cd3
+	.uaword	0x8cb7
 	.byte	0x21
 	.byte	0
 	.uleb128 0x10
-	.uaword	0x9e4e
-	.uaword	0xa279
+	.uaword	0x9e32
+	.uaword	0xa25d
 	.uleb128 0x11
-	.uaword	0x490
-=======
-	.uaword	0x8cda
-	.byte	0x21
-	.byte	0
-	.uleb128 0x10
-	.uaword	0x9e55
-	.uaword	0xa280
-	.uleb128 0x11
-	.uaword	0x497
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x474
 	.byte	0x1
 	.byte	0
 	.uleb128 0x14
 	.string	"IfxVadc_Adc_Config"
 	.byte	0xf
 	.uahalf	0x1ff
-<<<<<<< HEAD
-	.uaword	0xa1c5
-=======
-	.uaword	0xa1cc
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0xa1a9
 	.uleb128 0x22
 	.byte	0x20
 	.byte	0xf
 	.uahalf	0x203
-<<<<<<< HEAD
-	.uaword	0xa35d
-=======
-	.uaword	0xa364
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0xa341
 	.uleb128 0x1a
 	.uaword	.LASF38
 	.byte	0xf
 	.uahalf	0x205
-<<<<<<< HEAD
-	.uaword	0x7aff
-=======
-	.uaword	0x7b06
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x7ae3
 	.byte	0
 	.uleb128 0x19
 	.string	"mode"
 	.byte	0xf
 	.uahalf	0x206
-<<<<<<< HEAD
-	.uaword	0x88b4
-=======
-	.uaword	0x88bb
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x8898
 	.byte	0x4
 	.uleb128 0x19
 	.string	"startChannel"
 	.byte	0xf
 	.uahalf	0x207
-<<<<<<< HEAD
-	.uaword	0x87d9
-=======
-	.uaword	0x87e0
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x87bd
 	.byte	0x5
 	.uleb128 0x19
 	.string	"code"
 	.byte	0xf
 	.uahalf	0x209
-<<<<<<< HEAD
-	.uaword	0x85f2
-=======
-	.uaword	0x85f9
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x85d6
 	.byte	0x6
 	.uleb128 0x19
 	.string	"sampleTimeControl"
 	.byte	0xf
 	.uahalf	0x20a
-<<<<<<< HEAD
-	.uaword	0x86cb
-=======
-	.uaword	0x86d2
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x86af
 	.byte	0x7
 	.uleb128 0x1a
 	.uaword	.LASF50
 	.byte	0xf
 	.uahalf	0x20b
-<<<<<<< HEAD
-	.uaword	0x619
-=======
-	.uaword	0x620
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x5fd
 	.byte	0x8
 	.uleb128 0x19
 	.string	"channels"
 	.byte	0xf
 	.uahalf	0x20c
-<<<<<<< HEAD
-	.uaword	0x22c
-=======
-	.uaword	0x233
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x210
 	.byte	0x9
 	.uleb128 0x1a
 	.uaword	.LASF68
 	.byte	0xf
 	.uahalf	0x20d
-<<<<<<< HEAD
-	.uaword	0x864f
-=======
-	.uaword	0x8656
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x8633
 	.byte	0xa
 	.uleb128 0x19
 	.string	"emuxOutPinConfig"
 	.byte	0xf
 	.uahalf	0x20e
-<<<<<<< HEAD
-	.uaword	0x9fde
-=======
-	.uaword	0x9fe5
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x9fc2
 	.byte	0xc
 	.uleb128 0x19
 	.string	"channelSelectionStyle"
 	.byte	0xf
 	.uahalf	0x20f
-<<<<<<< HEAD
-	.uaword	0x8537
-=======
-	.uaword	0x853e
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x851b
 	.byte	0x1c
 	.byte	0
 	.uleb128 0x14
 	.string	"IfxVadc_Adc_EmuxControl"
 	.byte	0xf
 	.uahalf	0x210
-<<<<<<< HEAD
-	.uaword	0xa294
-=======
-	.uaword	0xa29b
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0xa278
 	.uleb128 0x22
 	.byte	0x38
 	.byte	0xf
 	.uahalf	0x214
-<<<<<<< HEAD
-	.uaword	0xa439
-=======
-	.uaword	0xa440
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0xa41d
 	.uleb128 0x1a
 	.uaword	.LASF0
 	.byte	0xf
 	.uahalf	0x216
-<<<<<<< HEAD
-	.uaword	0xa439
-=======
-	.uaword	0xa440
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0xa41d
 	.byte	0
 	.uleb128 0x1a
 	.uaword	.LASF50
 	.byte	0xf
 	.uahalf	0x217
-<<<<<<< HEAD
-	.uaword	0x619
-=======
-	.uaword	0x620
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x5fd
 	.byte	0x4
 	.uleb128 0x19
 	.string	"master"
 	.byte	0xf
 	.uahalf	0x218
-<<<<<<< HEAD
-	.uaword	0x619
-=======
-	.uaword	0x620
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x5fd
 	.byte	0x5
 	.uleb128 0x1a
 	.uaword	.LASF60
 	.byte	0xf
 	.uahalf	0x219
-<<<<<<< HEAD
-	.uaword	0xa269
-=======
-	.uaword	0xa270
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0xa24d
 	.byte	0x8
 	.uleb128 0x19
 	.string	"scanRequest"
 	.byte	0xf
 	.uahalf	0x21a
-<<<<<<< HEAD
-	.uaword	0x9f77
-=======
-	.uaword	0x9f7e
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x9f5b
 	.byte	0x18
 	.uleb128 0x19
 	.string	"queueRequest"
 	.byte	0xf
 	.uahalf	0x21b
-<<<<<<< HEAD
-	.uaword	0x9f0d
-=======
-	.uaword	0x9f14
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x9ef1
 	.byte	0x20
 	.uleb128 0x19
 	.string	"backgroundScanRequest"
 	.byte	0xf
 	.uahalf	0x21c
-<<<<<<< HEAD
-	.uaword	0x9e01
-=======
-	.uaword	0x9e08
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x9de5
 	.byte	0x28
 	.uleb128 0x19
 	.string	"disablePostCalibration"
 	.byte	0xf
 	.uahalf	0x21d
-<<<<<<< HEAD
-	.uaword	0x20c
-=======
-	.uaword	0x213
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x1f0
 	.byte	0x30
 	.uleb128 0x19
 	.string	"arbiter"
 	.byte	0xf
 	.uahalf	0x21e
-<<<<<<< HEAD
-	.uaword	0x9d8b
-=======
-	.uaword	0x9d92
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x9d6f
 	.byte	0x32
 	.byte	0
 	.uleb128 0x6
 	.byte	0x4
-<<<<<<< HEAD
-	.uaword	0xa43f
+	.uaword	0xa423
 	.uleb128 0x20
-	.uaword	0x9c8f
-=======
-	.uaword	0xa446
-	.uleb128 0x20
-	.uaword	0x9c96
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x9c73
 	.uleb128 0x14
 	.string	"IfxVadc_Adc_GroupConfig"
 	.byte	0xf
 	.uahalf	0x21f
-<<<<<<< HEAD
-	.uaword	0xa37d
-=======
-	.uaword	0xa384
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0xa361
 	.uleb128 0x23
 	.string	"IfxSrc_clearRequest"
 	.byte	0x3
 	.byte	0xf7
 	.byte	0x1
 	.byte	0x3
-<<<<<<< HEAD
-	.uaword	0xa48d
-=======
-	.uaword	0xa494
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0xa471
 	.uleb128 0x24
 	.string	"src"
 	.byte	0x3
 	.byte	0xf7
-<<<<<<< HEAD
-	.uaword	0xa48d
+	.uaword	0xa471
 	.byte	0
 	.uleb128 0x6
 	.byte	0x4
-	.uaword	0xa493
+	.uaword	0xa477
 	.uleb128 0x1e
-	.uaword	0x47c
-=======
-	.uaword	0xa494
-	.byte	0
-	.uleb128 0x6
-	.byte	0x4
-	.uaword	0xa49a
-	.uleb128 0x1e
-	.uaword	0x483
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x460
 	.uleb128 0x25
 	.string	"Ifx__minu"
 	.byte	0x4
 	.byte	0xc0
 	.byte	0x1
-<<<<<<< HEAD
-	.uaword	0x25d
+	.uaword	0x241
 	.byte	0x3
-	.uaword	0xa4cd
-=======
-	.uaword	0x264
-	.byte	0x3
-	.uaword	0xa4d4
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0xa4b1
 	.uleb128 0x24
 	.string	"a"
 	.byte	0x4
 	.byte	0xc0
-<<<<<<< HEAD
-	.uaword	0x25d
-=======
-	.uaword	0x264
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x241
 	.uleb128 0x24
 	.string	"b"
 	.byte	0x4
 	.byte	0xc0
-<<<<<<< HEAD
-	.uaword	0x25d
-=======
-	.uaword	0x264
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x241
 	.uleb128 0x26
 	.string	"res"
 	.byte	0x4
 	.byte	0xc2
-<<<<<<< HEAD
-	.uaword	0x25d
-=======
-	.uaword	0x264
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x241
 	.byte	0
 	.uleb128 0x27
 	.string	"IfxPort_setPinModeOutput"
@@ -25060,137 +17289,79 @@ IfxVadc_Adc_masterIndex:
 	.uahalf	0x248
 	.byte	0x1
 	.byte	0x3
-<<<<<<< HEAD
-	.uaword	0xa525
-=======
-	.uaword	0xa52c
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0xa509
 	.uleb128 0x28
 	.string	"port"
 	.byte	0x5
 	.uahalf	0x248
-<<<<<<< HEAD
-	.uaword	0x74e5
-=======
-	.uaword	0x74ec
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x74c9
 	.uleb128 0x29
 	.uaword	.LASF37
 	.byte	0x5
 	.uahalf	0x248
-<<<<<<< HEAD
-	.uaword	0x22c
-=======
-	.uaword	0x233
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x210
 	.uleb128 0x28
 	.string	"mode"
 	.byte	0x5
 	.uahalf	0x248
-<<<<<<< HEAD
-	.uaword	0x78f6
-=======
-	.uaword	0x78fd
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x78da
 	.uleb128 0x28
 	.string	"index"
 	.byte	0x5
 	.uahalf	0x248
-<<<<<<< HEAD
-	.uaword	0x787b
-=======
-	.uaword	0x7882
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x785f
 	.byte	0
 	.uleb128 0x2a
 	.string	"IfxVadc_calculateSampleTime"
 	.byte	0x2
 	.uahalf	0x6ae
 	.byte	0x1
-<<<<<<< HEAD
-	.uaword	0x25d
+	.uaword	0x241
 	.byte	0x3
-	.uaword	0xa576
-=======
-	.uaword	0x264
-	.byte	0x3
-	.uaword	0xa57d
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0xa55a
 	.uleb128 0x29
 	.uaword	.LASF67
 	.byte	0x2
 	.uahalf	0x6ae
-<<<<<<< HEAD
-	.uaword	0x2c0
-=======
-	.uaword	0x2c7
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x2a4
 	.uleb128 0x29
 	.uaword	.LASF47
 	.byte	0x2
 	.uahalf	0x6ae
-<<<<<<< HEAD
-	.uaword	0x2c0
-=======
-	.uaword	0x2c7
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x2a4
 	.uleb128 0x2b
 	.string	"ticks"
 	.byte	0x2
 	.uahalf	0x6b0
-<<<<<<< HEAD
-	.uaword	0x25d
-=======
-	.uaword	0x264
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x241
 	.byte	0
 	.uleb128 0x2a
 	.string	"IfxVadc_Adc_getGroupRegsFromGroup"
 	.byte	0xf
 	.uahalf	0x4c2
 	.byte	0x1
-<<<<<<< HEAD
-	.uaword	0x9e9f
+	.uaword	0x9e83
 	.byte	0x3
-	.uaword	0xa5b3
-=======
-	.uaword	0x9ea6
-	.byte	0x3
-	.uaword	0xa5ba
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0xa597
 	.uleb128 0x29
 	.uaword	.LASF49
 	.byte	0xf
 	.uahalf	0x4c2
-<<<<<<< HEAD
-	.uaword	0xa037
-=======
-	.uaword	0xa03e
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0xa01b
 	.byte	0
 	.uleb128 0x2a
 	.string	"IfxVadc_Adc_getVadcFromGroup"
 	.byte	0xf
 	.uahalf	0x4f4
 	.byte	0x1
-<<<<<<< HEAD
-	.uaword	0x7aff
+	.uaword	0x7ae3
 	.byte	0x3
-	.uaword	0xa5eb
-=======
-	.uaword	0x7b06
-	.byte	0x3
-	.uaword	0xa5f2
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0xa5cf
 	.uleb128 0x29
 	.uaword	.LASF49
 	.byte	0xf
 	.uahalf	0x4f4
-<<<<<<< HEAD
-	.uaword	0xa037
-=======
-	.uaword	0xa03e
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0xa01b
 	.byte	0
 	.uleb128 0x27
 	.string	"IfxVadc_resetGroup"
@@ -25198,20 +17369,12 @@ IfxVadc_Adc_masterIndex:
 	.uahalf	0x867
 	.byte	0x1
 	.byte	0x3
-<<<<<<< HEAD
-	.uaword	0xa615
-=======
-	.uaword	0xa61c
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0xa5f9
 	.uleb128 0x29
 	.uaword	.LASF69
 	.byte	0x2
 	.uahalf	0x867
-<<<<<<< HEAD
-	.uaword	0x9e9f
-=======
-	.uaword	0x9ea6
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x9e83
 	.byte	0
 	.uleb128 0x27
 	.string	"IfxVadc_disableModule"
@@ -25219,1022 +17382,592 @@ IfxVadc_Adc_masterIndex:
 	.uahalf	0x6dd
 	.byte	0x1
 	.byte	0x3
-<<<<<<< HEAD
-	.uaword	0xa651
-=======
-	.uaword	0xa658
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0xa635
 	.uleb128 0x29
 	.uaword	.LASF38
 	.byte	0x2
 	.uahalf	0x6dd
-<<<<<<< HEAD
-	.uaword	0x7aff
-=======
-	.uaword	0x7b06
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x7ae3
 	.uleb128 0x2b
 	.string	"passwd"
 	.byte	0x2
 	.uahalf	0x6df
-<<<<<<< HEAD
-	.uaword	0x239
-=======
-	.uaword	0x240
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x21d
 	.byte	0
 	.uleb128 0x2a
 	.string	"IfxVadc_getChannelControlConfig"
 	.byte	0x2
 	.uahalf	0x754
 	.byte	0x1
-<<<<<<< HEAD
-	.uaword	0x40dc
+	.uaword	0x40c0
 	.byte	0x3
-	.uaword	0xa6a4
-=======
-	.uaword	0x40e3
-	.byte	0x3
-	.uaword	0xa6ab
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0xa688
 	.uleb128 0x29
 	.uaword	.LASF69
 	.byte	0x2
 	.uahalf	0x754
-<<<<<<< HEAD
-	.uaword	0x9e9f
-=======
-	.uaword	0x9ea6
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x9e83
 	.uleb128 0x29
 	.uaword	.LASF70
 	.byte	0x2
 	.uahalf	0x754
-<<<<<<< HEAD
-	.uaword	0x81ce
-=======
-	.uaword	0x81d5
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x81b2
 	.uleb128 0x2c
 	.uaword	.LASF71
 	.byte	0x2
 	.uahalf	0x756
-<<<<<<< HEAD
-	.uaword	0x40dc
-=======
-	.uaword	0x40e3
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x40c0
 	.byte	0
 	.uleb128 0x2a
 	.string	"IfxVadc_getAssignedChannels"
 	.byte	0x2
 	.uahalf	0x728
 	.byte	0x1
-<<<<<<< HEAD
-	.uaword	0x409b
+	.uaword	0x407f
 	.byte	0x3
-	.uaword	0xa6f2
-=======
-	.uaword	0x40a2
-	.byte	0x3
-	.uaword	0xa6f9
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0xa6d6
 	.uleb128 0x29
 	.uaword	.LASF69
 	.byte	0x2
 	.uahalf	0x728
-<<<<<<< HEAD
-	.uaword	0x9e9f
-=======
-	.uaword	0x9ea6
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x9e83
 	.uleb128 0x2b
 	.string	"assignChannels"
 	.byte	0x2
 	.uahalf	0x72a
-<<<<<<< HEAD
-	.uaword	0x409b
-=======
-	.uaword	0x40a2
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x407f
 	.byte	0
 	.uleb128 0x2a
 	.string	"IfxVadc_getChannelServiceRequestNodePointer0"
 	.byte	0x2
 	.uahalf	0x772
 	.byte	0x1
-<<<<<<< HEAD
-	.uaword	0x4059
+	.uaword	0x403d
 	.byte	0x3
-	.uaword	0xa758
-=======
-	.uaword	0x4060
-	.byte	0x3
-	.uaword	0xa75f
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0xa73c
 	.uleb128 0x29
 	.uaword	.LASF69
 	.byte	0x2
 	.uahalf	0x772
-<<<<<<< HEAD
-	.uaword	0x9e9f
-=======
-	.uaword	0x9ea6
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x9e83
 	.uleb128 0x2b
 	.string	"serviceRequestNodePtr"
 	.byte	0x2
 	.uahalf	0x774
-<<<<<<< HEAD
-	.uaword	0x4059
-=======
-	.uaword	0x4060
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x403d
 	.byte	0
 	.uleb128 0x2a
 	.string	"IfxVadc_getChannelResultServiceRequestNodePointer0"
 	.byte	0x2
 	.uahalf	0x762
 	.byte	0x1
-<<<<<<< HEAD
-	.uaword	0x4426
+	.uaword	0x440a
 	.byte	0x3
-	.uaword	0xa7cb
-=======
-	.uaword	0x442d
-	.byte	0x3
-	.uaword	0xa7d2
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0xa7af
 	.uleb128 0x29
 	.uaword	.LASF69
 	.byte	0x2
 	.uahalf	0x762
-<<<<<<< HEAD
-	.uaword	0x9e9f
-=======
-	.uaword	0x9ea6
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x9e83
 	.uleb128 0x2b
 	.string	"resultServiceRequestNodePtr0"
 	.byte	0x2
 	.uahalf	0x764
-<<<<<<< HEAD
-	.uaword	0x4426
-=======
-	.uaword	0x442d
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x440a
 	.byte	0
 	.uleb128 0x2a
 	.string	"IfxVadc_getChannelResultServiceRequestNodePointer1"
 	.byte	0x2
 	.uahalf	0x76a
 	.byte	0x1
-<<<<<<< HEAD
-	.uaword	0x4468
+	.uaword	0x444c
 	.byte	0x3
-	.uaword	0xa83e
-=======
-	.uaword	0x446f
-	.byte	0x3
-	.uaword	0xa845
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0xa822
 	.uleb128 0x29
 	.uaword	.LASF69
 	.byte	0x2
 	.uahalf	0x76a
-<<<<<<< HEAD
-	.uaword	0x9e9f
-=======
-	.uaword	0x9ea6
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x9e83
 	.uleb128 0x2b
 	.string	"resultServiceRequestNodePtr1"
 	.byte	0x2
 	.uahalf	0x76c
-<<<<<<< HEAD
-	.uaword	0x4468
-=======
-	.uaword	0x446f
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x444c
 	.byte	0
 	.uleb128 0x2a
 	.string	"IfxVadc_getChannelInputClass"
 	.byte	0x2
 	.uahalf	0x75c
 	.byte	0x1
-<<<<<<< HEAD
-	.uaword	0x8bbb
+	.uaword	0x8b9f
 	.byte	0x3
-	.uaword	0xa882
-=======
-	.uaword	0x8bc2
-	.byte	0x3
-	.uaword	0xa889
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0xa866
 	.uleb128 0x29
 	.uaword	.LASF69
 	.byte	0x2
 	.uahalf	0x75c
-<<<<<<< HEAD
-	.uaword	0x9e9f
-=======
-	.uaword	0x9ea6
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x9e83
 	.uleb128 0x29
 	.uaword	.LASF70
 	.byte	0x2
 	.uahalf	0x75c
-<<<<<<< HEAD
-	.uaword	0x81ce
-=======
-	.uaword	0x81d5
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x81b2
 	.byte	0
 	.uleb128 0x2a
 	.string	"IfxVadc_getArbiterRoundLength"
 	.byte	0x2
 	.uahalf	0x722
 	.byte	0x1
-<<<<<<< HEAD
-	.uaword	0x7d0d
+	.uaword	0x7cf1
 	.byte	0x3
-	.uaword	0xa8bb
-=======
-	.uaword	0x7d14
-	.byte	0x3
-	.uaword	0xa8c2
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0xa89f
 	.uleb128 0x29
 	.uaword	.LASF69
 	.byte	0x2
 	.uahalf	0x722
-<<<<<<< HEAD
-	.uaword	0x9e9f
-=======
-	.uaword	0x9ea6
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x9e83
 	.byte	0
 	.uleb128 0x2a
 	.string	"IfxVadc_getGroupResolution"
 	.byte	0x2
 	.uahalf	0x7b7
 	.byte	0x1
-<<<<<<< HEAD
-	.uaword	0x82ec
+	.uaword	0x82d0
 	.byte	0x3
-	.uaword	0xa8fd
-=======
-	.uaword	0x82f3
-	.byte	0x3
-	.uaword	0xa904
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0xa8e1
 	.uleb128 0x29
 	.uaword	.LASF69
 	.byte	0x2
 	.uahalf	0x7b7
-<<<<<<< HEAD
-	.uaword	0x9e9f
-=======
-	.uaword	0x9ea6
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x9e83
 	.uleb128 0x29
 	.uaword	.LASF72
 	.byte	0x2
 	.uahalf	0x7b7
-<<<<<<< HEAD
-	.uaword	0x22c
-=======
-	.uaword	0x233
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x210
 	.byte	0
 	.uleb128 0x2a
 	.string	"IfxVadc_getGroupSampleTime"
 	.byte	0x2
 	.uahalf	0x7c8
 	.byte	0x1
-<<<<<<< HEAD
-	.uaword	0x2c0
+	.uaword	0x2a4
 	.byte	0x3
-	.uaword	0xa957
-=======
-	.uaword	0x2c7
-	.byte	0x3
-	.uaword	0xa95e
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0xa93b
 	.uleb128 0x29
 	.uaword	.LASF69
 	.byte	0x2
 	.uahalf	0x7c8
-<<<<<<< HEAD
-	.uaword	0x9e9f
-=======
-	.uaword	0x9ea6
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x9e83
 	.uleb128 0x29
 	.uaword	.LASF72
 	.byte	0x2
 	.uahalf	0x7c8
-<<<<<<< HEAD
-	.uaword	0x22c
-=======
-	.uaword	0x233
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x210
 	.uleb128 0x29
 	.uaword	.LASF67
 	.byte	0x2
 	.uahalf	0x7c8
-<<<<<<< HEAD
-	.uaword	0x2c0
-=======
-	.uaword	0x2c7
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x2a4
 	.uleb128 0x2c
 	.uaword	.LASF47
 	.byte	0x2
 	.uahalf	0x7ca
-<<<<<<< HEAD
-	.uaword	0x25d
-=======
-	.uaword	0x264
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x241
 	.byte	0
 	.uleb128 0x2a
 	.string	"IfxVadc_isRequestScanSlotEnabled"
 	.byte	0x2
 	.uahalf	0x861
 	.byte	0x1
-<<<<<<< HEAD
-	.uaword	0x20c
+	.uaword	0x1f0
 	.byte	0x3
-	.uaword	0xa993
-=======
-	.uaword	0x213
-	.byte	0x3
-	.uaword	0xa99a
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0xa977
 	.uleb128 0x29
 	.uaword	.LASF69
 	.byte	0x2
 	.uahalf	0x861
-<<<<<<< HEAD
-	.uaword	0x9e9f
-=======
-	.uaword	0x9ea6
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x9e83
 	.byte	0
 	.uleb128 0x2a
 	.string	"IfxVadc_getScanSlotPriority"
 	.byte	0x2
 	.uahalf	0x817
 	.byte	0x1
-<<<<<<< HEAD
-	.uaword	0x96c8
+	.uaword	0x96ac
 	.byte	0x3
-	.uaword	0xa9ca
-=======
-	.uaword	0x96cf
-	.byte	0x3
-	.uaword	0xa9d1
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0xa9ae
 	.uleb128 0x29
 	.uaword	.LASF69
 	.byte	0x2
 	.uahalf	0x817
-<<<<<<< HEAD
-	.uaword	0x9e9f
-=======
-	.uaword	0x9ea6
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x9e83
 	.byte	0
 	.uleb128 0x2a
 	.string	"IfxVadc_getScanSlotStartMode"
 	.byte	0x2
 	.uahalf	0x81d
 	.byte	0x1
-<<<<<<< HEAD
-	.uaword	0x9754
+	.uaword	0x9738
 	.byte	0x3
-	.uaword	0xaa02
-=======
-	.uaword	0x975b
-	.byte	0x3
-	.uaword	0xaa09
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0xa9e6
 	.uleb128 0x29
 	.uaword	.LASF69
 	.byte	0x2
 	.uahalf	0x81d
-<<<<<<< HEAD
-	.uaword	0x9e9f
-=======
-	.uaword	0x9ea6
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x9e83
 	.byte	0
 	.uleb128 0x2a
 	.string	"IfxVadc_getScanSlotTriggerInput"
 	.byte	0x2
 	.uahalf	0x823
 	.byte	0x1
-<<<<<<< HEAD
-	.uaword	0x9c39
+	.uaword	0x9c1d
 	.byte	0x3
-	.uaword	0xaa3d
-=======
-	.uaword	0x9c40
-	.byte	0x3
-	.uaword	0xaa44
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0xaa21
 	.uleb128 0x29
 	.uaword	.LASF69
 	.byte	0x2
 	.uahalf	0x823
-<<<<<<< HEAD
-	.uaword	0x9e9f
-=======
-	.uaword	0x9ea6
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x9e83
 	.byte	0
 	.uleb128 0x2a
 	.string	"IfxVadc_getScanSlotTriggerMode"
 	.byte	0x2
 	.uahalf	0x829
 	.byte	0x1
-<<<<<<< HEAD
-	.uaword	0x9a6d
+	.uaword	0x9a51
 	.byte	0x3
-	.uaword	0xaa77
-=======
-	.uaword	0x9a74
-	.byte	0x3
-	.uaword	0xaa7e
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0xaa5b
 	.uleb128 0x29
 	.uaword	.LASF69
 	.byte	0x2
 	.uahalf	0x829
-<<<<<<< HEAD
-	.uaword	0x9e9f
-=======
-	.uaword	0x9ea6
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x9e83
 	.byte	0
 	.uleb128 0x2a
 	.string	"IfxVadc_getScanSlotGatingMode"
 	.byte	0x2
 	.uahalf	0x80b
 	.byte	0x1
-<<<<<<< HEAD
-	.uaword	0x895f
+	.uaword	0x8943
 	.byte	0x3
-	.uaword	0xaab0
-=======
-	.uaword	0x8966
-	.byte	0x3
-	.uaword	0xaab7
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0xaa94
 	.uleb128 0x29
 	.uaword	.LASF69
 	.byte	0x2
 	.uahalf	0x80b
-<<<<<<< HEAD
-	.uaword	0x9e9f
-=======
-	.uaword	0x9ea6
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x9e83
 	.byte	0
 	.uleb128 0x2a
 	.string	"IfxVadc_getScanSlotGatingSource"
 	.byte	0x2
 	.uahalf	0x811
 	.byte	0x1
-<<<<<<< HEAD
-	.uaword	0x8b1a
+	.uaword	0x8afe
 	.byte	0x3
-	.uaword	0xaaeb
-=======
-	.uaword	0x8b21
-	.byte	0x3
-	.uaword	0xaaf2
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0xaacf
 	.uleb128 0x29
 	.uaword	.LASF69
 	.byte	0x2
 	.uahalf	0x811
-<<<<<<< HEAD
-	.uaword	0x9e9f
-=======
-	.uaword	0x9ea6
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x9e83
 	.byte	0
 	.uleb128 0x2a
 	.string	"IfxVadc_isAutoScanEnabled"
 	.byte	0x2
 	.uahalf	0x84f
 	.byte	0x1
-<<<<<<< HEAD
-	.uaword	0x20c
+	.uaword	0x1f0
 	.byte	0x3
-	.uaword	0xab20
-=======
-	.uaword	0x213
-	.byte	0x3
-	.uaword	0xab27
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0xab04
 	.uleb128 0x29
 	.uaword	.LASF69
 	.byte	0x2
 	.uahalf	0x84f
-<<<<<<< HEAD
-	.uaword	0x9e9f
-=======
-	.uaword	0x9ea6
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x9e83
 	.byte	0
 	.uleb128 0x2a
 	.string	"IfxVadc_isRequestQueueSlotEnabled"
 	.byte	0x2
 	.uahalf	0x85b
 	.byte	0x1
-<<<<<<< HEAD
-	.uaword	0x20c
+	.uaword	0x1f0
 	.byte	0x3
-	.uaword	0xab5d
-=======
-	.uaword	0x213
-	.byte	0x3
-	.uaword	0xab64
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0xab41
 	.uleb128 0x29
 	.uaword	.LASF69
 	.byte	0x2
 	.uahalf	0x85b
-<<<<<<< HEAD
-	.uaword	0x9e9f
-=======
-	.uaword	0x9ea6
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x9e83
 	.byte	0
 	.uleb128 0x2a
 	.string	"IfxVadc_getQueueSlotPriority"
 	.byte	0x2
 	.uahalf	0x7e9
 	.byte	0x1
-<<<<<<< HEAD
-	.uaword	0x96c8
+	.uaword	0x96ac
 	.byte	0x3
-	.uaword	0xab95
-=======
-	.uaword	0x96cf
-	.byte	0x3
-	.uaword	0xab9c
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0xab79
 	.uleb128 0x29
 	.uaword	.LASF69
 	.byte	0x2
 	.uahalf	0x7e9
-<<<<<<< HEAD
-	.uaword	0x9e9f
-=======
-	.uaword	0x9ea6
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x9e83
 	.byte	0
 	.uleb128 0x2a
 	.string	"IfxVadc_getQueueSlotStartMode"
 	.byte	0x2
 	.uahalf	0x7ef
 	.byte	0x1
-<<<<<<< HEAD
-	.uaword	0x9754
+	.uaword	0x9738
 	.byte	0x3
-	.uaword	0xabce
-=======
-	.uaword	0x975b
-	.byte	0x3
-	.uaword	0xabd5
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0xabb2
 	.uleb128 0x29
 	.uaword	.LASF69
 	.byte	0x2
 	.uahalf	0x7ef
-<<<<<<< HEAD
-	.uaword	0x9e9f
-=======
-	.uaword	0x9ea6
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x9e83
 	.byte	0
 	.uleb128 0x2a
 	.string	"IfxVadc_getQueueSlotTriggerInput"
 	.byte	0x2
 	.uahalf	0x7f5
 	.byte	0x1
-<<<<<<< HEAD
-	.uaword	0x9c39
+	.uaword	0x9c1d
 	.byte	0x3
-	.uaword	0xac0a
-=======
-	.uaword	0x9c40
-	.byte	0x3
-	.uaword	0xac11
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0xabee
 	.uleb128 0x29
 	.uaword	.LASF69
 	.byte	0x2
 	.uahalf	0x7f5
-<<<<<<< HEAD
-	.uaword	0x9e9f
-=======
-	.uaword	0x9ea6
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x9e83
 	.byte	0
 	.uleb128 0x2a
 	.string	"IfxVadc_getQueueSlotTriggerMode"
 	.byte	0x2
 	.uahalf	0x7fb
 	.byte	0x1
-<<<<<<< HEAD
-	.uaword	0x9a6d
+	.uaword	0x9a51
 	.byte	0x3
-	.uaword	0xac45
-=======
-	.uaword	0x9a74
-	.byte	0x3
-	.uaword	0xac4c
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0xac29
 	.uleb128 0x29
 	.uaword	.LASF69
 	.byte	0x2
 	.uahalf	0x7fb
-<<<<<<< HEAD
-	.uaword	0x9e9f
-=======
-	.uaword	0x9ea6
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x9e83
 	.byte	0
 	.uleb128 0x2a
 	.string	"IfxVadc_getQueueSlotGatingMode"
 	.byte	0x2
 	.uahalf	0x7dd
 	.byte	0x1
-<<<<<<< HEAD
-	.uaword	0x895f
+	.uaword	0x8943
 	.byte	0x3
-	.uaword	0xac7f
-=======
-	.uaword	0x8966
-	.byte	0x3
-	.uaword	0xac86
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0xac63
 	.uleb128 0x29
 	.uaword	.LASF69
 	.byte	0x2
 	.uahalf	0x7dd
-<<<<<<< HEAD
-	.uaword	0x9e9f
-=======
-	.uaword	0x9ea6
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x9e83
 	.byte	0
 	.uleb128 0x2a
 	.string	"IfxVadc_getQueueSlotGatingSource"
 	.byte	0x2
 	.uahalf	0x7e3
 	.byte	0x1
-<<<<<<< HEAD
-	.uaword	0x8b1a
+	.uaword	0x8afe
 	.byte	0x3
-	.uaword	0xacbb
-=======
-	.uaword	0x8b21
-	.byte	0x3
-	.uaword	0xacc2
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0xac9f
 	.uleb128 0x29
 	.uaword	.LASF69
 	.byte	0x2
 	.uahalf	0x7e3
-<<<<<<< HEAD
-	.uaword	0x9e9f
-=======
-	.uaword	0x9ea6
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x9e83
 	.byte	0
 	.uleb128 0x2a
 	.string	"IfxVadc_isRequestBackgroundScanSlotEnabled"
 	.byte	0x2
 	.uahalf	0x855
 	.byte	0x1
-<<<<<<< HEAD
-	.uaword	0x20c
+	.uaword	0x1f0
 	.byte	0x3
-	.uaword	0xad01
-=======
-	.uaword	0x213
-	.byte	0x3
-	.uaword	0xad08
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0xace5
 	.uleb128 0x29
 	.uaword	.LASF69
 	.byte	0x2
 	.uahalf	0x855
-<<<<<<< HEAD
-	.uaword	0x9e9f
-=======
-	.uaword	0x9ea6
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x9e83
 	.byte	0
 	.uleb128 0x2a
 	.string	"IfxVadc_getBackgroundScanSlotPriority"
 	.byte	0x2
 	.uahalf	0x73c
 	.byte	0x1
-<<<<<<< HEAD
-	.uaword	0x96c8
+	.uaword	0x96ac
 	.byte	0x3
-	.uaword	0xad42
-=======
-	.uaword	0x96cf
-	.byte	0x3
-	.uaword	0xad49
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0xad26
 	.uleb128 0x29
 	.uaword	.LASF69
 	.byte	0x2
 	.uahalf	0x73c
-<<<<<<< HEAD
-	.uaword	0x9e9f
-=======
-	.uaword	0x9ea6
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x9e83
 	.byte	0
 	.uleb128 0x2a
 	.string	"IfxVadc_getBackgroundScanSlotStartMode"
 	.byte	0x2
 	.uahalf	0x742
 	.byte	0x1
-<<<<<<< HEAD
-	.uaword	0x9754
+	.uaword	0x9738
 	.byte	0x3
-	.uaword	0xad84
-=======
-	.uaword	0x975b
-	.byte	0x3
-	.uaword	0xad8b
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0xad68
 	.uleb128 0x29
 	.uaword	.LASF69
 	.byte	0x2
 	.uahalf	0x742
-<<<<<<< HEAD
-	.uaword	0x9e9f
-=======
-	.uaword	0x9ea6
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x9e83
 	.byte	0
 	.uleb128 0x2a
 	.string	"IfxVadc_getBackgroundScanTriggerInput"
 	.byte	0x2
 	.uahalf	0x748
 	.byte	0x1
-<<<<<<< HEAD
-	.uaword	0x9c39
+	.uaword	0x9c1d
 	.byte	0x3
-	.uaword	0xadc5
-=======
-	.uaword	0x9c40
-	.byte	0x3
-	.uaword	0xadcc
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0xada9
 	.uleb128 0x29
 	.uaword	.LASF38
 	.byte	0x2
 	.uahalf	0x748
-<<<<<<< HEAD
-	.uaword	0x7aff
-=======
-	.uaword	0x7b06
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x7ae3
 	.byte	0
 	.uleb128 0x2a
 	.string	"IfxVadc_getBackgroundScanTriggerMode"
 	.byte	0x2
 	.uahalf	0x74e
 	.byte	0x1
-<<<<<<< HEAD
-	.uaword	0x9a6d
+	.uaword	0x9a51
 	.byte	0x3
-	.uaword	0xae05
-=======
-	.uaword	0x9a74
-	.byte	0x3
-	.uaword	0xae0c
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0xade9
 	.uleb128 0x29
 	.uaword	.LASF38
 	.byte	0x2
 	.uahalf	0x74e
-<<<<<<< HEAD
-	.uaword	0x7aff
-=======
-	.uaword	0x7b06
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x7ae3
 	.byte	0
 	.uleb128 0x2a
 	.string	"IfxVadc_getBackgroundScanGatingMode"
 	.byte	0x2
 	.uahalf	0x730
 	.byte	0x1
-<<<<<<< HEAD
-	.uaword	0x895f
+	.uaword	0x8943
 	.byte	0x3
-	.uaword	0xae44
-=======
-	.uaword	0x8966
-	.byte	0x3
-	.uaword	0xae4b
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0xae28
 	.uleb128 0x29
 	.uaword	.LASF38
 	.byte	0x2
 	.uahalf	0x730
-<<<<<<< HEAD
-	.uaword	0x7aff
-=======
-	.uaword	0x7b06
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x7ae3
 	.byte	0
 	.uleb128 0x2a
 	.string	"IfxVadc_getBackgroundScanGatingSource"
 	.byte	0x2
 	.uahalf	0x736
 	.byte	0x1
-<<<<<<< HEAD
-	.uaword	0x8b1a
+	.uaword	0x8afe
 	.byte	0x3
-	.uaword	0xae85
-=======
-	.uaword	0x8b21
-	.byte	0x3
-	.uaword	0xae8c
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0xae69
 	.uleb128 0x29
 	.uaword	.LASF38
 	.byte	0x2
 	.uahalf	0x736
-<<<<<<< HEAD
-	.uaword	0x7aff
-=======
-	.uaword	0x7b06
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x7ae3
 	.byte	0
 	.uleb128 0x2a
 	.string	"IfxVadc_isAutoBackgroundScanEnabled"
 	.byte	0x2
 	.uahalf	0x849
 	.byte	0x1
-<<<<<<< HEAD
-	.uaword	0x20c
+	.uaword	0x1f0
 	.byte	0x3
-	.uaword	0xaec4
-=======
-	.uaword	0x213
-	.byte	0x3
-	.uaword	0xaecb
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0xaea8
 	.uleb128 0x29
 	.uaword	.LASF38
 	.byte	0x2
 	.uahalf	0x849
-<<<<<<< HEAD
-	.uaword	0x7aff
-=======
-	.uaword	0x7b06
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x7ae3
 	.byte	0
 	.uleb128 0x2a
 	.string	"IfxVadc_getMasterIndex"
 	.byte	0x2
 	.uahalf	0x7d5
 	.byte	0x1
-<<<<<<< HEAD
-	.uaword	0x22c
+	.uaword	0x210
 	.byte	0x3
-	.uaword	0xaf02
-=======
-	.uaword	0x233
-	.byte	0x3
-	.uaword	0xaf09
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0xaee6
 	.uleb128 0x29
 	.uaword	.LASF69
 	.byte	0x2
 	.uahalf	0x7d5
-<<<<<<< HEAD
-	.uaword	0x9e9f
-=======
-	.uaword	0x9ea6
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x9e83
 	.uleb128 0x2c
 	.uaword	.LASF73
 	.byte	0x2
 	.uahalf	0x7d7
-<<<<<<< HEAD
-	.uaword	0x22c
-=======
-	.uaword	0x233
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x210
 	.byte	0
 	.uleb128 0x25
 	.string	"IfxVadc_Adc_getMasterId"
 	.byte	0x1
 	.byte	0x5f
 	.byte	0x1
-<<<<<<< HEAD
-	.uaword	0x619
+	.uaword	0x5fd
 	.byte	0x3
-	.uaword	0xaf6a
-=======
-	.uaword	0x620
-	.byte	0x3
-	.uaword	0xaf71
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0xaf4e
 	.uleb128 0x24
 	.string	"slave"
 	.byte	0x1
 	.byte	0x5f
-<<<<<<< HEAD
-	.uaword	0x619
-=======
-	.uaword	0x620
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x5fd
 	.uleb128 0x2d
 	.uaword	.LASF73
 	.byte	0x1
 	.byte	0x5f
-<<<<<<< HEAD
-	.uaword	0x9c57
-=======
-	.uaword	0x9c5e
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x9c3b
 	.uleb128 0x26
 	.string	"i"
 	.byte	0x1
 	.byte	0x61
-<<<<<<< HEAD
-	.uaword	0x22c
-=======
-	.uaword	0x233
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x210
 	.uleb128 0x26
 	.string	"idxOffset"
 	.byte	0x1
 	.byte	0x61
-<<<<<<< HEAD
-	.uaword	0x22c
-=======
-	.uaword	0x233
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x210
 	.uleb128 0x26
 	.string	"masterId"
 	.byte	0x1
 	.byte	0x62
-<<<<<<< HEAD
-	.uaword	0x619
-=======
-	.uaword	0x620
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x5fd
 	.byte	0
 	.uleb128 0x2a
 	.string	"IfxVadc_getGlobalConfigValue"
 	.byte	0x2
 	.uahalf	0x792
 	.byte	0x1
-<<<<<<< HEAD
-	.uaword	0x46b5
+	.uaword	0x4699
 	.byte	0x3
-	.uaword	0xafb2
-=======
-	.uaword	0x46bc
-	.byte	0x3
-	.uaword	0xafb9
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0xaf96
 	.uleb128 0x29
 	.uaword	.LASF38
 	.byte	0x2
 	.uahalf	0x792
-<<<<<<< HEAD
-	.uaword	0x7aff
-=======
-	.uaword	0x7b06
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x7ae3
 	.uleb128 0x2b
 	.string	"globCfg"
 	.byte	0x2
 	.uahalf	0x794
-<<<<<<< HEAD
-	.uaword	0x46b5
-=======
-	.uaword	0x46bc
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x4699
 	.byte	0
 	.uleb128 0x27
 	.string	"IfxVadc_setReferenceInput"
@@ -26242,38 +17975,22 @@ IfxVadc_Adc_masterIndex:
 	.uahalf	0x92d
 	.byte	0x1
 	.byte	0x3
-<<<<<<< HEAD
-	.uaword	0xaffb
-=======
-	.uaword	0xb002
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0xafdf
 	.uleb128 0x29
 	.uaword	.LASF69
 	.byte	0x2
 	.uahalf	0x92d
-<<<<<<< HEAD
-	.uaword	0x9e9f
-=======
-	.uaword	0x9ea6
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x9e83
 	.uleb128 0x29
 	.uaword	.LASF70
 	.byte	0x2
 	.uahalf	0x92d
-<<<<<<< HEAD
-	.uaword	0x81ce
-=======
-	.uaword	0x81d5
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x81b2
 	.uleb128 0x29
 	.uaword	.LASF61
 	.byte	0x2
 	.uahalf	0x92d
-<<<<<<< HEAD
-	.uaword	0x8238
-=======
-	.uaword	0x823f
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x821c
 	.byte	0
 	.uleb128 0x27
 	.string	"IfxVadc_storeGroupResult"
@@ -26281,38 +17998,22 @@ IfxVadc_Adc_masterIndex:
 	.uahalf	0x984
 	.byte	0x1
 	.byte	0x3
-<<<<<<< HEAD
-	.uaword	0xb043
-=======
-	.uaword	0xb04a
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0xb027
 	.uleb128 0x29
 	.uaword	.LASF69
 	.byte	0x2
 	.uahalf	0x984
-<<<<<<< HEAD
-	.uaword	0x9e9f
-=======
-	.uaword	0x9ea6
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x9e83
 	.uleb128 0x29
 	.uaword	.LASF70
 	.byte	0x2
 	.uahalf	0x984
-<<<<<<< HEAD
-	.uaword	0x81ce
-=======
-	.uaword	0x81d5
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x81b2
 	.uleb128 0x29
 	.uaword	.LASF62
 	.byte	0x2
 	.uahalf	0x984
-<<<<<<< HEAD
-	.uaword	0x84bc
-=======
-	.uaword	0x84c3
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x84a0
 	.byte	0
 	.uleb128 0x27
 	.string	"IfxVadc_setLowerBoundary"
@@ -26320,38 +18021,22 @@ IfxVadc_Adc_masterIndex:
 	.uahalf	0x90a
 	.byte	0x1
 	.byte	0x3
-<<<<<<< HEAD
-	.uaword	0xb08b
-=======
-	.uaword	0xb092
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0xb06f
 	.uleb128 0x29
 	.uaword	.LASF69
 	.byte	0x2
 	.uahalf	0x90a
-<<<<<<< HEAD
-	.uaword	0x9e9f
-=======
-	.uaword	0x9ea6
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x9e83
 	.uleb128 0x29
 	.uaword	.LASF70
 	.byte	0x2
 	.uahalf	0x90a
-<<<<<<< HEAD
-	.uaword	0x81ce
-=======
-	.uaword	0x81d5
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x81b2
 	.uleb128 0x29
 	.uaword	.LASF63
 	.byte	0x2
 	.uahalf	0x90a
-<<<<<<< HEAD
-	.uaword	0x80db
-=======
-	.uaword	0x80e2
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x80bf
 	.byte	0
 	.uleb128 0x27
 	.string	"IfxVadc_setUpperBoundary"
@@ -26359,38 +18044,22 @@ IfxVadc_Adc_masterIndex:
 	.uahalf	0x96c
 	.byte	0x1
 	.byte	0x3
-<<<<<<< HEAD
-	.uaword	0xb0d3
-=======
-	.uaword	0xb0da
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0xb0b7
 	.uleb128 0x29
 	.uaword	.LASF69
 	.byte	0x2
 	.uahalf	0x96c
-<<<<<<< HEAD
-	.uaword	0x9e9f
-=======
-	.uaword	0x9ea6
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x9e83
 	.uleb128 0x29
 	.uaword	.LASF70
 	.byte	0x2
 	.uahalf	0x96c
-<<<<<<< HEAD
-	.uaword	0x81ce
-=======
-	.uaword	0x81d5
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x81b2
 	.uleb128 0x29
 	.uaword	.LASF64
 	.byte	0x2
 	.uahalf	0x96c
-<<<<<<< HEAD
-	.uaword	0x80db
-=======
-	.uaword	0x80e2
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x80bf
 	.byte	0
 	.uleb128 0x27
 	.string	"IfxVadc_setSyncRequest"
@@ -26398,38 +18067,22 @@ IfxVadc_Adc_masterIndex:
 	.uahalf	0x966
 	.byte	0x1
 	.byte	0x3
-<<<<<<< HEAD
-	.uaword	0xb119
-=======
-	.uaword	0xb120
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0xb0fd
 	.uleb128 0x29
 	.uaword	.LASF69
 	.byte	0x2
 	.uahalf	0x966
-<<<<<<< HEAD
-	.uaword	0x9e9f
-=======
-	.uaword	0x9ea6
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x9e83
 	.uleb128 0x29
 	.uaword	.LASF70
 	.byte	0x2
 	.uahalf	0x966
-<<<<<<< HEAD
-	.uaword	0x81ce
-=======
-	.uaword	0x81d5
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x81b2
 	.uleb128 0x29
 	.uaword	.LASF55
 	.byte	0x2
 	.uahalf	0x966
-<<<<<<< HEAD
-	.uaword	0x20c
-=======
-	.uaword	0x213
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x1f0
 	.byte	0
 	.uleb128 0x27
 	.string	"IfxVadc_setChannelInputClass"
@@ -26437,38 +18090,22 @@ IfxVadc_Adc_masterIndex:
 	.uahalf	0x8bb
 	.byte	0x1
 	.byte	0x3
-<<<<<<< HEAD
-	.uaword	0xb165
-=======
-	.uaword	0xb16c
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0xb149
 	.uleb128 0x29
 	.uaword	.LASF69
 	.byte	0x2
 	.uahalf	0x8bb
-<<<<<<< HEAD
-	.uaword	0x9e9f
-=======
-	.uaword	0x9ea6
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x9e83
 	.uleb128 0x29
 	.uaword	.LASF70
 	.byte	0x2
 	.uahalf	0x8bb
-<<<<<<< HEAD
-	.uaword	0x81ce
-=======
-	.uaword	0x81d5
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x81b2
 	.uleb128 0x29
 	.uaword	.LASF60
 	.byte	0x2
 	.uahalf	0x8bb
-<<<<<<< HEAD
-	.uaword	0x8bbb
-=======
-	.uaword	0x8bc2
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x8b9f
 	.byte	0
 	.uleb128 0x27
 	.string	"IfxVadc_setChannelLimitCheckMode"
@@ -26476,38 +18113,22 @@ IfxVadc_Adc_masterIndex:
 	.uahalf	0x8c1
 	.byte	0x1
 	.byte	0x3
-<<<<<<< HEAD
-	.uaword	0xb1b5
-=======
-	.uaword	0xb1bc
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0xb199
 	.uleb128 0x29
 	.uaword	.LASF69
 	.byte	0x2
 	.uahalf	0x8c1
-<<<<<<< HEAD
-	.uaword	0x9e9f
-=======
-	.uaword	0x9ea6
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x9e83
 	.uleb128 0x29
 	.uaword	.LASF70
 	.byte	0x2
 	.uahalf	0x8c1
-<<<<<<< HEAD
-	.uaword	0x81ce
-=======
-	.uaword	0x81d5
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x81b2
 	.uleb128 0x29
 	.uaword	.LASF66
 	.byte	0x2
 	.uahalf	0x8c1
-<<<<<<< HEAD
-	.uaword	0x8c66
-=======
-	.uaword	0x8c6d
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x8c4a
 	.byte	0
 	.uleb128 0x27
 	.string	"IfxVadc_setResultPosition"
@@ -26515,38 +18136,22 @@ IfxVadc_Adc_masterIndex:
 	.uahalf	0x941
 	.byte	0x1
 	.byte	0x3
-<<<<<<< HEAD
-	.uaword	0xb1fe
-=======
-	.uaword	0xb205
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0xb1e2
 	.uleb128 0x29
 	.uaword	.LASF69
 	.byte	0x2
 	.uahalf	0x941
-<<<<<<< HEAD
-	.uaword	0x9e9f
-=======
-	.uaword	0x9ea6
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x9e83
 	.uleb128 0x29
 	.uaword	.LASF70
 	.byte	0x2
 	.uahalf	0x941
-<<<<<<< HEAD
-	.uaword	0x81ce
-=======
-	.uaword	0x81d5
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x81b2
 	.uleb128 0x29
 	.uaword	.LASF56
 	.byte	0x2
 	.uahalf	0x941
-<<<<<<< HEAD
-	.uaword	0x20c
-=======
-	.uaword	0x213
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x1f0
 	.byte	0
 	.uleb128 0x27
 	.string	"IfxVadc_setBackgroundResultTarget"
@@ -26554,38 +18159,22 @@ IfxVadc_Adc_masterIndex:
 	.uahalf	0x88b
 	.byte	0x1
 	.byte	0x3
-<<<<<<< HEAD
-	.uaword	0xb24f
-=======
-	.uaword	0xb256
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0xb233
 	.uleb128 0x29
 	.uaword	.LASF69
 	.byte	0x2
 	.uahalf	0x88b
-<<<<<<< HEAD
-	.uaword	0x9e9f
-=======
-	.uaword	0x9ea6
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x9e83
 	.uleb128 0x29
 	.uaword	.LASF70
 	.byte	0x2
 	.uahalf	0x88b
-<<<<<<< HEAD
-	.uaword	0x81ce
-=======
-	.uaword	0x81d5
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x81b2
 	.uleb128 0x29
 	.uaword	.LASF54
 	.byte	0x2
 	.uahalf	0x88b
-<<<<<<< HEAD
-	.uaword	0x20c
-=======
-	.uaword	0x213
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x1f0
 	.byte	0
 	.uleb128 0x27
 	.string	"IfxVadc_setBoundaryMode"
@@ -26593,38 +18182,22 @@ IfxVadc_Adc_masterIndex:
 	.uahalf	0x8ae
 	.byte	0x1
 	.byte	0x3
-<<<<<<< HEAD
-	.uaword	0xb296
-=======
-	.uaword	0xb29d
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0xb27a
 	.uleb128 0x29
 	.uaword	.LASF69
 	.byte	0x2
 	.uahalf	0x8ae
-<<<<<<< HEAD
-	.uaword	0x9e9f
-=======
-	.uaword	0x9ea6
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x9e83
 	.uleb128 0x29
 	.uaword	.LASF70
 	.byte	0x2
 	.uahalf	0x8ae
-<<<<<<< HEAD
-	.uaword	0x81ce
-=======
-	.uaword	0x81d5
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x81b2
 	.uleb128 0x29
 	.uaword	.LASF65
 	.byte	0x2
 	.uahalf	0x8ae
-<<<<<<< HEAD
-	.uaword	0x8023
-=======
-	.uaword	0x802a
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x8007
 	.byte	0
 	.uleb128 0x27
 	.string	"IfxVadc_setGroupPriorityChannel"
@@ -26632,29 +18205,17 @@ IfxVadc_Adc_masterIndex:
 	.uahalf	0x8f8
 	.byte	0x1
 	.byte	0x3
-<<<<<<< HEAD
-	.uaword	0xb2d9
-=======
-	.uaword	0xb2e0
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0xb2bd
 	.uleb128 0x29
 	.uaword	.LASF69
 	.byte	0x2
 	.uahalf	0x8f8
-<<<<<<< HEAD
-	.uaword	0x9e9f
-=======
-	.uaword	0x9ea6
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x9e83
 	.uleb128 0x29
 	.uaword	.LASF70
 	.byte	0x2
 	.uahalf	0x8f8
-<<<<<<< HEAD
-	.uaword	0x81ce
-=======
-	.uaword	0x81d5
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x81b2
 	.byte	0
 	.uleb128 0x27
 	.string	"IfxVadc_setBackgroundPriorityChannel"
@@ -26662,29 +18223,17 @@ IfxVadc_Adc_masterIndex:
 	.uahalf	0x885
 	.byte	0x1
 	.byte	0x3
-<<<<<<< HEAD
-	.uaword	0xb321
-=======
-	.uaword	0xb328
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0xb305
 	.uleb128 0x29
 	.uaword	.LASF69
 	.byte	0x2
 	.uahalf	0x885
-<<<<<<< HEAD
-	.uaword	0x9e9f
-=======
-	.uaword	0x9ea6
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x9e83
 	.uleb128 0x29
 	.uaword	.LASF70
 	.byte	0x2
 	.uahalf	0x885
-<<<<<<< HEAD
-	.uaword	0x81ce
-=======
-	.uaword	0x81d5
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x81b2
 	.byte	0
 	.uleb128 0x27
 	.string	"IfxVadc_setChannelEventNodePointer0"
@@ -26692,38 +18241,22 @@ IfxVadc_Adc_masterIndex:
 	.uahalf	0x8b4
 	.byte	0x1
 	.byte	0x3
-<<<<<<< HEAD
-	.uaword	0xb374
-=======
-	.uaword	0xb37b
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0xb358
 	.uleb128 0x29
 	.uaword	.LASF69
 	.byte	0x2
 	.uahalf	0x8b4
-<<<<<<< HEAD
-	.uaword	0x9e9f
-=======
-	.uaword	0x9ea6
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x9e83
 	.uleb128 0x29
 	.uaword	.LASF58
 	.byte	0x2
 	.uahalf	0x8b4
-<<<<<<< HEAD
-	.uaword	0x98c5
-=======
-	.uaword	0x98cc
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x98a9
 	.uleb128 0x29
 	.uaword	.LASF53
 	.byte	0x2
 	.uahalf	0x8b4
-<<<<<<< HEAD
-	.uaword	0x81ce
-=======
-	.uaword	0x81d5
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x81b2
 	.byte	0
 	.uleb128 0x27
 	.string	"IfxVadc_clearChannelRequest"
@@ -26731,29 +18264,17 @@ IfxVadc_Adc_masterIndex:
 	.uahalf	0x6c5
 	.byte	0x1
 	.byte	0x3
-<<<<<<< HEAD
-	.uaword	0xb3b3
-=======
-	.uaword	0xb3ba
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0xb397
 	.uleb128 0x29
 	.uaword	.LASF69
 	.byte	0x2
 	.uahalf	0x6c5
-<<<<<<< HEAD
-	.uaword	0x9e9f
-=======
-	.uaword	0x9ea6
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x9e83
 	.uleb128 0x29
 	.uaword	.LASF59
 	.byte	0x2
 	.uahalf	0x6c5
-<<<<<<< HEAD
-	.uaword	0x81ce
-=======
-	.uaword	0x81d5
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x81b2
 	.byte	0
 	.uleb128 0x27
 	.string	"IfxSrc_init"
@@ -26761,38 +18282,22 @@ IfxVadc_Adc_masterIndex:
 	.uahalf	0x10f
 	.byte	0x1
 	.byte	0x3
-<<<<<<< HEAD
-	.uaword	0xb3fc
-=======
-	.uaword	0xb403
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0xb3e0
 	.uleb128 0x28
 	.string	"src"
 	.byte	0x3
 	.uahalf	0x10f
-<<<<<<< HEAD
-	.uaword	0xa48d
-=======
-	.uaword	0xa494
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0xa471
 	.uleb128 0x28
 	.string	"typOfService"
 	.byte	0x3
 	.uahalf	0x10f
-<<<<<<< HEAD
-	.uaword	0x1d2
-=======
-	.uaword	0x1d9
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x1b6
 	.uleb128 0x28
 	.string	"priority"
 	.byte	0x3
 	.uahalf	0x10f
-<<<<<<< HEAD
-	.uaword	0x2e8
-=======
-	.uaword	0x2ef
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x2cc
 	.byte	0
 	.uleb128 0x27
 	.string	"IfxSrc_enable"
@@ -26800,20 +18305,12 @@ IfxVadc_Adc_masterIndex:
 	.uahalf	0x109
 	.byte	0x1
 	.byte	0x3
-<<<<<<< HEAD
-	.uaword	0xb421
-=======
-	.uaword	0xb428
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0xb405
 	.uleb128 0x28
 	.string	"src"
 	.byte	0x3
 	.uahalf	0x109
-<<<<<<< HEAD
-	.uaword	0xa48d
-=======
-	.uaword	0xa494
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0xa471
 	.byte	0
 	.uleb128 0x27
 	.string	"IfxVadc_setResultNodeEventPointer0"
@@ -26821,38 +18318,22 @@ IfxVadc_Adc_masterIndex:
 	.uahalf	0x933
 	.byte	0x1
 	.byte	0x3
-<<<<<<< HEAD
-	.uaword	0xb473
-=======
-	.uaword	0xb47a
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0xb457
 	.uleb128 0x29
 	.uaword	.LASF69
 	.byte	0x2
 	.uahalf	0x933
-<<<<<<< HEAD
-	.uaword	0x9e9f
-=======
-	.uaword	0x9ea6
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x9e83
 	.uleb128 0x29
 	.uaword	.LASF57
 	.byte	0x2
 	.uahalf	0x933
-<<<<<<< HEAD
-	.uaword	0x98c5
-=======
-	.uaword	0x98cc
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x98a9
 	.uleb128 0x29
 	.uaword	.LASF62
 	.byte	0x2
 	.uahalf	0x933
-<<<<<<< HEAD
-	.uaword	0x84bc
-=======
-	.uaword	0x84c3
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x84a0
 	.byte	0
 	.uleb128 0x27
 	.string	"IfxVadc_setResultNodeEventPointer1"
@@ -26860,38 +18341,22 @@ IfxVadc_Adc_masterIndex:
 	.uahalf	0x93a
 	.byte	0x1
 	.byte	0x3
-<<<<<<< HEAD
-	.uaword	0xb4c5
-=======
-	.uaword	0xb4cc
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0xb4a9
 	.uleb128 0x29
 	.uaword	.LASF69
 	.byte	0x2
 	.uahalf	0x93a
-<<<<<<< HEAD
-	.uaword	0x9e9f
-=======
-	.uaword	0x9ea6
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x9e83
 	.uleb128 0x29
 	.uaword	.LASF57
 	.byte	0x2
 	.uahalf	0x93a
-<<<<<<< HEAD
-	.uaword	0x98c5
-=======
-	.uaword	0x98cc
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x98a9
 	.uleb128 0x29
 	.uaword	.LASF62
 	.byte	0x2
 	.uahalf	0x93a
-<<<<<<< HEAD
-	.uaword	0x84bc
-=======
-	.uaword	0x84c3
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x84a0
 	.byte	0
 	.uleb128 0x27
 	.string	"IfxVadc_enableServiceRequest"
@@ -26899,29 +18364,17 @@ IfxVadc_Adc_masterIndex:
 	.uahalf	0x714
 	.byte	0x1
 	.byte	0x3
-<<<<<<< HEAD
-	.uaword	0xb505
-=======
-	.uaword	0xb50c
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0xb4e9
 	.uleb128 0x29
 	.uaword	.LASF69
 	.byte	0x2
 	.uahalf	0x714
-<<<<<<< HEAD
-	.uaword	0x9e9f
-=======
-	.uaword	0x9ea6
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x9e83
 	.uleb128 0x29
 	.uaword	.LASF62
 	.byte	0x2
 	.uahalf	0x714
-<<<<<<< HEAD
-	.uaword	0x84bc
-=======
-	.uaword	0x84c3
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x84a0
 	.byte	0
 	.uleb128 0x27
 	.string	"IfxVadc_clearAllResultRequests"
@@ -26929,53 +18382,31 @@ IfxVadc_Adc_masterIndex:
 	.uahalf	0x6bf
 	.byte	0x1
 	.byte	0x3
-<<<<<<< HEAD
-	.uaword	0xb53b
-=======
-	.uaword	0xb542
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0xb51f
 	.uleb128 0x29
 	.uaword	.LASF69
 	.byte	0x2
 	.uahalf	0x6bf
-<<<<<<< HEAD
-	.uaword	0x9e9f
-=======
-	.uaword	0x9ea6
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x9e83
 	.byte	0
 	.uleb128 0x25
 	.string	"IfxVadc_Adc_getMasterKernelIndex"
 	.byte	0x1
 	.byte	0x79
 	.byte	0x1
-<<<<<<< HEAD
-	.uaword	0x9c57
+	.uaword	0x9c3b
 	.byte	0x3
-	.uaword	0xb585
-=======
-	.uaword	0x9c5e
-	.byte	0x3
-	.uaword	0xb58c
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0xb569
 	.uleb128 0x24
 	.string	"slave"
 	.byte	0x1
 	.byte	0x79
-<<<<<<< HEAD
-	.uaword	0x619
-=======
-	.uaword	0x620
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x5fd
 	.uleb128 0x24
 	.string	"master"
 	.byte	0x1
 	.byte	0x79
-<<<<<<< HEAD
-	.uaword	0x619
-=======
-	.uaword	0x620
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x5fd
 	.byte	0
 	.uleb128 0x27
 	.string	"IfxVadc_setMasterIndex"
@@ -26983,29 +18414,17 @@ IfxVadc_Adc_masterIndex:
 	.uahalf	0x910
 	.byte	0x1
 	.byte	0x3
-<<<<<<< HEAD
-	.uaword	0xb5bf
-=======
-	.uaword	0xb5c6
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0xb5a3
 	.uleb128 0x29
 	.uaword	.LASF69
 	.byte	0x2
 	.uahalf	0x910
-<<<<<<< HEAD
-	.uaword	0x9e9f
-=======
-	.uaword	0x9ea6
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x9e83
 	.uleb128 0x29
 	.uaword	.LASF73
 	.byte	0x2
 	.uahalf	0x910
-<<<<<<< HEAD
-	.uaword	0x22c
-=======
-	.uaword	0x233
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x210
 	.byte	0
 	.uleb128 0x27
 	.string	"IfxVadc_setAnalogConvertControl"
@@ -27013,29 +18432,17 @@ IfxVadc_Adc_masterIndex:
 	.uahalf	0x86d
 	.byte	0x1
 	.byte	0x3
-<<<<<<< HEAD
-	.uaword	0xb612
-=======
-	.uaword	0xb619
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0xb5f6
 	.uleb128 0x29
 	.uaword	.LASF69
 	.byte	0x2
 	.uahalf	0x86d
-<<<<<<< HEAD
-	.uaword	0x9e9f
-=======
-	.uaword	0x9ea6
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x9e83
 	.uleb128 0x28
 	.string	"analogConverterMode"
 	.byte	0x2
 	.uahalf	0x86d
-<<<<<<< HEAD
-	.uaword	0x7c4f
-=======
-	.uaword	0x7c56
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x7c33
 	.byte	0
 	.uleb128 0x27
 	.string	"IfxVadc_setArbitrationRoundLength"
@@ -27043,29 +18450,17 @@ IfxVadc_Adc_masterIndex:
 	.uahalf	0x873
 	.byte	0x1
 	.byte	0x3
-<<<<<<< HEAD
-	.uaword	0xb657
-=======
-	.uaword	0xb65e
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0xb63b
 	.uleb128 0x29
 	.uaword	.LASF69
 	.byte	0x2
 	.uahalf	0x873
-<<<<<<< HEAD
-	.uaword	0x9e9f
-=======
-	.uaword	0x9ea6
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x9e83
 	.uleb128 0x29
 	.uaword	.LASF43
 	.byte	0x2
 	.uahalf	0x873
-<<<<<<< HEAD
-	.uaword	0x7d0d
-=======
-	.uaword	0x7d14
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x7cf1
 	.byte	0
 	.uleb128 0x27
 	.string	"IfxVadc_enableQueueSlotExternalTrigger"
@@ -27073,20 +18468,12 @@ IfxVadc_Adc_masterIndex:
 	.uahalf	0x708
 	.byte	0x1
 	.byte	0x3
-<<<<<<< HEAD
-	.uaword	0xb695
-=======
-	.uaword	0xb69c
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0xb679
 	.uleb128 0x29
 	.uaword	.LASF69
 	.byte	0x2
 	.uahalf	0x708
-<<<<<<< HEAD
-	.uaword	0x9e9f
-=======
-	.uaword	0x9ea6
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x9e83
 	.byte	0
 	.uleb128 0x27
 	.string	"IfxVadc_setQueueSlotTriggerOperatingConfig"
@@ -27094,47 +18481,27 @@ IfxVadc_Adc_masterIndex:
 	.uahalf	0x922
 	.byte	0x1
 	.byte	0x3
-<<<<<<< HEAD
-	.uaword	0xb6fe
-=======
-	.uaword	0xb705
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0xb6e2
 	.uleb128 0x29
 	.uaword	.LASF69
 	.byte	0x2
 	.uahalf	0x922
-<<<<<<< HEAD
-	.uaword	0x9e9f
-=======
-	.uaword	0x9ea6
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x9e83
 	.uleb128 0x29
 	.uaword	.LASF42
 	.byte	0x2
 	.uahalf	0x922
-<<<<<<< HEAD
-	.uaword	0x9a6d
-=======
-	.uaword	0x9a74
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x9a51
 	.uleb128 0x29
 	.uaword	.LASF40
 	.byte	0x2
 	.uahalf	0x922
-<<<<<<< HEAD
-	.uaword	0x9c39
-=======
-	.uaword	0x9c40
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x9c1d
 	.uleb128 0x2b
 	.string	"qctrl0"
 	.byte	0x2
 	.uahalf	0x924
-<<<<<<< HEAD
-	.uaword	0x41e1
-=======
-	.uaword	0x41e8
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x41c5
 	.byte	0
 	.uleb128 0x27
 	.string	"IfxVadc_setQueueSlotGatingConfig"
@@ -27142,47 +18509,27 @@ IfxVadc_Adc_masterIndex:
 	.uahalf	0x917
 	.byte	0x1
 	.byte	0x3
-<<<<<<< HEAD
-	.uaword	0xb75d
-=======
-	.uaword	0xb764
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0xb741
 	.uleb128 0x29
 	.uaword	.LASF69
 	.byte	0x2
 	.uahalf	0x917
-<<<<<<< HEAD
-	.uaword	0x9e9f
-=======
-	.uaword	0x9ea6
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x9e83
 	.uleb128 0x29
 	.uaword	.LASF39
 	.byte	0x2
 	.uahalf	0x917
-<<<<<<< HEAD
-	.uaword	0x8b1a
-=======
-	.uaword	0x8b21
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x8afe
 	.uleb128 0x29
 	.uaword	.LASF41
 	.byte	0x2
 	.uahalf	0x917
-<<<<<<< HEAD
-	.uaword	0x895f
-=======
-	.uaword	0x8966
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x8943
 	.uleb128 0x2b
 	.string	"qctrl0"
 	.byte	0x2
 	.uahalf	0x919
-<<<<<<< HEAD
-	.uaword	0x41e1
-=======
-	.uaword	0x41e8
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x41c5
 	.byte	0
 	.uleb128 0x27
 	.string	"IfxVadc_disableQueueSlotExternalTrigger"
@@ -27190,20 +18537,12 @@ IfxVadc_Adc_masterIndex:
 	.uahalf	0x6e6
 	.byte	0x1
 	.byte	0x3
-<<<<<<< HEAD
-	.uaword	0xb79c
-=======
-	.uaword	0xb7a3
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0xb780
 	.uleb128 0x29
 	.uaword	.LASF69
 	.byte	0x2
 	.uahalf	0x6e6
-<<<<<<< HEAD
-	.uaword	0x9e9f
-=======
-	.uaword	0x9ea6
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x9e83
 	.byte	0
 	.uleb128 0x27
 	.string	"IfxVadc_clearQueue"
@@ -27211,29 +18550,17 @@ IfxVadc_Adc_masterIndex:
 	.uahalf	0x6cb
 	.byte	0x1
 	.byte	0x3
-<<<<<<< HEAD
-	.uaword	0xb7d9
-=======
-	.uaword	0xb7e0
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0xb7bd
 	.uleb128 0x29
 	.uaword	.LASF69
 	.byte	0x2
 	.uahalf	0x6cb
-<<<<<<< HEAD
-	.uaword	0x9e9f
-=======
-	.uaword	0x9ea6
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x9e83
 	.uleb128 0x28
 	.string	"flushQueue"
 	.byte	0x2
 	.uahalf	0x6cb
-<<<<<<< HEAD
-	.uaword	0x20c
-=======
-	.uaword	0x213
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x1f0
 	.byte	0
 	.uleb128 0x27
 	.string	"IfxVadc_enableScanSlotExternalTrigger"
@@ -27241,20 +18568,12 @@ IfxVadc_Adc_masterIndex:
 	.uahalf	0x70e
 	.byte	0x1
 	.byte	0x3
-<<<<<<< HEAD
-	.uaword	0xb816
-=======
-	.uaword	0xb81d
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0xb7fa
 	.uleb128 0x29
 	.uaword	.LASF69
 	.byte	0x2
 	.uahalf	0x70e
-<<<<<<< HEAD
-	.uaword	0x9e9f
-=======
-	.uaword	0x9ea6
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x9e83
 	.byte	0
 	.uleb128 0x27
 	.string	"IfxVadc_setScanSlotTriggerConfig"
@@ -27262,47 +18581,27 @@ IfxVadc_Adc_masterIndex:
 	.uahalf	0x952
 	.byte	0x1
 	.byte	0x3
-<<<<<<< HEAD
-	.uaword	0xb875
-=======
-	.uaword	0xb87c
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0xb859
 	.uleb128 0x29
 	.uaword	.LASF69
 	.byte	0x2
 	.uahalf	0x952
-<<<<<<< HEAD
-	.uaword	0x9e9f
-=======
-	.uaword	0x9ea6
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x9e83
 	.uleb128 0x29
 	.uaword	.LASF42
 	.byte	0x2
 	.uahalf	0x952
-<<<<<<< HEAD
-	.uaword	0x9a6d
-=======
-	.uaword	0x9a74
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x9a51
 	.uleb128 0x29
 	.uaword	.LASF40
 	.byte	0x2
 	.uahalf	0x952
-<<<<<<< HEAD
-	.uaword	0x9c39
-=======
-	.uaword	0x9c40
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x9c1d
 	.uleb128 0x2b
 	.string	"asctrl"
 	.byte	0x2
 	.uahalf	0x954
-<<<<<<< HEAD
-	.uaword	0x3d90
-=======
-	.uaword	0x3d97
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x3d74
 	.byte	0
 	.uleb128 0x27
 	.string	"IfxVadc_setScanSlotGatingConfig"
@@ -27310,47 +18609,27 @@ IfxVadc_Adc_masterIndex:
 	.uahalf	0x947
 	.byte	0x1
 	.byte	0x3
-<<<<<<< HEAD
-	.uaword	0xb8d3
-=======
-	.uaword	0xb8da
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0xb8b7
 	.uleb128 0x29
 	.uaword	.LASF69
 	.byte	0x2
 	.uahalf	0x947
-<<<<<<< HEAD
-	.uaword	0x9e9f
-=======
-	.uaword	0x9ea6
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x9e83
 	.uleb128 0x29
 	.uaword	.LASF39
 	.byte	0x2
 	.uahalf	0x947
-<<<<<<< HEAD
-	.uaword	0x8b1a
-=======
-	.uaword	0x8b21
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x8afe
 	.uleb128 0x29
 	.uaword	.LASF41
 	.byte	0x2
 	.uahalf	0x947
-<<<<<<< HEAD
-	.uaword	0x895f
-=======
-	.uaword	0x8966
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x8943
 	.uleb128 0x2b
 	.string	"asctrl"
 	.byte	0x2
 	.uahalf	0x949
-<<<<<<< HEAD
-	.uaword	0x3d90
-=======
-	.uaword	0x3d97
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x3d74
 	.byte	0
 	.uleb128 0x27
 	.string	"IfxVadc_disableScanSlotExternalTrigger"
@@ -27358,20 +18637,12 @@ IfxVadc_Adc_masterIndex:
 	.uahalf	0x6ec
 	.byte	0x1
 	.byte	0x3
-<<<<<<< HEAD
-	.uaword	0xb911
-=======
-	.uaword	0xb918
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0xb8f5
 	.uleb128 0x29
 	.uaword	.LASF69
 	.byte	0x2
 	.uahalf	0x6ec
-<<<<<<< HEAD
-	.uaword	0x9e9f
-=======
-	.uaword	0x9ea6
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x9e83
 	.byte	0
 	.uleb128 0x27
 	.string	"IfxVadc_setAutoScan"
@@ -27379,29 +18650,17 @@ IfxVadc_Adc_masterIndex:
 	.uahalf	0x87f
 	.byte	0x1
 	.byte	0x3
-<<<<<<< HEAD
-	.uaword	0xb953
-=======
-	.uaword	0xb95a
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0xb937
 	.uleb128 0x29
 	.uaword	.LASF69
 	.byte	0x2
 	.uahalf	0x87f
-<<<<<<< HEAD
-	.uaword	0x9e9f
-=======
-	.uaword	0x9ea6
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x9e83
 	.uleb128 0x28
 	.string	"autoscanEnable"
 	.byte	0x2
 	.uahalf	0x87f
-<<<<<<< HEAD
-	.uaword	0x20c
-=======
-	.uaword	0x213
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x1f0
 	.byte	0
 	.uleb128 0x27
 	.string	"IfxVadc_enableBackgroundScanSlotExternalTrigger"
@@ -27409,20 +18668,12 @@ IfxVadc_Adc_masterIndex:
 	.uahalf	0x6f2
 	.byte	0x1
 	.byte	0x3
-<<<<<<< HEAD
-	.uaword	0xb99a
-=======
-	.uaword	0xb9a1
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0xb97e
 	.uleb128 0x29
 	.uaword	.LASF38
 	.byte	0x2
 	.uahalf	0x6f2
-<<<<<<< HEAD
-	.uaword	0x7aff
-=======
-	.uaword	0x7b06
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x7ae3
 	.byte	0
 	.uleb128 0x27
 	.string	"IfxVadc_setBackgroundScanSlotTriggerConfig"
@@ -27430,47 +18681,27 @@ IfxVadc_Adc_masterIndex:
 	.uahalf	0x8a3
 	.byte	0x1
 	.byte	0x3
-<<<<<<< HEAD
-	.uaword	0xba04
-=======
-	.uaword	0xba0b
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0xb9e8
 	.uleb128 0x29
 	.uaword	.LASF38
 	.byte	0x2
 	.uahalf	0x8a3
-<<<<<<< HEAD
-	.uaword	0x7aff
-=======
-	.uaword	0x7b06
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x7ae3
 	.uleb128 0x29
 	.uaword	.LASF42
 	.byte	0x2
 	.uahalf	0x8a3
-<<<<<<< HEAD
-	.uaword	0x9a6d
-=======
-	.uaword	0x9a74
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x9a51
 	.uleb128 0x29
 	.uaword	.LASF40
 	.byte	0x2
 	.uahalf	0x8a3
-<<<<<<< HEAD
-	.uaword	0x9c39
-=======
-	.uaword	0x9c40
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x9c1d
 	.uleb128 0x2b
 	.string	"brsctrl"
 	.byte	0x2
 	.uahalf	0x8a5
-<<<<<<< HEAD
-	.uaword	0x3b4e
-=======
-	.uaword	0x3b55
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x3b32
 	.byte	0
 	.uleb128 0x27
 	.string	"IfxVadc_setBackgroundScanSlotGatingConfig"
@@ -27478,47 +18709,27 @@ IfxVadc_Adc_masterIndex:
 	.uahalf	0x898
 	.byte	0x1
 	.byte	0x3
-<<<<<<< HEAD
-	.uaword	0xba6d
-=======
-	.uaword	0xba74
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0xba51
 	.uleb128 0x29
 	.uaword	.LASF38
 	.byte	0x2
 	.uahalf	0x898
-<<<<<<< HEAD
-	.uaword	0x7aff
-=======
-	.uaword	0x7b06
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x7ae3
 	.uleb128 0x29
 	.uaword	.LASF39
 	.byte	0x2
 	.uahalf	0x898
-<<<<<<< HEAD
-	.uaword	0x8b1a
-=======
-	.uaword	0x8b21
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x8afe
 	.uleb128 0x29
 	.uaword	.LASF41
 	.byte	0x2
 	.uahalf	0x898
-<<<<<<< HEAD
-	.uaword	0x895f
-=======
-	.uaword	0x8966
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x8943
 	.uleb128 0x2b
 	.string	"brsctrl"
 	.byte	0x2
 	.uahalf	0x89a
-<<<<<<< HEAD
-	.uaword	0x3b4e
-=======
-	.uaword	0x3b55
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x3b32
 	.byte	0
 	.uleb128 0x27
 	.string	"IfxVadc_setAutoBackgroundScan"
@@ -27526,29 +18737,17 @@ IfxVadc_Adc_masterIndex:
 	.uahalf	0x879
 	.byte	0x1
 	.byte	0x3
-<<<<<<< HEAD
-	.uaword	0xbac3
-=======
-	.uaword	0xbaca
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0xbaa7
 	.uleb128 0x29
 	.uaword	.LASF38
 	.byte	0x2
 	.uahalf	0x879
-<<<<<<< HEAD
-	.uaword	0x7aff
-=======
-	.uaword	0x7b06
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x7ae3
 	.uleb128 0x28
 	.string	"autoBackgroundScanEnable"
 	.byte	0x2
 	.uahalf	0x879
-<<<<<<< HEAD
-	.uaword	0x20c
-=======
-	.uaword	0x213
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x1f0
 	.byte	0
 	.uleb128 0x27
 	.string	"IfxVadc_setGroupResolution"
@@ -27556,38 +18755,22 @@ IfxVadc_Adc_masterIndex:
 	.uahalf	0x8fe
 	.byte	0x1
 	.byte	0x3
-<<<<<<< HEAD
-	.uaword	0xbb0d
-=======
-	.uaword	0xbb14
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0xbaf1
 	.uleb128 0x29
 	.uaword	.LASF69
 	.byte	0x2
 	.uahalf	0x8fe
-<<<<<<< HEAD
-	.uaword	0x9e9f
-=======
-	.uaword	0x9ea6
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x9e83
 	.uleb128 0x29
 	.uaword	.LASF72
 	.byte	0x2
 	.uahalf	0x8fe
-<<<<<<< HEAD
-	.uaword	0x22c
-=======
-	.uaword	0x233
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x210
 	.uleb128 0x29
 	.uaword	.LASF48
 	.byte	0x2
 	.uahalf	0x8fe
-<<<<<<< HEAD
-	.uaword	0x82ec
-=======
-	.uaword	0x82f3
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x82d0
 	.byte	0
 	.uleb128 0x27
 	.string	"IfxVadc_setGroupSampleTime"
@@ -27595,47 +18778,27 @@ IfxVadc_Adc_masterIndex:
 	.uahalf	0x904
 	.byte	0x1
 	.byte	0x3
-<<<<<<< HEAD
-	.uaword	0xbb63
-=======
-	.uaword	0xbb6a
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0xbb47
 	.uleb128 0x29
 	.uaword	.LASF69
 	.byte	0x2
 	.uahalf	0x904
-<<<<<<< HEAD
-	.uaword	0x9e9f
-=======
-	.uaword	0x9ea6
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x9e83
 	.uleb128 0x29
 	.uaword	.LASF72
 	.byte	0x2
 	.uahalf	0x904
-<<<<<<< HEAD
-	.uaword	0x22c
-=======
-	.uaword	0x233
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x210
 	.uleb128 0x29
 	.uaword	.LASF67
 	.byte	0x2
 	.uahalf	0x904
-<<<<<<< HEAD
-	.uaword	0x2c0
-=======
-	.uaword	0x2c7
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x2a4
 	.uleb128 0x29
 	.uaword	.LASF47
 	.byte	0x2
 	.uahalf	0x904
-<<<<<<< HEAD
-	.uaword	0x2c0
-=======
-	.uaword	0x2c7
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x2a4
 	.byte	0
 	.uleb128 0x27
 	.string	"IfxVadc_enableModule"
@@ -27643,29 +18806,17 @@ IfxVadc_Adc_masterIndex:
 	.uahalf	0x6fe
 	.byte	0x1
 	.byte	0x3
-<<<<<<< HEAD
-	.uaword	0xbb9e
-=======
-	.uaword	0xbba5
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0xbb82
 	.uleb128 0x29
 	.uaword	.LASF38
 	.byte	0x2
 	.uahalf	0x6fe
-<<<<<<< HEAD
-	.uaword	0x7aff
-=======
-	.uaword	0x7b06
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x7ae3
 	.uleb128 0x2b
 	.string	"passwd"
 	.byte	0x2
 	.uahalf	0x700
-<<<<<<< HEAD
-	.uaword	0x239
-=======
-	.uaword	0x240
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x21d
 	.byte	0
 	.uleb128 0x27
 	.string	"IfxVadc_setGlobalResolution"
@@ -27673,38 +18824,22 @@ IfxVadc_Adc_masterIndex:
 	.uahalf	0x8ec
 	.byte	0x1
 	.byte	0x3
-<<<<<<< HEAD
-	.uaword	0xbbe9
-=======
-	.uaword	0xbbf0
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0xbbcd
 	.uleb128 0x29
 	.uaword	.LASF38
 	.byte	0x2
 	.uahalf	0x8ec
-<<<<<<< HEAD
-	.uaword	0x7aff
-=======
-	.uaword	0x7b06
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x7ae3
 	.uleb128 0x29
 	.uaword	.LASF72
 	.byte	0x2
 	.uahalf	0x8ec
-<<<<<<< HEAD
-	.uaword	0x22c
-=======
-	.uaword	0x233
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x210
 	.uleb128 0x29
 	.uaword	.LASF48
 	.byte	0x2
 	.uahalf	0x8ec
-<<<<<<< HEAD
-	.uaword	0x82ec
-=======
-	.uaword	0x82f3
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x82d0
 	.byte	0
 	.uleb128 0x27
 	.string	"IfxVadc_setGlobalSampleTime"
@@ -27712,47 +18847,27 @@ IfxVadc_Adc_masterIndex:
 	.uahalf	0x8f2
 	.byte	0x1
 	.byte	0x3
-<<<<<<< HEAD
-	.uaword	0xbc40
-=======
-	.uaword	0xbc47
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0xbc24
 	.uleb128 0x29
 	.uaword	.LASF38
 	.byte	0x2
 	.uahalf	0x8f2
-<<<<<<< HEAD
-	.uaword	0x7aff
-=======
-	.uaword	0x7b06
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x7ae3
 	.uleb128 0x29
 	.uaword	.LASF72
 	.byte	0x2
 	.uahalf	0x8f2
-<<<<<<< HEAD
-	.uaword	0x22c
-=======
-	.uaword	0x233
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x210
 	.uleb128 0x29
 	.uaword	.LASF67
 	.byte	0x2
 	.uahalf	0x8f2
-<<<<<<< HEAD
-	.uaword	0x2c0
-=======
-	.uaword	0x2c7
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x2a4
 	.uleb128 0x29
 	.uaword	.LASF47
 	.byte	0x2
 	.uahalf	0x8f2
-<<<<<<< HEAD
-	.uaword	0x2c0
-=======
-	.uaword	0x2c7
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x2a4
 	.byte	0
 	.uleb128 0x27
 	.string	"IfxVadc_setEmuxInterfaceForGroup"
@@ -27760,38 +18875,22 @@ IfxVadc_Adc_masterIndex:
 	.uahalf	0x8df
 	.byte	0x1
 	.byte	0x3
-<<<<<<< HEAD
-	.uaword	0xbc90
-=======
-	.uaword	0xbc97
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0xbc74
 	.uleb128 0x29
 	.uaword	.LASF38
 	.byte	0x2
 	.uahalf	0x8df
-<<<<<<< HEAD
-	.uaword	0x7aff
-=======
-	.uaword	0x7b06
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x7ae3
 	.uleb128 0x29
 	.uaword	.LASF68
 	.byte	0x2
 	.uahalf	0x8df
-<<<<<<< HEAD
-	.uaword	0x864f
-=======
-	.uaword	0x8656
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x8633
 	.uleb128 0x29
 	.uaword	.LASF49
 	.byte	0x2
 	.uahalf	0x8df
-<<<<<<< HEAD
-	.uaword	0x619
-=======
-	.uaword	0x620
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x5fd
 	.byte	0
 	.uleb128 0x27
 	.string	"IfxVadc_initEmuxPin"
@@ -27799,46 +18898,26 @@ IfxVadc_Adc_masterIndex:
 	.uahalf	0x835
 	.byte	0x1
 	.byte	0x3
-<<<<<<< HEAD
-	.uaword	0xbcd4
-=======
-	.uaword	0xbcdb
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0xbcb8
 	.uleb128 0x28
 	.string	"emux"
 	.byte	0x2
 	.uahalf	0x835
-<<<<<<< HEAD
-	.uaword	0xbcd4
-=======
-	.uaword	0xbcdb
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0xbcb8
 	.uleb128 0x29
 	.uaword	.LASF51
 	.byte	0x2
 	.uahalf	0x835
-<<<<<<< HEAD
-	.uaword	0x78f6
-=======
-	.uaword	0x78fd
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x78da
 	.uleb128 0x29
 	.uaword	.LASF52
 	.byte	0x2
 	.uahalf	0x835
-<<<<<<< HEAD
-	.uaword	0x7ab1
+	.uaword	0x7a95
 	.byte	0
 	.uleb128 0x6
 	.byte	0x4
-	.uaword	0x7b35
-=======
-	.uaword	0x7ab8
-	.byte	0
-	.uleb128 0x6
-	.byte	0x4
-	.uaword	0x7b3c
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x7b19
 	.uleb128 0x2e
 	.byte	0x1
 	.string	"IfxVadc_Adc_deInitGroup"
@@ -27850,79 +18929,45 @@ IfxVadc_Adc_masterIndex:
 	.byte	0x1
 	.byte	0x9c
 	.byte	0x1
-<<<<<<< HEAD
-	.uaword	0xbd87
-=======
-	.uaword	0xbd8e
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0xbd6b
 	.uleb128 0x2f
 	.uaword	.LASF49
 	.byte	0x1
 	.byte	0x83
-<<<<<<< HEAD
-	.uaword	0xbd87
-=======
-	.uaword	0xbd8e
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0xbd6b
 	.uaword	.LLST0
 	.uleb128 0x30
 	.uaword	.LASF38
 	.byte	0x1
 	.byte	0x85
-<<<<<<< HEAD
-	.uaword	0x7aff
-=======
-	.uaword	0x7b06
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x7ae3
 	.uleb128 0x30
 	.uaword	.LASF69
 	.byte	0x1
 	.byte	0x86
-<<<<<<< HEAD
-	.uaword	0x9e9f
-=======
-	.uaword	0x9ea6
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x9e83
 	.uleb128 0x31
 	.uaword	.LASF75
 	.byte	0x1
 	.byte	0x88
-<<<<<<< HEAD
-	.uaword	0x619
+	.uaword	0x5fd
 	.uaword	.LLST1
 	.uleb128 0x32
-	.uaword	0xa5eb
-=======
-	.uaword	0x620
-	.uaword	.LLST1
-	.uleb128 0x32
-	.uaword	0xa5f2
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0xa5cf
 	.uaword	.LBB224
 	.uaword	.Ldebug_ranges0+0
 	.byte	0x1
 	.byte	0x8c
-<<<<<<< HEAD
-	.uaword	0xbd55
+	.uaword	0xbd39
 	.uleb128 0x33
-	.uaword	0xa608
-=======
-	.uaword	0xbd5c
-	.uleb128 0x33
-	.uaword	0xa60f
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0xa5ec
 	.byte	0x1
 	.byte	0x6d
 	.byte	0
 	.uleb128 0x34
 	.uaword	.LVL4
-<<<<<<< HEAD
-	.uaword	0xd7e2
-	.uaword	0xbd6f
-=======
-	.uaword	0xd7e9
-	.uaword	0xbd76
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0xd7c6
+	.uaword	0xbd53
 	.uleb128 0x35
 	.byte	0x1
 	.byte	0x54
@@ -27939,11 +18984,7 @@ IfxVadc_Adc_masterIndex:
 	.uleb128 0x36
 	.uaword	.LVL5
 	.byte	0x1
-<<<<<<< HEAD
-	.uaword	0xd80d
-=======
-	.uaword	0xd814
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0xd7f1
 	.uleb128 0x35
 	.byte	0x1
 	.byte	0x54
@@ -27960,11 +19001,7 @@ IfxVadc_Adc_masterIndex:
 	.byte	0
 	.uleb128 0x6
 	.byte	0x4
-<<<<<<< HEAD
-	.uaword	0x9ea5
-=======
-	.uaword	0x9eac
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x9e89
 	.uleb128 0x2e
 	.byte	0x1
 	.string	"IfxVadc_Adc_disableModule"
@@ -27976,62 +19013,35 @@ IfxVadc_Adc_masterIndex:
 	.byte	0x1
 	.byte	0x9c
 	.byte	0x1
-<<<<<<< HEAD
-	.uaword	0xbe25
-=======
-	.uaword	0xbe2c
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0xbe09
 	.uleb128 0x2f
 	.uaword	.LASF38
 	.byte	0x1
 	.byte	0x91
-<<<<<<< HEAD
-	.uaword	0x7aff
+	.uaword	0x7ae3
 	.uaword	.LLST2
 	.uleb128 0x37
-	.uaword	0xa615
-=======
-	.uaword	0x7b06
-	.uaword	.LLST2
-	.uleb128 0x37
-	.uaword	0xa61c
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0xa5f9
 	.uaword	.LBB228
 	.uaword	.LBE228
 	.byte	0x1
 	.byte	0x93
 	.uleb128 0x38
-<<<<<<< HEAD
-	.uaword	0xa635
-=======
-	.uaword	0xa63c
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0xa619
 	.uaword	.LLST3
 	.uleb128 0x39
 	.uaword	.LBB229
 	.uaword	.LBE229
 	.uleb128 0x3a
-<<<<<<< HEAD
-	.uaword	0xa641
+	.uaword	0xa625
 	.uaword	.LLST4
 	.uleb128 0x3b
 	.uaword	.LVL8
-	.uaword	0xd839
+	.uaword	0xd81d
 	.uleb128 0x34
 	.uaword	.LVL10
-	.uaword	0xd865
-	.uaword	0xbe11
-=======
-	.uaword	0xa648
-	.uaword	.LLST4
-	.uleb128 0x3b
-	.uaword	.LVL8
-	.uaword	0xd840
-	.uleb128 0x34
-	.uaword	.LVL10
-	.uaword	0xd86c
-	.uaword	0xbe18
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0xd849
+	.uaword	0xbdf5
 	.uleb128 0x35
 	.byte	0x1
 	.byte	0x54
@@ -28042,11 +19052,7 @@ IfxVadc_Adc_masterIndex:
 	.uleb128 0x36
 	.uaword	.LVL11
 	.byte	0x1
-<<<<<<< HEAD
-	.uaword	0xd88f
-=======
-	.uaword	0xd896
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0xd873
 	.uleb128 0x35
 	.byte	0x1
 	.byte	0x54
@@ -28068,270 +19074,153 @@ IfxVadc_Adc_masterIndex:
 	.byte	0x1
 	.byte	0x9c
 	.byte	0x1
-<<<<<<< HEAD
-	.uaword	0xc012
-=======
-	.uaword	0xc019
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0xbff6
 	.uleb128 0x2f
 	.uaword	.LASF53
 	.byte	0x1
 	.byte	0x97
-<<<<<<< HEAD
-	.uaword	0xc012
-=======
-	.uaword	0xc019
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0xbff6
 	.uaword	.LLST5
 	.uleb128 0x2f
 	.uaword	.LASF74
 	.byte	0x1
 	.byte	0x97
-<<<<<<< HEAD
-	.uaword	0xc018
-=======
-	.uaword	0xc01f
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0xbffc
 	.uaword	.LLST6
 	.uleb128 0x30
 	.uaword	.LASF69
 	.byte	0x1
 	.byte	0x99
-<<<<<<< HEAD
-	.uaword	0x9e9f
-=======
-	.uaword	0x9ea6
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x9e83
 	.uleb128 0x31
 	.uaword	.LASF70
 	.byte	0x1
 	.byte	0x9a
-<<<<<<< HEAD
-	.uaword	0x81ce
-=======
-	.uaword	0x81d5
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x81b2
 	.uaword	.LLST7
 	.uleb128 0x30
 	.uaword	.LASF71
 	.byte	0x1
 	.byte	0x9f
-<<<<<<< HEAD
-	.uaword	0x40dc
-=======
-	.uaword	0x40e3
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x40c0
 	.uleb128 0x3c
 	.string	"channelServiceRequestNodePtr"
 	.byte	0x1
 	.byte	0xaf
-<<<<<<< HEAD
-	.uaword	0x25d
-=======
-	.uaword	0x264
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x241
 	.uaword	.LLST8
 	.uleb128 0x31
 	.uaword	.LASF75
 	.byte	0x1
 	.byte	0xb1
-<<<<<<< HEAD
-	.uaword	0x619
-=======
-	.uaword	0x620
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x5fd
 	.uaword	.LLST9
 	.uleb128 0x3c
 	.string	"src"
 	.byte	0x1
 	.byte	0xb3
-<<<<<<< HEAD
-	.uaword	0xa48d
-=======
-	.uaword	0xa494
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0xa471
 	.uaword	.LLST10
 	.uleb128 0x3c
 	.string	"resultServiceRequestNodePtr"
 	.byte	0x1
 	.byte	0xc2
-<<<<<<< HEAD
-	.uaword	0x25d
+	.uaword	0x241
 	.uaword	.LLST11
 	.uleb128 0x32
-	.uaword	0xa651
-=======
-	.uaword	0x264
-	.uaword	.LLST11
-	.uleb128 0x32
-	.uaword	0xa658
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0xa635
 	.uaword	.LBB230
 	.uaword	.Ldebug_ranges0+0x18
 	.byte	0x1
 	.byte	0xa1
-<<<<<<< HEAD
-	.uaword	0xbf35
+	.uaword	0xbf19
 	.uleb128 0x38
-	.uaword	0xa68b
+	.uaword	0xa66f
 	.uaword	.LLST12
 	.uleb128 0x33
-	.uaword	0xa67f
-=======
-	.uaword	0xbf3c
-	.uleb128 0x38
-	.uaword	0xa692
-	.uaword	.LLST12
-	.uleb128 0x33
-	.uaword	0xa686
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0xa663
 	.byte	0x1
 	.byte	0x6d
 	.uleb128 0x3d
 	.uaword	.Ldebug_ranges0+0x18
 	.uleb128 0x3e
-<<<<<<< HEAD
-	.uaword	0xa697
+	.uaword	0xa67b
 	.byte	0
 	.byte	0
 	.uleb128 0x3f
-	.uaword	0xa6a4
-=======
-	.uaword	0xa69e
-	.byte	0
-	.byte	0
-	.uleb128 0x3f
-	.uaword	0xa6ab
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0xa688
 	.uaword	.LBB234
 	.uaword	.LBE234
 	.byte	0x1
 	.byte	0xae
-<<<<<<< HEAD
-	.uaword	0xbf5f
+	.uaword	0xbf43
 	.uleb128 0x33
-	.uaword	0xa6ce
-=======
-	.uaword	0xbf66
-	.uleb128 0x33
-	.uaword	0xa6d5
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0xa6b2
 	.byte	0x1
 	.byte	0x6d
 	.uleb128 0x39
 	.uaword	.LBB235
 	.uaword	.LBE235
 	.uleb128 0x3e
-<<<<<<< HEAD
-	.uaword	0xa6da
+	.uaword	0xa6be
 	.byte	0
 	.byte	0
 	.uleb128 0x3f
-	.uaword	0xa6f2
-=======
-	.uaword	0xa6e1
-	.byte	0
-	.byte	0
-	.uleb128 0x3f
-	.uaword	0xa6f9
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0xa6d6
 	.uaword	.LBB236
 	.uaword	.LBE236
 	.byte	0x1
 	.byte	0xb2
-<<<<<<< HEAD
-	.uaword	0xbf89
+	.uaword	0xbf6d
 	.uleb128 0x33
-	.uaword	0xa72d
-=======
-	.uaword	0xbf90
-	.uleb128 0x33
-	.uaword	0xa734
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0xa711
 	.byte	0x1
 	.byte	0x6d
 	.uleb128 0x39
 	.uaword	.LBB237
 	.uaword	.LBE237
 	.uleb128 0x3e
-<<<<<<< HEAD
-	.uaword	0xa739
+	.uaword	0xa71d
 	.byte	0
 	.byte	0
 	.uleb128 0x3f
-	.uaword	0xa758
-=======
-	.uaword	0xa740
-	.byte	0
-	.byte	0
-	.uleb128 0x3f
-	.uaword	0xa75f
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0xa73c
 	.uaword	.LBB238
 	.uaword	.LBE238
 	.byte	0x1
 	.byte	0xc6
-<<<<<<< HEAD
-	.uaword	0xbfb5
+	.uaword	0xbf99
 	.uleb128 0x38
-	.uaword	0xa799
-=======
-	.uaword	0xbfbc
-	.uleb128 0x38
-	.uaword	0xa7a0
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0xa77d
 	.uaword	.LLST13
 	.uleb128 0x39
 	.uaword	.LBB239
 	.uaword	.LBE239
 	.uleb128 0x3e
-<<<<<<< HEAD
-	.uaword	0xa7a5
+	.uaword	0xa789
 	.byte	0
 	.byte	0
 	.uleb128 0x3f
-	.uaword	0xa7cb
-=======
-	.uaword	0xa7ac
-	.byte	0
-	.byte	0
-	.uleb128 0x3f
-	.uaword	0xa7d2
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0xa7af
 	.uaword	.LBB240
 	.uaword	.LBE240
 	.byte	0x1
 	.byte	0xca
-<<<<<<< HEAD
-	.uaword	0xbfe1
+	.uaword	0xbfc5
 	.uleb128 0x38
-	.uaword	0xa80c
-=======
-	.uaword	0xbfe8
-	.uleb128 0x38
-	.uaword	0xa813
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0xa7f0
 	.uaword	.LLST14
 	.uleb128 0x39
 	.uaword	.LBB241
 	.uaword	.LBE241
 	.uleb128 0x3e
-<<<<<<< HEAD
-	.uaword	0xa818
-=======
-	.uaword	0xa81f
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0xa7fc
 	.byte	0
 	.byte	0
 	.uleb128 0x34
 	.uaword	.LVL25
-<<<<<<< HEAD
-	.uaword	0xd8b7
-	.uaword	0xbffb
-=======
-	.uaword	0xd8be
-	.uaword	0xc002
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0xd89b
+	.uaword	0xbfdf
 	.uleb128 0x35
 	.byte	0x1
 	.byte	0x55
@@ -28347,11 +19236,7 @@ IfxVadc_Adc_masterIndex:
 	.byte	0
 	.uleb128 0x40
 	.uaword	.LVL33
-<<<<<<< HEAD
-	.uaword	0xd8b7
-=======
-	.uaword	0xd8be
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0xd89b
 	.uleb128 0x35
 	.byte	0x1
 	.byte	0x55
@@ -28368,93 +19253,53 @@ IfxVadc_Adc_masterIndex:
 	.byte	0
 	.uleb128 0x6
 	.byte	0x4
-<<<<<<< HEAD
-	.uaword	0xa042
+	.uaword	0xa026
 	.uleb128 0x6
 	.byte	0x4
-	.uaword	0xa1a3
-=======
-	.uaword	0xa049
-	.uleb128 0x6
-	.byte	0x4
-	.uaword	0xa1aa
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0xa187
 	.uleb128 0x41
 	.byte	0x1
 	.string	"IfxVadc_Adc_getChannelConversionTime"
 	.byte	0x1
 	.byte	0xde
 	.byte	0x1
-<<<<<<< HEAD
-	.uaword	0x2c0
-=======
-	.uaword	0x2c7
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x2a4
 	.uaword	.LFB358
 	.uaword	.LFE358
 	.byte	0x1
 	.byte	0x9c
 	.byte	0x1
-<<<<<<< HEAD
-	.uaword	0xc0f4
-=======
-	.uaword	0xc0fb
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0xc0d8
 	.uleb128 0x2f
 	.uaword	.LASF53
 	.byte	0x1
 	.byte	0xde
-<<<<<<< HEAD
-	.uaword	0xc012
-=======
-	.uaword	0xc019
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0xbff6
 	.uaword	.LLST15
 	.uleb128 0x42
 	.string	"conversionMode"
 	.byte	0x1
 	.byte	0xde
-<<<<<<< HEAD
-	.uaword	0x8589
+	.uaword	0x856d
 	.uaword	.LLST16
 	.uleb128 0x32
-	.uaword	0xa83e
-=======
-	.uaword	0x8590
-	.uaword	.LLST16
-	.uleb128 0x32
-	.uaword	0xa845
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0xa822
 	.uaword	.LBB242
 	.uaword	.Ldebug_ranges0+0x30
 	.byte	0x1
 	.byte	0xe0
-<<<<<<< HEAD
-	.uaword	0xc0aa
+	.uaword	0xc08e
 	.uleb128 0x38
-	.uaword	0xa875
+	.uaword	0xa859
 	.uaword	.LLST17
 	.uleb128 0x38
-	.uaword	0xa869
-=======
-	.uaword	0xc0b1
-	.uleb128 0x38
-	.uaword	0xa87c
-	.uaword	.LLST17
-	.uleb128 0x38
-	.uaword	0xa870
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0xa84d
 	.uaword	.LLST18
 	.byte	0
 	.uleb128 0x34
 	.uaword	.LVL38
-<<<<<<< HEAD
-	.uaword	0xd8e7
-	.uaword	0xc0be
-=======
-	.uaword	0xd8ee
-	.uaword	0xc0c5
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0xd8cb
+	.uaword	0xc0a2
 	.uleb128 0x35
 	.byte	0x1
 	.byte	0x64
@@ -28464,30 +19309,18 @@ IfxVadc_Adc_masterIndex:
 	.byte	0
 	.uleb128 0x3b
 	.uaword	.LVL40
-<<<<<<< HEAD
-	.uaword	0xd91a
+	.uaword	0xd8fe
 	.uleb128 0x36
 	.uaword	.LVL41
 	.byte	0x1
-	.uaword	0xd943
-=======
-	.uaword	0xd921
-	.uleb128 0x36
-	.uaword	.LVL41
-	.byte	0x1
-	.uaword	0xd94a
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0xd927
 	.uleb128 0x35
 	.byte	0x1
 	.byte	0x56
 	.byte	0x4
 	.byte	0xf5
 	.uleb128 0xf
-<<<<<<< HEAD
-	.uleb128 0x169
-=======
-	.uleb128 0x170
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uleb128 0x14d
 	.uleb128 0x35
 	.byte	0x1
 	.byte	0x55
@@ -28526,773 +19359,418 @@ IfxVadc_Adc_masterIndex:
 	.byte	0x1
 	.byte	0x9c
 	.byte	0x1
-<<<<<<< HEAD
-	.uaword	0xc548
-=======
-	.uaword	0xc54f
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0xc52c
 	.uleb128 0x2f
 	.uaword	.LASF49
 	.byte	0x1
 	.byte	0xe4
-<<<<<<< HEAD
-	.uaword	0xbd87
-=======
-	.uaword	0xbd8e
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0xbd6b
 	.uaword	.LLST19
 	.uleb128 0x2f
 	.uaword	.LASF74
 	.byte	0x1
 	.byte	0xe4
-<<<<<<< HEAD
-	.uaword	0xc548
-=======
-	.uaword	0xc54f
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0xc52c
 	.uaword	.LLST20
 	.uleb128 0x31
 	.uaword	.LASF72
 	.byte	0x1
 	.byte	0xe6
-<<<<<<< HEAD
-	.uaword	0x22c
-=======
-	.uaword	0x233
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x210
 	.uaword	.LLST21
 	.uleb128 0x43
 	.uaword	.LASF69
 	.byte	0x1
 	.byte	0xe7
-<<<<<<< HEAD
-	.uaword	0x9e9f
-=======
-	.uaword	0x9ea6
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x9e83
 	.byte	0x1
 	.byte	0x6c
 	.uleb128 0x43
 	.uaword	.LASF38
 	.byte	0x1
 	.byte	0xe8
-<<<<<<< HEAD
-	.uaword	0x7aff
-=======
-	.uaword	0x7b06
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x7ae3
 	.byte	0x1
 	.byte	0x6d
 	.uleb128 0x31
 	.uaword	.LASF67
 	.byte	0x1
 	.byte	0xe9
-<<<<<<< HEAD
-	.uaword	0x2c0
+	.uaword	0x2a4
 	.uaword	.LLST22
 	.uleb128 0x3f
-	.uaword	0xa882
-=======
-	.uaword	0x2c7
-	.uaword	.LLST22
-	.uleb128 0x3f
-	.uaword	0xa889
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0xa866
 	.uaword	.LBB250
 	.uaword	.LBE250
 	.byte	0x1
 	.byte	0xee
-<<<<<<< HEAD
-	.uaword	0xc194
+	.uaword	0xc178
 	.uleb128 0x33
-	.uaword	0xa8ae
-=======
-	.uaword	0xc19b
-	.uleb128 0x33
-	.uaword	0xa8b5
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0xa892
 	.byte	0x1
 	.byte	0x6c
 	.byte	0
 	.uleb128 0x32
-<<<<<<< HEAD
-	.uaword	0xa8bb
-=======
-	.uaword	0xa8c2
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0xa89f
 	.uaword	.LBB252
 	.uaword	.Ldebug_ranges0+0x58
 	.byte	0x1
 	.byte	0xf2
-<<<<<<< HEAD
-	.uaword	0xc1b8
+	.uaword	0xc19c
 	.uleb128 0x38
-	.uaword	0xa8f0
+	.uaword	0xa8d4
 	.uaword	.LLST23
 	.uleb128 0x33
-	.uaword	0xa8e4
-=======
-	.uaword	0xc1bf
-	.uleb128 0x38
-	.uaword	0xa8f7
-	.uaword	.LLST23
-	.uleb128 0x33
-	.uaword	0xa8eb
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0xa8c8
 	.byte	0x1
 	.byte	0x6c
 	.byte	0
 	.uleb128 0x32
-<<<<<<< HEAD
-	.uaword	0xa8fd
-=======
-	.uaword	0xa904
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0xa8e1
 	.uaword	.LBB256
 	.uaword	.Ldebug_ranges0+0x70
 	.byte	0x1
 	.byte	0xf3
-<<<<<<< HEAD
-	.uaword	0xc1f0
+	.uaword	0xc1d4
 	.uleb128 0x44
-	.uaword	0xa93e
+	.uaword	0xa922
 	.uleb128 0x38
-	.uaword	0xa932
+	.uaword	0xa916
 	.uaword	.LLST24
 	.uleb128 0x33
-	.uaword	0xa926
-=======
-	.uaword	0xc1f7
-	.uleb128 0x44
-	.uaword	0xa945
-	.uleb128 0x38
-	.uaword	0xa939
-	.uaword	.LLST24
-	.uleb128 0x33
-	.uaword	0xa92d
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0xa90a
 	.byte	0x1
 	.byte	0x6c
 	.uleb128 0x3d
 	.uaword	.Ldebug_ranges0+0x70
 	.uleb128 0x3a
-<<<<<<< HEAD
-	.uaword	0xa94a
-=======
-	.uaword	0xa951
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0xa92e
 	.uaword	.LLST25
 	.byte	0
 	.byte	0
 	.uleb128 0x3f
-<<<<<<< HEAD
-	.uaword	0xa957
-=======
-	.uaword	0xa95e
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0xa93b
 	.uaword	.LBB260
 	.uaword	.LBE260
 	.byte	0x1
 	.byte	0xf6
-<<<<<<< HEAD
-	.uaword	0xc20b
+	.uaword	0xc1ef
 	.uleb128 0x33
-	.uaword	0xa986
-=======
-	.uaword	0xc212
-	.uleb128 0x33
-	.uaword	0xa98d
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0xa96a
 	.byte	0x1
 	.byte	0x6c
 	.byte	0
 	.uleb128 0x3f
-<<<<<<< HEAD
-	.uaword	0xa993
-=======
-	.uaword	0xa99a
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0xa977
 	.uaword	.LBB262
 	.uaword	.LBE262
 	.byte	0x1
 	.byte	0xf9
-<<<<<<< HEAD
-	.uaword	0xc228
+	.uaword	0xc20c
 	.uleb128 0x38
-	.uaword	0xa9bd
+	.uaword	0xa9a1
 	.uaword	.LLST26
 	.byte	0
 	.uleb128 0x3f
-	.uaword	0xa9ca
-=======
-	.uaword	0xc22f
-	.uleb128 0x38
-	.uaword	0xa9c4
-	.uaword	.LLST26
-	.byte	0
-	.uleb128 0x3f
-	.uaword	0xa9d1
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0xa9ae
 	.uaword	.LBB264
 	.uaword	.LBE264
 	.byte	0x1
 	.byte	0xfa
-<<<<<<< HEAD
-	.uaword	0xc245
+	.uaword	0xc229
 	.uleb128 0x38
-	.uaword	0xa9f5
+	.uaword	0xa9d9
 	.uaword	.LLST27
 	.byte	0
 	.uleb128 0x3f
-	.uaword	0xaa02
-=======
-	.uaword	0xc24c
-	.uleb128 0x38
-	.uaword	0xa9fc
-	.uaword	.LLST27
-	.byte	0
-	.uleb128 0x3f
-	.uaword	0xaa09
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0xa9e6
 	.uaword	.LBB266
 	.uaword	.LBE266
 	.byte	0x1
 	.byte	0xfc
-<<<<<<< HEAD
-	.uaword	0xc262
+	.uaword	0xc246
 	.uleb128 0x38
-	.uaword	0xaa30
+	.uaword	0xaa14
 	.uaword	.LLST28
 	.byte	0
 	.uleb128 0x32
-	.uaword	0xaa3d
-=======
-	.uaword	0xc269
-	.uleb128 0x38
-	.uaword	0xaa37
-	.uaword	.LLST28
-	.byte	0
-	.uleb128 0x32
-	.uaword	0xaa44
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0xaa21
 	.uaword	.LBB268
 	.uaword	.Ldebug_ranges0+0x88
 	.byte	0x1
 	.byte	0xfd
-<<<<<<< HEAD
-	.uaword	0xc27f
+	.uaword	0xc263
 	.uleb128 0x38
-	.uaword	0xaa6a
+	.uaword	0xaa4e
 	.uaword	.LLST29
 	.byte	0
 	.uleb128 0x45
-	.uaword	0xaa77
-=======
-	.uaword	0xc286
-	.uleb128 0x38
-	.uaword	0xaa71
-	.uaword	.LLST29
-	.byte	0
-	.uleb128 0x45
-	.uaword	0xaa7e
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0xaa5b
 	.uaword	.LBB272
 	.uaword	.LBE272
 	.byte	0x1
 	.uahalf	0x101
-<<<<<<< HEAD
-	.uaword	0xc29d
+	.uaword	0xc281
 	.uleb128 0x38
-	.uaword	0xaaa3
+	.uaword	0xaa87
 	.uaword	.LLST30
 	.byte	0
 	.uleb128 0x45
-	.uaword	0xaab0
-=======
-	.uaword	0xc2a4
-	.uleb128 0x38
-	.uaword	0xaaaa
-	.uaword	.LLST30
-	.byte	0
-	.uleb128 0x45
-	.uaword	0xaab7
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0xaa94
 	.uaword	.LBB274
 	.uaword	.LBE274
 	.byte	0x1
 	.uahalf	0x108
-<<<<<<< HEAD
-	.uaword	0xc2bb
+	.uaword	0xc29f
 	.uleb128 0x38
-	.uaword	0xaade
+	.uaword	0xaac2
 	.uaword	.LLST31
 	.byte	0
 	.uleb128 0x45
-	.uaword	0xaaeb
-=======
-	.uaword	0xc2c2
-	.uleb128 0x38
-	.uaword	0xaae5
-	.uaword	.LLST31
-	.byte	0
-	.uleb128 0x45
-	.uaword	0xaaf2
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0xaacf
 	.uaword	.LBB276
 	.uaword	.LBE276
 	.byte	0x1
 	.uahalf	0x109
-<<<<<<< HEAD
-	.uaword	0xc2d9
+	.uaword	0xc2bd
 	.uleb128 0x38
-	.uaword	0xab13
+	.uaword	0xaaf7
 	.uaword	.LLST32
 	.byte	0
 	.uleb128 0x45
-	.uaword	0xab20
-=======
-	.uaword	0xc2e0
-	.uleb128 0x38
-	.uaword	0xab1a
-	.uaword	.LLST32
-	.byte	0
-	.uleb128 0x45
-	.uaword	0xab27
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0xab04
 	.uaword	.LBB278
 	.uaword	.LBE278
 	.byte	0x1
 	.uahalf	0x114
-<<<<<<< HEAD
-	.uaword	0xc2f5
+	.uaword	0xc2d9
 	.uleb128 0x33
-	.uaword	0xab50
-=======
-	.uaword	0xc2fc
-	.uleb128 0x33
-	.uaword	0xab57
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0xab34
 	.byte	0x1
 	.byte	0x6c
 	.byte	0
 	.uleb128 0x45
-<<<<<<< HEAD
-	.uaword	0xab5d
-=======
-	.uaword	0xab64
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0xab41
 	.uaword	.LBB280
 	.uaword	.LBE280
 	.byte	0x1
 	.uahalf	0x117
-<<<<<<< HEAD
-	.uaword	0xc313
+	.uaword	0xc2f7
 	.uleb128 0x38
-	.uaword	0xab88
+	.uaword	0xab6c
 	.uaword	.LLST33
 	.byte	0
 	.uleb128 0x45
-	.uaword	0xab95
-=======
-	.uaword	0xc31a
-	.uleb128 0x38
-	.uaword	0xab8f
-	.uaword	.LLST33
-	.byte	0
-	.uleb128 0x45
-	.uaword	0xab9c
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0xab79
 	.uaword	.LBB282
 	.uaword	.LBE282
 	.byte	0x1
 	.uahalf	0x118
-<<<<<<< HEAD
-	.uaword	0xc331
+	.uaword	0xc315
 	.uleb128 0x38
-	.uaword	0xabc1
+	.uaword	0xaba5
 	.uaword	.LLST34
 	.byte	0
 	.uleb128 0x45
-	.uaword	0xabce
-=======
-	.uaword	0xc338
-	.uleb128 0x38
-	.uaword	0xabc8
-	.uaword	.LLST34
-	.byte	0
-	.uleb128 0x45
-	.uaword	0xabd5
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0xabb2
 	.uaword	.LBB284
 	.uaword	.LBE284
 	.byte	0x1
 	.uahalf	0x11a
-<<<<<<< HEAD
-	.uaword	0xc34f
+	.uaword	0xc333
 	.uleb128 0x38
-	.uaword	0xabfd
+	.uaword	0xabe1
 	.uaword	.LLST35
 	.byte	0
 	.uleb128 0x46
-	.uaword	0xac0a
-=======
-	.uaword	0xc356
-	.uleb128 0x38
-	.uaword	0xac04
-	.uaword	.LLST35
-	.byte	0
-	.uleb128 0x46
-	.uaword	0xac11
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0xabee
 	.uaword	.LBB286
 	.uaword	.Ldebug_ranges0+0xa0
 	.byte	0x1
 	.uahalf	0x11b
-<<<<<<< HEAD
-	.uaword	0xc36d
+	.uaword	0xc351
 	.uleb128 0x38
-	.uaword	0xac38
+	.uaword	0xac1c
 	.uaword	.LLST36
 	.byte	0
 	.uleb128 0x45
-	.uaword	0xac45
-=======
-	.uaword	0xc374
-	.uleb128 0x38
-	.uaword	0xac3f
-	.uaword	.LLST36
-	.byte	0
-	.uleb128 0x45
-	.uaword	0xac4c
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0xac29
 	.uaword	.LBB290
 	.uaword	.LBE290
 	.byte	0x1
 	.uahalf	0x11f
-<<<<<<< HEAD
-	.uaword	0xc38b
+	.uaword	0xc36f
 	.uleb128 0x38
-	.uaword	0xac72
+	.uaword	0xac56
 	.uaword	.LLST37
 	.byte	0
 	.uleb128 0x45
-	.uaword	0xac7f
-=======
-	.uaword	0xc392
-	.uleb128 0x38
-	.uaword	0xac79
-	.uaword	.LLST37
-	.byte	0
-	.uleb128 0x45
-	.uaword	0xac86
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0xac63
 	.uaword	.LBB292
 	.uaword	.LBE292
 	.byte	0x1
 	.uahalf	0x126
-<<<<<<< HEAD
-	.uaword	0xc3a9
+	.uaword	0xc38d
 	.uleb128 0x38
-	.uaword	0xacae
+	.uaword	0xac92
 	.uaword	.LLST38
 	.byte	0
 	.uleb128 0x45
-	.uaword	0xacbb
-=======
-	.uaword	0xc3b0
-	.uleb128 0x38
-	.uaword	0xacb5
-	.uaword	.LLST38
-	.byte	0
-	.uleb128 0x45
-	.uaword	0xacc2
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0xac9f
 	.uaword	.LBB294
 	.uaword	.LBE294
 	.byte	0x1
 	.uahalf	0x132
-<<<<<<< HEAD
-	.uaword	0xc3c5
+	.uaword	0xc3a9
 	.uleb128 0x33
-	.uaword	0xacf4
-=======
-	.uaword	0xc3cc
-	.uleb128 0x33
-	.uaword	0xacfb
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0xacd8
 	.byte	0x1
 	.byte	0x6c
 	.byte	0
 	.uleb128 0x45
-<<<<<<< HEAD
-	.uaword	0xad01
-=======
-	.uaword	0xad08
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0xace5
 	.uaword	.LBB296
 	.uaword	.LBE296
 	.byte	0x1
 	.uahalf	0x135
-<<<<<<< HEAD
-	.uaword	0xc3e3
+	.uaword	0xc3c7
 	.uleb128 0x38
-	.uaword	0xad35
+	.uaword	0xad19
 	.uaword	.LLST39
 	.byte	0
 	.uleb128 0x45
-	.uaword	0xad42
-=======
-	.uaword	0xc3ea
-	.uleb128 0x38
-	.uaword	0xad3c
-	.uaword	.LLST39
-	.byte	0
-	.uleb128 0x45
-	.uaword	0xad49
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0xad26
 	.uaword	.LBB298
 	.uaword	.LBE298
 	.byte	0x1
 	.uahalf	0x136
-<<<<<<< HEAD
-	.uaword	0xc401
+	.uaword	0xc3e5
 	.uleb128 0x38
-	.uaword	0xad77
+	.uaword	0xad5b
 	.uaword	.LLST40
 	.byte	0
 	.uleb128 0x45
-	.uaword	0xad84
-=======
-	.uaword	0xc408
-	.uleb128 0x38
-	.uaword	0xad7e
-	.uaword	.LLST40
-	.byte	0
-	.uleb128 0x45
-	.uaword	0xad8b
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0xad68
 	.uaword	.LBB300
 	.uaword	.LBE300
 	.byte	0x1
 	.uahalf	0x138
-<<<<<<< HEAD
-	.uaword	0xc41f
+	.uaword	0xc403
 	.uleb128 0x38
-	.uaword	0xadb8
+	.uaword	0xad9c
 	.uaword	.LLST41
 	.byte	0
 	.uleb128 0x46
-	.uaword	0xadc5
-=======
-	.uaword	0xc426
-	.uleb128 0x38
-	.uaword	0xadbf
-	.uaword	.LLST41
-	.byte	0
-	.uleb128 0x46
-	.uaword	0xadcc
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0xada9
 	.uaword	.LBB302
 	.uaword	.Ldebug_ranges0+0xb8
 	.byte	0x1
 	.uahalf	0x139
-<<<<<<< HEAD
-	.uaword	0xc43d
+	.uaword	0xc421
 	.uleb128 0x38
-	.uaword	0xadf8
+	.uaword	0xaddc
 	.uaword	.LLST42
 	.byte	0
 	.uleb128 0x45
-	.uaword	0xae05
-=======
-	.uaword	0xc444
-	.uleb128 0x38
-	.uaword	0xadff
-	.uaword	.LLST42
-	.byte	0
-	.uleb128 0x45
-	.uaword	0xae0c
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0xade9
 	.uaword	.LBB306
 	.uaword	.LBE306
 	.byte	0x1
 	.uahalf	0x13d
-<<<<<<< HEAD
-	.uaword	0xc45b
+	.uaword	0xc43f
 	.uleb128 0x38
-	.uaword	0xae37
+	.uaword	0xae1b
 	.uaword	.LLST43
 	.byte	0
 	.uleb128 0x45
-	.uaword	0xae44
-=======
-	.uaword	0xc462
-	.uleb128 0x38
-	.uaword	0xae3e
-	.uaword	.LLST43
-	.byte	0
-	.uleb128 0x45
-	.uaword	0xae4b
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0xae28
 	.uaword	.LBB308
 	.uaword	.LBE308
 	.byte	0x1
 	.uahalf	0x144
-<<<<<<< HEAD
-	.uaword	0xc479
+	.uaword	0xc45d
 	.uleb128 0x38
-	.uaword	0xae78
+	.uaword	0xae5c
 	.uaword	.LLST44
 	.byte	0
 	.uleb128 0x45
-	.uaword	0xae85
-=======
-	.uaword	0xc480
-	.uleb128 0x38
-	.uaword	0xae7f
-	.uaword	.LLST44
-	.byte	0
-	.uleb128 0x45
-	.uaword	0xae8c
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0xae69
 	.uaword	.LBB310
 	.uaword	.LBE310
 	.byte	0x1
 	.uahalf	0x145
-<<<<<<< HEAD
-	.uaword	0xc497
+	.uaword	0xc47b
 	.uleb128 0x38
-	.uaword	0xaeb7
+	.uaword	0xae9b
 	.uaword	.LLST45
 	.byte	0
 	.uleb128 0x46
-	.uaword	0xaec4
-=======
-	.uaword	0xc49e
-	.uleb128 0x38
-	.uaword	0xaebe
-	.uaword	.LLST45
-	.byte	0
-	.uleb128 0x46
-	.uaword	0xaecb
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0xaea8
 	.uaword	.LBB312
 	.uaword	.Ldebug_ranges0+0xd0
 	.byte	0x1
 	.uahalf	0x150
-<<<<<<< HEAD
-	.uaword	0xc4c2
+	.uaword	0xc4a6
 	.uleb128 0x33
-	.uaword	0xaee9
-=======
-	.uaword	0xc4c9
-	.uleb128 0x33
-	.uaword	0xaef0
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0xaecd
 	.byte	0x1
 	.byte	0x6c
 	.uleb128 0x3d
 	.uaword	.Ldebug_ranges0+0xd0
 	.uleb128 0x3a
-<<<<<<< HEAD
-	.uaword	0xaef5
-=======
-	.uaword	0xaefc
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0xaed9
 	.uaword	.LLST46
 	.byte	0
 	.byte	0
 	.uleb128 0x45
-<<<<<<< HEAD
-	.uaword	0xaf02
-=======
-	.uaword	0xaf09
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0xaee6
 	.uaword	.LBB316
 	.uaword	.LBE316
 	.byte	0x1
 	.uahalf	0x150
-<<<<<<< HEAD
-	.uaword	0xc50c
+	.uaword	0xc4f0
 	.uleb128 0x33
-	.uaword	0xaf34
+	.uaword	0xaf18
 	.byte	0x1
 	.byte	0x53
 	.uleb128 0x38
-	.uaword	0xaf27
-=======
-	.uaword	0xc513
-	.uleb128 0x33
-	.uaword	0xaf3b
-	.byte	0x1
-	.byte	0x53
-	.uleb128 0x38
-	.uaword	0xaf2e
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0xaf0b
 	.uaword	.LLST47
 	.uleb128 0x39
 	.uaword	.LBB317
 	.uaword	.LBE317
 	.uleb128 0x3a
-<<<<<<< HEAD
-	.uaword	0xaf3f
+	.uaword	0xaf23
 	.uaword	.LLST48
 	.uleb128 0x3a
-	.uaword	0xaf48
+	.uaword	0xaf2c
 	.uaword	.LLST49
 	.uleb128 0x3a
-	.uaword	0xaf59
-=======
-	.uaword	0xaf46
-	.uaword	.LLST48
-	.uleb128 0x3a
-	.uaword	0xaf4f
-	.uaword	.LLST49
-	.uleb128 0x3a
-	.uaword	0xaf60
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0xaf3d
 	.uaword	.LLST47
 	.byte	0
 	.byte	0
 	.uleb128 0x45
-<<<<<<< HEAD
-	.uaword	0xaf6a
-=======
-	.uaword	0xaf71
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0xaf4e
 	.uaword	.LBB318
 	.uaword	.LBE318
 	.byte	0x1
 	.uahalf	0x152
-<<<<<<< HEAD
-	.uaword	0xc537
+	.uaword	0xc51b
 	.uleb128 0x33
-	.uaword	0xaf95
-=======
-	.uaword	0xc53e
-	.uleb128 0x33
-	.uaword	0xaf9c
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0xaf79
 	.byte	0x1
 	.byte	0x6d
 	.uleb128 0x39
 	.uaword	.LBB319
 	.uaword	.LBE319
 	.uleb128 0x3e
-<<<<<<< HEAD
-	.uaword	0xafa1
-=======
-	.uaword	0xafa8
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0xaf85
 	.byte	0
 	.byte	0
 	.uleb128 0x40
 	.uaword	.LVL45
-<<<<<<< HEAD
-	.uaword	0xd8e7
-=======
-	.uaword	0xd8ee
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0xd8cb
 	.uleb128 0x35
 	.byte	0x1
 	.byte	0x64
@@ -29303,625 +19781,339 @@ IfxVadc_Adc_masterIndex:
 	.byte	0
 	.uleb128 0x6
 	.byte	0x4
-<<<<<<< HEAD
-	.uaword	0xa444
-=======
-	.uaword	0xa44b
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0xa428
 	.uleb128 0x47
 	.byte	0x1
 	.string	"IfxVadc_Adc_initChannel"
 	.byte	0x1
 	.uahalf	0x156
 	.byte	0x1
-<<<<<<< HEAD
-	.uaword	0x99b7
-=======
-	.uaword	0x99be
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x999b
 	.uaword	.LFB360
 	.uaword	.LFE360
 	.byte	0x1
 	.byte	0x9c
 	.byte	0x1
-<<<<<<< HEAD
-	.uaword	0xca5c
-=======
-	.uaword	0xca63
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0xca40
 	.uleb128 0x48
 	.uaword	.LASF53
 	.byte	0x1
 	.uahalf	0x156
-<<<<<<< HEAD
-	.uaword	0xc012
-=======
-	.uaword	0xc019
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0xbff6
 	.uaword	.LLST51
 	.uleb128 0x48
 	.uaword	.LASF74
 	.byte	0x1
 	.uahalf	0x156
-<<<<<<< HEAD
-	.uaword	0xca5c
-=======
-	.uaword	0xca63
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0xca40
 	.uaword	.LLST52
 	.uleb128 0x49
 	.string	"Status"
 	.byte	0x1
 	.uahalf	0x158
-<<<<<<< HEAD
-	.uaword	0x99b7
-=======
-	.uaword	0x99be
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x999b
 	.byte	0
 	.uleb128 0x2c
 	.uaword	.LASF38
 	.byte	0x1
 	.uahalf	0x159
-<<<<<<< HEAD
-	.uaword	0x7aff
-=======
-	.uaword	0x7b06
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x7ae3
 	.uleb128 0x2c
 	.uaword	.LASF69
 	.byte	0x1
 	.uahalf	0x15a
-<<<<<<< HEAD
-	.uaword	0x9e9f
-=======
-	.uaword	0x9ea6
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x9e83
 	.uleb128 0x4a
 	.uaword	.LASF75
 	.byte	0x1
 	.uahalf	0x15d
-<<<<<<< HEAD
-	.uaword	0x619
-=======
-	.uaword	0x620
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x5fd
 	.uaword	.LLST53
 	.uleb128 0x4a
 	.uaword	.LASF70
 	.byte	0x1
 	.uahalf	0x15e
-<<<<<<< HEAD
-	.uaword	0x81ce
+	.uaword	0x81b2
 	.uaword	.LLST54
 	.uleb128 0x46
-	.uaword	0xafb2
-=======
-	.uaword	0x81d5
-	.uaword	.LLST54
-	.uleb128 0x46
-	.uaword	0xafb9
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0xaf96
 	.uaword	.LBB320
 	.uaword	.Ldebug_ranges0+0xe8
 	.byte	0x1
 	.uahalf	0x165
-<<<<<<< HEAD
-	.uaword	0xc611
+	.uaword	0xc5f5
 	.uleb128 0x38
-	.uaword	0xafee
+	.uaword	0xafd2
 	.uaword	.LLST55
 	.uleb128 0x44
-	.uaword	0xafe2
+	.uaword	0xafc6
 	.uleb128 0x33
-	.uaword	0xafd6
-=======
-	.uaword	0xc618
-	.uleb128 0x38
-	.uaword	0xaff5
-	.uaword	.LLST55
-	.uleb128 0x44
-	.uaword	0xafe9
-	.uleb128 0x33
-	.uaword	0xafdd
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0xafba
 	.byte	0x1
 	.byte	0x6c
 	.byte	0
 	.uleb128 0x45
-<<<<<<< HEAD
-	.uaword	0xaffb
-=======
-	.uaword	0xb002
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0xafdf
 	.uaword	.LBB324
 	.uaword	.LBE324
 	.byte	0x1
 	.uahalf	0x166
-<<<<<<< HEAD
-	.uaword	0xc63b
+	.uaword	0xc61f
 	.uleb128 0x38
-	.uaword	0xb036
+	.uaword	0xb01a
 	.uaword	.LLST56
 	.uleb128 0x44
-	.uaword	0xb02a
+	.uaword	0xb00e
 	.uleb128 0x33
-	.uaword	0xb01e
-=======
-	.uaword	0xc642
-	.uleb128 0x38
-	.uaword	0xb03d
-	.uaword	.LLST56
-	.uleb128 0x44
-	.uaword	0xb031
-	.uleb128 0x33
-	.uaword	0xb025
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0xb002
 	.byte	0x1
 	.byte	0x6c
 	.byte	0
 	.uleb128 0x45
-<<<<<<< HEAD
-	.uaword	0xb043
-=======
-	.uaword	0xb04a
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0xb027
 	.uaword	.LBB326
 	.uaword	.LBE326
 	.byte	0x1
 	.uahalf	0x167
-<<<<<<< HEAD
-	.uaword	0xc665
+	.uaword	0xc649
 	.uleb128 0x38
-	.uaword	0xb07e
+	.uaword	0xb062
 	.uaword	.LLST57
 	.uleb128 0x44
-	.uaword	0xb072
+	.uaword	0xb056
 	.uleb128 0x33
-	.uaword	0xb066
-=======
-	.uaword	0xc66c
-	.uleb128 0x38
-	.uaword	0xb085
-	.uaword	.LLST57
-	.uleb128 0x44
-	.uaword	0xb079
-	.uleb128 0x33
-	.uaword	0xb06d
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0xb04a
 	.byte	0x1
 	.byte	0x6c
 	.byte	0
 	.uleb128 0x45
-<<<<<<< HEAD
-	.uaword	0xb08b
-=======
-	.uaword	0xb092
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0xb06f
 	.uaword	.LBB328
 	.uaword	.LBE328
 	.byte	0x1
 	.uahalf	0x168
-<<<<<<< HEAD
-	.uaword	0xc68f
+	.uaword	0xc673
 	.uleb128 0x38
-	.uaword	0xb0c6
+	.uaword	0xb0aa
 	.uaword	.LLST58
 	.uleb128 0x44
-	.uaword	0xb0ba
+	.uaword	0xb09e
 	.uleb128 0x33
-	.uaword	0xb0ae
-=======
-	.uaword	0xc696
-	.uleb128 0x38
-	.uaword	0xb0cd
-	.uaword	.LLST58
-	.uleb128 0x44
-	.uaword	0xb0c1
-	.uleb128 0x33
-	.uaword	0xb0b5
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0xb092
 	.byte	0x1
 	.byte	0x6c
 	.byte	0
 	.uleb128 0x45
-<<<<<<< HEAD
-	.uaword	0xb0d3
-=======
-	.uaword	0xb0da
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0xb0b7
 	.uaword	.LBB330
 	.uaword	.LBE330
 	.byte	0x1
 	.uahalf	0x169
-<<<<<<< HEAD
-	.uaword	0xc6b9
+	.uaword	0xc69d
 	.uleb128 0x38
-	.uaword	0xb10c
+	.uaword	0xb0f0
 	.uaword	.LLST59
 	.uleb128 0x44
-	.uaword	0xb100
+	.uaword	0xb0e4
 	.uleb128 0x33
-	.uaword	0xb0f4
-=======
-	.uaword	0xc6c0
-	.uleb128 0x38
-	.uaword	0xb113
-	.uaword	.LLST59
-	.uleb128 0x44
-	.uaword	0xb107
-	.uleb128 0x33
-	.uaword	0xb0fb
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0xb0d8
 	.byte	0x1
 	.byte	0x6c
 	.byte	0
 	.uleb128 0x45
-<<<<<<< HEAD
-	.uaword	0xb119
-=======
-	.uaword	0xb120
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0xb0fd
 	.uaword	.LBB332
 	.uaword	.LBE332
 	.byte	0x1
 	.uahalf	0x16a
-<<<<<<< HEAD
-	.uaword	0xc6e3
+	.uaword	0xc6c7
 	.uleb128 0x38
-	.uaword	0xb158
+	.uaword	0xb13c
 	.uaword	.LLST60
 	.uleb128 0x44
-	.uaword	0xb14c
+	.uaword	0xb130
 	.uleb128 0x33
-	.uaword	0xb140
-=======
-	.uaword	0xc6ea
-	.uleb128 0x38
-	.uaword	0xb15f
-	.uaword	.LLST60
-	.uleb128 0x44
-	.uaword	0xb153
-	.uleb128 0x33
-	.uaword	0xb147
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0xb124
 	.byte	0x1
 	.byte	0x6c
 	.byte	0
 	.uleb128 0x45
-<<<<<<< HEAD
-	.uaword	0xb165
-=======
-	.uaword	0xb16c
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0xb149
 	.uaword	.LBB334
 	.uaword	.LBE334
 	.byte	0x1
 	.uahalf	0x16b
-<<<<<<< HEAD
-	.uaword	0xc70d
+	.uaword	0xc6f1
 	.uleb128 0x38
-	.uaword	0xb1a8
+	.uaword	0xb18c
 	.uaword	.LLST61
 	.uleb128 0x44
-	.uaword	0xb19c
+	.uaword	0xb180
 	.uleb128 0x33
-	.uaword	0xb190
-=======
-	.uaword	0xc714
-	.uleb128 0x38
-	.uaword	0xb1af
-	.uaword	.LLST61
-	.uleb128 0x44
-	.uaword	0xb1a3
-	.uleb128 0x33
-	.uaword	0xb197
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0xb174
 	.byte	0x1
 	.byte	0x6c
 	.byte	0
 	.uleb128 0x45
-<<<<<<< HEAD
-	.uaword	0xb1b5
-=======
-	.uaword	0xb1bc
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0xb199
 	.uaword	.LBB336
 	.uaword	.LBE336
 	.byte	0x1
 	.uahalf	0x16c
-<<<<<<< HEAD
-	.uaword	0xc737
+	.uaword	0xc71b
 	.uleb128 0x38
-	.uaword	0xb1f1
+	.uaword	0xb1d5
 	.uaword	.LLST62
 	.uleb128 0x44
-	.uaword	0xb1e5
+	.uaword	0xb1c9
 	.uleb128 0x33
-	.uaword	0xb1d9
-=======
-	.uaword	0xc73e
-	.uleb128 0x38
-	.uaword	0xb1f8
-	.uaword	.LLST62
-	.uleb128 0x44
-	.uaword	0xb1ec
-	.uleb128 0x33
-	.uaword	0xb1e0
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0xb1bd
 	.byte	0x1
 	.byte	0x6c
 	.byte	0
 	.uleb128 0x45
-<<<<<<< HEAD
-	.uaword	0xb1fe
-=======
-	.uaword	0xb205
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0xb1e2
 	.uaword	.LBB338
 	.uaword	.LBE338
 	.byte	0x1
 	.uahalf	0x16d
-<<<<<<< HEAD
-	.uaword	0xc761
+	.uaword	0xc745
 	.uleb128 0x38
-	.uaword	0xb242
+	.uaword	0xb226
 	.uaword	.LLST63
 	.uleb128 0x44
-	.uaword	0xb236
+	.uaword	0xb21a
 	.uleb128 0x33
-	.uaword	0xb22a
-=======
-	.uaword	0xc768
-	.uleb128 0x38
-	.uaword	0xb249
-	.uaword	.LLST63
-	.uleb128 0x44
-	.uaword	0xb23d
-	.uleb128 0x33
-	.uaword	0xb231
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0xb20e
 	.byte	0x1
 	.byte	0x6c
 	.byte	0
 	.uleb128 0x45
-<<<<<<< HEAD
-	.uaword	0xb24f
-=======
-	.uaword	0xb256
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0xb233
 	.uaword	.LBB340
 	.uaword	.LBE340
 	.byte	0x1
 	.uahalf	0x16e
-<<<<<<< HEAD
-	.uaword	0xc78b
+	.uaword	0xc76f
 	.uleb128 0x38
-	.uaword	0xb289
+	.uaword	0xb26d
 	.uaword	.LLST64
 	.uleb128 0x44
-	.uaword	0xb27d
+	.uaword	0xb261
 	.uleb128 0x33
-	.uaword	0xb271
-=======
-	.uaword	0xc792
-	.uleb128 0x38
-	.uaword	0xb290
-	.uaword	.LLST64
-	.uleb128 0x44
-	.uaword	0xb284
-	.uleb128 0x33
-	.uaword	0xb278
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0xb255
 	.byte	0x1
 	.byte	0x6c
 	.byte	0
 	.uleb128 0x45
-<<<<<<< HEAD
-	.uaword	0xb296
-=======
-	.uaword	0xb29d
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0xb27a
 	.uaword	.LBB342
 	.uaword	.LBE342
 	.byte	0x1
 	.uahalf	0x175
-<<<<<<< HEAD
-	.uaword	0xc7ae
+	.uaword	0xc792
 	.uleb128 0x44
-	.uaword	0xb2cc
+	.uaword	0xb2b0
 	.uleb128 0x38
-	.uaword	0xb2c0
+	.uaword	0xb2a4
 	.uaword	.LLST65
 	.byte	0
 	.uleb128 0x46
-	.uaword	0xb2d9
-=======
-	.uaword	0xc7b5
-	.uleb128 0x44
-	.uaword	0xb2d3
-	.uleb128 0x38
-	.uaword	0xb2c7
-	.uaword	.LLST65
-	.byte	0
-	.uleb128 0x46
-	.uaword	0xb2e0
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0xb2bd
 	.uaword	.LBB344
 	.uaword	.Ldebug_ranges0+0x100
 	.byte	0x1
 	.uahalf	0x179
-<<<<<<< HEAD
-	.uaword	0xc7d1
+	.uaword	0xc7b5
 	.uleb128 0x44
-	.uaword	0xb314
+	.uaword	0xb2f8
 	.uleb128 0x38
-	.uaword	0xb308
+	.uaword	0xb2ec
 	.uaword	.LLST66
 	.byte	0
 	.uleb128 0x46
-	.uaword	0xb321
-=======
-	.uaword	0xc7d8
-	.uleb128 0x44
-	.uaword	0xb31b
-	.uleb128 0x38
-	.uaword	0xb30f
-	.uaword	.LLST66
-	.byte	0
-	.uleb128 0x46
-	.uaword	0xb328
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0xb305
 	.uaword	.LBB348
 	.uaword	.Ldebug_ranges0+0x118
 	.byte	0x1
 	.uahalf	0x17e
-<<<<<<< HEAD
-	.uaword	0xc7ff
+	.uaword	0xc7e3
 	.uleb128 0x38
-	.uaword	0xb367
+	.uaword	0xb34b
 	.uaword	.LLST67
 	.uleb128 0x38
-	.uaword	0xb35b
+	.uaword	0xb33f
 	.uaword	.LLST68
 	.uleb128 0x33
-	.uaword	0xb34f
-=======
-	.uaword	0xc806
-	.uleb128 0x38
-	.uaword	0xb36e
-	.uaword	.LLST67
-	.uleb128 0x38
-	.uaword	0xb362
-	.uaword	.LLST68
-	.uleb128 0x33
-	.uaword	0xb356
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0xb333
 	.byte	0x1
 	.byte	0x6c
 	.byte	0
 	.uleb128 0x4b
 	.uaword	.LBB352
 	.uaword	.LBE352
-<<<<<<< HEAD
-	.uaword	0xc8bc
-=======
-	.uaword	0xc8c3
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0xc8a0
 	.uleb128 0x4c
 	.string	"src"
 	.byte	0x1
 	.uahalf	0x182
-<<<<<<< HEAD
-	.uaword	0xa48d
+	.uaword	0xa471
 	.uaword	.LLST69
 	.uleb128 0x45
-	.uaword	0xb374
-=======
-	.uaword	0xa494
-	.uaword	.LLST69
-	.uleb128 0x45
-	.uaword	0xb37b
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0xb358
 	.uaword	.LBB353
 	.uaword	.LBE353
 	.byte	0x1
 	.uahalf	0x184
-<<<<<<< HEAD
-	.uaword	0xc843
+	.uaword	0xc827
 	.uleb128 0x38
-	.uaword	0xb3a6
+	.uaword	0xb38a
 	.uaword	.LLST70
 	.uleb128 0x38
-	.uaword	0xb39a
+	.uaword	0xb37e
 	.uaword	.LLST71
 	.byte	0
 	.uleb128 0x46
-	.uaword	0xb3b3
-=======
-	.uaword	0xc84a
-	.uleb128 0x38
-	.uaword	0xb3ad
-	.uaword	.LLST70
-	.uleb128 0x38
-	.uaword	0xb3a1
-	.uaword	.LLST71
-	.byte	0
-	.uleb128 0x46
-	.uaword	0xb3ba
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0xb397
 	.uaword	.LBB355
 	.uaword	.Ldebug_ranges0+0x130
 	.byte	0x1
 	.uahalf	0x185
-<<<<<<< HEAD
-	.uaword	0xc88d
+	.uaword	0xc871
 	.uleb128 0x38
-	.uaword	0xb3ea
+	.uaword	0xb3ce
 	.uaword	.LLST72
 	.uleb128 0x38
-	.uaword	0xb3d5
+	.uaword	0xb3b9
 	.uaword	.LLST73
 	.uleb128 0x38
-	.uaword	0xb3c9
+	.uaword	0xb3ad
 	.uaword	.LLST74
 	.uleb128 0x4d
-	.uaword	0xa464
-=======
-	.uaword	0xc894
-	.uleb128 0x38
-	.uaword	0xb3f1
-	.uaword	.LLST72
-	.uleb128 0x38
-	.uaword	0xb3dc
-	.uaword	.LLST73
-	.uleb128 0x38
-	.uaword	0xb3d0
-	.uaword	.LLST74
-	.uleb128 0x4d
-	.uaword	0xa46b
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0xa448
 	.uaword	.LBB357
 	.uaword	.LBE357
 	.byte	0x3
 	.uahalf	0x113
 	.uleb128 0x38
-<<<<<<< HEAD
-	.uaword	0xa481
-=======
-	.uaword	0xa488
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0xa465
 	.uaword	.LLST75
 	.byte	0
 	.byte	0
 	.uleb128 0x45
-<<<<<<< HEAD
-	.uaword	0xb3fc
-=======
-	.uaword	0xb403
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0xb3e0
 	.uaword	.LBB361
 	.uaword	.LBE361
 	.byte	0x1
 	.uahalf	0x186
-<<<<<<< HEAD
-	.uaword	0xc8ab
+	.uaword	0xc88f
 	.uleb128 0x38
-	.uaword	0xb414
-=======
-	.uaword	0xc8b2
-	.uleb128 0x38
-	.uaword	0xb41b
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0xb3f8
 	.uaword	.LLST76
 	.byte	0
 	.uleb128 0x40
 	.uaword	.LVL128
-<<<<<<< HEAD
-	.uaword	0xd8b7
-=======
-	.uaword	0xd8be
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0xd89b
 	.uleb128 0x35
 	.byte	0x1
 	.byte	0x54
@@ -29931,214 +20123,115 @@ IfxVadc_Adc_masterIndex:
 	.byte	0
 	.byte	0
 	.uleb128 0x45
-<<<<<<< HEAD
-	.uaword	0xb421
-=======
-	.uaword	0xb428
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0xb405
 	.uaword	.LBB363
 	.uaword	.LBE363
 	.byte	0x1
 	.uahalf	0x18f
-<<<<<<< HEAD
-	.uaword	0xc8ec
+	.uaword	0xc8d0
 	.uleb128 0x38
-	.uaword	0xb466
+	.uaword	0xb44a
 	.uaword	.LLST77
 	.uleb128 0x38
-	.uaword	0xb45a
+	.uaword	0xb43e
 	.uaword	.LLST78
 	.uleb128 0x38
-	.uaword	0xb44e
+	.uaword	0xb432
 	.uaword	.LLST79
 	.byte	0
 	.uleb128 0x45
-	.uaword	0xb473
-=======
-	.uaword	0xc8f3
-	.uleb128 0x38
-	.uaword	0xb46d
-	.uaword	.LLST77
-	.uleb128 0x38
-	.uaword	0xb461
-	.uaword	.LLST78
-	.uleb128 0x38
-	.uaword	0xb455
-	.uaword	.LLST79
-	.byte	0
-	.uleb128 0x45
-	.uaword	0xb47a
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0xb457
 	.uaword	.LBB365
 	.uaword	.LBE365
 	.byte	0x1
 	.uahalf	0x193
-<<<<<<< HEAD
-	.uaword	0xc91c
+	.uaword	0xc900
 	.uleb128 0x38
-	.uaword	0xb4b8
+	.uaword	0xb49c
 	.uaword	.LLST80
 	.uleb128 0x38
-	.uaword	0xb4ac
+	.uaword	0xb490
 	.uaword	.LLST81
 	.uleb128 0x38
-	.uaword	0xb4a0
-=======
-	.uaword	0xc923
-	.uleb128 0x38
-	.uaword	0xb4bf
-	.uaword	.LLST80
-	.uleb128 0x38
-	.uaword	0xb4b3
-	.uaword	.LLST81
-	.uleb128 0x38
-	.uaword	0xb4a7
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0xb484
 	.uaword	.LLST82
 	.byte	0
 	.uleb128 0x4b
 	.uaword	.LBB367
 	.uaword	.LBE367
-<<<<<<< HEAD
-	.uaword	0xc9f7
-=======
-	.uaword	0xc9fe
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0xc9db
 	.uleb128 0x4c
 	.string	"src"
 	.byte	0x1
 	.uahalf	0x198
-<<<<<<< HEAD
-	.uaword	0xa48d
+	.uaword	0xa471
 	.uaword	.LLST83
 	.uleb128 0x45
-	.uaword	0xb4c5
-=======
-	.uaword	0xa494
-	.uaword	.LLST83
-	.uleb128 0x45
-	.uaword	0xb4cc
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0xb4a9
 	.uaword	.LBB368
 	.uaword	.LBE368
 	.byte	0x1
 	.uahalf	0x19a
-<<<<<<< HEAD
-	.uaword	0xc960
+	.uaword	0xc944
 	.uleb128 0x38
-	.uaword	0xb4f8
+	.uaword	0xb4dc
 	.uaword	.LLST84
 	.uleb128 0x38
-	.uaword	0xb4ec
+	.uaword	0xb4d0
 	.uaword	.LLST85
 	.byte	0
 	.uleb128 0x45
-	.uaword	0xb505
-=======
-	.uaword	0xc967
-	.uleb128 0x38
-	.uaword	0xb4ff
-	.uaword	.LLST84
-	.uleb128 0x38
-	.uaword	0xb4f3
-	.uaword	.LLST85
-	.byte	0
-	.uleb128 0x45
-	.uaword	0xb50c
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0xb4e9
 	.uaword	.LBB370
 	.uaword	.LBE370
 	.byte	0x1
 	.uahalf	0x19b
-<<<<<<< HEAD
-	.uaword	0xc97e
+	.uaword	0xc962
 	.uleb128 0x38
-	.uaword	0xb52e
+	.uaword	0xb512
 	.uaword	.LLST86
 	.byte	0
 	.uleb128 0x46
-	.uaword	0xb3b3
-=======
-	.uaword	0xc985
-	.uleb128 0x38
-	.uaword	0xb535
-	.uaword	.LLST86
-	.byte	0
-	.uleb128 0x46
-	.uaword	0xb3ba
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0xb397
 	.uaword	.LBB372
 	.uaword	.Ldebug_ranges0+0x148
 	.byte	0x1
 	.uahalf	0x19c
-<<<<<<< HEAD
-	.uaword	0xc9c8
+	.uaword	0xc9ac
 	.uleb128 0x38
-	.uaword	0xb3ea
+	.uaword	0xb3ce
 	.uaword	.LLST87
 	.uleb128 0x38
-	.uaword	0xb3d5
+	.uaword	0xb3b9
 	.uaword	.LLST88
 	.uleb128 0x38
-	.uaword	0xb3c9
+	.uaword	0xb3ad
 	.uaword	.LLST89
 	.uleb128 0x4d
-	.uaword	0xa464
-=======
-	.uaword	0xc9cf
-	.uleb128 0x38
-	.uaword	0xb3f1
-	.uaword	.LLST87
-	.uleb128 0x38
-	.uaword	0xb3dc
-	.uaword	.LLST88
-	.uleb128 0x38
-	.uaword	0xb3d0
-	.uaword	.LLST89
-	.uleb128 0x4d
-	.uaword	0xa46b
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0xa448
 	.uaword	.LBB374
 	.uaword	.LBE374
 	.byte	0x3
 	.uahalf	0x113
 	.uleb128 0x38
-<<<<<<< HEAD
-	.uaword	0xa481
-=======
-	.uaword	0xa488
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0xa465
 	.uaword	.LLST90
 	.byte	0
 	.byte	0
 	.uleb128 0x45
-<<<<<<< HEAD
-	.uaword	0xb3fc
-=======
-	.uaword	0xb403
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0xb3e0
 	.uaword	.LBB378
 	.uaword	.LBE378
 	.byte	0x1
 	.uahalf	0x19d
-<<<<<<< HEAD
-	.uaword	0xc9e6
+	.uaword	0xc9ca
 	.uleb128 0x38
-	.uaword	0xb414
-=======
-	.uaword	0xc9ed
-	.uleb128 0x38
-	.uaword	0xb41b
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0xb3f8
 	.uaword	.LLST91
 	.byte	0
 	.uleb128 0x40
 	.uaword	.LVL143
-<<<<<<< HEAD
-	.uaword	0xd8b7
-=======
-	.uaword	0xd8be
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0xd89b
 	.uleb128 0x35
 	.byte	0x1
 	.byte	0x54
@@ -30149,13 +20242,8 @@ IfxVadc_Adc_masterIndex:
 	.byte	0
 	.uleb128 0x34
 	.uaword	.LVL109
-<<<<<<< HEAD
-	.uaword	0xd7e2
-	.uaword	0xca11
-=======
-	.uaword	0xd7e9
-	.uaword	0xca18
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0xd7c6
+	.uaword	0xc9f5
 	.uleb128 0x35
 	.byte	0x1
 	.byte	0x54
@@ -30171,13 +20259,8 @@ IfxVadc_Adc_masterIndex:
 	.byte	0
 	.uleb128 0x34
 	.uaword	.LVL120
-<<<<<<< HEAD
-	.uaword	0xd7e2
-	.uaword	0xca2b
-=======
-	.uaword	0xd7e9
-	.uaword	0xca32
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0xd7c6
+	.uaword	0xca0f
 	.uleb128 0x35
 	.byte	0x1
 	.byte	0x54
@@ -30193,13 +20276,8 @@ IfxVadc_Adc_masterIndex:
 	.byte	0
 	.uleb128 0x34
 	.uaword	.LVL124
-<<<<<<< HEAD
-	.uaword	0xd80d
-	.uaword	0xca45
-=======
-	.uaword	0xd814
-	.uaword	0xca4c
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0xd7f1
+	.uaword	0xca29
 	.uleb128 0x35
 	.byte	0x1
 	.byte	0x54
@@ -30215,11 +20293,7 @@ IfxVadc_Adc_masterIndex:
 	.byte	0
 	.uleb128 0x40
 	.uaword	.LVL151
-<<<<<<< HEAD
-	.uaword	0xd80d
-=======
-	.uaword	0xd814
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0xd7f1
 	.uleb128 0x35
 	.byte	0x1
 	.byte	0x54
@@ -30236,15 +20310,9 @@ IfxVadc_Adc_masterIndex:
 	.byte	0
 	.uleb128 0x6
 	.byte	0x4
-<<<<<<< HEAD
-	.uaword	0xca62
+	.uaword	0xca46
 	.uleb128 0x20
-	.uaword	0xa1a3
-=======
-	.uaword	0xca69
-	.uleb128 0x20
-	.uaword	0xa1aa
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0xa187
 	.uleb128 0x4e
 	.byte	0x1
 	.string	"IfxVadc_Adc_initChannelConfig"
@@ -30256,42 +20324,26 @@ IfxVadc_Adc_masterIndex:
 	.byte	0x1
 	.byte	0x9c
 	.byte	0x1
-<<<<<<< HEAD
-	.uaword	0xcaf9
-=======
-	.uaword	0xcb00
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0xcadd
 	.uleb128 0x4f
 	.uaword	.LASF74
 	.byte	0x1
 	.uahalf	0x1ad
-<<<<<<< HEAD
-	.uaword	0xc018
-=======
-	.uaword	0xc01f
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0xbffc
 	.byte	0x1
 	.byte	0x64
 	.uleb128 0x4f
 	.uaword	.LASF49
 	.byte	0x1
 	.uahalf	0x1ad
-<<<<<<< HEAD
-	.uaword	0xa037
-=======
-	.uaword	0xa03e
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0xa01b
 	.byte	0x1
 	.byte	0x65
 	.uleb128 0x50
 	.string	"IfxVadc_Adc_defaultChannelConfig"
 	.byte	0x1
 	.uahalf	0x1af
-<<<<<<< HEAD
-	.uaword	0xca62
-=======
-	.uaword	0xca69
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0xca46
 	.byte	0x18
 	.byte	0
 	.byte	0
@@ -30324,1019 +20376,557 @@ IfxVadc_Adc_masterIndex:
 	.byte	0x1
 	.uahalf	0x1c9
 	.byte	0x1
-<<<<<<< HEAD
-	.uaword	0x99b7
-=======
-	.uaword	0x99be
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x999b
 	.uaword	.LFB362
 	.uaword	.LFE362
 	.byte	0x1
 	.byte	0x9c
 	.byte	0x1
-<<<<<<< HEAD
-	.uaword	0xd192
-=======
-	.uaword	0xd199
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0xd176
 	.uleb128 0x48
 	.uaword	.LASF49
 	.byte	0x1
 	.uahalf	0x1c9
-<<<<<<< HEAD
-	.uaword	0xbd87
-=======
-	.uaword	0xbd8e
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0xbd6b
 	.uaword	.LLST92
 	.uleb128 0x48
 	.uaword	.LASF74
 	.byte	0x1
 	.uahalf	0x1c9
-<<<<<<< HEAD
-	.uaword	0xd192
-=======
-	.uaword	0xd199
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0xd176
 	.uaword	.LLST93
 	.uleb128 0x49
 	.string	"status"
 	.byte	0x1
 	.uahalf	0x1cb
-<<<<<<< HEAD
-	.uaword	0x99b7
-=======
-	.uaword	0x99be
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x999b
 	.byte	0
 	.uleb128 0x51
 	.uaword	.LASF38
 	.byte	0x1
 	.uahalf	0x1cc
-<<<<<<< HEAD
-	.uaword	0x7aff
-=======
-	.uaword	0x7b06
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x7ae3
 	.byte	0x1
 	.byte	0x6c
 	.uleb128 0x4a
 	.uaword	.LASF69
 	.byte	0x1
 	.uahalf	0x1cd
-<<<<<<< HEAD
-	.uaword	0x9e9f
-=======
-	.uaword	0x9ea6
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x9e83
 	.uaword	.LLST94
 	.uleb128 0x4a
 	.uaword	.LASF75
 	.byte	0x1
 	.uahalf	0x1d2
-<<<<<<< HEAD
-	.uaword	0x619
-=======
-	.uaword	0x620
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x5fd
 	.uaword	.LLST95
 	.uleb128 0x4a
 	.uaword	.LASF67
 	.byte	0x1
 	.uahalf	0x1d4
-<<<<<<< HEAD
-	.uaword	0x2c0
-=======
-	.uaword	0x2c7
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x2a4
 	.uaword	.LLST96
 	.uleb128 0x4a
 	.uaword	.LASF72
 	.byte	0x1
 	.uahalf	0x1d6
-<<<<<<< HEAD
-	.uaword	0x22c
-=======
-	.uaword	0x233
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x210
 	.uaword	.LLST97
 	.uleb128 0x4c
 	.string	"convertMode"
 	.byte	0x1
 	.uahalf	0x293
-<<<<<<< HEAD
-	.uaword	0x7c4f
-=======
-	.uaword	0x7c56
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x7c33
 	.uaword	.LLST98
 	.uleb128 0x4b
 	.uaword	.LBB380
 	.uaword	.LBE380
-<<<<<<< HEAD
-	.uaword	0xcc22
-=======
-	.uaword	0xcc29
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0xcc06
 	.uleb128 0x2c
 	.uaword	.LASF73
 	.byte	0x1
 	.uahalf	0x201
-<<<<<<< HEAD
-	.uaword	0x22c
+	.uaword	0x210
 	.uleb128 0x45
-	.uaword	0xb53b
-=======
-	.uaword	0x233
-	.uleb128 0x45
-	.uaword	0xb542
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0xb51f
 	.uaword	.LBB381
 	.uaword	.LBE381
 	.byte	0x1
 	.uahalf	0x201
-<<<<<<< HEAD
-	.uaword	0xcbfe
+	.uaword	0xcbe2
 	.uleb128 0x38
-	.uaword	0xb576
+	.uaword	0xb55a
 	.uaword	.LLST99
 	.uleb128 0x38
+	.uaword	0xb54d
+	.uaword	.LLST100
+	.byte	0
+	.uleb128 0x4d
 	.uaword	0xb569
-	.uaword	.LLST100
-	.byte	0
-	.uleb128 0x4d
-	.uaword	0xb585
-=======
-	.uaword	0xcc05
-	.uleb128 0x38
-	.uaword	0xb57d
-	.uaword	.LLST99
-	.uleb128 0x38
-	.uaword	0xb570
-	.uaword	.LLST100
-	.byte	0
-	.uleb128 0x4d
-	.uaword	0xb58c
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
 	.uaword	.LBB383
 	.uaword	.LBE383
 	.byte	0x1
 	.uahalf	0x202
 	.uleb128 0x38
-<<<<<<< HEAD
-	.uaword	0xb5b2
+	.uaword	0xb596
 	.uaword	.LLST101
 	.uleb128 0x38
-	.uaword	0xb5a6
-=======
-	.uaword	0xb5b9
-	.uaword	.LLST101
-	.uleb128 0x38
-	.uaword	0xb5ad
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0xb58a
 	.uaword	.LLST102
 	.byte	0
 	.byte	0
 	.uleb128 0x45
-<<<<<<< HEAD
-	.uaword	0xb5bf
-=======
-	.uaword	0xb5c6
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0xb5a3
 	.uaword	.LBB385
 	.uaword	.LBE385
 	.byte	0x1
 	.uahalf	0x20b
-<<<<<<< HEAD
-	.uaword	0xcc44
+	.uaword	0xcc28
 	.uleb128 0x52
-	.uaword	0xb5f5
+	.uaword	0xb5d9
 	.byte	0
 	.uleb128 0x33
-	.uaword	0xb5e9
-=======
-	.uaword	0xcc4b
-	.uleb128 0x52
-	.uaword	0xb5fc
-	.byte	0
-	.uleb128 0x33
-	.uaword	0xb5f0
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0xb5cd
 	.byte	0x1
 	.byte	0x6d
 	.byte	0
 	.uleb128 0x45
-<<<<<<< HEAD
-	.uaword	0xb612
-=======
-	.uaword	0xb619
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0xb5f6
 	.uaword	.LBB387
 	.uaword	.LBE387
 	.byte	0x1
 	.uahalf	0x20d
-<<<<<<< HEAD
-	.uaword	0xcc69
+	.uaword	0xcc4d
 	.uleb128 0x38
-	.uaword	0xb64a
+	.uaword	0xb62e
 	.uaword	.LLST103
 	.uleb128 0x33
-	.uaword	0xb63e
-=======
-	.uaword	0xcc70
-	.uleb128 0x38
-	.uaword	0xb651
-	.uaword	.LLST103
-	.uleb128 0x33
-	.uaword	0xb645
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0xb622
 	.byte	0x1
 	.byte	0x6d
 	.byte	0
 	.uleb128 0x4b
 	.uaword	.LBB389
 	.uaword	.LBE389
-<<<<<<< HEAD
-	.uaword	0xcda9
-=======
-	.uaword	0xcdb0
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0xcd8d
 	.uleb128 0x4c
 	.string	"queueSlot"
 	.byte	0x1
 	.uahalf	0x212
-<<<<<<< HEAD
-	.uaword	0xd19d
+	.uaword	0xd181
 	.uaword	.LLST104
 	.uleb128 0x45
-	.uaword	0xb657
-=======
-	.uaword	0xd1a4
-	.uaword	.LLST104
-	.uleb128 0x45
-	.uaword	0xb65e
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0xb63b
 	.uaword	.LBB390
 	.uaword	.LBE390
 	.byte	0x1
 	.uahalf	0x218
-<<<<<<< HEAD
-	.uaword	0xccaa
+	.uaword	0xcc8e
 	.uleb128 0x38
-	.uaword	0xb688
+	.uaword	0xb66c
 	.uaword	.LLST105
 	.byte	0
 	.uleb128 0x46
-	.uaword	0xb695
-=======
-	.uaword	0xccb1
-	.uleb128 0x38
-	.uaword	0xb68f
-	.uaword	.LLST105
-	.byte	0
-	.uleb128 0x46
-	.uaword	0xb69c
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0xb679
 	.uaword	.LBB392
 	.uaword	.Ldebug_ranges0+0x160
 	.byte	0x1
 	.uahalf	0x219
-<<<<<<< HEAD
-	.uaword	0xcce9
+	.uaword	0xcccd
 	.uleb128 0x38
-	.uaword	0xb6e2
+	.uaword	0xb6c6
 	.uaword	.LLST106
 	.uleb128 0x38
-	.uaword	0xb6d6
+	.uaword	0xb6ba
 	.uaword	.LLST107
 	.uleb128 0x38
-	.uaword	0xb6ca
-=======
-	.uaword	0xccf0
-	.uleb128 0x38
-	.uaword	0xb6e9
-	.uaword	.LLST106
-	.uleb128 0x38
-	.uaword	0xb6dd
-	.uaword	.LLST107
-	.uleb128 0x38
-	.uaword	0xb6d1
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0xb6ae
 	.uaword	.LLST108
 	.uleb128 0x3d
 	.uaword	.Ldebug_ranges0+0x160
 	.uleb128 0x3a
-<<<<<<< HEAD
-	.uaword	0xb6ee
-=======
-	.uaword	0xb6f5
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0xb6d2
 	.uaword	.LLST109
 	.byte	0
 	.byte	0
 	.uleb128 0x46
-<<<<<<< HEAD
-	.uaword	0xb6fe
-=======
-	.uaword	0xb705
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0xb6e2
 	.uaword	.LBB396
 	.uaword	.Ldebug_ranges0+0x178
 	.byte	0x1
 	.uahalf	0x21e
-<<<<<<< HEAD
-	.uaword	0xcd28
+	.uaword	0xcd0c
 	.uleb128 0x38
-	.uaword	0xb741
+	.uaword	0xb725
 	.uaword	.LLST110
 	.uleb128 0x38
-	.uaword	0xb735
+	.uaword	0xb719
 	.uaword	.LLST111
 	.uleb128 0x38
-	.uaword	0xb729
-=======
-	.uaword	0xcd2f
-	.uleb128 0x38
-	.uaword	0xb748
-	.uaword	.LLST110
-	.uleb128 0x38
-	.uaword	0xb73c
-	.uaword	.LLST111
-	.uleb128 0x38
-	.uaword	0xb730
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0xb70d
 	.uaword	.LLST112
 	.uleb128 0x3d
 	.uaword	.Ldebug_ranges0+0x178
 	.uleb128 0x3a
-<<<<<<< HEAD
-	.uaword	0xb74d
-=======
-	.uaword	0xb754
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0xb731
 	.uaword	.LLST113
 	.byte	0
 	.byte	0
 	.uleb128 0x45
-<<<<<<< HEAD
-	.uaword	0xb75d
-=======
-	.uaword	0xb764
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0xb741
 	.uaword	.LBB400
 	.uaword	.LBE400
 	.byte	0x1
 	.uahalf	0x228
-<<<<<<< HEAD
-	.uaword	0xcd46
+	.uaword	0xcd2a
 	.uleb128 0x38
-	.uaword	0xb78f
+	.uaword	0xb773
 	.uaword	.LLST114
 	.byte	0
 	.uleb128 0x46
-	.uaword	0xb6fe
-=======
-	.uaword	0xcd4d
-	.uleb128 0x38
-	.uaword	0xb796
-	.uaword	.LLST114
-	.byte	0
-	.uleb128 0x46
-	.uaword	0xb705
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0xb6e2
 	.uaword	.LBB402
 	.uaword	.Ldebug_ranges0+0x190
 	.byte	0x1
 	.uahalf	0x22e
-<<<<<<< HEAD
-	.uaword	0xcd85
+	.uaword	0xcd69
 	.uleb128 0x38
-	.uaword	0xb741
+	.uaword	0xb725
 	.uaword	.LLST115
 	.uleb128 0x38
-	.uaword	0xb735
+	.uaword	0xb719
 	.uaword	.LLST116
 	.uleb128 0x38
-	.uaword	0xb729
-=======
-	.uaword	0xcd8c
-	.uleb128 0x38
-	.uaword	0xb748
-	.uaword	.LLST115
-	.uleb128 0x38
-	.uaword	0xb73c
-	.uaword	.LLST116
-	.uleb128 0x38
-	.uaword	0xb730
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0xb70d
 	.uaword	.LLST117
 	.uleb128 0x3d
 	.uaword	.Ldebug_ranges0+0x190
 	.uleb128 0x3a
-<<<<<<< HEAD
-	.uaword	0xb74d
-=======
-	.uaword	0xb754
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0xb731
 	.uaword	.LLST118
 	.byte	0
 	.byte	0
 	.uleb128 0x4d
-<<<<<<< HEAD
-	.uaword	0xb79c
-=======
-	.uaword	0xb7a3
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0xb780
 	.uaword	.LBB408
 	.uaword	.LBE408
 	.byte	0x1
 	.uahalf	0x235
 	.uleb128 0x38
-<<<<<<< HEAD
-	.uaword	0xb7c5
+	.uaword	0xb7a9
 	.uaword	.LLST119
 	.uleb128 0x38
-	.uaword	0xb7b9
-=======
-	.uaword	0xb7cc
-	.uaword	.LLST119
-	.uleb128 0x38
-	.uaword	0xb7c0
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0xb79d
 	.uaword	.LLST120
 	.byte	0
 	.byte	0
 	.uleb128 0x4b
 	.uaword	.LBB410
 	.uaword	.LBE410
-<<<<<<< HEAD
-	.uaword	0xcee8
-=======
-	.uaword	0xceef
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0xcecc
 	.uleb128 0x4c
 	.string	"scanSlot"
 	.byte	0x1
 	.uahalf	0x23f
-<<<<<<< HEAD
-	.uaword	0xd1a8
+	.uaword	0xd18c
 	.uaword	.LLST121
 	.uleb128 0x46
-	.uaword	0xb7d9
-=======
-	.uaword	0xd1af
-	.uaword	.LLST121
-	.uleb128 0x46
-	.uaword	0xb7e0
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0xb7bd
 	.uaword	.LBB411
 	.uaword	.Ldebug_ranges0+0x1b0
 	.byte	0x1
 	.uahalf	0x245
-<<<<<<< HEAD
-	.uaword	0xcde9
+	.uaword	0xcdcd
 	.uleb128 0x38
-	.uaword	0xb809
+	.uaword	0xb7ed
 	.uaword	.LLST122
 	.byte	0
 	.uleb128 0x46
-	.uaword	0xb816
-=======
-	.uaword	0xcdf0
-	.uleb128 0x38
-	.uaword	0xb810
-	.uaword	.LLST122
-	.byte	0
-	.uleb128 0x46
-	.uaword	0xb81d
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0xb7fa
 	.uaword	.LBB415
 	.uaword	.Ldebug_ranges0+0x1c8
 	.byte	0x1
 	.uahalf	0x247
-<<<<<<< HEAD
-	.uaword	0xce28
+	.uaword	0xce0c
 	.uleb128 0x38
-	.uaword	0xb859
+	.uaword	0xb83d
 	.uaword	.LLST123
 	.uleb128 0x38
-	.uaword	0xb84d
+	.uaword	0xb831
 	.uaword	.LLST124
 	.uleb128 0x38
-	.uaword	0xb841
-=======
-	.uaword	0xce2f
-	.uleb128 0x38
-	.uaword	0xb860
-	.uaword	.LLST123
-	.uleb128 0x38
-	.uaword	0xb854
-	.uaword	.LLST124
-	.uleb128 0x38
-	.uaword	0xb848
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0xb825
 	.uaword	.LLST125
 	.uleb128 0x3d
 	.uaword	.Ldebug_ranges0+0x1c8
 	.uleb128 0x3a
-<<<<<<< HEAD
-	.uaword	0xb865
-=======
-	.uaword	0xb86c
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0xb849
 	.uaword	.LLST126
 	.byte	0
 	.byte	0
 	.uleb128 0x46
-<<<<<<< HEAD
-	.uaword	0xb875
-=======
-	.uaword	0xb87c
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0xb859
 	.uaword	.LBB419
 	.uaword	.Ldebug_ranges0+0x1e0
 	.byte	0x1
 	.uahalf	0x24b
-<<<<<<< HEAD
-	.uaword	0xce67
+	.uaword	0xce4b
 	.uleb128 0x38
-	.uaword	0xb8b7
+	.uaword	0xb89b
 	.uaword	.LLST127
 	.uleb128 0x38
-	.uaword	0xb8ab
+	.uaword	0xb88f
 	.uaword	.LLST128
 	.uleb128 0x38
-	.uaword	0xb89f
-=======
-	.uaword	0xce6e
-	.uleb128 0x38
-	.uaword	0xb8be
-	.uaword	.LLST127
-	.uleb128 0x38
-	.uaword	0xb8b2
-	.uaword	.LLST128
-	.uleb128 0x38
-	.uaword	0xb8a6
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0xb883
 	.uaword	.LLST129
 	.uleb128 0x3d
 	.uaword	.Ldebug_ranges0+0x1e0
 	.uleb128 0x3a
-<<<<<<< HEAD
-	.uaword	0xb8c3
-=======
-	.uaword	0xb8ca
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0xb8a7
 	.uaword	.LLST130
 	.byte	0
 	.byte	0
 	.uleb128 0x45
-<<<<<<< HEAD
-	.uaword	0xb8d3
-=======
-	.uaword	0xb8da
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0xb8b7
 	.uaword	.LBB423
 	.uaword	.LBE423
 	.byte	0x1
 	.uahalf	0x254
-<<<<<<< HEAD
-	.uaword	0xce85
+	.uaword	0xce69
 	.uleb128 0x38
-	.uaword	0xb904
+	.uaword	0xb8e8
 	.uaword	.LLST131
 	.byte	0
 	.uleb128 0x46
-	.uaword	0xb875
-=======
-	.uaword	0xce8c
-	.uleb128 0x38
-	.uaword	0xb90b
-	.uaword	.LLST131
-	.byte	0
-	.uleb128 0x46
-	.uaword	0xb87c
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0xb859
 	.uaword	.LBB425
 	.uaword	.Ldebug_ranges0+0x1f8
 	.byte	0x1
 	.uahalf	0x25a
-<<<<<<< HEAD
-	.uaword	0xcec4
+	.uaword	0xcea8
 	.uleb128 0x38
-	.uaword	0xb8b7
+	.uaword	0xb89b
 	.uaword	.LLST132
 	.uleb128 0x38
-	.uaword	0xb8ab
+	.uaword	0xb88f
 	.uaword	.LLST133
 	.uleb128 0x38
-	.uaword	0xb89f
-=======
-	.uaword	0xcecb
-	.uleb128 0x38
-	.uaword	0xb8be
-	.uaword	.LLST132
-	.uleb128 0x38
-	.uaword	0xb8b2
-	.uaword	.LLST133
-	.uleb128 0x38
-	.uaword	0xb8a6
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0xb883
 	.uaword	.LLST134
 	.uleb128 0x3d
 	.uaword	.Ldebug_ranges0+0x1f8
 	.uleb128 0x3a
-<<<<<<< HEAD
-	.uaword	0xb8c3
-=======
-	.uaword	0xb8ca
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0xb8a7
 	.uaword	.LLST135
 	.byte	0
 	.byte	0
 	.uleb128 0x4d
-<<<<<<< HEAD
-	.uaword	0xb911
-=======
-	.uaword	0xb918
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0xb8f5
 	.uaword	.LBB431
 	.uaword	.LBE431
 	.byte	0x1
 	.uahalf	0x261
 	.uleb128 0x38
-<<<<<<< HEAD
-	.uaword	0xb93b
+	.uaword	0xb91f
 	.uaword	.LLST136
 	.uleb128 0x38
-	.uaword	0xb92f
-=======
-	.uaword	0xb942
-	.uaword	.LLST136
-	.uleb128 0x38
-	.uaword	0xb936
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0xb913
 	.uaword	.LLST137
 	.byte	0
 	.byte	0
 	.uleb128 0x4b
 	.uaword	.LBB433
 	.uaword	.LBE433
-<<<<<<< HEAD
-	.uaword	0xd013
-=======
-	.uaword	0xd01a
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0xcff7
 	.uleb128 0x4c
 	.string	"backgroundScanSlot"
 	.byte	0x1
 	.uahalf	0x26a
-<<<<<<< HEAD
-	.uaword	0xd1b3
+	.uaword	0xd197
 	.uaword	.LLST138
 	.uleb128 0x45
-	.uaword	0xb953
-=======
-	.uaword	0xd1ba
-	.uaword	.LLST138
-	.uleb128 0x45
-	.uaword	0xb95a
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0xb937
 	.uaword	.LBB434
 	.uaword	.LBE434
 	.byte	0x1
 	.uahalf	0x26f
-<<<<<<< HEAD
-	.uaword	0xcf32
+	.uaword	0xcf16
 	.uleb128 0x38
-	.uaword	0xb98d
+	.uaword	0xb971
 	.uaword	.LLST139
 	.byte	0
 	.uleb128 0x46
-	.uaword	0xb99a
-=======
-	.uaword	0xcf39
-	.uleb128 0x38
-	.uaword	0xb994
-	.uaword	.LLST139
-	.byte	0
-	.uleb128 0x46
-	.uaword	0xb9a1
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0xb97e
 	.uaword	.LBB436
 	.uaword	.Ldebug_ranges0+0x218
 	.byte	0x1
 	.uahalf	0x271
-<<<<<<< HEAD
-	.uaword	0xcf71
+	.uaword	0xcf55
 	.uleb128 0x38
-	.uaword	0xb9e7
+	.uaword	0xb9cb
 	.uaword	.LLST140
 	.uleb128 0x38
-	.uaword	0xb9db
+	.uaword	0xb9bf
 	.uaword	.LLST141
 	.uleb128 0x38
-	.uaword	0xb9cf
-=======
-	.uaword	0xcf78
-	.uleb128 0x38
-	.uaword	0xb9ee
-	.uaword	.LLST140
-	.uleb128 0x38
-	.uaword	0xb9e2
-	.uaword	.LLST141
-	.uleb128 0x38
-	.uaword	0xb9d6
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0xb9b3
 	.uaword	.LLST142
 	.uleb128 0x3d
 	.uaword	.Ldebug_ranges0+0x218
 	.uleb128 0x3a
-<<<<<<< HEAD
-	.uaword	0xb9f3
-=======
-	.uaword	0xb9fa
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0xb9d7
 	.uaword	.LLST143
 	.byte	0
 	.byte	0
 	.uleb128 0x46
-<<<<<<< HEAD
-	.uaword	0xba04
-=======
-	.uaword	0xba0b
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0xb9e8
 	.uaword	.LBB440
 	.uaword	.Ldebug_ranges0+0x230
 	.byte	0x1
 	.uahalf	0x275
-<<<<<<< HEAD
-	.uaword	0xcfb0
+	.uaword	0xcf94
 	.uleb128 0x38
-	.uaword	0xba50
+	.uaword	0xba34
 	.uaword	.LLST144
 	.uleb128 0x38
-	.uaword	0xba44
+	.uaword	0xba28
 	.uaword	.LLST145
 	.uleb128 0x38
-	.uaword	0xba38
-=======
-	.uaword	0xcfb7
-	.uleb128 0x38
-	.uaword	0xba57
-	.uaword	.LLST144
-	.uleb128 0x38
-	.uaword	0xba4b
-	.uaword	.LLST145
-	.uleb128 0x38
-	.uaword	0xba3f
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0xba1c
 	.uaword	.LLST146
 	.uleb128 0x3d
 	.uaword	.Ldebug_ranges0+0x230
 	.uleb128 0x3a
-<<<<<<< HEAD
-	.uaword	0xba5c
-=======
-	.uaword	0xba63
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0xba40
 	.uaword	.LLST147
 	.byte	0
 	.byte	0
 	.uleb128 0x46
-<<<<<<< HEAD
-	.uaword	0xba04
-=======
-	.uaword	0xba0b
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0xb9e8
 	.uaword	.LBB444
 	.uaword	.Ldebug_ranges0+0x248
 	.byte	0x1
 	.uahalf	0x284
-<<<<<<< HEAD
-	.uaword	0xcfef
+	.uaword	0xcfd3
 	.uleb128 0x38
-	.uaword	0xba50
+	.uaword	0xba34
 	.uaword	.LLST148
 	.uleb128 0x38
-	.uaword	0xba44
+	.uaword	0xba28
 	.uaword	.LLST149
 	.uleb128 0x38
-	.uaword	0xba38
-=======
-	.uaword	0xcff6
-	.uleb128 0x38
-	.uaword	0xba57
-	.uaword	.LLST148
-	.uleb128 0x38
-	.uaword	0xba4b
-	.uaword	.LLST149
-	.uleb128 0x38
-	.uaword	0xba3f
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0xba1c
 	.uaword	.LLST150
 	.uleb128 0x3d
 	.uaword	.Ldebug_ranges0+0x248
 	.uleb128 0x3a
-<<<<<<< HEAD
-	.uaword	0xba5c
-=======
-	.uaword	0xba63
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0xba40
 	.uaword	.LLST151
 	.byte	0
 	.byte	0
 	.uleb128 0x4d
-<<<<<<< HEAD
-	.uaword	0xba6d
-=======
-	.uaword	0xba74
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0xba51
 	.uaword	.LBB450
 	.uaword	.LBE450
 	.byte	0x1
 	.uahalf	0x28b
 	.uleb128 0x38
-<<<<<<< HEAD
-	.uaword	0xbaa1
+	.uaword	0xba85
 	.uaword	.LLST152
 	.uleb128 0x38
-	.uaword	0xba95
-=======
-	.uaword	0xbaa8
-	.uaword	.LLST152
-	.uleb128 0x38
-	.uaword	0xba9c
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0xba79
 	.uaword	.LLST153
 	.byte	0
 	.byte	0
 	.uleb128 0x46
-<<<<<<< HEAD
-	.uaword	0xb5bf
-=======
-	.uaword	0xb5c6
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0xb5a3
 	.uaword	.LBB452
 	.uaword	.Ldebug_ranges0+0x268
 	.byte	0x1
 	.uahalf	0x294
-<<<<<<< HEAD
-	.uaword	0xd038
+	.uaword	0xd01c
 	.uleb128 0x38
-	.uaword	0xb5f5
+	.uaword	0xb5d9
 	.uaword	.LLST98
 	.uleb128 0x33
-	.uaword	0xb5e9
-=======
-	.uaword	0xd03f
-	.uleb128 0x38
-	.uaword	0xb5fc
-	.uaword	.LLST98
-	.uleb128 0x33
-	.uaword	0xb5f0
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0xb5cd
 	.byte	0x1
 	.byte	0x6d
 	.byte	0
 	.uleb128 0x46
-<<<<<<< HEAD
-	.uaword	0xbac3
-=======
-	.uaword	0xbaca
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0xbaa7
 	.uaword	.LBB458
 	.uaword	.Ldebug_ranges0+0x288
 	.byte	0x1
 	.uahalf	0x29c
-<<<<<<< HEAD
-	.uaword	0xd066
+	.uaword	0xd04a
 	.uleb128 0x38
-	.uaword	0xbb00
+	.uaword	0xbae4
 	.uaword	.LLST155
 	.uleb128 0x38
-	.uaword	0xbaf4
+	.uaword	0xbad8
 	.uaword	.LLST156
 	.uleb128 0x33
-	.uaword	0xbae8
-=======
-	.uaword	0xd06d
-	.uleb128 0x38
-	.uaword	0xbb07
-	.uaword	.LLST155
-	.uleb128 0x38
-	.uaword	0xbafb
-	.uaword	.LLST156
-	.uleb128 0x33
-	.uaword	0xbaef
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0xbacc
 	.byte	0x1
 	.byte	0x6d
 	.byte	0
 	.uleb128 0x46
-<<<<<<< HEAD
-	.uaword	0xbb0d
-=======
-	.uaword	0xbb14
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0xbaf1
 	.uaword	.LBB461
 	.uaword	.Ldebug_ranges0+0x2a0
 	.byte	0x1
 	.uahalf	0x29e
-<<<<<<< HEAD
-	.uaword	0xd0fa
+	.uaword	0xd0de
 	.uleb128 0x38
-	.uaword	0xbb56
+	.uaword	0xbb3a
 	.uaword	.LLST157
 	.uleb128 0x33
-	.uaword	0xbb4a
+	.uaword	0xbb2e
 	.byte	0x1
 	.byte	0x5b
 	.uleb128 0x38
-	.uaword	0xbb3e
+	.uaword	0xbb22
 	.uaword	.LLST158
 	.uleb128 0x33
-	.uaword	0xbb32
+	.uaword	0xbb16
 	.byte	0x1
 	.byte	0x6d
 	.uleb128 0x53
-	.uaword	0xa525
-=======
-	.uaword	0xd101
-	.uleb128 0x38
-	.uaword	0xbb5d
-	.uaword	.LLST157
-	.uleb128 0x33
-	.uaword	0xbb51
-	.byte	0x1
-	.byte	0x5b
-	.uleb128 0x38
-	.uaword	0xbb45
-	.uaword	.LLST158
-	.uleb128 0x33
-	.uaword	0xbb39
-	.byte	0x1
-	.byte	0x6d
-	.uleb128 0x53
-	.uaword	0xa52c
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0xa509
 	.uaword	.LBB463
 	.uaword	.Ldebug_ranges0+0x2b8
 	.byte	0x2
 	.uahalf	0x906
 	.uleb128 0x38
-<<<<<<< HEAD
-	.uaword	0xa55b
+	.uaword	0xa53f
 	.uaword	.LLST157
 	.uleb128 0x33
-	.uaword	0xa54f
-=======
-	.uaword	0xa562
-	.uaword	.LLST157
-	.uleb128 0x33
-	.uaword	0xa556
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0xa533
 	.byte	0x1
 	.byte	0x5b
 	.uleb128 0x3d
 	.uaword	.Ldebug_ranges0+0x2b8
 	.uleb128 0x3a
-<<<<<<< HEAD
-	.uaword	0xa567
+	.uaword	0xa54b
 	.uaword	.LLST160
 	.uleb128 0x53
-	.uaword	0xa498
-=======
-	.uaword	0xa56e
-	.uaword	.LLST160
-	.uleb128 0x53
-	.uaword	0xa49f
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0xa47c
 	.uaword	.LBB465
 	.uaword	.Ldebug_ranges0+0x2d0
 	.byte	0x2
 	.uahalf	0x6b9
 	.uleb128 0x52
-<<<<<<< HEAD
-	.uaword	0xa4b8
+	.uaword	0xa49c
 	.byte	0xff
 	.uleb128 0x38
-	.uaword	0xa4af
-=======
-	.uaword	0xa4bf
-	.byte	0xff
-	.uleb128 0x38
-	.uaword	0xa4b6
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0xa493
 	.uaword	.LLST161
 	.uleb128 0x3d
 	.uaword	.Ldebug_ranges0+0x2d0
 	.uleb128 0x3a
-<<<<<<< HEAD
-	.uaword	0xa4c1
-=======
-	.uaword	0xa4c8
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0xa4a5
 	.uaword	.LLST162
 	.byte	0
 	.byte	0
@@ -31345,13 +20935,8 @@ IfxVadc_Adc_masterIndex:
 	.byte	0
 	.uleb128 0x34
 	.uaword	.LVL157
-<<<<<<< HEAD
-	.uaword	0xd8e7
-	.uaword	0xd10e
-=======
-	.uaword	0xd8ee
-	.uaword	0xd115
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0xd8cb
+	.uaword	0xd0f2
 	.uleb128 0x35
 	.byte	0x1
 	.byte	0x64
@@ -31361,13 +20946,8 @@ IfxVadc_Adc_masterIndex:
 	.byte	0
 	.uleb128 0x34
 	.uaword	.LVL159
-<<<<<<< HEAD
-	.uaword	0xd7e2
-	.uaword	0xd128
-=======
-	.uaword	0xd7e9
-	.uaword	0xd12f
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0xd7c6
+	.uaword	0xd10c
 	.uleb128 0x35
 	.byte	0x1
 	.byte	0x54
@@ -31383,13 +20963,8 @@ IfxVadc_Adc_masterIndex:
 	.byte	0
 	.uleb128 0x34
 	.uaword	.LVL160
-<<<<<<< HEAD
-	.uaword	0xd992
-	.uaword	0xd13b
-=======
-	.uaword	0xd999
-	.uaword	0xd142
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0xd976
+	.uaword	0xd11f
 	.uleb128 0x35
 	.byte	0x1
 	.byte	0x57
@@ -31398,13 +20973,8 @@ IfxVadc_Adc_masterIndex:
 	.byte	0
 	.uleb128 0x34
 	.uaword	.LVL162
-<<<<<<< HEAD
-	.uaword	0xd992
-	.uaword	0xd14e
-=======
-	.uaword	0xd999
-	.uaword	0xd155
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0xd976
+	.uaword	0xd132
 	.uleb128 0x35
 	.byte	0x1
 	.byte	0x57
@@ -31413,13 +20983,8 @@ IfxVadc_Adc_masterIndex:
 	.byte	0
 	.uleb128 0x34
 	.uaword	.LVL164
-<<<<<<< HEAD
-	.uaword	0xd992
-	.uaword	0xd161
-=======
-	.uaword	0xd999
-	.uaword	0xd168
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0xd976
+	.uaword	0xd145
 	.uleb128 0x35
 	.byte	0x1
 	.byte	0x57
@@ -31428,13 +20993,8 @@ IfxVadc_Adc_masterIndex:
 	.byte	0
 	.uleb128 0x34
 	.uaword	.LVL247
-<<<<<<< HEAD
-	.uaword	0xd9d2
-	.uaword	0xd17b
-=======
-	.uaword	0xd9d9
-	.uaword	0xd182
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0xd9b6
+	.uaword	0xd15f
 	.uleb128 0x35
 	.byte	0x1
 	.byte	0x54
@@ -31450,11 +21010,7 @@ IfxVadc_Adc_masterIndex:
 	.byte	0
 	.uleb128 0x40
 	.uaword	.LVL259
-<<<<<<< HEAD
-	.uaword	0xd80d
-=======
-	.uaword	0xd814
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0xd7f1
 	.uleb128 0x35
 	.byte	0x1
 	.byte	0x54
@@ -31471,45 +21027,24 @@ IfxVadc_Adc_masterIndex:
 	.byte	0
 	.uleb128 0x6
 	.byte	0x4
-<<<<<<< HEAD
-	.uaword	0xd198
+	.uaword	0xd17c
 	.uleb128 0x20
-	.uaword	0xa444
+	.uaword	0xa428
 	.uleb128 0x6
 	.byte	0x4
-	.uaword	0xd1a3
+	.uaword	0xd187
 	.uleb128 0x20
-	.uaword	0x9f0d
+	.uaword	0x9ef1
 	.uleb128 0x6
 	.byte	0x4
-	.uaword	0xd1ae
+	.uaword	0xd192
 	.uleb128 0x20
-	.uaword	0x9f77
+	.uaword	0x9f5b
 	.uleb128 0x6
 	.byte	0x4
-	.uaword	0xd1b9
+	.uaword	0xd19d
 	.uleb128 0x20
-	.uaword	0x9e01
-=======
-	.uaword	0xd19f
-	.uleb128 0x20
-	.uaword	0xa44b
-	.uleb128 0x6
-	.byte	0x4
-	.uaword	0xd1aa
-	.uleb128 0x20
-	.uaword	0x9f14
-	.uleb128 0x6
-	.byte	0x4
-	.uaword	0xd1b5
-	.uleb128 0x20
-	.uaword	0x9f7e
-	.uleb128 0x6
-	.byte	0x4
-	.uaword	0xd1c0
-	.uleb128 0x20
-	.uaword	0x9e08
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x9de5
 	.uleb128 0x4e
 	.byte	0x1
 	.string	"IfxVadc_Adc_initGroupConfig"
@@ -31521,42 +21056,26 @@ IfxVadc_Adc_masterIndex:
 	.byte	0x1
 	.byte	0x9c
 	.byte	0x1
-<<<<<<< HEAD
-	.uaword	0xd26c
-=======
-	.uaword	0xd273
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0xd250
 	.uleb128 0x4f
 	.uaword	.LASF74
 	.byte	0x1
 	.uahalf	0x2a7
-<<<<<<< HEAD
-	.uaword	0xc548
-=======
-	.uaword	0xc54f
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0xc52c
 	.byte	0x1
 	.byte	0x64
 	.uleb128 0x4f
 	.uaword	.LASF38
 	.byte	0x1
 	.uahalf	0x2a7
-<<<<<<< HEAD
-	.uaword	0xd26c
-=======
-	.uaword	0xd273
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0xd250
 	.byte	0x1
 	.byte	0x65
 	.uleb128 0x50
 	.string	"IfxVadc_Adc_defaultGroupConfig"
 	.byte	0x1
 	.uahalf	0x2a9
-<<<<<<< HEAD
-	.uaword	0xd198
-=======
-	.uaword	0xd19f
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0xd17c
 	.byte	0x38
 	.byte	0
 	.byte	0
@@ -31617,148 +21136,87 @@ IfxVadc_Adc_masterIndex:
 	.byte	0
 	.uleb128 0x6
 	.byte	0x4
-<<<<<<< HEAD
-	.uaword	0x9c8f
-=======
-	.uaword	0x9c96
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x9c73
 	.uleb128 0x47
 	.byte	0x1
 	.string	"IfxVadc_Adc_initModule"
 	.byte	0x1
 	.uahalf	0x2da
 	.byte	0x1
-<<<<<<< HEAD
-	.uaword	0x99b7
-=======
-	.uaword	0x99be
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x999b
 	.uaword	.LFB364
 	.uaword	.LFE364
 	.byte	0x1
 	.byte	0x9c
 	.byte	0x1
-<<<<<<< HEAD
-	.uaword	0xd4fe
-=======
-	.uaword	0xd505
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0xd4e2
 	.uleb128 0x48
 	.uaword	.LASF38
 	.byte	0x1
 	.uahalf	0x2da
-<<<<<<< HEAD
-	.uaword	0xd26c
-=======
-	.uaword	0xd273
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0xd250
 	.uaword	.LLST163
 	.uleb128 0x48
 	.uaword	.LASF74
 	.byte	0x1
 	.uahalf	0x2da
-<<<<<<< HEAD
-	.uaword	0xd4fe
-=======
-	.uaword	0xd505
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0xd4e2
 	.uaword	.LLST164
 	.uleb128 0x49
 	.string	"status"
 	.byte	0x1
 	.uahalf	0x2dc
-<<<<<<< HEAD
-	.uaword	0x99b7
-=======
-	.uaword	0x99be
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x999b
 	.byte	0
 	.uleb128 0x54
 	.string	"vadcSFR"
 	.byte	0x1
 	.uahalf	0x2dd
-<<<<<<< HEAD
-	.uaword	0x7aff
-=======
-	.uaword	0x7b06
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x7ae3
 	.byte	0x1
 	.byte	0x6f
 	.uleb128 0x4a
 	.uaword	.LASF67
 	.byte	0x1
 	.uahalf	0x2df
-<<<<<<< HEAD
-	.uaword	0x2c0
-=======
-	.uaword	0x2c7
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x2a4
 	.uaword	.LLST165
 	.uleb128 0x4a
 	.uaword	.LASF72
 	.byte	0x1
 	.uahalf	0x2e0
-<<<<<<< HEAD
-	.uaword	0x22c
-=======
-	.uaword	0x233
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x210
 	.uaword	.LLST166
 	.uleb128 0x4c
 	.string	"groupNum"
 	.byte	0x1
 	.uahalf	0x2e0
-<<<<<<< HEAD
-	.uaword	0x22c
+	.uaword	0x210
 	.uaword	.LLST167
 	.uleb128 0x45
-	.uaword	0xbb63
-=======
-	.uaword	0x233
-	.uaword	.LLST167
-	.uleb128 0x45
-	.uaword	0xbb6a
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0xbb47
 	.uaword	.LBB474
 	.uaword	.LBE474
 	.byte	0x1
 	.uahalf	0x2e3
-<<<<<<< HEAD
-	.uaword	0xd375
+	.uaword	0xd359
 	.uleb128 0x33
-	.uaword	0xbb82
-=======
-	.uaword	0xd37c
-	.uleb128 0x33
-	.uaword	0xbb89
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0xbb66
 	.byte	0x1
 	.byte	0x6f
 	.uleb128 0x39
 	.uaword	.LBB475
 	.uaword	.LBE475
 	.uleb128 0x3a
-<<<<<<< HEAD
-	.uaword	0xbb8e
+	.uaword	0xbb72
 	.uaword	.LLST168
 	.uleb128 0x3b
 	.uaword	.LVL264
-	.uaword	0xd839
+	.uaword	0xd81d
 	.uleb128 0x34
 	.uaword	.LVL266
-	.uaword	0xd865
-	.uaword	0xd363
-=======
-	.uaword	0xbb95
-	.uaword	.LLST168
-	.uleb128 0x3b
-	.uaword	.LVL264
-	.uaword	0xd840
-	.uleb128 0x34
-	.uaword	.LVL266
-	.uaword	0xd86c
-	.uaword	0xd36a
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0xd849
+	.uaword	0xd347
 	.uleb128 0x35
 	.byte	0x1
 	.byte	0x54
@@ -31768,11 +21226,7 @@ IfxVadc_Adc_masterIndex:
 	.byte	0
 	.uleb128 0x40
 	.uaword	.LVL267
-<<<<<<< HEAD
-	.uaword	0xd88f
-=======
-	.uaword	0xd896
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0xd873
 	.uleb128 0x35
 	.byte	0x1
 	.byte	0x54
@@ -31783,104 +21237,57 @@ IfxVadc_Adc_masterIndex:
 	.byte	0
 	.byte	0
 	.uleb128 0x46
-<<<<<<< HEAD
-	.uaword	0xbbe9
-=======
-	.uaword	0xbbf0
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0xbbcd
 	.uaword	.LBB476
 	.uaword	.Ldebug_ranges0+0x2e8
 	.byte	0x1
 	.uahalf	0x2fb
-<<<<<<< HEAD
-	.uaword	0xd412
+	.uaword	0xd3f6
 	.uleb128 0x38
-	.uaword	0xbc33
+	.uaword	0xbc17
 	.uaword	.LLST169
 	.uleb128 0x38
-	.uaword	0xbc27
+	.uaword	0xbc0b
 	.uaword	.LLST170
 	.uleb128 0x38
-	.uaword	0xbc1b
+	.uaword	0xbbff
 	.uaword	.LLST171
 	.uleb128 0x38
-	.uaword	0xbc0f
+	.uaword	0xbbf3
 	.uaword	.LLST172
 	.uleb128 0x53
-	.uaword	0xa525
-=======
-	.uaword	0xd419
-	.uleb128 0x38
-	.uaword	0xbc3a
-	.uaword	.LLST169
-	.uleb128 0x38
-	.uaword	0xbc2e
-	.uaword	.LLST170
-	.uleb128 0x38
-	.uaword	0xbc22
-	.uaword	.LLST171
-	.uleb128 0x38
-	.uaword	0xbc16
-	.uaword	.LLST172
-	.uleb128 0x53
-	.uaword	0xa52c
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0xa509
 	.uaword	.LBB478
 	.uaword	.Ldebug_ranges0+0x300
 	.byte	0x2
 	.uahalf	0x8f4
 	.uleb128 0x38
-<<<<<<< HEAD
-	.uaword	0xa55b
+	.uaword	0xa53f
 	.uaword	.LLST169
 	.uleb128 0x38
-	.uaword	0xa54f
-=======
-	.uaword	0xa562
-	.uaword	.LLST169
-	.uleb128 0x38
-	.uaword	0xa556
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0xa533
 	.uaword	.LLST170
 	.uleb128 0x3d
 	.uaword	.Ldebug_ranges0+0x300
 	.uleb128 0x3a
-<<<<<<< HEAD
-	.uaword	0xa567
+	.uaword	0xa54b
 	.uaword	.LLST175
 	.uleb128 0x53
-	.uaword	0xa498
-=======
-	.uaword	0xa56e
-	.uaword	.LLST175
-	.uleb128 0x53
-	.uaword	0xa49f
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0xa47c
 	.uaword	.LBB480
 	.uaword	.Ldebug_ranges0+0x318
 	.byte	0x2
 	.uahalf	0x6b9
 	.uleb128 0x38
-<<<<<<< HEAD
-	.uaword	0xa4b8
+	.uaword	0xa49c
 	.uaword	.LLST176
 	.uleb128 0x38
-	.uaword	0xa4af
-=======
-	.uaword	0xa4bf
-	.uaword	.LLST176
-	.uleb128 0x38
-	.uaword	0xa4b6
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0xa493
 	.uaword	.LLST177
 	.uleb128 0x3d
 	.uaword	.Ldebug_ranges0+0x318
 	.uleb128 0x3a
-<<<<<<< HEAD
-	.uaword	0xa4c1
-=======
-	.uaword	0xa4c8
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0xa4a5
 	.uaword	.LLST178
 	.byte	0
 	.byte	0
@@ -31888,74 +21295,40 @@ IfxVadc_Adc_masterIndex:
 	.byte	0
 	.byte	0
 	.uleb128 0x46
-<<<<<<< HEAD
-	.uaword	0xbb9e
-=======
-	.uaword	0xbba5
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0xbb82
 	.uaword	.LBB487
 	.uaword	.Ldebug_ranges0+0x330
 	.byte	0x1
 	.uahalf	0x2f9
-<<<<<<< HEAD
-	.uaword	0xd442
+	.uaword	0xd426
 	.uleb128 0x38
-	.uaword	0xbbdc
+	.uaword	0xbbc0
 	.uaword	.LLST179
 	.uleb128 0x38
-	.uaword	0xbbd0
+	.uaword	0xbbb4
 	.uaword	.LLST180
 	.uleb128 0x38
-	.uaword	0xbbc4
+	.uaword	0xbba8
 	.uaword	.LLST181
 	.byte	0
 	.uleb128 0x46
-	.uaword	0xb5bf
-=======
-	.uaword	0xd449
-	.uleb128 0x38
-	.uaword	0xbbe3
-	.uaword	.LLST179
-	.uleb128 0x38
-	.uaword	0xbbd7
-	.uaword	.LLST180
-	.uleb128 0x38
-	.uaword	0xbbcb
-	.uaword	.LLST181
-	.byte	0
-	.uleb128 0x46
-	.uaword	0xb5c6
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0xb5a3
 	.uaword	.LBB494
 	.uaword	.Ldebug_ranges0+0x350
 	.byte	0x1
 	.uahalf	0x305
-<<<<<<< HEAD
-	.uaword	0xd469
+	.uaword	0xd44d
 	.uleb128 0x38
-	.uaword	0xb5f5
+	.uaword	0xb5d9
 	.uaword	.LLST182
 	.uleb128 0x38
-	.uaword	0xb5e9
-=======
-	.uaword	0xd470
-	.uleb128 0x38
-	.uaword	0xb5fc
-	.uaword	.LLST182
-	.uleb128 0x38
-	.uaword	0xb5f0
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0xb5cd
 	.uaword	.LLST183
 	.byte	0
 	.uleb128 0x34
 	.uaword	.LVL268
-<<<<<<< HEAD
-	.uaword	0xda0c
-	.uaword	0xd47d
-=======
-	.uaword	0xda13
-	.uaword	0xd484
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0xd9f0
+	.uaword	0xd461
 	.uleb128 0x35
 	.byte	0x1
 	.byte	0x64
@@ -31965,13 +21338,8 @@ IfxVadc_Adc_masterIndex:
 	.byte	0
 	.uleb128 0x34
 	.uaword	.LVL270
-<<<<<<< HEAD
-	.uaword	0xda43
-	.uaword	0xd491
-=======
-	.uaword	0xda4a
-	.uaword	0xd498
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0xda27
+	.uaword	0xd475
 	.uleb128 0x35
 	.byte	0x1
 	.byte	0x64
@@ -31981,13 +21349,8 @@ IfxVadc_Adc_masterIndex:
 	.byte	0
 	.uleb128 0x34
 	.uaword	.LVL271
-<<<<<<< HEAD
-	.uaword	0xda75
-	.uaword	0xd4a5
-=======
-	.uaword	0xda7c
-	.uaword	0xd4ac
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0xda59
+	.uaword	0xd489
 	.uleb128 0x35
 	.byte	0x1
 	.byte	0x64
@@ -31997,13 +21360,8 @@ IfxVadc_Adc_masterIndex:
 	.byte	0
 	.uleb128 0x34
 	.uaword	.LVL272
-<<<<<<< HEAD
-	.uaword	0xd8e7
-	.uaword	0xd4b9
-=======
-	.uaword	0xd8ee
-	.uaword	0xd4c0
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0xd8cb
+	.uaword	0xd49d
 	.uleb128 0x35
 	.byte	0x1
 	.byte	0x64
@@ -32013,13 +21371,8 @@ IfxVadc_Adc_masterIndex:
 	.byte	0
 	.uleb128 0x34
 	.uaword	.LVL285
-<<<<<<< HEAD
-	.uaword	0xd7e2
-	.uaword	0xd4d3
-=======
-	.uaword	0xd7e9
-	.uaword	0xd4da
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0xd7c6
+	.uaword	0xd4b7
 	.uleb128 0x35
 	.byte	0x1
 	.byte	0x54
@@ -32035,13 +21388,8 @@ IfxVadc_Adc_masterIndex:
 	.byte	0
 	.uleb128 0x34
 	.uaword	.LVL287
-<<<<<<< HEAD
-	.uaword	0xd80d
-	.uaword	0xd4ed
-=======
-	.uaword	0xd814
-	.uaword	0xd4f4
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0xd7f1
+	.uaword	0xd4d1
 	.uleb128 0x35
 	.byte	0x1
 	.byte	0x54
@@ -32057,11 +21405,7 @@ IfxVadc_Adc_masterIndex:
 	.byte	0
 	.uleb128 0x40
 	.uaword	.LVL288
-<<<<<<< HEAD
-	.uaword	0xdaa7
-=======
-	.uaword	0xdaae
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0xda8b
 	.uleb128 0x35
 	.byte	0x1
 	.byte	0x64
@@ -32072,15 +21416,9 @@ IfxVadc_Adc_masterIndex:
 	.byte	0
 	.uleb128 0x6
 	.byte	0x4
-<<<<<<< HEAD
-	.uaword	0xd504
+	.uaword	0xd4e8
 	.uleb128 0x20
-	.uaword	0xa279
-=======
-	.uaword	0xd50b
-	.uleb128 0x20
-	.uaword	0xa280
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0xa25d
 	.uleb128 0x4e
 	.byte	0x1
 	.string	"IfxVadc_Adc_initModuleConfig"
@@ -32092,40 +21430,23 @@ IfxVadc_Adc_masterIndex:
 	.byte	0x1
 	.byte	0x9c
 	.byte	0x1
-<<<<<<< HEAD
-	.uaword	0xd57a
-=======
-	.uaword	0xd581
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0xd55e
 	.uleb128 0x48
 	.uaword	.LASF74
 	.byte	0x1
 	.uahalf	0x311
-<<<<<<< HEAD
-	.uaword	0xd57a
-=======
-	.uaword	0xd581
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0xd55e
 	.uaword	.LLST184
 	.uleb128 0x48
 	.uaword	.LASF38
 	.byte	0x1
 	.uahalf	0x311
-<<<<<<< HEAD
-	.uaword	0x7aff
+	.uaword	0x7ae3
 	.uaword	.LLST185
 	.uleb128 0x34
 	.uaword	.LVL292
-	.uaword	0xdad3
-	.uaword	0xd570
-=======
-	.uaword	0x7b06
-	.uaword	.LLST185
-	.uleb128 0x34
-	.uaword	.LVL292
-	.uaword	0xdada
-	.uaword	0xd577
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0xdab7
+	.uaword	0xd554
 	.uleb128 0x35
 	.byte	0x1
 	.byte	0x64
@@ -32136,19 +21457,11 @@ IfxVadc_Adc_masterIndex:
 	.byte	0
 	.uleb128 0x3b
 	.uaword	.LVL293
-<<<<<<< HEAD
-	.uaword	0xdb07
+	.uaword	0xdaeb
 	.byte	0
 	.uleb128 0x6
 	.byte	0x4
-	.uaword	0xa279
-=======
-	.uaword	0xdb0e
-	.byte	0
-	.uleb128 0x6
-	.byte	0x4
-	.uaword	0xa280
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0xa25d
 	.uleb128 0x4e
 	.byte	0x1
 	.string	"IfxVadc_Adc_initExternalMultiplexerModeConfig"
@@ -32160,41 +21473,25 @@ IfxVadc_Adc_masterIndex:
 	.byte	0x1
 	.byte	0x9c
 	.byte	0x1
-<<<<<<< HEAD
-	.uaword	0xd609
-=======
-	.uaword	0xd610
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0xd5ed
 	.uleb128 0x55
 	.string	"emuxConfig"
 	.byte	0x1
 	.uahalf	0x321
-<<<<<<< HEAD
-	.uaword	0xd609
-=======
-	.uaword	0xd610
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0xd5ed
 	.uaword	.LLST186
 	.uleb128 0x4f
 	.uaword	.LASF38
 	.byte	0x1
 	.uahalf	0x321
-<<<<<<< HEAD
-	.uaword	0x7aff
-=======
-	.uaword	0x7b06
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x7ae3
 	.byte	0x1
 	.byte	0x65
 	.uleb128 0x54
 	.string	"defaultConfig"
 	.byte	0x1
 	.uahalf	0x32c
-<<<<<<< HEAD
-	.uaword	0x9fde
-=======
-	.uaword	0x9fe5
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x9fc2
 	.byte	0x9
 	.byte	0x93
 	.uleb128 0xc
@@ -32208,11 +21505,7 @@ IfxVadc_Adc_masterIndex:
 	.byte	0
 	.uleb128 0x6
 	.byte	0x4
-<<<<<<< HEAD
-	.uaword	0xa35d
-=======
-	.uaword	0xa364
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0xa341
 	.uleb128 0x4e
 	.byte	0x1
 	.string	"IfxVadc_Adc_initExternalMultiplexerMode"
@@ -32224,169 +21517,91 @@ IfxVadc_Adc_masterIndex:
 	.byte	0x1
 	.byte	0x9c
 	.byte	0x1
-<<<<<<< HEAD
-	.uaword	0xd765
-=======
-	.uaword	0xd76c
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0xd749
 	.uleb128 0x48
 	.uaword	.LASF38
 	.byte	0x1
 	.uahalf	0x336
-<<<<<<< HEAD
-	.uaword	0x7aff
-=======
-	.uaword	0x7b06
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x7ae3
 	.uaword	.LLST187
 	.uleb128 0x55
 	.string	"emuxControl"
 	.byte	0x1
 	.uahalf	0x336
-<<<<<<< HEAD
-	.uaword	0xd765
-=======
-	.uaword	0xd76c
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0xd749
 	.uaword	.LLST188
 	.uleb128 0x4c
 	.string	"count"
 	.byte	0x1
 	.uahalf	0x338
-<<<<<<< HEAD
-	.uaword	0x22c
-=======
-	.uaword	0x233
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x210
 	.uaword	.LLST189
 	.uleb128 0x51
 	.uaword	.LASF69
 	.byte	0x1
 	.uahalf	0x339
-<<<<<<< HEAD
-	.uaword	0x9e9f
+	.uaword	0x9e83
 	.byte	0x1
 	.byte	0x6e
 	.uleb128 0x46
-	.uaword	0xbc40
-=======
-	.uaword	0x9ea6
-	.byte	0x1
-	.byte	0x6e
-	.uleb128 0x46
-	.uaword	0xbc47
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0xbc24
 	.uaword	.LBB498
 	.uaword	.Ldebug_ranges0+0x368
 	.byte	0x1
 	.uahalf	0x33a
-<<<<<<< HEAD
-	.uaword	0xd6c4
+	.uaword	0xd6a8
 	.uleb128 0x38
-	.uaword	0xbc83
+	.uaword	0xbc67
 	.uaword	.LLST190
 	.uleb128 0x38
-	.uaword	0xbc77
+	.uaword	0xbc5b
 	.uaword	.LLST191
 	.uleb128 0x38
-	.uaword	0xbc6b
+	.uaword	0xbc4f
 	.uaword	.LLST192
 	.byte	0
 	.uleb128 0x46
-	.uaword	0xbc90
-=======
-	.uaword	0xd6cb
-	.uleb128 0x38
-	.uaword	0xbc8a
-	.uaword	.LLST190
-	.uleb128 0x38
-	.uaword	0xbc7e
-	.uaword	.LLST191
-	.uleb128 0x38
-	.uaword	0xbc72
-	.uaword	.LLST192
-	.byte	0
-	.uleb128 0x46
-	.uaword	0xbc97
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0xbc74
 	.uaword	.LBB504
 	.uaword	.Ldebug_ranges0+0x388
 	.byte	0x1
 	.uahalf	0x340
-<<<<<<< HEAD
-	.uaword	0xd746
+	.uaword	0xd72a
 	.uleb128 0x38
-	.uaword	0xbcc7
+	.uaword	0xbcab
 	.uaword	.LLST193
 	.uleb128 0x38
-	.uaword	0xbcbb
+	.uaword	0xbc9f
 	.uaword	.LLST194
 	.uleb128 0x38
-	.uaword	0xbcae
+	.uaword	0xbc92
 	.uaword	.LLST195
 	.uleb128 0x46
-	.uaword	0xa4cd
-=======
-	.uaword	0xd74d
-	.uleb128 0x38
-	.uaword	0xbcce
-	.uaword	.LLST193
-	.uleb128 0x38
-	.uaword	0xbcc2
-	.uaword	.LLST194
-	.uleb128 0x38
-	.uaword	0xbcb5
-	.uaword	.LLST195
-	.uleb128 0x46
-	.uaword	0xa4d4
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0xa4b1
 	.uaword	.LBB506
 	.uaword	.Ldebug_ranges0+0x3a0
 	.byte	0x2
 	.uahalf	0x837
-<<<<<<< HEAD
-	.uaword	0xd735
+	.uaword	0xd719
 	.uleb128 0x38
-	.uaword	0xa516
+	.uaword	0xa4fa
 	.uaword	.LLST196
 	.uleb128 0x38
-	.uaword	0xa509
+	.uaword	0xa4ed
 	.uaword	.LLST194
 	.uleb128 0x38
-	.uaword	0xa4fd
+	.uaword	0xa4e1
 	.uaword	.LLST198
 	.uleb128 0x38
-	.uaword	0xa4f0
+	.uaword	0xa4d4
 	.uaword	.LLST199
 	.uleb128 0x3b
 	.uaword	.LVL304
-	.uaword	0xdb2c
+	.uaword	0xdb10
 	.byte	0
 	.uleb128 0x40
 	.uaword	.LVL305
-	.uaword	0xdb5a
-=======
-	.uaword	0xd73c
-	.uleb128 0x38
-	.uaword	0xa51d
-	.uaword	.LLST196
-	.uleb128 0x38
-	.uaword	0xa510
-	.uaword	.LLST194
-	.uleb128 0x38
-	.uaword	0xa504
-	.uaword	.LLST198
-	.uleb128 0x38
-	.uaword	0xa4f7
-	.uaword	.LLST199
-	.uleb128 0x3b
-	.uaword	.LVL304
-	.uaword	0xdb33
-	.byte	0
-	.uleb128 0x40
-	.uaword	.LVL305
-	.uaword	0xdb61
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0xdb3e
 	.uleb128 0x35
 	.byte	0x1
 	.byte	0x55
@@ -32398,11 +21613,7 @@ IfxVadc_Adc_masterIndex:
 	.uleb128 0x36
 	.uaword	.LVL308
 	.byte	0x1
-<<<<<<< HEAD
-	.uaword	0xdb8d
-=======
-	.uaword	0xdb94
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0xdb71
 	.uleb128 0x35
 	.byte	0x1
 	.byte	0x65
@@ -32426,80 +21637,45 @@ IfxVadc_Adc_masterIndex:
 	.byte	0
 	.uleb128 0x6
 	.byte	0x4
-<<<<<<< HEAD
-	.uaword	0xd76b
+	.uaword	0xd74f
 	.uleb128 0x20
-	.uaword	0xa35d
+	.uaword	0xa341
 	.uleb128 0x10
-	.uaword	0x9c57
-	.uaword	0xd786
+	.uaword	0x9c3b
+	.uaword	0xd76a
 	.uleb128 0x11
-	.uaword	0x490
+	.uaword	0x474
 	.byte	0x7
 	.uleb128 0x11
-	.uaword	0x490
-=======
-	.uaword	0xd772
-	.uleb128 0x20
-	.uaword	0xa364
-	.uleb128 0x10
-	.uaword	0x9c5e
-	.uaword	0xd78d
-	.uleb128 0x11
-	.uaword	0x497
-	.byte	0x7
-	.uleb128 0x11
-	.uaword	0x497
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x474
 	.byte	0x7
 	.byte	0
 	.uleb128 0x56
 	.string	"IfxVadc_Adc_masterIndex"
 	.byte	0x1
 	.byte	0x4d
-<<<<<<< HEAD
-	.uaword	0xd7ab
-=======
-	.uaword	0xd7b2
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0xd78f
 	.byte	0x5
 	.byte	0x3
 	.uaword	IfxVadc_Adc_masterIndex
 	.uleb128 0x20
-<<<<<<< HEAD
-	.uaword	0xd770
+	.uaword	0xd754
 	.uleb128 0x10
-	.uaword	0x31f
-	.uaword	0xd7c0
+	.uaword	0x303
+	.uaword	0xd7a4
 	.uleb128 0x11
-	.uaword	0x490
-=======
-	.uaword	0xd777
-	.uleb128 0x10
-	.uaword	0x326
-	.uaword	0xd7c7
-	.uleb128 0x11
-	.uaword	0x497
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x474
 	.byte	0x2
 	.byte	0
 	.uleb128 0x57
 	.string	"IfxCpu_cfg_indexMap"
 	.byte	0xe
 	.byte	0xa7
-<<<<<<< HEAD
-	.uaword	0xd7dd
+	.uaword	0xd7c1
 	.byte	0x1
 	.byte	0x1
 	.uleb128 0x20
-	.uaword	0xd7b0
-=======
-	.uaword	0xd7e4
-	.byte	0x1
-	.byte	0x1
-	.uleb128 0x20
-	.uaword	0xd7b7
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0xd794
 	.uleb128 0x58
 	.byte	0x1
 	.string	"IfxVadc_enableAccess"
@@ -32507,19 +21683,11 @@ IfxVadc_Adc_masterIndex:
 	.uahalf	0x52e
 	.byte	0x1
 	.byte	0x1
-<<<<<<< HEAD
-	.uaword	0xd80d
+	.uaword	0xd7f1
 	.uleb128 0x59
-	.uaword	0x7aff
+	.uaword	0x7ae3
 	.uleb128 0x59
-	.uaword	0x9613
-=======
-	.uaword	0xd814
-	.uleb128 0x59
-	.uaword	0x7b06
-	.uleb128 0x59
-	.uaword	0x961a
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x95f7
 	.byte	0
 	.uleb128 0x58
 	.byte	0x1
@@ -32528,19 +21696,11 @@ IfxVadc_Adc_masterIndex:
 	.uahalf	0x51f
 	.byte	0x1
 	.byte	0x1
-<<<<<<< HEAD
-	.uaword	0xd839
+	.uaword	0xd81d
 	.uleb128 0x59
-	.uaword	0x7aff
+	.uaword	0x7ae3
 	.uleb128 0x59
-	.uaword	0x9613
-=======
-	.uaword	0xd840
-	.uleb128 0x59
-	.uaword	0x7b06
-	.uleb128 0x59
-	.uaword	0x961a
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x95f7
 	.byte	0
 	.uleb128 0x5a
 	.byte	0x1
@@ -32548,11 +21708,7 @@ IfxVadc_Adc_masterIndex:
 	.byte	0x10
 	.uahalf	0x17e
 	.byte	0x1
-<<<<<<< HEAD
-	.uaword	0x239
-=======
-	.uaword	0x240
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x21d
 	.byte	0x1
 	.uleb128 0x5b
 	.byte	0x1
@@ -32561,15 +21717,9 @@ IfxVadc_Adc_masterIndex:
 	.byte	0xd6
 	.byte	0x1
 	.byte	0x1
-<<<<<<< HEAD
-	.uaword	0xd88f
+	.uaword	0xd873
 	.uleb128 0x59
-	.uaword	0x239
-=======
-	.uaword	0xd896
-	.uleb128 0x59
-	.uaword	0x240
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x21d
 	.byte	0
 	.uleb128 0x5b
 	.byte	0x1
@@ -32578,15 +21728,9 @@ IfxVadc_Adc_masterIndex:
 	.byte	0xec
 	.byte	0x1
 	.byte	0x1
-<<<<<<< HEAD
-	.uaword	0xd8b7
+	.uaword	0xd89b
 	.uleb128 0x59
-	.uaword	0x239
-=======
-	.uaword	0xd8be
-	.uleb128 0x59
-	.uaword	0x240
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x21d
 	.byte	0
 	.uleb128 0x5c
 	.byte	0x1
@@ -32594,23 +21738,13 @@ IfxVadc_Adc_masterIndex:
 	.byte	0x2
 	.uahalf	0x541
 	.byte	0x1
-<<<<<<< HEAD
-	.uaword	0xa48d
+	.uaword	0xa471
 	.byte	0x1
-	.uaword	0xd8e7
+	.uaword	0xd8cb
 	.uleb128 0x59
-	.uaword	0x619
+	.uaword	0x5fd
 	.uleb128 0x59
-	.uaword	0x98c5
-=======
-	.uaword	0xa494
-	.byte	0x1
-	.uaword	0xd8ee
-	.uleb128 0x59
-	.uaword	0x620
-	.uleb128 0x59
-	.uaword	0x98cc
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x98a9
 	.byte	0
 	.uleb128 0x5c
 	.byte	0x1
@@ -32618,19 +21752,11 @@ IfxVadc_Adc_masterIndex:
 	.byte	0x2
 	.uahalf	0x461
 	.byte	0x1
-<<<<<<< HEAD
-	.uaword	0x2c0
+	.uaword	0x2a4
 	.byte	0x1
-	.uaword	0xd91a
+	.uaword	0xd8fe
 	.uleb128 0x59
-	.uaword	0x7aff
-=======
-	.uaword	0x2c7
-	.byte	0x1
-	.uaword	0xd921
-	.uleb128 0x59
-	.uaword	0x7b06
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x7ae3
 	.byte	0
 	.uleb128 0x5a
 	.byte	0x1
@@ -32638,11 +21764,7 @@ IfxVadc_Adc_masterIndex:
 	.byte	0x2
 	.uahalf	0x53a
 	.byte	0x1
-<<<<<<< HEAD
-	.uaword	0x2c0
-=======
-	.uaword	0x2c7
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x2a4
 	.byte	0x1
 	.uleb128 0x5c
 	.byte	0x1
@@ -32650,39 +21772,21 @@ IfxVadc_Adc_masterIndex:
 	.byte	0x2
 	.uahalf	0x63e
 	.byte	0x1
-<<<<<<< HEAD
-	.uaword	0x2c0
+	.uaword	0x2a4
 	.byte	0x1
-	.uaword	0xd992
+	.uaword	0xd976
 	.uleb128 0x59
-	.uaword	0x7aff
+	.uaword	0x7ae3
 	.uleb128 0x59
-	.uaword	0x619
+	.uaword	0x5fd
 	.uleb128 0x59
-	.uaword	0x8bbb
+	.uaword	0x8b9f
 	.uleb128 0x59
-	.uaword	0x2c0
+	.uaword	0x2a4
 	.uleb128 0x59
-	.uaword	0x2c0
+	.uaword	0x2a4
 	.uleb128 0x59
-	.uaword	0x8589
-=======
-	.uaword	0x2c7
-	.byte	0x1
-	.uaword	0xd999
-	.uleb128 0x59
-	.uaword	0x7b06
-	.uleb128 0x59
-	.uaword	0x620
-	.uleb128 0x59
-	.uaword	0x8bc2
-	.uleb128 0x59
-	.uaword	0x2c7
-	.uleb128 0x59
-	.uaword	0x2c7
-	.uleb128 0x59
-	.uaword	0x8590
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x856d
 	.byte	0
 	.uleb128 0x58
 	.byte	0x1
@@ -32691,31 +21795,17 @@ IfxVadc_Adc_masterIndex:
 	.uahalf	0x4ce
 	.byte	0x1
 	.byte	0x1
-<<<<<<< HEAD
-	.uaword	0xd9d2
+	.uaword	0xd9b6
 	.uleb128 0x59
-	.uaword	0x9e9f
+	.uaword	0x9e83
 	.uleb128 0x59
-	.uaword	0x20c
+	.uaword	0x1f0
 	.uleb128 0x59
-	.uaword	0x96c8
+	.uaword	0x96ac
 	.uleb128 0x59
-	.uaword	0x9754
+	.uaword	0x9738
 	.uleb128 0x59
-	.uaword	0x97e1
-=======
-	.uaword	0xd9d9
-	.uleb128 0x59
-	.uaword	0x9ea6
-	.uleb128 0x59
-	.uaword	0x213
-	.uleb128 0x59
-	.uaword	0x96cf
-	.uleb128 0x59
-	.uaword	0x975b
-	.uleb128 0x59
-	.uaword	0x97e8
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x97c5
 	.byte	0
 	.uleb128 0x58
 	.byte	0x1
@@ -32724,23 +21814,13 @@ IfxVadc_Adc_masterIndex:
 	.uahalf	0x527
 	.byte	0x1
 	.byte	0x1
-<<<<<<< HEAD
-	.uaword	0xda0c
+	.uaword	0xd9f0
 	.uleb128 0x59
-	.uaword	0x7aff
+	.uaword	0x7ae3
 	.uleb128 0x59
-	.uaword	0x619
+	.uaword	0x5fd
 	.uleb128 0x59
-	.uaword	0x20c
-=======
-	.uaword	0xda13
-	.uleb128 0x59
-	.uaword	0x7b06
-	.uleb128 0x59
-	.uaword	0x620
-	.uleb128 0x59
-	.uaword	0x213
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x1f0
 	.byte	0
 	.uleb128 0x58
 	.byte	0x1
@@ -32749,19 +21829,11 @@ IfxVadc_Adc_masterIndex:
 	.uahalf	0x571
 	.byte	0x1
 	.byte	0x1
-<<<<<<< HEAD
-	.uaword	0xda43
+	.uaword	0xda27
 	.uleb128 0x59
-	.uaword	0x7aff
+	.uaword	0x7ae3
 	.uleb128 0x59
-	.uaword	0x8cd3
-=======
-	.uaword	0xda4a
-	.uleb128 0x59
-	.uaword	0x7b06
-	.uleb128 0x59
-	.uaword	0x8cda
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x8cb7
 	.byte	0
 	.uleb128 0x5c
 	.byte	0x1
@@ -32769,23 +21841,13 @@ IfxVadc_Adc_masterIndex:
 	.byte	0x2
 	.uahalf	0x55d
 	.byte	0x1
-<<<<<<< HEAD
-	.uaword	0x25d
+	.uaword	0x241
 	.byte	0x1
-	.uaword	0xda75
+	.uaword	0xda59
 	.uleb128 0x59
-	.uaword	0x7aff
+	.uaword	0x7ae3
 	.uleb128 0x59
-	.uaword	0x25d
-=======
-	.uaword	0x264
-	.byte	0x1
-	.uaword	0xda7c
-	.uleb128 0x59
-	.uaword	0x7b06
-	.uleb128 0x59
-	.uaword	0x264
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x241
 	.byte	0
 	.uleb128 0x5c
 	.byte	0x1
@@ -32793,23 +21855,13 @@ IfxVadc_Adc_masterIndex:
 	.byte	0x2
 	.uahalf	0x556
 	.byte	0x1
-<<<<<<< HEAD
-	.uaword	0x25d
+	.uaword	0x241
 	.byte	0x1
-	.uaword	0xdaa7
+	.uaword	0xda8b
 	.uleb128 0x59
-	.uaword	0x7aff
+	.uaword	0x7ae3
 	.uleb128 0x59
-	.uaword	0x25d
-=======
-	.uaword	0x264
-	.byte	0x1
-	.uaword	0xdaae
-	.uleb128 0x59
-	.uaword	0x7b06
-	.uleb128 0x59
-	.uaword	0x264
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x241
 	.byte	0
 	.uleb128 0x58
 	.byte	0x1
@@ -32818,15 +21870,9 @@ IfxVadc_Adc_masterIndex:
 	.uahalf	0x577
 	.byte	0x1
 	.byte	0x1
-<<<<<<< HEAD
-	.uaword	0xdad3
+	.uaword	0xdab7
 	.uleb128 0x59
-	.uaword	0x7aff
-=======
-	.uaword	0xdada
-	.uleb128 0x59
-	.uaword	0x7b06
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x7ae3
 	.byte	0
 	.uleb128 0x5c
 	.byte	0x1
@@ -32834,19 +21880,11 @@ IfxVadc_Adc_masterIndex:
 	.byte	0x2
 	.uahalf	0x467
 	.byte	0x1
-<<<<<<< HEAD
-	.uaword	0x2c0
+	.uaword	0x2a4
 	.byte	0x1
-	.uaword	0xdb07
+	.uaword	0xdaeb
 	.uleb128 0x59
-	.uaword	0x7aff
-=======
-	.uaword	0x2c7
-	.byte	0x1
-	.uaword	0xdb0e
-	.uleb128 0x59
-	.uaword	0x7b06
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x7ae3
 	.byte	0
 	.uleb128 0x5a
 	.byte	0x1
@@ -32854,11 +21892,7 @@ IfxVadc_Adc_masterIndex:
 	.byte	0x11
 	.uahalf	0x3b1
 	.byte	0x1
-<<<<<<< HEAD
-	.uaword	0x2c0
-=======
-	.uaword	0x2c7
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x2a4
 	.byte	0x1
 	.uleb128 0x58
 	.byte	0x1
@@ -32867,23 +21901,13 @@ IfxVadc_Adc_masterIndex:
 	.uahalf	0x175
 	.byte	0x1
 	.byte	0x1
-<<<<<<< HEAD
-	.uaword	0xdb5a
+	.uaword	0xdb3e
 	.uleb128 0x59
-	.uaword	0x74e5
+	.uaword	0x74c9
 	.uleb128 0x59
-	.uaword	0x22c
+	.uaword	0x210
 	.uleb128 0x59
-	.uaword	0x778b
-=======
-	.uaword	0xdb61
-	.uleb128 0x59
-	.uaword	0x74ec
-	.uleb128 0x59
-	.uaword	0x233
-	.uleb128 0x59
-	.uaword	0x7792
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x776f
 	.byte	0
 	.uleb128 0x58
 	.byte	0x1
@@ -32892,23 +21916,13 @@ IfxVadc_Adc_masterIndex:
 	.uahalf	0x184
 	.byte	0x1
 	.byte	0x1
-<<<<<<< HEAD
-	.uaword	0xdb8d
+	.uaword	0xdb71
 	.uleb128 0x59
-	.uaword	0x74e5
+	.uaword	0x74c9
 	.uleb128 0x59
-	.uaword	0x22c
+	.uaword	0x210
 	.uleb128 0x59
-	.uaword	0x7ab1
-=======
-	.uaword	0xdb94
-	.uleb128 0x59
-	.uaword	0x74ec
-	.uleb128 0x59
-	.uaword	0x233
-	.uleb128 0x59
-	.uaword	0x7ab8
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x7a95
 	.byte	0
 	.uleb128 0x5d
 	.byte	0x1
@@ -32918,39 +21932,21 @@ IfxVadc_Adc_masterIndex:
 	.byte	0x1
 	.byte	0x1
 	.uleb128 0x59
-<<<<<<< HEAD
-	.uaword	0x7aff
+	.uaword	0x7ae3
 	.uleb128 0x59
-	.uaword	0x9e9f
+	.uaword	0x9e83
 	.uleb128 0x59
-	.uaword	0x88b4
+	.uaword	0x8898
 	.uleb128 0x59
-	.uaword	0x22c
+	.uaword	0x210
 	.uleb128 0x59
-	.uaword	0x87d9
+	.uaword	0x87bd
 	.uleb128 0x59
-	.uaword	0x85f2
+	.uaword	0x85d6
 	.uleb128 0x59
-	.uaword	0x86cb
+	.uaword	0x86af
 	.uleb128 0x59
-	.uaword	0x8537
-=======
-	.uaword	0x7b06
-	.uleb128 0x59
-	.uaword	0x9ea6
-	.uleb128 0x59
-	.uaword	0x88bb
-	.uleb128 0x59
-	.uaword	0x233
-	.uleb128 0x59
-	.uaword	0x87e0
-	.uleb128 0x59
-	.uaword	0x85f9
-	.uleb128 0x59
-	.uaword	0x86d2
-	.uleb128 0x59
-	.uaword	0x853e
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uaword	0x851b
 	.byte	0
 	.byte	0
 .section .debug_abbrev,"",@progbits
@@ -36097,26 +25093,15 @@ IfxVadc_Adc_masterIndex:
 	.uahalf	0x11
 	.byte	0xf5
 	.uleb128 0xb
-<<<<<<< HEAD
-	.uleb128 0x169
-=======
-	.uleb128 0x170
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uleb128 0x14d
 	.byte	0x82
 	.sleb128 0
 	.byte	0xf6
 	.byte	0x4
-<<<<<<< HEAD
-	.uleb128 0x169
+	.uleb128 0x14d
 	.byte	0x1e
 	.byte	0xf7
-	.uleb128 0x172
-=======
-	.uleb128 0x170
-	.byte	0x1e
-	.byte	0xf7
-	.uleb128 0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uleb128 0x156
 	.byte	0x32
 	.byte	0x1c
 	.byte	0x9f
@@ -36270,26 +25255,15 @@ IfxVadc_Adc_masterIndex:
 	.uahalf	0x11
 	.byte	0xf5
 	.uleb128 0x2
-<<<<<<< HEAD
-	.uleb128 0x169
-=======
-	.uleb128 0x170
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uleb128 0x14d
 	.byte	0x82
 	.sleb128 4
 	.byte	0xf6
 	.byte	0x4
-<<<<<<< HEAD
-	.uleb128 0x169
+	.uleb128 0x14d
 	.byte	0x1e
 	.byte	0xf7
-	.uleb128 0x172
-=======
-	.uleb128 0x170
-	.byte	0x1e
-	.byte	0xf7
-	.uleb128 0x179
->>>>>>> be21e51b86386d4de15222e011f8731305c64e39
+	.uleb128 0x156
 	.byte	0x32
 	.byte	0x1c
 	.byte	0x9f

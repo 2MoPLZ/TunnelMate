@@ -2,6 +2,8 @@
 #include "bsw.h"
 
 App_AsclinAsc g_AsclinStm;
+struct ActuatorPacket g_RecievedActuatorPacket = {};
+
 void initUartDriver(void)
 {
     IfxAsclin_Asc_Config ascConfig;
@@ -38,7 +40,6 @@ void sendActuatorPacket(const struct ActuatorPacket* packet)
     uint8 buf[ACTUATOR_PACKET_SIZE]={};
     serialize_actuator_packet(packet,buf);
     g_AsclinStm.count = ACTUATOR_PACKET_SIZE;
-    int i=0;
     IfxAsclin_Asc_write(&g_AsclinStm.drivers.asc, &buf, &g_AsclinStm.count, TIME_INFINITE);
 }
 
@@ -53,8 +54,10 @@ void sendSensorPacket(const struct SensorPacket* packet)
 
 void readActuatorPacket(struct ActuatorPacket* packet){
     uint8 buffer[ACTUATOR_PACKET_SIZE]={};
-    int pos = 0;
-    while (IfxAsclin_Asc_getReadCount(&g_AsclinStm.drivers.asc))
+    uint8 pos = 0;
+    uint8 sendCnt = ACTUATOR_PACKET_SIZE;
+    if(IfxAsclin_Asc_getReadCount(&g_AsclinStm.drivers.asc)<ACTUATOR_PACKET_SIZE) return;
+    while (sendCnt--)
     {
         buffer[pos++]=IfxAsclin_Asc_blockingRead(&g_AsclinStm.drivers.asc);
     }
@@ -63,12 +66,14 @@ void readActuatorPacket(struct ActuatorPacket* packet){
 
 void readSensorPacket(struct SensorPacket* packet){
     uint8 buffer[SENSOR_PACKET_SIZE]={};
-    int pos = 0;
-    while (IfxAsclin_Asc_getReadCount(&g_AsclinStm.drivers.asc))
+    uint8 pos = 0;
+    uint8 sendCnt = SENSOR_PACKET_SIZE;
+    if(IfxAsclin_Asc_getReadCount(&g_AsclinStm.drivers.asc)<SENSOR_PACKET_SIZE) return;
+    while (sendCnt--)
     {
         buffer[pos++]=IfxAsclin_Asc_blockingRead(&g_AsclinStm.drivers.asc);
     }
-    deserialize_actuator_packet(buffer,packet);
+    deserialize_sensor_packet(buffer,packet);
 }
 
 void myprintfSerial(const char *fmt,...)
@@ -94,6 +99,9 @@ ISR(asclin0RxISR)
 {
     // printfSerial("onReceive(%d) ",++recieveStamp);
     IfxAsclin_Asc_isrReceive(&g_AsclinStm.drivers.asc);
+    if(IfxAsclin_Asc_getReadCount(&g_AsclinStm.drivers.asc)>=ACTUATOR_PACKET_SIZE){
+        readActuatorPacket(&g_RecievedActuatorPacket);
+    }
 }
 
 ISR(asclin0TxISR)
