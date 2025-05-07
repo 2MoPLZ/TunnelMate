@@ -7,26 +7,6 @@ void initUltrasonic (void)
     IfxPort_setPinModeInput(ECHO_PIN, IfxPort_InputMode_pullDown);
 }
 
-void delay_ms(unsigned long delay)
-{
-    uint32 freq = IfxStm_getFrequency(&MODULE_STM0);
-    uint64 ticks_per_ms = freq / 1000;
-    uint64 start = IfxStm_get(&MODULE_STM0);
-    uint64 wait_ticks = delay * ticks_per_ms;
-
-    while ((IfxStm_get(&MODULE_STM0) - start) < wait_ticks);
-}
-
-void delay_us(unsigned long delay)
-{
-    uint32 freq = IfxStm_getFrequency(&MODULE_STM0);
-    uint64 ticks_per_us = freq / 1000000;
-    uint64 start = IfxStm_get(&MODULE_STM0);
-    uint64 wait_ticks = delay * ticks_per_us;
-
-    while ((IfxStm_get(&MODULE_STM0) - start) < wait_ticks);
-}
-
 int getUltrasonic(){
     sendTrigger();
     long echoTicks = measureEchoTick();

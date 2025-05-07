@@ -74,6 +74,27 @@ static VAR(OsEE_TCB, OS_VAR_INIT)
   },
   {
     /* .current_num_of_act = */ 0U,
+<<<<<<< HEAD
+=======
+    /* .current_prio       = */ 131U,
+    /* .status             = */ SUSPENDED,
+    /* .p_last_m           = */ NULL,
+    /* .wait_mask          = */ 0U,
+    /* .event_mask         = */ 0U,
+    /* .p_own_sn           = */ NULL
+  },
+  {
+    /* .current_num_of_act = */ 0U,
+    /* .current_prio       = */ 132U,
+    /* .status             = */ SUSPENDED,
+    /* .p_last_m           = */ NULL,
+    /* .wait_mask          = */ 0U,
+    /* .event_mask         = */ 0U,
+    /* .p_own_sn           = */ NULL
+  },
+  {
+    /* .current_num_of_act = */ 0U,
+>>>>>>> be21e51b86386d4de15222e011f8731305c64e39
     /* .current_prio       = */ 137U,
     /* .status             = */ SUSPENDED,
     /* .p_last_m           = */ NULL,
@@ -93,24 +114,6 @@ static VAR(OsEE_TCB, OS_VAR_INIT)
   {
     /* .current_num_of_act = */ 0U,
     /* .current_prio       = */ 1U,
-    /* .status             = */ SUSPENDED,
-    /* .p_last_m           = */ NULL,
-    /* .wait_mask          = */ 0U,
-    /* .event_mask         = */ 0U,
-    /* .p_own_sn           = */ NULL
-  },
-  {
-    /* .current_num_of_act = */ 0U,
-    /* .current_prio       = */ 2U,
-    /* .status             = */ SUSPENDED,
-    /* .p_last_m           = */ NULL,
-    /* .wait_mask          = */ 0U,
-    /* .event_mask         = */ 0U,
-    /* .p_own_sn           = */ NULL
-  },
-  {
-    /* .current_num_of_act = */ 0U,
-    /* .current_prio       = */ 3U,
     /* .status             = */ SUSPENDED,
     /* .p_last_m           = */ NULL,
     /* .wait_mask          = */ 0U,
@@ -141,12 +144,12 @@ static VAR(OsEE_TDB, OS_CONST)
     /* .hdb = */ {
       /* .p_sdb    = */   &osEE_sdb_array[0U],
       /* .p_scb    = */   &osEE_scb_array[0U],
-      /* .isr2_src = */   OSEE_TC_SRC_ASCLIN0TX
+      /* .isr2_src = */   OSEE_TC_SRC_ASCLIN3TX
     },
     /* .p_tcb          = */ &osEE_tcb_array[0U],
     /* .tid            = */ 0U,
     /* .task_type      = */ OSEE_TASK_TYPE_ISR2,
-    /* .task_func      = */ asclin0TxISR,
+    /* .task_func      = */ asclin3TxISR,
     /* .ready_prio     = */ 146U,
     /* .dispatch_prio  = */ 146U,
     /* .max_num_of_act = */ 1U
@@ -155,11 +158,46 @@ static VAR(OsEE_TDB, OS_CONST)
     /* .hdb = */ {
       /* .p_sdb    = */   &osEE_sdb_array[0U],
       /* .p_scb    = */   &osEE_scb_array[0U],
+<<<<<<< HEAD
       /* .isr2_src = */   OSEE_TC_SRC_SCUERU0
+=======
+      /* .isr2_src = */   OSEE_TC_SRC_ASCLIN0RX
+>>>>>>> be21e51b86386d4de15222e011f8731305c64e39
     },
     /* .p_tcb          = */ &osEE_tcb_array[1U],
     /* .tid            = */ 1U,
     /* .task_type      = */ OSEE_TASK_TYPE_ISR2,
+<<<<<<< HEAD
+=======
+    /* .task_func      = */ asclin0RxISR,
+    /* .ready_prio     = */ 131U,
+    /* .dispatch_prio  = */ 131U,
+    /* .max_num_of_act = */ 1U
+  },
+  {
+    /* .hdb = */ {
+      /* .p_sdb    = */   &osEE_sdb_array[0U],
+      /* .p_scb    = */   &osEE_scb_array[0U],
+      /* .isr2_src = */   OSEE_TC_SRC_ASCLIN0TX
+    },
+    /* .p_tcb          = */ &osEE_tcb_array[2U],
+    /* .tid            = */ 2U,
+    /* .task_type      = */ OSEE_TASK_TYPE_ISR2,
+    /* .task_func      = */ asclin0TxISR,
+    /* .ready_prio     = */ 132U,
+    /* .dispatch_prio  = */ 132U,
+    /* .max_num_of_act = */ 1U
+  },
+  {
+    /* .hdb = */ {
+      /* .p_sdb    = */   &osEE_sdb_array[0U],
+      /* .p_scb    = */   &osEE_scb_array[0U],
+      /* .isr2_src = */   OSEE_TC_SRC_SCUERU0
+    },
+    /* .p_tcb          = */ &osEE_tcb_array[3U],
+    /* .tid            = */ 3U,
+    /* .task_type      = */ OSEE_TASK_TYPE_ISR2,
+>>>>>>> be21e51b86386d4de15222e011f8731305c64e39
     /* .task_func      = */ ButtonISR,
     /* .ready_prio     = */ 137U,
     /* .dispatch_prio  = */ 137U,
@@ -171,8 +209,13 @@ static VAR(OsEE_TDB, OS_CONST)
       /* .p_scb    = */   &osEE_scb_array[0U],
       /* .isr2_src = */   OSEE_TC_SRC_STM0SR0
     },
+<<<<<<< HEAD
     /* .p_tcb          = */ &osEE_tcb_array[2U],
     /* .tid            = */ 2U,
+=======
+    /* .p_tcb          = */ &osEE_tcb_array[4U],
+    /* .tid            = */ 4U,
+>>>>>>> be21e51b86386d4de15222e011f8731305c64e39
     /* .task_type      = */ OSEE_TASK_TYPE_ISR2,
     /* .task_func      = */ TimerISR,
     /* .ready_prio     = */ 129U,
@@ -185,10 +228,15 @@ static VAR(OsEE_TDB, OS_CONST)
       /* .p_scb    = */   &osEE_scb_array[0U],
       /* .isr2_src  = */  OSEE_TC_SRC_INVALID
     },
+<<<<<<< HEAD
     /* .p_tcb          = */ &osEE_tcb_array[3U],
     /* .tid            = */ 3U,
+=======
+    /* .p_tcb          = */ &osEE_tcb_array[5U],
+    /* .tid            = */ 5U,
+>>>>>>> be21e51b86386d4de15222e011f8731305c64e39
     /* .task_type      = */ OSEE_TASK_TYPE_BASIC,
-    /* .task_func      = */ TASK_FUNC(Task1),
+    /* .task_func      = */ TASK_FUNC(TaskUltrasonic),
     /* .ready_prio     = */ 1U,
     /* .dispatch_prio  = */ 1U,
     /* .max_num_of_act = */ 1U
@@ -197,6 +245,7 @@ static VAR(OsEE_TDB, OS_CONST)
     /* .hdb = */ {
       /* .p_sdb    = */   &osEE_sdb_array[0U],
       /* .p_scb    = */   &osEE_scb_array[0U],
+<<<<<<< HEAD
       /* .isr2_src  = */  OSEE_TC_SRC_INVALID
     },
     /* .p_tcb          = */ &osEE_tcb_array[4U],
@@ -225,6 +274,8 @@ static VAR(OsEE_TDB, OS_CONST)
     /* .hdb = */ {
       /* .p_sdb    = */   &osEE_sdb_array[0U],
       /* .p_scb    = */   &osEE_scb_array[0U],
+=======
+>>>>>>> be21e51b86386d4de15222e011f8731305c64e39
       /* .isr_src  = */   OSEE_TC_SRC_INVALID
     },
     /* .p_tcb          = */ &osEE_tcb_array[6U],
@@ -289,7 +340,7 @@ static VAR(OsEE_ResourceCB, OS_VAR_CLEARED) osEE_res_cb_array[1];
 static VAR(OsEE_ResourceDB, OS_CONST) osEE_res_db_array[1] = {
   {
     /* .p_cb              = */ &osEE_res_cb_array[0U],
-    /* .prio              = */ 3U
+    /* .prio              = */ 1U
   }
 };
 

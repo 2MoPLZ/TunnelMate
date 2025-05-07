@@ -6,7 +6,11 @@
 	.type	Ifx_C_Init, @function
 Ifx_C_Init:
 .LFB0:
+<<<<<<< HEAD
 	.file 1 "C:\\Users\\USER\\Desktop\\WORKSP~1\\TUNNEL~1\\TC275\\illd\\src\\CompilerGnuc.c"
+=======
+	.file 1 "C:\\Users\\USER\\OneDrive\\Desktop\\tunnel\\TUNNEL~1\\TC275\\illd\\src\\CompilerGnuc.c"
+>>>>>>> be21e51b86386d4de15222e011f8731305c64e39
 	.loc 1 69 0
 .LVL0:
 	movh.a	%a4, hi:__clear_table
@@ -205,10 +209,17 @@ Ifx_C_Init:
 .LEFDE0:
 .section .text,"ax",@progbits
 .Letext0:
+<<<<<<< HEAD
 	.file 2 "C:\\Users\\USER\\Desktop\\WORKSP~1\\TUNNEL~1\\TC275/illd\\Libraries\\iLLD\\TC27D\\Tricore\\Cpu\\Std\\Platform_Types.h"
 .section .debug_info,"",@progbits
 .Ldebug_info0:
 	.uaword	0x36e
+=======
+	.file 2 "C:\\Users\\USER\\OneDrive\\Desktop\\tunnel\\TUNNEL~1\\TC275/illd\\Libraries\\iLLD\\TC27D\\Tricore\\Cpu\\Std\\Platform_Types.h"
+.section .debug_info,"",@progbits
+.Ldebug_info0:
+	.uaword	0x375
+>>>>>>> be21e51b86386d4de15222e011f8731305c64e39
 	.uahalf	0x3
 	.uaword	.Ldebug_abbrev0
 	.byte	0x4
@@ -216,7 +227,11 @@ Ifx_C_Init:
 	.ascii	"GNU C 4.9."
 	.string	"4 build on 2019-06-07 -mlicense-dir=c:\\hightec\\toolchains\\tricore\\v4.9.3.0-infineon-1.0\\bin\\../lib/gcc/tricore/4.9.4/../../../../licenses -mcpu=tc27xx -g -Os -fno-common -fshort-enums -fstrict-volatile-bitfields -finline-functions -fzero-initialized-in-bss"
 	.byte	0x1
+<<<<<<< HEAD
 	.string	"C:\\Users\\USER\\Desktop\\WORKSP~1\\TUNNEL~1\\TC275\\illd\\src\\CompilerGnuc.c"
+=======
+	.string	"C:\\Users\\USER\\OneDrive\\Desktop\\tunnel\\TUNNEL~1\\TC275\\illd\\src\\CompilerGnuc.c"
+>>>>>>> be21e51b86386d4de15222e011f8731305c64e39
 	.uaword	.Ltext0
 	.uaword	.Letext0
 	.uaword	.Ldebug_line0
@@ -240,12 +255,20 @@ Ifx_C_Init:
 	.string	"uint8"
 	.byte	0x2
 	.byte	0x6c
+<<<<<<< HEAD
 	.uaword	0x192
+=======
+	.uaword	0x199
+>>>>>>> be21e51b86386d4de15222e011f8731305c64e39
 	.uleb128 0x3
 	.string	"uint16"
 	.byte	0x2
 	.byte	0x70
+<<<<<<< HEAD
 	.uaword	0x1be
+=======
+	.uaword	0x1c5
+>>>>>>> be21e51b86386d4de15222e011f8731305c64e39
 	.uleb128 0x2
 	.byte	0x2
 	.byte	0x7
@@ -254,7 +277,11 @@ Ifx_C_Init:
 	.string	"uint32"
 	.byte	0x2
 	.byte	0x74
+<<<<<<< HEAD
 	.uaword	0x176
+=======
+	.uaword	0x17d
+>>>>>>> be21e51b86386d4de15222e011f8731305c64e39
 	.uleb128 0x2
 	.byte	0x8
 	.byte	0x7
@@ -287,26 +314,43 @@ Ifx_C_Init:
 	.byte	0x4
 	.byte	0x1
 	.byte	0x33
+<<<<<<< HEAD
 	.uaword	0x282
+=======
+	.uaword	0x289
+>>>>>>> be21e51b86386d4de15222e011f8731305c64e39
 	.uleb128 0x5
 	.string	"ucPtr"
 	.byte	0x1
 	.byte	0x35
+<<<<<<< HEAD
 	.uaword	0x282
+=======
+	.uaword	0x289
+>>>>>>> be21e51b86386d4de15222e011f8731305c64e39
 	.uleb128 0x5
 	.string	"usPtr"
 	.byte	0x1
 	.byte	0x36
+<<<<<<< HEAD
 	.uaword	0x288
+=======
+	.uaword	0x28f
+>>>>>>> be21e51b86386d4de15222e011f8731305c64e39
 	.uleb128 0x5
 	.string	"uiPtr"
 	.byte	0x1
 	.byte	0x37
+<<<<<<< HEAD
 	.uaword	0x28e
+=======
+	.uaword	0x295
+>>>>>>> be21e51b86386d4de15222e011f8731305c64e39
 	.uleb128 0x5
 	.string	"ullPtr"
 	.byte	0x1
 	.byte	0x38
+<<<<<<< HEAD
 	.uaword	0x294
 	.byte	0
 	.uleb128 0x6
@@ -321,13 +365,35 @@ Ifx_C_Init:
 	.uleb128 0x6
 	.byte	0x4
 	.uaword	0x1e2
+=======
+	.uaword	0x29b
+	.byte	0
+	.uleb128 0x6
+	.byte	0x4
+	.uaword	0x1aa
+	.uleb128 0x6
+	.byte	0x4
+	.uaword	0x1b7
+	.uleb128 0x6
+	.byte	0x4
+	.uaword	0x1db
+	.uleb128 0x6
+	.byte	0x4
+	.uaword	0x1e9
+>>>>>>> be21e51b86386d4de15222e011f8731305c64e39
 	.uleb128 0x3
 	.string	"IfxStart_CTablePtr"
 	.byte	0x1
 	.byte	0x39
+<<<<<<< HEAD
 	.uaword	0x2b4
 	.uleb128 0x7
 	.uaword	0x244
+=======
+	.uaword	0x2bb
+	.uleb128 0x7
+	.uaword	0x24b
+>>>>>>> be21e51b86386d4de15222e011f8731305c64e39
 	.uleb128 0x8
 	.byte	0x1
 	.string	"Ifx_C_Init"
@@ -339,12 +405,20 @@ Ifx_C_Init:
 	.byte	0x1
 	.byte	0x9c
 	.byte	0x1
+<<<<<<< HEAD
 	.uaword	0x339
+=======
+	.uaword	0x340
+>>>>>>> be21e51b86386d4de15222e011f8731305c64e39
 	.uleb128 0x9
 	.string	"pBlockDest"
 	.byte	0x1
 	.byte	0x46
+<<<<<<< HEAD
 	.uaword	0x29a
+=======
+	.uaword	0x2a1
+>>>>>>> be21e51b86386d4de15222e011f8731305c64e39
 	.byte	0x2
 	.byte	0x91
 	.sleb128 -8
@@ -352,7 +426,11 @@ Ifx_C_Init:
 	.string	"pBlockSrc"
 	.byte	0x1
 	.byte	0x46
+<<<<<<< HEAD
 	.uaword	0x29a
+=======
+	.uaword	0x2a1
+>>>>>>> be21e51b86386d4de15222e011f8731305c64e39
 	.byte	0x2
 	.byte	0x91
 	.sleb128 -4
@@ -360,38 +438,63 @@ Ifx_C_Init:
 	.string	"uiLength"
 	.byte	0x1
 	.byte	0x47
+<<<<<<< HEAD
 	.uaword	0x1d4
+=======
+	.uaword	0x1db
+>>>>>>> be21e51b86386d4de15222e011f8731305c64e39
 	.uaword	.LLST0
 	.uleb128 0xa
 	.string	"uiCnt"
 	.byte	0x1
 	.byte	0x47
+<<<<<<< HEAD
 	.uaword	0x1d4
+=======
+	.uaword	0x1db
+>>>>>>> be21e51b86386d4de15222e011f8731305c64e39
 	.uaword	.LLST1
 	.uleb128 0xa
 	.string	"pTable"
 	.byte	0x1
 	.byte	0x48
+<<<<<<< HEAD
 	.uaword	0x28e
 	.uaword	.LLST2
 	.byte	0
 	.uleb128 0xb
 	.uaword	0x1d4
 	.uaword	0x344
+=======
+	.uaword	0x295
+	.uaword	.LLST2
+	.byte	0
+	.uleb128 0xb
+	.uaword	0x1db
+	.uaword	0x34b
+>>>>>>> be21e51b86386d4de15222e011f8731305c64e39
 	.uleb128 0xc
 	.byte	0
 	.uleb128 0xd
 	.string	"__clear_table"
 	.byte	0x1
 	.byte	0x30
+<<<<<<< HEAD
 	.uaword	0x339
+=======
+	.uaword	0x340
+>>>>>>> be21e51b86386d4de15222e011f8731305c64e39
 	.byte	0x1
 	.byte	0x1
 	.uleb128 0xd
 	.string	"__copy_table"
 	.byte	0x1
 	.byte	0x31
+<<<<<<< HEAD
 	.uaword	0x339
+=======
+	.uaword	0x340
+>>>>>>> be21e51b86386d4de15222e011f8731305c64e39
 	.byte	0x1
 	.byte	0x1
 	.byte	0

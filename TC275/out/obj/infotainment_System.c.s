@@ -6,7 +6,11 @@
 	.type	syncInfoState, @function
 syncInfoState:
 .LFB575:
+<<<<<<< HEAD
 	.file 1 "C:\\Users\\USER\\Desktop\\WORKSP~1\\TUNNEL~1\\TC275\\infotainment_System.c"
+=======
+	.file 1 "C:\\Users\\USER\\OneDrive\\Desktop\\tunnel\\TUNNEL~1\\TC275\\infotainment_System.c"
+>>>>>>> be21e51b86386d4de15222e011f8731305c64e39
 	.loc 1 10 0
 	ret
 .LFE575:
@@ -746,6 +750,7 @@ infotainmentArr:
 .LEFDE26:
 .section .text,"ax",@progbits
 .Letext0:
+<<<<<<< HEAD
 	.file 2 "C:\\Users\\USER\\Desktop\\WORKSP~1\\TUNNEL~1\\TC275/illd\\Libraries\\iLLD\\TC27D\\Tricore\\Cpu\\Std\\Platform_Types.h"
 	.file 3 "C:\\Users\\USER\\Desktop\\WORKSP~1\\TUNNEL~1\\TC275/illd\\Libraries\\iLLD\\TC27D\\Tricore\\Cpu\\Std/Ifx_Types.h"
 	.file 4 "C:\\Users\\USER\\Desktop\\WORKSP~1\\TUNNEL~1\\TC275\\infotainment_System.h"
@@ -754,6 +759,16 @@ infotainmentArr:
 .section .debug_info,"",@progbits
 .Ldebug_info0:
 	.uaword	0x76a
+=======
+	.file 2 "C:\\Users\\USER\\OneDrive\\Desktop\\tunnel\\TUNNEL~1\\TC275/illd\\Libraries\\iLLD\\TC27D\\Tricore\\Cpu\\Std\\Platform_Types.h"
+	.file 3 "C:\\Users\\USER\\OneDrive\\Desktop\\tunnel\\TUNNEL~1\\TC275/illd\\Libraries\\iLLD\\TC27D\\Tricore\\Cpu\\Std/Ifx_Types.h"
+	.file 4 "C:\\Users\\USER\\OneDrive\\Desktop\\tunnel\\TUNNEL~1\\TC275\\infotainment_System.h"
+	.file 5 "C:\\Users\\USER\\OneDrive\\Desktop\\tunnel\\TUNNEL~1\\TC275\\Lcd_Driver.h"
+	.file 6 "C:\\Users\\USER\\OneDrive\\Desktop\\tunnel\\TUNNEL~1\\TC275/illd\\Libraries\\iLLD\\TC27D\\Tricore\\_Impl/IfxCpu_cfg.h"
+.section .debug_info,"",@progbits
+.Ldebug_info0:
+	.uaword	0x771
+>>>>>>> be21e51b86386d4de15222e011f8731305c64e39
 	.uahalf	0x3
 	.uaword	.Ldebug_abbrev0
 	.byte	0x4
@@ -761,7 +776,11 @@ infotainmentArr:
 	.ascii	"GNU C 4.9."
 	.string	"4 build on 2019-06-07 -mlicense-dir=c:\\hightec\\toolchains\\tricore\\v4.9.3.0-infineon-1.0\\bin\\../lib/gcc/tricore/4.9.4/../../../../licenses -mcpu=tc27xx -g -Os -fno-common -fshort-enums -fstrict-volatile-bitfields -finline-functions -fzero-initialized-in-bss"
 	.byte	0x1
+<<<<<<< HEAD
 	.string	"C:\\Users\\USER\\Desktop\\WORKSP~1\\TUNNEL~1\\TC275\\infotainment_System.c"
+=======
+	.string	"C:\\Users\\USER\\OneDrive\\Desktop\\tunnel\\TUNNEL~1\\TC275\\infotainment_System.c"
+>>>>>>> be21e51b86386d4de15222e011f8731305c64e39
 	.uaword	.Ltext0
 	.uaword	.Letext0
 	.uaword	.Ldebug_line0
@@ -785,7 +804,11 @@ infotainmentArr:
 	.string	"uint8"
 	.byte	0x2
 	.byte	0x6c
+<<<<<<< HEAD
 	.uaword	0x190
+=======
+	.uaword	0x197
+>>>>>>> be21e51b86386d4de15222e011f8731305c64e39
 	.uleb128 0x2
 	.byte	0x2
 	.byte	0x7
@@ -806,7 +829,11 @@ infotainmentArr:
 	.string	"sint32"
 	.byte	0x2
 	.byte	0x86
+<<<<<<< HEAD
 	.uaword	0x168
+=======
+	.uaword	0x16f
+>>>>>>> be21e51b86386d4de15222e011f8731305c64e39
 	.uleb128 0x2
 	.byte	0x8
 	.byte	0x5
@@ -821,40 +848,66 @@ infotainmentArr:
 	.string	"double"
 	.uleb128 0x4
 	.byte	0x4
+<<<<<<< HEAD
 	.uaword	0x232
 	.uleb128 0x5
 	.uaword	0x237
+=======
+	.uaword	0x239
+	.uleb128 0x5
+	.uaword	0x23e
+>>>>>>> be21e51b86386d4de15222e011f8731305c64e39
 	.uleb128 0x2
 	.byte	0x1
 	.byte	0x6
 	.string	"char"
 	.uleb128 0x4
 	.byte	0x4
+<<<<<<< HEAD
 	.uaword	0x245
+=======
+	.uaword	0x24c
+>>>>>>> be21e51b86386d4de15222e011f8731305c64e39
 	.uleb128 0x6
 	.uleb128 0x7
 	.byte	0x8
 	.byte	0x3
 	.byte	0x8c
+<<<<<<< HEAD
 	.uaword	0x26c
+=======
+	.uaword	0x273
+>>>>>>> be21e51b86386d4de15222e011f8731305c64e39
 	.uleb128 0x8
 	.string	"module"
 	.byte	0x3
 	.byte	0x8e
+<<<<<<< HEAD
 	.uaword	0x23f
+=======
+	.uaword	0x246
+>>>>>>> be21e51b86386d4de15222e011f8731305c64e39
 	.byte	0
 	.uleb128 0x8
 	.string	"index"
 	.byte	0x3
 	.byte	0x8f
+<<<<<<< HEAD
 	.uaword	0x1fa
+=======
+	.uaword	0x201
+>>>>>>> be21e51b86386d4de15222e011f8731305c64e39
 	.byte	0x4
 	.byte	0
 	.uleb128 0x3
 	.string	"IfxModule_IndexMap"
 	.byte	0x3
 	.byte	0x90
+<<<<<<< HEAD
 	.uaword	0x246
+=======
+	.uaword	0x24d
+>>>>>>> be21e51b86386d4de15222e011f8731305c64e39
 	.uleb128 0x2
 	.byte	0x4
 	.byte	0x7
@@ -867,7 +920,11 @@ infotainmentArr:
 	.byte	0x1
 	.byte	0x6
 	.byte	0x87
+<<<<<<< HEAD
 	.uaword	0x2f2
+=======
+	.uaword	0x2f9
+>>>>>>> be21e51b86386d4de15222e011f8731305c64e39
 	.uleb128 0xa
 	.string	"IfxCpu_Index_0"
 	.sleb128 0
@@ -886,7 +943,11 @@ infotainmentArr:
 	.byte	0x1
 	.byte	0x4
 	.byte	0x13
+<<<<<<< HEAD
 	.uaword	0x367
+=======
+	.uaword	0x36e
+>>>>>>> be21e51b86386d4de15222e011f8731305c64e39
 	.uleb128 0xa
 	.string	"tunnelMode"
 	.sleb128 0
@@ -941,11 +1002,19 @@ infotainmentArr:
 	.byte	0x1
 	.byte	0x9c
 	.byte	0x1
+<<<<<<< HEAD
 	.uaword	0x3ce
 	.uleb128 0xe
 	.uaword	.LVL0
 	.byte	0x1
 	.uaword	0x725
+=======
+	.uaword	0x3d5
+	.uleb128 0xe
+	.uaword	.LVL0
+	.byte	0x1
+	.uaword	0x72c
+>>>>>>> be21e51b86386d4de15222e011f8731305c64e39
 	.byte	0
 	.uleb128 0xd
 	.byte	0x1
@@ -957,11 +1026,19 @@ infotainmentArr:
 	.byte	0x1
 	.byte	0x9c
 	.byte	0x1
+<<<<<<< HEAD
 	.uaword	0x3fa
 	.uleb128 0xe
 	.uaword	.LVL1
 	.byte	0x1
 	.uaword	0x725
+=======
+	.uaword	0x401
+	.uleb128 0xe
+	.uaword	.LVL1
+	.byte	0x1
+	.uaword	0x72c
+>>>>>>> be21e51b86386d4de15222e011f8731305c64e39
 	.byte	0
 	.uleb128 0xd
 	.byte	0x1
@@ -973,11 +1050,19 @@ infotainmentArr:
 	.byte	0x1
 	.byte	0x9c
 	.byte	0x1
+<<<<<<< HEAD
 	.uaword	0x426
 	.uleb128 0xe
 	.uaword	.LVL2
 	.byte	0x1
 	.uaword	0x725
+=======
+	.uaword	0x42d
+	.uleb128 0xe
+	.uaword	.LVL2
+	.byte	0x1
+	.uaword	0x72c
+>>>>>>> be21e51b86386d4de15222e011f8731305c64e39
 	.byte	0
 	.uleb128 0xd
 	.byte	0x1
@@ -989,11 +1074,19 @@ infotainmentArr:
 	.byte	0x1
 	.byte	0x9c
 	.byte	0x1
+<<<<<<< HEAD
 	.uaword	0x452
 	.uleb128 0xe
 	.uaword	.LVL3
 	.byte	0x1
 	.uaword	0x725
+=======
+	.uaword	0x459
+	.uleb128 0xe
+	.uaword	.LVL3
+	.byte	0x1
+	.uaword	0x72c
+>>>>>>> be21e51b86386d4de15222e011f8731305c64e39
 	.byte	0
 	.uleb128 0xd
 	.byte	0x1
@@ -1005,11 +1098,19 @@ infotainmentArr:
 	.byte	0x1
 	.byte	0x9c
 	.byte	0x1
+<<<<<<< HEAD
 	.uaword	0x47d
 	.uleb128 0xe
 	.uaword	.LVL4
 	.byte	0x1
 	.uaword	0x725
+=======
+	.uaword	0x484
+	.uleb128 0xe
+	.uaword	.LVL4
+	.byte	0x1
+	.uaword	0x72c
+>>>>>>> be21e51b86386d4de15222e011f8731305c64e39
 	.byte	0
 	.uleb128 0xd
 	.byte	0x1
@@ -1021,11 +1122,19 @@ infotainmentArr:
 	.byte	0x1
 	.byte	0x9c
 	.byte	0x1
+<<<<<<< HEAD
 	.uaword	0x4a9
 	.uleb128 0xe
 	.uaword	.LVL5
 	.byte	0x1
 	.uaword	0x725
+=======
+	.uaword	0x4b0
+	.uleb128 0xe
+	.uaword	.LVL5
+	.byte	0x1
+	.uaword	0x72c
+>>>>>>> be21e51b86386d4de15222e011f8731305c64e39
 	.byte	0
 	.uleb128 0xd
 	.byte	0x1
@@ -1037,11 +1146,19 @@ infotainmentArr:
 	.byte	0x1
 	.byte	0x9c
 	.byte	0x1
+<<<<<<< HEAD
 	.uaword	0x4d5
 	.uleb128 0xe
 	.uaword	.LVL6
 	.byte	0x1
 	.uaword	0x725
+=======
+	.uaword	0x4dc
+	.uleb128 0xe
+	.uaword	.LVL6
+	.byte	0x1
+	.uaword	0x72c
+>>>>>>> be21e51b86386d4de15222e011f8731305c64e39
 	.byte	0
 	.uleb128 0xd
 	.byte	0x1
@@ -1053,11 +1170,19 @@ infotainmentArr:
 	.byte	0x1
 	.byte	0x9c
 	.byte	0x1
+<<<<<<< HEAD
 	.uaword	0x503
 	.uleb128 0xe
 	.uaword	.LVL7
 	.byte	0x1
 	.uaword	0x725
+=======
+	.uaword	0x50a
+	.uleb128 0xe
+	.uaword	.LVL7
+	.byte	0x1
+	.uaword	0x72c
+>>>>>>> be21e51b86386d4de15222e011f8731305c64e39
 	.byte	0
 	.uleb128 0xd
 	.byte	0x1
@@ -1069,11 +1194,19 @@ infotainmentArr:
 	.byte	0x1
 	.byte	0x9c
 	.byte	0x1
+<<<<<<< HEAD
 	.uaword	0x530
 	.uleb128 0xe
 	.uaword	.LVL8
 	.byte	0x1
 	.uaword	0x725
+=======
+	.uaword	0x537
+	.uleb128 0xe
+	.uaword	.LVL8
+	.byte	0x1
+	.uaword	0x72c
+>>>>>>> be21e51b86386d4de15222e011f8731305c64e39
 	.byte	0
 	.uleb128 0xd
 	.byte	0x1
@@ -1085,11 +1218,19 @@ infotainmentArr:
 	.byte	0x1
 	.byte	0x9c
 	.byte	0x1
+<<<<<<< HEAD
 	.uaword	0x5e8
 	.uleb128 0xf
 	.uaword	.LVL9
 	.uaword	0x73f
 	.uaword	0x56c
+=======
+	.uaword	0x5ef
+	.uleb128 0xf
+	.uaword	.LVL9
+	.uaword	0x746
+	.uaword	0x573
+>>>>>>> be21e51b86386d4de15222e011f8731305c64e39
 	.uleb128 0x10
 	.byte	0x1
 	.byte	0x55
@@ -1103,11 +1244,19 @@ infotainmentArr:
 	.byte	0
 	.uleb128 0x11
 	.uaword	.LVL10
+<<<<<<< HEAD
 	.uaword	0x725
 	.uleb128 0xf
 	.uaword	.LVL11
 	.uaword	0x73f
 	.uaword	0x58d
+=======
+	.uaword	0x72c
+	.uleb128 0xf
+	.uaword	.LVL11
+	.uaword	0x746
+	.uaword	0x594
+>>>>>>> be21e51b86386d4de15222e011f8731305c64e39
 	.uleb128 0x10
 	.byte	0x1
 	.byte	0x55
@@ -1122,6 +1271,7 @@ infotainmentArr:
 	.uleb128 0xe
 	.uaword	.LVL12
 	.byte	0x1
+<<<<<<< HEAD
 	.uaword	0x452
 	.uleb128 0xe
 	.uaword	.LVL13
@@ -1155,6 +1305,41 @@ infotainmentArr:
 	.uaword	.LVL20
 	.byte	0x1
 	.uaword	0x3fa
+=======
+	.uaword	0x459
+	.uleb128 0xe
+	.uaword	.LVL13
+	.byte	0x1
+	.uaword	0x4b0
+	.uleb128 0xe
+	.uaword	.LVL14
+	.byte	0x1
+	.uaword	0x4dc
+	.uleb128 0xe
+	.uaword	.LVL15
+	.byte	0x1
+	.uaword	0x50a
+	.uleb128 0xe
+	.uaword	.LVL16
+	.byte	0x1
+	.uaword	0x42d
+	.uleb128 0xe
+	.uaword	.LVL17
+	.byte	0x1
+	.uaword	0x484
+	.uleb128 0xe
+	.uaword	.LVL18
+	.byte	0x1
+	.uaword	0x3a9
+	.uleb128 0xe
+	.uaword	.LVL19
+	.byte	0x1
+	.uaword	0x3d5
+	.uleb128 0xe
+	.uaword	.LVL20
+	.byte	0x1
+	.uaword	0x401
+>>>>>>> be21e51b86386d4de15222e011f8731305c64e39
 	.byte	0
 	.uleb128 0x12
 	.byte	0x1
@@ -1167,6 +1352,7 @@ infotainmentArr:
 	.byte	0x1
 	.byte	0x9c
 	.byte	0x1
+<<<<<<< HEAD
 	.uaword	0x621
 	.uleb128 0x11
 	.uaword	.LVL21
@@ -1175,6 +1361,16 @@ infotainmentArr:
 	.uaword	.LVL22
 	.byte	0x1
 	.uaword	0x530
+=======
+	.uaword	0x628
+	.uleb128 0x11
+	.uaword	.LVL21
+	.uaword	0x764
+	.uleb128 0xe
+	.uaword	.LVL22
+	.byte	0x1
+	.uaword	0x537
+>>>>>>> be21e51b86386d4de15222e011f8731305c64e39
 	.byte	0
 	.uleb128 0x12
 	.byte	0x1
@@ -1187,11 +1383,16 @@ infotainmentArr:
 	.byte	0x1
 	.byte	0x9c
 	.byte	0x1
+<<<<<<< HEAD
 	.uaword	0x670
+=======
+	.uaword	0x677
+>>>>>>> be21e51b86386d4de15222e011f8731305c64e39
 	.uleb128 0x13
 	.string	"buttonState"
 	.byte	0x1
 	.byte	0x14
+<<<<<<< HEAD
 	.uaword	0x286
 	.uaword	.LLST0
 	.uleb128 0x11
@@ -1207,13 +1408,34 @@ infotainmentArr:
 	.uaword	0x680
 	.uleb128 0x15
 	.uaword	0x296
+=======
+	.uaword	0x28d
+	.uaword	.LLST0
+	.uleb128 0x11
+	.uaword	.LVL24
+	.uaword	0x764
+	.uleb128 0xe
+	.uaword	.LVL25
+	.byte	0x1
+	.uaword	0x537
+	.byte	0
+	.uleb128 0x14
+	.uaword	0x190
+	.uaword	0x687
+	.uleb128 0x15
+	.uaword	0x29d
+>>>>>>> be21e51b86386d4de15222e011f8731305c64e39
 	.byte	0x6
 	.byte	0
 	.uleb128 0x16
 	.string	"infotainmentArr"
 	.byte	0x4
 	.byte	0x1d
+<<<<<<< HEAD
 	.uaword	0x670
+=======
+	.uaword	0x677
+>>>>>>> be21e51b86386d4de15222e011f8731305c64e39
 	.byte	0x5
 	.byte	0x3
 	.uaword	infotainmentArr
@@ -1221,66 +1443,114 @@ infotainmentArr:
 	.string	"stateMaxArr"
 	.byte	0x4
 	.byte	0x1e
+<<<<<<< HEAD
 	.uaword	0x6b6
+=======
+	.uaword	0x6bd
+>>>>>>> be21e51b86386d4de15222e011f8731305c64e39
 	.byte	0x5
 	.byte	0x3
 	.uaword	stateMaxArr
 	.uleb128 0x5
+<<<<<<< HEAD
 	.uaword	0x670
+=======
+	.uaword	0x677
+>>>>>>> be21e51b86386d4de15222e011f8731305c64e39
 	.uleb128 0x16
 	.string	"infoState"
 	.byte	0x4
 	.byte	0x1f
+<<<<<<< HEAD
 	.uaword	0x189
+=======
+	.uaword	0x190
+>>>>>>> be21e51b86386d4de15222e011f8731305c64e39
 	.byte	0x5
 	.byte	0x3
 	.uaword	infoState
 	.uleb128 0x14
+<<<<<<< HEAD
 	.uaword	0x237
 	.uaword	0x6e2
 	.uleb128 0x15
 	.uaword	0x296
+=======
+	.uaword	0x23e
+	.uaword	0x6e9
+	.uleb128 0x15
+	.uaword	0x29d
+>>>>>>> be21e51b86386d4de15222e011f8731305c64e39
 	.byte	0x1f
 	.byte	0
 	.uleb128 0x16
 	.string	"buf"
 	.byte	0x4
 	.byte	0x20
+<<<<<<< HEAD
 	.uaword	0x6d2
+=======
+	.uaword	0x6d9
+>>>>>>> be21e51b86386d4de15222e011f8731305c64e39
 	.byte	0x5
 	.byte	0x3
 	.uaword	buf
 	.uleb128 0x14
+<<<<<<< HEAD
 	.uaword	0x26c
 	.uaword	0x703
 	.uleb128 0x15
 	.uaword	0x296
+=======
+	.uaword	0x273
+	.uaword	0x70a
+	.uleb128 0x15
+	.uaword	0x29d
+>>>>>>> be21e51b86386d4de15222e011f8731305c64e39
 	.byte	0x2
 	.byte	0
 	.uleb128 0x17
 	.string	"IfxCpu_cfg_indexMap"
 	.byte	0x6
 	.byte	0xa7
+<<<<<<< HEAD
 	.uaword	0x720
 	.byte	0x1
 	.byte	0x1
 	.uleb128 0x5
 	.uaword	0x6f3
+=======
+	.uaword	0x727
+	.byte	0x1
+	.byte	0x1
+	.uleb128 0x5
+	.uaword	0x6fa
+>>>>>>> be21e51b86386d4de15222e011f8731305c64e39
 	.uleb128 0x18
 	.byte	0x1
 	.string	"lcd_print"
 	.byte	0x5
+<<<<<<< HEAD
 	.byte	0x17
 	.byte	0x1
 	.byte	0x1
 	.uaword	0x73f
 	.uleb128 0x19
 	.uaword	0x22c
+=======
+	.byte	0x15
+	.byte	0x1
+	.byte	0x1
+	.uaword	0x746
+	.uleb128 0x19
+	.uaword	0x233
+>>>>>>> be21e51b86386d4de15222e011f8731305c64e39
 	.byte	0
 	.uleb128 0x18
 	.byte	0x1
 	.string	"lcd_goto"
 	.byte	0x5
+<<<<<<< HEAD
 	.byte	0x16
 	.byte	0x1
 	.byte	0x1
@@ -1289,12 +1559,26 @@ infotainmentArr:
 	.uaword	0x1a1
 	.uleb128 0x19
 	.uaword	0x1a1
+=======
+	.byte	0x14
+	.byte	0x1
+	.byte	0x1
+	.uaword	0x764
+	.uleb128 0x19
+	.uaword	0x1a8
+	.uleb128 0x19
+	.uaword	0x1a8
+>>>>>>> be21e51b86386d4de15222e011f8731305c64e39
 	.byte	0
 	.uleb128 0x1a
 	.byte	0x1
 	.string	"lcd_clear"
 	.byte	0x5
+<<<<<<< HEAD
 	.byte	0x15
+=======
+	.byte	0x13
+>>>>>>> be21e51b86386d4de15222e011f8731305c64e39
 	.byte	0x1
 	.byte	0x1
 	.byte	0
