@@ -1,27 +1,37 @@
 # 🚗 TC275 Dashboard + Sensor ZCU
 
-This TC275 board controls ***Dashboard(LCD shield)*** and ***two Ultrasonic Sensors*** and ***one Photoresistor*** on ***OSEK/VDX RTOS***
+This TC275 board controls ***Dashboard(LCD shield + buttons)*** and ***two Ultrasonic Sensors*** and ***one Photoresistor*** based on ***OSEK/VDX RTOS***
 
 ---
 
-# 🛠️🛠️🛠️     This README IS UNDER CONSTRUCTION!!!     🛠️🛠️🛠️
+## 📕 Index
+
+1. [System Overview](#🛠️-System-Overview)
+2. [How to Run](#🚀-How-to-Run)
+3. [HW Specification](#-HW-Specification)
+4. [HW Pin Map](#-HW-Pin-Map)
+5. [Example Code](#-Example-Code)
+
+development environment : Erika3, eclipse?, UDE STK 2021
+
+
+</br>
 
 ---
 
 
 ## 🛠️ System Overview
 
-| Component      | Description                            |
-|----------------|----------------------------------------|
-| **a**           |                 |
-| **b**           |                 |
-| **c**           |                 |
-| **d**           |                 |
+피그마로 기깔나게 그린 overview를 여기에 첨부</br>
+또는 시연 동영상의 일부나 사진을 여기에 첨부
+
+</br>
 
 ---
 
 ## 🚀 How to Run
- ```bash
+
+ ```python
     # run in terminal
     1. cd TunnelMate/TC275
     2. make config
@@ -32,15 +42,23 @@ This TC275 board controls ***Dashboard(LCD shield)*** and ***two Ultrasonic Sens
     2. load program (TunnelMate/TC275/out/erika3app.elf)
 ```
 
+</br>
+
 ---
 
 ## 📡 Hardware Spec
+| Product Name     |  Model Name             |Role             |
+|------------------|-------------------------|-----------------|
+|TC275 ShieldBuddy | KIT_AURIX_TC275_ARD_SB  |ZCU              |
+|Lcd KeyPad Shield | DFR0009                 |Dashboard        |
+|Photoresistor     | GL5616                  |Night/Tunnel Detection |
+|Ultrasonic Sensor | HC-SR04                 |Tunnel Detection |
+|-                 |-                        |Forward Collision-Avoidance Assist|
 
-
-
-
+</br>
 
 ---
+
 ## lcd driver
 
 ### HW pin map
@@ -126,6 +144,21 @@ This TC275 board controls ***Dashboard(LCD shield)*** and ***two Ultrasonic Sens
 ---
 ## infotainment system
 
+
+
+---
+## ultrasonic driver
+
+### HW pin map
+| Arduino Signal Name  |  TC275T Pin Assignment  |  Role  |
+|----------------------|-------------------------|-------------------------|
+| Digital pin 12 (PWM/MISO)  |  P2.3                   | upperUltrasonic.TRIG        |
+| Digital pin 13 (PWM/SPCK)  |  P2.4                   | upperUltrasonic.ECHO        |
+| Digital pin 3 (PWM)        |  P2.1                   | frontUltrasonic.TRIG        |
+| Digital pin 11 (PWM/MOSI)  |  P10.3                  | frontUltrasonic.ECHO        |
+
+</br>
+</br>
 
 
 
