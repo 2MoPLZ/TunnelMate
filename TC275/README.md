@@ -6,11 +6,11 @@ This TC275 board controls ***Dashboard(LCD shield + buttons)*** and ***two Ultra
 
 ## 📕 Index
 
-1. [System Overview](#System-Overview)
-2. [How to Run](#How-to-Run)
-3. [HW Specification](#HW-Specification)
-4. [HW Pin Map](#HW-Pin-Map)
-5. [Example Code](#Example-Code)
+1. [System Overview](#-System-Overview)
+2. [How to Run](#-How-to-Run)
+3. [HW Specification](#-HW-Specification)
+4. [HW Pin Map](#-HW-Pin-Map)
+5. [Example Code](#-Example-Code)
 
 development environment : Erika3, eclipse?, UDE STK 2021
 
