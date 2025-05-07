@@ -100,6 +100,10 @@ OS_EE_APP_CFG_SRCS += bsw.c
 OS_EE_APP_CFG_SRCS += asw.c
 OS_EE_APP_CFG_SRCS += Lcd_Driver.c
 OS_EE_APP_CFG_SRCS += ultrasonic_Driver.c
+<<<<<<< HEAD
+=======
+OS_EE_APP_CFG_SRCS += uart_Driver.c
+>>>>>>> be21e51b86386d4de15222e011f8731305c64e39
 OS_EE_APP_CFG_SRCS += Button_Driver.c
 OS_EE_APP_CFG_SRCS += infotainment_System.c
 

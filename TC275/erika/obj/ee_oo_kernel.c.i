@@ -1,39 +1,39 @@
-# 1 "C:\\Users\\USER\\Desktop\\WORKSP~1\\TUNNEL~1\\TC275\\erika\\src\\ee_oo_kernel.c"
-# 1 "C:\\Users\\USER\\Desktop\\workspace\\TunnelMate\\TC275\\erika//"
+# 1 "C:\\Users\\USER\\OneDrive\\Desktop\\tunnel\\TUNNEL~1\\TC275\\erika\\src\\ee_oo_kernel.c"
+# 1 "C:\\Users\\USER\\OneDrive\\Desktop\\tunnel\\TunnelMate\\TC275\\erika//"
 # 1 "<built-in>"
 # 1 "<command-line>"
-# 1 "C:\\Users\\USER\\Desktop\\WORKSP~1\\TUNNEL~1\\TC275\\erika\\src\\ee_oo_kernel.c"
-# 53 "C:\\Users\\USER\\Desktop\\WORKSP~1\\TUNNEL~1\\TC275\\erika\\src\\ee_oo_kernel.c"
-# 1 "C:\\Users\\USER\\Desktop\\WORKSP~1\\TUNNEL~1\\TC275\\erika\\src\\ee_internal.h" 1
-# 55 "C:\\Users\\USER\\Desktop\\WORKSP~1\\TUNNEL~1\\TC275\\erika\\src\\ee_internal.h"
-# 1 "C:\\Users\\USER\\Desktop\\WORKSP~1\\TUNNEL~1\\TC275\\erika\\inc/ee_conf.h" 1
-# 55 "C:\\Users\\USER\\Desktop\\WORKSP~1\\TUNNEL~1\\TC275\\erika\\inc/ee_conf.h"
-# 1 "C:\\Users\\USER\\Desktop\\WORKSP~1\\TUNNEL~1\\TC275\\erika\\inc/ee.h" 1
-# 55 "C:\\Users\\USER\\Desktop\\WORKSP~1\\TUNNEL~1\\TC275\\erika\\inc/ee.h"
-# 1 "C:\\Users\\USER\\Desktop\\WORKSP~1\\TUNNEL~1\\TC275\\erika\\inc/ee_cfg.h" 1
-# 56 "C:\\Users\\USER\\Desktop\\WORKSP~1\\TUNNEL~1\\TC275\\erika\\inc/ee_cfg.h"
-# 1 "C:\\Users\\USER\\Desktop\\WORKSP~1\\TUNNEL~1\\TC275\\erika\\inc/ee_oscfg.h" 1
-# 57 "C:\\Users\\USER\\Desktop\\WORKSP~1\\TUNNEL~1\\TC275\\erika\\inc/ee_cfg.h" 2
-# 56 "C:\\Users\\USER\\Desktop\\WORKSP~1\\TUNNEL~1\\TC275\\erika\\inc/ee.h" 2
-# 1 "C:\\Users\\USER\\Desktop\\WORKSP~1\\TUNNEL~1\\TC275\\erika\\inc/ee_arch_override.h" 1
-# 57 "C:\\Users\\USER\\Desktop\\WORKSP~1\\TUNNEL~1\\TC275\\erika\\inc/ee.h" 2
-# 1 "C:\\Users\\USER\\Desktop\\WORKSP~1\\TUNNEL~1\\TC275\\erika\\inc/ee_platform_types.h" 1
-# 60 "C:\\Users\\USER\\Desktop\\WORKSP~1\\TUNNEL~1\\TC275\\erika\\inc/ee_platform_types.h"
-# 1 "C:\\Users\\USER\\Desktop\\WORKSP~1\\TUNNEL~1\\TC275\\erika\\inc/ee_utils.h" 1
-# 61 "C:\\Users\\USER\\Desktop\\WORKSP~1\\TUNNEL~1\\TC275\\erika\\inc/ee_platform_types.h" 2
-# 1 "C:\\Users\\USER\\Desktop\\WORKSP~1\\TUNNEL~1\\TC275\\erika\\inc/ee_compiler.h" 1
-# 59 "C:\\Users\\USER\\Desktop\\WORKSP~1\\TUNNEL~1\\TC275\\erika\\inc/ee_compiler.h"
-# 1 "C:\\Users\\USER\\Desktop\\WORKSP~1\\TUNNEL~1\\TC275\\erika\\inc/ee_compiler_cfg.h" 1
-# 58 "C:\\Users\\USER\\Desktop\\WORKSP~1\\TUNNEL~1\\TC275\\erika\\inc/ee_compiler_cfg.h"
-# 1 "C:\\Users\\USER\\Desktop\\WORKSP~1\\TUNNEL~1\\TC275\\erika\\inc/ee_compiler_gcc.h" 1
-# 63 "C:\\Users\\USER\\Desktop\\WORKSP~1\\TUNNEL~1\\TC275\\erika\\inc/ee_compiler_gcc.h"
-# 1 "C:\\Users\\USER\\Desktop\\WORKSP~1\\TUNNEL~1\\TC275\\erika\\inc/ee_arch_compiler_gcc.h" 1
-# 64 "C:\\Users\\USER\\Desktop\\WORKSP~1\\TUNNEL~1\\TC275\\erika\\inc/ee_compiler_gcc.h" 2
-# 59 "C:\\Users\\USER\\Desktop\\WORKSP~1\\TUNNEL~1\\TC275\\erika\\inc/ee_compiler_cfg.h" 2
-# 60 "C:\\Users\\USER\\Desktop\\WORKSP~1\\TUNNEL~1\\TC275\\erika\\inc/ee_compiler.h" 2
-# 62 "C:\\Users\\USER\\Desktop\\WORKSP~1\\TUNNEL~1\\TC275\\erika\\inc/ee_platform_types.h" 2
+# 1 "C:\\Users\\USER\\OneDrive\\Desktop\\tunnel\\TUNNEL~1\\TC275\\erika\\src\\ee_oo_kernel.c"
+# 53 "C:\\Users\\USER\\OneDrive\\Desktop\\tunnel\\TUNNEL~1\\TC275\\erika\\src\\ee_oo_kernel.c"
+# 1 "C:\\Users\\USER\\OneDrive\\Desktop\\tunnel\\TUNNEL~1\\TC275\\erika\\src\\ee_internal.h" 1
+# 55 "C:\\Users\\USER\\OneDrive\\Desktop\\tunnel\\TUNNEL~1\\TC275\\erika\\src\\ee_internal.h"
+# 1 "C:\\Users\\USER\\OneDrive\\Desktop\\tunnel\\TUNNEL~1\\TC275\\erika\\inc/ee_conf.h" 1
+# 55 "C:\\Users\\USER\\OneDrive\\Desktop\\tunnel\\TUNNEL~1\\TC275\\erika\\inc/ee_conf.h"
+# 1 "C:\\Users\\USER\\OneDrive\\Desktop\\tunnel\\TUNNEL~1\\TC275\\erika\\inc/ee.h" 1
+# 55 "C:\\Users\\USER\\OneDrive\\Desktop\\tunnel\\TUNNEL~1\\TC275\\erika\\inc/ee.h"
+# 1 "C:\\Users\\USER\\OneDrive\\Desktop\\tunnel\\TUNNEL~1\\TC275\\erika\\inc/ee_cfg.h" 1
+# 56 "C:\\Users\\USER\\OneDrive\\Desktop\\tunnel\\TUNNEL~1\\TC275\\erika\\inc/ee_cfg.h"
+# 1 "C:\\Users\\USER\\OneDrive\\Desktop\\tunnel\\TUNNEL~1\\TC275\\erika\\inc/ee_oscfg.h" 1
+# 57 "C:\\Users\\USER\\OneDrive\\Desktop\\tunnel\\TUNNEL~1\\TC275\\erika\\inc/ee_cfg.h" 2
+# 56 "C:\\Users\\USER\\OneDrive\\Desktop\\tunnel\\TUNNEL~1\\TC275\\erika\\inc/ee.h" 2
+# 1 "C:\\Users\\USER\\OneDrive\\Desktop\\tunnel\\TUNNEL~1\\TC275\\erika\\inc/ee_arch_override.h" 1
+# 57 "C:\\Users\\USER\\OneDrive\\Desktop\\tunnel\\TUNNEL~1\\TC275\\erika\\inc/ee.h" 2
+# 1 "C:\\Users\\USER\\OneDrive\\Desktop\\tunnel\\TUNNEL~1\\TC275\\erika\\inc/ee_platform_types.h" 1
+# 60 "C:\\Users\\USER\\OneDrive\\Desktop\\tunnel\\TUNNEL~1\\TC275\\erika\\inc/ee_platform_types.h"
+# 1 "C:\\Users\\USER\\OneDrive\\Desktop\\tunnel\\TUNNEL~1\\TC275\\erika\\inc/ee_utils.h" 1
+# 61 "C:\\Users\\USER\\OneDrive\\Desktop\\tunnel\\TUNNEL~1\\TC275\\erika\\inc/ee_platform_types.h" 2
+# 1 "C:\\Users\\USER\\OneDrive\\Desktop\\tunnel\\TUNNEL~1\\TC275\\erika\\inc/ee_compiler.h" 1
+# 59 "C:\\Users\\USER\\OneDrive\\Desktop\\tunnel\\TUNNEL~1\\TC275\\erika\\inc/ee_compiler.h"
+# 1 "C:\\Users\\USER\\OneDrive\\Desktop\\tunnel\\TUNNEL~1\\TC275\\erika\\inc/ee_compiler_cfg.h" 1
+# 58 "C:\\Users\\USER\\OneDrive\\Desktop\\tunnel\\TUNNEL~1\\TC275\\erika\\inc/ee_compiler_cfg.h"
+# 1 "C:\\Users\\USER\\OneDrive\\Desktop\\tunnel\\TUNNEL~1\\TC275\\erika\\inc/ee_compiler_gcc.h" 1
+# 63 "C:\\Users\\USER\\OneDrive\\Desktop\\tunnel\\TUNNEL~1\\TC275\\erika\\inc/ee_compiler_gcc.h"
+# 1 "C:\\Users\\USER\\OneDrive\\Desktop\\tunnel\\TUNNEL~1\\TC275\\erika\\inc/ee_arch_compiler_gcc.h" 1
+# 64 "C:\\Users\\USER\\OneDrive\\Desktop\\tunnel\\TUNNEL~1\\TC275\\erika\\inc/ee_compiler_gcc.h" 2
+# 59 "C:\\Users\\USER\\OneDrive\\Desktop\\tunnel\\TUNNEL~1\\TC275\\erika\\inc/ee_compiler_cfg.h" 2
+# 60 "C:\\Users\\USER\\OneDrive\\Desktop\\tunnel\\TUNNEL~1\\TC275\\erika\\inc/ee_compiler.h" 2
+# 62 "C:\\Users\\USER\\OneDrive\\Desktop\\tunnel\\TUNNEL~1\\TC275\\erika\\inc/ee_platform_types.h" 2
 # 1 "c:\\hightec\\toolchains\\tricore\\v4.9.3.0-infineon-1.0\\lib\\gcc\\tricore\\4.9.4\\include-fixed\\limits.h" 1 3 4
-# 63 "C:\\Users\\USER\\Desktop\\WORKSP~1\\TUNNEL~1\\TC275\\erika\\inc/ee_platform_types.h" 2
+# 63 "C:\\Users\\USER\\OneDrive\\Desktop\\tunnel\\TUNNEL~1\\TC275\\erika\\inc/ee_platform_types.h" 2
 # 1 "c:\\hightec\\toolchains\\tricore\\v4.9.3.0-infineon-1.0\\lib\\gcc\\tricore\\4.9.4\\include\\stddef.h" 1 3 4
 # 147 "c:\\hightec\\toolchains\\tricore\\v4.9.3.0-infineon-1.0\\lib\\gcc\\tricore\\4.9.4\\include\\stddef.h" 3 4
 typedef long int ptrdiff_t;
@@ -41,7 +41,11 @@ typedef long int ptrdiff_t;
 typedef long unsigned int size_t;
 # 324 "c:\\hightec\\toolchains\\tricore\\v4.9.3.0-infineon-1.0\\lib\\gcc\\tricore\\4.9.4\\include\\stddef.h" 3 4
 typedef int wchar_t;
+<<<<<<< HEAD
 # 64 "C:\\Users\\USER\\Desktop\\WORKSP~1\\TUNNEL~1\\TC275\\erika\\inc/ee_platform_types.h" 2
+=======
+# 64 "C:\\Users\\USER\\OneDrive\\Desktop\\tunnel\\TUNNEL~1\\TC275\\erika\\inc/ee_platform_types.h" 2
+>>>>>>> be21e51b86386d4de15222e011f8731305c64e39
 # 1 "c:\\hightec\\toolchains\\tricore\\v4.9.3.0-infineon-1.0\\tricore\\include\\stdint.h" 1 3
 # 41 "c:\\hightec\\toolchains\\tricore\\v4.9.3.0-infineon-1.0\\tricore\\include\\stdint.h" 3
 typedef signed char int8_t ;
@@ -104,7 +108,11 @@ typedef uint64_t uint_least64_t;
 # 243 "c:\\hightec\\toolchains\\tricore\\v4.9.3.0-infineon-1.0\\tricore\\include\\stdint.h" 3
 typedef signed long int intptr_t;
 typedef unsigned long int uintptr_t;
+<<<<<<< HEAD
 # 65 "C:\\Users\\USER\\Desktop\\WORKSP~1\\TUNNEL~1\\TC275\\erika\\inc/ee_platform_types.h" 2
+=======
+# 65 "C:\\Users\\USER\\OneDrive\\Desktop\\tunnel\\TUNNEL~1\\TC275\\erika\\inc/ee_platform_types.h" 2
+>>>>>>> be21e51b86386d4de15222e011f8731305c64e39
 
 
 
@@ -116,11 +124,16 @@ typedef enum {
   OSEE_FALSE = (0!=0),
   OSEE_TRUE = (0==0)
 } OsEE_bool;
+<<<<<<< HEAD
 # 90 "C:\\Users\\USER\\Desktop\\WORKSP~1\\TUNNEL~1\\TC275\\erika\\inc/ee_platform_types.h"
+=======
+# 90 "C:\\Users\\USER\\OneDrive\\Desktop\\tunnel\\TUNNEL~1\\TC275\\erika\\inc/ee_platform_types.h"
+>>>>>>> be21e51b86386d4de15222e011f8731305c64e39
 typedef void * OsEE_addr;
 typedef uint32_t OsEE_reg;
 typedef int32_t OsEE_sreg;
 typedef uint32_t OsEE_stack;
+<<<<<<< HEAD
 # 109 "C:\\Users\\USER\\Desktop\\WORKSP~1\\TUNNEL~1\\TC275\\erika\\inc/ee_platform_types.h"
 typedef enum {
   OS_CORE_ID_0 = 0,
@@ -130,12 +143,24 @@ typedef enum {
   OS_CODE_ID_INVALID = -1
 } OsEE_core_id;
 # 141 "C:\\Users\\USER\\Desktop\\WORKSP~1\\TUNNEL~1\\TC275\\erika\\inc/ee_platform_types.h"
+=======
+# 109 "C:\\Users\\USER\\OneDrive\\Desktop\\tunnel\\TUNNEL~1\\TC275\\erika\\inc/ee_platform_types.h"
+typedef enum {
+  OS_CORE_ID_0 = 0,
+  OS_CORE_ID_MASTER = OS_CORE_ID_0,
+# 128 "C:\\Users\\USER\\OneDrive\\Desktop\\tunnel\\TUNNEL~1\\TC275\\erika\\inc/ee_platform_types.h"
+  OS_CORE_ID_ARR_SIZE,
+  OS_CODE_ID_INVALID = -1
+} OsEE_core_id;
+# 141 "C:\\Users\\USER\\OneDrive\\Desktop\\tunnel\\TUNNEL~1\\TC275\\erika\\inc/ee_platform_types.h"
+>>>>>>> be21e51b86386d4de15222e011f8731305c64e39
 typedef uint8_t OsEE_prio;
 
 
 
 
 typedef uint16_t OsEE_isr_src_id;
+<<<<<<< HEAD
 # 58 "C:\\Users\\USER\\Desktop\\WORKSP~1\\TUNNEL~1\\TC275\\erika\\inc/ee.h" 2
 
 
@@ -145,11 +170,26 @@ typedef uint16_t OsEE_isr_src_id;
 # 63 "C:\\Users\\USER\\Desktop\\WORKSP~1\\TUNNEL~1\\TC275\\erika\\inc/ee_hal.h" 2
 # 1 "C:\\Users\\USER\\Desktop\\WORKSP~1\\TUNNEL~1\\TC275\\erika\\inc/ee_tc_trapvec.h" 1
 # 208 "C:\\Users\\USER\\Desktop\\WORKSP~1\\TUNNEL~1\\TC275\\erika\\inc/ee_tc_trapvec.h"
+=======
+# 58 "C:\\Users\\USER\\OneDrive\\Desktop\\tunnel\\TUNNEL~1\\TC275\\erika\\inc/ee.h" 2
+
+
+# 1 "C:\\Users\\USER\\OneDrive\\Desktop\\tunnel\\TUNNEL~1\\TC275\\erika\\inc/ee_hal.h" 1
+# 62 "C:\\Users\\USER\\OneDrive\\Desktop\\tunnel\\TUNNEL~1\\TC275\\erika\\inc/ee_hal.h"
+# 1 "C:\\Users\\USER\\OneDrive\\Desktop\\tunnel\\TUNNEL~1\\TC275\\erika\\inc/ee_hal_irq.h" 1
+# 63 "C:\\Users\\USER\\OneDrive\\Desktop\\tunnel\\TUNNEL~1\\TC275\\erika\\inc/ee_hal.h" 2
+# 1 "C:\\Users\\USER\\OneDrive\\Desktop\\tunnel\\TUNNEL~1\\TC275\\erika\\inc/ee_tc_trapvec.h" 1
+# 208 "C:\\Users\\USER\\OneDrive\\Desktop\\tunnel\\TUNNEL~1\\TC275\\erika\\inc/ee_tc_trapvec.h"
+>>>>>>> be21e51b86386d4de15222e011f8731305c64e39
 typedef uint8_t OsEE_tc_tin;
 
 
 typedef void (* OsEE_tc_trap_handler)(OsEE_tc_tin par);
+<<<<<<< HEAD
 # 225 "C:\\Users\\USER\\Desktop\\WORKSP~1\\TUNNEL~1\\TC275\\erika\\inc/ee_tc_trapvec.h"
+=======
+# 225 "C:\\Users\\USER\\OneDrive\\Desktop\\tunnel\\TUNNEL~1\\TC275\\erika\\inc/ee_tc_trapvec.h"
+>>>>>>> be21e51b86386d4de15222e011f8731305c64e39
 static inline OsEE_tc_tin osEE_tc_get_tin(void)
 {
   OsEE_tc_tin tin;
@@ -158,12 +198,21 @@ static inline OsEE_tc_tin osEE_tc_get_tin(void)
 
   return tin;
 }
+<<<<<<< HEAD
 # 64 "C:\\Users\\USER\\Desktop\\WORKSP~1\\TUNNEL~1\\TC275\\erika\\inc/ee_hal.h" 2
 # 139 "C:\\Users\\USER\\Desktop\\WORKSP~1\\TUNNEL~1\\TC275\\erika\\inc/ee_hal.h"
 static inline OsEE_reg __attribute__((always_inline)) osEE_tc_clz(OsEE_reg reg) {
   return (OsEE_reg)__builtin_clz(reg);
 }
 # 150 "C:\\Users\\USER\\Desktop\\WORKSP~1\\TUNNEL~1\\TC275\\erika\\inc/ee_hal.h"
+=======
+# 64 "C:\\Users\\USER\\OneDrive\\Desktop\\tunnel\\TUNNEL~1\\TC275\\erika\\inc/ee_hal.h" 2
+# 139 "C:\\Users\\USER\\OneDrive\\Desktop\\tunnel\\TUNNEL~1\\TC275\\erika\\inc/ee_hal.h"
+static inline OsEE_reg __attribute__((always_inline)) osEE_tc_clz(OsEE_reg reg) {
+  return (OsEE_reg)__builtin_clz(reg);
+}
+# 150 "C:\\Users\\USER\\OneDrive\\Desktop\\tunnel\\TUNNEL~1\\TC275\\erika\\inc/ee_hal.h"
+>>>>>>> be21e51b86386d4de15222e011f8731305c64e39
 static inline OsEE_stack * __attribute__((always_inline)) osEE_get_SP(void)
 {
   OsEE_stack * sp = ((void *)0);
@@ -176,7 +225,11 @@ static inline OsEE_stack * __attribute__((always_inline)) osEE_get_SP(void)
 static inline void __attribute__((always_inline)) osEE_tc_dsync(void) {
   __asm__ volatile ("dsync" : : : "memory");
 }
+<<<<<<< HEAD
 # 211 "C:\\Users\\USER\\Desktop\\WORKSP~1\\TUNNEL~1\\TC275\\erika\\inc/ee_hal.h"
+=======
+# 211 "C:\\Users\\USER\\OneDrive\\Desktop\\tunnel\\TUNNEL~1\\TC275\\erika\\inc/ee_hal.h"
+>>>>>>> be21e51b86386d4de15222e011f8731305c64e39
 static inline void __attribute__((always_inline)) osEE_tc_debug(void) {
   __asm__ volatile ("debug" : : : "memory");
 }
@@ -218,47 +271,76 @@ static inline OsEE_reg __attribute__((always_inline))
   );
   return res;
 }
+<<<<<<< HEAD
 # 278 "C:\\Users\\USER\\Desktop\\WORKSP~1\\TUNNEL~1\\TC275\\erika\\inc/ee_hal.h"
+=======
+# 278 "C:\\Users\\USER\\OneDrive\\Desktop\\tunnel\\TUNNEL~1\\TC275\\erika\\inc/ee_hal.h"
+>>>>>>> be21e51b86386d4de15222e011f8731305c64e39
 static inline void __attribute__((always_inline))
   osEE_mmio_write8(OsEE_reg addr, uint8_t value)
 {
   (*(uint8_t volatile *)addr) = value;
 }
+<<<<<<< HEAD
 # 292 "C:\\Users\\USER\\Desktop\\WORKSP~1\\TUNNEL~1\\TC275\\erika\\inc/ee_hal.h"
+=======
+# 292 "C:\\Users\\USER\\OneDrive\\Desktop\\tunnel\\TUNNEL~1\\TC275\\erika\\inc/ee_hal.h"
+>>>>>>> be21e51b86386d4de15222e011f8731305c64e39
 static inline void __attribute__((always_inline))
   osEE_mmio_write16(OsEE_reg addr, uint16_t value)
 {
   (*(uint16_t volatile *)addr) = value;
 }
+<<<<<<< HEAD
 # 306 "C:\\Users\\USER\\Desktop\\WORKSP~1\\TUNNEL~1\\TC275\\erika\\inc/ee_hal.h"
+=======
+# 306 "C:\\Users\\USER\\OneDrive\\Desktop\\tunnel\\TUNNEL~1\\TC275\\erika\\inc/ee_hal.h"
+>>>>>>> be21e51b86386d4de15222e011f8731305c64e39
 static inline void __attribute__((always_inline))
   osEE_mmio_write32(OsEE_reg addr, uint32_t value)
 {
   (*(uint32_t volatile *)addr) = value;
 }
+<<<<<<< HEAD
 # 320 "C:\\Users\\USER\\Desktop\\WORKSP~1\\TUNNEL~1\\TC275\\erika\\inc/ee_hal.h"
+=======
+# 320 "C:\\Users\\USER\\OneDrive\\Desktop\\tunnel\\TUNNEL~1\\TC275\\erika\\inc/ee_hal.h"
+>>>>>>> be21e51b86386d4de15222e011f8731305c64e39
 static inline uint8_t __attribute__((always_inline))
   osEE_mmio_read8(OsEE_reg addr)
 {
   return (*(uint8_t volatile *)addr);
 }
+<<<<<<< HEAD
 # 334 "C:\\Users\\USER\\Desktop\\WORKSP~1\\TUNNEL~1\\TC275\\erika\\inc/ee_hal.h"
+=======
+# 334 "C:\\Users\\USER\\OneDrive\\Desktop\\tunnel\\TUNNEL~1\\TC275\\erika\\inc/ee_hal.h"
+>>>>>>> be21e51b86386d4de15222e011f8731305c64e39
 static inline uint16_t __attribute__((always_inline))
   osEE_mmio_read16(OsEE_reg addr)
 {
   return (*(uint16_t volatile *)addr);
 }
+<<<<<<< HEAD
 # 348 "C:\\Users\\USER\\Desktop\\WORKSP~1\\TUNNEL~1\\TC275\\erika\\inc/ee_hal.h"
+=======
+# 348 "C:\\Users\\USER\\OneDrive\\Desktop\\tunnel\\TUNNEL~1\\TC275\\erika\\inc/ee_hal.h"
+>>>>>>> be21e51b86386d4de15222e011f8731305c64e39
 static inline uint32_t __attribute__((always_inline))
   osEE_mmio_read32(OsEE_reg addr)
 {
   return (*(uint32_t volatile *)addr);
 }
+<<<<<<< HEAD
 # 365 "C:\\Users\\USER\\Desktop\\WORKSP~1\\TUNNEL~1\\TC275\\erika\\inc/ee_hal.h"
+=======
+# 365 "C:\\Users\\USER\\OneDrive\\Desktop\\tunnel\\TUNNEL~1\\TC275\\erika\\inc/ee_hal.h"
+>>>>>>> be21e51b86386d4de15222e011f8731305c64e39
 static inline OsEE_core_id __attribute__((always_inline)) osEE_get_curr_core_id(void)
 {
   return (OsEE_core_id)(__extension__({ OsEE_reg reg; __asm__ volatile ( "mfcr %0, LO:%1" : "=d" (reg) : "i" ((0xFE1CU)) : "memory" ); reg; }));
 }
+<<<<<<< HEAD
 # 61 "C:\\Users\\USER\\Desktop\\WORKSP~1\\TUNNEL~1\\TC275\\erika\\inc/ee.h" 2
 
 # 1 "C:\\Users\\USER\\Desktop\\WORKSP~1\\TUNNEL~1\\TC275\\erika\\inc/ee_tc_system.h" 1
@@ -270,6 +352,19 @@ static inline OsEE_core_id __attribute__((always_inline)) osEE_get_curr_core_id(
 typedef union {
   OsEE_reg reg;
 # 93 "C:\\Users\\USER\\Desktop\\WORKSP~1\\TUNNEL~1\\TC275\\erika\\inc/ee_hal_internal_types.h"
+=======
+# 61 "C:\\Users\\USER\\OneDrive\\Desktop\\tunnel\\TUNNEL~1\\TC275\\erika\\inc/ee.h" 2
+
+# 1 "C:\\Users\\USER\\OneDrive\\Desktop\\tunnel\\TUNNEL~1\\TC275\\erika\\inc/ee_tc_system.h" 1
+# 55 "C:\\Users\\USER\\OneDrive\\Desktop\\tunnel\\TUNNEL~1\\TC275\\erika\\inc/ee_tc_system.h"
+# 1 "C:\\Users\\USER\\OneDrive\\Desktop\\tunnel\\TUNNEL~1\\TC275\\erika\\inc/ee_tc_csfr.h" 1
+# 56 "C:\\Users\\USER\\OneDrive\\Desktop\\tunnel\\TUNNEL~1\\TC275\\erika\\inc/ee_tc_system.h" 2
+# 1 "C:\\Users\\USER\\OneDrive\\Desktop\\tunnel\\TUNNEL~1\\TC275\\erika\\inc/ee_hal_internal_types.h" 1
+# 78 "C:\\Users\\USER\\OneDrive\\Desktop\\tunnel\\TUNNEL~1\\TC275\\erika\\inc/ee_hal_internal_types.h"
+typedef union {
+  OsEE_reg reg;
+# 93 "C:\\Users\\USER\\OneDrive\\Desktop\\tunnel\\TUNNEL~1\\TC275\\erika\\inc/ee_hal_internal_types.h"
+>>>>>>> be21e51b86386d4de15222e011f8731305c64e39
 struct {
     unsigned int cdc :7;
     unsigned int cde :1;
@@ -375,7 +470,11 @@ typedef union {
     unsigned int :8;
   } bits;
 } OsEE_icr;
+<<<<<<< HEAD
 # 214 "C:\\Users\\USER\\Desktop\\WORKSP~1\\TUNNEL~1\\TC275\\erika\\inc/ee_hal_internal_types.h"
+=======
+# 214 "C:\\Users\\USER\\OneDrive\\Desktop\\tunnel\\TUNNEL~1\\TC275\\erika\\inc/ee_hal_internal_types.h"
+>>>>>>> be21e51b86386d4de15222e011f8731305c64e39
 typedef union {
   OsEE_reg reg;
   struct {
@@ -394,7 +493,11 @@ typedef union {
     unsigned int :7;
   } bits;
 } OsEE_syscon;
+<<<<<<< HEAD
 # 243 "C:\\Users\\USER\\Desktop\\WORKSP~1\\TUNNEL~1\\TC275\\erika\\inc/ee_hal_internal_types.h"
+=======
+# 243 "C:\\Users\\USER\\OneDrive\\Desktop\\tunnel\\TUNNEL~1\\TC275\\erika\\inc/ee_hal_internal_types.h"
+>>>>>>> be21e51b86386d4de15222e011f8731305c64e39
 typedef struct OsEE_CTX_tag {
   struct OsEE_CTX_tag * p_ctx;
   OsEE_reg dummy;
@@ -426,12 +529,21 @@ typedef struct {
 
 
 } const OsEE_HDB;
+<<<<<<< HEAD
 # 57 "C:\\Users\\USER\\Desktop\\WORKSP~1\\TUNNEL~1\\TC275\\erika\\inc/ee_tc_system.h" 2
 # 1 "C:\\Users\\USER\\Desktop\\WORKSP~1\\TUNNEL~1\\TC275\\erika\\inc/ee_tc_src.h" 1
 # 58 "C:\\Users\\USER\\Desktop\\WORKSP~1\\TUNNEL~1\\TC275\\erika\\inc/ee_tc_system.h" 2
 # 102 "C:\\Users\\USER\\Desktop\\WORKSP~1\\TUNNEL~1\\TC275\\erika\\inc/ee_tc_system.h"
 typedef uint8_t OsEE_tc_isr_hw_prio;
 # 155 "C:\\Users\\USER\\Desktop\\WORKSP~1\\TUNNEL~1\\TC275\\erika\\inc/ee_tc_system.h"
+=======
+# 57 "C:\\Users\\USER\\OneDrive\\Desktop\\tunnel\\TUNNEL~1\\TC275\\erika\\inc/ee_tc_system.h" 2
+# 1 "C:\\Users\\USER\\OneDrive\\Desktop\\tunnel\\TUNNEL~1\\TC275\\erika\\inc/ee_tc_src.h" 1
+# 58 "C:\\Users\\USER\\OneDrive\\Desktop\\tunnel\\TUNNEL~1\\TC275\\erika\\inc/ee_tc_system.h" 2
+# 102 "C:\\Users\\USER\\OneDrive\\Desktop\\tunnel\\TUNNEL~1\\TC275\\erika\\inc/ee_tc_system.h"
+typedef uint8_t OsEE_tc_isr_hw_prio;
+# 155 "C:\\Users\\USER\\OneDrive\\Desktop\\tunnel\\TUNNEL~1\\TC275\\erika\\inc/ee_tc_system.h"
+>>>>>>> be21e51b86386d4de15222e011f8731305c64e39
 typedef struct OsEE_tc_SCU_WDTCPU_CON0_bits_tag
 {
 
@@ -604,7 +716,11 @@ typedef struct OsEE_tc_SCU_WDTS_tag
 
   OsEE_tc_SCU_WDTS_SR sr;
 } OsEE_tc_SCU_WDTS;
+<<<<<<< HEAD
 # 360 "C:\\Users\\USER\\Desktop\\WORKSP~1\\TUNNEL~1\\TC275\\erika\\inc/ee_tc_system.h"
+=======
+# 360 "C:\\Users\\USER\\OneDrive\\Desktop\\tunnel\\TUNNEL~1\\TC275\\erika\\inc/ee_tc_system.h"
+>>>>>>> be21e51b86386d4de15222e011f8731305c64e39
 static inline uint16_t __attribute__((always_inline))
   osEE_tc_get_cpu_wdt_pw(OsEE_reg core_index)
 {
@@ -705,7 +821,11 @@ static inline void __attribute__((always_inline))
     ;
   }
 }
+<<<<<<< HEAD
 # 469 "C:\\Users\\USER\\Desktop\\WORKSP~1\\TUNNEL~1\\TC275\\erika\\inc/ee_tc_system.h"
+=======
+# 469 "C:\\Users\\USER\\OneDrive\\Desktop\\tunnel\\TUNNEL~1\\TC275\\erika\\inc/ee_tc_system.h"
+>>>>>>> be21e51b86386d4de15222e011f8731305c64e39
 static inline void __attribute__((always_inline))
   osEE_tc_disable_cpu_wdt(OsEE_reg core_index, uint16_t pw)
 {
@@ -714,7 +834,11 @@ static inline void __attribute__((always_inline))
   (*((OsEE_tc_SCU_WDTCPU volatile (*)[(3U)]) ((0xF0036000U) + (0x00000100U)) ) )[core_index].con1.bits.dr = 1U;
   osEE_tc_set_cpu_endinit(core_index, pw);
 }
+<<<<<<< HEAD
 # 495 "C:\\Users\\USER\\Desktop\\WORKSP~1\\TUNNEL~1\\TC275\\erika\\inc/ee_tc_system.h"
+=======
+# 495 "C:\\Users\\USER\\OneDrive\\Desktop\\tunnel\\TUNNEL~1\\TC275\\erika\\inc/ee_tc_system.h"
+>>>>>>> be21e51b86386d4de15222e011f8731305c64e39
 static inline void __attribute__((always_inline))
   osEE_tc_clear_safety_endinit(uint16_t pw)
 {
@@ -781,7 +905,11 @@ static inline void __attribute__((always_inline))
     ;
   }
 }
+<<<<<<< HEAD
 # 569 "C:\\Users\\USER\\Desktop\\WORKSP~1\\TUNNEL~1\\TC275\\erika\\inc/ee_tc_system.h"
+=======
+# 569 "C:\\Users\\USER\\OneDrive\\Desktop\\tunnel\\TUNNEL~1\\TC275\\erika\\inc/ee_tc_system.h"
+>>>>>>> be21e51b86386d4de15222e011f8731305c64e39
 static inline void __attribute__((always_inline))
   osEE_tc_disable_safety_wdt(uint16_t pw)
 {
@@ -790,7 +918,11 @@ static inline void __attribute__((always_inline))
   (*((OsEE_tc_SCU_WDTS volatile *) ((0xF0036000U) + (0x000000F0U)) ) ).con1.bits.dr = 1U;
   osEE_tc_set_safety_endinit(pw);
 }
+<<<<<<< HEAD
 # 598 "C:\\Users\\USER\\Desktop\\WORKSP~1\\TUNNEL~1\\TC275\\erika\\inc/ee_tc_system.h"
+=======
+# 598 "C:\\Users\\USER\\OneDrive\\Desktop\\tunnel\\TUNNEL~1\\TC275\\erika\\inc/ee_tc_system.h"
+>>>>>>> be21e51b86386d4de15222e011f8731305c64e39
 static inline void __attribute__((always_inline)) osEE_tc_set_pcache(OsEE_bool enable)
 {
   uint16_t cpu_wdt_pw;
@@ -850,7 +982,11 @@ static inline void __attribute__((always_inline)) osEE_tc_set_dcache(OsEE_bool e
   __asm__ volatile ( "mtcr LO:%0, %1\n\t" "isync" : : "i" ((0x9040U)), "d" (dcon0) : "memory" );
   osEE_tc_set_cpu_endinit(core_index, cpu_wdt_pw);
 }
+<<<<<<< HEAD
 # 667 "C:\\Users\\USER\\Desktop\\WORKSP~1\\TUNNEL~1\\TC275\\erika\\inc/ee_tc_system.h"
+=======
+# 667 "C:\\Users\\USER\\OneDrive\\Desktop\\tunnel\\TUNNEL~1\\TC275\\erika\\inc/ee_tc_system.h"
+>>>>>>> be21e51b86386d4de15222e011f8731305c64e39
 static inline void __attribute__((always_inline))
   osEE_tc_csa_init_inline
 (
@@ -867,7 +1003,11 @@ static inline void __attribute__((always_inline))
 
 
   OsEE_reg pcxi_val = 0U;
+<<<<<<< HEAD
 # 692 "C:\\Users\\USER\\Desktop\\WORKSP~1\\TUNNEL~1\\TC275\\erika\\inc/ee_tc_system.h"
+=======
+# 692 "C:\\Users\\USER\\OneDrive\\Desktop\\tunnel\\TUNNEL~1\\TC275\\erika\\inc/ee_tc_system.h"
+>>>>>>> be21e51b86386d4de15222e011f8731305c64e39
   OsEE_reg fcd_needed_csa = 6U;
 
   size_t i;
@@ -906,7 +1046,11 @@ static inline void __attribute__((always_inline))
 
   __asm__ volatile ( "mtcr LO:%0, %1\n\t" "isync" : : "i" ((0xFE38U)), "d" (pcxi_val) : "memory" );
 }
+<<<<<<< HEAD
 # 816 "C:\\Users\\USER\\Desktop\\WORKSP~1\\TUNNEL~1\\TC275\\erika\\inc/ee_tc_system.h"
+=======
+# 816 "C:\\Users\\USER\\OneDrive\\Desktop\\tunnel\\TUNNEL~1\\TC275\\erika\\inc/ee_tc_system.h"
+>>>>>>> be21e51b86386d4de15222e011f8731305c64e39
 typedef struct OsEE_tc_STM_CMCON_bits_tag
 {
 
@@ -932,7 +1076,11 @@ typedef union OsEE_tc_STM_CMCON_tag {
   OsEE_reg reg;
   OsEE_tc_STM_CMCON_bits bits;
 } OsEE_tc_STM_CMCON;
+<<<<<<< HEAD
 # 854 "C:\\Users\\USER\\Desktop\\WORKSP~1\\TUNNEL~1\\TC275\\erika\\inc/ee_tc_system.h"
+=======
+# 854 "C:\\Users\\USER\\OneDrive\\Desktop\\tunnel\\TUNNEL~1\\TC275\\erika\\inc/ee_tc_system.h"
+>>>>>>> be21e51b86386d4de15222e011f8731305c64e39
 typedef struct OsEE_tc_STM_ICR_bits_tag
 {
 
@@ -958,19 +1106,31 @@ typedef union OsEE_tc_STM_ICR_tag {
   OsEE_reg reg;
   OsEE_tc_STM_ICR_bits bits;
 } OsEE_tc_STM_ICR;
+<<<<<<< HEAD
 # 899 "C:\\Users\\USER\\Desktop\\WORKSP~1\\TUNNEL~1\\TC275\\erika\\inc/ee_tc_system.h"
+=======
+# 899 "C:\\Users\\USER\\OneDrive\\Desktop\\tunnel\\TUNNEL~1\\TC275\\erika\\inc/ee_tc_system.h"
+>>>>>>> be21e51b86386d4de15222e011f8731305c64e39
 static inline OsEE_reg __attribute__((always_inline))
   osEE_tc_stm_get_time_lower_word(OsEE_reg stm_id)
 {
   return (*(OsEE_reg volatile *)((0xF0000000U) + (((((OsEE_reg)(stm_id))) & (0x3U)) * 0x100U) + (((0x10U)) & 0xFFU)));
 }
+<<<<<<< HEAD
 # 913 "C:\\Users\\USER\\Desktop\\WORKSP~1\\TUNNEL~1\\TC275\\erika\\inc/ee_tc_system.h"
+=======
+# 913 "C:\\Users\\USER\\OneDrive\\Desktop\\tunnel\\TUNNEL~1\\TC275\\erika\\inc/ee_tc_system.h"
+>>>>>>> be21e51b86386d4de15222e011f8731305c64e39
 static inline OsEE_reg __attribute__((always_inline))
   osEE_tc_stm_get_time_upper_word(OsEE_reg stm_id)
 {
   return (*(OsEE_reg volatile *)((0xF0000000U) + (((((OsEE_reg)(stm_id))) & (0x3U)) * 0x100U) + (((0x2CU)) & 0xFFU)));
 }
+<<<<<<< HEAD
 # 926 "C:\\Users\\USER\\Desktop\\WORKSP~1\\TUNNEL~1\\TC275\\erika\\inc/ee_tc_system.h"
+=======
+# 926 "C:\\Users\\USER\\OneDrive\\Desktop\\tunnel\\TUNNEL~1\\TC275\\erika\\inc/ee_tc_system.h"
+>>>>>>> be21e51b86386d4de15222e011f8731305c64e39
 static inline void __attribute__((always_inline))
   osEE_tc_stm_ocds_suspend_control(OsEE_reg stm_id)
 {
@@ -983,9 +1143,15 @@ static inline void __attribute__((always_inline))
 
 
 void osEE_tc_delay(OsEE_reg usec);
+<<<<<<< HEAD
 # 964 "C:\\Users\\USER\\Desktop\\WORKSP~1\\TUNNEL~1\\TC275\\erika\\inc/ee_tc_system.h"
 extern void osEE_tc_stm_set_clockpersec(void);
 # 977 "C:\\Users\\USER\\Desktop\\WORKSP~1\\TUNNEL~1\\TC275\\erika\\inc/ee_tc_system.h"
+=======
+# 964 "C:\\Users\\USER\\OneDrive\\Desktop\\tunnel\\TUNNEL~1\\TC275\\erika\\inc/ee_tc_system.h"
+extern void osEE_tc_stm_set_clockpersec(void);
+# 977 "C:\\Users\\USER\\OneDrive\\Desktop\\tunnel\\TUNNEL~1\\TC275\\erika\\inc/ee_tc_system.h"
+>>>>>>> be21e51b86386d4de15222e011f8731305c64e39
 void osEE_tc_stm_set_sr0(OsEE_reg usec, OsEE_tc_isr_hw_prio intvec);
 
 
@@ -994,7 +1160,11 @@ void osEE_tc_stm_set_sr0(OsEE_reg usec, OsEE_tc_isr_hw_prio intvec);
 
 
 void osEE_tc_stm_set_sr0_next_match(OsEE_reg usec);
+<<<<<<< HEAD
 # 996 "C:\\Users\\USER\\Desktop\\WORKSP~1\\TUNNEL~1\\TC275\\erika\\inc/ee_tc_system.h"
+=======
+# 996 "C:\\Users\\USER\\OneDrive\\Desktop\\tunnel\\TUNNEL~1\\TC275\\erika\\inc/ee_tc_system.h"
+>>>>>>> be21e51b86386d4de15222e011f8731305c64e39
 void osEE_tc_stm_set_sr1(OsEE_reg usec, OsEE_tc_isr_hw_prio intvec);
 
 
@@ -1003,7 +1173,11 @@ void osEE_tc_stm_set_sr1(OsEE_reg usec, OsEE_tc_isr_hw_prio intvec);
 
 
 void osEE_tc_stm_set_sr1_next_match(OsEE_reg usec);
+<<<<<<< HEAD
 # 1128 "C:\\Users\\USER\\Desktop\\WORKSP~1\\TUNNEL~1\\TC275\\erika\\inc/ee_tc_system.h"
+=======
+# 1128 "C:\\Users\\USER\\OneDrive\\Desktop\\tunnel\\TUNNEL~1\\TC275\\erika\\inc/ee_tc_system.h"
+>>>>>>> be21e51b86386d4de15222e011f8731305c64e39
 typedef struct
 {
 
@@ -1074,7 +1248,11 @@ typedef union {
   OsEE_reg reg;
   OsEE_tc_SCU_PLLSTAT_bits bits;
 } OsEE_tc_SCU_PLLSTAT;
+<<<<<<< HEAD
 # 1206 "C:\\Users\\USER\\Desktop\\WORKSP~1\\TUNNEL~1\\TC275\\erika\\inc/ee_tc_system.h"
+=======
+# 1206 "C:\\Users\\USER\\OneDrive\\Desktop\\tunnel\\TUNNEL~1\\TC275\\erika\\inc/ee_tc_system.h"
+>>>>>>> be21e51b86386d4de15222e011f8731305c64e39
 typedef struct
 {
 
@@ -1114,7 +1292,11 @@ typedef union {
   OsEE_reg reg;
   OsEE_tc_SCU_PLLCON0_bits bits;
 } OsEE_tc_SCU_PLLCON0;
+<<<<<<< HEAD
 # 1253 "C:\\Users\\USER\\Desktop\\WORKSP~1\\TUNNEL~1\\TC275\\erika\\inc/ee_tc_system.h"
+=======
+# 1253 "C:\\Users\\USER\\OneDrive\\Desktop\\tunnel\\TUNNEL~1\\TC275\\erika\\inc/ee_tc_system.h"
+>>>>>>> be21e51b86386d4de15222e011f8731305c64e39
 typedef struct
 {
 
@@ -1136,7 +1318,11 @@ typedef union {
   OsEE_reg reg;
   OsEE_tc_SCU_PLLCON1_bits bits;
 } OsEE_tc_SCU_PLLCON1;
+<<<<<<< HEAD
 # 1282 "C:\\Users\\USER\\Desktop\\WORKSP~1\\TUNNEL~1\\TC275\\erika\\inc/ee_tc_system.h"
+=======
+# 1282 "C:\\Users\\USER\\OneDrive\\Desktop\\tunnel\\TUNNEL~1\\TC275\\erika\\inc/ee_tc_system.h"
+>>>>>>> be21e51b86386d4de15222e011f8731305c64e39
 typedef struct
 {
 
@@ -1164,7 +1350,11 @@ typedef struct
 
   unsigned int lck : 1;
 } OsEE_tc_SCU_CCUCON0_bits;
+<<<<<<< HEAD
 # 1347 "C:\\Users\\USER\\Desktop\\WORKSP~1\\TUNNEL~1\\TC275\\erika\\inc/ee_tc_system.h"
+=======
+# 1347 "C:\\Users\\USER\\OneDrive\\Desktop\\tunnel\\TUNNEL~1\\TC275\\erika\\inc/ee_tc_system.h"
+>>>>>>> be21e51b86386d4de15222e011f8731305c64e39
 typedef struct
 {
 
@@ -1188,28 +1378,48 @@ typedef struct
 
   unsigned int lck : 1;
 } OsEE_tc_SCU_CCUCON1_bits;
+<<<<<<< HEAD
 # 1684 "C:\\Users\\USER\\Desktop\\WORKSP~1\\TUNNEL~1\\TC275\\erika\\inc/ee_tc_system.h"
+=======
+# 1684 "C:\\Users\\USER\\OneDrive\\Desktop\\tunnel\\TUNNEL~1\\TC275\\erika\\inc/ee_tc_system.h"
+>>>>>>> be21e51b86386d4de15222e011f8731305c64e39
 typedef union {
   OsEE_reg reg;
   OsEE_tc_SCU_OSCCON_bits bits;
 } OsEE_tc_SCU_OSCCON;
+<<<<<<< HEAD
 # 1716 "C:\\Users\\USER\\Desktop\\WORKSP~1\\TUNNEL~1\\TC275\\erika\\inc/ee_tc_system.h"
+=======
+# 1716 "C:\\Users\\USER\\OneDrive\\Desktop\\tunnel\\TUNNEL~1\\TC275\\erika\\inc/ee_tc_system.h"
+>>>>>>> be21e51b86386d4de15222e011f8731305c64e39
 typedef union {
   OsEE_reg reg;
   OsEE_tc_SCU_CCUCON0_bits bits;
 } OsEE_tc_SCU_CCUCON0;
+<<<<<<< HEAD
 # 1728 "C:\\Users\\USER\\Desktop\\WORKSP~1\\TUNNEL~1\\TC275\\erika\\inc/ee_tc_system.h"
+=======
+# 1728 "C:\\Users\\USER\\OneDrive\\Desktop\\tunnel\\TUNNEL~1\\TC275\\erika\\inc/ee_tc_system.h"
+>>>>>>> be21e51b86386d4de15222e011f8731305c64e39
 typedef union {
   OsEE_reg reg;
   OsEE_tc_SCU_CCUCON1_bits bits;
 } OsEE_tc_SCU_CCUCON1;
+<<<<<<< HEAD
 # 1744 "C:\\Users\\USER\\Desktop\\WORKSP~1\\TUNNEL~1\\TC275\\erika\\inc/ee_tc_system.h"
+=======
+# 1744 "C:\\Users\\USER\\OneDrive\\Desktop\\tunnel\\TUNNEL~1\\TC275\\erika\\inc/ee_tc_system.h"
+>>>>>>> be21e51b86386d4de15222e011f8731305c64e39
 OsEE_reg osEE_tc_get_fsource(void);
 
 
 
 static inline void __attribute__((always_inline)) osEE_tc_conf_clock_ctrl(void) {
+<<<<<<< HEAD
 # 1763 "C:\\Users\\USER\\Desktop\\WORKSP~1\\TUNNEL~1\\TC275\\erika\\inc/ee_tc_system.h"
+=======
+# 1763 "C:\\Users\\USER\\OneDrive\\Desktop\\tunnel\\TUNNEL~1\\TC275\\erika\\inc/ee_tc_system.h"
+>>>>>>> be21e51b86386d4de15222e011f8731305c64e39
   (*(OsEE_tc_SCU_CCUCON0 volatile *) ((0xF0036000U) + ((0x30U))) ).reg = ((((OsEE_reg)(1U)) & (OsEE_reg)0xFU) | ((((OsEE_reg)(1U)) & (OsEE_reg)0xFU) << 8U) | (((((OsEE_reg)(2U)) & (OsEE_reg)0xFU) == 1U)? ((OsEE_reg)0x2U << 16U): ((((OsEE_reg)(2U)) & (OsEE_reg)0xFU) << 16U)) | ((((OsEE_reg)(2U)) & (OsEE_reg)0x3U) << 20U) | ((((OsEE_reg)(2U)) & (OsEE_reg)0x3U) << 24U) | ((((OsEE_reg)(1U)) & (OsEE_reg)0x1U) << 28U) );
 
 
@@ -1252,6 +1462,7 @@ static inline void __attribute__((always_inline)) osEE_tc_conf_osc_ctrl(void)
 
 
 void osEE_tc_set_pll_fsource(OsEE_reg fpll);
+<<<<<<< HEAD
 # 63 "C:\\Users\\USER\\Desktop\\WORKSP~1\\TUNNEL~1\\TC275\\erika\\inc/ee.h" 2
 
 # 1 "C:\\Users\\USER\\Desktop\\WORKSP~1\\TUNNEL~1\\TC275\\erika\\inc/ee_hal_mc.h" 1
@@ -1264,6 +1475,20 @@ typedef uint8_t AppModeType;
 # 120 "C:\\Users\\USER\\Desktop\\WORKSP~1\\TUNNEL~1\\TC275\\erika\\inc/ee_api_types.h"
 typedef OsEE_reg TaskType;
 # 129 "C:\\Users\\USER\\Desktop\\WORKSP~1\\TUNNEL~1\\TC275\\erika\\inc/ee_api_types.h"
+=======
+# 63 "C:\\Users\\USER\\OneDrive\\Desktop\\tunnel\\TUNNEL~1\\TC275\\erika\\inc/ee.h" 2
+
+# 1 "C:\\Users\\USER\\OneDrive\\Desktop\\tunnel\\TUNNEL~1\\TC275\\erika\\inc/ee_hal_mc.h" 1
+# 65 "C:\\Users\\USER\\OneDrive\\Desktop\\tunnel\\TUNNEL~1\\TC275\\erika\\inc/ee.h" 2
+# 1 "C:\\Users\\USER\\OneDrive\\Desktop\\tunnel\\TUNNEL~1\\TC275\\erika\\inc/ee_api.h" 1
+# 59 "C:\\Users\\USER\\OneDrive\\Desktop\\tunnel\\TUNNEL~1\\TC275\\erika\\inc/ee_api.h"
+# 1 "C:\\Users\\USER\\OneDrive\\Desktop\\tunnel\\TUNNEL~1\\TC275\\erika\\inc/ee_api_types.h" 1
+# 96 "C:\\Users\\USER\\OneDrive\\Desktop\\tunnel\\TUNNEL~1\\TC275\\erika\\inc/ee_api_types.h"
+typedef uint8_t AppModeType;
+# 120 "C:\\Users\\USER\\OneDrive\\Desktop\\tunnel\\TUNNEL~1\\TC275\\erika\\inc/ee_api_types.h"
+typedef OsEE_reg TaskType;
+# 129 "C:\\Users\\USER\\OneDrive\\Desktop\\tunnel\\TUNNEL~1\\TC275\\erika\\inc/ee_api_types.h"
+>>>>>>> be21e51b86386d4de15222e011f8731305c64e39
 typedef OsEE_reg ISRType;
 
 
@@ -1271,6 +1496,7 @@ typedef OsEE_reg ISRType;
 
 
 typedef TaskType * TaskRefType;
+<<<<<<< HEAD
 # 200 "C:\\Users\\USER\\Desktop\\WORKSP~1\\TUNNEL~1\\TC275\\erika\\inc/ee_api_types.h"
 typedef OsEE_prio TaskPrio;
 # 231 "C:\\Users\\USER\\Desktop\\WORKSP~1\\TUNNEL~1\\TC275\\erika\\inc/ee_api_types.h"
@@ -1286,6 +1512,23 @@ typedef OsEE_reg CoreMaskType;
 # 314 "C:\\Users\\USER\\Desktop\\WORKSP~1\\TUNNEL~1\\TC275\\erika\\inc/ee_api_types.h"
 typedef void (* TaskFunc) ( void );
 # 325 "C:\\Users\\USER\\Desktop\\WORKSP~1\\TUNNEL~1\\TC275\\erika\\inc/ee_api_types.h"
+=======
+# 200 "C:\\Users\\USER\\OneDrive\\Desktop\\tunnel\\TUNNEL~1\\TC275\\erika\\inc/ee_api_types.h"
+typedef OsEE_prio TaskPrio;
+# 231 "C:\\Users\\USER\\OneDrive\\Desktop\\tunnel\\TUNNEL~1\\TC275\\erika\\inc/ee_api_types.h"
+typedef OsEE_isr_src_id ISRSource;
+# 244 "C:\\Users\\USER\\OneDrive\\Desktop\\tunnel\\TUNNEL~1\\TC275\\erika\\inc/ee_api_types.h"
+typedef uint8_t TaskActivation;
+# 259 "C:\\Users\\USER\\OneDrive\\Desktop\\tunnel\\TUNNEL~1\\TC275\\erika\\inc/ee_api_types.h"
+typedef OsEE_core_id CoreIdType;
+# 282 "C:\\Users\\USER\\OneDrive\\Desktop\\tunnel\\TUNNEL~1\\TC275\\erika\\inc/ee_api_types.h"
+typedef uint8_t CoreNumType;
+# 298 "C:\\Users\\USER\\OneDrive\\Desktop\\tunnel\\TUNNEL~1\\TC275\\erika\\inc/ee_api_types.h"
+typedef OsEE_reg CoreMaskType;
+# 314 "C:\\Users\\USER\\OneDrive\\Desktop\\tunnel\\TUNNEL~1\\TC275\\erika\\inc/ee_api_types.h"
+typedef void (* TaskFunc) ( void );
+# 325 "C:\\Users\\USER\\OneDrive\\Desktop\\tunnel\\TUNNEL~1\\TC275\\erika\\inc/ee_api_types.h"
+>>>>>>> be21e51b86386d4de15222e011f8731305c64e39
 typedef enum {
 
 
@@ -1328,6 +1571,7 @@ typedef enum {
 
   OSEE_TASK_CHAINED
 } OsEE_task_status;
+<<<<<<< HEAD
 # 382 "C:\\Users\\USER\\Desktop\\WORKSP~1\\TUNNEL~1\\TC275\\erika\\inc/ee_api_types.h"
 typedef OsEE_task_status TaskStateType;
 
@@ -1335,6 +1579,15 @@ typedef TaskStateType * TaskStateRefType;
 # 524 "C:\\Users\\USER\\Desktop\\WORKSP~1\\TUNNEL~1\\TC275\\erika\\inc/ee_api_types.h"
 typedef OsEE_reg ResourceType;
 # 567 "C:\\Users\\USER\\Desktop\\WORKSP~1\\TUNNEL~1\\TC275\\erika\\inc/ee_api_types.h"
+=======
+# 382 "C:\\Users\\USER\\OneDrive\\Desktop\\tunnel\\TUNNEL~1\\TC275\\erika\\inc/ee_api_types.h"
+typedef OsEE_task_status TaskStateType;
+
+typedef TaskStateType * TaskStateRefType;
+# 524 "C:\\Users\\USER\\OneDrive\\Desktop\\tunnel\\TUNNEL~1\\TC275\\erika\\inc/ee_api_types.h"
+typedef OsEE_reg ResourceType;
+# 567 "C:\\Users\\USER\\OneDrive\\Desktop\\tunnel\\TUNNEL~1\\TC275\\erika\\inc/ee_api_types.h"
+>>>>>>> be21e51b86386d4de15222e011f8731305c64e39
 typedef OsEE_reg EventMaskType;
 
 
@@ -1344,11 +1597,19 @@ typedef OsEE_reg EventMaskType;
 
 
 typedef EventMaskType * EventMaskRefType;
+<<<<<<< HEAD
 # 663 "C:\\Users\\USER\\Desktop\\WORKSP~1\\TUNNEL~1\\TC275\\erika\\inc/ee_api_types.h"
 typedef OsEE_reg ObjectIDType;
 # 675 "C:\\Users\\USER\\Desktop\\WORKSP~1\\TUNNEL~1\\TC275\\erika\\inc/ee_api_types.h"
 typedef size_t MemSize;
 # 689 "C:\\Users\\USER\\Desktop\\WORKSP~1\\TUNNEL~1\\TC275\\erika\\inc/ee_api_types.h"
+=======
+# 663 "C:\\Users\\USER\\OneDrive\\Desktop\\tunnel\\TUNNEL~1\\TC275\\erika\\inc/ee_api_types.h"
+typedef OsEE_reg ObjectIDType;
+# 675 "C:\\Users\\USER\\OneDrive\\Desktop\\tunnel\\TUNNEL~1\\TC275\\erika\\inc/ee_api_types.h"
+typedef size_t MemSize;
+# 689 "C:\\Users\\USER\\OneDrive\\Desktop\\tunnel\\TUNNEL~1\\TC275\\erika\\inc/ee_api_types.h"
+>>>>>>> be21e51b86386d4de15222e011f8731305c64e39
 typedef enum {
   E_OK,
   E_OS_ACCESS,
@@ -1390,12 +1651,20 @@ typedef enum {
 
 
 typedef OsEE_status_type StatusType;
+<<<<<<< HEAD
 # 742 "C:\\Users\\USER\\Desktop\\WORKSP~1\\TUNNEL~1\\TC275\\erika\\inc/ee_api_types.h"
+=======
+# 742 "C:\\Users\\USER\\OneDrive\\Desktop\\tunnel\\TUNNEL~1\\TC275\\erika\\inc/ee_api_types.h"
+>>>>>>> be21e51b86386d4de15222e011f8731305c64e39
 typedef union {
   ObjectIDType num_param;
   OsEE_addr p_param;
 } OsEE_api_param;
+<<<<<<< HEAD
 # 756 "C:\\Users\\USER\\Desktop\\WORKSP~1\\TUNNEL~1\\TC275\\erika\\inc/ee_api_types.h"
+=======
+# 756 "C:\\Users\\USER\\OneDrive\\Desktop\\tunnel\\TUNNEL~1\\TC275\\erika\\inc/ee_api_types.h"
+>>>>>>> be21e51b86386d4de15222e011f8731305c64e39
 typedef enum {
   OSServiceId_ActivateTask = (0),
   OSServiceId_TerminateTask = (2),
@@ -1418,7 +1687,11 @@ typedef enum {
   OSServiceId_ClearEvent = (30),
   OSServiceId_GetEvent = (32),
   OSServiceId_WaitEvent = (34),
+<<<<<<< HEAD
 # 804 "C:\\Users\\USER\\Desktop\\WORKSP~1\\TUNNEL~1\\TC275\\erika\\inc/ee_api_types.h"
+=======
+# 804 "C:\\Users\\USER\\OneDrive\\Desktop\\tunnel\\TUNNEL~1\\TC275\\erika\\inc/ee_api_types.h"
+>>>>>>> be21e51b86386d4de15222e011f8731305c64e39
   OSServiceId_GetActiveApplicationMode = (70),
   OSServiceId_ShutdownOS = (72),
   OSServiceId_StartOS = (74),
@@ -1441,143 +1714,234 @@ typedef enum {
 
 
 typedef OsEE_service_id_type OSServiceIdType;
+<<<<<<< HEAD
 # 60 "C:\\Users\\USER\\Desktop\\WORKSP~1\\TUNNEL~1\\TC275\\erika\\inc/ee_api.h" 2
 # 1 "C:\\Users\\USER\\Desktop\\WORKSP~1\\TUNNEL~1\\TC275\\erika\\inc/ee_oo_api_osek.h" 1
 # 112 "C:\\Users\\USER\\Desktop\\WORKSP~1\\TUNNEL~1\\TC275\\erika\\inc/ee_oo_api_osek.h"
+=======
+# 60 "C:\\Users\\USER\\OneDrive\\Desktop\\tunnel\\TUNNEL~1\\TC275\\erika\\inc/ee_api.h" 2
+# 1 "C:\\Users\\USER\\OneDrive\\Desktop\\tunnel\\TUNNEL~1\\TC275\\erika\\inc/ee_oo_api_osek.h" 1
+# 112 "C:\\Users\\USER\\OneDrive\\Desktop\\tunnel\\TUNNEL~1\\TC275\\erika\\inc/ee_oo_api_osek.h"
+>>>>>>> be21e51b86386d4de15222e011f8731305c64e39
 void
   DisableAllInterrupts
 (
   void
 );
+<<<<<<< HEAD
 # 137 "C:\\Users\\USER\\Desktop\\WORKSP~1\\TUNNEL~1\\TC275\\erika\\inc/ee_oo_api_osek.h"
+=======
+# 137 "C:\\Users\\USER\\OneDrive\\Desktop\\tunnel\\TUNNEL~1\\TC275\\erika\\inc/ee_oo_api_osek.h"
+>>>>>>> be21e51b86386d4de15222e011f8731305c64e39
 void
   EnableAllInterrupts
 (
   void
 );
+<<<<<<< HEAD
 # 168 "C:\\Users\\USER\\Desktop\\WORKSP~1\\TUNNEL~1\\TC275\\erika\\inc/ee_oo_api_osek.h"
+=======
+# 168 "C:\\Users\\USER\\OneDrive\\Desktop\\tunnel\\TUNNEL~1\\TC275\\erika\\inc/ee_oo_api_osek.h"
+>>>>>>> be21e51b86386d4de15222e011f8731305c64e39
 void
   SuspendAllInterrupts
 (
   void
 );
+<<<<<<< HEAD
 # 196 "C:\\Users\\USER\\Desktop\\WORKSP~1\\TUNNEL~1\\TC275\\erika\\inc/ee_oo_api_osek.h"
+=======
+# 196 "C:\\Users\\USER\\OneDrive\\Desktop\\tunnel\\TUNNEL~1\\TC275\\erika\\inc/ee_oo_api_osek.h"
+>>>>>>> be21e51b86386d4de15222e011f8731305c64e39
 void
   ResumeAllInterrupts
 (
   void
 );
+<<<<<<< HEAD
 # 226 "C:\\Users\\USER\\Desktop\\WORKSP~1\\TUNNEL~1\\TC275\\erika\\inc/ee_oo_api_osek.h"
+=======
+# 226 "C:\\Users\\USER\\OneDrive\\Desktop\\tunnel\\TUNNEL~1\\TC275\\erika\\inc/ee_oo_api_osek.h"
+>>>>>>> be21e51b86386d4de15222e011f8731305c64e39
 void
   SuspendOSInterrupts
 (
   void
 );
+<<<<<<< HEAD
 # 253 "C:\\Users\\USER\\Desktop\\WORKSP~1\\TUNNEL~1\\TC275\\erika\\inc/ee_oo_api_osek.h"
+=======
+# 253 "C:\\Users\\USER\\OneDrive\\Desktop\\tunnel\\TUNNEL~1\\TC275\\erika\\inc/ee_oo_api_osek.h"
+>>>>>>> be21e51b86386d4de15222e011f8731305c64e39
 void
   ResumeOSInterrupts
 (
   void
 );
+<<<<<<< HEAD
 # 288 "C:\\Users\\USER\\Desktop\\WORKSP~1\\TUNNEL~1\\TC275\\erika\\inc/ee_oo_api_osek.h"
+=======
+# 288 "C:\\Users\\USER\\OneDrive\\Desktop\\tunnel\\TUNNEL~1\\TC275\\erika\\inc/ee_oo_api_osek.h"
+>>>>>>> be21e51b86386d4de15222e011f8731305c64e39
 StatusType
   StartOS
 (
   AppModeType Mode
 );
+<<<<<<< HEAD
 # 319 "C:\\Users\\USER\\Desktop\\WORKSP~1\\TUNNEL~1\\TC275\\erika\\inc/ee_oo_api_osek.h"
+=======
+# 319 "C:\\Users\\USER\\OneDrive\\Desktop\\tunnel\\TUNNEL~1\\TC275\\erika\\inc/ee_oo_api_osek.h"
+>>>>>>> be21e51b86386d4de15222e011f8731305c64e39
 StatusType
   ShutdownOS
 (
   StatusType Error
 );
+<<<<<<< HEAD
 # 339 "C:\\Users\\USER\\Desktop\\WORKSP~1\\TUNNEL~1\\TC275\\erika\\inc/ee_oo_api_osek.h"
+=======
+# 339 "C:\\Users\\USER\\OneDrive\\Desktop\\tunnel\\TUNNEL~1\\TC275\\erika\\inc/ee_oo_api_osek.h"
+>>>>>>> be21e51b86386d4de15222e011f8731305c64e39
 AppModeType
   GetActiveApplicationMode
 (
   void
 );
+<<<<<<< HEAD
 # 375 "C:\\Users\\USER\\Desktop\\WORKSP~1\\TUNNEL~1\\TC275\\erika\\inc/ee_oo_api_osek.h"
+=======
+# 375 "C:\\Users\\USER\\OneDrive\\Desktop\\tunnel\\TUNNEL~1\\TC275\\erika\\inc/ee_oo_api_osek.h"
+>>>>>>> be21e51b86386d4de15222e011f8731305c64e39
 StatusType
   ActivateTask
 (
   TaskType TaskID
 );
+<<<<<<< HEAD
 # 419 "C:\\Users\\USER\\Desktop\\WORKSP~1\\TUNNEL~1\\TC275\\erika\\inc/ee_oo_api_osek.h"
+=======
+# 419 "C:\\Users\\USER\\OneDrive\\Desktop\\tunnel\\TUNNEL~1\\TC275\\erika\\inc/ee_oo_api_osek.h"
+>>>>>>> be21e51b86386d4de15222e011f8731305c64e39
 StatusType
   ChainTask
 (
   TaskType TaskID
 );
+<<<<<<< HEAD
 # 456 "C:\\Users\\USER\\Desktop\\WORKSP~1\\TUNNEL~1\\TC275\\erika\\inc/ee_oo_api_osek.h"
+=======
+# 456 "C:\\Users\\USER\\OneDrive\\Desktop\\tunnel\\TUNNEL~1\\TC275\\erika\\inc/ee_oo_api_osek.h"
+>>>>>>> be21e51b86386d4de15222e011f8731305c64e39
 StatusType
   TerminateTask
 (
   void
 );
+<<<<<<< HEAD
 # 477 "C:\\Users\\USER\\Desktop\\WORKSP~1\\TUNNEL~1\\TC275\\erika\\inc/ee_oo_api_osek.h"
+=======
+# 477 "C:\\Users\\USER\\OneDrive\\Desktop\\tunnel\\TUNNEL~1\\TC275\\erika\\inc/ee_oo_api_osek.h"
+>>>>>>> be21e51b86386d4de15222e011f8731305c64e39
 StatusType
   GetTaskID
 (
   TaskRefType TaskID
 );
+<<<<<<< HEAD
 # 504 "C:\\Users\\USER\\Desktop\\WORKSP~1\\TUNNEL~1\\TC275\\erika\\inc/ee_oo_api_osek.h"
+=======
+# 504 "C:\\Users\\USER\\OneDrive\\Desktop\\tunnel\\TUNNEL~1\\TC275\\erika\\inc/ee_oo_api_osek.h"
+>>>>>>> be21e51b86386d4de15222e011f8731305c64e39
 StatusType
   GetTaskState
 (
   TaskType TaskID,
   TaskStateRefType State
 );
+<<<<<<< HEAD
 # 538 "C:\\Users\\USER\\Desktop\\WORKSP~1\\TUNNEL~1\\TC275\\erika\\inc/ee_oo_api_osek.h"
+=======
+# 538 "C:\\Users\\USER\\OneDrive\\Desktop\\tunnel\\TUNNEL~1\\TC275\\erika\\inc/ee_oo_api_osek.h"
+>>>>>>> be21e51b86386d4de15222e011f8731305c64e39
 StatusType
   Schedule
 (
   void
 );
+<<<<<<< HEAD
 # 581 "C:\\Users\\USER\\Desktop\\WORKSP~1\\TUNNEL~1\\TC275\\erika\\inc/ee_oo_api_osek.h"
+=======
+# 581 "C:\\Users\\USER\\OneDrive\\Desktop\\tunnel\\TUNNEL~1\\TC275\\erika\\inc/ee_oo_api_osek.h"
+>>>>>>> be21e51b86386d4de15222e011f8731305c64e39
 StatusType
   GetResource
 (
   ResourceType ResID
 );
+<<<<<<< HEAD
 # 612 "C:\\Users\\USER\\Desktop\\WORKSP~1\\TUNNEL~1\\TC275\\erika\\inc/ee_oo_api_osek.h"
+=======
+# 612 "C:\\Users\\USER\\OneDrive\\Desktop\\tunnel\\TUNNEL~1\\TC275\\erika\\inc/ee_oo_api_osek.h"
+>>>>>>> be21e51b86386d4de15222e011f8731305c64e39
 StatusType
   ReleaseResource
 (
   ResourceType ResID
 );
+<<<<<<< HEAD
 # 818 "C:\\Users\\USER\\Desktop\\WORKSP~1\\TUNNEL~1\\TC275\\erika\\inc/ee_oo_api_osek.h"
+=======
+# 818 "C:\\Users\\USER\\OneDrive\\Desktop\\tunnel\\TUNNEL~1\\TC275\\erika\\inc/ee_oo_api_osek.h"
+>>>>>>> be21e51b86386d4de15222e011f8731305c64e39
 StatusType
   WaitEvent
 (
   EventMaskType Mask
 );
+<<<<<<< HEAD
 # 850 "C:\\Users\\USER\\Desktop\\WORKSP~1\\TUNNEL~1\\TC275\\erika\\inc/ee_oo_api_osek.h"
+=======
+# 850 "C:\\Users\\USER\\OneDrive\\Desktop\\tunnel\\TUNNEL~1\\TC275\\erika\\inc/ee_oo_api_osek.h"
+>>>>>>> be21e51b86386d4de15222e011f8731305c64e39
 StatusType
   SetEvent
 (
   TaskType TaskID,
   EventMaskType Mask
 );
+<<<<<<< HEAD
 # 881 "C:\\Users\\USER\\Desktop\\WORKSP~1\\TUNNEL~1\\TC275\\erika\\inc/ee_oo_api_osek.h"
+=======
+# 881 "C:\\Users\\USER\\OneDrive\\Desktop\\tunnel\\TUNNEL~1\\TC275\\erika\\inc/ee_oo_api_osek.h"
+>>>>>>> be21e51b86386d4de15222e011f8731305c64e39
 StatusType
   GetEvent
 (
   TaskType TaskID,
   EventMaskRefType Event
 );
+<<<<<<< HEAD
 # 908 "C:\\Users\\USER\\Desktop\\WORKSP~1\\TUNNEL~1\\TC275\\erika\\inc/ee_oo_api_osek.h"
+=======
+# 908 "C:\\Users\\USER\\OneDrive\\Desktop\\tunnel\\TUNNEL~1\\TC275\\erika\\inc/ee_oo_api_osek.h"
+>>>>>>> be21e51b86386d4de15222e011f8731305c64e39
 StatusType
   ClearEvent
 (
   EventMaskType Mask
 );
+<<<<<<< HEAD
 # 1352 "C:\\Users\\USER\\Desktop\\WORKSP~1\\TUNNEL~1\\TC275\\erika\\inc/ee_oo_api_osek.h"
+=======
+# 1352 "C:\\Users\\USER\\OneDrive\\Desktop\\tunnel\\TUNNEL~1\\TC275\\erika\\inc/ee_oo_api_osek.h"
+>>>>>>> be21e51b86386d4de15222e011f8731305c64e39
  ISRType
   GetISRID
 (
   void
 );
+<<<<<<< HEAD
 # 61 "C:\\Users\\USER\\Desktop\\WORKSP~1\\TUNNEL~1\\TC275\\erika\\inc/ee_api.h" 2
 # 1 "C:\\Users\\USER\\Desktop\\WORKSP~1\\TUNNEL~1\\TC275\\erika\\inc/ee_oo_api_dynamic.h" 1
 # 62 "C:\\Users\\USER\\Desktop\\WORKSP~1\\TUNNEL~1\\TC275\\erika\\inc/ee_api.h" 2
@@ -1587,13 +1951,28 @@ StatusType
 # 65 "C:\\Users\\USER\\Desktop\\WORKSP~1\\TUNNEL~1\\TC275\\erika\\inc/ee_scheduler_types.h"
 struct OsEE_TDB_tag;
 # 75 "C:\\Users\\USER\\Desktop\\WORKSP~1\\TUNNEL~1\\TC275\\erika\\inc/ee_scheduler_types.h"
+=======
+# 61 "C:\\Users\\USER\\OneDrive\\Desktop\\tunnel\\TUNNEL~1\\TC275\\erika\\inc/ee_api.h" 2
+# 1 "C:\\Users\\USER\\OneDrive\\Desktop\\tunnel\\TUNNEL~1\\TC275\\erika\\inc/ee_oo_api_dynamic.h" 1
+# 62 "C:\\Users\\USER\\OneDrive\\Desktop\\tunnel\\TUNNEL~1\\TC275\\erika\\inc/ee_api.h" 2
+# 1 "C:\\Users\\USER\\OneDrive\\Desktop\\tunnel\\TUNNEL~1\\TC275\\erika\\inc/ee_oo_api_extension.h" 1
+# 63 "C:\\Users\\USER\\OneDrive\\Desktop\\tunnel\\TUNNEL~1\\TC275\\erika\\inc/ee_api.h" 2
+# 1 "C:\\Users\\USER\\OneDrive\\Desktop\\tunnel\\TUNNEL~1\\TC275\\erika\\inc/ee_scheduler_types.h" 1
+# 65 "C:\\Users\\USER\\OneDrive\\Desktop\\tunnel\\TUNNEL~1\\TC275\\erika\\inc/ee_scheduler_types.h"
+struct OsEE_TDB_tag;
+# 75 "C:\\Users\\USER\\OneDrive\\Desktop\\tunnel\\TUNNEL~1\\TC275\\erika\\inc/ee_scheduler_types.h"
+>>>>>>> be21e51b86386d4de15222e011f8731305c64e39
 typedef struct OsEE_SN_tag {
 
   struct OsEE_SN_tag * p_next;
 
   struct OsEE_TDB_tag const * p_tdb;
 } OsEE_SN;
+<<<<<<< HEAD
 # 92 "C:\\Users\\USER\\Desktop\\WORKSP~1\\TUNNEL~1\\TC275\\erika\\inc/ee_scheduler_types.h"
+=======
+# 92 "C:\\Users\\USER\\OneDrive\\Desktop\\tunnel\\TUNNEL~1\\TC275\\erika\\inc/ee_scheduler_types.h"
+>>>>>>> be21e51b86386d4de15222e011f8731305c64e39
 static inline OsEE_SN *
   osEE_sn_alloc
 (
@@ -1608,7 +1987,11 @@ static inline OsEE_SN *
 
   return p_sn_allocated;
 }
+<<<<<<< HEAD
 # 117 "C:\\Users\\USER\\Desktop\\WORKSP~1\\TUNNEL~1\\TC275\\erika\\inc/ee_scheduler_types.h"
+=======
+# 117 "C:\\Users\\USER\\OneDrive\\Desktop\\tunnel\\TUNNEL~1\\TC275\\erika\\inc/ee_scheduler_types.h"
+>>>>>>> be21e51b86386d4de15222e011f8731305c64e39
 static inline void
   osEE_sn_release
 (
@@ -1619,7 +2002,11 @@ static inline void
   p_to_free->p_next = (*pp_first);
   (*pp_first) = p_to_free;
 }
+<<<<<<< HEAD
 # 145 "C:\\Users\\USER\\Desktop\\WORKSP~1\\TUNNEL~1\\TC275\\erika\\inc/ee_scheduler_types.h"
+=======
+# 145 "C:\\Users\\USER\\OneDrive\\Desktop\\tunnel\\TUNNEL~1\\TC275\\erika\\inc/ee_scheduler_types.h"
+>>>>>>> be21e51b86386d4de15222e011f8731305c64e39
 OsEE_bool
   osEE_sn_priority_insert
 (
@@ -1627,6 +2014,7 @@ OsEE_bool
   OsEE_SN * p_sn_new,
   OsEE_bool const as_ready
 );
+<<<<<<< HEAD
 # 213 "C:\\Users\\USER\\Desktop\\WORKSP~1\\TUNNEL~1\\TC275\\erika\\inc/ee_scheduler_types.h"
 typedef OsEE_SN * OsEE_RQ;
 # 64 "C:\\Users\\USER\\Desktop\\WORKSP~1\\TUNNEL~1\\TC275\\erika\\inc/ee_api.h" 2
@@ -1666,6 +2054,47 @@ typedef void (* OsEE_kernel_cb) (void);
 
 typedef uint8_t OsEE_byte;
 # 97 "C:\\Users\\USER\\Desktop\\WORKSP~1\\TUNNEL~1\\TC275\\erika\\inc/ee_kernel_types.h"
+=======
+# 213 "C:\\Users\\USER\\OneDrive\\Desktop\\tunnel\\TUNNEL~1\\TC275\\erika\\inc/ee_scheduler_types.h"
+typedef OsEE_SN * OsEE_RQ;
+# 64 "C:\\Users\\USER\\OneDrive\\Desktop\\tunnel\\TUNNEL~1\\TC275\\erika\\inc/ee_api.h" 2
+# 66 "C:\\Users\\USER\\OneDrive\\Desktop\\tunnel\\TUNNEL~1\\TC275\\erika\\inc/ee.h" 2
+
+# 1 "C:\\Users\\USER\\OneDrive\\Desktop\\tunnel\\TUNNEL~1\\TC275\\erika\\inc/ee_assert.h" 1
+# 117 "C:\\Users\\USER\\OneDrive\\Desktop\\tunnel\\TUNNEL~1\\TC275\\erika\\inc/ee_assert.h"
+# 1 "C:\\Users\\USER\\OneDrive\\Desktop\\tunnel\\TUNNEL~1\\TC275\\erika\\inc/ee.h" 1
+# 118 "C:\\Users\\USER\\OneDrive\\Desktop\\tunnel\\TUNNEL~1\\TC275\\erika\\inc/ee_assert.h" 2
+# 163 "C:\\Users\\USER\\OneDrive\\Desktop\\tunnel\\TUNNEL~1\\TC275\\erika\\inc/ee_assert.h"
+extern uint8_t osEE_assertions[];
+# 182 "C:\\Users\\USER\\OneDrive\\Desktop\\tunnel\\TUNNEL~1\\TC275\\erika\\inc/ee_assert.h"
+uint8_t osEE_assert(OsEE_reg id,
+           OsEE_bool test,
+           OsEE_reg prev);
+# 201 "C:\\Users\\USER\\OneDrive\\Desktop\\tunnel\\TUNNEL~1\\TC275\\erika\\inc/ee_assert.h"
+uint8_t osEE_assert_or(OsEE_reg id,
+        OsEE_reg prev1,
+        OsEE_reg prev2);
+# 220 "C:\\Users\\USER\\OneDrive\\Desktop\\tunnel\\TUNNEL~1\\TC275\\erika\\inc/ee_assert.h"
+uint8_t osEE_assert_and(OsEE_reg id,
+         OsEE_reg prev1,
+         OsEE_reg prev2);
+# 244 "C:\\Users\\USER\\OneDrive\\Desktop\\tunnel\\TUNNEL~1\\TC275\\erika\\inc/ee_assert.h"
+uint8_t osEE_assert_range(OsEE_reg id,
+           OsEE_reg begin,
+           OsEE_reg end);
+# 259 "C:\\Users\\USER\\OneDrive\\Desktop\\tunnel\\TUNNEL~1\\TC275\\erika\\inc/ee_assert.h"
+uint8_t osEE_assert_last(void);
+# 68 "C:\\Users\\USER\\OneDrive\\Desktop\\tunnel\\TUNNEL~1\\TC275\\erika\\inc/ee.h" 2
+# 56 "C:\\Users\\USER\\OneDrive\\Desktop\\tunnel\\TUNNEL~1\\TC275\\erika\\inc/ee_conf.h" 2
+
+
+# 1 "C:\\Users\\USER\\OneDrive\\Desktop\\tunnel\\TUNNEL~1\\TC275\\erika\\inc/ee_kernel_types.h" 1
+# 81 "C:\\Users\\USER\\OneDrive\\Desktop\\tunnel\\TUNNEL~1\\TC275\\erika\\inc/ee_kernel_types.h"
+typedef void (* OsEE_kernel_cb) (void);
+
+typedef uint8_t OsEE_byte;
+# 97 "C:\\Users\\USER\\OneDrive\\Desktop\\tunnel\\TUNNEL~1\\TC275\\erika\\inc/ee_kernel_types.h"
+>>>>>>> be21e51b86386d4de15222e011f8731305c64e39
 typedef enum {
   OSEE_KERNEL_CTX,
   OSEE_IDLE_CTX,
@@ -1695,7 +2124,11 @@ typedef enum {
 
   OSEE_KERNEL_SHUTDOWN
 } OsEE_kernel_status;
+<<<<<<< HEAD
 # 137 "C:\\Users\\USER\\Desktop\\WORKSP~1\\TUNNEL~1\\TC275\\erika\\inc/ee_kernel_types.h"
+=======
+# 137 "C:\\Users\\USER\\OneDrive\\Desktop\\tunnel\\TUNNEL~1\\TC275\\erika\\inc/ee_kernel_types.h"
+>>>>>>> be21e51b86386d4de15222e011f8731305c64e39
 struct OsEE_MDB_tag;
 
 
@@ -1715,6 +2148,7 @@ typedef struct {
   struct OsEE_TDB_tag const *
     p_owner;
 } OsEE_MCB;
+<<<<<<< HEAD
 # 181 "C:\\Users\\USER\\Desktop\\WORKSP~1\\TUNNEL~1\\TC275\\erika\\inc/ee_kernel_types.h"
 typedef struct OsEE_MDB_tag {
 
@@ -1722,12 +2156,25 @@ typedef struct OsEE_MDB_tag {
 # 195 "C:\\Users\\USER\\Desktop\\WORKSP~1\\TUNNEL~1\\TC275\\erika\\inc/ee_kernel_types.h"
   TaskPrio prio;
 # 206 "C:\\Users\\USER\\Desktop\\WORKSP~1\\TUNNEL~1\\TC275\\erika\\inc/ee_kernel_types.h"
+=======
+# 181 "C:\\Users\\USER\\OneDrive\\Desktop\\tunnel\\TUNNEL~1\\TC275\\erika\\inc/ee_kernel_types.h"
+typedef struct OsEE_MDB_tag {
+
+  OsEE_MCB * p_cb;
+# 195 "C:\\Users\\USER\\OneDrive\\Desktop\\tunnel\\TUNNEL~1\\TC275\\erika\\inc/ee_kernel_types.h"
+  TaskPrio prio;
+# 206 "C:\\Users\\USER\\OneDrive\\Desktop\\tunnel\\TUNNEL~1\\TC275\\erika\\inc/ee_kernel_types.h"
+>>>>>>> be21e51b86386d4de15222e011f8731305c64e39
 } const OsEE_MDB;
 
 
 typedef OsEE_MCB OsEE_ResourceCB;
 typedef OsEE_MDB OsEE_ResourceDB;
+<<<<<<< HEAD
 # 224 "C:\\Users\\USER\\Desktop\\WORKSP~1\\TUNNEL~1\\TC275\\erika\\inc/ee_kernel_types.h"
+=======
+# 224 "C:\\Users\\USER\\OneDrive\\Desktop\\tunnel\\TUNNEL~1\\TC275\\erika\\inc/ee_kernel_types.h"
+>>>>>>> be21e51b86386d4de15222e011f8731305c64e39
 typedef struct {
 
 
@@ -1795,23 +2242,39 @@ typedef struct OsEE_TDB_tag
 
 
 } const OsEE_TDB;
+<<<<<<< HEAD
 # 299 "C:\\Users\\USER\\Desktop\\WORKSP~1\\TUNNEL~1\\TC275\\erika\\inc/ee_kernel_types.h"
+=======
+# 299 "C:\\Users\\USER\\OneDrive\\Desktop\\tunnel\\TUNNEL~1\\TC275\\erika\\inc/ee_kernel_types.h"
+>>>>>>> be21e51b86386d4de15222e011f8731305c64e39
 typedef struct {
 
   OsEE_TDB * p_tdb;
 
   TaskFunc real_task_func;
 } const OsEE_TW;
+<<<<<<< HEAD
 # 729 "C:\\Users\\USER\\Desktop\\WORKSP~1\\TUNNEL~1\\TC275\\erika\\inc/ee_kernel_types.h"
+=======
+# 729 "C:\\Users\\USER\\OneDrive\\Desktop\\tunnel\\TUNNEL~1\\TC275\\erika\\inc/ee_kernel_types.h"
+>>>>>>> be21e51b86386d4de15222e011f8731305c64e39
 typedef struct {
 
 
   OsEE_TDB * p_curr;
+<<<<<<< HEAD
 # 750 "C:\\Users\\USER\\Desktop\\WORKSP~1\\TUNNEL~1\\TC275\\erika\\inc/ee_kernel_types.h"
   OsEE_RQ rq;
 
   OsEE_SN * p_free_sn;
 # 767 "C:\\Users\\USER\\Desktop\\WORKSP~1\\TUNNEL~1\\TC275\\erika\\inc/ee_kernel_types.h"
+=======
+# 750 "C:\\Users\\USER\\OneDrive\\Desktop\\tunnel\\TUNNEL~1\\TC275\\erika\\inc/ee_kernel_types.h"
+  OsEE_RQ rq;
+
+  OsEE_SN * p_free_sn;
+# 767 "C:\\Users\\USER\\OneDrive\\Desktop\\tunnel\\TUNNEL~1\\TC275\\erika\\inc/ee_kernel_types.h"
+>>>>>>> be21e51b86386d4de15222e011f8731305c64e39
   OsEE_SN * p_stk_sn;
 
   OsEE_kernel_status volatile os_status;
@@ -1821,7 +2284,11 @@ typedef struct {
   AppModeType app_mode;
 
   StatusType last_error;
+<<<<<<< HEAD
 # 807 "C:\\Users\\USER\\Desktop\\WORKSP~1\\TUNNEL~1\\TC275\\erika\\inc/ee_kernel_types.h"
+=======
+# 807 "C:\\Users\\USER\\OneDrive\\Desktop\\tunnel\\TUNNEL~1\\TC275\\erika\\inc/ee_kernel_types.h"
+>>>>>>> be21e51b86386d4de15222e011f8731305c64e39
   OsEE_reg prev_s_isr_all_status;
 
   OsEE_reg prev_s_isr_os_status;
@@ -1832,9 +2299,15 @@ typedef struct {
 
 
   OsEE_byte d_isr_all_cnt;
+<<<<<<< HEAD
 # 826 "C:\\Users\\USER\\Desktop\\WORKSP~1\\TUNNEL~1\\TC275\\erika\\inc/ee_kernel_types.h"
 } OsEE_CCB;
 # 836 "C:\\Users\\USER\\Desktop\\WORKSP~1\\TUNNEL~1\\TC275\\erika\\inc/ee_kernel_types.h"
+=======
+# 826 "C:\\Users\\USER\\OneDrive\\Desktop\\tunnel\\TUNNEL~1\\TC275\\erika\\inc/ee_kernel_types.h"
+} OsEE_CCB;
+# 836 "C:\\Users\\USER\\OneDrive\\Desktop\\tunnel\\TUNNEL~1\\TC275\\erika\\inc/ee_kernel_types.h"
+>>>>>>> be21e51b86386d4de15222e011f8731305c64e39
 typedef struct {
 
 
@@ -1842,15 +2315,22 @@ typedef struct {
 
 
   OsEE_CCB * p_ccb;
+<<<<<<< HEAD
 # 852 "C:\\Users\\USER\\Desktop\\WORKSP~1\\TUNNEL~1\\TC275\\erika\\inc/ee_kernel_types.h"
   OsEE_TDB * p_idle_task;
 # 874 "C:\\Users\\USER\\Desktop\\WORKSP~1\\TUNNEL~1\\TC275\\erika\\inc/ee_kernel_types.h"
+=======
+# 852 "C:\\Users\\USER\\OneDrive\\Desktop\\tunnel\\TUNNEL~1\\TC275\\erika\\inc/ee_kernel_types.h"
+  OsEE_TDB * p_idle_task;
+# 874 "C:\\Users\\USER\\OneDrive\\Desktop\\tunnel\\TUNNEL~1\\TC275\\erika\\inc/ee_kernel_types.h"
+>>>>>>> be21e51b86386d4de15222e011f8731305c64e39
 } const OsEE_CDB;
 
 
 
 
 typedef struct {
+<<<<<<< HEAD
 # 945 "C:\\Users\\USER\\Desktop\\WORKSP~1\\TUNNEL~1\\TC275\\erika\\inc/ee_kernel_types.h"
   OsEE_reg dummy;
 
@@ -1860,10 +2340,22 @@ typedef struct {
 
   OsEE_KCB * p_kcb;
 # 977 "C:\\Users\\USER\\Desktop\\WORKSP~1\\TUNNEL~1\\TC275\\erika\\inc/ee_kernel_types.h"
+=======
+# 945 "C:\\Users\\USER\\OneDrive\\Desktop\\tunnel\\TUNNEL~1\\TC275\\erika\\inc/ee_kernel_types.h"
+  OsEE_reg dummy;
+
+} OsEE_KCB;
+# 963 "C:\\Users\\USER\\OneDrive\\Desktop\\tunnel\\TUNNEL~1\\TC275\\erika\\inc/ee_kernel_types.h"
+typedef struct {
+
+  OsEE_KCB * p_kcb;
+# 977 "C:\\Users\\USER\\OneDrive\\Desktop\\tunnel\\TUNNEL~1\\TC275\\erika\\inc/ee_kernel_types.h"
+>>>>>>> be21e51b86386d4de15222e011f8731305c64e39
   OsEE_TDB * const (* p_tdb_ptr_array)
     [ ];
 
   MemSize tdb_array_size;
+<<<<<<< HEAD
 # 992 "C:\\Users\\USER\\Desktop\\WORKSP~1\\TUNNEL~1\\TC275\\erika\\inc/ee_kernel_types.h"
   OsEE_ResourceDB * const (* p_res_ptr_array)[];
 
@@ -1871,6 +2363,15 @@ typedef struct {
 # 1020 "C:\\Users\\USER\\Desktop\\WORKSP~1\\TUNNEL~1\\TC275\\erika\\inc/ee_kernel_types.h"
 } const OsEE_KDB;
 # 1066 "C:\\Users\\USER\\Desktop\\WORKSP~1\\TUNNEL~1\\TC275\\erika\\inc/ee_kernel_types.h"
+=======
+# 992 "C:\\Users\\USER\\OneDrive\\Desktop\\tunnel\\TUNNEL~1\\TC275\\erika\\inc/ee_kernel_types.h"
+  OsEE_ResourceDB * const (* p_res_ptr_array)[];
+
+  MemSize res_array_size;
+# 1020 "C:\\Users\\USER\\OneDrive\\Desktop\\tunnel\\TUNNEL~1\\TC275\\erika\\inc/ee_kernel_types.h"
+} const OsEE_KDB;
+# 1066 "C:\\Users\\USER\\OneDrive\\Desktop\\tunnel\\TUNNEL~1\\TC275\\erika\\inc/ee_kernel_types.h"
+>>>>>>> be21e51b86386d4de15222e011f8731305c64e39
 extern void
   osEE_change_context_from_task_end
 (
@@ -1888,6 +2389,7 @@ extern void
 (
   void
 );
+<<<<<<< HEAD
 # 59 "C:\\Users\\USER\\Desktop\\WORKSP~1\\TUNNEL~1\\TC275\\erika\\inc/ee_conf.h" 2
 # 1 "C:\\Users\\USER\\Desktop\\WORKSP~1\\TUNNEL~1\\TC275\\erika\\inc/ee_get_kernel_and_core.h" 1
 # 64 "C:\\Users\\USER\\Desktop\\WORKSP~1\\TUNNEL~1\\TC275\\erika\\inc/ee_get_kernel_and_core.h"
@@ -1920,6 +2422,40 @@ extern OsEE_KCB osEE_kcb_var;
 # 92 "C:\\Users\\USER\\Desktop\\WORKSP~1\\TUNNEL~1\\TC275\\erika\\inc/Os_MemMap.h" 2
 # 76 "C:\\Users\\USER\\Desktop\\WORKSP~1\\TUNNEL~1\\TC275\\erika\\inc/ee_get_kernel_and_core.h" 2
 # 85 "C:\\Users\\USER\\Desktop\\WORKSP~1\\TUNNEL~1\\TC275\\erika\\inc/ee_get_kernel_and_core.h"
+=======
+# 59 "C:\\Users\\USER\\OneDrive\\Desktop\\tunnel\\TUNNEL~1\\TC275\\erika\\inc/ee_conf.h" 2
+# 1 "C:\\Users\\USER\\OneDrive\\Desktop\\tunnel\\TUNNEL~1\\TC275\\erika\\inc/ee_get_kernel_and_core.h" 1
+# 64 "C:\\Users\\USER\\OneDrive\\Desktop\\tunnel\\TUNNEL~1\\TC275\\erika\\inc/ee_get_kernel_and_core.h"
+# 1 "C:\\Users\\USER\\OneDrive\\Desktop\\tunnel\\TUNNEL~1\\TC275\\erika\\inc/Os_MemMap.h" 1
+# 91 "C:\\Users\\USER\\OneDrive\\Desktop\\tunnel\\TUNNEL~1\\TC275\\erika\\inc/Os_MemMap.h"
+# 1 "C:\\Users\\USER\\OneDrive\\Desktop\\tunnel\\TUNNEL~1\\TC275\\erika\\inc/ee_os_mem_map_gnu_hightec.h" 1
+# 92 "C:\\Users\\USER\\OneDrive\\Desktop\\tunnel\\TUNNEL~1\\TC275\\erika\\inc/Os_MemMap.h" 2
+# 65 "C:\\Users\\USER\\OneDrive\\Desktop\\tunnel\\TUNNEL~1\\TC275\\erika\\inc/ee_get_kernel_and_core.h" 2
+
+extern OsEE_KDB osEE_kdb_var;
+
+# 1 "C:\\Users\\USER\\OneDrive\\Desktop\\tunnel\\TUNNEL~1\\TC275\\erika\\inc/Os_MemMap.h" 1
+# 91 "C:\\Users\\USER\\OneDrive\\Desktop\\tunnel\\TUNNEL~1\\TC275\\erika\\inc/Os_MemMap.h"
+# 1 "C:\\Users\\USER\\OneDrive\\Desktop\\tunnel\\TUNNEL~1\\TC275\\erika\\inc/ee_os_mem_map_gnu_hightec.h" 1
+# 92 "C:\\Users\\USER\\OneDrive\\Desktop\\tunnel\\TUNNEL~1\\TC275\\erika\\inc/Os_MemMap.h" 2
+# 69 "C:\\Users\\USER\\OneDrive\\Desktop\\tunnel\\TUNNEL~1\\TC275\\erika\\inc/ee_get_kernel_and_core.h" 2
+
+
+# 1 "C:\\Users\\USER\\OneDrive\\Desktop\\tunnel\\TUNNEL~1\\TC275\\erika\\inc/Os_MemMap.h" 1
+# 91 "C:\\Users\\USER\\OneDrive\\Desktop\\tunnel\\TUNNEL~1\\TC275\\erika\\inc/Os_MemMap.h"
+# 1 "C:\\Users\\USER\\OneDrive\\Desktop\\tunnel\\TUNNEL~1\\TC275\\erika\\inc/ee_os_mem_map_gnu_hightec.h" 1
+# 92 "C:\\Users\\USER\\OneDrive\\Desktop\\tunnel\\TUNNEL~1\\TC275\\erika\\inc/Os_MemMap.h" 2
+# 72 "C:\\Users\\USER\\OneDrive\\Desktop\\tunnel\\TUNNEL~1\\TC275\\erika\\inc/ee_get_kernel_and_core.h" 2
+
+extern OsEE_KCB osEE_kcb_var;
+
+# 1 "C:\\Users\\USER\\OneDrive\\Desktop\\tunnel\\TUNNEL~1\\TC275\\erika\\inc/Os_MemMap.h" 1
+# 91 "C:\\Users\\USER\\OneDrive\\Desktop\\tunnel\\TUNNEL~1\\TC275\\erika\\inc/Os_MemMap.h"
+# 1 "C:\\Users\\USER\\OneDrive\\Desktop\\tunnel\\TUNNEL~1\\TC275\\erika\\inc/ee_os_mem_map_gnu_hightec.h" 1
+# 92 "C:\\Users\\USER\\OneDrive\\Desktop\\tunnel\\TUNNEL~1\\TC275\\erika\\inc/Os_MemMap.h" 2
+# 76 "C:\\Users\\USER\\OneDrive\\Desktop\\tunnel\\TUNNEL~1\\TC275\\erika\\inc/ee_get_kernel_and_core.h" 2
+# 85 "C:\\Users\\USER\\OneDrive\\Desktop\\tunnel\\TUNNEL~1\\TC275\\erika\\inc/ee_get_kernel_and_core.h"
+>>>>>>> be21e51b86386d4de15222e011f8731305c64e39
 static inline OsEE_KDB * __attribute__((always_inline)) osEE_get_kernel(void) {
   return &osEE_kdb_var;
 }
@@ -1928,11 +2464,19 @@ static inline OsEE_KDB * __attribute__((always_inline)) osEE_get_kernel(void) {
 
 extern OsEE_CDB osEE_cdb_var;
 extern OsEE_CCB osEE_ccb_var;
+<<<<<<< HEAD
 # 114 "C:\\Users\\USER\\Desktop\\WORKSP~1\\TUNNEL~1\\TC275\\erika\\inc/ee_get_kernel_and_core.h"
 static inline OsEE_CDB * __attribute__((always_inline)) osEE_get_curr_core(void) {
   return &osEE_cdb_var;
 }
 # 129 "C:\\Users\\USER\\Desktop\\WORKSP~1\\TUNNEL~1\\TC275\\erika\\inc/ee_get_kernel_and_core.h"
+=======
+# 114 "C:\\Users\\USER\\OneDrive\\Desktop\\tunnel\\TUNNEL~1\\TC275\\erika\\inc/ee_get_kernel_and_core.h"
+static inline OsEE_CDB * __attribute__((always_inline)) osEE_get_curr_core(void) {
+  return &osEE_cdb_var;
+}
+# 129 "C:\\Users\\USER\\OneDrive\\Desktop\\tunnel\\TUNNEL~1\\TC275\\erika\\inc/ee_get_kernel_and_core.h"
+>>>>>>> be21e51b86386d4de15222e011f8731305c64e39
 static inline OsEE_CDB * __attribute__((always_inline))
   osEE_get_core(CoreIdType core_id)
 {
@@ -1947,7 +2491,11 @@ static inline OsEE_CDB * __attribute__((always_inline))
 
 
 static inline void __attribute__((always_inline)) osEE_lock_kernel(void) {}
+<<<<<<< HEAD
 # 152 "C:\\Users\\USER\\Desktop\\WORKSP~1\\TUNNEL~1\\TC275\\erika\\inc/ee_get_kernel_and_core.h"
+=======
+# 152 "C:\\Users\\USER\\OneDrive\\Desktop\\tunnel\\TUNNEL~1\\TC275\\erika\\inc/ee_get_kernel_and_core.h"
+>>>>>>> be21e51b86386d4de15222e011f8731305c64e39
 static inline OsEE_KDB * __attribute__((always_inline)) osEE_lock_and_get_kernel(void)
 {
   osEE_lock_kernel ();
@@ -1961,44 +2509,72 @@ static inline OsEE_KDB * __attribute__((always_inline)) osEE_lock_and_get_kernel
 
 
 static inline void __attribute__((always_inline)) osEE_unlock_kernel(void) {}
+<<<<<<< HEAD
 # 174 "C:\\Users\\USER\\Desktop\\WORKSP~1\\TUNNEL~1\\TC275\\erika\\inc/ee_get_kernel_and_core.h"
+=======
+# 174 "C:\\Users\\USER\\OneDrive\\Desktop\\tunnel\\TUNNEL~1\\TC275\\erika\\inc/ee_get_kernel_and_core.h"
+>>>>>>> be21e51b86386d4de15222e011f8731305c64e39
 static inline CoreIdType __attribute__((always_inline))
   osEE_lock_and_get_curr_core_id(void)
 {
   return OS_CORE_ID_0;
 }
+<<<<<<< HEAD
 # 191 "C:\\Users\\USER\\Desktop\\WORKSP~1\\TUNNEL~1\\TC275\\erika\\inc/ee_get_kernel_and_core.h"
+=======
+# 191 "C:\\Users\\USER\\OneDrive\\Desktop\\tunnel\\TUNNEL~1\\TC275\\erika\\inc/ee_get_kernel_and_core.h"
+>>>>>>> be21e51b86386d4de15222e011f8731305c64e39
 static inline void __attribute__((always_inline))
   osEE_lock_core_id(CoreIdType core_id)
 {
   (void)core_id;
 }
+<<<<<<< HEAD
 # 205 "C:\\Users\\USER\\Desktop\\WORKSP~1\\TUNNEL~1\\TC275\\erika\\inc/ee_get_kernel_and_core.h"
+=======
+# 205 "C:\\Users\\USER\\OneDrive\\Desktop\\tunnel\\TUNNEL~1\\TC275\\erika\\inc/ee_get_kernel_and_core.h"
+>>>>>>> be21e51b86386d4de15222e011f8731305c64e39
 static inline void __attribute__((always_inline))
   osEE_lock_core(OsEE_CDB * const p_cdb)
 {
   (void)p_cdb;
 }
+<<<<<<< HEAD
 # 221 "C:\\Users\\USER\\Desktop\\WORKSP~1\\TUNNEL~1\\TC275\\erika\\inc/ee_get_kernel_and_core.h"
+=======
+# 221 "C:\\Users\\USER\\OneDrive\\Desktop\\tunnel\\TUNNEL~1\\TC275\\erika\\inc/ee_get_kernel_and_core.h"
+>>>>>>> be21e51b86386d4de15222e011f8731305c64e39
 static inline OsEE_CDB * __attribute__((always_inline))
   osEE_lock_and_get_core(CoreIdType core_id)
 {
   (void)core_id;
   return osEE_get_curr_core();
 }
+<<<<<<< HEAD
 # 238 "C:\\Users\\USER\\Desktop\\WORKSP~1\\TUNNEL~1\\TC275\\erika\\inc/ee_get_kernel_and_core.h"
+=======
+# 238 "C:\\Users\\USER\\OneDrive\\Desktop\\tunnel\\TUNNEL~1\\TC275\\erika\\inc/ee_get_kernel_and_core.h"
+>>>>>>> be21e51b86386d4de15222e011f8731305c64e39
 static inline OsEE_CDB * __attribute__((always_inline))
   osEE_lock_and_get_curr_core(void)
 {
   return osEE_get_curr_core();
 }
+<<<<<<< HEAD
 # 252 "C:\\Users\\USER\\Desktop\\WORKSP~1\\TUNNEL~1\\TC275\\erika\\inc/ee_get_kernel_and_core.h"
+=======
+# 252 "C:\\Users\\USER\\OneDrive\\Desktop\\tunnel\\TUNNEL~1\\TC275\\erika\\inc/ee_get_kernel_and_core.h"
+>>>>>>> be21e51b86386d4de15222e011f8731305c64e39
 static inline void __attribute__((always_inline))
   osEE_unlock_core_id(CoreIdType core_id)
 {
   (void)core_id;
 }
+<<<<<<< HEAD
 # 266 "C:\\Users\\USER\\Desktop\\WORKSP~1\\TUNNEL~1\\TC275\\erika\\inc/ee_get_kernel_and_core.h"
+=======
+# 266 "C:\\Users\\USER\\OneDrive\\Desktop\\tunnel\\TUNNEL~1\\TC275\\erika\\inc/ee_get_kernel_and_core.h"
+>>>>>>> be21e51b86386d4de15222e011f8731305c64e39
 static inline void __attribute__((always_inline))
   osEE_unlock_core(OsEE_CDB * const p_cdb)
 {
@@ -2012,6 +2588,7 @@ static inline void __attribute__((always_inline))
 
 
 static inline void __attribute__((always_inline)) osEE_unlock_curr_core (void) {}
+<<<<<<< HEAD
 # 60 "C:\\Users\\USER\\Desktop\\WORKSP~1\\TUNNEL~1\\TC275\\erika\\inc/ee_conf.h" 2
 # 56 "C:\\Users\\USER\\Desktop\\WORKSP~1\\TUNNEL~1\\TC275\\erika\\src\\ee_internal.h" 2
 # 1 "C:\\Users\\USER\\Desktop\\WORKSP~1\\TUNNEL~1\\TC275\\erika\\inc/ee_tc_trapvec.h" 1
@@ -2036,10 +2613,37 @@ static inline void __attribute__((always_inline)) osEE_unlock_curr_core (void) {
 # 58 "C:\\Users\\USER\\Desktop\\WORKSP~1\\TUNNEL~1\\TC275\\erika\\src\\ee_std_change_context.h"
 # 1 "C:\\Users\\USER\\Desktop\\WORKSP~1\\TUNNEL~1\\TC275\\erika\\inc/ee_arch_override.h" 1
 # 59 "C:\\Users\\USER\\Desktop\\WORKSP~1\\TUNNEL~1\\TC275\\erika\\src\\ee_std_change_context.h" 2
+=======
+# 60 "C:\\Users\\USER\\OneDrive\\Desktop\\tunnel\\TUNNEL~1\\TC275\\erika\\inc/ee_conf.h" 2
+# 56 "C:\\Users\\USER\\OneDrive\\Desktop\\tunnel\\TUNNEL~1\\TC275\\erika\\src\\ee_internal.h" 2
+# 1 "C:\\Users\\USER\\OneDrive\\Desktop\\tunnel\\TUNNEL~1\\TC275\\erika\\inc/ee_tc_trapvec.h" 1
+# 57 "C:\\Users\\USER\\OneDrive\\Desktop\\tunnel\\TUNNEL~1\\TC275\\erika\\src\\ee_internal.h" 2
+# 1 "C:\\Users\\USER\\OneDrive\\Desktop\\tunnel\\TUNNEL~1\\TC275\\erika\\src\\ee_hal_internal.h" 1
+# 60 "C:\\Users\\USER\\OneDrive\\Desktop\\tunnel\\TUNNEL~1\\TC275\\erika\\src\\ee_hal_internal.h"
+# 1 "C:\\Users\\USER\\OneDrive\\Desktop\\tunnel\\TUNNEL~1\\TC275\\erika\\inc/ee_cfg.h" 1
+# 61 "C:\\Users\\USER\\OneDrive\\Desktop\\tunnel\\TUNNEL~1\\TC275\\erika\\src\\ee_hal_internal.h" 2
+# 1 "C:\\Users\\USER\\OneDrive\\Desktop\\tunnel\\TUNNEL~1\\TC275\\erika\\inc/ee_platform_types.h" 1
+# 62 "C:\\Users\\USER\\OneDrive\\Desktop\\tunnel\\TUNNEL~1\\TC275\\erika\\src\\ee_hal_internal.h" 2
+# 1 "C:\\Users\\USER\\OneDrive\\Desktop\\tunnel\\TUNNEL~1\\TC275\\erika\\inc/ee_utils.h" 1
+# 63 "C:\\Users\\USER\\OneDrive\\Desktop\\tunnel\\TUNNEL~1\\TC275\\erika\\src\\ee_hal_internal.h" 2
+# 1 "C:\\Users\\USER\\OneDrive\\Desktop\\tunnel\\TUNNEL~1\\TC275\\erika\\inc/ee_compiler.h" 1
+# 64 "C:\\Users\\USER\\OneDrive\\Desktop\\tunnel\\TUNNEL~1\\TC275\\erika\\src\\ee_hal_internal.h" 2
+# 1 "C:\\Users\\USER\\OneDrive\\Desktop\\tunnel\\TUNNEL~1\\TC275\\erika\\inc/ee_hal.h" 1
+# 65 "C:\\Users\\USER\\OneDrive\\Desktop\\tunnel\\TUNNEL~1\\TC275\\erika\\src\\ee_hal_internal.h" 2
+# 1 "C:\\Users\\USER\\OneDrive\\Desktop\\tunnel\\TUNNEL~1\\TC275\\erika\\inc/ee_tc_csfr.h" 1
+# 66 "C:\\Users\\USER\\OneDrive\\Desktop\\tunnel\\TUNNEL~1\\TC275\\erika\\src\\ee_hal_internal.h" 2
+# 1 "C:\\Users\\USER\\OneDrive\\Desktop\\tunnel\\TUNNEL~1\\TC275\\erika\\inc/ee_hal_internal_types.h" 1
+# 67 "C:\\Users\\USER\\OneDrive\\Desktop\\tunnel\\TUNNEL~1\\TC275\\erika\\src\\ee_hal_internal.h" 2
+# 1 "C:\\Users\\USER\\OneDrive\\Desktop\\tunnel\\TUNNEL~1\\TC275\\erika\\src\\ee_std_change_context.h" 1
+# 58 "C:\\Users\\USER\\OneDrive\\Desktop\\tunnel\\TUNNEL~1\\TC275\\erika\\src\\ee_std_change_context.h"
+# 1 "C:\\Users\\USER\\OneDrive\\Desktop\\tunnel\\TUNNEL~1\\TC275\\erika\\inc/ee_arch_override.h" 1
+# 59 "C:\\Users\\USER\\OneDrive\\Desktop\\tunnel\\TUNNEL~1\\TC275\\erika\\src\\ee_std_change_context.h" 2
+>>>>>>> be21e51b86386d4de15222e011f8731305c64e39
 
 
 
 
+<<<<<<< HEAD
 # 1 "C:\\Users\\USER\\Desktop\\WORKSP~1\\TUNNEL~1\\TC275\\erika\\inc/ee_api_types.h" 1
 # 64 "C:\\Users\\USER\\Desktop\\WORKSP~1\\TUNNEL~1\\TC275\\erika\\src\\ee_std_change_context.h" 2
 
@@ -2048,6 +2652,16 @@ static inline void __attribute__((always_inline)) osEE_unlock_curr_core (void) {
 # 1 "C:\\Users\\USER\\Desktop\\WORKSP~1\\TUNNEL~1\\TC275\\erika\\inc/ee_kernel_types.h" 1
 # 67 "C:\\Users\\USER\\Desktop\\WORKSP~1\\TUNNEL~1\\TC275\\erika\\src\\ee_std_change_context.h" 2
 # 88 "C:\\Users\\USER\\Desktop\\WORKSP~1\\TUNNEL~1\\TC275\\erika\\src\\ee_std_change_context.h"
+=======
+# 1 "C:\\Users\\USER\\OneDrive\\Desktop\\tunnel\\TUNNEL~1\\TC275\\erika\\inc/ee_api_types.h" 1
+# 64 "C:\\Users\\USER\\OneDrive\\Desktop\\tunnel\\TUNNEL~1\\TC275\\erika\\src\\ee_std_change_context.h" 2
+
+# 1 "C:\\Users\\USER\\OneDrive\\Desktop\\tunnel\\TUNNEL~1\\TC275\\erika\\inc/ee_scheduler_types.h" 1
+# 66 "C:\\Users\\USER\\OneDrive\\Desktop\\tunnel\\TUNNEL~1\\TC275\\erika\\src\\ee_std_change_context.h" 2
+# 1 "C:\\Users\\USER\\OneDrive\\Desktop\\tunnel\\TUNNEL~1\\TC275\\erika\\inc/ee_kernel_types.h" 1
+# 67 "C:\\Users\\USER\\OneDrive\\Desktop\\tunnel\\TUNNEL~1\\TC275\\erika\\src\\ee_std_change_context.h" 2
+# 88 "C:\\Users\\USER\\OneDrive\\Desktop\\tunnel\\TUNNEL~1\\TC275\\erika\\src\\ee_std_change_context.h"
+>>>>>>> be21e51b86386d4de15222e011f8731305c64e39
 void
   osEE_hal_save_ctx_and_restore_ctx
 (
@@ -2084,7 +2698,11 @@ void __attribute__((noreturn))
   OsEE_SCB * p_term_scb,
   OsEE_kernel_cb kernel_cb
 );
+<<<<<<< HEAD
 # 134 "C:\\Users\\USER\\Desktop\\WORKSP~1\\TUNNEL~1\\TC275\\erika\\src\\ee_std_change_context.h"
+=======
+# 134 "C:\\Users\\USER\\OneDrive\\Desktop\\tunnel\\TUNNEL~1\\TC275\\erika\\src\\ee_std_change_context.h"
+>>>>>>> be21e51b86386d4de15222e011f8731305c64e39
 static inline void
   osEE_hal_terminate_activation
 (
@@ -2120,7 +2738,11 @@ static inline OsEE_bool
 
   return OSEE_TRUE;
 }
+<<<<<<< HEAD
 # 191 "C:\\Users\\USER\\Desktop\\WORKSP~1\\TUNNEL~1\\TC275\\erika\\src\\ee_std_change_context.h"
+=======
+# 191 "C:\\Users\\USER\\OneDrive\\Desktop\\tunnel\\TUNNEL~1\\TC275\\erika\\src\\ee_std_change_context.h"
+>>>>>>> be21e51b86386d4de15222e011f8731305c64e39
 static inline void
   osEE_hal_signal_broadcast
 (
@@ -2140,6 +2762,7 @@ static inline void
 
   ((void)core_id);
 }
+<<<<<<< HEAD
 # 68 "C:\\Users\\USER\\Desktop\\WORKSP~1\\TUNNEL~1\\TC275\\erika\\src\\ee_hal_internal.h" 2
 
 # 1 "C:\\Users\\USER\\Desktop\\WORKSP~1\\TUNNEL~1\\TC275\\erika\\inc/ee_get_kernel_and_core.h" 1
@@ -2151,6 +2774,19 @@ static inline void
 # 1 "C:\\Users\\USER\\Desktop\\WORKSP~1\\TUNNEL~1\\TC275\\erika\\inc/ee_hal_mc.h" 1
 # 74 "C:\\Users\\USER\\Desktop\\WORKSP~1\\TUNNEL~1\\TC275\\erika\\src\\ee_hal_internal.h" 2
 # 112 "C:\\Users\\USER\\Desktop\\WORKSP~1\\TUNNEL~1\\TC275\\erika\\src\\ee_hal_internal.h"
+=======
+# 68 "C:\\Users\\USER\\OneDrive\\Desktop\\tunnel\\TUNNEL~1\\TC275\\erika\\src\\ee_hal_internal.h" 2
+
+# 1 "C:\\Users\\USER\\OneDrive\\Desktop\\tunnel\\TUNNEL~1\\TC275\\erika\\inc/ee_get_kernel_and_core.h" 1
+# 70 "C:\\Users\\USER\\OneDrive\\Desktop\\tunnel\\TUNNEL~1\\TC275\\erika\\src\\ee_hal_internal.h" 2
+
+# 1 "C:\\Users\\USER\\OneDrive\\Desktop\\tunnel\\TUNNEL~1\\TC275\\erika\\inc/ee_tc_system.h" 1
+# 72 "C:\\Users\\USER\\OneDrive\\Desktop\\tunnel\\TUNNEL~1\\TC275\\erika\\src\\ee_hal_internal.h" 2
+
+# 1 "C:\\Users\\USER\\OneDrive\\Desktop\\tunnel\\TUNNEL~1\\TC275\\erika\\inc/ee_hal_mc.h" 1
+# 74 "C:\\Users\\USER\\OneDrive\\Desktop\\tunnel\\TUNNEL~1\\TC275\\erika\\src\\ee_hal_internal.h" 2
+# 112 "C:\\Users\\USER\\OneDrive\\Desktop\\tunnel\\TUNNEL~1\\TC275\\erika\\src\\ee_hal_internal.h"
+>>>>>>> be21e51b86386d4de15222e011f8731305c64e39
 static inline void __attribute__((always_inline)) osEE_set_SP(OsEE_stack * sp)
 {
   __asm__ volatile ("mov.aa %%SP, %0" : : "a"(sp) : "memory");
@@ -2166,13 +2802,21 @@ static inline OsEE_addr __attribute__((always_inline)) osEE_tc_get_RA(void)
   __asm__ volatile ("mov.aa %0, %%a11" : "=a"(ra) : : "memory");
   return ra;
 }
+<<<<<<< HEAD
 # 139 "C:\\Users\\USER\\Desktop\\WORKSP~1\\TUNNEL~1\\TC275\\erika\\src\\ee_hal_internal.h"
+=======
+# 139 "C:\\Users\\USER\\OneDrive\\Desktop\\tunnel\\TUNNEL~1\\TC275\\erika\\src\\ee_hal_internal.h"
+>>>>>>> be21e51b86386d4de15222e011f8731305c64e39
 static inline void __attribute__((always_inline)) osEE_tc_set_RA(OsEE_addr ra)
 {
 
   __asm__ volatile ("mov.aa %%a11, %0" : : "a"(ra) : "memory");
 }
+<<<<<<< HEAD
 # 189 "C:\\Users\\USER\\Desktop\\WORKSP~1\\TUNNEL~1\\TC275\\erika\\src\\ee_hal_internal.h"
+=======
+# 189 "C:\\Users\\USER\\OneDrive\\Desktop\\tunnel\\TUNNEL~1\\TC275\\erika\\src\\ee_hal_internal.h"
+>>>>>>> be21e51b86386d4de15222e011f8731305c64e39
 static inline OsEE_csa * __attribute__((always_inline))
   osEE_tc_csa_link_to_pointer(OsEE_csa_link l_csa)
 {
@@ -2321,7 +2965,11 @@ static inline OsEE_reg __attribute__((always_inline))
   }
   return ret_flags;
 }
+<<<<<<< HEAD
 # 360 "C:\\Users\\USER\\Desktop\\WORKSP~1\\TUNNEL~1\\TC275\\erika\\src\\ee_hal_internal.h"
+=======
+# 360 "C:\\Users\\USER\\OneDrive\\Desktop\\tunnel\\TUNNEL~1\\TC275\\erika\\src\\ee_hal_internal.h"
+>>>>>>> be21e51b86386d4de15222e011f8731305c64e39
 static inline OsEE_reg __attribute__((always_inline))
   osEE_hal_begin_nested_primitive(void)
 {
@@ -2350,7 +2998,11 @@ static inline void __attribute__((always_inline))
     osEE_tc_set_icr(icr);
   }
 }
+<<<<<<< HEAD
 # 413 "C:\\Users\\USER\\Desktop\\WORKSP~1\\TUNNEL~1\\TC275\\erika\\src\\ee_hal_internal.h"
+=======
+# 413 "C:\\Users\\USER\\OneDrive\\Desktop\\tunnel\\TUNNEL~1\\TC275\\erika\\src\\ee_hal_internal.h"
+>>>>>>> be21e51b86386d4de15222e011f8731305c64e39
 static inline void __attribute__((always_inline))
   osEE_tc_conf_src(CoreIdType tos, OsEE_reg src_offset, OsEE_prio prio) {
 
@@ -2362,6 +3014,7 @@ static inline void __attribute__((always_inline))
   (*(OsEE_reg volatile *)((0xF0038000U) + (src_offset))) = (((OsEE_reg)(tos) & ((OsEE_reg)(0x3U))) << 11U) |
       ((OsEE_reg)1U << 10U) | (((OsEE_reg)(prio)) & (OsEE_reg)0x7FU);
 }
+<<<<<<< HEAD
 # 58 "C:\\Users\\USER\\Desktop\\WORKSP~1\\TUNNEL~1\\TC275\\erika\\src\\ee_internal.h" 2
 # 1 "C:\\Users\\USER\\Desktop\\WORKSP~1\\TUNNEL~1\\TC275\\erika\\src\\ee_hal_mc_internal.h" 1
 # 59 "C:\\Users\\USER\\Desktop\\WORKSP~1\\TUNNEL~1\\TC275\\erika\\src\\ee_internal.h" 2
@@ -2369,12 +3022,26 @@ static inline void __attribute__((always_inline))
 # 57 "C:\\Users\\USER\\Desktop\\WORKSP~1\\TUNNEL~1\\TC275\\erika\\src\\ee_kernel.h"
 # 1 "C:\\Users\\USER\\Desktop\\WORKSP~1\\TUNNEL~1\\TC275\\erika\\inc/ee_api.h" 1
 # 58 "C:\\Users\\USER\\Desktop\\WORKSP~1\\TUNNEL~1\\TC275\\erika\\src\\ee_kernel.h" 2
+=======
+# 58 "C:\\Users\\USER\\OneDrive\\Desktop\\tunnel\\TUNNEL~1\\TC275\\erika\\src\\ee_internal.h" 2
+# 1 "C:\\Users\\USER\\OneDrive\\Desktop\\tunnel\\TUNNEL~1\\TC275\\erika\\src\\ee_hal_mc_internal.h" 1
+# 59 "C:\\Users\\USER\\OneDrive\\Desktop\\tunnel\\TUNNEL~1\\TC275\\erika\\src\\ee_internal.h" 2
+# 1 "C:\\Users\\USER\\OneDrive\\Desktop\\tunnel\\TUNNEL~1\\TC275\\erika\\src\\ee_kernel.h" 1
+# 57 "C:\\Users\\USER\\OneDrive\\Desktop\\tunnel\\TUNNEL~1\\TC275\\erika\\src\\ee_kernel.h"
+# 1 "C:\\Users\\USER\\OneDrive\\Desktop\\tunnel\\TUNNEL~1\\TC275\\erika\\inc/ee_api.h" 1
+# 58 "C:\\Users\\USER\\OneDrive\\Desktop\\tunnel\\TUNNEL~1\\TC275\\erika\\src\\ee_kernel.h" 2
+>>>>>>> be21e51b86386d4de15222e011f8731305c64e39
 
 
 
 
+<<<<<<< HEAD
 # 1 "C:\\Users\\USER\\Desktop\\WORKSP~1\\TUNNEL~1\\TC275\\erika\\src\\ee_scheduler.h" 1
 # 69 "C:\\Users\\USER\\Desktop\\WORKSP~1\\TUNNEL~1\\TC275\\erika\\src\\ee_scheduler.h"
+=======
+# 1 "C:\\Users\\USER\\OneDrive\\Desktop\\tunnel\\TUNNEL~1\\TC275\\erika\\src\\ee_scheduler.h" 1
+# 69 "C:\\Users\\USER\\OneDrive\\Desktop\\tunnel\\TUNNEL~1\\TC275\\erika\\src\\ee_scheduler.h"
+>>>>>>> be21e51b86386d4de15222e011f8731305c64e39
 OsEE_bool
   osEE_scheduler_rq_insert
 (
@@ -2402,7 +3069,11 @@ OsEE_SN *
   OsEE_CDB * p_cdb,
   OsEE_RQ * p_rq
 );
+<<<<<<< HEAD
 # 106 "C:\\Users\\USER\\Desktop\\WORKSP~1\\TUNNEL~1\\TC275\\erika\\src\\ee_scheduler.h"
+=======
+# 106 "C:\\Users\\USER\\OneDrive\\Desktop\\tunnel\\TUNNEL~1\\TC275\\erika\\src\\ee_scheduler.h"
+>>>>>>> be21e51b86386d4de15222e011f8731305c64e39
 void
   osEE_scheduler_task_wrapper_run
 (
@@ -2434,7 +3105,11 @@ OsEE_bool
 (
   OsEE_KDB * p_kdb
 );
+<<<<<<< HEAD
 # 147 "C:\\Users\\USER\\Desktop\\WORKSP~1\\TUNNEL~1\\TC275\\erika\\src\\ee_scheduler.h"
+=======
+# 147 "C:\\Users\\USER\\OneDrive\\Desktop\\tunnel\\TUNNEL~1\\TC275\\erika\\src\\ee_scheduler.h"
+>>>>>>> be21e51b86386d4de15222e011f8731305c64e39
 OsEE_bool
   osEE_scheduler_task_unblocked
 (
@@ -2456,21 +3131,34 @@ OsEE_TDB *
   OsEE_KDB * p_kdb,
   OsEE_TDB * * pp_tdb_from
 );
+<<<<<<< HEAD
 # 63 "C:\\Users\\USER\\Desktop\\WORKSP~1\\TUNNEL~1\\TC275\\erika\\src\\ee_kernel.h" 2
 # 87 "C:\\Users\\USER\\Desktop\\WORKSP~1\\TUNNEL~1\\TC275\\erika\\src\\ee_kernel.h"
+=======
+# 63 "C:\\Users\\USER\\OneDrive\\Desktop\\tunnel\\TUNNEL~1\\TC275\\erika\\src\\ee_kernel.h" 2
+# 87 "C:\\Users\\USER\\OneDrive\\Desktop\\tunnel\\TUNNEL~1\\TC275\\erika\\src\\ee_kernel.h"
+>>>>>>> be21e51b86386d4de15222e011f8731305c64e39
 void
   osEE_change_context_from_running
 (
   OsEE_TDB * p_from,
   OsEE_TDB * p_to
 );
+<<<<<<< HEAD
 # 104 "C:\\Users\\USER\\Desktop\\WORKSP~1\\TUNNEL~1\\TC275\\erika\\src\\ee_kernel.h"
+=======
+# 104 "C:\\Users\\USER\\OneDrive\\Desktop\\tunnel\\TUNNEL~1\\TC275\\erika\\src\\ee_kernel.h"
+>>>>>>> be21e51b86386d4de15222e011f8731305c64e39
  OsEE_bool
   osEE_cpu_startos
 (
   void
 );
+<<<<<<< HEAD
 # 135 "C:\\Users\\USER\\Desktop\\WORKSP~1\\TUNNEL~1\\TC275\\erika\\src\\ee_kernel.h"
+=======
+# 135 "C:\\Users\\USER\\OneDrive\\Desktop\\tunnel\\TUNNEL~1\\TC275\\erika\\src\\ee_kernel.h"
+>>>>>>> be21e51b86386d4de15222e011f8731305c64e39
 static inline void
   osEE_orti_trace_service_entry
 (
@@ -2549,7 +3237,11 @@ static inline void
 {
   p_tcb->event_mask = 0U;
 }
+<<<<<<< HEAD
 # 248 "C:\\Users\\USER\\Desktop\\WORKSP~1\\TUNNEL~1\\TC275\\erika\\src\\ee_kernel.h"
+=======
+# 248 "C:\\Users\\USER\\OneDrive\\Desktop\\tunnel\\TUNNEL~1\\TC275\\erika\\src\\ee_kernel.h"
+>>>>>>> be21e51b86386d4de15222e011f8731305c64e39
 static inline OsEE_reg
   osEE_begin_primitive
 (
@@ -2596,7 +3288,11 @@ static inline OsEE_bool
   return (res_id < p_kdb->res_array_size);
 
 }
+<<<<<<< HEAD
 # 334 "C:\\Users\\USER\\Desktop\\WORKSP~1\\TUNNEL~1\\TC275\\erika\\src\\ee_kernel.h"
+=======
+# 334 "C:\\Users\\USER\\OneDrive\\Desktop\\tunnel\\TUNNEL~1\\TC275\\erika\\src\\ee_kernel.h"
+>>>>>>> be21e51b86386d4de15222e011f8731305c64e39
 static inline void
   osEE_call_startup_hook
 (
@@ -2607,7 +3303,11 @@ static inline void
   ((void)p_ccb);
 
 }
+<<<<<<< HEAD
 # 373 "C:\\Users\\USER\\Desktop\\WORKSP~1\\TUNNEL~1\\TC275\\erika\\src\\ee_kernel.h"
+=======
+# 373 "C:\\Users\\USER\\OneDrive\\Desktop\\tunnel\\TUNNEL~1\\TC275\\erika\\src\\ee_kernel.h"
+>>>>>>> be21e51b86386d4de15222e011f8731305c64e39
 static inline void
   osEE_call_pre_task_hook
 (
@@ -2617,7 +3317,11 @@ static inline void
 
   (void)p_ccb;
 }
+<<<<<<< HEAD
 # 411 "C:\\Users\\USER\\Desktop\\WORKSP~1\\TUNNEL~1\\TC275\\erika\\src\\ee_kernel.h"
+=======
+# 411 "C:\\Users\\USER\\OneDrive\\Desktop\\tunnel\\TUNNEL~1\\TC275\\erika\\src\\ee_kernel.h"
+>>>>>>> be21e51b86386d4de15222e011f8731305c64e39
 static inline void
   osEE_call_post_task_hook
 (
@@ -2627,7 +3331,11 @@ static inline void
 
   (void)p_ccb;
 }
+<<<<<<< HEAD
 # 450 "C:\\Users\\USER\\Desktop\\WORKSP~1\\TUNNEL~1\\TC275\\erika\\src\\ee_kernel.h"
+=======
+# 450 "C:\\Users\\USER\\OneDrive\\Desktop\\tunnel\\TUNNEL~1\\TC275\\erika\\src\\ee_kernel.h"
+>>>>>>> be21e51b86386d4de15222e011f8731305c64e39
 static inline void
   osEE_call_shutdown_hook
 (
@@ -2638,7 +3346,11 @@ static inline void
   ((void)p_ccb);
   ((void)Error);
 }
+<<<<<<< HEAD
 # 479 "C:\\Users\\USER\\Desktop\\WORKSP~1\\TUNNEL~1\\TC275\\erika\\src\\ee_kernel.h"
+=======
+# 479 "C:\\Users\\USER\\OneDrive\\Desktop\\tunnel\\TUNNEL~1\\TC275\\erika\\src\\ee_kernel.h"
+>>>>>>> be21e51b86386d4de15222e011f8731305c64e39
 static inline void
   osEE_call_error_hook
 (
@@ -2650,7 +3362,11 @@ static inline void
   ((void)p_ccb);
   ((void)Error);
 }
+<<<<<<< HEAD
 # 503 "C:\\Users\\USER\\Desktop\\WORKSP~1\\TUNNEL~1\\TC275\\erika\\src\\ee_kernel.h"
+=======
+# 503 "C:\\Users\\USER\\OneDrive\\Desktop\\tunnel\\TUNNEL~1\\TC275\\erika\\src\\ee_kernel.h"
+>>>>>>> be21e51b86386d4de15222e011f8731305c64e39
 static inline void
   osEE_set_service_id
 (
@@ -2661,7 +3377,11 @@ static inline void
   ((void)p_ccb);
   ((void)service_id);
 }
+<<<<<<< HEAD
 # 575 "C:\\Users\\USER\\Desktop\\WORKSP~1\\TUNNEL~1\\TC275\\erika\\src\\ee_kernel.h"
+=======
+# 575 "C:\\Users\\USER\\OneDrive\\Desktop\\tunnel\\TUNNEL~1\\TC275\\erika\\src\\ee_kernel.h"
+>>>>>>> be21e51b86386d4de15222e011f8731305c64e39
 static inline void
   osEE_set_api_param1_num_param
 (
@@ -2732,9 +3452,15 @@ static inline void
 static inline void
   osEE_shutdown_os_extra(void)
 {
+<<<<<<< HEAD
 # 681 "C:\\Users\\USER\\Desktop\\WORKSP~1\\TUNNEL~1\\TC275\\erika\\src\\ee_kernel.h"
 }
 # 708 "C:\\Users\\USER\\Desktop\\WORKSP~1\\TUNNEL~1\\TC275\\erika\\src\\ee_kernel.h"
+=======
+# 681 "C:\\Users\\USER\\OneDrive\\Desktop\\tunnel\\TUNNEL~1\\TC275\\erika\\src\\ee_kernel.h"
+}
+# 708 "C:\\Users\\USER\\OneDrive\\Desktop\\tunnel\\TUNNEL~1\\TC275\\erika\\src\\ee_kernel.h"
+>>>>>>> be21e51b86386d4de15222e011f8731305c64e39
 static inline void __attribute__((noreturn))
   osEE_shutdown_os
 (
@@ -2758,7 +3484,11 @@ static inline void __attribute__((noreturn))
     ;
   }
 }
+<<<<<<< HEAD
 # 1005 "C:\\Users\\USER\\Desktop\\WORKSP~1\\TUNNEL~1\\TC275\\erika\\src\\ee_kernel.h"
+=======
+# 1005 "C:\\Users\\USER\\OneDrive\\Desktop\\tunnel\\TUNNEL~1\\TC275\\erika\\src\\ee_kernel.h"
+>>>>>>> be21e51b86386d4de15222e011f8731305c64e39
 static inline void osEE_stack_monitoring
 (
   OsEE_CDB * p_cdb
@@ -2767,8 +3497,13 @@ static inline void osEE_stack_monitoring
 
   (void)p_cdb;
 }
+<<<<<<< HEAD
 # 60 "C:\\Users\\USER\\Desktop\\WORKSP~1\\TUNNEL~1\\TC275\\erika\\src\\ee_internal.h" 2
 # 54 "C:\\Users\\USER\\Desktop\\WORKSP~1\\TUNNEL~1\\TC275\\erika\\src\\ee_oo_kernel.c" 2
+=======
+# 60 "C:\\Users\\USER\\OneDrive\\Desktop\\tunnel\\TUNNEL~1\\TC275\\erika\\src\\ee_internal.h" 2
+# 54 "C:\\Users\\USER\\OneDrive\\Desktop\\tunnel\\TUNNEL~1\\TC275\\erika\\src\\ee_oo_kernel.c" 2
+>>>>>>> be21e51b86386d4de15222e011f8731305c64e39
 
 StatusType osEE_task_activated
 (
@@ -2777,14 +3512,22 @@ StatusType osEE_task_activated
 {
   StatusType ev;
   OsEE_TCB * const p_tcb_act = p_tdb_act->p_tcb;
+<<<<<<< HEAD
 # 71 "C:\\Users\\USER\\Desktop\\WORKSP~1\\TUNNEL~1\\TC275\\erika\\src\\ee_oo_kernel.c"
+=======
+# 71 "C:\\Users\\USER\\OneDrive\\Desktop\\tunnel\\TUNNEL~1\\TC275\\erika\\src\\ee_oo_kernel.c"
+>>>>>>> be21e51b86386d4de15222e011f8731305c64e39
   if (p_tcb_act->current_num_of_act < p_tdb_act->max_num_of_act) {
     ++p_tcb_act->current_num_of_act;
     ev = E_OK;
   } else {
     ev = E_OS_LIMIT;
   }
+<<<<<<< HEAD
 # 86 "C:\\Users\\USER\\Desktop\\WORKSP~1\\TUNNEL~1\\TC275\\erika\\src\\ee_oo_kernel.c"
+=======
+# 86 "C:\\Users\\USER\\OneDrive\\Desktop\\tunnel\\TUNNEL~1\\TC275\\erika\\src\\ee_oo_kernel.c"
+>>>>>>> be21e51b86386d4de15222e011f8731305c64e39
   return ev;
 }
 
@@ -2822,7 +3565,11 @@ OsEE_SN *
     p_own_sn = ((void *)0);
   OsEE_TCB * const
     p_tcb_waking_up = p_tdb_waking_up->p_tcb;
+<<<<<<< HEAD
 # 141 "C:\\Users\\USER\\Desktop\\WORKSP~1\\TUNNEL~1\\TC275\\erika\\src\\ee_oo_kernel.c"
+=======
+# 141 "C:\\Users\\USER\\OneDrive\\Desktop\\tunnel\\TUNNEL~1\\TC275\\erika\\src\\ee_oo_kernel.c"
+>>>>>>> be21e51b86386d4de15222e011f8731305c64e39
   {
 
     p_tcb_waking_up->event_mask |= Mask;
@@ -2839,10 +3586,17 @@ OsEE_SN *
       }
     }
   }
+<<<<<<< HEAD
 # 166 "C:\\Users\\USER\\Desktop\\WORKSP~1\\TUNNEL~1\\TC275\\erika\\src\\ee_oo_kernel.c"
   return p_own_sn;
 }
 # 188 "C:\\Users\\USER\\Desktop\\WORKSP~1\\TUNNEL~1\\TC275\\erika\\src\\ee_oo_kernel.c"
+=======
+# 166 "C:\\Users\\USER\\OneDrive\\Desktop\\tunnel\\TUNNEL~1\\TC275\\erika\\src\\ee_oo_kernel.c"
+  return p_own_sn;
+}
+# 188 "C:\\Users\\USER\\OneDrive\\Desktop\\tunnel\\TUNNEL~1\\TC275\\erika\\src\\ee_oo_kernel.c"
+>>>>>>> be21e51b86386d4de15222e011f8731305c64e39
 void
   osEE_activate_isr2
 (

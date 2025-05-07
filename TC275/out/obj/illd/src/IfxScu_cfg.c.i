@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # 1 "C:\\Users\\USER\\Desktop\\WORKSP~1\\TUNNEL~1\\TC275\\illd\\src\\IfxScu_cfg.c"
 # 1 "C:\\Users\\USER\\Desktop\\workspace\\TunnelMate\\TC275\\out//"
 # 1 "<built-in>"
@@ -13,6 +14,23 @@
 # 1 "C:\\Users\\USER\\Desktop\\WORKSP~1\\TUNNEL~1\\TC275/illd\\Libraries\\Infra\\Sfr\\TC27D\\_Reg\\IfxFlash_bf.h" 1
 # 55 "C:\\Users\\USER\\Desktop\\WORKSP~1\\TUNNEL~1\\TC275/illd\\Libraries\\iLLD\\TC27D\\Tricore\\_Impl\\IfxScu_cfg.h" 2
 # 1429 "C:\\Users\\USER\\Desktop\\WORKSP~1\\TUNNEL~1\\TC275/illd\\Libraries\\iLLD\\TC27D\\Tricore\\_Impl\\IfxScu_cfg.h"
+=======
+# 1 "C:\\Users\\USER\\OneDrive\\Desktop\\tunnel\\TUNNEL~1\\TC275\\illd\\src\\IfxScu_cfg.c"
+# 1 "C:\\Users\\USER\\OneDrive\\Desktop\\tunnel\\TunnelMate\\TC275\\out//"
+# 1 "<built-in>"
+# 1 "<command-line>"
+# 1 "C:\\Users\\USER\\OneDrive\\Desktop\\tunnel\\TUNNEL~1\\TC275\\illd\\src\\IfxScu_cfg.c"
+# 46 "C:\\Users\\USER\\OneDrive\\Desktop\\tunnel\\TUNNEL~1\\TC275\\illd\\src\\IfxScu_cfg.c"
+# 1 "C:\\Users\\USER\\OneDrive\\Desktop\\tunnel\\TUNNEL~1\\TC275/illd\\Libraries\\iLLD\\TC27D\\Tricore\\_Impl\\IfxScu_cfg.h" 1
+# 52 "C:\\Users\\USER\\OneDrive\\Desktop\\tunnel\\TUNNEL~1\\TC275/illd\\Libraries\\iLLD\\TC27D\\Tricore\\_Impl\\IfxScu_cfg.h"
+# 1 "C:\\Users\\USER\\OneDrive\\Desktop\\tunnel\\TUNNEL~1\\TC275/illd\\Configurations\\Ifx_Cfg.h" 1
+# 53 "C:\\Users\\USER\\OneDrive\\Desktop\\tunnel\\TUNNEL~1\\TC275/illd\\Libraries\\iLLD\\TC27D\\Tricore\\_Impl\\IfxScu_cfg.h" 2
+# 1 "C:\\Users\\USER\\OneDrive\\Desktop\\tunnel\\TUNNEL~1\\TC275/illd\\Libraries\\Infra\\Sfr\\TC27D\\_Reg\\IfxScu_bf.h" 1
+# 54 "C:\\Users\\USER\\OneDrive\\Desktop\\tunnel\\TUNNEL~1\\TC275/illd\\Libraries\\iLLD\\TC27D\\Tricore\\_Impl\\IfxScu_cfg.h" 2
+# 1 "C:\\Users\\USER\\OneDrive\\Desktop\\tunnel\\TUNNEL~1\\TC275/illd\\Libraries\\Infra\\Sfr\\TC27D\\_Reg\\IfxFlash_bf.h" 1
+# 55 "C:\\Users\\USER\\OneDrive\\Desktop\\tunnel\\TUNNEL~1\\TC275/illd\\Libraries\\iLLD\\TC27D\\Tricore\\_Impl\\IfxScu_cfg.h" 2
+# 1429 "C:\\Users\\USER\\OneDrive\\Desktop\\tunnel\\TUNNEL~1\\TC275/illd\\Libraries\\iLLD\\TC27D\\Tricore\\_Impl\\IfxScu_cfg.h"
+>>>>>>> be21e51b86386d4de15222e011f8731305c64e39
 typedef enum
 {
     IfxScu_CCUCON0_CLKSEL_fBack = 0,
@@ -41,4 +59,8 @@ typedef enum
     IfxScu_PMCSR_REQSLP_Sleep = 2U,
     IfxScu_PMCSR_REQSLP_Stby = 3U
 } IfxScu_PMCSR_REQSLP;
+<<<<<<< HEAD
 # 47 "C:\\Users\\USER\\Desktop\\WORKSP~1\\TUNNEL~1\\TC275\\illd\\src\\IfxScu_cfg.c" 2
+=======
+# 47 "C:\\Users\\USER\\OneDrive\\Desktop\\tunnel\\TUNNEL~1\\TC275\\illd\\src\\IfxScu_cfg.c" 2
+>>>>>>> be21e51b86386d4de15222e011f8731305c64e39

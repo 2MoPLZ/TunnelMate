@@ -1,17 +1,5 @@
 #include "Lcd_Driver.h"
 #include "bsw.h"
-   
-
-// void delay_ms(unsigned long delay)
-// {
-//     uint32 freq = IfxStm_getFrequency(&MODULE_STM0);
-//     uint64 ticks_per_ms = freq / 1000;
-//     uint64 start = IfxStm_get(&MODULE_STM0);
-//     uint64 wait_ticks = delay * ticks_per_ms;
-
-//     while ((IfxStm_get(&MODULE_STM0) - start) < wait_ticks);
-// }
-
 
 static void lcd_pulse_enable(void)
 {
@@ -20,7 +8,6 @@ static void lcd_pulse_enable(void)
     IfxPort_setPinLow(LCD_E);
     delay_ms(2);       
 }
-
 
 static void lcd_write4bits(uint8 data)
 {

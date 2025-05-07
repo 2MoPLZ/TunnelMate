@@ -8,6 +8,7 @@
 /* custom driver added start*/
 #include "Lcd_driver.h"
 #include "ultrasonic_Driver.h"
+#include "uart_Driver.h"
 #include "Button_Driver.h"
 #include "infotainment_System.h"
 /* custom driver added end*/
@@ -19,10 +20,10 @@
 #define LEN_BUF 128
 
 
-
+void delay_ms(unsigned long delay);
+void delay_us(unsigned long delay);
 void UART_init(void);
 void printfSerial(const char *fmt,...);
-void mdelay(unsigned long delay_ms);
 void initPeripheralsAndERU(void);
 void initVADCModule(void);                      /* Function to initialize the VADC module with default parameters   */
 void initVADCGroup(void);                       /* Function to initialize the VADC group                            */
@@ -39,6 +40,26 @@ IfxVadc_ChannelId g_vadcChannelIDs[] = {IfxVadc_ChannelId_4,  /* AN36: channel 4
                                         IfxVadc_ChannelId_6,  /* AN38: channel 6 of group 4                         */
                                         IfxVadc_ChannelId_7}; /* AN39: channel 7 of group 4                         */
 
+
+void delay_ms(unsigned long delay)
+{
+    uint32 freq = IfxStm_getFrequency(&MODULE_STM0);
+    uint64 ticks_per_ms = freq / 1000;
+    uint64 start = IfxStm_get(&MODULE_STM0);
+    uint64 wait_ticks = delay * ticks_per_ms;
+
+    while ((IfxStm_get(&MODULE_STM0) - start) < wait_ticks);
+}
+
+void delay_us(unsigned long delay)
+{
+    uint32 freq = IfxStm_getFrequency(&MODULE_STM0);
+    uint64 ticks_per_us = freq / 1000000;
+    uint64 start = IfxStm_get(&MODULE_STM0);
+    uint64 wait_ticks = delay * ticks_per_us;
+
+    while ((IfxStm_get(&MODULE_STM0) - start) < wait_ticks);
+}
 
 void UART_init(void)
 {
@@ -87,19 +108,6 @@ void printfSerial(const char *fmt,...)
     }
     /* Transmit data */
     IfxAsclin_Asc_write(&g_AsclinAsc.drivers.asc, txData, &g_AsclinAsc.count, TIME_INFINITE);
-}
-
-void mdelay(unsigned long delay_ms)
-{
-    unsigned long prev_ms = IfxStm_get(&MODULE_STM0) / (IfxStm_getFrequency(&MODULE_STM0) / ( 1000 /1 )), current_ms = IfxStm_get(&MODULE_STM0) / (IfxStm_getFrequency(&MODULE_STM0) / ( 1000 /1 ));
-    unsigned long period_ms = 20, cnt = 0;
-    while (cnt < (delay_ms / period_ms)) {
-        current_ms = IfxStm_get(&MODULE_STM0) / (IfxStm_getFrequency(&MODULE_STM0) / ( 1000 /1 ));
-        if (current_ms - prev_ms >= period_ms) {
-            cnt++;
-            prev_ms = IfxStm_get(&MODULE_STM0) / (IfxStm_getFrequency(&MODULE_STM0) / ( 1000 /1 ));
-        }
-    }
 }
 
 /* Function to initialize the VADC module */
@@ -223,7 +231,7 @@ void initPeripheralsAndERU(void)
     IfxSrc_enable(g_ERUconfig.src);
 }
 
-ISR(asclin0TxISR)
+ISR(asclin3TxISR)
 {
     IfxAsclin_Asc_isrTransmit(&g_AsclinAsc.drivers.asc);
 }
@@ -240,9 +248,8 @@ int main(void)
     /* custom driver init() added start*/
     lcd_init();
     initUltrasonic();
-    initInfotainment();
+    initUartDriver();
     /* custom driver added end*/
-    
 
     printfSerial("\n...............\n");
     printfSerial("...OS Starts...\n");

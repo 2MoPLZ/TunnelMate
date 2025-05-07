@@ -21,9 +21,21 @@ CPU test_application {
 			CLASS = ECC2;
 		};
 	};
-	ISR ASCLIN0_TX {
+	ISR ASCLIN3_TX {
 		CATEGORY = 2;
 		PRIORITY = 19;
+		HANDLER = "asclin3TxISR";
+		SOURCE = "ASCLIN3TX";
+	};
+	ISR ASCLIN0_RX {
+		CATEGORY = 2;
+		PRIORITY = 4;
+		HANDLER = "asclin0RxISR";
+		SOURCE = "ASCLIN0RX";
+	};
+	ISR ASCLIN0_TX {
+		CATEGORY = 2;
+		PRIORITY = 5;
 		HANDLER = "asclin0TxISR";
 		SOURCE = "ASCLIN0TX";
 	};

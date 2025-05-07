@@ -6,6 +6,11 @@
  *
  *      getUltrasonic 호출간 주기는 최소 60ms로 할 것
  *      3cm ~ 250cm 까지 측정 가능, 측정면의 상태에 따라 TIMEOUT발생(-1)
+ * 
+ *      TODO:
+ *          1. 전방 거리 탐지용 Ultrasonic 추가 (MUST BE)
+ *          2. interrupt 방식으로의 개선
+ *          3. config를 갖는 객체화(struct)
  *
  */
 
@@ -42,7 +47,6 @@ void sendTrigger();
 long measureEchoTick();
 int calculateDistanceCm(long elapsedTicks);
 
-void delay_ms(unsigned long delay);
-void delay_us(unsigned long delay);
+
 
 #endif /* INC_ULTRASONIC_DRIVER_H_ */

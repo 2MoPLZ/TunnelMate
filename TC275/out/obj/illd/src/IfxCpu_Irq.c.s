@@ -29,7 +29,11 @@
 	.type	IfxCpu_Irq_installInterruptHandler, @function
 IfxCpu_Irq_installInterruptHandler:
 .LFB228:
+<<<<<<< HEAD
 	.file 1 "C:\\Users\\USER\\Desktop\\WORKSP~1\\TUNNEL~1\\TC275\\illd\\src\\IfxCpu_Irq.c"
+=======
+	.file 1 "C:\\Users\\USER\\OneDrive\\Desktop\\tunnel\\TUNNEL~1\\TC275\\illd\\src\\IfxCpu_Irq.c"
+>>>>>>> be21e51b86386d4de15222e011f8731305c64e39
 	.loc 1 77 0
 .LVL0:
 	.loc 1 78 0
@@ -49,7 +53,11 @@ IfxCpu_Irq_intVecTable:
 .LBB2:
 	.loc 1 93 0
 #APP
+<<<<<<< HEAD
 	# 93 "C:\Users\USER\Desktop\WORKSP~1\TUNNEL~1\TC275\illd\src\IfxCpu_Irq.c" 1
+=======
+	# 93 "C:\Users\USER\OneDrive\Desktop\tunnel\TUNNEL~1\TC275\illd\src\IfxCpu_Irq.c" 1
+>>>>>>> be21e51b86386d4de15222e011f8731305c64e39
 	mfcr %d15, LO:0xFE2C
 	# 0 "" 2
 .LVL1:
@@ -108,6 +116,7 @@ IfxCpu_Irq_swIntVector:
 .LEFDE2:
 .section .text,"ax",@progbits
 .Letext0:
+<<<<<<< HEAD
 	.file 2 "C:\\Users\\USER\\Desktop\\WORKSP~1\\TUNNEL~1\\TC275/illd\\Libraries\\iLLD\\TC27D\\Tricore\\Cpu\\Std\\Platform_Types.h"
 	.file 3 "C:\\Users\\USER\\Desktop\\WORKSP~1\\TUNNEL~1\\TC275/illd\\Libraries\\iLLD\\TC27D\\Tricore\\Cpu\\Std/Ifx_Types.h"
 	.file 4 "C:\\Users\\USER\\Desktop\\WORKSP~1\\TUNNEL~1\\TC275/illd\\Libraries\\Infra\\Sfr\\TC27D\\_Reg\\IfxCpu_regdef.h"
@@ -115,6 +124,15 @@ IfxCpu_Irq_swIntVector:
 .section .debug_info,"",@progbits
 .Ldebug_info0:
 	.uaword	0x507
+=======
+	.file 2 "C:\\Users\\USER\\OneDrive\\Desktop\\tunnel\\TUNNEL~1\\TC275/illd\\Libraries\\iLLD\\TC27D\\Tricore\\Cpu\\Std\\Platform_Types.h"
+	.file 3 "C:\\Users\\USER\\OneDrive\\Desktop\\tunnel\\TUNNEL~1\\TC275/illd\\Libraries\\iLLD\\TC27D\\Tricore\\Cpu\\Std/Ifx_Types.h"
+	.file 4 "C:\\Users\\USER\\OneDrive\\Desktop\\tunnel\\TUNNEL~1\\TC275/illd\\Libraries\\Infra\\Sfr\\TC27D\\_Reg\\IfxCpu_regdef.h"
+	.file 5 "C:\\Users\\USER\\OneDrive\\Desktop\\tunnel\\TUNNEL~1\\TC275/illd\\Libraries\\iLLD\\TC27D\\Tricore\\_Impl/IfxCpu_cfg.h"
+.section .debug_info,"",@progbits
+.Ldebug_info0:
+	.uaword	0x50e
+>>>>>>> be21e51b86386d4de15222e011f8731305c64e39
 	.uahalf	0x3
 	.uaword	.Ldebug_abbrev0
 	.byte	0x4
@@ -122,7 +140,11 @@ IfxCpu_Irq_swIntVector:
 	.ascii	"GNU C 4.9."
 	.string	"4 build on 2019-06-07 -mlicense-dir=c:\\hightec\\toolchains\\tricore\\v4.9.3.0-infineon-1.0\\bin\\../lib/gcc/tricore/4.9.4/../../../../licenses -mcpu=tc27xx -g -Os -fno-common -fshort-enums -fstrict-volatile-bitfields -finline-functions -fzero-initialized-in-bss"
 	.byte	0x1
+<<<<<<< HEAD
 	.string	"C:\\Users\\USER\\Desktop\\WORKSP~1\\TUNNEL~1\\TC275\\illd\\src\\IfxCpu_Irq.c"
+=======
+	.string	"C:\\Users\\USER\\OneDrive\\Desktop\\tunnel\\TUNNEL~1\\TC275\\illd\\src\\IfxCpu_Irq.c"
+>>>>>>> be21e51b86386d4de15222e011f8731305c64e39
 	.uaword	.Ltext0
 	.uaword	.Letext0
 	.uaword	.Ldebug_line0
@@ -150,7 +172,11 @@ IfxCpu_Irq_swIntVector:
 	.string	"uint32"
 	.byte	0x2
 	.byte	0x74
+<<<<<<< HEAD
 	.uaword	0x174
+=======
+	.uaword	0x17b
+>>>>>>> be21e51b86386d4de15222e011f8731305c64e39
 	.uleb128 0x2
 	.byte	0x8
 	.byte	0x7
@@ -167,7 +193,11 @@ IfxCpu_Irq_swIntVector:
 	.string	"sint32"
 	.byte	0x2
 	.byte	0x86
+<<<<<<< HEAD
 	.uaword	0x168
+=======
+	.uaword	0x16f
+>>>>>>> be21e51b86386d4de15222e011f8731305c64e39
 	.uleb128 0x2
 	.byte	0x8
 	.byte	0x5
@@ -188,38 +218,64 @@ IfxCpu_Irq_swIntVector:
 	.byte	0x4
 	.uleb128 0x5
 	.byte	0x4
+<<<<<<< HEAD
 	.uaword	0x23d
 	.uleb128 0x6
 	.uleb128 0x5
 	.byte	0x4
 	.uaword	0x244
+=======
+	.uaword	0x244
+	.uleb128 0x6
+	.uleb128 0x5
+	.byte	0x4
+	.uaword	0x24b
+>>>>>>> be21e51b86386d4de15222e011f8731305c64e39
 	.uleb128 0x7
 	.byte	0x1
 	.uleb128 0x8
 	.byte	0x8
 	.byte	0x3
 	.byte	0x8c
+<<<<<<< HEAD
 	.uaword	0x26c
+=======
+	.uaword	0x273
+>>>>>>> be21e51b86386d4de15222e011f8731305c64e39
 	.uleb128 0x9
 	.string	"module"
 	.byte	0x3
 	.byte	0x8e
+<<<<<<< HEAD
 	.uaword	0x237
+=======
+	.uaword	0x23e
+>>>>>>> be21e51b86386d4de15222e011f8731305c64e39
 	.byte	0
 	.uleb128 0x9
 	.string	"index"
 	.byte	0x3
 	.byte	0x8f
+<<<<<<< HEAD
 	.uaword	0x1fb
+=======
+	.uaword	0x202
+>>>>>>> be21e51b86386d4de15222e011f8731305c64e39
 	.byte	0x4
 	.byte	0
 	.uleb128 0x3
 	.string	"IfxModule_IndexMap"
 	.byte	0x3
 	.byte	0x90
+<<<<<<< HEAD
 	.uaword	0x246
 	.uleb128 0xa
 	.uaword	0x28b
+=======
+	.uaword	0x24d
+	.uleb128 0xa
+	.uaword	0x292
+>>>>>>> be21e51b86386d4de15222e011f8731305c64e39
 	.uleb128 0x2
 	.byte	0x4
 	.byte	0x7
@@ -229,12 +285,20 @@ IfxCpu_Irq_swIntVector:
 	.byte	0x4
 	.byte	0x4
 	.uahalf	0x188
+<<<<<<< HEAD
 	.uaword	0x318
+=======
+	.uaword	0x31f
+>>>>>>> be21e51b86386d4de15222e011f8731305c64e39
 	.uleb128 0xc
 	.string	"CCPN"
 	.byte	0x4
 	.uahalf	0x18a
+<<<<<<< HEAD
 	.uaword	0x286
+=======
+	.uaword	0x28d
+>>>>>>> be21e51b86386d4de15222e011f8731305c64e39
 	.byte	0x4
 	.byte	0xa
 	.byte	0x16
@@ -243,7 +307,11 @@ IfxCpu_Irq_swIntVector:
 	.string	"reserved_10"
 	.byte	0x4
 	.uahalf	0x18b
+<<<<<<< HEAD
 	.uaword	0x286
+=======
+	.uaword	0x28d
+>>>>>>> be21e51b86386d4de15222e011f8731305c64e39
 	.byte	0x4
 	.byte	0x5
 	.byte	0x11
@@ -252,7 +320,11 @@ IfxCpu_Irq_swIntVector:
 	.string	"IE"
 	.byte	0x4
 	.uahalf	0x18c
+<<<<<<< HEAD
 	.uaword	0x286
+=======
+	.uaword	0x28d
+>>>>>>> be21e51b86386d4de15222e011f8731305c64e39
 	.byte	0x4
 	.byte	0x1
 	.byte	0x10
@@ -261,7 +333,11 @@ IfxCpu_Irq_swIntVector:
 	.string	"PIPN"
 	.byte	0x4
 	.uahalf	0x18d
+<<<<<<< HEAD
 	.uaword	0x286
+=======
+	.uaword	0x28d
+>>>>>>> be21e51b86386d4de15222e011f8731305c64e39
 	.byte	0x4
 	.byte	0xa
 	.byte	0x6
@@ -270,7 +346,11 @@ IfxCpu_Irq_swIntVector:
 	.string	"reserved_26"
 	.byte	0x4
 	.uahalf	0x18e
+<<<<<<< HEAD
 	.uaword	0x286
+=======
+	.uaword	0x28d
+>>>>>>> be21e51b86386d4de15222e011f8731305c64e39
 	.byte	0x4
 	.byte	0x6
 	.byte	0
@@ -280,33 +360,57 @@ IfxCpu_Irq_swIntVector:
 	.string	"Ifx_CPU_ICR_Bits"
 	.byte	0x4
 	.uahalf	0x18f
+<<<<<<< HEAD
 	.uaword	0x29b
+=======
+	.uaword	0x2a2
+>>>>>>> be21e51b86386d4de15222e011f8731305c64e39
 	.uleb128 0xe
 	.byte	0x4
 	.byte	0x4
 	.uahalf	0x3f4
+<<<<<<< HEAD
 	.uaword	0x359
+=======
+	.uaword	0x360
+>>>>>>> be21e51b86386d4de15222e011f8731305c64e39
 	.uleb128 0xf
 	.string	"U"
 	.byte	0x4
 	.uahalf	0x3f6
+<<<<<<< HEAD
 	.uaword	0x28b
+=======
+	.uaword	0x292
+>>>>>>> be21e51b86386d4de15222e011f8731305c64e39
 	.uleb128 0xf
 	.string	"I"
 	.byte	0x4
 	.uahalf	0x3f7
+<<<<<<< HEAD
 	.uaword	0x189
+=======
+	.uaword	0x190
+>>>>>>> be21e51b86386d4de15222e011f8731305c64e39
 	.uleb128 0xf
 	.string	"B"
 	.byte	0x4
 	.uahalf	0x3f8
+<<<<<<< HEAD
 	.uaword	0x318
+=======
+	.uaword	0x31f
+>>>>>>> be21e51b86386d4de15222e011f8731305c64e39
 	.byte	0
 	.uleb128 0xd
 	.string	"Ifx_CPU_ICR"
 	.byte	0x4
 	.uahalf	0x3f9
+<<<<<<< HEAD
 	.uaword	0x331
+=======
+	.uaword	0x338
+>>>>>>> be21e51b86386d4de15222e011f8731305c64e39
 	.uleb128 0x2
 	.byte	0x4
 	.byte	0x7
@@ -315,7 +419,11 @@ IfxCpu_Irq_swIntVector:
 	.byte	0x1
 	.byte	0x5
 	.byte	0x87
+<<<<<<< HEAD
 	.uaword	0x3c9
+=======
+	.uaword	0x3d0
+>>>>>>> be21e51b86386d4de15222e011f8731305c64e39
 	.uleb128 0x11
 	.string	"IfxCpu_Index_0"
 	.sleb128 0
@@ -333,7 +441,11 @@ IfxCpu_Irq_swIntVector:
 	.string	"Ifx_Isr"
 	.byte	0x1
 	.byte	0x3e
+<<<<<<< HEAD
 	.uaword	0x23e
+=======
+	.uaword	0x245
+>>>>>>> be21e51b86386d4de15222e011f8731305c64e39
 	.uleb128 0x12
 	.byte	0x1
 	.string	"IfxCpu_Irq_installInterruptHandler"
@@ -345,19 +457,31 @@ IfxCpu_Irq_swIntVector:
 	.byte	0x1
 	.byte	0x9c
 	.byte	0x1
+<<<<<<< HEAD
 	.uaword	0x446
+=======
+	.uaword	0x44d
+>>>>>>> be21e51b86386d4de15222e011f8731305c64e39
 	.uleb128 0x13
 	.string	"isrFuncPointer"
 	.byte	0x1
 	.byte	0x4c
+<<<<<<< HEAD
 	.uaword	0x235
+=======
+	.uaword	0x23c
+>>>>>>> be21e51b86386d4de15222e011f8731305c64e39
 	.byte	0x1
 	.byte	0x64
 	.uleb128 0x13
 	.string	"serviceReqPrioNumber"
 	.byte	0x1
 	.byte	0x4c
+<<<<<<< HEAD
 	.uaword	0x1b7
+=======
+	.uaword	0x1be
+>>>>>>> be21e51b86386d4de15222e011f8731305c64e39
 	.byte	0x1
 	.byte	0x54
 	.byte	0
@@ -372,21 +496,37 @@ IfxCpu_Irq_swIntVector:
 	.byte	0x1
 	.byte	0x9c
 	.byte	0x1
+<<<<<<< HEAD
 	.uaword	0x4a4
+=======
+	.uaword	0x4ab
+>>>>>>> be21e51b86386d4de15222e011f8731305c64e39
 	.uleb128 0x14
 	.string	"icr"
 	.byte	0x1
 	.byte	0x5b
+<<<<<<< HEAD
 	.uaword	0x359
 	.uleb128 0x15
 	.uaword	.LBB2
 	.uaword	.LBE2
 	.uaword	0x49b
+=======
+	.uaword	0x360
+	.uleb128 0x15
+	.uaword	.LBB2
+	.uaword	.LBE2
+	.uaword	0x4a2
+>>>>>>> be21e51b86386d4de15222e011f8731305c64e39
 	.uleb128 0x16
 	.string	"__res"
 	.byte	0x1
 	.byte	0x5d
+<<<<<<< HEAD
 	.uaword	0x28b
+=======
+	.uaword	0x292
+>>>>>>> be21e51b86386d4de15222e011f8731305c64e39
 	.uaword	.LLST0
 	.byte	0
 	.uleb128 0x17
@@ -396,36 +536,62 @@ IfxCpu_Irq_swIntVector:
 	.sleb128 0
 	.byte	0
 	.uleb128 0x18
+<<<<<<< HEAD
 	.uaword	0x3c9
 	.uaword	0x4b4
 	.uleb128 0x19
 	.uaword	0x36d
+=======
+	.uaword	0x3d0
+	.uaword	0x4bb
+	.uleb128 0x19
+	.uaword	0x374
+>>>>>>> be21e51b86386d4de15222e011f8731305c64e39
 	.byte	0xff
 	.byte	0
 	.uleb128 0x1a
 	.string	"IfxCpu_Irq_swIntVector"
 	.byte	0x1
 	.byte	0x40
+<<<<<<< HEAD
 	.uaword	0x4a4
+=======
+	.uaword	0x4ab
+>>>>>>> be21e51b86386d4de15222e011f8731305c64e39
 	.byte	0x5
 	.byte	0x3
 	.uaword	IfxCpu_Irq_swIntVector
 	.uleb128 0x18
+<<<<<<< HEAD
 	.uaword	0x26c
 	.uaword	0x4e8
 	.uleb128 0x19
 	.uaword	0x36d
+=======
+	.uaword	0x273
+	.uaword	0x4ef
+	.uleb128 0x19
+	.uaword	0x374
+>>>>>>> be21e51b86386d4de15222e011f8731305c64e39
 	.byte	0x2
 	.byte	0
 	.uleb128 0x1b
 	.string	"IfxCpu_cfg_indexMap"
 	.byte	0x5
 	.byte	0xa7
+<<<<<<< HEAD
 	.uaword	0x505
 	.byte	0x1
 	.byte	0x1
 	.uleb128 0x1c
 	.uaword	0x4d8
+=======
+	.uaword	0x50c
+	.byte	0x1
+	.byte	0x1
+	.uleb128 0x1c
+	.uaword	0x4df
+>>>>>>> be21e51b86386d4de15222e011f8731305c64e39
 	.byte	0
 .section .debug_abbrev,"",@progbits
 .Ldebug_abbrev0:
