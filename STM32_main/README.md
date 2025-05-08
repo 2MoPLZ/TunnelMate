@@ -37,6 +37,9 @@ DMA Settings 메뉴에서 DMA를 추가해준다.
 - UART2 RX/TX: UART_SENSOR_RX/TX
 - UART3 RX/TX: UART_ACTUATOR_RX/TX
 
+![s09210305072025](https://a.okmd.dev/md/681aa77222820.png)
+NUCLEO-F103RB 보드의 pinmap에 맞추어 각 pin에 잘 꽂아주면 된다.
+
 ![s17021304282025](https://a.okmd.dev/md/680f360847663.png)
 Project Manager 탭에서 Project 이름을 설정하고 Toolchain/IDE를 STM32CubeIDE로 설정한다.
 
@@ -72,6 +75,7 @@ printf 형태로 format 지정하여 UART 송신
 | *padding*         | -            | 4 bits                 | (Reserved for more driving mode)      |
 | `servo_chair`     | 2            | 12 bits used           | Chair tilt (scaled from 0–4095)       |
 | `servo_window`    | 2            | 12 bits used           | Window position (scaled from 0–4095)  |
+| `front_distance`  | 2            | 12 bits used           | Window position (scaled from 0–4095)  |
 | `crc`             | 1            | 8 bits                 | Checksum or CRC                       |
 | **Total**         | **10 bytes** |                        |                                       |
 

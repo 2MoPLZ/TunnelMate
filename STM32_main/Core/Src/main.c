@@ -18,6 +18,9 @@
 /* USER CODE END Header */
 /* Includes ------------------------------------------------------------------*/
 #include "main.h"
+#include "dma.h"
+#include "usart.h"
+#include "gpio.h"
 
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
@@ -31,6 +34,11 @@
 
 /* Private define ------------------------------------------------------------*/
 /* USER CODE BEGIN PD */
+#define BUFFER_SIZE 64
+
+#define COMMOD_ACT 0
+#define SENSOR_ACT 1
+#define SENSOR_SENSOR 2
 
 /* USER CODE END PD */
 
@@ -40,28 +48,54 @@
 /* USER CODE END PM */
 
 /* Private variables ---------------------------------------------------------*/
-CAN_HandleTypeDef hcan;
-
-UART_HandleTypeDef huart1;
-DMA_HandleTypeDef hdma_usart1_rx;
-DMA_HandleTypeDef hdma_usart1_tx;
 
 /* USER CODE BEGIN PV */
+uint8_t actuator_buf[ACTUATOR_PACKET_SIZE] __attribute__((aligned(4)));
+uint8_t sensor_buf[BUFFER_SIZE] __attribute__((aligned(4)));
+
+struct ActuatorPacket act_config;
+struct ActuatorPacket masked_act_config;
+struct SensorPacket sensor_data;
+
+/* packet flag
+ * [0] Got actuator packet from COMMOD
+ * [1] Got actuator packet from SENSOR
+ * [2] Got sensor packet from SENSOR
+ */
+uint8_t packet_flag[3] = {0, 0, 0};
 
 /* USER CODE END PV */
 
 /* Private function prototypes -----------------------------------------------*/
 void SystemClock_Config(void);
-static void MX_GPIO_Init(void);
-static void MX_DMA_Init(void);
-static void MX_CAN_Init(void);
-static void MX_USART1_UART_Init(void);
+
 /* USER CODE BEGIN PFP */
+void printActuatorPacket(void);
 
 /* USER CODE END PFP */
 
 /* Private user code ---------------------------------------------------------*/
 /* USER CODE BEGIN 0 */
+
+// UART Callback
+void HAL_UART_RxCpltCallback(UART_HandleTypeDef *huart)
+{
+	if (huart->Instance == USART1) { // Communication Module (COMMOD)
+		if( deserialize_actuator_packet(&actuator_buf, &act_config) == 0)
+		{
+			packet_flag[COMMOD_ACT] = 1;
+		}
+		HAL_UART_Receive_IT(UART_COMMOD, actuator_buf, ACTUATOR_PACKET_SIZE);
+    }
+	else if (huart->Instance == USART5) { // Sensor Moduel (SENSOR)
+
+    	HAL_UART_Receive_IT(UART_SENSOR, sensor_buf, ACTUATOR_PACKET_SIZE);
+    }
+}
+
+// DMA Callback
+HAL_UART_Receive_DMA()
+HAL_UARTEx_ReceiveToIdle_DMA
 
 /* USER CODE END 0 */
 
@@ -95,11 +129,17 @@ int main(void)
   /* Initialize all configured peripherals */
   MX_GPIO_Init();
   MX_DMA_Init();
-  MX_CAN_Init();
   MX_USART1_UART_Init();
+  MX_USART2_UART_Init();
+  MX_USART4_UART_Init();
+  MX_USART5_UART_Init();
   /* USER CODE BEGIN 2 */
-  uint8_t buffer[256];
-  int count = 0;
+  HAL_UART_Receive_IT(UART_COMMOD, actuator_buf, ACTUATOR_PACKET_SIZE);
+//  HAL_UART_Receive_IT(UART_SENSOR, sensor_buf, BUFFER_SIZE);
+//  HAL_UARTEx_ReceiveToIdle_DMA(UART_SENSOR, sensor_buf, BUFFER_SIZE);
+
+  // @DEBUG
+  setTestActuatorPacket();
 
   /* USER CODE END 2 */
 
@@ -107,8 +147,16 @@ int main(void)
   /* USER CODE BEGIN WHILE */
   while (1)
   {
-	  UART_SendFormatted("[%d] Hello, world!\r\n", count++);
-	  HAL_Delay(1000);
+	if(packet_flag[COMMOD_ACT] == 1) {
+		packet_flag[COMMOD_ACT] = 0;
+
+		printActuatorPacket();
+		serialize_actuator_packet(&act_config, actuator_buf);
+		memcpy(&act_config, actuator_buf, ACTUATOR_PACKET_SIZE);
+		printActuatorPacket();
+		HAL_UART_Transmit(UART_COMMOD, actuator_buf, ACTUATOR_PACKET_SIZE, HAL_MAX_DELAY);
+		/* Handling COMMOD_ACT */
+	}
     /* USER CODE END WHILE */
 
     /* USER CODE BEGIN 3 */
@@ -124,13 +172,19 @@ void SystemClock_Config(void)
 {
   RCC_OscInitTypeDef RCC_OscInitStruct = {0};
   RCC_ClkInitTypeDef RCC_ClkInitStruct = {0};
+  RCC_PeriphCLKInitTypeDef PeriphClkInit = {0};
+
+  /** Configure the main internal regulator output voltage
+  */
+  __HAL_PWR_VOLTAGESCALING_CONFIG(PWR_REGULATOR_VOLTAGE_SCALE1);
 
   /** Initializes the RCC Oscillators according to the specified parameters
   * in the RCC_OscInitTypeDef structure.
   */
-  RCC_OscInitStruct.OscillatorType = RCC_OSCILLATORTYPE_HSI;
-  RCC_OscInitStruct.HSIState = RCC_HSI_ON;
-  RCC_OscInitStruct.HSICalibrationValue = RCC_HSICALIBRATION_DEFAULT;
+  RCC_OscInitStruct.OscillatorType = RCC_OSCILLATORTYPE_MSI;
+  RCC_OscInitStruct.MSIState = RCC_MSI_ON;
+  RCC_OscInitStruct.MSICalibrationValue = 0;
+  RCC_OscInitStruct.MSIClockRange = RCC_MSIRANGE_5;
   RCC_OscInitStruct.PLL.PLLState = RCC_PLL_NONE;
   if (HAL_RCC_OscConfig(&RCC_OscInitStruct) != HAL_OK)
   {
@@ -141,7 +195,7 @@ void SystemClock_Config(void)
   */
   RCC_ClkInitStruct.ClockType = RCC_CLOCKTYPE_HCLK|RCC_CLOCKTYPE_SYSCLK
                               |RCC_CLOCKTYPE_PCLK1|RCC_CLOCKTYPE_PCLK2;
-  RCC_ClkInitStruct.SYSCLKSource = RCC_SYSCLKSOURCE_HSI;
+  RCC_ClkInitStruct.SYSCLKSource = RCC_SYSCLKSOURCE_MSI;
   RCC_ClkInitStruct.AHBCLKDivider = RCC_SYSCLK_DIV1;
   RCC_ClkInitStruct.APB1CLKDivider = RCC_HCLK_DIV1;
   RCC_ClkInitStruct.APB2CLKDivider = RCC_HCLK_DIV1;
@@ -150,116 +204,73 @@ void SystemClock_Config(void)
   {
     Error_Handler();
   }
-}
-
-/**
-  * @brief CAN Initialization Function
-  * @param None
-  * @retval None
-  */
-static void MX_CAN_Init(void)
-{
-
-  /* USER CODE BEGIN CAN_Init 0 */
-
-  /* USER CODE END CAN_Init 0 */
-
-  /* USER CODE BEGIN CAN_Init 1 */
-
-  /* USER CODE END CAN_Init 1 */
-  hcan.Instance = CAN1;
-  hcan.Init.Prescaler = 16;
-  hcan.Init.Mode = CAN_MODE_NORMAL;
-  hcan.Init.SyncJumpWidth = CAN_SJW_1TQ;
-  hcan.Init.TimeSeg1 = CAN_BS1_1TQ;
-  hcan.Init.TimeSeg2 = CAN_BS2_1TQ;
-  hcan.Init.TimeTriggeredMode = DISABLE;
-  hcan.Init.AutoBusOff = DISABLE;
-  hcan.Init.AutoWakeUp = DISABLE;
-  hcan.Init.AutoRetransmission = DISABLE;
-  hcan.Init.ReceiveFifoLocked = DISABLE;
-  hcan.Init.TransmitFifoPriority = DISABLE;
-  if (HAL_CAN_Init(&hcan) != HAL_OK)
+  PeriphClkInit.PeriphClockSelection = RCC_PERIPHCLK_USART1|RCC_PERIPHCLK_USART2;
+  PeriphClkInit.Usart1ClockSelection = RCC_USART1CLKSOURCE_PCLK2;
+  PeriphClkInit.Usart2ClockSelection = RCC_USART2CLKSOURCE_PCLK1;
+  if (HAL_RCCEx_PeriphCLKConfig(&PeriphClkInit) != HAL_OK)
   {
     Error_Handler();
   }
-  /* USER CODE BEGIN CAN_Init 2 */
-
-  /* USER CODE END CAN_Init 2 */
-
-}
-
-/**
-  * @brief USART1 Initialization Function
-  * @param None
-  * @retval None
-  */
-static void MX_USART1_UART_Init(void)
-{
-
-  /* USER CODE BEGIN USART1_Init 0 */
-
-  /* USER CODE END USART1_Init 0 */
-
-  /* USER CODE BEGIN USART1_Init 1 */
-
-  /* USER CODE END USART1_Init 1 */
-  huart1.Instance = USART1;
-  huart1.Init.BaudRate = 115200;
-  huart1.Init.WordLength = UART_WORDLENGTH_8B;
-  huart1.Init.StopBits = UART_STOPBITS_1;
-  huart1.Init.Parity = UART_PARITY_NONE;
-  huart1.Init.Mode = UART_MODE_TX_RX;
-  huart1.Init.HwFlowCtl = UART_HWCONTROL_NONE;
-  huart1.Init.OverSampling = UART_OVERSAMPLING_16;
-  if (HAL_UART_Init(&huart1) != HAL_OK)
-  {
-    Error_Handler();
-  }
-  /* USER CODE BEGIN USART1_Init 2 */
-
-  /* USER CODE END USART1_Init 2 */
-
-}
-
-/**
-  * Enable DMA controller clock
-  */
-static void MX_DMA_Init(void)
-{
-
-  /* DMA controller clock enable */
-  __HAL_RCC_DMA1_CLK_ENABLE();
-
-  /* DMA interrupt init */
-  /* DMA1_Channel4_IRQn interrupt configuration */
-  HAL_NVIC_SetPriority(DMA1_Channel4_IRQn, 0, 0);
-  HAL_NVIC_EnableIRQ(DMA1_Channel4_IRQn);
-  /* DMA1_Channel5_IRQn interrupt configuration */
-  HAL_NVIC_SetPriority(DMA1_Channel5_IRQn, 0, 0);
-  HAL_NVIC_EnableIRQ(DMA1_Channel5_IRQn);
-
-}
-
-/**
-  * @brief GPIO Initialization Function
-  * @param None
-  * @retval None
-  */
-static void MX_GPIO_Init(void)
-{
-/* USER CODE BEGIN MX_GPIO_Init_1 */
-/* USER CODE END MX_GPIO_Init_1 */
-
-  /* GPIO Ports Clock Enable */
-  __HAL_RCC_GPIOA_CLK_ENABLE();
-
-/* USER CODE BEGIN MX_GPIO_Init_2 */
-/* USER CODE END MX_GPIO_Init_2 */
 }
 
 /* USER CODE BEGIN 4 */
+void setTestActuatorPacket(void)
+{
+  act_config.start_byte = 0xAA;
+  act_config.packet_id = 0x01;
 
+  act_config.led_rgb = 0b101;
+  act_config.fan = 2;
+  act_config.led = 1;
+  act_config.buzzer = 0;
+  act_config.driving_mode = 3;
+
+  act_config.servo_chair = 1000;
+  act_config.servo_window = 2000;
+  act_config.servo_air = 1500;
+
+  act_config.crc = 0;
+}
+
+void printActuatorPacket(void)
+{
+    char msg[64];
+    int len;
+
+    // 1. start_byte
+    len = snprintf(msg, sizeof(msg), "start_byte: 0x%02X\r\n", act_config.start_byte);
+    HAL_UART_Transmit(&huart2, (uint8_t*)msg, len, HAL_MAX_DELAY);
+
+    // 2. packet_id
+    len = snprintf(msg, sizeof(msg), "packet_id:  0x%02X\r\n", act_config.packet_id);
+    HAL_UART_Transmit(&huart2, (uint8_t*)msg, len, HAL_MAX_DELAY);
+
+    // 3. RGB bits
+    len = snprintf(msg, sizeof(msg),
+        "LED RGB:    R=%u G=%u B=%u\r\n",
+        act_config.R, act_config.G, act_config.B);
+    HAL_UART_Transmit(&huart2, (uint8_t*)msg, len, HAL_MAX_DELAY);
+
+    // 4. fan, led, buzzer, driving_mode
+    len = snprintf(msg, sizeof(msg),
+        "fan: %u  led: %u  buzzer: %u  mode: %u\r\n",
+        act_config.fan, act_config.led, act_config.buzzer, act_config.driving_mode);
+    HAL_UART_Transmit(&huart2, (uint8_t*)msg, len, HAL_MAX_DELAY);
+
+    // 5. servo angles
+    len = snprintf(msg, sizeof(msg),
+        "servo_chair:  %u\r\n"
+        "servo_window: %u\r\n"
+        "servo_air:    %u\r\n",
+        act_config.servo_chair,
+        act_config.servo_window,
+        act_config.servo_air);
+    HAL_UART_Transmit(&huart2, (uint8_t*)msg, len, HAL_MAX_DELAY);
+
+    // 6. crc
+    len = snprintf(msg, sizeof(msg), "crc: 0x%02X\r\n\r\n", act_config.crc);
+    HAL_UART_Transmit(&huart2, (uint8_t*)msg, len, HAL_MAX_DELAY);
+}
 /* USER CODE END 4 */
 
 /**
