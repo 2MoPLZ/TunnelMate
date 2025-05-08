@@ -14,12 +14,9 @@
 /* ---------- Constants ---------- */
 #define UART_START_BYTE       0xAA
 #define ACTUATOR_PACKET_ID    0x01
-#define ACTUATOR_PACKET_SIZE  11
+#define ACTUATOR_PACKET_SIZE  sizeof(struct ActuatorPacket)
 #define SENSOR_PACKET_ID      0x02
-#define SENSOR_PACKET_SIZE    9    /* 1+1+2+2+2+1 = 9 bytes */
-
-// default values
-#define
+#define SENSOR_PACKET_SIZE    sizeof(struct SensorPacket)
 
 /* ---------- Type Definitions ---------- */
 
@@ -48,7 +45,8 @@ struct __attribute__((__packed__)) ActuatorPacket {
     /* Servo motors (12 bits each, using two 16-bit fields = 4 bytes) */
     uint16_t servo_chair; /* Chair tilt angle */
     uint16_t servo_window; /* Window position */
-    uint16_t servo_air; /* Air control */
+    uint16_t front_distance; /* Distance from the car front */
+
 
     /* CRC (1 byte) */
     uint8_t crc; /* Checksum or CRC */
@@ -70,9 +68,9 @@ struct __attribute__((__packed__)) SensorPacket {
 uint8_t calculate_checksum(const uint8_t* data, size_t length);
 
 void serialize_actuator_packet(const struct ActuatorPacket* packet, uint8_t* buffer);
-void deserialize_actuator_packet(const uint8_t* buffer, struct ActuatorPacket* packet);
+int deserialize_actuator_packet(const uint8_t* buffer, struct ActuatorPacket* packet);
 
 void serialize_sensor_packet(const struct SensorPacket* packet, uint8_t* buffer);
-void deserialize_sensor_packet(const uint8_t* buffer, struct SensorPacket* packet);
+int deserialize_sensor_packet(const uint8_t* buffer, struct SensorPacket* packet);
 
 #endif /* INC_UART_PACKET_H_ */
