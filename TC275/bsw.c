@@ -11,6 +11,7 @@
 #include "uart_Driver.h"
 #include "Button_Driver.h"
 #include "infotainment_System.h"
+#include "photoresistor_Driver.h"
 /* custom driver added end*/
 
 #include <string.h>
