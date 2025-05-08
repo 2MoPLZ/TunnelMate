@@ -95,7 +95,8 @@ obj/asw.c.o: /cygdrive/c/TUNNEL~1/TC275/asw.c /cygdrive/c/TUNNEL~1/TC275/bsw.h \
  /cygdrive/c/TUNNEL~1/TC275/illd/Libraries/iLLD/TC27D/Tricore/Scu/Std/IfxScuWdt.h \
  /cygdrive/c/TUNNEL~1/TC275/illd/Libraries/iLLD/TC27D/Tricore/Port/Std/IfxPort.h \
  /cygdrive/c/TUNNEL~1/TC275/uart_Driver.h \
- /cygdrive/c/TUNNEL~1/TC275/illd/src/ConfigurationIsr.h
+ /cygdrive/c/TUNNEL~1/TC275/illd/src/ConfigurationIsr.h \
+ /cygdrive/c/TUNNEL~1/TC275/ultrasonic_Driver.h
 
 /cygdrive/c/TUNNEL~1/TC275/bsw.h:
 
@@ -296,3 +297,5 @@ obj/asw.c.o: /cygdrive/c/TUNNEL~1/TC275/asw.c /cygdrive/c/TUNNEL~1/TC275/bsw.h \
 /cygdrive/c/TUNNEL~1/TC275/uart_Driver.h:
 
 /cygdrive/c/TUNNEL~1/TC275/illd/src/ConfigurationIsr.h:
+
+/cygdrive/c/TUNNEL~1/TC275/ultrasonic_Driver.h:

@@ -1,5 +1,6 @@
 #include "bsw.h"
 #include "uart_Driver.h"
+#include "ultrasonic_Driver.h"
 
 struct ActuatorPacket sendActuatorPkt = {
     .start_byte = 0xAA,
@@ -13,7 +14,6 @@ struct ActuatorPacket sendActuatorPkt = {
     .servo_window = 2048,
     .servo_air = 2048
 };
-
 
 ISR2(ButtonISR)
 {
@@ -30,7 +30,9 @@ ISR2(ButtonISR)
 
 TASK(TaskUltrasonic)
 {
-    printfSerial("ultrasonic:(%d)", getUltrasonic());
+    // Estimated delay : ~160ms
+    printfSerial("upperUltrasonic:(%d)", getUltrasonic(&g_UpperUltrasonic));
+    printfSerial("frontUltrasonic:(%d)", getUltrasonic(&g_FrontUltrasonic));
 }
 
 ISR2(TimerISR)

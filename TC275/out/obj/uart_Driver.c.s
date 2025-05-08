@@ -40,7 +40,7 @@ initUartDriver:
 	.loc 1 12 0
 	st.h	[%SP] 44, %d15
 	.loc 1 13 0
-	movh	%d15, 18401
+	movh	%d15, 17942
 	st.w	[%SP] 40, %d15
 	.loc 1 22 0
 	st.w	[%SP] 88, %d2
