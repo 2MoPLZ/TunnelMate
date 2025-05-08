@@ -69,7 +69,12 @@ ISR2(TimerISR)
 
     /************** basic-TASK (every 1s) ********************/
     printfSerial("\n%4ld: ", c++);
+<<<<<<< HEAD
     ActivateTask(TaskUltrasonic);
 
     
+=======
+    int photoValue = getPhotoresiter();
+    printfSerial("%d: ", photoValue);
+>>>>>>> 34ff1ec54be522b04d47c3352108486a1876d3f5
 }

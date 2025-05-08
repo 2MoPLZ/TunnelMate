@@ -103,6 +103,7 @@ OS_EE_APP_CFG_SRCS += ultrasonic_Driver.c
 OS_EE_APP_CFG_SRCS += uart_Driver.c
 OS_EE_APP_CFG_SRCS += Button_Driver.c
 OS_EE_APP_CFG_SRCS += infotainment_System.c
+OS_EE_APP_CFG_SRCS += photoresistor_Driver.c
 
 
 export OS_EE_APP_CFG_SRCS

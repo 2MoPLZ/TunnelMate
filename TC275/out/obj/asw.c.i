@@ -22948,8 +22948,16 @@ uint16 readADCValue(uint8 channel);
 # 24 "C:\\TUNNEL~1\\TC275\\uart_Driver.h"
  extern struct ActuatorPacket g_RecievedActuatorPacket;
 
+<<<<<<< HEAD
  void initUartDriver(void);
  void myprintfSerial(const char *fmt,...);
+=======
+void FuncTask1 ( void )
+{
+    printfSerial("Task1 Begins...");
+    mdelay(3000);
+    printfSerial("Task1 Finishes...");
+>>>>>>> 34ff1ec54be522b04d47c3352108486a1876d3f5
 
  void sendActuatorPacket(const struct ActuatorPacket* packet);
  void sendSensorPacket(const struct SensorPacket* packet);
@@ -22977,6 +22985,17 @@ struct ActuatorPacket sendActuatorPkt = {
 };
 
 
+<<<<<<< HEAD
+=======
+    TerminateTask();
+}
+
+void FuncTaskUltrasonic ( void )
+{
+
+}
+
+>>>>>>> 34ff1ec54be522b04d47c3352108486a1876d3f5
 void ButtonISR(void)
 {
     unsigned int buttonState;
@@ -23024,7 +23043,12 @@ void TimerISR(void)
 
 
     printfSerial("\n%4ld: ", c++);
+<<<<<<< HEAD
     ActivateTask((5U));
 
 
+=======
+    int photoValue = getPhotoresiter();
+    printfSerial("%d: ", photoValue);
+>>>>>>> 34ff1ec54be522b04d47c3352108486a1876d3f5
 }
