@@ -3,8 +3,6 @@
 ## 개요
 보드 정보 : STM32F103RBT6 (NUCLEO-F103RB)
 
-@TODO: Pinmap 추가
-
 ## 포팅 매뉴얼
 ### 보드 세팅 (CubeMX 활용)
 ![s16312804282025](https://a.okmd.dev/md/680f2ed288d11.png)
@@ -85,7 +83,8 @@ printf 형태로 format 지정하여 UART 송신
 | ------------- | ------------ | ------------ | ------------------------------------- |
 | `start_byte`  | 1            | 8 bits       | Start of packet (`0xAA`)              |
 | `packet_id`   | 1            | 8 bits       | Packet ID (`0x02` for sensor)         |
-| `photo`       | 2            | 12 bits used | Ambient brightness (0–4095)           |
-| `ultra_sonic` | 2            | 16 bits      | Ultrasonic distance (2–400cm typical) |
+| `photo`       | 2            | 16 bits r    | Ambient brightness (0–4095)           |
+| `ultra_sonic1`| 2            | 16 bits      | Ultrasonic distance (2–400cm typical) |
+| `ultra_sonic2`| 2            | 16 bits      | Ultrasonic distance (2–400cm typical) |
 | `crc`         | 1            | 8 bits       | Checksum or CRC                       |
-| **Total**     | **7 bytes**  |              |                                       |
+| **Total**     | **9 bytes**  |              |                                       |

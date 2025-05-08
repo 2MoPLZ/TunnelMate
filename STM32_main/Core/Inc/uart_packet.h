@@ -47,6 +47,7 @@ struct __attribute__((__packed__)) ActuatorPacket {
     uint16_t servo_window; /* Window position */
     uint16_t front_distance; /* Distance from the car front */
 
+
     /* CRC (1 byte) */
     uint8_t crc; /* Checksum or CRC */
 };
