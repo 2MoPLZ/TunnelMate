@@ -12,7 +12,7 @@ DEFAULT_DATA = {
     "driving_mode": 0,
     "servo_chair": 1000,
     "servo_window": 2000,
-    "servo_air": 1500
+    "front_distance": 1500
 }
 
 @app.route('/get', methods=['GET'])

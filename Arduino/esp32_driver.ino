@@ -19,6 +19,7 @@ void initWiFi();
 void initBLE();
 void getDataApi(String mac);
 void updateDataApi(String mac);
+uint8_t calculate_checksum(const uint8_t* data, size_t length);
 
 struct __attribute__((__packed__)) ActuatorPacket {
     uint8_t start_byte;    /* Start of packet (UART_START_BYTE) */
@@ -44,7 +45,7 @@ struct __attribute__((__packed__)) ActuatorPacket {
     /* Servo motors (12 bits each, using two 16-bit fields = 4 bytes) */
     uint16_t servo_chair; /* Chair tilt angle */
     uint16_t servo_window; /* Window position */
-    uint16_t servo_air; /* Air control */
+    uint16_t front_distance; /* Air control */
 
     /* CRC (1 byte) */
     uint8_t crc; /* Checksum or CRC */
@@ -66,7 +67,7 @@ ActuatorPacket makeTestPacket1() {
 
   pkt.servo_chair = 1000;
   pkt.servo_window = 2000;
-  pkt.servo_air = 1500;
+  pkt.front_distance = 1500;
 
   pkt.crc = 0; // CRC는 테스트용이라 일단 0, 필요시 계산
 
@@ -86,7 +87,7 @@ ActuatorPacket makeTestPacket2() {
 
   pkt.servo_chair = 1200;
   pkt.servo_window = 1800;
-  pkt.servo_air = 1600;
+  pkt.front_distance = 1600;
 
   pkt.crc = 0;
 
@@ -164,7 +165,7 @@ void updateDataApi(String mac, const ActuatorPacket &packet) {
   payload += "\"driving_mode\":" + String(driving_mode_value) + ",";
   payload += "\"servo_chair\":" + String(packet.servo_chair) + ",";
   payload += "\"servo_window\":" + String(packet.servo_window) + ",";
-  payload += "\"servo_air\":" + String(packet.servo_air);
+  payload += "\"front_distance\":" + String(packet.front_distance);
   payload += "}";
 
 
@@ -203,11 +204,11 @@ void getDataApi(String mac) {
       pkt.fan = response.substring(response.indexOf("\"fan\":") + 6).toInt();
       pkt.led = response.substring(response.indexOf("\"led\":") + 6).toInt();
       pkt.led_rgb = response.substring(response.indexOf("\"led_rgb\":") + 10).toInt();
-      pkt.servo_air = response.substring(response.indexOf("\"servo_air\":") + 13).toInt();
+      pkt.front_distance = response.substring(response.indexOf("\"front_distance\":") + 13).toInt();
       pkt.servo_chair = response.substring(response.indexOf("\"servo_chair\":") + 15).toInt();
       pkt.servo_window = response.substring(response.indexOf("\"servo_window\":") + 16).toInt();
 
-      pkt.crc = 0;  // CRC 
+      pkt.crc = calculate_checksum((uint8_t*)&pkt, sizeof(ActuatorPacket) - 1);  // CRC 
 
       Serial2.write((uint8_t*)&pkt, sizeof(pkt));
     } else {
@@ -220,9 +221,17 @@ void getDataApi(String mac) {
   }
 }
 
+uint8_t calculate_checksum(const uint8_t* data, size_t length) {
+    uint8_t sum = 0;
+    for (size_t i = 0; i < length; ++i) {
+        sum ^= data[i];
+    }
+    return sum;
+}
+
 void setup() {
-  Serial.begin(115200);
-  Serial2.begin(115200, SERIAL_8N1, 16, 17); // UART
+  Serial.begin(9600);
+  Serial2.begin(9600, SERIAL_8N1, 16, 17); // UART
 
   initWiFi();
   initBLE();
@@ -235,10 +244,10 @@ void loop() {
     }
   
     // loop back test
-    // static bool toggle = false;
-    // ActuatorPacket testPkt = toggle ? makeTestPacket1() : makeTestPacket2();
-    // toggle = !toggle;
-    // Serial2.write((uint8_t*)&testPkt, sizeof(ActuatorPacket));
+    static bool toggle = false;
+    ActuatorPacket testPkt = toggle ? makeTestPacket1() : makeTestPacket2();
+    toggle = !toggle;
+    Serial2.write((uint8_t*)&testPkt, sizeof(ActuatorPacket));
 
   // Update
   if (connectedMAC != "") {
@@ -254,21 +263,21 @@ void loop() {
   }
 
   // UART write Test
-  // if (connectedMAC != "") {
-  //   if (Serial2.available() >= sizeof(ActuatorPacket)) {
-  //     ActuatorPacket pkt;
-  //     Serial2.readBytes((uint8_t*)&pkt, sizeof(pkt));
-  //     Serial.println("Loopback Packet Received:");
-  //     Serial.println("led_rgb: " + String(pkt.led_rgb));
-  //     Serial.println("fan: " + String(pkt.fan));
-  //     Serial.println("led: " + String(pkt.led));
-  //     Serial.println("buzzer: " + String(pkt.buzzer));
-  //     Serial.println("driving_mode: " + String(pkt.driving_mode));
-  //     Serial.println("servo_chair: " + String(pkt.servo_chair));
-  //     Serial.println("servo_window: " + String(pkt.servo_window));
-  //     Serial.println("servo_air: " + String(pkt.servo_air));
-  //   }
-  // }
+  if (connectedMAC != "") {
+    if (Serial2.available() >= sizeof(ActuatorPacket)) {
+      ActuatorPacket pkt;
+      Serial2.readBytes((uint8_t*)&pkt, sizeof(pkt));
+      Serial.println("Loopback Packet Received:");
+      Serial.println("led_rgb: " + String(pkt.led_rgb));
+      Serial.println("fan: " + String(pkt.fan));
+      Serial.println("led: " + String(pkt.led));
+      Serial.println("buzzer: " + String(pkt.buzzer));
+      Serial.println("driving_mode: " + String(pkt.driving_mode));
+      Serial.println("servo_chair: " + String(pkt.servo_chair));
+      Serial.println("servo_window: " + String(pkt.servo_window));
+      Serial.println("front_distance: " + String(pkt.front_distance));
+    }
+  }
 
 
   delay(1000);

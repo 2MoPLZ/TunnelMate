@@ -33,7 +33,7 @@ def create_table():
                 driving_mode TINYINT UNSIGNED,
                 servo_chair SMALLINT UNSIGNED,
                 servo_window SMALLINT UNSIGNED,
-                servo_air SMALLINT UNSIGNED,
+                front_distance SMALLINT UNSIGNED,
                 created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
                 updated_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP
             );
@@ -60,7 +60,7 @@ def insert_data(mac_address, data):
                 driving_mode,
                 servo_chair,
                 servo_window,
-                servo_air
+                front_distance
             ) VALUES (
                 %(mac_address)s, 
                 %(led_rgb)s, 
@@ -70,7 +70,7 @@ def insert_data(mac_address, data):
                 %(driving_mode)s, 
                 %(servo_chair)s,
                 %(servo_window)s,
-                %(servo_air)s
+                %(front_distance)s
             )
             """
             data["mac_address"] = mac_address
