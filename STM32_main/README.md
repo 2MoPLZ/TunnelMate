@@ -56,8 +56,8 @@ printf 형태로 format 지정하여 UART 송신
 
 ## 통신 프로토콜 (UART)
 ### Actuator Packet (액추에이터 제어 패킷)
-| Field             | Size (Bytes) | Bit Detail             | Description                                     |
-| ----------------- | ------------ | ---------------------- | ------------------------------------- |
+| Field             | Size (Bytes) | Bit Detail             | Description                                   |
+| ----------------- | ------------ | ---------------------- | --------------------------------------------- |
 | `start_byte`      | 1            | 8 bits                 | Start of packet (`0xAA`)                      |
 | `packet_id`       | 1            | 8 bits                 | Packet ID (`0x01` for actuator)               |
 | `led_rgb` (union) | 1            | R:1, G:1, B:1 (3 bits) | RGB LED flags (bitfield)                      |
@@ -69,6 +69,7 @@ printf 형태로 format 지정하여 UART 송신
 | `servo_chair`     | 2            | 16 bits                | Chair tilt (scaled from 0–4095)               |
 | `servo_window`    | 2            | 16 bits                | Window position (scaled from 0–4095)          |
 | `servo_air`       | 2            | 16 bits                | Air conditional position (scaled from 0–4095) |
+| `front_distance`  | 2            | 16 bits                | Distance from the car front                   |
 | `crc`             | 1            | 8 bits                 | Checksum or CRC                               |
 | **Total**         | **11 bytes** |                        |                                               |
 
