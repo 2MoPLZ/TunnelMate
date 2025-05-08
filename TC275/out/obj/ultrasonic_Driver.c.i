@@ -4,9 +4,9 @@
 # 1 "<command-line>"
 # 1 "C:\\TUNNEL~1\\TC275\\ultrasonic_Driver.c"
 # 1 "C:\\TUNNEL~1\\TC275\\ultrasonic_Driver.h" 1
-# 22 "C:\\TUNNEL~1\\TC275\\ultrasonic_Driver.h"
+# 20 "C:\\TUNNEL~1\\TC275\\ultrasonic_Driver.h"
 # 1 "C:\\TUNNEL~1\\TC275\\illd\\src\\ConfigurationIsr.h" 1
-# 23 "C:\\TUNNEL~1\\TC275\\ultrasonic_Driver.h" 2
+# 21 "C:\\TUNNEL~1\\TC275\\ultrasonic_Driver.h" 2
 # 1 "C:\\TUNNEL~1\\TC275\\illd\\src\\Configuration.h" 1
 
 
@@ -21326,8 +21326,8 @@ struct __attribute__((__packed__)) SensorPacket
 
     uint8 crc;
 };
-# 24 "C:\\TUNNEL~1\\TC275\\ultrasonic_Driver.h" 2
-# 34 "C:\\TUNNEL~1\\TC275\\ultrasonic_Driver.h"
+# 22 "C:\\TUNNEL~1\\TC275\\ultrasonic_Driver.h" 2
+# 32 "C:\\TUNNEL~1\\TC275\\ultrasonic_Driver.h"
 struct __attribute__((__packed__)) Ultrasonic
 {
     Ifx_P* TRIG_PORT;
@@ -22933,7 +22933,10 @@ uint8_t osEE_assert_last(void);
 
 # 1 "C:\\TUNNEL~1\\TC275\\out/ee_declcfg.h" 1
 # 35 "C:\\TUNNEL~1\\TC275\\out/ee_declcfg.h"
-extern void FuncTaskUltrasonic ( void );
+extern void FuncSensorTask ( void );
+extern void FuncSendAcutatorPacket_TEST ( void );
+extern void FuncSendSensorPacket_TEST ( void );
+extern void FuncTaskUltrasonic_TEST ( void );
 
 
 void asclin3TxISR(void);
