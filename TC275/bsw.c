@@ -11,6 +11,7 @@
 #include "uart_Driver.h"
 #include "Button_Driver.h"
 #include "infotainment_System.h"
+#include "photoresistor_Driver.h"
 /* custom driver added end*/
 
 #include <string.h>
@@ -247,7 +248,8 @@ int main(void)
     
     /* custom driver init() added start*/
     lcd_init();
-    initUltrasonic();
+    initUltrasonic(&g_UpperUltrasonic);
+    initUltrasonic(&g_FrontUltrasonic);
     initUartDriver();
     /* custom driver added end*/
 

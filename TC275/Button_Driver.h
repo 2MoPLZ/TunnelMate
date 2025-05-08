@@ -4,7 +4,7 @@
  *  Created on: may 2, 2025
  *      Author: 김민
  *
- *     lcd 쉴드의 a0 d2 핀의 연결 필요요
+ *     lcd 쉴드의 a0 d2 핀의 연결 필요
  *
  */
 
@@ -22,6 +22,6 @@
 #define btnRIGHT  3 
 #define btnNONE   4
 
-int readLcdButtons();
+int readLcdButtons(void);
 
 #endif // LCD_H

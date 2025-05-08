@@ -56,6 +56,7 @@ CPU test_application {
 		APP_SRC = "uart_Driver.c";
 		APP_SRC = "Button_Driver.c";
 		APP_SRC = "infotainment_System.c";
+		APP_SRC = "photoresistor_Driver.c";
 	};
 	ISR ASCLIN3_TX {
 		CATEGORY = 2;

@@ -21327,18 +21327,23 @@ struct __attribute__((__packed__)) SensorPacket
     uint8 crc;
 };
 # 24 "C:\\TUNNEL~1\\TC275\\ultrasonic_Driver.h" 2
+# 34 "C:\\TUNNEL~1\\TC275\\ultrasonic_Driver.h"
+struct __attribute__((__packed__)) Ultrasonic
+{
+    Ifx_P* TRIG_PORT;
+    uint8 TRIG_PIN;
+    Ifx_P* ECHO_PORT;
+    uint8 ECHO_PIN;
+};
 
+extern struct Ultrasonic g_UpperUltrasonic;
+extern struct Ultrasonic g_FrontUltrasonic;
 
+void initUltrasonic(struct Ultrasonic* ultrasonic);
+int getUltrasonic(struct Ultrasonic* ultrasonic);
 
-
-
-
-
-void initUltrasonic();
-int getUltrasonic();
-
-void sendTrigger();
-long measureEchoTick();
+void sendTrigger(struct Ultrasonic* ultrasonic);
+long measureEchoTick(struct Ultrasonic* ultrasonic);
 int calculateDistanceCm(long elapsedTicks);
 # 2 "C:\\TUNNEL~1\\TC275\\ultrasonic_Driver.c" 2
 # 1 "C:\\TUNNEL~1\\TC275\\bsw.h" 1
@@ -22952,36 +22957,50 @@ void initADC(void);
 uint16 readADCValue(uint8 channel);
 # 3 "C:\\TUNNEL~1\\TC275\\ultrasonic_Driver.c" 2
 
-void initUltrasonic (void)
+struct Ultrasonic g_UpperUltrasonic = {
+    .TRIG_PORT = &(*(Ifx_P*)0xF003B000u),
+    .TRIG_PIN = 1,
+    .ECHO_PORT = &(*(Ifx_P*)0xF003B000u),
+    .ECHO_PIN = 2
+};
+struct Ultrasonic g_FrontUltrasonic = {
+    .TRIG_PORT = &(*(Ifx_P*)0xF003A200u),
+    .TRIG_PIN = 1,
+    .ECHO_PORT = &(*(Ifx_P*)0xF003B000u),
+    .ECHO_PIN = 3
+};
+
+void initUltrasonic (struct Ultrasonic* ultrasonic)
 {
-    IfxPort_setPinModeOutput(&(*(Ifx_P*)0xF003B000u), 1, IfxPort_OutputMode_pushPull, IfxPort_OutputIdx_general);
-    IfxPort_setPinModeInput(&(*(Ifx_P*)0xF003B000u), 2, IfxPort_InputMode_pullDown);
+    IfxPort_setPinModeOutput(ultrasonic->TRIG_PORT,ultrasonic->TRIG_PIN, IfxPort_OutputMode_pushPull, IfxPort_OutputIdx_general);
+    IfxPort_setPinModeInput(ultrasonic->ECHO_PORT,ultrasonic->ECHO_PIN, IfxPort_InputMode_pullDown);
 }
 
-int getUltrasonic(){
-    sendTrigger();
-    long echoTicks = measureEchoTick();
+int getUltrasonic(struct Ultrasonic* ultrasonic){
+    sendTrigger(ultrasonic);
+    long echoTicks = measureEchoTick(ultrasonic);
     if(echoTicks==-1)return -1;
     int distanceCm = calculateDistanceCm(echoTicks);
     return distanceCm;
 }
 
-void sendTrigger()
+void sendTrigger(struct Ultrasonic* ultrasonic)
 {
-    IfxPort_setPinHigh(&(*(Ifx_P*)0xF003B000u), 1);
+    IfxPort_setPinHigh(ultrasonic->TRIG_PORT,ultrasonic->TRIG_PIN);
     delay_us(10);
-    IfxPort_setPinLow(&(*(Ifx_P*)0xF003B000u), 1);
+    IfxPort_setPinLow(ultrasonic->TRIG_PORT,ultrasonic->TRIG_PIN);
 }
 
-long measureEchoTick()
+long measureEchoTick(struct Ultrasonic* ultrasonic)
 {
     uint64 startTick = 0, elapsedTick = 0;
-    while (IfxPort_getPinState(&(*(Ifx_P*)0xF003B000u), 2) == 0){
+    startTick = IfxStm_get(&(*(Ifx_STM*)0xF0000000u));
+    while (IfxPort_getPinState(ultrasonic->ECHO_PORT,ultrasonic->ECHO_PIN) == 0){
         elapsedTick = IfxStm_get(&(*(Ifx_STM*)0xF0000000u))-startTick;
         if(elapsedTick >= (uint64) 7600000)return -1;
     };
     startTick = IfxStm_get(&(*(Ifx_STM*)0xF0000000u));
-    while (IfxPort_getPinState(&(*(Ifx_P*)0xF003B000u), 2) == 1){
+    while (IfxPort_getPinState(ultrasonic->ECHO_PORT,ultrasonic->ECHO_PIN) == 1){
         elapsedTick = IfxStm_get(&(*(Ifx_STM*)0xF0000000u))-startTick;
         if(elapsedTick >= (uint64) 7600000)return -1;
     };

@@ -7,31 +7,73 @@
 initUltrasonic:
 .LFB574:
 	.file 1 "C:\\TUNNEL~1\\TC275\\ultrasonic_Driver.c"
-	.loc 1 5 0
+	.loc 1 18 0
 .LVL0:
-.LBB30:
-.LBB31:
-	.file 2 "C:\\TUNNEL~1\\TC275/illd\\Libraries\\iLLD\\TC27D\\Tricore\\Port\\Std/IfxPort.h"
-	.loc 2 586 0
-	movh.a	%a4, 61444
-	lea	%a4, [%a4] -20480
-	mov	%d4, 1
-	mov	%d5, 128
-	call	IfxPort_setPinMode
-.LVL1:
-.LBE31:
-.LBE30:
+	.loc 1 19 0
+	ld.bu	%d15, [%a4] 1
+	ld.bu	%d3, [%a4]0
+	sh	%d15, %d15, 8
+	or	%d2, %d15, %d3
+	ld.bu	%d15, [%a4] 2
+	.loc 1 18 0
+	mov.aa	%a15, %a4
+	.loc 1 19 0
+	sh	%d15, %d15, 16
+	or	%d15, %d2
+	ld.bu	%d2, [%a4] 3
 .LBB32:
 .LBB33:
-	.loc 2 580 0
-	movh.a	%a4, 61444
-	lea	%a4, [%a4] -20480
-	mov	%d4, 2
-	mov	%d5, 8
-	j	IfxPort_setPinMode
-.LVL2:
+	.file 2 "C:\\TUNNEL~1\\TC275/illd\\Libraries\\iLLD\\TC27D\\Tricore\\Port\\Std/IfxPort.h"
+	.loc 2 586 0
+	ld.bu	%d4, [%a15] 4
 .LBE33:
 .LBE32:
+	.loc 1 19 0
+	sh	%d2, %d2, 24
+.LBB35:
+.LBB34:
+	.loc 2 586 0
+	or	%d2, %d15
+	mov.a	%a4, %d2
+.LVL1:
+	mov	%d5, 128
+	call	IfxPort_setPinMode
+.LVL2:
+.LBE34:
+.LBE35:
+	.loc 1 20 0
+	ld.bu	%d15, [%a15] 6
+	ld.bu	%d3, [%a15] 5
+	sh	%d15, %d15, 8
+	or	%d2, %d15, %d3
+	ld.bu	%d15, [%a15] 7
+.LBB36:
+.LBB37:
+	.loc 2 580 0
+	ld.bu	%d4, [%a15] 9
+.LBE37:
+.LBE36:
+	.loc 1 20 0
+	sh	%d15, %d15, 16
+	or	%d15, %d2
+	ld.bu	%d2, [%a15] 8
+.LBB40:
+.LBB38:
+	.loc 2 580 0
+	mov	%d5, 8
+.LBE38:
+.LBE40:
+	.loc 1 20 0
+	sh	%d2, %d2, 24
+.LBB41:
+.LBB39:
+	.loc 2 580 0
+	or	%d2, %d15
+	mov.a	%a4, %d2
+	j	IfxPort_setPinMode
+.LVL3:
+.LBE39:
+.LBE41:
 .LFE574:
 	.size	initUltrasonic, .-initUltrasonic
 	.align 1
@@ -39,41 +81,83 @@ initUltrasonic:
 	.type	sendTrigger, @function
 sendTrigger:
 .LFB576:
-	.loc 1 19 0
-.LVL3:
-.LBB34:
-.LBB35:
-.LBB36:
-	.loc 2 592 0
-	movh.a	%a15, 61444
-	lea	%a15, [%a15] -20480
-	mov	%d15, 2
-	st.w	[%a15] 4, %d15
-.LBE36:
-.LBE35:
-.LBE34:
-	.loc 1 21 0
-	mov	%d4, 10
-.LBB37:
-.LBB38:
-.LBB39:
-	.loc 2 592 0
-	movh	%d15, 2
-.LBE39:
-.LBE38:
-.LBE37:
-	.loc 1 21 0
-	call	delay_us
+	.loc 1 32 0
 .LVL4:
+	.loc 1 33 0
+	ld.bu	%d15, [%a4] 1
+	ld.bu	%d3, [%a4]0
+	sh	%d15, %d15, 8
+	or	%d2, %d15, %d3
+	ld.bu	%d15, [%a4] 2
 .LBB42:
-.LBB41:
-.LBB40:
+.LBB43:
+.LBB44:
 	.loc 2 592 0
-	st.w	[%a15] 4, %d15
-	ret
-.LBE40:
-.LBE41:
+	ld.bu	%d3, [%a4] 4
+.LBE44:
+.LBE43:
 .LBE42:
+	.loc 1 33 0
+	sh	%d15, %d15, 16
+	or	%d15, %d2
+	ld.bu	%d2, [%a4] 3
+	.loc 1 34 0
+	mov	%d4, 10
+	.loc 1 33 0
+	sh	%d2, %d2, 24
+	or	%d2, %d15
+.LVL5:
+.LBB47:
+.LBB46:
+.LBB45:
+	.loc 2 592 0
+	mov.a	%a2, %d2
+	mov	%d15, 1
+	sh	%d3, %d15, %d3
+	st.w	[%a2] 4, %d3
+.LVL6:
+.LBE45:
+.LBE46:
+.LBE47:
+	.loc 1 32 0
+	mov.aa	%a15, %a4
+	.loc 1 34 0
+	call	delay_us
+.LVL7:
+	.loc 1 35 0
+	ld.bu	%d15, [%a15] 1
+	ld.bu	%d3, [%a15]0
+	sh	%d15, %d15, 8
+	or	%d2, %d15, %d3
+	ld.bu	%d15, [%a15] 2
+.LBB48:
+.LBB49:
+.LBB50:
+	.loc 2 592 0
+	movh	%d3, 1
+.LBE50:
+.LBE49:
+.LBE48:
+	.loc 1 35 0
+	sh	%d15, %d15, 16
+	or	%d15, %d2
+	ld.bu	%d2, [%a15] 3
+	sh	%d2, %d2, 24
+	or	%d2, %d15
+.LVL8:
+.LBB53:
+.LBB52:
+.LBB51:
+	.loc 2 592 0
+	ld.bu	%d15, [%a15] 4
+	mov.a	%a2, %d2
+	sh	%d3, %d3, %d15
+	st.w	[%a2] 4, %d3
+.LVL9:
+	ret
+.LBE51:
+.LBE52:
+.LBE53:
 .LFE576:
 	.size	sendTrigger, .-sendTrigger
 	.align 1
@@ -81,143 +165,167 @@ sendTrigger:
 	.type	measureEchoTick, @function
 measureEchoTick:
 .LFB577:
-	.loc 1 26 0
-.LVL5:
-.LBB43:
-.LBB44:
-	.loc 2 556 0
-	movh.a	%a15, 61444
-.LBE44:
-.LBE43:
-	.loc 1 30 0
-	movh	%d1, 116
-	.loc 1 27 0
-	mov	%e2, 0
-.LBB47:
-.LBB45:
-	.loc 2 556 0
-	lea	%a15, [%a15] -20480
-.LBE45:
-.LBE47:
-	.loc 1 30 0
-	addi	%d1, %d1, -2176
-.LVL6:
-.L4:
-.LBB48:
-.LBB46:
-	.loc 2 556 0
-	ld.w	%d15, [%a15] 36
-.LBE46:
-.LBE48:
-	.loc 1 28 0
-	jnz.t	%d15, 2, .L12
-.LVL7:
-.LBB49:
-.LBB50:
+	.loc 1 39 0
+.LVL10:
+.LBB54:
+.LBB55:
 	.file 3 "C:\\TUNNEL~1\\TC275/illd\\Libraries\\iLLD\\TC27D\\Tricore\\Stm\\Std/IfxStm.h"
 	.loc 3 580 0
 	ld.w	%d15, 0xf0000010
-.LVL8:
-	.loc 3 581 0
-	ld.w	%d0, 0xf000002c
-	.loc 3 580 0
-	mul.u	%e4, %d15, 1
-.LVL9:
-	.loc 3 581 0
-	or	%d2, %d15, 0
-	or	%d3, %d0, %d5
-.LVL10:
-.LBE50:
-.LBE49:
-	.loc 1 30 0
-	eq	%d15, %d3, 0
-	and.ge.u	%d15, %d2, %d1
-	or.ne	%d15, %d3, 0
-	jz	%d15, .L4
-	j	.L10
 .LVL11:
-.L12:
-.LBB51:
-.LBB52:
-	.loc 3 580 0
-	ld.w	%d15, 0xf0000010
-.LVL12:
 	.loc 3 581 0
 	ld.w	%d8, 0xf000002c
 	.loc 3 580 0
-	mul.u	%e0, %d15, 1
-.LVL13:
-.LBE52:
-.LBE51:
-.LBB54:
-.LBB55:
-	.loc 2 556 0
-	movh.a	%a15, 61444
-.LBE55:
-.LBE54:
-	.loc 1 35 0
-	movh	%d0, 116
-.LVL14:
-.LBB58:
-.LBB53:
+	mul.u	%e2, %d15, 1
+.LVL12:
 	.loc 3 581 0
 	or	%d4, %d15, 0
-	or	%d5, %d8, %d1
-.LVL15:
-.LBE53:
-.LBE58:
-.LBB59:
-.LBB56:
-	.loc 2 556 0
-	lea	%a15, [%a15] -20480
-.LBE56:
-.LBE59:
-	.loc 1 35 0
-	addi	%d0, %d0, -2176
-.L7:
-.LVL16:
-.LBB60:
+.LBE55:
+.LBE54:
+	.loc 1 42 0
+	ld.bu	%d15, [%a4] 6
 .LBB57:
+.LBB56:
+	.loc 3 581 0
+	or	%d5, %d8, %d3
+.LVL13:
+.LBE56:
+.LBE57:
+	.loc 1 42 0
+	ld.bu	%d3, [%a4] 5
+	sh	%d15, %d15, 8
+	or	%d2, %d15, %d3
+	ld.bu	%d15, [%a4] 7
+.LBB58:
+.LBB59:
+	.loc 2 556 0
+	ld.bu	%d8, [%a4] 9
+.LBE59:
+.LBE58:
+	.loc 1 42 0
+	sh	%d15, %d15, 16
+	or	%d15, %d2
+	ld.bu	%d2, [%a4] 8
+	mov	%d9, 1
+	sh	%d2, %d2, 24
+	or	%d2, %d15
+	mov.a	%a15, %d2
+	.loc 1 44 0
+	movh	%d10, 116
+	.loc 1 40 0
+	mov	%e2, 0
+	sh	%d9, %d9, %d8
+	.loc 1 44 0
+	addi	%d10, %d10, -2176
+.LVL14:
+.L4:
+.LBB61:
+.LBB60:
 	.loc 2 556 0
 	ld.w	%d15, [%a15] 36
-.LBE57:
+	and	%d15, %d9
 .LBE60:
-	.loc 1 33 0
-	jz.t	%d15, 2, .L13
-.LVL17:
-.LBB61:
+.LBE61:
+	.loc 1 42 0
+	jnz	%d15, .L12
+.LVL15:
 .LBB62:
+.LBB63:
 	.loc 3 580 0
 	ld.w	%d15, 0xf0000010
 	mul.u	%e2, %d15, 1
 	.loc 3 581 0
 	ld.w	%d2, 0xf000002c
+.LVL16:
+	or	%d0, %d15, 0
+	or	%d1, %d2, %d3
+.LBE63:
+.LBE62:
+	.loc 1 43 0
+	subx	%d2, %d0, %d4
+.LVL17:
+	subc	%d3, %d1, %d5
 .LVL18:
+	.loc 1 44 0
+	eq	%d15, %d3, 0
+	and.ge.u	%d15, %d2, %d10
+	or.ne	%d15, %d3, 0
+	jz	%d15, .L4
+	j	.L10
+.LVL19:
+.L12:
+.LBB64:
+.LBB65:
+	.loc 3 580 0
+	ld.w	%d15, 0xf0000010
+.LVL20:
+	.loc 3 581 0
+	ld.w	%d9, 0xf000002c
+	.loc 3 580 0
+	mul.u	%e0, %d15, 1
+.LVL21:
+	.loc 3 581 0
+	or	%d4, %d15, 0
+.LVL22:
+.LBE65:
+.LBE64:
+	.loc 1 49 0
+	movh	%d0, 116
+.LVL23:
+.LBB67:
+.LBB66:
+	.loc 3 581 0
+	or	%d5, %d9, %d1
+.LVL24:
+.LBE66:
+.LBE67:
+	.loc 1 49 0
+	addi	%d0, %d0, -2176
+.L7:
+.LVL25:
+.LBB68:
+.LBB69:
+	.loc 2 556 0
+	ld.w	%d15, [%a15] 36
+.LBE69:
+.LBE68:
+	.loc 1 47 0
+	extr.u	%d15, %d15, %d8, 1
+	jne	%d15, 1, .L13
+.LVL26:
+.LBB70:
+.LBB71:
+	.loc 3 580 0
+	ld.w	%d15, 0xf0000010
+	mul.u	%e2, %d15, 1
+	.loc 3 581 0
+	ld.w	%d2, 0xf000002c
+.LVL27:
 	or	%d6, %d15, 0
 	or	%d7, %d2, %d3
-.LBE62:
-.LBE61:
-	.loc 1 34 0
+.LBE71:
+.LBE70:
+	.loc 1 48 0
 	subx	%d2, %d6, %d4
-.LVL19:
+.LVL28:
 	subc	%d3, %d7, %d5
-.LVL20:
-	.loc 1 35 0
+.LVL29:
+	.loc 1 49 0
 	eq	%d15, %d3, 0
 	and.ge.u	%d15, %d2, %d0
 	or.ne	%d15, %d3, 0
 	jz	%d15, .L7
 	j	.L10
-.LVL21:
+.LVL30:
 .L13:
-	.loc 1 37 0
+	.loc 1 51 0
 	ret
-.LVL22:
+.LVL31:
 .L10:
-	.loc 1 30 0
+	.loc 1 44 0
 	mov	%d2, -1
-.LVL23:
-	.loc 1 38 0
+.LVL32:
+	.loc 1 52 0
 	ret
 .LFE577:
 	.size	measureEchoTick, .-measureEchoTick
@@ -226,35 +334,39 @@ measureEchoTick:
 	.type	getUltrasonic, @function
 getUltrasonic:
 .LFB575:
-	.loc 1 10 0
-	.loc 1 11 0
+	.loc 1 23 0
+.LVL33:
+	.loc 1 23 0
+	mov.aa	%a15, %a4
+	.loc 1 24 0
 	call	sendTrigger
-.LVL24:
-	.loc 1 12 0
+.LVL34:
+	.loc 1 25 0
+	mov.aa	%a4, %a15
 	call	measureEchoTick
-.LVL25:
+.LVL35:
 	mov	%d15, %d2
-.LVL26:
-	.loc 1 13 0
+.LVL36:
+	.loc 1 26 0
 	mov	%d2, -1
-.LVL27:
+.LVL37:
 	jeq	%d15, -1, .L15
-.LVL28:
-.LBB63:
-.LBB64:
-	.loc 1 42 0
+.LVL38:
+.LBB72:
+.LBB73:
+	.loc 1 56 0
 	mov	%d2, 200
 	div	%e2, %d15, %d2
-	.loc 1 43 0
+	.loc 1 57 0
 	mov	%d15, 1000
-.LVL29:
+.LVL39:
 	mul	%d2, %d2, 17
 	div	%e2, %d2, %d15
-.LVL30:
+.LVL40:
 .L15:
-.LBE64:
-.LBE63:
-	.loc 1 16 0
+.LBE73:
+.LBE72:
+	.loc 1 29 0
 	ret
 .LFE575:
 	.size	getUltrasonic, .-getUltrasonic
@@ -263,20 +375,37 @@ getUltrasonic:
 	.type	calculateDistanceCm, @function
 calculateDistanceCm:
 .LFB578:
-	.loc 1 41 0
-.LVL31:
-	.loc 1 42 0
+	.loc 1 55 0
+.LVL41:
+	.loc 1 56 0
 	mov	%d2, 200
 	div	%e4, %d4, %d2
-.LVL32:
-	.loc 1 43 0
+.LVL42:
+	.loc 1 57 0
 	mov	%d2, 1000
 	mul	%d4, %d4, 17
 	div	%e2, %d4, %d2
-	.loc 1 45 0
+	.loc 1 59 0
 	ret
 .LFE578:
 	.size	calculateDistanceCm, .-calculateDistanceCm
+	.global	g_FrontUltrasonic
+.section .data,"aw",@progbits
+	.type	g_FrontUltrasonic, @object
+	.size	g_FrontUltrasonic, 10
+g_FrontUltrasonic:
+	.uaword	-268197376
+	.byte	1
+	.uaword	-268193792
+	.byte	3
+	.global	g_UpperUltrasonic
+	.type	g_UpperUltrasonic, @object
+	.size	g_UpperUltrasonic, 10
+g_UpperUltrasonic:
+	.uaword	-268193792
+	.byte	1
+	.uaword	-268193792
+	.byte	2
 .section .debug_frame,"",@progbits
 .Lframe0:
 	.uaword	.LECIE0-.LSCIE0
@@ -339,10 +468,11 @@ calculateDistanceCm:
 	.file 6 "C:\\TUNNEL~1\\TC275/illd\\Libraries\\Infra\\Sfr\\TC27D\\_Reg\\IfxStm_regdef.h"
 	.file 7 "C:\\TUNNEL~1\\TC275/illd\\Libraries\\Infra\\Sfr\\TC27D\\_Reg\\IfxPort_regdef.h"
 	.file 8 "C:\\TUNNEL~1\\TC275/illd\\Libraries\\iLLD\\TC27D\\Tricore\\_Impl/IfxCpu_cfg.h"
-	.file 9 "C:\\TUNNEL~1\\TC275\\bsw.h"
+	.file 9 "C:\\TUNNEL~1\\TC275\\ultrasonic_Driver.h"
+	.file 10 "C:\\TUNNEL~1\\TC275\\bsw.h"
 .section .debug_info,"",@progbits
 .Ldebug_info0:
-	.uaword	0x41eb
+	.uaword	0x4341
 	.uahalf	0x3
 	.uaword	.Ldebug_abbrev0
 	.byte	0x4
@@ -2270,12 +2400,30 @@ calculateDistanceCm:
 	.uaword	0x13b3
 	.byte	0x17
 	.byte	0
+	.uleb128 0x14
+	.byte	0x1
+	.byte	0x8
+	.byte	0x87
+	.uaword	0x1474
+	.uleb128 0x15
+	.string	"IfxCpu_Index_0"
+	.sleb128 0
+	.uleb128 0x15
+	.string	"IfxCpu_Index_1"
+	.sleb128 1
+	.uleb128 0x15
+	.string	"IfxCpu_Index_2"
+	.sleb128 2
+	.uleb128 0x15
+	.string	"IfxCpu_Index_none"
+	.sleb128 3
+	.byte	0
 	.uleb128 0x8
 	.string	"_Ifx_P_ACCEN0_Bits"
 	.byte	0x4
 	.byte	0x7
 	.byte	0x3f
-	.uaword	0x1636
+	.uaword	0x1686
 	.uleb128 0x9
 	.string	"EN0"
 	.byte	0x7
@@ -2569,13 +2717,13 @@ calculateDistanceCm:
 	.string	"Ifx_P_ACCEN0_Bits"
 	.byte	0x7
 	.byte	0x61
-	.uaword	0x1424
+	.uaword	0x1474
 	.uleb128 0x8
 	.string	"_Ifx_P_ACCEN1_Bits"
 	.byte	0x4
 	.byte	0x7
 	.byte	0x64
-	.uaword	0x167a
+	.uaword	0x16ca
 	.uleb128 0xa
 	.uaword	.LASF0
 	.byte	0x7
@@ -2590,13 +2738,13 @@ calculateDistanceCm:
 	.string	"Ifx_P_ACCEN1_Bits"
 	.byte	0x7
 	.byte	0x67
-	.uaword	0x164f
+	.uaword	0x169f
 	.uleb128 0x8
 	.string	"_Ifx_P_ESR_Bits"
 	.byte	0x4
 	.byte	0x7
 	.byte	0x6a
-	.uaword	0x17b1
+	.uaword	0x1801
 	.uleb128 0x9
 	.string	"EN0"
 	.byte	0x7
@@ -2755,13 +2903,13 @@ calculateDistanceCm:
 	.string	"Ifx_P_ESR_Bits"
 	.byte	0x7
 	.byte	0x7d
-	.uaword	0x1693
+	.uaword	0x16e3
 	.uleb128 0x8
 	.string	"_Ifx_P_ID_Bits"
 	.byte	0x4
 	.byte	0x7
 	.byte	0x80
-	.uaword	0x1813
+	.uaword	0x1863
 	.uleb128 0x9
 	.string	"MODREV"
 	.byte	0x7
@@ -2794,13 +2942,13 @@ calculateDistanceCm:
 	.string	"Ifx_P_ID_Bits"
 	.byte	0x7
 	.byte	0x85
-	.uaword	0x17c7
+	.uaword	0x1817
 	.uleb128 0x8
 	.string	"_Ifx_P_IN_Bits"
 	.byte	0x4
 	.byte	0x7
 	.byte	0x88
-	.uaword	0x1935
+	.uaword	0x1985
 	.uleb128 0x9
 	.string	"P0"
 	.byte	0x7
@@ -2959,13 +3107,13 @@ calculateDistanceCm:
 	.string	"Ifx_P_IN_Bits"
 	.byte	0x7
 	.byte	0x9b
-	.uaword	0x1828
+	.uaword	0x1878
 	.uleb128 0x8
 	.string	"_Ifx_P_IOCR0_Bits"
 	.byte	0x4
 	.byte	0x7
 	.byte	0x9e
-	.uaword	0x19dd
+	.uaword	0x1a2d
 	.uleb128 0xa
 	.uaword	.LASF0
 	.byte	0x7
@@ -3043,13 +3191,13 @@ calculateDistanceCm:
 	.string	"Ifx_P_IOCR0_Bits"
 	.byte	0x7
 	.byte	0xa8
-	.uaword	0x194a
+	.uaword	0x199a
 	.uleb128 0x8
 	.string	"_Ifx_P_IOCR12_Bits"
 	.byte	0x4
 	.byte	0x7
 	.byte	0xab
-	.uaword	0x1a8d
+	.uaword	0x1add
 	.uleb128 0xa
 	.uaword	.LASF0
 	.byte	0x7
@@ -3127,13 +3275,13 @@ calculateDistanceCm:
 	.string	"Ifx_P_IOCR12_Bits"
 	.byte	0x7
 	.byte	0xb5
-	.uaword	0x19f5
+	.uaword	0x1a45
 	.uleb128 0x8
 	.string	"_Ifx_P_IOCR4_Bits"
 	.byte	0x4
 	.byte	0x7
 	.byte	0xb8
-	.uaword	0x1b39
+	.uaword	0x1b89
 	.uleb128 0xa
 	.uaword	.LASF0
 	.byte	0x7
@@ -3211,13 +3359,13 @@ calculateDistanceCm:
 	.string	"Ifx_P_IOCR4_Bits"
 	.byte	0x7
 	.byte	0xc2
-	.uaword	0x1aa6
+	.uaword	0x1af6
 	.uleb128 0x8
 	.string	"_Ifx_P_IOCR8_Bits"
 	.byte	0x4
 	.byte	0x7
 	.byte	0xc5
-	.uaword	0x1be6
+	.uaword	0x1c36
 	.uleb128 0xa
 	.uaword	.LASF0
 	.byte	0x7
@@ -3295,13 +3443,13 @@ calculateDistanceCm:
 	.string	"Ifx_P_IOCR8_Bits"
 	.byte	0x7
 	.byte	0xcf
-	.uaword	0x1b51
+	.uaword	0x1ba1
 	.uleb128 0x8
 	.string	"_Ifx_P_LPCR0_Bits"
 	.byte	0x4
 	.byte	0x7
 	.byte	0xd2
-	.uaword	0x1c46
+	.uaword	0x1c96
 	.uleb128 0xa
 	.uaword	.LASF0
 	.byte	0x7
@@ -3334,13 +3482,13 @@ calculateDistanceCm:
 	.string	"Ifx_P_LPCR0_Bits"
 	.byte	0x7
 	.byte	0xd7
-	.uaword	0x1bfe
+	.uaword	0x1c4e
 	.uleb128 0x8
 	.string	"_Ifx_P_LPCR1_Bits"
 	.byte	0x4
 	.byte	0x7
 	.byte	0xda
-	.uaword	0x1ca6
+	.uaword	0x1cf6
 	.uleb128 0xa
 	.uaword	.LASF0
 	.byte	0x7
@@ -3373,13 +3521,13 @@ calculateDistanceCm:
 	.string	"Ifx_P_LPCR1_Bits"
 	.byte	0x7
 	.byte	0xdf
-	.uaword	0x1c5e
+	.uaword	0x1cae
 	.uleb128 0x8
 	.string	"_Ifx_P_LPCR1_P21_Bits"
 	.byte	0x4
 	.byte	0x7
 	.byte	0xe2
-	.uaword	0x1d36
+	.uaword	0x1d86
 	.uleb128 0x9
 	.string	"RDIS_CTRL"
 	.byte	0x7
@@ -3430,13 +3578,13 @@ calculateDistanceCm:
 	.string	"Ifx_P_LPCR1_P21_Bits"
 	.byte	0x7
 	.byte	0xe9
-	.uaword	0x1cbe
+	.uaword	0x1d0e
 	.uleb128 0x8
 	.string	"_Ifx_P_LPCR2_Bits"
 	.byte	0x4
 	.byte	0x7
 	.byte	0xec
-	.uaword	0x1e11
+	.uaword	0x1e61
 	.uleb128 0xa
 	.uaword	.LASF0
 	.byte	0x7
@@ -3523,13 +3671,13 @@ calculateDistanceCm:
 	.string	"Ifx_P_LPCR2_Bits"
 	.byte	0x7
 	.byte	0xf7
-	.uaword	0x1d52
+	.uaword	0x1da2
 	.uleb128 0x8
 	.string	"_Ifx_P_OMCR0_Bits"
 	.byte	0x4
 	.byte	0x7
 	.byte	0xfa
-	.uaword	0x1ea4
+	.uaword	0x1ef4
 	.uleb128 0xa
 	.uaword	.LASF0
 	.byte	0x7
@@ -3566,7 +3714,7 @@ calculateDistanceCm:
 	.byte	0x1
 	.byte	0xd
 	.byte	0
-	.uleb128 0x14
+	.uleb128 0x16
 	.string	"PCL3"
 	.byte	0x7
 	.uahalf	0x100
@@ -3575,7 +3723,7 @@ calculateDistanceCm:
 	.byte	0x1
 	.byte	0xc
 	.byte	0
-	.uleb128 0x15
+	.uleb128 0x17
 	.uaword	.LASF11
 	.byte	0x7
 	.uahalf	0x101
@@ -3589,14 +3737,14 @@ calculateDistanceCm:
 	.string	"Ifx_P_OMCR0_Bits"
 	.byte	0x7
 	.uahalf	0x102
-	.uaword	0x1e29
-	.uleb128 0x16
+	.uaword	0x1e79
+	.uleb128 0x18
 	.string	"_Ifx_P_OMCR12_Bits"
 	.byte	0x4
 	.byte	0x7
 	.uahalf	0x105
-	.uaword	0x1f32
-	.uleb128 0x15
+	.uaword	0x1f82
+	.uleb128 0x17
 	.uaword	.LASF0
 	.byte	0x7
 	.uahalf	0x107
@@ -3605,7 +3753,7 @@ calculateDistanceCm:
 	.byte	0x1c
 	.byte	0x4
 	.byte	0
-	.uleb128 0x14
+	.uleb128 0x16
 	.string	"PCL12"
 	.byte	0x7
 	.uahalf	0x108
@@ -3614,7 +3762,7 @@ calculateDistanceCm:
 	.byte	0x1
 	.byte	0x3
 	.byte	0
-	.uleb128 0x14
+	.uleb128 0x16
 	.string	"PCL13"
 	.byte	0x7
 	.uahalf	0x109
@@ -3623,7 +3771,7 @@ calculateDistanceCm:
 	.byte	0x1
 	.byte	0x2
 	.byte	0
-	.uleb128 0x14
+	.uleb128 0x16
 	.string	"PCL14"
 	.byte	0x7
 	.uahalf	0x10a
@@ -3632,7 +3780,7 @@ calculateDistanceCm:
 	.byte	0x1
 	.byte	0x1
 	.byte	0
-	.uleb128 0x14
+	.uleb128 0x16
 	.string	"PCL15"
 	.byte	0x7
 	.uahalf	0x10b
@@ -3646,14 +3794,14 @@ calculateDistanceCm:
 	.string	"Ifx_P_OMCR12_Bits"
 	.byte	0x7
 	.uahalf	0x10c
-	.uaword	0x1ebd
-	.uleb128 0x16
+	.uaword	0x1f0d
+	.uleb128 0x18
 	.string	"_Ifx_P_OMCR4_Bits"
 	.byte	0x4
 	.byte	0x7
 	.uahalf	0x10f
-	.uaword	0x1fcc
-	.uleb128 0x15
+	.uaword	0x201c
+	.uleb128 0x17
 	.uaword	.LASF0
 	.byte	0x7
 	.uahalf	0x111
@@ -3662,7 +3810,7 @@ calculateDistanceCm:
 	.byte	0x14
 	.byte	0xc
 	.byte	0
-	.uleb128 0x14
+	.uleb128 0x16
 	.string	"PCL4"
 	.byte	0x7
 	.uahalf	0x112
@@ -3671,7 +3819,7 @@ calculateDistanceCm:
 	.byte	0x1
 	.byte	0xb
 	.byte	0
-	.uleb128 0x14
+	.uleb128 0x16
 	.string	"PCL5"
 	.byte	0x7
 	.uahalf	0x113
@@ -3680,7 +3828,7 @@ calculateDistanceCm:
 	.byte	0x1
 	.byte	0xa
 	.byte	0
-	.uleb128 0x14
+	.uleb128 0x16
 	.string	"PCL6"
 	.byte	0x7
 	.uahalf	0x114
@@ -3689,7 +3837,7 @@ calculateDistanceCm:
 	.byte	0x1
 	.byte	0x9
 	.byte	0
-	.uleb128 0x14
+	.uleb128 0x16
 	.string	"PCL7"
 	.byte	0x7
 	.uahalf	0x115
@@ -3698,7 +3846,7 @@ calculateDistanceCm:
 	.byte	0x1
 	.byte	0x8
 	.byte	0
-	.uleb128 0x15
+	.uleb128 0x17
 	.uaword	.LASF10
 	.byte	0x7
 	.uahalf	0x116
@@ -3712,14 +3860,14 @@ calculateDistanceCm:
 	.string	"Ifx_P_OMCR4_Bits"
 	.byte	0x7
 	.uahalf	0x117
-	.uaword	0x1f4c
-	.uleb128 0x16
+	.uaword	0x1f9c
+	.uleb128 0x18
 	.string	"_Ifx_P_OMCR8_Bits"
 	.byte	0x4
 	.byte	0x7
 	.uahalf	0x11a
-	.uaword	0x2067
-	.uleb128 0x15
+	.uaword	0x20b7
+	.uleb128 0x17
 	.uaword	.LASF0
 	.byte	0x7
 	.uahalf	0x11c
@@ -3728,7 +3876,7 @@ calculateDistanceCm:
 	.byte	0x18
 	.byte	0x8
 	.byte	0
-	.uleb128 0x14
+	.uleb128 0x16
 	.string	"PCL8"
 	.byte	0x7
 	.uahalf	0x11d
@@ -3737,7 +3885,7 @@ calculateDistanceCm:
 	.byte	0x1
 	.byte	0x7
 	.byte	0
-	.uleb128 0x14
+	.uleb128 0x16
 	.string	"PCL9"
 	.byte	0x7
 	.uahalf	0x11e
@@ -3746,7 +3894,7 @@ calculateDistanceCm:
 	.byte	0x1
 	.byte	0x6
 	.byte	0
-	.uleb128 0x14
+	.uleb128 0x16
 	.string	"PCL10"
 	.byte	0x7
 	.uahalf	0x11f
@@ -3755,7 +3903,7 @@ calculateDistanceCm:
 	.byte	0x1
 	.byte	0x5
 	.byte	0
-	.uleb128 0x14
+	.uleb128 0x16
 	.string	"PCL11"
 	.byte	0x7
 	.uahalf	0x120
@@ -3764,7 +3912,7 @@ calculateDistanceCm:
 	.byte	0x1
 	.byte	0x4
 	.byte	0
-	.uleb128 0x15
+	.uleb128 0x17
 	.uaword	.LASF12
 	.byte	0x7
 	.uahalf	0x121
@@ -3778,14 +3926,14 @@ calculateDistanceCm:
 	.string	"Ifx_P_OMCR8_Bits"
 	.byte	0x7
 	.uahalf	0x122
-	.uaword	0x1fe5
-	.uleb128 0x16
+	.uaword	0x2035
+	.uleb128 0x18
 	.string	"_Ifx_P_OMCR_Bits"
 	.byte	0x4
 	.byte	0x7
 	.uahalf	0x125
-	.uaword	0x21c1
-	.uleb128 0x15
+	.uaword	0x2211
+	.uleb128 0x17
 	.uaword	.LASF0
 	.byte	0x7
 	.uahalf	0x127
@@ -3794,7 +3942,7 @@ calculateDistanceCm:
 	.byte	0x10
 	.byte	0x10
 	.byte	0
-	.uleb128 0x14
+	.uleb128 0x16
 	.string	"PCL0"
 	.byte	0x7
 	.uahalf	0x128
@@ -3803,7 +3951,7 @@ calculateDistanceCm:
 	.byte	0x1
 	.byte	0xf
 	.byte	0
-	.uleb128 0x14
+	.uleb128 0x16
 	.string	"PCL1"
 	.byte	0x7
 	.uahalf	0x129
@@ -3812,7 +3960,7 @@ calculateDistanceCm:
 	.byte	0x1
 	.byte	0xe
 	.byte	0
-	.uleb128 0x14
+	.uleb128 0x16
 	.string	"PCL2"
 	.byte	0x7
 	.uahalf	0x12a
@@ -3821,7 +3969,7 @@ calculateDistanceCm:
 	.byte	0x1
 	.byte	0xd
 	.byte	0
-	.uleb128 0x14
+	.uleb128 0x16
 	.string	"PCL3"
 	.byte	0x7
 	.uahalf	0x12b
@@ -3830,7 +3978,7 @@ calculateDistanceCm:
 	.byte	0x1
 	.byte	0xc
 	.byte	0
-	.uleb128 0x14
+	.uleb128 0x16
 	.string	"PCL4"
 	.byte	0x7
 	.uahalf	0x12c
@@ -3839,7 +3987,7 @@ calculateDistanceCm:
 	.byte	0x1
 	.byte	0xb
 	.byte	0
-	.uleb128 0x14
+	.uleb128 0x16
 	.string	"PCL5"
 	.byte	0x7
 	.uahalf	0x12d
@@ -3848,7 +3996,7 @@ calculateDistanceCm:
 	.byte	0x1
 	.byte	0xa
 	.byte	0
-	.uleb128 0x14
+	.uleb128 0x16
 	.string	"PCL6"
 	.byte	0x7
 	.uahalf	0x12e
@@ -3857,7 +4005,7 @@ calculateDistanceCm:
 	.byte	0x1
 	.byte	0x9
 	.byte	0
-	.uleb128 0x14
+	.uleb128 0x16
 	.string	"PCL7"
 	.byte	0x7
 	.uahalf	0x12f
@@ -3866,7 +4014,7 @@ calculateDistanceCm:
 	.byte	0x1
 	.byte	0x8
 	.byte	0
-	.uleb128 0x14
+	.uleb128 0x16
 	.string	"PCL8"
 	.byte	0x7
 	.uahalf	0x130
@@ -3875,7 +4023,7 @@ calculateDistanceCm:
 	.byte	0x1
 	.byte	0x7
 	.byte	0
-	.uleb128 0x14
+	.uleb128 0x16
 	.string	"PCL9"
 	.byte	0x7
 	.uahalf	0x131
@@ -3884,7 +4032,7 @@ calculateDistanceCm:
 	.byte	0x1
 	.byte	0x6
 	.byte	0
-	.uleb128 0x14
+	.uleb128 0x16
 	.string	"PCL10"
 	.byte	0x7
 	.uahalf	0x132
@@ -3893,7 +4041,7 @@ calculateDistanceCm:
 	.byte	0x1
 	.byte	0x5
 	.byte	0
-	.uleb128 0x14
+	.uleb128 0x16
 	.string	"PCL11"
 	.byte	0x7
 	.uahalf	0x133
@@ -3902,7 +4050,7 @@ calculateDistanceCm:
 	.byte	0x1
 	.byte	0x4
 	.byte	0
-	.uleb128 0x14
+	.uleb128 0x16
 	.string	"PCL12"
 	.byte	0x7
 	.uahalf	0x134
@@ -3911,7 +4059,7 @@ calculateDistanceCm:
 	.byte	0x1
 	.byte	0x3
 	.byte	0
-	.uleb128 0x14
+	.uleb128 0x16
 	.string	"PCL13"
 	.byte	0x7
 	.uahalf	0x135
@@ -3920,7 +4068,7 @@ calculateDistanceCm:
 	.byte	0x1
 	.byte	0x2
 	.byte	0
-	.uleb128 0x14
+	.uleb128 0x16
 	.string	"PCL14"
 	.byte	0x7
 	.uahalf	0x136
@@ -3929,7 +4077,7 @@ calculateDistanceCm:
 	.byte	0x1
 	.byte	0x1
 	.byte	0
-	.uleb128 0x14
+	.uleb128 0x16
 	.string	"PCL15"
 	.byte	0x7
 	.uahalf	0x137
@@ -3943,14 +4091,14 @@ calculateDistanceCm:
 	.string	"Ifx_P_OMCR_Bits"
 	.byte	0x7
 	.uahalf	0x138
-	.uaword	0x2080
-	.uleb128 0x16
+	.uaword	0x20d0
+	.uleb128 0x18
 	.string	"_Ifx_P_OMR_Bits"
 	.byte	0x4
 	.byte	0x7
 	.uahalf	0x13b
-	.uaword	0x240f
-	.uleb128 0x14
+	.uaword	0x245f
+	.uleb128 0x16
 	.string	"PS0"
 	.byte	0x7
 	.uahalf	0x13d
@@ -3959,7 +4107,7 @@ calculateDistanceCm:
 	.byte	0x1
 	.byte	0x1f
 	.byte	0
-	.uleb128 0x14
+	.uleb128 0x16
 	.string	"PS1"
 	.byte	0x7
 	.uahalf	0x13e
@@ -3968,7 +4116,7 @@ calculateDistanceCm:
 	.byte	0x1
 	.byte	0x1e
 	.byte	0
-	.uleb128 0x14
+	.uleb128 0x16
 	.string	"PS2"
 	.byte	0x7
 	.uahalf	0x13f
@@ -3977,7 +4125,7 @@ calculateDistanceCm:
 	.byte	0x1
 	.byte	0x1d
 	.byte	0
-	.uleb128 0x14
+	.uleb128 0x16
 	.string	"PS3"
 	.byte	0x7
 	.uahalf	0x140
@@ -3986,7 +4134,7 @@ calculateDistanceCm:
 	.byte	0x1
 	.byte	0x1c
 	.byte	0
-	.uleb128 0x14
+	.uleb128 0x16
 	.string	"PS4"
 	.byte	0x7
 	.uahalf	0x141
@@ -3995,7 +4143,7 @@ calculateDistanceCm:
 	.byte	0x1
 	.byte	0x1b
 	.byte	0
-	.uleb128 0x14
+	.uleb128 0x16
 	.string	"PS5"
 	.byte	0x7
 	.uahalf	0x142
@@ -4004,7 +4152,7 @@ calculateDistanceCm:
 	.byte	0x1
 	.byte	0x1a
 	.byte	0
-	.uleb128 0x14
+	.uleb128 0x16
 	.string	"PS6"
 	.byte	0x7
 	.uahalf	0x143
@@ -4013,7 +4161,7 @@ calculateDistanceCm:
 	.byte	0x1
 	.byte	0x19
 	.byte	0
-	.uleb128 0x14
+	.uleb128 0x16
 	.string	"PS7"
 	.byte	0x7
 	.uahalf	0x144
@@ -4022,7 +4170,7 @@ calculateDistanceCm:
 	.byte	0x1
 	.byte	0x18
 	.byte	0
-	.uleb128 0x14
+	.uleb128 0x16
 	.string	"PS8"
 	.byte	0x7
 	.uahalf	0x145
@@ -4031,7 +4179,7 @@ calculateDistanceCm:
 	.byte	0x1
 	.byte	0x17
 	.byte	0
-	.uleb128 0x14
+	.uleb128 0x16
 	.string	"PS9"
 	.byte	0x7
 	.uahalf	0x146
@@ -4040,7 +4188,7 @@ calculateDistanceCm:
 	.byte	0x1
 	.byte	0x16
 	.byte	0
-	.uleb128 0x14
+	.uleb128 0x16
 	.string	"PS10"
 	.byte	0x7
 	.uahalf	0x147
@@ -4049,7 +4197,7 @@ calculateDistanceCm:
 	.byte	0x1
 	.byte	0x15
 	.byte	0
-	.uleb128 0x14
+	.uleb128 0x16
 	.string	"PS11"
 	.byte	0x7
 	.uahalf	0x148
@@ -4058,7 +4206,7 @@ calculateDistanceCm:
 	.byte	0x1
 	.byte	0x14
 	.byte	0
-	.uleb128 0x14
+	.uleb128 0x16
 	.string	"PS12"
 	.byte	0x7
 	.uahalf	0x149
@@ -4067,7 +4215,7 @@ calculateDistanceCm:
 	.byte	0x1
 	.byte	0x13
 	.byte	0
-	.uleb128 0x14
+	.uleb128 0x16
 	.string	"PS13"
 	.byte	0x7
 	.uahalf	0x14a
@@ -4076,7 +4224,7 @@ calculateDistanceCm:
 	.byte	0x1
 	.byte	0x12
 	.byte	0
-	.uleb128 0x14
+	.uleb128 0x16
 	.string	"PS14"
 	.byte	0x7
 	.uahalf	0x14b
@@ -4085,7 +4233,7 @@ calculateDistanceCm:
 	.byte	0x1
 	.byte	0x11
 	.byte	0
-	.uleb128 0x14
+	.uleb128 0x16
 	.string	"PS15"
 	.byte	0x7
 	.uahalf	0x14c
@@ -4094,7 +4242,7 @@ calculateDistanceCm:
 	.byte	0x1
 	.byte	0x10
 	.byte	0
-	.uleb128 0x14
+	.uleb128 0x16
 	.string	"PCL0"
 	.byte	0x7
 	.uahalf	0x14d
@@ -4103,7 +4251,7 @@ calculateDistanceCm:
 	.byte	0x1
 	.byte	0xf
 	.byte	0
-	.uleb128 0x14
+	.uleb128 0x16
 	.string	"PCL1"
 	.byte	0x7
 	.uahalf	0x14e
@@ -4112,7 +4260,7 @@ calculateDistanceCm:
 	.byte	0x1
 	.byte	0xe
 	.byte	0
-	.uleb128 0x14
+	.uleb128 0x16
 	.string	"PCL2"
 	.byte	0x7
 	.uahalf	0x14f
@@ -4121,7 +4269,7 @@ calculateDistanceCm:
 	.byte	0x1
 	.byte	0xd
 	.byte	0
-	.uleb128 0x14
+	.uleb128 0x16
 	.string	"PCL3"
 	.byte	0x7
 	.uahalf	0x150
@@ -4130,7 +4278,7 @@ calculateDistanceCm:
 	.byte	0x1
 	.byte	0xc
 	.byte	0
-	.uleb128 0x14
+	.uleb128 0x16
 	.string	"PCL4"
 	.byte	0x7
 	.uahalf	0x151
@@ -4139,7 +4287,7 @@ calculateDistanceCm:
 	.byte	0x1
 	.byte	0xb
 	.byte	0
-	.uleb128 0x14
+	.uleb128 0x16
 	.string	"PCL5"
 	.byte	0x7
 	.uahalf	0x152
@@ -4148,7 +4296,7 @@ calculateDistanceCm:
 	.byte	0x1
 	.byte	0xa
 	.byte	0
-	.uleb128 0x14
+	.uleb128 0x16
 	.string	"PCL6"
 	.byte	0x7
 	.uahalf	0x153
@@ -4157,7 +4305,7 @@ calculateDistanceCm:
 	.byte	0x1
 	.byte	0x9
 	.byte	0
-	.uleb128 0x14
+	.uleb128 0x16
 	.string	"PCL7"
 	.byte	0x7
 	.uahalf	0x154
@@ -4166,7 +4314,7 @@ calculateDistanceCm:
 	.byte	0x1
 	.byte	0x8
 	.byte	0
-	.uleb128 0x14
+	.uleb128 0x16
 	.string	"PCL8"
 	.byte	0x7
 	.uahalf	0x155
@@ -4175,7 +4323,7 @@ calculateDistanceCm:
 	.byte	0x1
 	.byte	0x7
 	.byte	0
-	.uleb128 0x14
+	.uleb128 0x16
 	.string	"PCL9"
 	.byte	0x7
 	.uahalf	0x156
@@ -4184,7 +4332,7 @@ calculateDistanceCm:
 	.byte	0x1
 	.byte	0x6
 	.byte	0
-	.uleb128 0x14
+	.uleb128 0x16
 	.string	"PCL10"
 	.byte	0x7
 	.uahalf	0x157
@@ -4193,7 +4341,7 @@ calculateDistanceCm:
 	.byte	0x1
 	.byte	0x5
 	.byte	0
-	.uleb128 0x14
+	.uleb128 0x16
 	.string	"PCL11"
 	.byte	0x7
 	.uahalf	0x158
@@ -4202,7 +4350,7 @@ calculateDistanceCm:
 	.byte	0x1
 	.byte	0x4
 	.byte	0
-	.uleb128 0x14
+	.uleb128 0x16
 	.string	"PCL12"
 	.byte	0x7
 	.uahalf	0x159
@@ -4211,7 +4359,7 @@ calculateDistanceCm:
 	.byte	0x1
 	.byte	0x3
 	.byte	0
-	.uleb128 0x14
+	.uleb128 0x16
 	.string	"PCL13"
 	.byte	0x7
 	.uahalf	0x15a
@@ -4220,7 +4368,7 @@ calculateDistanceCm:
 	.byte	0x1
 	.byte	0x2
 	.byte	0
-	.uleb128 0x14
+	.uleb128 0x16
 	.string	"PCL14"
 	.byte	0x7
 	.uahalf	0x15b
@@ -4229,7 +4377,7 @@ calculateDistanceCm:
 	.byte	0x1
 	.byte	0x1
 	.byte	0
-	.uleb128 0x14
+	.uleb128 0x16
 	.string	"PCL15"
 	.byte	0x7
 	.uahalf	0x15c
@@ -4243,14 +4391,14 @@ calculateDistanceCm:
 	.string	"Ifx_P_OMR_Bits"
 	.byte	0x7
 	.uahalf	0x15d
-	.uaword	0x21d9
-	.uleb128 0x16
+	.uaword	0x2229
+	.uleb128 0x18
 	.string	"_Ifx_P_OMSR0_Bits"
 	.byte	0x4
 	.byte	0x7
 	.uahalf	0x160
-	.uaword	0x2492
-	.uleb128 0x14
+	.uaword	0x24e2
+	.uleb128 0x16
 	.string	"PS0"
 	.byte	0x7
 	.uahalf	0x162
@@ -4259,7 +4407,7 @@ calculateDistanceCm:
 	.byte	0x1
 	.byte	0x1f
 	.byte	0
-	.uleb128 0x14
+	.uleb128 0x16
 	.string	"PS1"
 	.byte	0x7
 	.uahalf	0x163
@@ -4268,7 +4416,7 @@ calculateDistanceCm:
 	.byte	0x1
 	.byte	0x1e
 	.byte	0
-	.uleb128 0x14
+	.uleb128 0x16
 	.string	"PS2"
 	.byte	0x7
 	.uahalf	0x164
@@ -4277,7 +4425,7 @@ calculateDistanceCm:
 	.byte	0x1
 	.byte	0x1d
 	.byte	0
-	.uleb128 0x14
+	.uleb128 0x16
 	.string	"PS3"
 	.byte	0x7
 	.uahalf	0x165
@@ -4286,7 +4434,7 @@ calculateDistanceCm:
 	.byte	0x1
 	.byte	0x1c
 	.byte	0
-	.uleb128 0x15
+	.uleb128 0x17
 	.uaword	.LASF3
 	.byte	0x7
 	.uahalf	0x166
@@ -4300,14 +4448,14 @@ calculateDistanceCm:
 	.string	"Ifx_P_OMSR0_Bits"
 	.byte	0x7
 	.uahalf	0x167
-	.uaword	0x2426
-	.uleb128 0x16
+	.uaword	0x2476
+	.uleb128 0x18
 	.string	"_Ifx_P_OMSR12_Bits"
 	.byte	0x4
 	.byte	0x7
 	.uahalf	0x16a
-	.uaword	0x252c
-	.uleb128 0x15
+	.uaword	0x257c
+	.uleb128 0x17
 	.uaword	.LASF0
 	.byte	0x7
 	.uahalf	0x16c
@@ -4316,7 +4464,7 @@ calculateDistanceCm:
 	.byte	0xc
 	.byte	0x14
 	.byte	0
-	.uleb128 0x14
+	.uleb128 0x16
 	.string	"PS12"
 	.byte	0x7
 	.uahalf	0x16d
@@ -4325,7 +4473,7 @@ calculateDistanceCm:
 	.byte	0x1
 	.byte	0x13
 	.byte	0
-	.uleb128 0x14
+	.uleb128 0x16
 	.string	"PS13"
 	.byte	0x7
 	.uahalf	0x16e
@@ -4334,7 +4482,7 @@ calculateDistanceCm:
 	.byte	0x1
 	.byte	0x12
 	.byte	0
-	.uleb128 0x14
+	.uleb128 0x16
 	.string	"PS14"
 	.byte	0x7
 	.uahalf	0x16f
@@ -4343,7 +4491,7 @@ calculateDistanceCm:
 	.byte	0x1
 	.byte	0x11
 	.byte	0
-	.uleb128 0x14
+	.uleb128 0x16
 	.string	"PS15"
 	.byte	0x7
 	.uahalf	0x170
@@ -4352,7 +4500,7 @@ calculateDistanceCm:
 	.byte	0x1
 	.byte	0x10
 	.byte	0
-	.uleb128 0x15
+	.uleb128 0x17
 	.uaword	.LASF8
 	.byte	0x7
 	.uahalf	0x171
@@ -4366,14 +4514,14 @@ calculateDistanceCm:
 	.string	"Ifx_P_OMSR12_Bits"
 	.byte	0x7
 	.uahalf	0x172
-	.uaword	0x24ab
-	.uleb128 0x16
+	.uaword	0x24fb
+	.uleb128 0x18
 	.string	"_Ifx_P_OMSR4_Bits"
 	.byte	0x4
 	.byte	0x7
 	.uahalf	0x175
-	.uaword	0x25c2
-	.uleb128 0x15
+	.uaword	0x2612
+	.uleb128 0x17
 	.uaword	.LASF0
 	.byte	0x7
 	.uahalf	0x177
@@ -4382,7 +4530,7 @@ calculateDistanceCm:
 	.byte	0x4
 	.byte	0x1c
 	.byte	0
-	.uleb128 0x14
+	.uleb128 0x16
 	.string	"PS4"
 	.byte	0x7
 	.uahalf	0x178
@@ -4391,7 +4539,7 @@ calculateDistanceCm:
 	.byte	0x1
 	.byte	0x1b
 	.byte	0
-	.uleb128 0x14
+	.uleb128 0x16
 	.string	"PS5"
 	.byte	0x7
 	.uahalf	0x179
@@ -4400,7 +4548,7 @@ calculateDistanceCm:
 	.byte	0x1
 	.byte	0x1a
 	.byte	0
-	.uleb128 0x14
+	.uleb128 0x16
 	.string	"PS6"
 	.byte	0x7
 	.uahalf	0x17a
@@ -4409,7 +4557,7 @@ calculateDistanceCm:
 	.byte	0x1
 	.byte	0x19
 	.byte	0
-	.uleb128 0x14
+	.uleb128 0x16
 	.string	"PS7"
 	.byte	0x7
 	.uahalf	0x17b
@@ -4418,7 +4566,7 @@ calculateDistanceCm:
 	.byte	0x1
 	.byte	0x18
 	.byte	0
-	.uleb128 0x15
+	.uleb128 0x17
 	.uaword	.LASF9
 	.byte	0x7
 	.uahalf	0x17c
@@ -4432,14 +4580,14 @@ calculateDistanceCm:
 	.string	"Ifx_P_OMSR4_Bits"
 	.byte	0x7
 	.uahalf	0x17d
-	.uaword	0x2546
-	.uleb128 0x16
+	.uaword	0x2596
+	.uleb128 0x18
 	.string	"_Ifx_P_OMSR8_Bits"
 	.byte	0x4
 	.byte	0x7
 	.uahalf	0x180
-	.uaword	0x2659
-	.uleb128 0x15
+	.uaword	0x26a9
+	.uleb128 0x17
 	.uaword	.LASF0
 	.byte	0x7
 	.uahalf	0x182
@@ -4448,7 +4596,7 @@ calculateDistanceCm:
 	.byte	0x8
 	.byte	0x18
 	.byte	0
-	.uleb128 0x14
+	.uleb128 0x16
 	.string	"PS8"
 	.byte	0x7
 	.uahalf	0x183
@@ -4457,7 +4605,7 @@ calculateDistanceCm:
 	.byte	0x1
 	.byte	0x17
 	.byte	0
-	.uleb128 0x14
+	.uleb128 0x16
 	.string	"PS9"
 	.byte	0x7
 	.uahalf	0x184
@@ -4466,7 +4614,7 @@ calculateDistanceCm:
 	.byte	0x1
 	.byte	0x16
 	.byte	0
-	.uleb128 0x14
+	.uleb128 0x16
 	.string	"PS10"
 	.byte	0x7
 	.uahalf	0x185
@@ -4475,7 +4623,7 @@ calculateDistanceCm:
 	.byte	0x1
 	.byte	0x15
 	.byte	0
-	.uleb128 0x14
+	.uleb128 0x16
 	.string	"PS11"
 	.byte	0x7
 	.uahalf	0x186
@@ -4484,7 +4632,7 @@ calculateDistanceCm:
 	.byte	0x1
 	.byte	0x14
 	.byte	0
-	.uleb128 0x15
+	.uleb128 0x17
 	.uaword	.LASF13
 	.byte	0x7
 	.uahalf	0x187
@@ -4498,14 +4646,14 @@ calculateDistanceCm:
 	.string	"Ifx_P_OMSR8_Bits"
 	.byte	0x7
 	.uahalf	0x188
-	.uaword	0x25db
-	.uleb128 0x16
+	.uaword	0x262b
+	.uleb128 0x18
 	.string	"_Ifx_P_OMSR_Bits"
 	.byte	0x4
 	.byte	0x7
 	.uahalf	0x18b
-	.uaword	0x27a3
-	.uleb128 0x14
+	.uaword	0x27f3
+	.uleb128 0x16
 	.string	"PS0"
 	.byte	0x7
 	.uahalf	0x18d
@@ -4514,7 +4662,7 @@ calculateDistanceCm:
 	.byte	0x1
 	.byte	0x1f
 	.byte	0
-	.uleb128 0x14
+	.uleb128 0x16
 	.string	"PS1"
 	.byte	0x7
 	.uahalf	0x18e
@@ -4523,7 +4671,7 @@ calculateDistanceCm:
 	.byte	0x1
 	.byte	0x1e
 	.byte	0
-	.uleb128 0x14
+	.uleb128 0x16
 	.string	"PS2"
 	.byte	0x7
 	.uahalf	0x18f
@@ -4532,7 +4680,7 @@ calculateDistanceCm:
 	.byte	0x1
 	.byte	0x1d
 	.byte	0
-	.uleb128 0x14
+	.uleb128 0x16
 	.string	"PS3"
 	.byte	0x7
 	.uahalf	0x190
@@ -4541,7 +4689,7 @@ calculateDistanceCm:
 	.byte	0x1
 	.byte	0x1c
 	.byte	0
-	.uleb128 0x14
+	.uleb128 0x16
 	.string	"PS4"
 	.byte	0x7
 	.uahalf	0x191
@@ -4550,7 +4698,7 @@ calculateDistanceCm:
 	.byte	0x1
 	.byte	0x1b
 	.byte	0
-	.uleb128 0x14
+	.uleb128 0x16
 	.string	"PS5"
 	.byte	0x7
 	.uahalf	0x192
@@ -4559,7 +4707,7 @@ calculateDistanceCm:
 	.byte	0x1
 	.byte	0x1a
 	.byte	0
-	.uleb128 0x14
+	.uleb128 0x16
 	.string	"PS6"
 	.byte	0x7
 	.uahalf	0x193
@@ -4568,7 +4716,7 @@ calculateDistanceCm:
 	.byte	0x1
 	.byte	0x19
 	.byte	0
-	.uleb128 0x14
+	.uleb128 0x16
 	.string	"PS7"
 	.byte	0x7
 	.uahalf	0x194
@@ -4577,7 +4725,7 @@ calculateDistanceCm:
 	.byte	0x1
 	.byte	0x18
 	.byte	0
-	.uleb128 0x14
+	.uleb128 0x16
 	.string	"PS8"
 	.byte	0x7
 	.uahalf	0x195
@@ -4586,7 +4734,7 @@ calculateDistanceCm:
 	.byte	0x1
 	.byte	0x17
 	.byte	0
-	.uleb128 0x14
+	.uleb128 0x16
 	.string	"PS9"
 	.byte	0x7
 	.uahalf	0x196
@@ -4595,7 +4743,7 @@ calculateDistanceCm:
 	.byte	0x1
 	.byte	0x16
 	.byte	0
-	.uleb128 0x14
+	.uleb128 0x16
 	.string	"PS10"
 	.byte	0x7
 	.uahalf	0x197
@@ -4604,7 +4752,7 @@ calculateDistanceCm:
 	.byte	0x1
 	.byte	0x15
 	.byte	0
-	.uleb128 0x14
+	.uleb128 0x16
 	.string	"PS11"
 	.byte	0x7
 	.uahalf	0x198
@@ -4613,7 +4761,7 @@ calculateDistanceCm:
 	.byte	0x1
 	.byte	0x14
 	.byte	0
-	.uleb128 0x14
+	.uleb128 0x16
 	.string	"PS12"
 	.byte	0x7
 	.uahalf	0x199
@@ -4622,7 +4770,7 @@ calculateDistanceCm:
 	.byte	0x1
 	.byte	0x13
 	.byte	0
-	.uleb128 0x14
+	.uleb128 0x16
 	.string	"PS13"
 	.byte	0x7
 	.uahalf	0x19a
@@ -4631,7 +4779,7 @@ calculateDistanceCm:
 	.byte	0x1
 	.byte	0x12
 	.byte	0
-	.uleb128 0x14
+	.uleb128 0x16
 	.string	"PS14"
 	.byte	0x7
 	.uahalf	0x19b
@@ -4640,7 +4788,7 @@ calculateDistanceCm:
 	.byte	0x1
 	.byte	0x11
 	.byte	0
-	.uleb128 0x14
+	.uleb128 0x16
 	.string	"PS15"
 	.byte	0x7
 	.uahalf	0x19c
@@ -4649,7 +4797,7 @@ calculateDistanceCm:
 	.byte	0x1
 	.byte	0x10
 	.byte	0
-	.uleb128 0x15
+	.uleb128 0x17
 	.uaword	.LASF8
 	.byte	0x7
 	.uahalf	0x19d
@@ -4663,14 +4811,14 @@ calculateDistanceCm:
 	.string	"Ifx_P_OMSR_Bits"
 	.byte	0x7
 	.uahalf	0x19e
-	.uaword	0x2672
-	.uleb128 0x16
+	.uaword	0x26c2
+	.uleb128 0x18
 	.string	"_Ifx_P_OUT_Bits"
 	.byte	0x4
 	.byte	0x7
 	.uahalf	0x1a1
-	.uaword	0x28db
-	.uleb128 0x14
+	.uaword	0x292b
+	.uleb128 0x16
 	.string	"P0"
 	.byte	0x7
 	.uahalf	0x1a3
@@ -4679,7 +4827,7 @@ calculateDistanceCm:
 	.byte	0x1
 	.byte	0x1f
 	.byte	0
-	.uleb128 0x14
+	.uleb128 0x16
 	.string	"P1"
 	.byte	0x7
 	.uahalf	0x1a4
@@ -4688,7 +4836,7 @@ calculateDistanceCm:
 	.byte	0x1
 	.byte	0x1e
 	.byte	0
-	.uleb128 0x14
+	.uleb128 0x16
 	.string	"P2"
 	.byte	0x7
 	.uahalf	0x1a5
@@ -4697,7 +4845,7 @@ calculateDistanceCm:
 	.byte	0x1
 	.byte	0x1d
 	.byte	0
-	.uleb128 0x14
+	.uleb128 0x16
 	.string	"P3"
 	.byte	0x7
 	.uahalf	0x1a6
@@ -4706,7 +4854,7 @@ calculateDistanceCm:
 	.byte	0x1
 	.byte	0x1c
 	.byte	0
-	.uleb128 0x14
+	.uleb128 0x16
 	.string	"P4"
 	.byte	0x7
 	.uahalf	0x1a7
@@ -4715,7 +4863,7 @@ calculateDistanceCm:
 	.byte	0x1
 	.byte	0x1b
 	.byte	0
-	.uleb128 0x14
+	.uleb128 0x16
 	.string	"P5"
 	.byte	0x7
 	.uahalf	0x1a8
@@ -4724,7 +4872,7 @@ calculateDistanceCm:
 	.byte	0x1
 	.byte	0x1a
 	.byte	0
-	.uleb128 0x14
+	.uleb128 0x16
 	.string	"P6"
 	.byte	0x7
 	.uahalf	0x1a9
@@ -4733,7 +4881,7 @@ calculateDistanceCm:
 	.byte	0x1
 	.byte	0x19
 	.byte	0
-	.uleb128 0x14
+	.uleb128 0x16
 	.string	"P7"
 	.byte	0x7
 	.uahalf	0x1aa
@@ -4742,7 +4890,7 @@ calculateDistanceCm:
 	.byte	0x1
 	.byte	0x18
 	.byte	0
-	.uleb128 0x14
+	.uleb128 0x16
 	.string	"P8"
 	.byte	0x7
 	.uahalf	0x1ab
@@ -4751,7 +4899,7 @@ calculateDistanceCm:
 	.byte	0x1
 	.byte	0x17
 	.byte	0
-	.uleb128 0x14
+	.uleb128 0x16
 	.string	"P9"
 	.byte	0x7
 	.uahalf	0x1ac
@@ -4760,7 +4908,7 @@ calculateDistanceCm:
 	.byte	0x1
 	.byte	0x16
 	.byte	0
-	.uleb128 0x14
+	.uleb128 0x16
 	.string	"P10"
 	.byte	0x7
 	.uahalf	0x1ad
@@ -4769,7 +4917,7 @@ calculateDistanceCm:
 	.byte	0x1
 	.byte	0x15
 	.byte	0
-	.uleb128 0x14
+	.uleb128 0x16
 	.string	"P11"
 	.byte	0x7
 	.uahalf	0x1ae
@@ -4778,7 +4926,7 @@ calculateDistanceCm:
 	.byte	0x1
 	.byte	0x14
 	.byte	0
-	.uleb128 0x14
+	.uleb128 0x16
 	.string	"P12"
 	.byte	0x7
 	.uahalf	0x1af
@@ -4787,7 +4935,7 @@ calculateDistanceCm:
 	.byte	0x1
 	.byte	0x13
 	.byte	0
-	.uleb128 0x14
+	.uleb128 0x16
 	.string	"P13"
 	.byte	0x7
 	.uahalf	0x1b0
@@ -4796,7 +4944,7 @@ calculateDistanceCm:
 	.byte	0x1
 	.byte	0x12
 	.byte	0
-	.uleb128 0x14
+	.uleb128 0x16
 	.string	"P14"
 	.byte	0x7
 	.uahalf	0x1b1
@@ -4805,7 +4953,7 @@ calculateDistanceCm:
 	.byte	0x1
 	.byte	0x11
 	.byte	0
-	.uleb128 0x14
+	.uleb128 0x16
 	.string	"P15"
 	.byte	0x7
 	.uahalf	0x1b2
@@ -4814,7 +4962,7 @@ calculateDistanceCm:
 	.byte	0x1
 	.byte	0x10
 	.byte	0
-	.uleb128 0x15
+	.uleb128 0x17
 	.uaword	.LASF8
 	.byte	0x7
 	.uahalf	0x1b3
@@ -4828,14 +4976,14 @@ calculateDistanceCm:
 	.string	"Ifx_P_OUT_Bits"
 	.byte	0x7
 	.uahalf	0x1b4
-	.uaword	0x27bb
-	.uleb128 0x16
+	.uaword	0x280b
+	.uleb128 0x18
 	.string	"_Ifx_P_PCSR_Bits"
 	.byte	0x4
 	.byte	0x7
 	.uahalf	0x1b7
-	.uaword	0x29d8
-	.uleb128 0x14
+	.uaword	0x2a28
+	.uleb128 0x16
 	.string	"SEL0"
 	.byte	0x7
 	.uahalf	0x1b9
@@ -4844,7 +4992,7 @@ calculateDistanceCm:
 	.byte	0x1
 	.byte	0x1f
 	.byte	0
-	.uleb128 0x14
+	.uleb128 0x16
 	.string	"SEL1"
 	.byte	0x7
 	.uahalf	0x1ba
@@ -4853,7 +5001,7 @@ calculateDistanceCm:
 	.byte	0x1
 	.byte	0x1e
 	.byte	0
-	.uleb128 0x14
+	.uleb128 0x16
 	.string	"SEL2"
 	.byte	0x7
 	.uahalf	0x1bb
@@ -4862,7 +5010,7 @@ calculateDistanceCm:
 	.byte	0x1
 	.byte	0x1d
 	.byte	0
-	.uleb128 0x14
+	.uleb128 0x16
 	.string	"SEL3"
 	.byte	0x7
 	.uahalf	0x1bc
@@ -4871,7 +5019,7 @@ calculateDistanceCm:
 	.byte	0x1
 	.byte	0x1c
 	.byte	0
-	.uleb128 0x14
+	.uleb128 0x16
 	.string	"SEL4"
 	.byte	0x7
 	.uahalf	0x1bd
@@ -4880,7 +5028,7 @@ calculateDistanceCm:
 	.byte	0x1
 	.byte	0x1b
 	.byte	0
-	.uleb128 0x14
+	.uleb128 0x16
 	.string	"SEL5"
 	.byte	0x7
 	.uahalf	0x1be
@@ -4889,7 +5037,7 @@ calculateDistanceCm:
 	.byte	0x1
 	.byte	0x1a
 	.byte	0
-	.uleb128 0x14
+	.uleb128 0x16
 	.string	"SEL6"
 	.byte	0x7
 	.uahalf	0x1bf
@@ -4898,7 +5046,7 @@ calculateDistanceCm:
 	.byte	0x1
 	.byte	0x19
 	.byte	0
-	.uleb128 0x15
+	.uleb128 0x17
 	.uaword	.LASF4
 	.byte	0x7
 	.uahalf	0x1c0
@@ -4907,7 +5055,7 @@ calculateDistanceCm:
 	.byte	0x3
 	.byte	0x16
 	.byte	0
-	.uleb128 0x14
+	.uleb128 0x16
 	.string	"SEL10"
 	.byte	0x7
 	.uahalf	0x1c1
@@ -4916,7 +5064,7 @@ calculateDistanceCm:
 	.byte	0x1
 	.byte	0x15
 	.byte	0
-	.uleb128 0x14
+	.uleb128 0x16
 	.string	"SEL11"
 	.byte	0x7
 	.uahalf	0x1c2
@@ -4925,7 +5073,7 @@ calculateDistanceCm:
 	.byte	0x1
 	.byte	0x14
 	.byte	0
-	.uleb128 0x15
+	.uleb128 0x17
 	.uaword	.LASF13
 	.byte	0x7
 	.uahalf	0x1c3
@@ -4934,7 +5082,7 @@ calculateDistanceCm:
 	.byte	0x13
 	.byte	0x1
 	.byte	0
-	.uleb128 0x14
+	.uleb128 0x16
 	.string	"LCK"
 	.byte	0x7
 	.uahalf	0x1c4
@@ -4948,14 +5096,14 @@ calculateDistanceCm:
 	.string	"Ifx_P_PCSR_Bits"
 	.byte	0x7
 	.uahalf	0x1c5
-	.uaword	0x28f2
-	.uleb128 0x16
+	.uaword	0x2942
+	.uleb128 0x18
 	.string	"_Ifx_P_PDISC_Bits"
 	.byte	0x4
 	.byte	0x7
 	.uahalf	0x1c8
-	.uaword	0x2b42
-	.uleb128 0x14
+	.uaword	0x2b92
+	.uleb128 0x16
 	.string	"PDIS0"
 	.byte	0x7
 	.uahalf	0x1ca
@@ -4964,7 +5112,7 @@ calculateDistanceCm:
 	.byte	0x1
 	.byte	0x1f
 	.byte	0
-	.uleb128 0x14
+	.uleb128 0x16
 	.string	"PDIS1"
 	.byte	0x7
 	.uahalf	0x1cb
@@ -4973,7 +5121,7 @@ calculateDistanceCm:
 	.byte	0x1
 	.byte	0x1e
 	.byte	0
-	.uleb128 0x14
+	.uleb128 0x16
 	.string	"PDIS2"
 	.byte	0x7
 	.uahalf	0x1cc
@@ -4982,7 +5130,7 @@ calculateDistanceCm:
 	.byte	0x1
 	.byte	0x1d
 	.byte	0
-	.uleb128 0x14
+	.uleb128 0x16
 	.string	"PDIS3"
 	.byte	0x7
 	.uahalf	0x1cd
@@ -4991,7 +5139,7 @@ calculateDistanceCm:
 	.byte	0x1
 	.byte	0x1c
 	.byte	0
-	.uleb128 0x14
+	.uleb128 0x16
 	.string	"PDIS4"
 	.byte	0x7
 	.uahalf	0x1ce
@@ -5000,7 +5148,7 @@ calculateDistanceCm:
 	.byte	0x1
 	.byte	0x1b
 	.byte	0
-	.uleb128 0x14
+	.uleb128 0x16
 	.string	"PDIS5"
 	.byte	0x7
 	.uahalf	0x1cf
@@ -5009,7 +5157,7 @@ calculateDistanceCm:
 	.byte	0x1
 	.byte	0x1a
 	.byte	0
-	.uleb128 0x14
+	.uleb128 0x16
 	.string	"PDIS6"
 	.byte	0x7
 	.uahalf	0x1d0
@@ -5018,7 +5166,7 @@ calculateDistanceCm:
 	.byte	0x1
 	.byte	0x19
 	.byte	0
-	.uleb128 0x14
+	.uleb128 0x16
 	.string	"PDIS7"
 	.byte	0x7
 	.uahalf	0x1d1
@@ -5027,7 +5175,7 @@ calculateDistanceCm:
 	.byte	0x1
 	.byte	0x18
 	.byte	0
-	.uleb128 0x14
+	.uleb128 0x16
 	.string	"PDIS8"
 	.byte	0x7
 	.uahalf	0x1d2
@@ -5036,7 +5184,7 @@ calculateDistanceCm:
 	.byte	0x1
 	.byte	0x17
 	.byte	0
-	.uleb128 0x14
+	.uleb128 0x16
 	.string	"PDIS9"
 	.byte	0x7
 	.uahalf	0x1d3
@@ -5045,7 +5193,7 @@ calculateDistanceCm:
 	.byte	0x1
 	.byte	0x16
 	.byte	0
-	.uleb128 0x14
+	.uleb128 0x16
 	.string	"PDIS10"
 	.byte	0x7
 	.uahalf	0x1d4
@@ -5054,7 +5202,7 @@ calculateDistanceCm:
 	.byte	0x1
 	.byte	0x15
 	.byte	0
-	.uleb128 0x14
+	.uleb128 0x16
 	.string	"PDIS11"
 	.byte	0x7
 	.uahalf	0x1d5
@@ -5063,7 +5211,7 @@ calculateDistanceCm:
 	.byte	0x1
 	.byte	0x14
 	.byte	0
-	.uleb128 0x14
+	.uleb128 0x16
 	.string	"PDIS12"
 	.byte	0x7
 	.uahalf	0x1d6
@@ -5072,7 +5220,7 @@ calculateDistanceCm:
 	.byte	0x1
 	.byte	0x13
 	.byte	0
-	.uleb128 0x14
+	.uleb128 0x16
 	.string	"PDIS13"
 	.byte	0x7
 	.uahalf	0x1d7
@@ -5081,7 +5229,7 @@ calculateDistanceCm:
 	.byte	0x1
 	.byte	0x12
 	.byte	0
-	.uleb128 0x14
+	.uleb128 0x16
 	.string	"PDIS14"
 	.byte	0x7
 	.uahalf	0x1d8
@@ -5090,7 +5238,7 @@ calculateDistanceCm:
 	.byte	0x1
 	.byte	0x11
 	.byte	0
-	.uleb128 0x14
+	.uleb128 0x16
 	.string	"PDIS15"
 	.byte	0x7
 	.uahalf	0x1d9
@@ -5099,7 +5247,7 @@ calculateDistanceCm:
 	.byte	0x1
 	.byte	0x10
 	.byte	0
-	.uleb128 0x15
+	.uleb128 0x17
 	.uaword	.LASF8
 	.byte	0x7
 	.uahalf	0x1da
@@ -5113,14 +5261,14 @@ calculateDistanceCm:
 	.string	"Ifx_P_PDISC_Bits"
 	.byte	0x7
 	.uahalf	0x1db
-	.uaword	0x29f0
-	.uleb128 0x16
+	.uaword	0x2a40
+	.uleb128 0x18
 	.string	"_Ifx_P_PDR0_Bits"
 	.byte	0x4
 	.byte	0x7
 	.uahalf	0x1de
-	.uaword	0x2c76
-	.uleb128 0x14
+	.uaword	0x2cc6
+	.uleb128 0x16
 	.string	"PD0"
 	.byte	0x7
 	.uahalf	0x1e0
@@ -5129,7 +5277,7 @@ calculateDistanceCm:
 	.byte	0x3
 	.byte	0x1d
 	.byte	0
-	.uleb128 0x14
+	.uleb128 0x16
 	.string	"PL0"
 	.byte	0x7
 	.uahalf	0x1e1
@@ -5138,7 +5286,7 @@ calculateDistanceCm:
 	.byte	0x1
 	.byte	0x1c
 	.byte	0
-	.uleb128 0x14
+	.uleb128 0x16
 	.string	"PD1"
 	.byte	0x7
 	.uahalf	0x1e2
@@ -5147,7 +5295,7 @@ calculateDistanceCm:
 	.byte	0x3
 	.byte	0x19
 	.byte	0
-	.uleb128 0x14
+	.uleb128 0x16
 	.string	"PL1"
 	.byte	0x7
 	.uahalf	0x1e3
@@ -5156,7 +5304,7 @@ calculateDistanceCm:
 	.byte	0x1
 	.byte	0x18
 	.byte	0
-	.uleb128 0x14
+	.uleb128 0x16
 	.string	"PD2"
 	.byte	0x7
 	.uahalf	0x1e4
@@ -5165,7 +5313,7 @@ calculateDistanceCm:
 	.byte	0x3
 	.byte	0x15
 	.byte	0
-	.uleb128 0x14
+	.uleb128 0x16
 	.string	"PL2"
 	.byte	0x7
 	.uahalf	0x1e5
@@ -5174,7 +5322,7 @@ calculateDistanceCm:
 	.byte	0x1
 	.byte	0x14
 	.byte	0
-	.uleb128 0x14
+	.uleb128 0x16
 	.string	"PD3"
 	.byte	0x7
 	.uahalf	0x1e6
@@ -5183,7 +5331,7 @@ calculateDistanceCm:
 	.byte	0x3
 	.byte	0x11
 	.byte	0
-	.uleb128 0x14
+	.uleb128 0x16
 	.string	"PL3"
 	.byte	0x7
 	.uahalf	0x1e7
@@ -5192,7 +5340,7 @@ calculateDistanceCm:
 	.byte	0x1
 	.byte	0x10
 	.byte	0
-	.uleb128 0x14
+	.uleb128 0x16
 	.string	"PD4"
 	.byte	0x7
 	.uahalf	0x1e8
@@ -5201,7 +5349,7 @@ calculateDistanceCm:
 	.byte	0x3
 	.byte	0xd
 	.byte	0
-	.uleb128 0x14
+	.uleb128 0x16
 	.string	"PL4"
 	.byte	0x7
 	.uahalf	0x1e9
@@ -5210,7 +5358,7 @@ calculateDistanceCm:
 	.byte	0x1
 	.byte	0xc
 	.byte	0
-	.uleb128 0x14
+	.uleb128 0x16
 	.string	"PD5"
 	.byte	0x7
 	.uahalf	0x1ea
@@ -5219,7 +5367,7 @@ calculateDistanceCm:
 	.byte	0x3
 	.byte	0x9
 	.byte	0
-	.uleb128 0x14
+	.uleb128 0x16
 	.string	"PL5"
 	.byte	0x7
 	.uahalf	0x1eb
@@ -5228,7 +5376,7 @@ calculateDistanceCm:
 	.byte	0x1
 	.byte	0x8
 	.byte	0
-	.uleb128 0x14
+	.uleb128 0x16
 	.string	"PD6"
 	.byte	0x7
 	.uahalf	0x1ec
@@ -5237,7 +5385,7 @@ calculateDistanceCm:
 	.byte	0x3
 	.byte	0x5
 	.byte	0
-	.uleb128 0x14
+	.uleb128 0x16
 	.string	"PL6"
 	.byte	0x7
 	.uahalf	0x1ed
@@ -5246,7 +5394,7 @@ calculateDistanceCm:
 	.byte	0x1
 	.byte	0x4
 	.byte	0
-	.uleb128 0x14
+	.uleb128 0x16
 	.string	"PD7"
 	.byte	0x7
 	.uahalf	0x1ee
@@ -5255,7 +5403,7 @@ calculateDistanceCm:
 	.byte	0x3
 	.byte	0x1
 	.byte	0
-	.uleb128 0x14
+	.uleb128 0x16
 	.string	"PL7"
 	.byte	0x7
 	.uahalf	0x1ef
@@ -5269,14 +5417,14 @@ calculateDistanceCm:
 	.string	"Ifx_P_PDR0_Bits"
 	.byte	0x7
 	.uahalf	0x1f0
-	.uaword	0x2b5b
-	.uleb128 0x16
+	.uaword	0x2bab
+	.uleb128 0x18
 	.string	"_Ifx_P_PDR1_Bits"
 	.byte	0x4
 	.byte	0x7
 	.uahalf	0x1f3
-	.uaword	0x2db5
-	.uleb128 0x14
+	.uaword	0x2e05
+	.uleb128 0x16
 	.string	"PD8"
 	.byte	0x7
 	.uahalf	0x1f5
@@ -5285,7 +5433,7 @@ calculateDistanceCm:
 	.byte	0x3
 	.byte	0x1d
 	.byte	0
-	.uleb128 0x14
+	.uleb128 0x16
 	.string	"PL8"
 	.byte	0x7
 	.uahalf	0x1f6
@@ -5294,7 +5442,7 @@ calculateDistanceCm:
 	.byte	0x1
 	.byte	0x1c
 	.byte	0
-	.uleb128 0x14
+	.uleb128 0x16
 	.string	"PD9"
 	.byte	0x7
 	.uahalf	0x1f7
@@ -5303,7 +5451,7 @@ calculateDistanceCm:
 	.byte	0x3
 	.byte	0x19
 	.byte	0
-	.uleb128 0x14
+	.uleb128 0x16
 	.string	"PL9"
 	.byte	0x7
 	.uahalf	0x1f8
@@ -5312,7 +5460,7 @@ calculateDistanceCm:
 	.byte	0x1
 	.byte	0x18
 	.byte	0
-	.uleb128 0x14
+	.uleb128 0x16
 	.string	"PD10"
 	.byte	0x7
 	.uahalf	0x1f9
@@ -5321,7 +5469,7 @@ calculateDistanceCm:
 	.byte	0x3
 	.byte	0x15
 	.byte	0
-	.uleb128 0x14
+	.uleb128 0x16
 	.string	"PL10"
 	.byte	0x7
 	.uahalf	0x1fa
@@ -5330,7 +5478,7 @@ calculateDistanceCm:
 	.byte	0x1
 	.byte	0x14
 	.byte	0
-	.uleb128 0x14
+	.uleb128 0x16
 	.string	"PD11"
 	.byte	0x7
 	.uahalf	0x1fb
@@ -5339,7 +5487,7 @@ calculateDistanceCm:
 	.byte	0x3
 	.byte	0x11
 	.byte	0
-	.uleb128 0x14
+	.uleb128 0x16
 	.string	"PL11"
 	.byte	0x7
 	.uahalf	0x1fc
@@ -5348,7 +5496,7 @@ calculateDistanceCm:
 	.byte	0x1
 	.byte	0x10
 	.byte	0
-	.uleb128 0x14
+	.uleb128 0x16
 	.string	"PD12"
 	.byte	0x7
 	.uahalf	0x1fd
@@ -5357,7 +5505,7 @@ calculateDistanceCm:
 	.byte	0x3
 	.byte	0xd
 	.byte	0
-	.uleb128 0x14
+	.uleb128 0x16
 	.string	"PL12"
 	.byte	0x7
 	.uahalf	0x1fe
@@ -5366,7 +5514,7 @@ calculateDistanceCm:
 	.byte	0x1
 	.byte	0xc
 	.byte	0
-	.uleb128 0x14
+	.uleb128 0x16
 	.string	"PD13"
 	.byte	0x7
 	.uahalf	0x1ff
@@ -5375,7 +5523,7 @@ calculateDistanceCm:
 	.byte	0x3
 	.byte	0x9
 	.byte	0
-	.uleb128 0x14
+	.uleb128 0x16
 	.string	"PL13"
 	.byte	0x7
 	.uahalf	0x200
@@ -5384,7 +5532,7 @@ calculateDistanceCm:
 	.byte	0x1
 	.byte	0x8
 	.byte	0
-	.uleb128 0x14
+	.uleb128 0x16
 	.string	"PD14"
 	.byte	0x7
 	.uahalf	0x201
@@ -5393,7 +5541,7 @@ calculateDistanceCm:
 	.byte	0x3
 	.byte	0x5
 	.byte	0
-	.uleb128 0x14
+	.uleb128 0x16
 	.string	"PL14"
 	.byte	0x7
 	.uahalf	0x202
@@ -5402,7 +5550,7 @@ calculateDistanceCm:
 	.byte	0x1
 	.byte	0x4
 	.byte	0
-	.uleb128 0x14
+	.uleb128 0x16
 	.string	"PD15"
 	.byte	0x7
 	.uahalf	0x203
@@ -5411,7 +5559,7 @@ calculateDistanceCm:
 	.byte	0x3
 	.byte	0x1
 	.byte	0
-	.uleb128 0x14
+	.uleb128 0x16
 	.string	"PL15"
 	.byte	0x7
 	.uahalf	0x204
@@ -5425,12 +5573,12 @@ calculateDistanceCm:
 	.string	"Ifx_P_PDR1_Bits"
 	.byte	0x7
 	.uahalf	0x205
-	.uaword	0x2c8e
+	.uaword	0x2cde
 	.uleb128 0xb
 	.byte	0x4
 	.byte	0x7
 	.uahalf	0x20d
-	.uaword	0x2df5
+	.uaword	0x2e45
 	.uleb128 0xc
 	.string	"U"
 	.byte	0x7
@@ -5445,18 +5593,18 @@ calculateDistanceCm:
 	.string	"B"
 	.byte	0x7
 	.uahalf	0x211
-	.uaword	0x1636
+	.uaword	0x1686
 	.byte	0
 	.uleb128 0xd
 	.string	"Ifx_P_ACCEN0"
 	.byte	0x7
 	.uahalf	0x212
-	.uaword	0x2dcd
+	.uaword	0x2e1d
 	.uleb128 0xb
 	.byte	0x4
 	.byte	0x7
 	.uahalf	0x215
-	.uaword	0x2e32
+	.uaword	0x2e82
 	.uleb128 0xc
 	.string	"U"
 	.byte	0x7
@@ -5471,18 +5619,18 @@ calculateDistanceCm:
 	.string	"B"
 	.byte	0x7
 	.uahalf	0x219
-	.uaword	0x167a
+	.uaword	0x16ca
 	.byte	0
 	.uleb128 0xd
 	.string	"Ifx_P_ACCEN1"
 	.byte	0x7
 	.uahalf	0x21a
-	.uaword	0x2e0a
+	.uaword	0x2e5a
 	.uleb128 0xb
 	.byte	0x4
 	.byte	0x7
 	.uahalf	0x21d
-	.uaword	0x2e6f
+	.uaword	0x2ebf
 	.uleb128 0xc
 	.string	"U"
 	.byte	0x7
@@ -5497,18 +5645,18 @@ calculateDistanceCm:
 	.string	"B"
 	.byte	0x7
 	.uahalf	0x221
-	.uaword	0x17b1
+	.uaword	0x1801
 	.byte	0
 	.uleb128 0xd
 	.string	"Ifx_P_ESR"
 	.byte	0x7
 	.uahalf	0x222
-	.uaword	0x2e47
+	.uaword	0x2e97
 	.uleb128 0xb
 	.byte	0x4
 	.byte	0x7
 	.uahalf	0x225
-	.uaword	0x2ea9
+	.uaword	0x2ef9
 	.uleb128 0xc
 	.string	"U"
 	.byte	0x7
@@ -5523,18 +5671,18 @@ calculateDistanceCm:
 	.string	"B"
 	.byte	0x7
 	.uahalf	0x229
-	.uaword	0x1813
+	.uaword	0x1863
 	.byte	0
 	.uleb128 0xd
 	.string	"Ifx_P_ID"
 	.byte	0x7
 	.uahalf	0x22a
-	.uaword	0x2e81
+	.uaword	0x2ed1
 	.uleb128 0xb
 	.byte	0x4
 	.byte	0x7
 	.uahalf	0x22d
-	.uaword	0x2ee2
+	.uaword	0x2f32
 	.uleb128 0xc
 	.string	"U"
 	.byte	0x7
@@ -5549,18 +5697,18 @@ calculateDistanceCm:
 	.string	"B"
 	.byte	0x7
 	.uahalf	0x231
-	.uaword	0x1935
+	.uaword	0x1985
 	.byte	0
 	.uleb128 0xd
 	.string	"Ifx_P_IN"
 	.byte	0x7
 	.uahalf	0x232
-	.uaword	0x2eba
+	.uaword	0x2f0a
 	.uleb128 0xb
 	.byte	0x4
 	.byte	0x7
 	.uahalf	0x235
-	.uaword	0x2f1b
+	.uaword	0x2f6b
 	.uleb128 0xc
 	.string	"U"
 	.byte	0x7
@@ -5575,18 +5723,18 @@ calculateDistanceCm:
 	.string	"B"
 	.byte	0x7
 	.uahalf	0x239
-	.uaword	0x19dd
+	.uaword	0x1a2d
 	.byte	0
 	.uleb128 0xd
 	.string	"Ifx_P_IOCR0"
 	.byte	0x7
 	.uahalf	0x23a
-	.uaword	0x2ef3
+	.uaword	0x2f43
 	.uleb128 0xb
 	.byte	0x4
 	.byte	0x7
 	.uahalf	0x23d
-	.uaword	0x2f57
+	.uaword	0x2fa7
 	.uleb128 0xc
 	.string	"U"
 	.byte	0x7
@@ -5601,18 +5749,18 @@ calculateDistanceCm:
 	.string	"B"
 	.byte	0x7
 	.uahalf	0x241
-	.uaword	0x1a8d
+	.uaword	0x1add
 	.byte	0
 	.uleb128 0xd
 	.string	"Ifx_P_IOCR12"
 	.byte	0x7
 	.uahalf	0x242
-	.uaword	0x2f2f
+	.uaword	0x2f7f
 	.uleb128 0xb
 	.byte	0x4
 	.byte	0x7
 	.uahalf	0x245
-	.uaword	0x2f94
+	.uaword	0x2fe4
 	.uleb128 0xc
 	.string	"U"
 	.byte	0x7
@@ -5627,18 +5775,18 @@ calculateDistanceCm:
 	.string	"B"
 	.byte	0x7
 	.uahalf	0x249
-	.uaword	0x1b39
+	.uaword	0x1b89
 	.byte	0
 	.uleb128 0xd
 	.string	"Ifx_P_IOCR4"
 	.byte	0x7
 	.uahalf	0x24a
-	.uaword	0x2f6c
+	.uaword	0x2fbc
 	.uleb128 0xb
 	.byte	0x4
 	.byte	0x7
 	.uahalf	0x24d
-	.uaword	0x2fd0
+	.uaword	0x3020
 	.uleb128 0xc
 	.string	"U"
 	.byte	0x7
@@ -5653,18 +5801,18 @@ calculateDistanceCm:
 	.string	"B"
 	.byte	0x7
 	.uahalf	0x251
-	.uaword	0x1be6
+	.uaword	0x1c36
 	.byte	0
 	.uleb128 0xd
 	.string	"Ifx_P_IOCR8"
 	.byte	0x7
 	.uahalf	0x252
-	.uaword	0x2fa8
+	.uaword	0x2ff8
 	.uleb128 0xb
 	.byte	0x4
 	.byte	0x7
 	.uahalf	0x255
-	.uaword	0x300c
+	.uaword	0x305c
 	.uleb128 0xc
 	.string	"U"
 	.byte	0x7
@@ -5679,18 +5827,18 @@ calculateDistanceCm:
 	.string	"B"
 	.byte	0x7
 	.uahalf	0x259
-	.uaword	0x1c46
+	.uaword	0x1c96
 	.byte	0
 	.uleb128 0xd
 	.string	"Ifx_P_LPCR0"
 	.byte	0x7
 	.uahalf	0x25a
-	.uaword	0x2fe4
+	.uaword	0x3034
 	.uleb128 0xb
 	.byte	0x4
 	.byte	0x7
 	.uahalf	0x25d
-	.uaword	0x3056
+	.uaword	0x30a6
 	.uleb128 0xc
 	.string	"U"
 	.byte	0x7
@@ -5705,23 +5853,23 @@ calculateDistanceCm:
 	.string	"B"
 	.byte	0x7
 	.uahalf	0x261
-	.uaword	0x1ca6
+	.uaword	0x1cf6
 	.uleb128 0xc
 	.string	"B_P21"
 	.byte	0x7
 	.uahalf	0x262
-	.uaword	0x1d36
+	.uaword	0x1d86
 	.byte	0
 	.uleb128 0xd
 	.string	"Ifx_P_LPCR1"
 	.byte	0x7
 	.uahalf	0x263
-	.uaword	0x3020
+	.uaword	0x3070
 	.uleb128 0xb
 	.byte	0x4
 	.byte	0x7
 	.uahalf	0x266
-	.uaword	0x3092
+	.uaword	0x30e2
 	.uleb128 0xc
 	.string	"U"
 	.byte	0x7
@@ -5736,18 +5884,18 @@ calculateDistanceCm:
 	.string	"B"
 	.byte	0x7
 	.uahalf	0x26a
-	.uaword	0x1e11
+	.uaword	0x1e61
 	.byte	0
 	.uleb128 0xd
 	.string	"Ifx_P_LPCR2"
 	.byte	0x7
 	.uahalf	0x26b
-	.uaword	0x306a
+	.uaword	0x30ba
 	.uleb128 0xb
 	.byte	0x4
 	.byte	0x7
 	.uahalf	0x26e
-	.uaword	0x30ce
+	.uaword	0x311e
 	.uleb128 0xc
 	.string	"U"
 	.byte	0x7
@@ -5762,18 +5910,18 @@ calculateDistanceCm:
 	.string	"B"
 	.byte	0x7
 	.uahalf	0x272
-	.uaword	0x21c1
+	.uaword	0x2211
 	.byte	0
 	.uleb128 0xd
 	.string	"Ifx_P_OMCR"
 	.byte	0x7
 	.uahalf	0x273
-	.uaword	0x30a6
+	.uaword	0x30f6
 	.uleb128 0xb
 	.byte	0x4
 	.byte	0x7
 	.uahalf	0x276
-	.uaword	0x3109
+	.uaword	0x3159
 	.uleb128 0xc
 	.string	"U"
 	.byte	0x7
@@ -5788,18 +5936,18 @@ calculateDistanceCm:
 	.string	"B"
 	.byte	0x7
 	.uahalf	0x27a
-	.uaword	0x1ea4
+	.uaword	0x1ef4
 	.byte	0
 	.uleb128 0xd
 	.string	"Ifx_P_OMCR0"
 	.byte	0x7
 	.uahalf	0x27b
-	.uaword	0x30e1
+	.uaword	0x3131
 	.uleb128 0xb
 	.byte	0x4
 	.byte	0x7
 	.uahalf	0x27e
-	.uaword	0x3145
+	.uaword	0x3195
 	.uleb128 0xc
 	.string	"U"
 	.byte	0x7
@@ -5814,18 +5962,18 @@ calculateDistanceCm:
 	.string	"B"
 	.byte	0x7
 	.uahalf	0x282
-	.uaword	0x1f32
+	.uaword	0x1f82
 	.byte	0
 	.uleb128 0xd
 	.string	"Ifx_P_OMCR12"
 	.byte	0x7
 	.uahalf	0x283
-	.uaword	0x311d
+	.uaword	0x316d
 	.uleb128 0xb
 	.byte	0x4
 	.byte	0x7
 	.uahalf	0x286
-	.uaword	0x3182
+	.uaword	0x31d2
 	.uleb128 0xc
 	.string	"U"
 	.byte	0x7
@@ -5840,18 +5988,18 @@ calculateDistanceCm:
 	.string	"B"
 	.byte	0x7
 	.uahalf	0x28a
-	.uaword	0x1fcc
+	.uaword	0x201c
 	.byte	0
 	.uleb128 0xd
 	.string	"Ifx_P_OMCR4"
 	.byte	0x7
 	.uahalf	0x28b
-	.uaword	0x315a
+	.uaword	0x31aa
 	.uleb128 0xb
 	.byte	0x4
 	.byte	0x7
 	.uahalf	0x28e
-	.uaword	0x31be
+	.uaword	0x320e
 	.uleb128 0xc
 	.string	"U"
 	.byte	0x7
@@ -5866,18 +6014,18 @@ calculateDistanceCm:
 	.string	"B"
 	.byte	0x7
 	.uahalf	0x292
-	.uaword	0x2067
+	.uaword	0x20b7
 	.byte	0
 	.uleb128 0xd
 	.string	"Ifx_P_OMCR8"
 	.byte	0x7
 	.uahalf	0x293
-	.uaword	0x3196
+	.uaword	0x31e6
 	.uleb128 0xb
 	.byte	0x4
 	.byte	0x7
 	.uahalf	0x296
-	.uaword	0x31fa
+	.uaword	0x324a
 	.uleb128 0xc
 	.string	"U"
 	.byte	0x7
@@ -5892,18 +6040,18 @@ calculateDistanceCm:
 	.string	"B"
 	.byte	0x7
 	.uahalf	0x29a
-	.uaword	0x240f
+	.uaword	0x245f
 	.byte	0
 	.uleb128 0xd
 	.string	"Ifx_P_OMR"
 	.byte	0x7
 	.uahalf	0x29b
-	.uaword	0x31d2
+	.uaword	0x3222
 	.uleb128 0xb
 	.byte	0x4
 	.byte	0x7
 	.uahalf	0x29e
-	.uaword	0x3234
+	.uaword	0x3284
 	.uleb128 0xc
 	.string	"U"
 	.byte	0x7
@@ -5918,18 +6066,18 @@ calculateDistanceCm:
 	.string	"B"
 	.byte	0x7
 	.uahalf	0x2a2
-	.uaword	0x27a3
+	.uaword	0x27f3
 	.byte	0
 	.uleb128 0xd
 	.string	"Ifx_P_OMSR"
 	.byte	0x7
 	.uahalf	0x2a3
-	.uaword	0x320c
+	.uaword	0x325c
 	.uleb128 0xb
 	.byte	0x4
 	.byte	0x7
 	.uahalf	0x2a6
-	.uaword	0x326f
+	.uaword	0x32bf
 	.uleb128 0xc
 	.string	"U"
 	.byte	0x7
@@ -5944,18 +6092,18 @@ calculateDistanceCm:
 	.string	"B"
 	.byte	0x7
 	.uahalf	0x2aa
-	.uaword	0x2492
+	.uaword	0x24e2
 	.byte	0
 	.uleb128 0xd
 	.string	"Ifx_P_OMSR0"
 	.byte	0x7
 	.uahalf	0x2ab
-	.uaword	0x3247
+	.uaword	0x3297
 	.uleb128 0xb
 	.byte	0x4
 	.byte	0x7
 	.uahalf	0x2ae
-	.uaword	0x32ab
+	.uaword	0x32fb
 	.uleb128 0xc
 	.string	"U"
 	.byte	0x7
@@ -5970,18 +6118,18 @@ calculateDistanceCm:
 	.string	"B"
 	.byte	0x7
 	.uahalf	0x2b2
-	.uaword	0x252c
+	.uaword	0x257c
 	.byte	0
 	.uleb128 0xd
 	.string	"Ifx_P_OMSR12"
 	.byte	0x7
 	.uahalf	0x2b3
-	.uaword	0x3283
+	.uaword	0x32d3
 	.uleb128 0xb
 	.byte	0x4
 	.byte	0x7
 	.uahalf	0x2b6
-	.uaword	0x32e8
+	.uaword	0x3338
 	.uleb128 0xc
 	.string	"U"
 	.byte	0x7
@@ -5996,18 +6144,18 @@ calculateDistanceCm:
 	.string	"B"
 	.byte	0x7
 	.uahalf	0x2ba
-	.uaword	0x25c2
+	.uaword	0x2612
 	.byte	0
 	.uleb128 0xd
 	.string	"Ifx_P_OMSR4"
 	.byte	0x7
 	.uahalf	0x2bb
-	.uaword	0x32c0
+	.uaword	0x3310
 	.uleb128 0xb
 	.byte	0x4
 	.byte	0x7
 	.uahalf	0x2be
-	.uaword	0x3324
+	.uaword	0x3374
 	.uleb128 0xc
 	.string	"U"
 	.byte	0x7
@@ -6022,18 +6170,18 @@ calculateDistanceCm:
 	.string	"B"
 	.byte	0x7
 	.uahalf	0x2c2
-	.uaword	0x2659
+	.uaword	0x26a9
 	.byte	0
 	.uleb128 0xd
 	.string	"Ifx_P_OMSR8"
 	.byte	0x7
 	.uahalf	0x2c3
-	.uaword	0x32fc
+	.uaword	0x334c
 	.uleb128 0xb
 	.byte	0x4
 	.byte	0x7
 	.uahalf	0x2c6
-	.uaword	0x3360
+	.uaword	0x33b0
 	.uleb128 0xc
 	.string	"U"
 	.byte	0x7
@@ -6048,18 +6196,18 @@ calculateDistanceCm:
 	.string	"B"
 	.byte	0x7
 	.uahalf	0x2ca
-	.uaword	0x28db
+	.uaword	0x292b
 	.byte	0
 	.uleb128 0xd
 	.string	"Ifx_P_OUT"
 	.byte	0x7
 	.uahalf	0x2cb
-	.uaword	0x3338
+	.uaword	0x3388
 	.uleb128 0xb
 	.byte	0x4
 	.byte	0x7
 	.uahalf	0x2ce
-	.uaword	0x339a
+	.uaword	0x33ea
 	.uleb128 0xc
 	.string	"U"
 	.byte	0x7
@@ -6074,18 +6222,18 @@ calculateDistanceCm:
 	.string	"B"
 	.byte	0x7
 	.uahalf	0x2d2
-	.uaword	0x29d8
+	.uaword	0x2a28
 	.byte	0
 	.uleb128 0xd
 	.string	"Ifx_P_PCSR"
 	.byte	0x7
 	.uahalf	0x2d3
-	.uaword	0x3372
+	.uaword	0x33c2
 	.uleb128 0xb
 	.byte	0x4
 	.byte	0x7
 	.uahalf	0x2d6
-	.uaword	0x33d5
+	.uaword	0x3425
 	.uleb128 0xc
 	.string	"U"
 	.byte	0x7
@@ -6100,18 +6248,18 @@ calculateDistanceCm:
 	.string	"B"
 	.byte	0x7
 	.uahalf	0x2da
-	.uaword	0x2b42
+	.uaword	0x2b92
 	.byte	0
 	.uleb128 0xd
 	.string	"Ifx_P_PDISC"
 	.byte	0x7
 	.uahalf	0x2db
-	.uaword	0x33ad
+	.uaword	0x33fd
 	.uleb128 0xb
 	.byte	0x4
 	.byte	0x7
 	.uahalf	0x2de
-	.uaword	0x3411
+	.uaword	0x3461
 	.uleb128 0xc
 	.string	"U"
 	.byte	0x7
@@ -6126,18 +6274,18 @@ calculateDistanceCm:
 	.string	"B"
 	.byte	0x7
 	.uahalf	0x2e2
-	.uaword	0x2c76
+	.uaword	0x2cc6
 	.byte	0
 	.uleb128 0xd
 	.string	"Ifx_P_PDR0"
 	.byte	0x7
 	.uahalf	0x2e3
-	.uaword	0x33e9
+	.uaword	0x3439
 	.uleb128 0xb
 	.byte	0x4
 	.byte	0x7
 	.uahalf	0x2e6
-	.uaword	0x344c
+	.uaword	0x349c
 	.uleb128 0xc
 	.string	"U"
 	.byte	0x7
@@ -6152,36 +6300,36 @@ calculateDistanceCm:
 	.string	"B"
 	.byte	0x7
 	.uahalf	0x2ea
-	.uaword	0x2db5
+	.uaword	0x2e05
 	.byte	0
 	.uleb128 0xd
 	.string	"Ifx_P_PDR1"
 	.byte	0x7
 	.uahalf	0x2eb
-	.uaword	0x3424
+	.uaword	0x3474
 	.uleb128 0xe
 	.string	"_Ifx_P"
 	.uahalf	0x100
 	.byte	0x7
 	.uahalf	0x2f6
-	.uaword	0x3699
+	.uaword	0x36e9
 	.uleb128 0xf
 	.string	"OUT"
 	.byte	0x7
 	.uahalf	0x2f8
-	.uaword	0x3360
+	.uaword	0x33b0
 	.byte	0
 	.uleb128 0xf
 	.string	"OMR"
 	.byte	0x7
 	.uahalf	0x2f9
-	.uaword	0x31fa
+	.uaword	0x324a
 	.byte	0x4
 	.uleb128 0xf
 	.string	"ID"
 	.byte	0x7
 	.uahalf	0x2fa
-	.uaword	0x2ea9
+	.uaword	0x2ef9
 	.byte	0x8
 	.uleb128 0x10
 	.uaword	.LASF7
@@ -6193,25 +6341,25 @@ calculateDistanceCm:
 	.string	"IOCR0"
 	.byte	0x7
 	.uahalf	0x2fc
-	.uaword	0x2f1b
+	.uaword	0x2f6b
 	.byte	0x10
 	.uleb128 0xf
 	.string	"IOCR4"
 	.byte	0x7
 	.uahalf	0x2fd
-	.uaword	0x2f94
+	.uaword	0x2fe4
 	.byte	0x14
 	.uleb128 0xf
 	.string	"IOCR8"
 	.byte	0x7
 	.uahalf	0x2fe
-	.uaword	0x2fd0
+	.uaword	0x3020
 	.byte	0x18
 	.uleb128 0xf
 	.string	"IOCR12"
 	.byte	0x7
 	.uahalf	0x2ff
-	.uaword	0x2f57
+	.uaword	0x2fa7
 	.byte	0x1c
 	.uleb128 0x10
 	.uaword	.LASF11
@@ -6223,7 +6371,7 @@ calculateDistanceCm:
 	.string	"IN"
 	.byte	0x7
 	.uahalf	0x301
-	.uaword	0x2ee2
+	.uaword	0x2f32
 	.byte	0x24
 	.uleb128 0x10
 	.uaword	.LASF12
@@ -6235,13 +6383,13 @@ calculateDistanceCm:
 	.string	"PDR0"
 	.byte	0x7
 	.uahalf	0x303
-	.uaword	0x3411
+	.uaword	0x3461
 	.byte	0x40
 	.uleb128 0xf
 	.string	"PDR1"
 	.byte	0x7
 	.uahalf	0x304
-	.uaword	0x344c
+	.uaword	0x349c
 	.byte	0x44
 	.uleb128 0xf
 	.string	"reserved_48"
@@ -6253,7 +6401,7 @@ calculateDistanceCm:
 	.string	"ESR"
 	.byte	0x7
 	.uahalf	0x306
-	.uaword	0x2e6f
+	.uaword	0x2ebf
 	.byte	0x50
 	.uleb128 0xf
 	.string	"reserved_54"
@@ -6265,13 +6413,13 @@ calculateDistanceCm:
 	.string	"PDISC"
 	.byte	0x7
 	.uahalf	0x308
-	.uaword	0x33d5
+	.uaword	0x3425
 	.byte	0x60
 	.uleb128 0xf
 	.string	"PCSR"
 	.byte	0x7
 	.uahalf	0x309
-	.uaword	0x339a
+	.uaword	0x33ea
 	.byte	0x64
 	.uleb128 0xf
 	.string	"reserved_68"
@@ -6283,61 +6431,61 @@ calculateDistanceCm:
 	.string	"OMSR0"
 	.byte	0x7
 	.uahalf	0x30b
-	.uaword	0x326f
+	.uaword	0x32bf
 	.byte	0x70
 	.uleb128 0xf
 	.string	"OMSR4"
 	.byte	0x7
 	.uahalf	0x30c
-	.uaword	0x32e8
+	.uaword	0x3338
 	.byte	0x74
 	.uleb128 0xf
 	.string	"OMSR8"
 	.byte	0x7
 	.uahalf	0x30d
-	.uaword	0x3324
+	.uaword	0x3374
 	.byte	0x78
 	.uleb128 0xf
 	.string	"OMSR12"
 	.byte	0x7
 	.uahalf	0x30e
-	.uaword	0x32ab
+	.uaword	0x32fb
 	.byte	0x7c
 	.uleb128 0xf
 	.string	"OMCR0"
 	.byte	0x7
 	.uahalf	0x30f
-	.uaword	0x3109
+	.uaword	0x3159
 	.byte	0x80
 	.uleb128 0xf
 	.string	"OMCR4"
 	.byte	0x7
 	.uahalf	0x310
-	.uaword	0x3182
+	.uaword	0x31d2
 	.byte	0x84
 	.uleb128 0xf
 	.string	"OMCR8"
 	.byte	0x7
 	.uahalf	0x311
-	.uaword	0x31be
+	.uaword	0x320e
 	.byte	0x88
 	.uleb128 0xf
 	.string	"OMCR12"
 	.byte	0x7
 	.uahalf	0x312
-	.uaword	0x3145
+	.uaword	0x3195
 	.byte	0x8c
 	.uleb128 0xf
 	.string	"OMSR"
 	.byte	0x7
 	.uahalf	0x313
-	.uaword	0x3234
+	.uaword	0x3284
 	.byte	0x90
 	.uleb128 0xf
 	.string	"OMCR"
 	.byte	0x7
 	.uahalf	0x314
-	.uaword	0x30ce
+	.uaword	0x311e
 	.byte	0x94
 	.uleb128 0xf
 	.string	"reserved_98"
@@ -6349,42 +6497,42 @@ calculateDistanceCm:
 	.string	"LPCR0"
 	.byte	0x7
 	.uahalf	0x316
-	.uaword	0x300c
+	.uaword	0x305c
 	.byte	0xa0
 	.uleb128 0xf
 	.string	"LPCR1"
 	.byte	0x7
 	.uahalf	0x317
-	.uaword	0x3056
+	.uaword	0x30a6
 	.byte	0xa4
 	.uleb128 0xf
 	.string	"LPCR2"
 	.byte	0x7
 	.uahalf	0x318
-	.uaword	0x3092
+	.uaword	0x30e2
 	.byte	0xa8
 	.uleb128 0xf
 	.string	"reserved_A4"
 	.byte	0x7
 	.uahalf	0x319
-	.uaword	0x3699
+	.uaword	0x36e9
 	.byte	0xac
 	.uleb128 0xf
 	.string	"ACCEN1"
 	.byte	0x7
 	.uahalf	0x31a
-	.uaword	0x2e32
+	.uaword	0x2e82
 	.byte	0xf8
 	.uleb128 0xf
 	.string	"ACCEN0"
 	.byte	0x7
 	.uahalf	0x31b
-	.uaword	0x2df5
+	.uaword	0x2e45
 	.byte	0xfc
 	.byte	0
 	.uleb128 0x11
 	.uaword	0x1ab
-	.uaword	0x36a9
+	.uaword	0x36f9
 	.uleb128 0x12
 	.uaword	0x13b3
 	.byte	0x4b
@@ -6393,27 +6541,27 @@ calculateDistanceCm:
 	.string	"Ifx_P"
 	.byte	0x7
 	.uahalf	0x31c
-	.uaword	0x36b7
+	.uaword	0x3707
 	.uleb128 0x13
-	.uaword	0x345f
+	.uaword	0x34af
 	.uleb128 0x4
 	.byte	0x4
-	.uaword	0x36a9
-	.uleb128 0x17
+	.uaword	0x36f9
+	.uleb128 0x14
 	.byte	0x1
 	.byte	0x2
 	.byte	0x51
-	.uaword	0x3742
-	.uleb128 0x18
+	.uaword	0x3792
+	.uleb128 0x15
 	.string	"IfxPort_InputMode_undefined"
 	.sleb128 -1
-	.uleb128 0x18
+	.uleb128 0x15
 	.string	"IfxPort_InputMode_noPullDevice"
 	.sleb128 0
-	.uleb128 0x18
+	.uleb128 0x15
 	.string	"IfxPort_InputMode_pullDown"
 	.sleb128 8
-	.uleb128 0x18
+	.uleb128 0x15
 	.string	"IfxPort_InputMode_pullUp"
 	.sleb128 16
 	.byte	0
@@ -6421,67 +6569,67 @@ calculateDistanceCm:
 	.string	"IfxPort_InputMode"
 	.byte	0x2
 	.byte	0x56
-	.uaword	0x36c2
-	.uleb128 0x17
+	.uaword	0x3712
+	.uleb128 0x14
 	.byte	0x1
 	.byte	0x2
 	.byte	0x5d
-	.uaword	0x39fb
-	.uleb128 0x18
+	.uaword	0x3a4b
+	.uleb128 0x15
 	.string	"IfxPort_Mode_inputNoPullDevice"
 	.sleb128 0
-	.uleb128 0x18
+	.uleb128 0x15
 	.string	"IfxPort_Mode_inputPullDown"
 	.sleb128 8
-	.uleb128 0x18
+	.uleb128 0x15
 	.string	"IfxPort_Mode_inputPullUp"
 	.sleb128 16
-	.uleb128 0x18
+	.uleb128 0x15
 	.string	"IfxPort_Mode_outputPushPullGeneral"
 	.sleb128 128
-	.uleb128 0x18
+	.uleb128 0x15
 	.string	"IfxPort_Mode_outputPushPullAlt1"
 	.sleb128 136
-	.uleb128 0x18
+	.uleb128 0x15
 	.string	"IfxPort_Mode_outputPushPullAlt2"
 	.sleb128 144
-	.uleb128 0x18
+	.uleb128 0x15
 	.string	"IfxPort_Mode_outputPushPullAlt3"
 	.sleb128 152
-	.uleb128 0x18
+	.uleb128 0x15
 	.string	"IfxPort_Mode_outputPushPullAlt4"
 	.sleb128 160
-	.uleb128 0x18
+	.uleb128 0x15
 	.string	"IfxPort_Mode_outputPushPullAlt5"
 	.sleb128 168
-	.uleb128 0x18
+	.uleb128 0x15
 	.string	"IfxPort_Mode_outputPushPullAlt6"
 	.sleb128 176
-	.uleb128 0x18
+	.uleb128 0x15
 	.string	"IfxPort_Mode_outputPushPullAlt7"
 	.sleb128 184
-	.uleb128 0x18
+	.uleb128 0x15
 	.string	"IfxPort_Mode_outputOpenDrainGeneral"
 	.sleb128 192
-	.uleb128 0x18
+	.uleb128 0x15
 	.string	"IfxPort_Mode_outputOpenDrainAlt1"
 	.sleb128 200
-	.uleb128 0x18
+	.uleb128 0x15
 	.string	"IfxPort_Mode_outputOpenDrainAlt2"
 	.sleb128 208
-	.uleb128 0x18
+	.uleb128 0x15
 	.string	"IfxPort_Mode_outputOpenDrainAlt3"
 	.sleb128 216
-	.uleb128 0x18
+	.uleb128 0x15
 	.string	"IfxPort_Mode_outputOpenDrainAlt4"
 	.sleb128 224
-	.uleb128 0x18
+	.uleb128 0x15
 	.string	"IfxPort_Mode_outputOpenDrainAlt5"
 	.sleb128 232
-	.uleb128 0x18
+	.uleb128 0x15
 	.string	"IfxPort_Mode_outputOpenDrainAlt6"
 	.sleb128 240
-	.uleb128 0x18
+	.uleb128 0x15
 	.string	"IfxPort_Mode_outputOpenDrainAlt7"
 	.sleb128 248
 	.byte	0
@@ -6489,34 +6637,34 @@ calculateDistanceCm:
 	.string	"IfxPort_Mode"
 	.byte	0x2
 	.byte	0x71
-	.uaword	0x375b
-	.uleb128 0x17
+	.uaword	0x37ab
+	.uleb128 0x14
 	.byte	0x1
 	.byte	0x2
 	.byte	0x76
-	.uaword	0x3aeb
-	.uleb128 0x18
+	.uaword	0x3b3b
+	.uleb128 0x15
 	.string	"IfxPort_OutputIdx_general"
 	.sleb128 128
-	.uleb128 0x18
+	.uleb128 0x15
 	.string	"IfxPort_OutputIdx_alt1"
 	.sleb128 136
-	.uleb128 0x18
+	.uleb128 0x15
 	.string	"IfxPort_OutputIdx_alt2"
 	.sleb128 144
-	.uleb128 0x18
+	.uleb128 0x15
 	.string	"IfxPort_OutputIdx_alt3"
 	.sleb128 152
-	.uleb128 0x18
+	.uleb128 0x15
 	.string	"IfxPort_OutputIdx_alt4"
 	.sleb128 160
-	.uleb128 0x18
+	.uleb128 0x15
 	.string	"IfxPort_OutputIdx_alt5"
 	.sleb128 168
-	.uleb128 0x18
+	.uleb128 0x15
 	.string	"IfxPort_OutputIdx_alt6"
 	.sleb128 176
-	.uleb128 0x18
+	.uleb128 0x15
 	.string	"IfxPort_OutputIdx_alt7"
 	.sleb128 184
 	.byte	0
@@ -6524,19 +6672,19 @@ calculateDistanceCm:
 	.string	"IfxPort_OutputIdx"
 	.byte	0x2
 	.byte	0x7f
-	.uaword	0x3a0f
-	.uleb128 0x17
+	.uaword	0x3a5f
+	.uleb128 0x14
 	.byte	0x1
 	.byte	0x2
 	.byte	0x84
-	.uaword	0x3b66
-	.uleb128 0x18
+	.uaword	0x3bb6
+	.uleb128 0x15
 	.string	"IfxPort_OutputMode_pushPull"
 	.sleb128 128
-	.uleb128 0x18
+	.uleb128 0x15
 	.string	"IfxPort_OutputMode_openDrain"
 	.sleb128 192
-	.uleb128 0x18
+	.uleb128 0x15
 	.string	"IfxPort_OutputMode_none"
 	.sleb128 0
 	.byte	0
@@ -6544,22 +6692,22 @@ calculateDistanceCm:
 	.string	"IfxPort_OutputMode"
 	.byte	0x2
 	.byte	0x88
-	.uaword	0x3b04
-	.uleb128 0x17
+	.uaword	0x3b54
+	.uleb128 0x14
 	.byte	0x4
 	.byte	0x2
 	.byte	0xab
-	.uaword	0x3be9
-	.uleb128 0x18
+	.uaword	0x3c39
+	.uleb128 0x15
 	.string	"IfxPort_State_notChanged"
 	.sleb128 0
-	.uleb128 0x18
+	.uleb128 0x15
 	.string	"IfxPort_State_high"
 	.sleb128 1
-	.uleb128 0x18
+	.uleb128 0x15
 	.string	"IfxPort_State_low"
 	.sleb128 65536
-	.uleb128 0x18
+	.uleb128 0x15
 	.string	"IfxPort_State_toggled"
 	.sleb128 65537
 	.byte	0
@@ -6567,22 +6715,53 @@ calculateDistanceCm:
 	.string	"IfxPort_State"
 	.byte	0x2
 	.byte	0xb0
-	.uaword	0x3b80
+	.uaword	0x3bd0
 	.uleb128 0x4
 	.byte	0x4
 	.uaword	0x13ef
+	.uleb128 0x8
+	.string	"Ultrasonic"
+	.byte	0xa
+	.byte	0x9
+	.byte	0x22
+	.uaword	0x3cae
+	.uleb128 0x7
+	.string	"TRIG_PORT"
+	.byte	0x9
+	.byte	0x24
+	.uaword	0x370c
+	.byte	0
+	.uleb128 0x7
+	.string	"TRIG_PIN"
+	.byte	0x9
+	.byte	0x25
+	.uaword	0x1bc
+	.byte	0x4
+	.uleb128 0x7
+	.string	"ECHO_PORT"
+	.byte	0x9
+	.byte	0x26
+	.uaword	0x370c
+	.byte	0x5
+	.uleb128 0x7
+	.string	"ECHO_PIN"
+	.byte	0x9
+	.byte	0x27
+	.uaword	0x1bc
+	.byte	0x9
+	.byte	0
 	.uleb128 0x19
 	.string	"IfxPort_setPinState"
 	.byte	0x2
 	.uahalf	0x24e
 	.byte	0x1
 	.byte	0x3
-	.uaword	0x3c4a
+	.uaword	0x3cf4
 	.uleb128 0x1a
 	.uaword	.LASF14
 	.byte	0x2
 	.uahalf	0x24e
-	.uaword	0x36bc
+	.uaword	0x370c
 	.uleb128 0x1a
 	.uaword	.LASF15
 	.byte	0x2
@@ -6592,7 +6771,7 @@ calculateDistanceCm:
 	.string	"action"
 	.byte	0x2
 	.uahalf	0x24e
-	.uaword	0x3be9
+	.uaword	0x3c39
 	.byte	0
 	.uleb128 0x19
 	.string	"IfxPort_setPinModeOutput"
@@ -6600,12 +6779,12 @@ calculateDistanceCm:
 	.uahalf	0x248
 	.byte	0x1
 	.byte	0x3
-	.uaword	0x3ca1
+	.uaword	0x3d4b
 	.uleb128 0x1a
 	.uaword	.LASF14
 	.byte	0x2
 	.uahalf	0x248
-	.uaword	0x36bc
+	.uaword	0x370c
 	.uleb128 0x1a
 	.uaword	.LASF15
 	.byte	0x2
@@ -6615,12 +6794,12 @@ calculateDistanceCm:
 	.string	"mode"
 	.byte	0x2
 	.uahalf	0x248
-	.uaword	0x3b66
+	.uaword	0x3bb6
 	.uleb128 0x1b
 	.string	"index"
 	.byte	0x2
 	.uahalf	0x248
-	.uaword	0x3aeb
+	.uaword	0x3b3b
 	.byte	0
 	.uleb128 0x19
 	.string	"IfxPort_setPinModeInput"
@@ -6628,12 +6807,12 @@ calculateDistanceCm:
 	.uahalf	0x242
 	.byte	0x1
 	.byte	0x3
-	.uaword	0x3ce9
+	.uaword	0x3d93
 	.uleb128 0x1a
 	.uaword	.LASF14
 	.byte	0x2
 	.uahalf	0x242
-	.uaword	0x36bc
+	.uaword	0x370c
 	.uleb128 0x1a
 	.uaword	.LASF15
 	.byte	0x2
@@ -6643,7 +6822,7 @@ calculateDistanceCm:
 	.string	"mode"
 	.byte	0x2
 	.uahalf	0x242
-	.uaword	0x3742
+	.uaword	0x3792
 	.byte	0
 	.uleb128 0x19
 	.string	"IfxPort_setPinHigh"
@@ -6651,12 +6830,12 @@ calculateDistanceCm:
 	.uahalf	0x236
 	.byte	0x1
 	.byte	0x3
-	.uaword	0x3d1f
+	.uaword	0x3dc9
 	.uleb128 0x1a
 	.uaword	.LASF14
 	.byte	0x2
 	.uahalf	0x236
-	.uaword	0x36bc
+	.uaword	0x370c
 	.uleb128 0x1a
 	.uaword	.LASF15
 	.byte	0x2
@@ -6669,12 +6848,12 @@ calculateDistanceCm:
 	.uahalf	0x23c
 	.byte	0x1
 	.byte	0x3
-	.uaword	0x3d54
+	.uaword	0x3dfe
 	.uleb128 0x1a
 	.uaword	.LASF14
 	.byte	0x2
 	.uahalf	0x23c
-	.uaword	0x36bc
+	.uaword	0x370c
 	.uleb128 0x1a
 	.uaword	.LASF15
 	.byte	0x2
@@ -6688,12 +6867,12 @@ calculateDistanceCm:
 	.byte	0x1
 	.uaword	0x1df
 	.byte	0x3
-	.uaword	0x3d89
+	.uaword	0x3e33
 	.uleb128 0x1b
 	.string	"stm"
 	.byte	0x3
 	.uahalf	0x240
-	.uaword	0x3bfe
+	.uaword	0x3c4e
 	.uleb128 0x1d
 	.string	"result"
 	.byte	0x3
@@ -6707,12 +6886,12 @@ calculateDistanceCm:
 	.byte	0x1
 	.uaword	0x19c
 	.byte	0x3
-	.uaword	0x3dc4
+	.uaword	0x3e6e
 	.uleb128 0x1a
 	.uaword	.LASF14
 	.byte	0x2
 	.uahalf	0x22a
-	.uaword	0x36bc
+	.uaword	0x370c
 	.uleb128 0x1a
 	.uaword	.LASF15
 	.byte	0x2
@@ -6723,193 +6902,189 @@ calculateDistanceCm:
 	.byte	0x1
 	.string	"calculateDistanceCm"
 	.byte	0x1
-	.byte	0x28
+	.byte	0x36
 	.byte	0x1
 	.uaword	0x195
 	.byte	0x1
-	.uaword	0x3e14
+	.uaword	0x3ebe
 	.uleb128 0x1f
 	.string	"elapsedTicks"
 	.byte	0x1
-	.byte	0x28
+	.byte	0x36
 	.uaword	0x174
 	.uleb128 0x20
 	.string	"timeUs"
 	.byte	0x1
-	.byte	0x2a
+	.byte	0x38
 	.uaword	0x174
 	.uleb128 0x21
 	.uaword	.LASF16
 	.byte	0x1
-	.byte	0x2b
+	.byte	0x39
 	.uaword	0x174
 	.byte	0
 	.uleb128 0x22
 	.byte	0x1
 	.string	"initUltrasonic"
 	.byte	0x1
-	.byte	0x4
+	.byte	0x11
 	.byte	0x1
 	.uaword	.LFB574
 	.uaword	.LFE574
 	.byte	0x1
 	.byte	0x9c
 	.byte	0x1
-	.uaword	0x3ece
+	.uaword	0x3f6d
 	.uleb128 0x23
-	.uaword	0x3c4a
-	.uaword	.LBB30
-	.uaword	.LBE30
+	.uaword	.LASF17
 	.byte	0x1
-	.byte	0x6
-	.uaword	0x3e88
+	.byte	0x11
+	.uaword	0x3f6d
+	.uaword	.LLST0
 	.uleb128 0x24
-	.uaword	0x3c92
-	.sleb128 -128
-	.uleb128 0x24
-	.uaword	0x3c85
+	.uaword	0x3cf4
+	.uaword	.LBB32
+	.uaword	.Ldebug_ranges0+0
+	.byte	0x1
+	.byte	0x13
+	.uaword	0x3f34
+	.uleb128 0x25
+	.uaword	0x3d3c
 	.sleb128 -128
 	.uleb128 0x25
-	.uaword	0x3c79
-	.byte	0x1
-	.uleb128 0x24
-	.uaword	0x3c6d
-	.sleb128 -268193792
+	.uaword	0x3d2f
+	.sleb128 -128
 	.uleb128 0x26
-	.uaword	.LVL1
-	.uaword	0x41ab
+	.uaword	0x3d23
+	.uaword	.LLST1
+	.uleb128 0x26
+	.uaword	0x3d17
+	.uaword	.LLST2
 	.uleb128 0x27
+	.uaword	.LVL2
+	.uaword	0x4301
+	.uleb128 0x28
 	.byte	0x1
 	.byte	0x55
 	.byte	0x2
 	.byte	0x9
 	.byte	0x80
-	.uleb128 0x27
-	.byte	0x1
-	.byte	0x54
-	.byte	0x1
-	.byte	0x31
-	.uleb128 0x27
-	.byte	0x1
-	.byte	0x64
-	.byte	0x6
-	.byte	0x11
-	.sleb128 -268193792
 	.byte	0
 	.byte	0
-	.uleb128 0x28
-	.uaword	0x3ca1
-	.uaword	.LBB32
-	.uaword	.LBE32
-	.byte	0x1
-	.byte	0x7
-	.uleb128 0x25
-	.uaword	0x3cdb
-	.byte	0x8
-	.uleb128 0x25
-	.uaword	0x3ccf
-	.byte	0x2
-	.uleb128 0x24
-	.uaword	0x3cc3
-	.sleb128 -268193792
 	.uleb128 0x29
-	.uaword	.LVL2
+	.uaword	0x3d4b
+	.uaword	.LBB36
+	.uaword	.Ldebug_ranges0+0x18
 	.byte	0x1
-	.uaword	0x41ab
-	.uleb128 0x27
+	.byte	0x14
+	.uleb128 0x2a
+	.uaword	0x3d85
+	.byte	0x8
+	.uleb128 0x26
+	.uaword	0x3d79
+	.uaword	.LLST3
+	.uleb128 0x26
+	.uaword	0x3d6d
+	.uaword	.LLST4
+	.uleb128 0x2b
+	.uaword	.LVL3
+	.byte	0x1
+	.uaword	0x4301
+	.uleb128 0x28
 	.byte	0x1
 	.byte	0x55
 	.byte	0x1
 	.byte	0x38
-	.uleb128 0x27
-	.byte	0x1
-	.byte	0x54
-	.byte	0x1
-	.byte	0x32
-	.uleb128 0x27
-	.byte	0x1
-	.byte	0x64
-	.byte	0x6
-	.byte	0x11
-	.sleb128 -268193792
 	.byte	0
 	.byte	0
 	.byte	0
-	.uleb128 0x2a
+	.uleb128 0x4
+	.byte	0x4
+	.uaword	0x3c54
+	.uleb128 0x22
 	.byte	0x1
 	.string	"sendTrigger"
 	.byte	0x1
-	.byte	0x12
+	.byte	0x1f
+	.byte	0x1
 	.uaword	.LFB576
 	.uaword	.LFE576
 	.byte	0x1
 	.byte	0x9c
 	.byte	0x1
-	.uaword	0x3f96
+	.uaword	0x404f
 	.uleb128 0x23
-	.uaword	0x3ce9
-	.uaword	.LBB34
-	.uaword	.LBE34
+	.uaword	.LASF17
 	.byte	0x1
-	.byte	0x14
-	.uaword	0x3f38
-	.uleb128 0x25
-	.uaword	0x3d12
-	.byte	0x1
+	.byte	0x1f
+	.uaword	0x3f6d
+	.uaword	.LLST5
 	.uleb128 0x24
-	.uaword	0x3d06
-	.sleb128 -268193792
-	.uleb128 0x2b
-	.uaword	0x3c04
-	.uaword	.LBB35
-	.uaword	.LBE35
+	.uaword	0x3d93
+	.uaword	.LBB42
+	.uaword	.Ldebug_ranges0+0x38
+	.byte	0x1
+	.byte	0x21
+	.uaword	0x3ff1
+	.uleb128 0x26
+	.uaword	0x3dbc
+	.uaword	.LLST6
+	.uleb128 0x26
+	.uaword	0x3db0
+	.uaword	.LLST7
+	.uleb128 0x2c
+	.uaword	0x3cae
+	.uaword	.LBB43
+	.uaword	.Ldebug_ranges0+0x38
 	.byte	0x2
 	.uahalf	0x238
-	.uleb128 0x25
-	.uaword	0x3c3a
+	.uleb128 0x2a
+	.uaword	0x3ce4
 	.byte	0x1
-	.uleb128 0x25
-	.uaword	0x3c2e
-	.byte	0x1
-	.uleb128 0x24
-	.uaword	0x3c22
-	.sleb128 -268193792
+	.uleb128 0x26
+	.uaword	0x3cd8
+	.uaword	.LLST6
+	.uleb128 0x26
+	.uaword	0x3ccc
+	.uaword	.LLST7
 	.byte	0
 	.byte	0
-	.uleb128 0x2c
-	.uaword	0x3d1f
-	.uaword	.LBB37
-	.uaword	.Ldebug_ranges0+0
-	.byte	0x1
-	.byte	0x16
-	.uaword	0x3f86
-	.uleb128 0x25
-	.uaword	0x3d47
-	.byte	0x1
 	.uleb128 0x24
-	.uaword	0x3d3b
-	.sleb128 -268193792
+	.uaword	0x3dc9
+	.uaword	.LBB48
+	.uaword	.Ldebug_ranges0+0x50
+	.byte	0x1
+	.byte	0x23
+	.uaword	0x403f
+	.uleb128 0x26
+	.uaword	0x3df1
+	.uaword	.LLST10
 	.uleb128 0x2d
-	.uaword	0x3c04
-	.uaword	.LBB38
-	.uaword	.Ldebug_ranges0+0
+	.uaword	0x3de5
+	.byte	0x1
+	.byte	0x52
+	.uleb128 0x2c
+	.uaword	0x3cae
+	.uaword	.LBB49
+	.uaword	.Ldebug_ranges0+0x50
 	.byte	0x2
 	.uahalf	0x23e
 	.uleb128 0x2e
-	.uaword	0x3c3a
+	.uaword	0x3ce4
 	.uaword	0x10000
-	.uleb128 0x25
-	.uaword	0x3c2e
-	.byte	0x1
-	.uleb128 0x24
-	.uaword	0x3c22
-	.sleb128 -268193792
-	.byte	0
-	.byte	0
 	.uleb128 0x26
-	.uaword	.LVL4
-	.uaword	0x41d9
+	.uaword	0x3cd8
+	.uaword	.LLST10
+	.uleb128 0x2d
+	.uaword	0x3ccc
+	.byte	0x1
+	.byte	0x52
+	.byte	0
+	.byte	0
 	.uleb128 0x27
+	.uaword	.LVL7
+	.uaword	0x432f
+	.uleb128 0x28
 	.byte	0x1
 	.byte	0x54
 	.byte	0x1
@@ -6920,104 +7095,133 @@ calculateDistanceCm:
 	.byte	0x1
 	.string	"measureEchoTick"
 	.byte	0x1
-	.byte	0x19
+	.byte	0x26
+	.byte	0x1
 	.uaword	0x174
 	.uaword	.LFB577
 	.uaword	.LFE577
 	.byte	0x1
 	.byte	0x9c
 	.byte	0x1
-	.uaword	0x40bc
+	.uaword	0x41b0
 	.uleb128 0x30
+	.uaword	.LASF17
+	.byte	0x1
+	.byte	0x26
+	.uaword	0x3f6d
+	.byte	0x1
+	.byte	0x64
+	.uleb128 0x31
 	.string	"startTick"
 	.byte	0x1
-	.byte	0x1b
+	.byte	0x28
 	.uaword	0x1df
-	.uaword	.LLST0
-	.uleb128 0x30
+	.uaword	.LLST12
+	.uleb128 0x31
 	.string	"elapsedTick"
 	.byte	0x1
-	.byte	0x1b
+	.byte	0x28
 	.uaword	0x1df
-	.uaword	.LLST1
-	.uleb128 0x2c
-	.uaword	0x3d89
-	.uaword	.LBB43
-	.uaword	.Ldebug_ranges0+0x18
-	.byte	0x1
-	.byte	0x1c
-	.uaword	0x400d
-	.uleb128 0x25
-	.uaword	0x3db7
-	.byte	0x2
+	.uaword	.LLST13
 	.uleb128 0x24
-	.uaword	0x3dab
-	.sleb128 -268193792
-	.byte	0
-	.uleb128 0x23
-	.uaword	0x3d54
-	.uaword	.LBB49
-	.uaword	.LBE49
-	.byte	0x1
-	.byte	0x1d
-	.uaword	0x403d
-	.uleb128 0x31
-	.uaword	0x3d6d
-	.uaword	.LLST2
-	.uleb128 0x32
-	.uaword	.LBB50
-	.uaword	.LBE50
-	.uleb128 0x33
-	.uaword	0x3d79
-	.uaword	.LLST3
-	.byte	0
-	.byte	0
-	.uleb128 0x2c
-	.uaword	0x3d54
-	.uaword	.LBB51
-	.uaword	.Ldebug_ranges0+0x38
-	.byte	0x1
-	.byte	0x20
-	.uaword	0x4069
-	.uleb128 0x31
-	.uaword	0x3d6d
-	.uaword	.LLST4
-	.uleb128 0x34
-	.uaword	.Ldebug_ranges0+0x38
-	.uleb128 0x33
-	.uaword	0x3d79
-	.uaword	.LLST5
-	.byte	0
-	.byte	0
-	.uleb128 0x2c
-	.uaword	0x3d89
+	.uaword	0x3dfe
 	.uaword	.LBB54
-	.uaword	.Ldebug_ranges0+0x50
+	.uaword	.Ldebug_ranges0+0x68
 	.byte	0x1
-	.byte	0x21
-	.uaword	0x408f
-	.uleb128 0x31
-	.uaword	0x3db7
-	.uaword	.LLST6
-	.uleb128 0x31
-	.uaword	0x3dab
-	.uaword	.LLST7
-	.byte	0
-	.uleb128 0x28
-	.uaword	0x3d54
-	.uaword	.LBB61
-	.uaword	.LBE61
-	.byte	0x1
-	.byte	0x22
-	.uleb128 0x31
-	.uaword	0x3d6d
-	.uaword	.LLST8
+	.byte	0x29
+	.uaword	0x40dd
+	.uleb128 0x25
+	.uaword	0x3e17
+	.sleb128 -268435456
 	.uleb128 0x32
+	.uaword	.Ldebug_ranges0+0x68
+	.uleb128 0x33
+	.uaword	0x3e23
+	.uaword	.LLST14
+	.byte	0
+	.byte	0
+	.uleb128 0x24
+	.uaword	0x3e33
+	.uaword	.LBB58
+	.uaword	.Ldebug_ranges0+0x80
+	.byte	0x1
+	.byte	0x2a
+	.uaword	0x4101
+	.uleb128 0x2d
+	.uaword	0x3e61
+	.byte	0x2
+	.byte	0x84
+	.sleb128 9
+	.uleb128 0x2d
+	.uaword	0x3e55
+	.byte	0x2
+	.byte	0x84
+	.sleb128 5
+	.byte	0
+	.uleb128 0x34
+	.uaword	0x3dfe
 	.uaword	.LBB62
 	.uaword	.LBE62
+	.byte	0x1
+	.byte	0x2b
+	.uaword	0x4131
+	.uleb128 0x26
+	.uaword	0x3e17
+	.uaword	.LLST15
+	.uleb128 0x35
+	.uaword	.LBB63
+	.uaword	.LBE63
 	.uleb128 0x33
-	.uaword	0x3d79
-	.uaword	.LLST9
+	.uaword	0x3e23
+	.uaword	.LLST16
+	.byte	0
+	.byte	0
+	.uleb128 0x24
+	.uaword	0x3dfe
+	.uaword	.LBB64
+	.uaword	.Ldebug_ranges0+0x98
+	.byte	0x1
+	.byte	0x2e
+	.uaword	0x415d
+	.uleb128 0x26
+	.uaword	0x3e17
+	.uaword	.LLST17
+	.uleb128 0x32
+	.uaword	.Ldebug_ranges0+0x98
+	.uleb128 0x33
+	.uaword	0x3e23
+	.uaword	.LLST18
+	.byte	0
+	.byte	0
+	.uleb128 0x34
+	.uaword	0x3e33
+	.uaword	.LBB68
+	.uaword	.LBE68
+	.byte	0x1
+	.byte	0x2f
+	.uaword	0x4183
+	.uleb128 0x26
+	.uaword	0x3e61
+	.uaword	.LLST19
+	.uleb128 0x26
+	.uaword	0x3e55
+	.uaword	.LLST20
+	.byte	0
+	.uleb128 0x36
+	.uaword	0x3dfe
+	.uaword	.LBB70
+	.uaword	.LBE70
+	.byte	0x1
+	.byte	0x30
+	.uleb128 0x26
+	.uaword	0x3e17
+	.uaword	.LLST21
+	.uleb128 0x35
+	.uaword	.LBB71
+	.uaword	.LBE71
+	.uleb128 0x33
+	.uaword	0x3e23
+	.uaword	.LLST22
 	.byte	0
 	.byte	0
 	.byte	0
@@ -7025,109 +7229,149 @@ calculateDistanceCm:
 	.byte	0x1
 	.string	"getUltrasonic"
 	.byte	0x1
-	.byte	0xa
+	.byte	0x17
+	.byte	0x1
 	.uaword	0x195
 	.uaword	.LFB575
 	.uaword	.LFE575
 	.byte	0x1
 	.byte	0x9c
 	.byte	0x1
-	.uaword	0x4149
-	.uleb128 0x30
+	.uaword	0x425f
+	.uleb128 0x23
+	.uaword	.LASF17
+	.byte	0x1
+	.byte	0x17
+	.uaword	0x3f6d
+	.uaword	.LLST23
+	.uleb128 0x31
 	.string	"echoTicks"
 	.byte	0x1
-	.byte	0xc
+	.byte	0x19
 	.uaword	0x174
-	.uaword	.LLST10
+	.uaword	.LLST24
 	.uleb128 0x21
 	.uaword	.LASF16
 	.byte	0x1
-	.byte	0xe
+	.byte	0x1b
 	.uaword	0x195
-	.uleb128 0x23
-	.uaword	0x3dc4
-	.uaword	.LBB63
-	.uaword	.LBE63
+	.uleb128 0x34
+	.uaword	0x3e6e
+	.uaword	.LBB72
+	.uaword	.LBE72
 	.byte	0x1
-	.byte	0xe
-	.uaword	0x4136
-	.uleb128 0x31
-	.uaword	0x3de6
-	.uaword	.LLST11
-	.uleb128 0x32
-	.uaword	.LBB64
-	.uaword	.LBE64
-	.uleb128 0x33
-	.uaword	0x3dfa
-	.uaword	.LLST12
+	.byte	0x1b
+	.uaword	0x423a
+	.uleb128 0x26
+	.uaword	0x3e90
+	.uaword	.LLST25
 	.uleb128 0x35
-	.uaword	0x3e08
-	.byte	0
-	.byte	0
-	.uleb128 0x36
-	.uaword	.LVL24
-	.uaword	0x3ece
-	.uleb128 0x36
-	.uaword	.LVL25
-	.uaword	0x3f96
-	.byte	0
+	.uaword	.LBB73
+	.uaword	.LBE73
+	.uleb128 0x33
+	.uaword	0x3ea4
+	.uaword	.LLST26
 	.uleb128 0x37
-	.uaword	0x3dc4
+	.uaword	0x3eb2
+	.byte	0
+	.byte	0
+	.uleb128 0x38
+	.uaword	.LVL34
+	.uaword	0x3f73
+	.uaword	0x424e
+	.uleb128 0x28
+	.byte	0x1
+	.byte	0x64
+	.byte	0x2
+	.byte	0x8f
+	.sleb128 0
+	.byte	0
+	.uleb128 0x27
+	.uaword	.LVL35
+	.uaword	0x404f
+	.uleb128 0x28
+	.byte	0x1
+	.byte	0x64
+	.byte	0x2
+	.byte	0x8f
+	.sleb128 0
+	.byte	0
+	.byte	0
+	.uleb128 0x39
+	.uaword	0x3e6e
 	.uaword	.LFB578
 	.uaword	.LFE578
 	.byte	0x1
 	.byte	0x9c
 	.byte	0x1
-	.uaword	0x4179
-	.uleb128 0x31
-	.uaword	0x3de6
-	.uaword	.LLST13
+	.uaword	0x428f
+	.uleb128 0x26
+	.uaword	0x3e90
+	.uaword	.LLST27
 	.uleb128 0x33
-	.uaword	0x3dfa
-	.uaword	.LLST14
+	.uaword	0x3ea4
+	.uaword	.LLST28
 	.uleb128 0x33
-	.uaword	0x3e08
-	.uaword	.LLST15
+	.uaword	0x3eb2
+	.uaword	.LLST29
 	.byte	0
 	.uleb128 0x11
 	.uaword	0x270
-	.uaword	0x4189
+	.uaword	0x429f
 	.uleb128 0x12
 	.uaword	0x13b3
 	.byte	0x2
 	.byte	0
-	.uleb128 0x38
+	.uleb128 0x3a
 	.string	"IfxCpu_cfg_indexMap"
 	.byte	0x8
 	.byte	0xa7
-	.uaword	0x41a6
+	.uaword	0x42bc
 	.byte	0x1
 	.byte	0x1
-	.uleb128 0x39
-	.uaword	0x4179
-	.uleb128 0x3a
+	.uleb128 0x3b
+	.uaword	0x428f
+	.uleb128 0x3c
+	.string	"g_UpperUltrasonic"
+	.byte	0x1
+	.byte	0x4
+	.uaword	0x3c54
+	.byte	0x1
+	.byte	0x5
+	.byte	0x3
+	.uaword	g_UpperUltrasonic
+	.uleb128 0x3c
+	.string	"g_FrontUltrasonic"
+	.byte	0x1
+	.byte	0xa
+	.uaword	0x3c54
+	.byte	0x1
+	.byte	0x5
+	.byte	0x3
+	.uaword	g_FrontUltrasonic
+	.uleb128 0x3d
 	.byte	0x1
 	.string	"IfxPort_setPinMode"
 	.byte	0x2
 	.uahalf	0x175
 	.byte	0x1
 	.byte	0x1
-	.uaword	0x41d9
-	.uleb128 0x3b
-	.uaword	0x36bc
-	.uleb128 0x3b
+	.uaword	0x432f
+	.uleb128 0x3e
+	.uaword	0x370c
+	.uleb128 0x3e
 	.uaword	0x1bc
-	.uleb128 0x3b
-	.uaword	0x39fb
+	.uleb128 0x3e
+	.uaword	0x3a4b
 	.byte	0
-	.uleb128 0x3c
+	.uleb128 0x3f
 	.byte	0x1
 	.string	"delay_us"
-	.byte	0x9
+	.byte	0xa
 	.byte	0xc
 	.byte	0x1
 	.byte	0x1
-	.uleb128 0x3b
+	.uleb128 0x3e
 	.uaword	0x180
 	.byte	0
 	.byte	0
@@ -7383,6 +7627,28 @@ calculateDistanceCm:
 	.byte	0
 	.byte	0
 	.uleb128 0x14
+	.uleb128 0x4
+	.byte	0x1
+	.uleb128 0xb
+	.uleb128 0xb
+	.uleb128 0x3a
+	.uleb128 0xb
+	.uleb128 0x3b
+	.uleb128 0xb
+	.uleb128 0x1
+	.uleb128 0x13
+	.byte	0
+	.byte	0
+	.uleb128 0x15
+	.uleb128 0x28
+	.byte	0
+	.uleb128 0x3
+	.uleb128 0x8
+	.uleb128 0x1c
+	.uleb128 0xd
+	.byte	0
+	.byte	0
+	.uleb128 0x16
 	.uleb128 0xd
 	.byte	0
 	.uleb128 0x3
@@ -7403,7 +7669,7 @@ calculateDistanceCm:
 	.uleb128 0xb
 	.byte	0
 	.byte	0
-	.uleb128 0x15
+	.uleb128 0x17
 	.uleb128 0xd
 	.byte	0
 	.uleb128 0x3
@@ -7424,7 +7690,7 @@ calculateDistanceCm:
 	.uleb128 0xb
 	.byte	0
 	.byte	0
-	.uleb128 0x16
+	.uleb128 0x18
 	.uleb128 0x13
 	.byte	0x1
 	.uleb128 0x3
@@ -7437,28 +7703,6 @@ calculateDistanceCm:
 	.uleb128 0x5
 	.uleb128 0x1
 	.uleb128 0x13
-	.byte	0
-	.byte	0
-	.uleb128 0x17
-	.uleb128 0x4
-	.byte	0x1
-	.uleb128 0xb
-	.uleb128 0xb
-	.uleb128 0x3a
-	.uleb128 0xb
-	.uleb128 0x3b
-	.uleb128 0xb
-	.uleb128 0x1
-	.uleb128 0x13
-	.byte	0
-	.byte	0
-	.uleb128 0x18
-	.uleb128 0x28
-	.byte	0
-	.uleb128 0x3
-	.uleb128 0x8
-	.uleb128 0x1c
-	.uleb128 0xd
 	.byte	0
 	.byte	0
 	.uleb128 0x19
@@ -7622,29 +7866,35 @@ calculateDistanceCm:
 	.byte	0
 	.byte	0
 	.uleb128 0x23
+	.uleb128 0x5
+	.byte	0
+	.uleb128 0x3
+	.uleb128 0xe
+	.uleb128 0x3a
+	.uleb128 0xb
+	.uleb128 0x3b
+	.uleb128 0xb
+	.uleb128 0x49
+	.uleb128 0x13
+	.uleb128 0x2
+	.uleb128 0x6
+	.byte	0
+	.byte	0
+	.uleb128 0x24
 	.uleb128 0x1d
 	.byte	0x1
 	.uleb128 0x31
 	.uleb128 0x13
-	.uleb128 0x11
+	.uleb128 0x52
 	.uleb128 0x1
-	.uleb128 0x12
-	.uleb128 0x1
+	.uleb128 0x55
+	.uleb128 0x6
 	.uleb128 0x58
 	.uleb128 0xb
 	.uleb128 0x59
 	.uleb128 0xb
 	.uleb128 0x1
 	.uleb128 0x13
-	.byte	0
-	.byte	0
-	.uleb128 0x24
-	.uleb128 0x5
-	.byte	0
-	.uleb128 0x31
-	.uleb128 0x13
-	.uleb128 0x1c
-	.uleb128 0xd
 	.byte	0
 	.byte	0
 	.uleb128 0x25
@@ -7653,10 +7903,19 @@ calculateDistanceCm:
 	.uleb128 0x31
 	.uleb128 0x13
 	.uleb128 0x1c
-	.uleb128 0xb
+	.uleb128 0xd
 	.byte	0
 	.byte	0
 	.uleb128 0x26
+	.uleb128 0x5
+	.byte	0
+	.uleb128 0x31
+	.uleb128 0x13
+	.uleb128 0x2
+	.uleb128 0x6
+	.byte	0
+	.byte	0
+	.uleb128 0x27
 	.uleb128 0x4109
 	.byte	0x1
 	.uleb128 0x11
@@ -7665,7 +7924,7 @@ calculateDistanceCm:
 	.uleb128 0x13
 	.byte	0
 	.byte	0
-	.uleb128 0x27
+	.uleb128 0x28
 	.uleb128 0x410a
 	.byte	0
 	.uleb128 0x2
@@ -7674,22 +7933,31 @@ calculateDistanceCm:
 	.uleb128 0xa
 	.byte	0
 	.byte	0
-	.uleb128 0x28
+	.uleb128 0x29
 	.uleb128 0x1d
 	.byte	0x1
 	.uleb128 0x31
 	.uleb128 0x13
-	.uleb128 0x11
+	.uleb128 0x52
 	.uleb128 0x1
-	.uleb128 0x12
-	.uleb128 0x1
+	.uleb128 0x55
+	.uleb128 0x6
 	.uleb128 0x58
 	.uleb128 0xb
 	.uleb128 0x59
 	.uleb128 0xb
 	.byte	0
 	.byte	0
-	.uleb128 0x29
+	.uleb128 0x2a
+	.uleb128 0x5
+	.byte	0
+	.uleb128 0x31
+	.uleb128 0x13
+	.uleb128 0x1c
+	.uleb128 0xb
+	.byte	0
+	.byte	0
+	.uleb128 0x2b
 	.uleb128 0x4109
 	.byte	0x1
 	.uleb128 0x11
@@ -7698,44 +7966,6 @@ calculateDistanceCm:
 	.uleb128 0xc
 	.uleb128 0x31
 	.uleb128 0x13
-	.byte	0
-	.byte	0
-	.uleb128 0x2a
-	.uleb128 0x2e
-	.byte	0x1
-	.uleb128 0x3f
-	.uleb128 0xc
-	.uleb128 0x3
-	.uleb128 0x8
-	.uleb128 0x3a
-	.uleb128 0xb
-	.uleb128 0x3b
-	.uleb128 0xb
-	.uleb128 0x11
-	.uleb128 0x1
-	.uleb128 0x12
-	.uleb128 0x1
-	.uleb128 0x40
-	.uleb128 0xa
-	.uleb128 0x2117
-	.uleb128 0xc
-	.uleb128 0x1
-	.uleb128 0x13
-	.byte	0
-	.byte	0
-	.uleb128 0x2b
-	.uleb128 0x1d
-	.byte	0x1
-	.uleb128 0x31
-	.uleb128 0x13
-	.uleb128 0x11
-	.uleb128 0x1
-	.uleb128 0x12
-	.uleb128 0x1
-	.uleb128 0x58
-	.uleb128 0xb
-	.uleb128 0x59
-	.uleb128 0x5
 	.byte	0
 	.byte	0
 	.uleb128 0x2c
@@ -7750,24 +7980,16 @@ calculateDistanceCm:
 	.uleb128 0x58
 	.uleb128 0xb
 	.uleb128 0x59
-	.uleb128 0xb
-	.uleb128 0x1
-	.uleb128 0x13
+	.uleb128 0x5
 	.byte	0
 	.byte	0
 	.uleb128 0x2d
-	.uleb128 0x1d
-	.byte	0x1
+	.uleb128 0x5
+	.byte	0
 	.uleb128 0x31
 	.uleb128 0x13
-	.uleb128 0x52
-	.uleb128 0x1
-	.uleb128 0x55
-	.uleb128 0x6
-	.uleb128 0x58
-	.uleb128 0xb
-	.uleb128 0x59
-	.uleb128 0x5
+	.uleb128 0x2
+	.uleb128 0xa
 	.byte	0
 	.byte	0
 	.uleb128 0x2e
@@ -7790,6 +8012,8 @@ calculateDistanceCm:
 	.uleb128 0xb
 	.uleb128 0x3b
 	.uleb128 0xb
+	.uleb128 0x27
+	.uleb128 0xc
 	.uleb128 0x49
 	.uleb128 0x13
 	.uleb128 0x11
@@ -7805,6 +8029,21 @@ calculateDistanceCm:
 	.byte	0
 	.byte	0
 	.uleb128 0x30
+	.uleb128 0x5
+	.byte	0
+	.uleb128 0x3
+	.uleb128 0xe
+	.uleb128 0x3a
+	.uleb128 0xb
+	.uleb128 0x3b
+	.uleb128 0xb
+	.uleb128 0x49
+	.uleb128 0x13
+	.uleb128 0x2
+	.uleb128 0xa
+	.byte	0
+	.byte	0
+	.uleb128 0x31
 	.uleb128 0x34
 	.byte	0
 	.uleb128 0x3
@@ -7819,22 +8058,11 @@ calculateDistanceCm:
 	.uleb128 0x6
 	.byte	0
 	.byte	0
-	.uleb128 0x31
-	.uleb128 0x5
-	.byte	0
-	.uleb128 0x31
-	.uleb128 0x13
-	.uleb128 0x2
-	.uleb128 0x6
-	.byte	0
-	.byte	0
 	.uleb128 0x32
 	.uleb128 0xb
 	.byte	0x1
-	.uleb128 0x11
-	.uleb128 0x1
-	.uleb128 0x12
-	.uleb128 0x1
+	.uleb128 0x55
+	.uleb128 0x6
 	.byte	0
 	.byte	0
 	.uleb128 0x33
@@ -7847,29 +8075,65 @@ calculateDistanceCm:
 	.byte	0
 	.byte	0
 	.uleb128 0x34
-	.uleb128 0xb
+	.uleb128 0x1d
 	.byte	0x1
-	.uleb128 0x55
-	.uleb128 0x6
+	.uleb128 0x31
+	.uleb128 0x13
+	.uleb128 0x11
+	.uleb128 0x1
+	.uleb128 0x12
+	.uleb128 0x1
+	.uleb128 0x58
+	.uleb128 0xb
+	.uleb128 0x59
+	.uleb128 0xb
+	.uleb128 0x1
+	.uleb128 0x13
 	.byte	0
 	.byte	0
 	.uleb128 0x35
+	.uleb128 0xb
+	.byte	0x1
+	.uleb128 0x11
+	.uleb128 0x1
+	.uleb128 0x12
+	.uleb128 0x1
+	.byte	0
+	.byte	0
+	.uleb128 0x36
+	.uleb128 0x1d
+	.byte	0x1
+	.uleb128 0x31
+	.uleb128 0x13
+	.uleb128 0x11
+	.uleb128 0x1
+	.uleb128 0x12
+	.uleb128 0x1
+	.uleb128 0x58
+	.uleb128 0xb
+	.uleb128 0x59
+	.uleb128 0xb
+	.byte	0
+	.byte	0
+	.uleb128 0x37
 	.uleb128 0x34
 	.byte	0
 	.uleb128 0x31
 	.uleb128 0x13
 	.byte	0
 	.byte	0
-	.uleb128 0x36
+	.uleb128 0x38
 	.uleb128 0x4109
-	.byte	0
+	.byte	0x1
 	.uleb128 0x11
 	.uleb128 0x1
 	.uleb128 0x31
 	.uleb128 0x13
+	.uleb128 0x1
+	.uleb128 0x13
 	.byte	0
 	.byte	0
-	.uleb128 0x37
+	.uleb128 0x39
 	.uleb128 0x2e
 	.byte	0x1
 	.uleb128 0x31
@@ -7886,7 +8150,7 @@ calculateDistanceCm:
 	.uleb128 0x13
 	.byte	0
 	.byte	0
-	.uleb128 0x38
+	.uleb128 0x3a
 	.uleb128 0x34
 	.byte	0
 	.uleb128 0x3
@@ -7903,14 +8167,31 @@ calculateDistanceCm:
 	.uleb128 0xc
 	.byte	0
 	.byte	0
-	.uleb128 0x39
+	.uleb128 0x3b
 	.uleb128 0x26
 	.byte	0
 	.uleb128 0x49
 	.uleb128 0x13
 	.byte	0
 	.byte	0
+	.uleb128 0x3c
+	.uleb128 0x34
+	.byte	0
+	.uleb128 0x3
+	.uleb128 0x8
 	.uleb128 0x3a
+	.uleb128 0xb
+	.uleb128 0x3b
+	.uleb128 0xb
+	.uleb128 0x49
+	.uleb128 0x13
+	.uleb128 0x3f
+	.uleb128 0xc
+	.uleb128 0x2
+	.uleb128 0xa
+	.byte	0
+	.byte	0
+	.uleb128 0x3d
 	.uleb128 0x2e
 	.byte	0x1
 	.uleb128 0x3f
@@ -7929,14 +8210,14 @@ calculateDistanceCm:
 	.uleb128 0x13
 	.byte	0
 	.byte	0
-	.uleb128 0x3b
+	.uleb128 0x3e
 	.uleb128 0x5
 	.byte	0
 	.uleb128 0x49
 	.uleb128 0x13
 	.byte	0
 	.byte	0
-	.uleb128 0x3c
+	.uleb128 0x3f
 	.uleb128 0x2e
 	.byte	0x1
 	.uleb128 0x3f
@@ -7957,175 +8238,186 @@ calculateDistanceCm:
 .section .debug_loc,"",@progbits
 .Ldebug_loc0:
 .LLST0:
-	.uaword	.LVL5-.Ltext0
-	.uaword	.LVL15-.Ltext0
-	.uahalf	0xa
-	.byte	0x9e
-	.uleb128 0x8
-	.uaxword	0
+	.uaword	.LVL0-.Ltext0
+	.uaword	.LVL1-.Ltext0
+	.uahalf	0x1
+	.byte	0x64
+	.uaword	.LVL1-.Ltext0
+	.uaword	.LFE574-.Ltext0
+	.uahalf	0x1
+	.byte	0x6f
 	.uaword	0
 	.uaword	0
 .LLST1:
+	.uaword	.LVL0-.Ltext0
+	.uaword	.LVL1-.Ltext0
+	.uahalf	0x2
+	.byte	0x84
+	.sleb128 4
+	.uaword	.LVL1-.Ltext0
+	.uaword	.LVL2-1-.Ltext0
+	.uahalf	0x2
+	.byte	0x8f
+	.sleb128 4
+	.uaword	0
+	.uaword	0
+.LLST2:
+	.uaword	.LVL0-.Ltext0
+	.uaword	.LVL1-.Ltext0
+	.uahalf	0x2
+	.byte	0x84
+	.sleb128 0
+	.uaword	.LVL1-.Ltext0
+	.uaword	.LVL2-1-.Ltext0
+	.uahalf	0x2
+	.byte	0x8f
+	.sleb128 0
+	.uaword	0
+	.uaword	0
+.LLST3:
+	.uaword	.LVL2-.Ltext0
+	.uaword	.LVL3-1-.Ltext0
+	.uahalf	0x2
+	.byte	0x8f
+	.sleb128 9
+	.uaword	0
+	.uaword	0
+.LLST4:
+	.uaword	.LVL2-.Ltext0
+	.uaword	.LVL3-1-.Ltext0
+	.uahalf	0x2
+	.byte	0x8f
+	.sleb128 5
+	.uaword	0
+	.uaword	0
+.LLST5:
+	.uaword	.LVL4-.Ltext0
+	.uaword	.LVL7-1-.Ltext0
+	.uahalf	0x1
+	.byte	0x64
+	.uaword	.LVL7-1-.Ltext0
+	.uaword	.LFE576-.Ltext0
+	.uahalf	0x1
+	.byte	0x6f
+	.uaword	0
+	.uaword	0
+.LLST6:
 	.uaword	.LVL5-.Ltext0
 	.uaword	.LVL6-.Ltext0
+	.uahalf	0x2
+	.byte	0x84
+	.sleb128 4
+	.uaword	0
+	.uaword	0
+.LLST7:
+	.uaword	.LVL5-.Ltext0
+	.uaword	.LVL7-1-.Ltext0
+	.uahalf	0x1
+	.byte	0x52
+	.uaword	0
+	.uaword	0
+.LLST10:
+	.uaword	.LVL8-.Ltext0
+	.uaword	.LVL9-.Ltext0
+	.uahalf	0x2
+	.byte	0x8f
+	.sleb128 4
+	.uaword	.LVL9-.Ltext0
+	.uaword	.LFE576-.Ltext0
+	.uahalf	0x1
+	.byte	0x5f
+	.uaword	0
+	.uaword	0
+.LLST12:
+	.uaword	.LVL10-.Ltext0
+	.uaword	.LVL13-.Ltext0
 	.uahalf	0xa
 	.byte	0x9e
 	.uleb128 0x8
 	.uaxword	0
+	.uaword	0
+	.uaword	0
+.LLST13:
 	.uaword	.LVL10-.Ltext0
-	.uaword	.LVL11-.Ltext0
-	.uahalf	0x6
-	.byte	0x52
-	.byte	0x93
-	.uleb128 0x4
-	.byte	0x53
-	.byte	0x93
-	.uleb128 0x4
-	.uaword	.LVL20-.Ltext0
-	.uaword	.LVL21-.Ltext0
-	.uahalf	0x6
-	.byte	0x52
-	.byte	0x93
-	.uleb128 0x4
-	.byte	0x53
-	.byte	0x93
-	.uleb128 0x4
-	.uaword	.LVL22-.Ltext0
-	.uaword	.LVL23-.Ltext0
-	.uahalf	0x6
-	.byte	0x52
-	.byte	0x93
-	.uleb128 0x4
-	.byte	0x53
-	.byte	0x93
-	.uleb128 0x4
-	.uaword	0
-	.uaword	0
-.LLST2:
-	.uaword	.LVL7-.Ltext0
-	.uaword	.LVL11-.Ltext0
-	.uahalf	0x5
-	.byte	0x40
-	.byte	0x48
-	.byte	0x24
-	.byte	0x1f
-	.byte	0x9f
-	.uaword	0
-	.uaword	0
-.LLST3:
-	.uaword	.LVL8-.Ltext0
-	.uaword	.LVL9-.Ltext0
-	.uahalf	0x9
-	.byte	0x7f
-	.sleb128 0
-	.byte	0xf7
-	.uleb128 0x164
-	.byte	0xf7
-	.uleb128 0x14a
-	.byte	0x9f
-	.uaword	.LVL9-.Ltext0
-	.uaword	.LVL10-.Ltext0
-	.uahalf	0x6
-	.byte	0x54
-	.byte	0x93
-	.uleb128 0x4
-	.byte	0x55
-	.byte	0x93
-	.uleb128 0x4
-	.uaword	.LVL10-.Ltext0
-	.uaword	.LVL11-.Ltext0
-	.uahalf	0x6
-	.byte	0x52
-	.byte	0x93
-	.uleb128 0x4
-	.byte	0x53
-	.byte	0x93
-	.uleb128 0x4
-	.uaword	0
-	.uaword	0
-.LLST4:
-	.uaword	.LVL11-.Ltext0
-	.uaword	.LVL22-.Ltext0
-	.uahalf	0x5
-	.byte	0x40
-	.byte	0x48
-	.byte	0x24
-	.byte	0x1f
-	.byte	0x9f
-	.uaword	0
-	.uaword	0
-.LLST5:
-	.uaword	.LVL12-.Ltext0
-	.uaword	.LVL13-.Ltext0
-	.uahalf	0x9
-	.byte	0x7f
-	.sleb128 0
-	.byte	0xf7
-	.uleb128 0x164
-	.byte	0xf7
-	.uleb128 0x14a
-	.byte	0x9f
-	.uaword	.LVL13-.Ltext0
 	.uaword	.LVL14-.Ltext0
-	.uahalf	0x6
-	.byte	0x50
-	.byte	0x93
-	.uleb128 0x4
-	.byte	0x51
-	.byte	0x93
-	.uleb128 0x4
-	.uaword	.LVL14-.Ltext0
-	.uaword	.LVL15-.Ltext0
-	.uahalf	0x9
-	.byte	0x7f
-	.sleb128 0
-	.byte	0xf7
-	.uleb128 0x164
-	.byte	0xf7
-	.uleb128 0x14a
-	.byte	0x9f
-	.uaword	.LVL15-.Ltext0
-	.uaword	.LVL22-.Ltext0
-	.uahalf	0x6
-	.byte	0x54
-	.byte	0x93
-	.uleb128 0x4
-	.byte	0x55
-	.byte	0x93
-	.uleb128 0x4
-	.uaword	0
-	.uaword	0
-.LLST6:
-	.uaword	.LVL16-.Ltext0
-	.uaword	.LVL22-.Ltext0
-	.uahalf	0x2
-	.byte	0x32
-	.byte	0x9f
-	.uaword	0
-	.uaword	0
-.LLST7:
-	.uaword	.LVL16-.Ltext0
-	.uaword	.LVL22-.Ltext0
-	.uahalf	0x6
+	.uahalf	0xa
 	.byte	0x9e
-	.uleb128 0x4
-	.uaword	0xf003b000
-	.uaword	0
-	.uaword	0
-.LLST8:
-	.uaword	.LVL17-.Ltext0
-	.uaword	.LVL21-.Ltext0
-	.uahalf	0x5
-	.byte	0x40
-	.byte	0x48
-	.byte	0x24
-	.byte	0x1f
-	.byte	0x9f
-	.uaword	0
-	.uaword	0
-.LLST9:
+	.uleb128 0x8
+	.uaxword	0
 	.uaword	.LVL18-.Ltext0
 	.uaword	.LVL19-.Ltext0
+	.uahalf	0x6
+	.byte	0x52
+	.byte	0x93
+	.uleb128 0x4
+	.byte	0x53
+	.byte	0x93
+	.uleb128 0x4
+	.uaword	.LVL29-.Ltext0
+	.uaword	.LVL30-.Ltext0
+	.uahalf	0x6
+	.byte	0x52
+	.byte	0x93
+	.uleb128 0x4
+	.byte	0x53
+	.byte	0x93
+	.uleb128 0x4
+	.uaword	.LVL31-.Ltext0
+	.uaword	.LVL32-.Ltext0
+	.uahalf	0x6
+	.byte	0x52
+	.byte	0x93
+	.uleb128 0x4
+	.byte	0x53
+	.byte	0x93
+	.uleb128 0x4
+	.uaword	0
+	.uaword	0
+.LLST14:
+	.uaword	.LVL11-.Ltext0
+	.uaword	.LVL12-.Ltext0
+	.uahalf	0x9
+	.byte	0x7f
+	.sleb128 0
+	.byte	0xf7
+	.uleb128 0x164
+	.byte	0xf7
+	.uleb128 0x14a
+	.byte	0x9f
+	.uaword	.LVL12-.Ltext0
+	.uaword	.LVL13-.Ltext0
+	.uahalf	0x6
+	.byte	0x52
+	.byte	0x93
+	.uleb128 0x4
+	.byte	0x53
+	.byte	0x93
+	.uleb128 0x4
+	.uaword	.LVL13-.Ltext0
+	.uaword	.LVL22-.Ltext0
+	.uahalf	0x6
+	.byte	0x54
+	.byte	0x93
+	.uleb128 0x4
+	.byte	0x55
+	.byte	0x93
+	.uleb128 0x4
+	.uaword	0
+	.uaword	0
+.LLST15:
+	.uaword	.LVL15-.Ltext0
+	.uaword	.LVL19-.Ltext0
+	.uahalf	0x5
+	.byte	0x40
+	.byte	0x48
+	.byte	0x24
+	.byte	0x1f
+	.byte	0x9f
+	.uaword	0
+	.uaword	0
+.LLST16:
+	.uaword	.LVL16-.Ltext0
+	.uaword	.LVL17-.Ltext0
 	.uahalf	0x14
 	.byte	0x72
 	.sleb128 0
@@ -8145,27 +8437,138 @@ calculateDistanceCm:
 	.byte	0x9f
 	.uaword	0
 	.uaword	0
-.LLST10:
+.LLST17:
+	.uaword	.LVL19-.Ltext0
+	.uaword	.LVL31-.Ltext0
+	.uahalf	0x5
+	.byte	0x40
+	.byte	0x48
+	.byte	0x24
+	.byte	0x1f
+	.byte	0x9f
+	.uaword	0
+	.uaword	0
+.LLST18:
+	.uaword	.LVL20-.Ltext0
+	.uaword	.LVL21-.Ltext0
+	.uahalf	0x9
+	.byte	0x7f
+	.sleb128 0
+	.byte	0xf7
+	.uleb128 0x164
+	.byte	0xf7
+	.uleb128 0x14a
+	.byte	0x9f
+	.uaword	.LVL21-.Ltext0
+	.uaword	.LVL23-.Ltext0
+	.uahalf	0x6
+	.byte	0x50
+	.byte	0x93
+	.uleb128 0x4
+	.byte	0x51
+	.byte	0x93
+	.uleb128 0x4
+	.uaword	.LVL23-.Ltext0
+	.uaword	.LVL24-.Ltext0
+	.uahalf	0x9
+	.byte	0x7f
+	.sleb128 0
+	.byte	0xf7
+	.uleb128 0x164
+	.byte	0xf7
+	.uleb128 0x14a
+	.byte	0x9f
+	.uaword	.LVL24-.Ltext0
+	.uaword	.LVL31-.Ltext0
+	.uahalf	0x6
+	.byte	0x54
+	.byte	0x93
+	.uleb128 0x4
+	.byte	0x55
+	.byte	0x93
+	.uleb128 0x4
+	.uaword	0
+	.uaword	0
+.LLST19:
+	.uaword	.LVL25-.Ltext0
+	.uaword	.LVL31-.Ltext0
+	.uahalf	0x2
+	.byte	0x84
+	.sleb128 9
+	.uaword	0
+	.uaword	0
+.LLST20:
+	.uaword	.LVL25-.Ltext0
+	.uaword	.LVL31-.Ltext0
+	.uahalf	0x1
+	.byte	0x6f
+	.uaword	0
+	.uaword	0
+.LLST21:
 	.uaword	.LVL26-.Ltext0
+	.uaword	.LVL30-.Ltext0
+	.uahalf	0x5
+	.byte	0x40
+	.byte	0x48
+	.byte	0x24
+	.byte	0x1f
+	.byte	0x9f
+	.uaword	0
+	.uaword	0
+.LLST22:
 	.uaword	.LVL27-.Ltext0
+	.uaword	.LVL28-.Ltext0
+	.uahalf	0x14
+	.byte	0x72
+	.sleb128 0
+	.byte	0xf7
+	.uleb128 0x164
+	.byte	0xf7
+	.uleb128 0x14a
+	.byte	0x8
+	.byte	0x20
+	.byte	0xf7
+	.uleb128 0x14a
+	.byte	0x24
+	.byte	0xf5
+	.uleb128 0x2
+	.uleb128 0x14a
+	.byte	0x21
+	.byte	0x9f
+	.uaword	0
+	.uaword	0
+.LLST23:
+	.uaword	.LVL33-.Ltext0
+	.uaword	.LVL34-1-.Ltext0
+	.uahalf	0x1
+	.byte	0x64
+	.uaword	.LVL34-1-.Ltext0
+	.uaword	.LFE575-.Ltext0
+	.uahalf	0x1
+	.byte	0x6f
+	.uaword	0
+	.uaword	0
+.LLST24:
+	.uaword	.LVL36-.Ltext0
+	.uaword	.LVL37-.Ltext0
 	.uahalf	0x1
 	.byte	0x52
-	.uaword	.LVL27-.Ltext0
-	.uaword	.LVL29-.Ltext0
+	.uaword	.LVL37-.Ltext0
+	.uaword	.LVL39-.Ltext0
 	.uahalf	0x1
 	.byte	0x5f
 	.uaword	0
 	.uaword	0
-.LLST11:
-	.uaword	.LVL28-.Ltext0
-	.uaword	.LVL29-.Ltext0
+.LLST25:
+	.uaword	.LVL38-.Ltext0
+	.uaword	.LVL39-.Ltext0
 	.uahalf	0x1
 	.byte	0x5f
 	.uaword	0
 	.uaword	0
-.LLST12:
-	.uaword	.LVL28-.Ltext0
-	.uaword	.LVL29-.Ltext0
+.LLST26:
+	.uaword	.LVL38-.Ltext0
+	.uaword	.LVL39-.Ltext0
 	.uahalf	0x6
 	.byte	0x7f
 	.sleb128 0
@@ -8175,12 +8578,12 @@ calculateDistanceCm:
 	.byte	0x9f
 	.uaword	0
 	.uaword	0
-.LLST13:
-	.uaword	.LVL31-.Ltext0
-	.uaword	.LVL32-.Ltext0
+.LLST27:
+	.uaword	.LVL41-.Ltext0
+	.uaword	.LVL42-.Ltext0
 	.uahalf	0x1
 	.byte	0x54
-	.uaword	.LVL32-.Ltext0
+	.uaword	.LVL42-.Ltext0
 	.uaword	.LFE578-.Ltext0
 	.uahalf	0x4
 	.byte	0xf3
@@ -8189,9 +8592,9 @@ calculateDistanceCm:
 	.byte	0x9f
 	.uaword	0
 	.uaword	0
-.LLST14:
-	.uaword	.LVL31-.Ltext0
-	.uaword	.LVL32-.Ltext0
+.LLST28:
+	.uaword	.LVL41-.Ltext0
+	.uaword	.LVL42-.Ltext0
 	.uahalf	0x6
 	.byte	0x74
 	.sleb128 0
@@ -8199,7 +8602,7 @@ calculateDistanceCm:
 	.byte	0xc8
 	.byte	0x1b
 	.byte	0x9f
-	.uaword	.LVL32-.Ltext0
+	.uaword	.LVL42-.Ltext0
 	.uaword	.LFE578-.Ltext0
 	.uahalf	0x7
 	.byte	0xf3
@@ -8211,9 +8614,9 @@ calculateDistanceCm:
 	.byte	0x9f
 	.uaword	0
 	.uaword	0
-.LLST15:
-	.uaword	.LVL31-.Ltext0
-	.uaword	.LVL32-.Ltext0
+.LLST29:
+	.uaword	.LVL41-.Ltext0
+	.uaword	.LVL42-.Ltext0
 	.uahalf	0xc
 	.byte	0x74
 	.sleb128 0
@@ -8226,7 +8629,7 @@ calculateDistanceCm:
 	.uahalf	0x3e8
 	.byte	0x1b
 	.byte	0x9f
-	.uaword	.LVL32-.Ltext0
+	.uaword	.LVL42-.Ltext0
 	.uaword	.LFE578-.Ltext0
 	.uahalf	0xd
 	.byte	0xf3
@@ -8257,32 +8660,48 @@ calculateDistanceCm:
 	.uaword	0
 .section .debug_ranges,"",@progbits
 .Ldebug_ranges0:
-	.uaword	.LBB37-.Ltext0
-	.uaword	.LBE37-.Ltext0
+	.uaword	.LBB32-.Ltext0
+	.uaword	.LBE32-.Ltext0
+	.uaword	.LBB35-.Ltext0
+	.uaword	.LBE35-.Ltext0
+	.uaword	0
+	.uaword	0
+	.uaword	.LBB36-.Ltext0
+	.uaword	.LBE36-.Ltext0
+	.uaword	.LBB40-.Ltext0
+	.uaword	.LBE40-.Ltext0
+	.uaword	.LBB41-.Ltext0
+	.uaword	.LBE41-.Ltext0
+	.uaword	0
+	.uaword	0
 	.uaword	.LBB42-.Ltext0
 	.uaword	.LBE42-.Ltext0
-	.uaword	0
-	.uaword	0
-	.uaword	.LBB43-.Ltext0
-	.uaword	.LBE43-.Ltext0
 	.uaword	.LBB47-.Ltext0
 	.uaword	.LBE47-.Ltext0
+	.uaword	0
+	.uaword	0
 	.uaword	.LBB48-.Ltext0
 	.uaword	.LBE48-.Ltext0
-	.uaword	0
-	.uaword	0
-	.uaword	.LBB51-.Ltext0
-	.uaword	.LBE51-.Ltext0
-	.uaword	.LBB58-.Ltext0
-	.uaword	.LBE58-.Ltext0
+	.uaword	.LBB53-.Ltext0
+	.uaword	.LBE53-.Ltext0
 	.uaword	0
 	.uaword	0
 	.uaword	.LBB54-.Ltext0
 	.uaword	.LBE54-.Ltext0
-	.uaword	.LBB59-.Ltext0
-	.uaword	.LBE59-.Ltext0
-	.uaword	.LBB60-.Ltext0
-	.uaword	.LBE60-.Ltext0
+	.uaword	.LBB57-.Ltext0
+	.uaword	.LBE57-.Ltext0
+	.uaword	0
+	.uaword	0
+	.uaword	.LBB58-.Ltext0
+	.uaword	.LBE58-.Ltext0
+	.uaword	.LBB61-.Ltext0
+	.uaword	.LBE61-.Ltext0
+	.uaword	0
+	.uaword	0
+	.uaword	.LBB64-.Ltext0
+	.uaword	.LBE64-.Ltext0
+	.uaword	.LBB67-.Ltext0
+	.uaword	.LBE67-.Ltext0
 	.uaword	0
 	.uaword	0
 .section .debug_line,"",@progbits
@@ -8316,6 +8735,8 @@ calculateDistanceCm:
 	.string	"port"
 .LASF5:
 	.string	"MODNUMBER"
+.LASF17:
+	.string	"ultrasonic"
 .LASF11:
 	.string	"reserved_20"
 .LASF10:

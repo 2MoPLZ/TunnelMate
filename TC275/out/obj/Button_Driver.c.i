@@ -20807,6 +20807,7 @@ typedef unsigned long long __uint64_t;
 
 
 
+<<<<<<< HEAD
 typedef int _LOCK_T;
 typedef int _LOCK_RECURSIVE_T;
 # 14 "c:\\hightec\\toolchains\\tricore\\v4.9.3.0-infineon-1.0\\tricore\\include\\sys\\_types.h" 2 3
@@ -20846,6 +20847,21 @@ typedef int _ssize_t;
 
 
 
+=======
+typedef struct
+{
+    IfxScu_Req_In *reqPin;
+    IfxScuEru_InputChannel inputChannel;
+    IfxScuEru_InputNodePointer triggerSelect;
+    IfxScuEru_OutputChannel outputChannel;
+    volatile Ifx_SRC_SRCR *src;
+} ERUconfig;
+# 16 "C:\\Users\\USER\\Desktop\\WORKSP~1\\TUNNEL~1\\TC275\\Button_Driver.h" 2
+# 25 "C:\\Users\\USER\\Desktop\\WORKSP~1\\TUNNEL~1\\TC275\\Button_Driver.h"
+int readLcdButtons(void);
+# 2 "C:\\Users\\USER\\Desktop\\WORKSP~1\\TUNNEL~1\\TC275\\Button_Driver.c" 2
+# 1 "C:\\Users\\USER\\Desktop\\WORKSP~1\\TUNNEL~1\\TC275\\bsw.h" 1
+>>>>>>> 34ff1ec54be522b04d47c3352108486a1876d3f5
 
 
 
@@ -22940,7 +22956,6 @@ void initPeripheralsAndERU(void);
 void initADC(void);
 uint16 readADCValue(uint8 channel);
 # 3 "C:\\TUNNEL~1\\TC275\\Button_Driver.c" 2
-
 
 
 int readLcdButtons(void)
