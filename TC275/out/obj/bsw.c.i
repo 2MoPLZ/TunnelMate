@@ -23426,12 +23426,23 @@ void lcd_goto(uint8 row, uint8 col);
 void lcd_print(const char *str);
 # 10 "C:\\TUNNEL~1\\TC275\\bsw.c" 2
 # 1 "C:\\TUNNEL~1\\TC275\\ultrasonic_Driver.h" 1
-# 31 "C:\\TUNNEL~1\\TC275\\ultrasonic_Driver.h"
-void initUltrasonic();
-int getUltrasonic();
+# 34 "C:\\TUNNEL~1\\TC275\\ultrasonic_Driver.h"
+struct __attribute__((__packed__)) Ultrasonic
+{
+    Ifx_P* TRIG_PORT;
+    uint8 TRIG_PIN;
+    Ifx_P* ECHO_PORT;
+    uint8 ECHO_PIN;
+};
 
-void sendTrigger();
-long measureEchoTick();
+extern struct Ultrasonic g_UpperUltrasonic;
+extern struct Ultrasonic g_FrontUltrasonic;
+
+void initUltrasonic(struct Ultrasonic* ultrasonic);
+int getUltrasonic(struct Ultrasonic* ultrasonic);
+
+void sendTrigger(struct Ultrasonic* ultrasonic);
+long measureEchoTick(struct Ultrasonic* ultrasonic);
 int calculateDistanceCm(long elapsedTicks);
 # 11 "C:\\TUNNEL~1\\TC275\\bsw.c" 2
 # 1 "C:\\TUNNEL~1\\TC275\\uart_Driver.h" 1
@@ -23822,7 +23833,8 @@ int main(void)
 
 
     lcd_init();
-    initUltrasonic();
+    initUltrasonic(&g_UpperUltrasonic);
+    initUltrasonic(&g_FrontUltrasonic);
     initUartDriver();
 
 

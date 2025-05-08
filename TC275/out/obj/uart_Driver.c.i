@@ -22970,7 +22970,7 @@ void initUartDriver(void)
     IfxAsclin_Asc_initModuleConfig(&ascConfig, &(*(Ifx_ASCLIN*)0xF0000600u));
 
     ascConfig.baudrate.prescaler = 1;
-    ascConfig.baudrate.baudrate = 115200;
+    ascConfig.baudrate.baudrate = 9600;
     ascConfig.baudrate.oversampling = IfxAsclin_OversamplingFactor_4;
 
     ascConfig.interrupt.rxPriority = 4;
