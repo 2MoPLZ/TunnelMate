@@ -11,7 +11,7 @@
 #include <stdint.h>
 #include "stm32f1xx_hal.h"
 
-#define NUM_TASK 7U
+#define NUM_TASK 6U
 #define ACTIVATED 1U	//for task status
 #define DEACTIVATED 0U	//for task status
 
