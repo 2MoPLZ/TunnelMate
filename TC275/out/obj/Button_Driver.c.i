@@ -20807,7 +20807,6 @@ typedef unsigned long long __uint64_t;
 
 
 
-<<<<<<< HEAD
 typedef int _LOCK_T;
 typedef int _LOCK_RECURSIVE_T;
 # 14 "c:\\hightec\\toolchains\\tricore\\v4.9.3.0-infineon-1.0\\tricore\\include\\sys\\_types.h" 2 3
@@ -20847,21 +20846,6 @@ typedef int _ssize_t;
 
 
 
-=======
-typedef struct
-{
-    IfxScu_Req_In *reqPin;
-    IfxScuEru_InputChannel inputChannel;
-    IfxScuEru_InputNodePointer triggerSelect;
-    IfxScuEru_OutputChannel outputChannel;
-    volatile Ifx_SRC_SRCR *src;
-} ERUconfig;
-# 16 "C:\\Users\\USER\\Desktop\\WORKSP~1\\TUNNEL~1\\TC275\\Button_Driver.h" 2
-# 25 "C:\\Users\\USER\\Desktop\\WORKSP~1\\TUNNEL~1\\TC275\\Button_Driver.h"
-int readLcdButtons(void);
-# 2 "C:\\Users\\USER\\Desktop\\WORKSP~1\\TUNNEL~1\\TC275\\Button_Driver.c" 2
-# 1 "C:\\Users\\USER\\Desktop\\WORKSP~1\\TUNNEL~1\\TC275\\bsw.h" 1
->>>>>>> 34ff1ec54be522b04d47c3352108486a1876d3f5
 
 
 
@@ -21344,7 +21328,7 @@ struct __attribute__((__packed__)) SensorPacket
 };
 # 16 "C:\\TUNNEL~1\\TC275\\Button_Driver.h" 2
 # 25 "C:\\TUNNEL~1\\TC275\\Button_Driver.h"
-int readLcdButtons();
+int readLcdButtons(void);
 # 2 "C:\\TUNNEL~1\\TC275\\Button_Driver.c" 2
 # 1 "C:\\TUNNEL~1\\TC275\\bsw.h" 1
 
@@ -22933,7 +22917,10 @@ uint8_t osEE_assert_last(void);
 
 # 1 "C:\\TUNNEL~1\\TC275\\out/ee_declcfg.h" 1
 # 35 "C:\\TUNNEL~1\\TC275\\out/ee_declcfg.h"
-extern void FuncTaskUltrasonic ( void );
+extern void FuncSensorTask ( void );
+extern void FuncSendAcutatorPacket_TEST ( void );
+extern void FuncSendSensorPacket_TEST ( void );
+extern void FuncTaskUltrasonic_TEST ( void );
 
 
 void asclin3TxISR(void);

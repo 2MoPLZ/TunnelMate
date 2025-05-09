@@ -94,11 +94,36 @@ CPU test_application {
         PRIORITY = 2;
     };
 
-    TASK TaskUltrasonic{
+    TASK SensorTask{
         PRIORITY = 10;
         STACK = SHARED;
         SCHEDULE = FULL;
         AUTOSTART = FALSE;
         ACTIVATION = 1;
     };
+
+    TASK SendAcutatorPacket_TEST{
+        PRIORITY = 5;
+        STACK = SHARED;
+        SCHEDULE = FULL;
+        AUTOSTART = FALSE;
+        ACTIVATION = 1;
+    };
+
+    TASK SendSensorPacket_TEST{
+        PRIORITY = 5;
+        STACK = SHARED;
+        SCHEDULE = FULL;
+        AUTOSTART = FALSE;
+        ACTIVATION = 1;
+    };
+
+    TASK TaskUltrasonic_TEST{
+        PRIORITY = 6;
+        STACK = SHARED;
+        SCHEDULE = FULL;
+        AUTOSTART = FALSE;
+        ACTIVATION = 1;
+    };
+
 };

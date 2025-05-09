@@ -10,13 +10,8 @@
 	.type	readLcdButtons, @function
 readLcdButtons:
 .LFB574:
-<<<<<<< HEAD
 	.file 1 "C:\\TUNNEL~1\\TC275\\Button_Driver.c"
-	.loc 1 7 0
-=======
-	.file 1 "C:\\Users\\USER\\Desktop\\WORKSP~1\\TUNNEL~1\\TC275\\Button_Driver.c"
 	.loc 1 6 0
->>>>>>> 34ff1ec54be522b04d47c3352108486a1876d3f5
 	sub.a	%SP, 8
 .LCFI0:
 	.loc 1 9 0
@@ -236,24 +231,14 @@ readLcdButtons:
 	.uleb128 0xa
 	.string	"adc_key_in"
 	.byte	0x1
-<<<<<<< HEAD
-	.byte	0x8
-	.uaword	0x272
-=======
 	.byte	0x7
-	.uaword	0x28e
->>>>>>> 34ff1ec54be522b04d47c3352108486a1876d3f5
+	.uaword	0x272
 	.uaword	.LLST0
 	.uleb128 0xb
 	.string	"button_state"
 	.byte	0x1
-<<<<<<< HEAD
-	.byte	0x9
-	.uaword	0x167
-=======
 	.byte	0x8
-	.uaword	0x183
->>>>>>> 34ff1ec54be522b04d47c3352108486a1876d3f5
+	.uaword	0x167
 	.byte	0x1
 	.byte	0x52
 	.uleb128 0xc

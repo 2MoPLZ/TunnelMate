@@ -3,6 +3,7 @@
 
 App_AsclinAsc g_AsclinStm;
 struct ActuatorPacket g_RecievedActuatorPacket = {};
+struct SensorPacket g_RecievedSensorPacket = {};
 
 void initUartDriver(void)
 {
@@ -99,9 +100,18 @@ ISR(asclin0RxISR)
 {
     // printfSerial("onReceive(%d) ",++recieveStamp);
     IfxAsclin_Asc_isrReceive(&g_AsclinStm.drivers.asc);
+
+    
+
+    #if defined(ACTUATOR_PACKET_RECIEVE_MODE)
     if(IfxAsclin_Asc_getReadCount(&g_AsclinStm.drivers.asc)>=ACTUATOR_PACKET_SIZE){
         readActuatorPacket(&g_RecievedActuatorPacket);
     }
+    #elif defined(SENSOR_PACKET_RECIEVE_MODE)
+    if(IfxAsclin_Asc_getReadCount(&g_AsclinStm.drivers.asc)>=SENSOR_PACKET_SIZE){
+        readSensorPacket(&g_RecievedSensorPacket);
+    }
+    #endif
 }
 
 ISR(asclin0TxISR)

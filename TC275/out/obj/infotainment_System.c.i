@@ -20756,65 +20756,8 @@ static inline __attribute__ ((always_inline)) Ifx_VADC_G_RESD IfxVadc_Adc_getDeb
 # 1 "C:\\TUNNEL~1\\TC275/illd\\Libraries\\iLLD\\TC27D\\Tricore\\Port\\Std\\IfxPort.h" 1
 # 18 "C:\\TUNNEL~1\\TC275\\illd\\src\\Configuration.h" 2
 
-<<<<<<< HEAD
 # 1 "c:\\hightec\\toolchains\\tricore\\v4.9.3.0-infineon-1.0\\tricore\\include\\string.h" 1 3
 # 10 "c:\\hightec\\toolchains\\tricore\\v4.9.3.0-infineon-1.0\\tricore\\include\\string.h" 3
-=======
-typedef struct
-{
-    uint8 tx[258 + sizeof(Ifx_Fifo) + 8];
-    uint8 rx[258 + sizeof(Ifx_Fifo) + 8];
-} AppAscBuffer;
-
-typedef struct
-{
-    AppAscBuffer ascBuffer;
-    struct
-    {
-        IfxAsclin_Asc asc;
-    } drivers;
-
-    uint8 txData[5];
-    uint8 rxData[5];
-    Ifx_SizeT count;
-} App_AsclinAsc;
-
-
-
-
-
-typedef struct
-{
-    IfxScu_Req_In *reqPin;
-    IfxScuEru_InputChannel inputChannel;
-    IfxScuEru_InputNodePointer triggerSelect;
-    IfxScuEru_OutputChannel outputChannel;
-    volatile Ifx_SRC_SRCR *src;
-} ERUconfig;
-# 15 "C:\\Users\\USER\\Desktop\\WORKSP~1\\TUNNEL~1\\TC275\\infotainment_System.h" 2
-
-# 1 "C:\\Users\\USER\\Desktop\\WORKSP~1\\TUNNEL~1\\TC275\\Button_Driver.h" 1
-# 25 "C:\\Users\\USER\\Desktop\\WORKSP~1\\TUNNEL~1\\TC275\\Button_Driver.h"
-int readLcdButtons(void);
-# 17 "C:\\Users\\USER\\Desktop\\WORKSP~1\\TUNNEL~1\\TC275\\infotainment_System.h" 2
-# 1 "C:\\Users\\USER\\Desktop\\WORKSP~1\\TUNNEL~1\\TC275\\Lcd_Driver.h" 1
-
-
-
-
-
-
-# 1 "C:\\Users\\USER\\Desktop\\WORKSP~1\\TUNNEL~1\\TC275\\illd/src/IfxPort.h" 1
-# 8 "C:\\Users\\USER\\Desktop\\WORKSP~1\\TUNNEL~1\\TC275\\Lcd_Driver.h" 2
-# 1 "c:\\hightec\\toolchains\\tricore\\v4.9.3.0-infineon-1.0\\lib\\gcc\\tricore\\4.9.4\\include\\stdarg.h" 1 3 4
-# 40 "c:\\hightec\\toolchains\\tricore\\v4.9.3.0-infineon-1.0\\lib\\gcc\\tricore\\4.9.4\\include\\stdarg.h" 3 4
-typedef __builtin_va_list __gnuc_va_list;
-# 98 "c:\\hightec\\toolchains\\tricore\\v4.9.3.0-infineon-1.0\\lib\\gcc\\tricore\\4.9.4\\include\\stdarg.h" 3 4
-typedef __gnuc_va_list va_list;
-# 9 "C:\\Users\\USER\\Desktop\\WORKSP~1\\TUNNEL~1\\TC275\\Lcd_Driver.h" 2
-# 1 "c:\\hightec\\toolchains\\tricore\\v4.9.3.0-infineon-1.0\\tricore\\include\\stdio.h" 1 3
-# 29 "c:\\hightec\\toolchains\\tricore\\v4.9.3.0-infineon-1.0\\tricore\\include\\stdio.h" 3
->>>>>>> 34ff1ec54be522b04d47c3352108486a1876d3f5
 # 1 "c:\\hightec\\toolchains\\tricore\\v4.9.3.0-infineon-1.0\\tricore\\include\\_ansi.h" 1 3
 # 15 "c:\\hightec\\toolchains\\tricore\\v4.9.3.0-infineon-1.0\\tricore\\include\\_ansi.h" 3
 # 1 "c:\\hightec\\toolchains\\tricore\\v4.9.3.0-infineon-1.0\\tricore\\include\\newlib.h" 1 3
@@ -21387,7 +21330,7 @@ struct __attribute__((__packed__)) SensorPacket
 
 # 1 "C:\\TUNNEL~1\\TC275\\Button_Driver.h" 1
 # 25 "C:\\TUNNEL~1\\TC275\\Button_Driver.h"
-int readLcdButtons();
+int readLcdButtons(void);
 # 17 "C:\\TUNNEL~1\\TC275\\infotainment_System.h" 2
 # 1 "C:\\TUNNEL~1\\TC275\\Lcd_Driver.h" 1
 
@@ -23496,7 +23439,10 @@ uint8_t osEE_assert_last(void);
 
 # 1 "C:\\TUNNEL~1\\TC275\\out/ee_declcfg.h" 1
 # 35 "C:\\TUNNEL~1\\TC275\\out/ee_declcfg.h"
-extern void FuncTaskUltrasonic ( void );
+extern void FuncSensorTask ( void );
+extern void FuncSendAcutatorPacket_TEST ( void );
+extern void FuncSendSensorPacket_TEST ( void );
+extern void FuncTaskUltrasonic_TEST ( void );
 
 
 void asclin3TxISR(void);
