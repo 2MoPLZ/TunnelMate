@@ -54,27 +54,37 @@ void sendSensorPacket(const struct SensorPacket* packet)
 }
 
 void readActuatorPacket(struct ActuatorPacket* packet){
-    uint8 buffer[ACTUATOR_PACKET_SIZE]={};
-    uint8 pos = 0;
-    uint8 sendCnt = ACTUATOR_PACKET_SIZE;
-    if(IfxAsclin_Asc_getReadCount(&g_AsclinStm.drivers.asc)<ACTUATOR_PACKET_SIZE) return;
-    while (sendCnt--)
-    {
-        buffer[pos++]=IfxAsclin_Asc_blockingRead(&g_AsclinStm.drivers.asc);
+    if(IfxAsclin_Asc_blockingRead(&g_AsclinStm.drivers.asc)==UART_START_BYTE){
+        if(IfxAsclin_Asc_blockingRead(&g_AsclinStm.drivers.asc)==ACTUATOR_PACKET_ID){
+            uint8 buffer[ACTUATOR_PACKET_SIZE]={};
+            buffer[0]=UART_START_BYTE;
+            buffer[1]=ACTUATOR_PACKET_ID;
+            uint8 pos = 2;
+            while (pos<ACTUATOR_PACKET_SIZE)
+            {
+                buffer[pos]=IfxAsclin_Asc_blockingRead(&g_AsclinStm.drivers.asc);
+                pos++;
+            }
+            deserialize_actuator_packet(buffer,packet);
+        }
     }
-    deserialize_actuator_packet(buffer,packet);
 }
 
 void readSensorPacket(struct SensorPacket* packet){
-    uint8 buffer[SENSOR_PACKET_SIZE]={};
-    uint8 pos = 0;
-    uint8 sendCnt = SENSOR_PACKET_SIZE;
-    if(IfxAsclin_Asc_getReadCount(&g_AsclinStm.drivers.asc)<SENSOR_PACKET_SIZE) return;
-    while (sendCnt--)
-    {
-        buffer[pos++]=IfxAsclin_Asc_blockingRead(&g_AsclinStm.drivers.asc);
+    if(IfxAsclin_Asc_blockingRead(&g_AsclinStm.drivers.asc)==UART_START_BYTE){
+        if(IfxAsclin_Asc_blockingRead(&g_AsclinStm.drivers.asc)==SENSOR_PACKET_ID){
+            uint8 buffer[SENSOR_PACKET_SIZE]={};
+            buffer[0]=UART_START_BYTE;
+            buffer[1]=SENSOR_PACKET_ID;
+            uint8 pos = 2;
+            while (pos<SENSOR_PACKET_SIZE)
+            {
+                buffer[pos]=IfxAsclin_Asc_blockingRead(&g_AsclinStm.drivers.asc);
+                pos++;
+            }
+            deserialize_actuator_packet(buffer,packet);
+        }
     }
-    deserialize_sensor_packet(buffer,packet);
 }
 
 void myprintfSerial(const char *fmt,...)
@@ -100,9 +110,7 @@ ISR(asclin0RxISR)
 {
     // printfSerial("onReceive(%d) ",++recieveStamp);
     IfxAsclin_Asc_isrReceive(&g_AsclinStm.drivers.asc);
-
     
-
     #if defined(ACTUATOR_PACKET_RECIEVE_MODE)
     if(IfxAsclin_Asc_getReadCount(&g_AsclinStm.drivers.asc)>=ACTUATOR_PACKET_SIZE){
         readActuatorPacket(&g_RecievedActuatorPacket);
