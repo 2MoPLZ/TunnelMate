@@ -8,19 +8,16 @@ This TC275 board controls ***Dashboard(LCD shield + buttons)*** and ***two Ultra
 
 1. [System Overview](#-System-Overview)
 2. [How to Run](#-How-to-Run)
-3. [HW Specification](#-HW-Specification)
-4. [HW Pin Map](#-HW-Pin-Map)
-5. [Example Code](#-Example-Code)
-
-development environment : Erika3, eclipse?, UDE STK 2021
-
+3. [SW Logic](#-SW-Logic)
+4. [HW Specification](#-HW-Specification)
+5. [HW Pin Map](#-HW-Pin-Map)
 
 </br>
 
 ---
 
 
-## 🛠️ System Overview
+## ✨ System Overview
 
 피그마로 기깔나게 그린 overview를 여기에 첨부</br>
 또는 시연 동영상의 일부나 사진을 여기에 첨부
@@ -31,13 +28,13 @@ development environment : Erika3, eclipse?, UDE STK 2021
 
 ## 🚀 How to Run
 
- ```python
-    # run in terminal
+ ```markdown
+  # run in terminal
     1. cd TunnelMate/TC275
     2. make config
     3. make
 
-    # flash program to TC275
+  # flash program to TC275
     1. board configuration
     2. load program (TunnelMate/TC275/out/erika3app.elf)
 ```
@@ -46,18 +43,64 @@ development environment : Erika3, eclipse?, UDE STK 2021
 
 ---
 
-## 📡 Hardware Spec
+## 💻 SW Logic
+**All functionalities are scheduled and handled by the erika3 RTOS.**
+```markdown
+  # Sensor Data Acquisition and Transmission to Main ECU
+    1. Collect data from two ultrasonic sensors and one photoresistor.  
+    2. Format the collected data into a sensor packet.  
+    3. Transmit the sensor packet to the Main ECU via UART.
+
+  # Vehicle Comfort Feature Control via Dashboard
+    1. Control various vehicle comfort features using dashboard buttons.  
+    2. Generate a control packet based on the adjusted values.  
+    3. Transmit the control packet to the Main ECU via UART.  
+    4. Update the dashboard LCD to reflect the current settings.
+
+  # Debugging Interface
+    1. Monitor the board's operation via USB serial communication using a terminal.
+```
+</br>
+
+---
+
+## 📡 Hardware Specification
 | Product Name     |  Model Name             |Role             |
 |------------------|-------------------------|-----------------|
 |TC275 ShieldBuddy | KIT_AURIX_TC275_ARD_SB  |ZCU              |
 |Lcd KeyPad Shield | DFR0009                 |Dashboard        |
-|Photoresistor     | GL5616                  |Night/Tunnel Detection |
+|Photoresistor     |-                        |Night/Tunnel Detection |
 |Ultrasonic Sensor | HC-SR04                 |Tunnel Detection |
 |-                 |-                        |Forward Collision-Avoidance Assist|
 
 </br>
 
 ---
+
+## 📌 HW Pin Map
+| Arduino Signal Name     | TC275T Pin Assignment | Assigned Function   | Description         |
+|-------------------------|------------------------|---------------------|---------------------|
+| Analog pin 0            | SAR4.7 / P32.3         | LCD Shield          | Button              |
+| Analog pin 1            | SAR4.6 / P32.4         | Light Sensor        | -                   |
+| Digital pin 0 (RX0)     | P15.3                  | UART RX             | TC275 <- STM MAIN   |
+| Digital pin 1 (TX0)     | P15.2                  | UART TX             | TC275 -> STM MAIN   |
+| Digital pin 2 (PWM)     | P2.0                   | LCD Shield          | Button (Interrupt)  |
+| Digital pin 3 (PWM)     | P2.1                   | Front Ultrasonic    | TRIG                |
+| Digital pin 5 (PWM)     | P2.3                   | LCD Shield          | Panel               |
+| Digital pin 6 (PWM)     | P2.4                   | LCD Shield          | Panel               |
+| Digital pin 7 (PWM)     | P2.5                   | LCD Shield          | Panel               |
+| Digital pin 8 (PWM)     | P2.6                   | LCD Shield          | Panel (RS)          |
+| Digital pin 9 (PWM)     | P2.7                   | LCD Shield          | Panel (EN)          |
+| Digital pin 10 (PWM/SS) | P10.5                  | LCD Shield          | Panel (Backlight)   |
+| Digital pin 11 (PWM/MOSI)| P10.3                 | Front Ultrasonic    | ECHO                |
+| Digital pin 12 (PWM/MISO)| P10.1                 | Top Ultrasonic      | TRIG                |
+| Digital pin 13 (PWM/SPCK)| P10.2                 | Top Ultrasonic      | ECHO                |
+
+</br>
+
+---
+
+
 
 ## lcd driver
 
