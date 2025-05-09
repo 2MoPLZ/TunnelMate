@@ -1930,7 +1930,10 @@ uint8_t osEE_assert_last(void);
 
 # 1 "C:\\TUNNEL~1\\TC275\\out/ee_declcfg.h" 1
 # 35 "C:\\TUNNEL~1\\TC275\\out/ee_declcfg.h"
-extern void FuncTaskUltrasonic ( void );
+extern void FuncSensorTask ( void );
+extern void FuncSendAcutatorPacket_TEST ( void );
+extern void FuncSendSensorPacket_TEST ( void );
+extern void FuncTaskUltrasonic_TEST ( void );
 
 
 void asclin3TxISR(void);
@@ -22945,33 +22948,26 @@ uint16 readADCValue(uint8 channel);
 # 15 "C:\\TUNNEL~1\\TC275\\uart_Driver.h"
 # 1 "C:\\TUNNEL~1\\TC275\\illd\\src\\ConfigurationIsr.h" 1
 # 16 "C:\\TUNNEL~1\\TC275\\uart_Driver.h" 2
-# 24 "C:\\TUNNEL~1\\TC275\\uart_Driver.h"
- extern struct ActuatorPacket g_RecievedActuatorPacket;
+# 27 "C:\\TUNNEL~1\\TC275\\uart_Driver.h"
+extern struct ActuatorPacket g_RecievedActuatorPacket;
+extern struct SensorPacket g_RecievedSensorPacket;
 
-<<<<<<< HEAD
- void initUartDriver(void);
- void myprintfSerial(const char *fmt,...);
-=======
-void FuncTask1 ( void )
-{
-    printfSerial("Task1 Begins...");
-    mdelay(3000);
-    printfSerial("Task1 Finishes...");
->>>>>>> 34ff1ec54be522b04d47c3352108486a1876d3f5
+void initUartDriver(void);
+void myprintfSerial(const char *fmt, ...);
 
- void sendActuatorPacket(const struct ActuatorPacket* packet);
- void sendSensorPacket(const struct SensorPacket* packet);
- void readActuatorPacket(struct ActuatorPacket* packet);
- void readSensorPacket(struct SensorPacket* packet);
+void sendActuatorPacket(const struct ActuatorPacket *packet);
+void sendSensorPacket(const struct SensorPacket *packet);
+void readActuatorPacket(struct ActuatorPacket *packet);
+void readSensorPacket(struct SensorPacket *packet);
 
- uint8 calculate_checksum(const uint8 *data, size_t length);
- void serialize_actuator_packet(const struct ActuatorPacket *packet, uint8 *buffer);
- void deserialize_actuator_packet(const uint8 *buffer, struct ActuatorPacket *packet);
- void serialize_sensor_packet(const struct SensorPacket *packet, uint8 *buffer);
- void deserialize_sensor_packet(const uint8 *buffer, struct SensorPacket *packet);
+uint8 calculate_checksum(const uint8 *data, size_t length);
+void serialize_actuator_packet(const struct ActuatorPacket *packet, uint8 *buffer);
+void deserialize_actuator_packet(const uint8 *buffer, struct ActuatorPacket *packet);
+void serialize_sensor_packet(const struct SensorPacket *packet, uint8 *buffer);
+void deserialize_sensor_packet(const uint8 *buffer, struct SensorPacket *packet);
 # 3 "C:\\TUNNEL~1\\TC275\\asw.c" 2
 # 1 "C:\\TUNNEL~1\\TC275\\ultrasonic_Driver.h" 1
-# 34 "C:\\TUNNEL~1\\TC275\\ultrasonic_Driver.h"
+# 32 "C:\\TUNNEL~1\\TC275\\ultrasonic_Driver.h"
 struct __attribute__((__packed__)) Ultrasonic
 {
     Ifx_P* TRIG_PORT;
@@ -22991,7 +22987,7 @@ long measureEchoTick(struct Ultrasonic* ultrasonic);
 int calculateDistanceCm(long elapsedTicks);
 # 4 "C:\\TUNNEL~1\\TC275\\asw.c" 2
 
-struct ActuatorPacket sendActuatorPkt = {
+struct ActuatorPacket sendActuatorPkt_TEST = {
     .start_byte = 0xAA,
     .packet_id = 0x01,
     .led_rgb = 7,
@@ -23004,18 +23000,23 @@ struct ActuatorPacket sendActuatorPkt = {
     .servo_air = 2048
 };
 
-
-<<<<<<< HEAD
-=======
-    TerminateTask();
-}
-
-void FuncTaskUltrasonic ( void )
+void FuncSensorTask ( void )
 {
 
+    int upperUltrasonicValue = getUltrasonic(&g_UpperUltrasonic);
+    int frontUltrasonicValue = getUltrasonic(&g_FrontUltrasonic);
+    int photoValue = getPhotoresiter();
+
+    struct SensorPacket packet = {
+        .start_byte = 0xAA,
+        .packet_id = 0x02,
+        .photo = photoValue,
+        .ultra_sonic1 = upperUltrasonicValue,
+        .ultra_sonic2 = frontUltrasonicValue
+    };
+    sendSensorPacket(&packet);
 }
 
->>>>>>> 34ff1ec54be522b04d47c3352108486a1876d3f5
 void ButtonISR(void)
 {
     unsigned int buttonState;
@@ -23029,7 +23030,50 @@ void ButtonISR(void)
     EnableAllInterrupts();
 }
 
-void FuncTaskUltrasonic ( void )
+void FuncSendSensorPacket_TEST ( void )
+{
+
+
+
+
+    ActivateTask((5U));
+    printfSerial("SensorPacket sent...");
+    delay_ms(500);
+
+    printfSerial("\nrecieved:[ start:%02x id:%02x photo:%d upper_ultra:%d front_ultra:%d ]",
+        g_RecievedSensorPacket.start_byte,
+        g_RecievedSensorPacket.packet_id,
+        g_RecievedSensorPacket.photo,
+        g_RecievedSensorPacket.ultra_sonic1,
+        g_RecievedSensorPacket.ultra_sonic2
+    );
+}
+
+
+void FuncSendAcutatorPacket_TEST ( void )
+{
+
+
+
+
+
+    sendActuatorPacket(&sendActuatorPkt_TEST);
+    delay_ms(500);
+    printfSerial("ActuatorPacket sent, chair=%d...",sendActuatorPkt_TEST.servo_chair++);
+
+    printfSerial("\nrecieved:[ start:%02x id:%02x led:%d fan:%d buzz:%d led:%d mode:%d chair:%d window:%d air:%d ]",
+        g_RecievedActuatorPacket.start_byte,
+        g_RecievedActuatorPacket.packet_id,
+        g_RecievedActuatorPacket.led_rgb,
+        g_RecievedActuatorPacket.fan,
+        g_RecievedActuatorPacket.led,
+        g_RecievedActuatorPacket.buzzer,
+        g_RecievedActuatorPacket.driving_mode,
+        g_RecievedActuatorPacket.servo_chair,
+        g_RecievedActuatorPacket.servo_window,
+        g_RecievedActuatorPacket.servo_air);
+}
+void FuncTaskUltrasonic_TEST ( void )
 {
     printfSerial("upperUltrasonic:(%d)", getUltrasonic(&g_UpperUltrasonic));
     printfSerial("frontUltrasonic:(%d)", getUltrasonic(&g_FrontUltrasonic));
@@ -23043,33 +23087,17 @@ void TimerISR(void)
 
 
 
+
+
+
     if (c % 2 == 1)
     {
-        sendActuatorPacket(&sendActuatorPkt);
-        printfSerial("ActuatorPacket sent, chair=%d...",sendActuatorPkt.servo_chair++);
-# 58 "C:\\TUNNEL~1\\TC275\\asw.c"
-        printfSerial("\n[ start:%02x id:%02x led:%d fan:%d buzz:%d led:%d mode:%d chair:%d window:%d air:%d ]",
-            g_RecievedActuatorPacket.start_byte,
-            g_RecievedActuatorPacket.packet_id,
-            g_RecievedActuatorPacket.led_rgb,
-            g_RecievedActuatorPacket.fan,
-            g_RecievedActuatorPacket.led,
-            g_RecievedActuatorPacket.buzzer,
-            g_RecievedActuatorPacket.driving_mode,
-            g_RecievedActuatorPacket.servo_chair,
-            g_RecievedActuatorPacket.servo_window,
-            g_RecievedActuatorPacket.servo_air);
+        ActivateTask((7U));
+
     }
 
 
 
     printfSerial("\n%4ld: ", c++);
-<<<<<<< HEAD
-    ActivateTask((5U));
 
-
-=======
-    int photoValue = getPhotoresiter();
-    printfSerial("%d: ", photoValue);
->>>>>>> 34ff1ec54be522b04d47c3352108486a1876d3f5
 }

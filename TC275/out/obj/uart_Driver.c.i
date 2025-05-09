@@ -21327,28 +21327,23 @@ struct __attribute__((__packed__)) SensorPacket
     uint8 crc;
 };
 # 17 "C:\\TUNNEL~1\\TC275\\uart_Driver.h" 2
+# 27 "C:\\TUNNEL~1\\TC275\\uart_Driver.h"
+extern struct ActuatorPacket g_RecievedActuatorPacket;
+extern struct SensorPacket g_RecievedSensorPacket;
 
+void initUartDriver(void);
+void myprintfSerial(const char *fmt, ...);
 
+void sendActuatorPacket(const struct ActuatorPacket *packet);
+void sendSensorPacket(const struct SensorPacket *packet);
+void readActuatorPacket(struct ActuatorPacket *packet);
+void readSensorPacket(struct SensorPacket *packet);
 
-
-
-
-
- extern struct ActuatorPacket g_RecievedActuatorPacket;
-
- void initUartDriver(void);
- void myprintfSerial(const char *fmt,...);
-
- void sendActuatorPacket(const struct ActuatorPacket* packet);
- void sendSensorPacket(const struct SensorPacket* packet);
- void readActuatorPacket(struct ActuatorPacket* packet);
- void readSensorPacket(struct SensorPacket* packet);
-
- uint8 calculate_checksum(const uint8 *data, size_t length);
- void serialize_actuator_packet(const struct ActuatorPacket *packet, uint8 *buffer);
- void deserialize_actuator_packet(const uint8 *buffer, struct ActuatorPacket *packet);
- void serialize_sensor_packet(const struct SensorPacket *packet, uint8 *buffer);
- void deserialize_sensor_packet(const uint8 *buffer, struct SensorPacket *packet);
+uint8 calculate_checksum(const uint8 *data, size_t length);
+void serialize_actuator_packet(const struct ActuatorPacket *packet, uint8 *buffer);
+void deserialize_actuator_packet(const uint8 *buffer, struct ActuatorPacket *packet);
+void serialize_sensor_packet(const struct SensorPacket *packet, uint8 *buffer);
+void deserialize_sensor_packet(const uint8 *buffer, struct SensorPacket *packet);
 # 2 "C:\\TUNNEL~1\\TC275\\uart_Driver.c" 2
 # 1 "C:\\TUNNEL~1\\TC275\\bsw.h" 1
 
@@ -22937,7 +22932,10 @@ uint8_t osEE_assert_last(void);
 
 # 1 "C:\\TUNNEL~1\\TC275\\out/ee_declcfg.h" 1
 # 35 "C:\\TUNNEL~1\\TC275\\out/ee_declcfg.h"
-extern void FuncTaskUltrasonic ( void );
+extern void FuncSensorTask ( void );
+extern void FuncSendAcutatorPacket_TEST ( void );
+extern void FuncSendSensorPacket_TEST ( void );
+extern void FuncTaskUltrasonic_TEST ( void );
 
 
 void asclin3TxISR(void);
@@ -22963,6 +22961,7 @@ uint16 readADCValue(uint8 channel);
 
 App_AsclinAsc g_AsclinStm;
 struct ActuatorPacket g_RecievedActuatorPacket = {};
+struct SensorPacket g_RecievedSensorPacket = {};
 
 void initUartDriver(void)
 {
@@ -23059,9 +23058,11 @@ void asclin0RxISR(void)
 {
 
     IfxAsclin_Asc_isrReceive(&g_AsclinStm.drivers.asc);
-    if(IfxAsclin_Asc_getReadCount(&g_AsclinStm.drivers.asc)>=11){
-        readActuatorPacket(&g_RecievedActuatorPacket);
+# 111 "C:\\TUNNEL~1\\TC275\\uart_Driver.c"
+    if(IfxAsclin_Asc_getReadCount(&g_AsclinStm.drivers.asc)>=9){
+        readSensorPacket(&g_RecievedSensorPacket);
     }
+
 }
 
 void asclin0TxISR(void)

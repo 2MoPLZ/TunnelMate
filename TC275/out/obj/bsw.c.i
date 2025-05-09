@@ -22924,7 +22924,10 @@ uint8_t osEE_assert_last(void);
 
 # 1 "C:\\TUNNEL~1\\TC275\\out/ee_declcfg.h" 1
 # 35 "C:\\TUNNEL~1\\TC275\\out/ee_declcfg.h"
-extern void FuncTaskUltrasonic ( void );
+extern void FuncSensorTask ( void );
+extern void FuncSendAcutatorPacket_TEST ( void );
+extern void FuncSendSensorPacket_TEST ( void );
+extern void FuncTaskUltrasonic_TEST ( void );
 
 
 void asclin3TxISR(void);
@@ -23426,7 +23429,7 @@ void lcd_goto(uint8 row, uint8 col);
 void lcd_print(const char *str);
 # 10 "C:\\TUNNEL~1\\TC275\\bsw.c" 2
 # 1 "C:\\TUNNEL~1\\TC275\\ultrasonic_Driver.h" 1
-# 34 "C:\\TUNNEL~1\\TC275\\ultrasonic_Driver.h"
+# 32 "C:\\TUNNEL~1\\TC275\\ultrasonic_Driver.h"
 struct __attribute__((__packed__)) Ultrasonic
 {
     Ifx_P* TRIG_PORT;
@@ -23446,45 +23449,32 @@ long measureEchoTick(struct Ultrasonic* ultrasonic);
 int calculateDistanceCm(long elapsedTicks);
 # 11 "C:\\TUNNEL~1\\TC275\\bsw.c" 2
 # 1 "C:\\TUNNEL~1\\TC275\\uart_Driver.h" 1
-# 24 "C:\\TUNNEL~1\\TC275\\uart_Driver.h"
- extern struct ActuatorPacket g_RecievedActuatorPacket;
+# 27 "C:\\TUNNEL~1\\TC275\\uart_Driver.h"
+extern struct ActuatorPacket g_RecievedActuatorPacket;
+extern struct SensorPacket g_RecievedSensorPacket;
 
-<<<<<<< HEAD
- void initUartDriver(void);
- void myprintfSerial(const char *fmt,...);
+void initUartDriver(void);
+void myprintfSerial(const char *fmt, ...);
 
- void sendActuatorPacket(const struct ActuatorPacket* packet);
- void sendSensorPacket(const struct SensorPacket* packet);
- void readActuatorPacket(struct ActuatorPacket* packet);
- void readSensorPacket(struct SensorPacket* packet);
+void sendActuatorPacket(const struct ActuatorPacket *packet);
+void sendSensorPacket(const struct SensorPacket *packet);
+void readActuatorPacket(struct ActuatorPacket *packet);
+void readSensorPacket(struct SensorPacket *packet);
 
- uint8 calculate_checksum(const uint8 *data, size_t length);
- void serialize_actuator_packet(const struct ActuatorPacket *packet, uint8 *buffer);
- void deserialize_actuator_packet(const uint8 *buffer, struct ActuatorPacket *packet);
- void serialize_sensor_packet(const struct SensorPacket *packet, uint8 *buffer);
- void deserialize_sensor_packet(const uint8 *buffer, struct SensorPacket *packet);
+uint8 calculate_checksum(const uint8 *data, size_t length);
+void serialize_actuator_packet(const struct ActuatorPacket *packet, uint8 *buffer);
+void deserialize_actuator_packet(const uint8 *buffer, struct ActuatorPacket *packet);
+void serialize_sensor_packet(const struct SensorPacket *packet, uint8 *buffer);
+void deserialize_sensor_packet(const uint8 *buffer, struct SensorPacket *packet);
 # 12 "C:\\TUNNEL~1\\TC275\\bsw.c" 2
 # 1 "C:\\TUNNEL~1\\TC275\\Button_Driver.h" 1
 # 25 "C:\\TUNNEL~1\\TC275\\Button_Driver.h"
-int readLcdButtons();
+int readLcdButtons(void);
 # 13 "C:\\TUNNEL~1\\TC275\\bsw.c" 2
 # 1 "C:\\TUNNEL~1\\TC275\\infotainment_System.h" 1
 # 17 "C:\\TUNNEL~1\\TC275\\infotainment_System.h"
 # 1 "C:\\TUNNEL~1\\TC275\\Lcd_Driver.h" 1
 # 18 "C:\\TUNNEL~1\\TC275\\infotainment_System.h" 2
-=======
-void delay_ms(unsigned long delay);
-void delay_us(unsigned long delay);
-# 11 "C:\\Users\\USER\\Desktop\\WORKSP~1\\TUNNEL~1\\TC275\\bsw.c" 2
-# 1 "C:\\Users\\USER\\Desktop\\WORKSP~1\\TUNNEL~1\\TC275\\Button_Driver.h" 1
-# 25 "C:\\Users\\USER\\Desktop\\WORKSP~1\\TUNNEL~1\\TC275\\Button_Driver.h"
-int readLcdButtons(void);
-# 12 "C:\\Users\\USER\\Desktop\\WORKSP~1\\TUNNEL~1\\TC275\\bsw.c" 2
-# 1 "C:\\Users\\USER\\Desktop\\WORKSP~1\\TUNNEL~1\\TC275\\infotainment_System.h" 1
-# 17 "C:\\Users\\USER\\Desktop\\WORKSP~1\\TUNNEL~1\\TC275\\infotainment_System.h"
-# 1 "C:\\Users\\USER\\Desktop\\WORKSP~1\\TUNNEL~1\\TC275\\Lcd_Driver.h" 1
-# 18 "C:\\Users\\USER\\Desktop\\WORKSP~1\\TUNNEL~1\\TC275\\infotainment_System.h" 2
->>>>>>> 34ff1ec54be522b04d47c3352108486a1876d3f5
 
 enum screenState{
     tunnelMode = 0,
@@ -23515,99 +23505,14 @@ void printStateOff();
 void printStateRed();
 void printStateGreen();
 void printStateBlue();
-<<<<<<< HEAD
 # 14 "C:\\TUNNEL~1\\TC275\\bsw.c" 2
-# 23 "C:\\TUNNEL~1\\TC275\\bsw.c"
+# 1 "C:\\TUNNEL~1\\TC275\\photoresistor_Driver.h" 1
+# 19 "C:\\TUNNEL~1\\TC275\\photoresistor_Driver.h"
+int getPhotoresiter();
+# 15 "C:\\TUNNEL~1\\TC275\\bsw.c" 2
+# 24 "C:\\TUNNEL~1\\TC275\\bsw.c"
 void delay_ms(unsigned long delay);
 void delay_us(unsigned long delay);
-=======
-# 13 "C:\\Users\\USER\\Desktop\\WORKSP~1\\TUNNEL~1\\TC275\\bsw.c" 2
-# 1 "C:\\Users\\USER\\Desktop\\WORKSP~1\\TUNNEL~1\\TC275\\photoresistor_Driver.h" 1
-# 19 "C:\\Users\\USER\\Desktop\\WORKSP~1\\TUNNEL~1\\TC275\\photoresistor_Driver.h"
-int getPhotoresiter();
-# 14 "C:\\Users\\USER\\Desktop\\WORKSP~1\\TUNNEL~1\\TC275\\bsw.c" 2
-
-
-# 1 "c:\\hightec\\toolchains\\tricore\\v4.9.3.0-infineon-1.0\\tricore\\include\\string.h" 1 3
-# 14 "c:\\hightec\\toolchains\\tricore\\v4.9.3.0-infineon-1.0\\tricore\\include\\string.h" 3
-# 1 "c:\\hightec\\toolchains\\tricore\\v4.9.3.0-infineon-1.0\\lib\\gcc\\tricore\\4.9.4\\include\\stddef.h" 1 3 4
-# 15 "c:\\hightec\\toolchains\\tricore\\v4.9.3.0-infineon-1.0\\tricore\\include\\string.h" 2 3
-
-
-
-
-
-
-
-void * memchr (const void *, int, size_t);
-int memcmp (const void *, const void *, size_t);
-void * memcpy (void *, const void *, size_t);
-void * memmove (void *, const void *, size_t);
-void * memset (void *, int, size_t);
-char *strcat (char *, const char *);
-char *strchr (const char *, int);
-int strcmp (const char *, const char *);
-int strcoll (const char *, const char *);
-char *strcpy (char *, const char *);
-size_t strcspn (const char *, const char *);
-char *strerror (int);
-size_t strlen (const char *);
-char *strncat (char *, const char *, size_t);
-int strncmp (const char *, const char *, size_t);
-char *strncpy (char *, const char *, size_t);
-char *strpbrk (const char *, const char *);
-char *strrchr (const char *, int);
-size_t strspn (const char *, const char *);
-char *strstr (const char *, const char *);
-
-
-char *strtok (char *, const char *);
-
-
-size_t strxfrm (char *, const char *, size_t);
-
-
-char *strtok_r (char *, const char *, char **);
-
-int bcmp (const void *, const void *, size_t);
-void bcopy (const void *, void *, size_t);
-void bzero (void *, size_t);
-int ffs (int);
-char *index (const char *, int);
-void * memccpy (void *, const void *, int, size_t);
-void * mempcpy (void *, const void *, size_t);
-void * memmem (const void *, size_t, const void *, size_t);
-char *rindex (const char *, int);
-char *stpcpy (char *, const char *);
-char *stpncpy (char *, const char *, size_t);
-int strcasecmp (const char *, const char *);
-char *strcasestr (const char *, const char *);
-char *strdup (const char *);
-char *_strdup_r (struct _reent *, const char *);
-char *strndup (const char *, size_t);
-char *_strndup_r (struct _reent *, const char *, size_t);
-char *strerror_r (int, char *, size_t);
-size_t strlcat (char *, const char *, size_t);
-size_t strlcpy (char *, const char *, size_t);
-int strncasecmp (const char *, const char *, size_t);
-size_t strnlen (const char *, size_t);
-char *strsep (char **, const char *);
-char *strlwr (char *);
-char *strupr (char *);
-# 100 "c:\\hightec\\toolchains\\tricore\\v4.9.3.0-infineon-1.0\\tricore\\include\\string.h" 3
-# 1 "c:\\hightec\\toolchains\\tricore\\v4.9.3.0-infineon-1.0\\tricore\\include\\sys\\string.h" 1 3
-# 101 "c:\\hightec\\toolchains\\tricore\\v4.9.3.0-infineon-1.0\\tricore\\include\\string.h" 2 3
-
-
-# 17 "C:\\Users\\USER\\Desktop\\WORKSP~1\\TUNNEL~1\\TC275\\bsw.c" 2
-
-
-
-
-
-
-
->>>>>>> 34ff1ec54be522b04d47c3352108486a1876d3f5
 void UART_init(void);
 void printfSerial(const char *fmt,...);
 void initPeripheralsAndERU(void);

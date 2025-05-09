@@ -7,14 +7,46 @@ void initInfotainment(void){
     printInfoDisplay(); 
 }
 
-void syncInfoState(void){
+void syncInfoState(struct g_RecievedActuatorPacket* packet){
+    infotainmentArr[0] =  packet->driving_mode;
+    infotainmentArr[1] =  packet->fan;
+    infotainmentArr[2] =  packet->servo_chair;
+    infotainmentArr[3] =  packet->servo_window 
+    if(packet->led_rgb == 1){
+        infotainmentArr[4] =  0;
+    }
+    else if(packet->led_rgb == 2){
+        infotainmentArr[4] =  0;
+    }   
+    else if(packet->led_rgb == 4){
+        infotainmentArr[4] =  0;
+    }
+    infotainmentArr[5] =  packet->servo_air;
+    infotainmentArr[6] =  packet->led;
 
-
+    lcd_clear(); // LCD 출력 내용 초기화 함수
+    printInfoDisplay(); 
 }
 
-void updatePacket(void){
-
-
+void updatePacket(struct ActuatorPacket* packet){
+    packet->start_byte = 0xAA;
+    packet->packet_id = 0x01;
+    if(infotainmentArr[4] == 0){ //led red
+        packet->led_rgb = 1;
+    }
+    else if(infotainmentArr[4] == 1){ //led green
+        packet->led_rgb = 2;
+    }
+    else if(infotainmentArr[4] == 2){ //led blue
+        packet->led_rgb = 4;
+    }
+    packet->fan = infotainmentArr[1]; //(data 0 ~ 3)
+    packet->led = infotainmentArr[6];
+    packet->buzzer = 0,
+    packet->driving_mode = infotainmentArr[0];
+    packet->servo_chair = infotainmentArr[2];
+    packet->servo_window = infotainmentArr[3];
+    packet->servo_air = infotainmentArr[5];
 }
 
 void updateInfoState(unsigned int buttonState){
