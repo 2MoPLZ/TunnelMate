@@ -1,4 +1,4 @@
-# 🚗 TC275 Dashboard + Sensor ZCU
+# 🚗 Dashboard + Sensor ZCU For TunnelMate
 
 This TC275 board controls ***Dashboard(LCD shield + buttons)*** and ***two Ultrasonic Sensors*** and ***one Photoresistor*** based on ***OSEK/VDX RTOS***
 
@@ -27,6 +27,28 @@ This TC275 board controls ***Dashboard(LCD shield + buttons)*** and ***two Ultra
 ---
 
 ## 🚀 How to Run
+Please refer to the Makefile to configure the build environment.  
+Make sure to update the following paths according to your local setup:
+
+- `GENERATOR`: Path to the ERIKA3 code generation batch file  
+- `EE_DIR`: ERIKA3 Eclipse base directory  
+- `HIGHTEC_DIR`: Path to the HighTec toolchain binaries  
+- `BUILD_DIR`: Directory for build output  
+- `ELF_FILE`: Target ELF file name  
+- `ERIKA_DIR`: ERIKA3 base directory  
+- `OUT_DIR`: Directory for generated output files
+
+```makefile
+ # configure TunnelMate/TC275/Makefile according to your local setup
+   GENERATOR='/cygdrive/c/eclipse/evidence/generate_code.bat'
+   EE_DIR='C:\eclipse'
+   HIGHTEC_DIR='C:\HighTec\toolchains\tricore\v4.9.3.0-infineon-1.0\bin'
+   BUILD_DIR='out'
+   ELF_FILE=erika3app.elf
+   ERIKA_DIR='erika'
+   OUT_DIR='out'
+```
+  
 
  ```markdown
   # run in terminal
