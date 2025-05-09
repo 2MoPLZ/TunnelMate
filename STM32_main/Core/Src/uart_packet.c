@@ -29,13 +29,13 @@ int deserialize_actuator_packet(const uint8_t* buffer, struct ActuatorPacket* pa
 	/* Check crc */
 	struct ActuatorPacket tmp;
     memcpy(&tmp, buffer, ACTUATOR_PACKET_SIZE);
-//
-//    if (calculate_checksum(buffer, ACTUATOR_PACKET_SIZE - 1) != tmp.crc) {
-//    	return -1; // crc mismatch
-//    }
-//
+
+    if (calculate_checksum(buffer, ACTUATOR_PACKET_SIZE - 1) != tmp.crc) {
+    	return -1; // crc mismatch
+    }
+
     /* Copy entire packet */
-	memcpy(packet, buffer, ACTUATOR_PACKET_SIZE);
+	memcpy(packet, &tmp, ACTUATOR_PACKET_SIZE);
 	return 0;
 }
 
@@ -50,11 +50,11 @@ int deserialize_sensor_packet(const uint8_t* buffer, struct SensorPacket* packet
 	/* Check crc */
 		struct SensorPacket tmp;
 	    memcpy(&tmp, buffer, SENSOR_PACKET_SIZE);
-//
-//	    if (calculate_checksum(buffer, SENSOR_PACKET_SIZE - 1) != tmp.crc) {
-//	    	return -1; // crc mismatch
-//	    }
-//
+
+	    if (calculate_checksum(buffer, SENSOR_PACKET_SIZE - 1) != tmp.crc) {
+	    	return -1; // crc mismatch
+	    }
+
 	    /* Copy entire packet */
 		memcpy(packet, &tmp, SENSOR_PACKET_SIZE);
 		return 0;

@@ -36,10 +36,6 @@
 /* USER CODE BEGIN PD */
 #define BUFFER_SIZE 64
 
-#define COMMOD_ACT 0
-#define SENSOR_ACT 1
-#define SENSOR_SENSOR 2
-
 /* USER CODE END PD */
 
 /* Private macro -------------------------------------------------------------*/
@@ -50,19 +46,24 @@
 /* Private variables ---------------------------------------------------------*/
 
 /* USER CODE BEGIN PV */
+uint8_t dma_buf[BUFFER_SIZE] __attribute__((aligned(4)));
 uint8_t actuator_buf[ACTUATOR_PACKET_SIZE] __attribute__((aligned(4)));
-uint8_t sensor_buf[BUFFER_SIZE] __attribute__((aligned(4)));
+uint8_t sensor_buf[SENSOR_PACKET_SIZE] __attribute__((aligned(4)));
 
 struct ActuatorPacket act_config;
 struct ActuatorPacket masked_act_config;
 struct SensorPacket sensor_data;
 
 /* packet flag
- * [0] Got actuator packet from COMMOD
- * [1] Got actuator packet from SENSOR
- * [2] Got sensor packet from SENSOR
+ * [0] Got actuator packet from COMMOD	(COMMOD_ACT)
+ * [1] Got actuator packet from SENSOR	(SENSOR_ACT)
+ * [2] Got sensor packet from SENSOR	(SENSOR_SENSOR)
  */
 uint8_t packet_flag[3] = {0, 0, 0};
+
+#define COMMOD_ACT 0
+#define SENSOR_ACT 1
+#define SENSOR_SENSOR 2
 
 /* USER CODE END PV */
 
@@ -70,7 +71,8 @@ uint8_t packet_flag[3] = {0, 0, 0};
 void SystemClock_Config(void);
 
 /* USER CODE BEGIN PFP */
-void printActuatorPacket(void);
+void printActuatorPacket(void); // DEBUG
+void printSensorPacket(void); // DEBUG
 
 /* USER CODE END PFP */
 
@@ -81,21 +83,50 @@ void printActuatorPacket(void);
 void HAL_UART_RxCpltCallback(UART_HandleTypeDef *huart)
 {
 	if (huart->Instance == USART1) { // Communication Module (COMMOD)
-		if( deserialize_actuator_packet(&actuator_buf, &act_config) == 0)
-		{
+		uint8_t msg[64];
+
+		int len = snprintf(msg, sizeof(msg), "\r\n[<- COMMOD_ACT]\r\n"); // DEBUG
+		HAL_UART_Transmit(&huart2, (uint8_t*)msg, len, HAL_MAX_DELAY); // DEBUG
+
+		if( deserialize_actuator_packet(&actuator_buf, &act_config) == 0){
 			packet_flag[COMMOD_ACT] = 1;
 		}
 		HAL_UART_Receive_IT(UART_COMMOD, actuator_buf, ACTUATOR_PACKET_SIZE);
     }
-	else if (huart->Instance == USART5) { // Sensor Moduel (SENSOR)
-
-    	HAL_UART_Receive_IT(UART_SENSOR, sensor_buf, ACTUATOR_PACKET_SIZE);
-    }
 }
 
 // DMA Callback
-HAL_UART_Receive_DMA()
-HAL_UARTEx_ReceiveToIdle_DMA
+void HAL_UARTEx_RxEventCallback(UART_HandleTypeDef *huart, uint16_t Size)
+{
+	if(huart->Instance == USART5) // Sensor Module
+	{
+		char msg[BUFFER_SIZE]; // DEBUG
+
+		if(dma_buf[0] == 0xAA) // Check start byte
+		{
+			if(dma_buf[1] == ACTUATOR_PACKET_ID)
+			{
+				memcpy(actuator_buf, dma_buf, ACTUATOR_PACKET_SIZE);
+				int len = snprintf(msg, sizeof(msg), "\r\n[<- SENSOR_ACT]\r\n"); // DEBUG
+				HAL_UART_Transmit(&huart2, (uint8_t*)msg, len, HAL_MAX_DELAY); // DEBUG
+				if( deserialize_actuator_packet(&actuator_buf, &act_config) == 0){
+					packet_flag[SENSOR_ACT] = 1;
+				}
+			}
+			else if(dma_buf[1] == SENSOR_PACKET_ID) {
+				memcpy(sensor_buf, dma_buf, SENSOR_PACKET_SIZE);
+				int len = snprintf(msg, sizeof(msg), "\r\n[<- SENSOR_SENSOR]\r\n"); // DEBUG
+				HAL_UART_Transmit(&huart2, (uint8_t*)msg, len, HAL_MAX_DELAY); // DEBUG
+				if(deserialize_sensor_packet(&sensor_buf, &sensor_data) == 0)
+				{
+					packet_flag[SENSOR_SENSOR] = 1;
+				}
+			}
+		}
+	}
+	HAL_UARTEx_ReceiveToIdle_DMA(UART_SENSOR, dma_buf, BUFFER_SIZE);
+}
+
 
 /* USER CODE END 0 */
 
@@ -136,10 +167,11 @@ int main(void)
   /* USER CODE BEGIN 2 */
   HAL_UART_Receive_IT(UART_COMMOD, actuator_buf, ACTUATOR_PACKET_SIZE);
 //  HAL_UART_Receive_IT(UART_SENSOR, sensor_buf, BUFFER_SIZE);
-//  HAL_UARTEx_ReceiveToIdle_DMA(UART_SENSOR, sensor_buf, BUFFER_SIZE);
+  HAL_UARTEx_ReceiveToIdle_DMA(UART_SENSOR, dma_buf, BUFFER_SIZE);
 
-  // @DEBUG
-  setTestActuatorPacket();
+  setTestActuatorPacket(); // DEBUG
+  char debug_buf[BUFFER_SIZE]; // DEBUG
+  int len; // DEBUG
 
   /* USER CODE END 2 */
 
@@ -151,12 +183,51 @@ int main(void)
 		packet_flag[COMMOD_ACT] = 0;
 
 		printActuatorPacket();
+		act_config.led^=1;						// DEBUG
+		act_config.servo_chair+= 5;				// DEBUG
+		act_config.servo_window += 3;			// DEBUG
+		act_config.buzzer^=1;					// DEBUG
+
 		serialize_actuator_packet(&act_config, actuator_buf);
-		memcpy(&act_config, actuator_buf, ACTUATOR_PACKET_SIZE);
-		printActuatorPacket();
-		HAL_UART_Transmit(UART_COMMOD, actuator_buf, ACTUATOR_PACKET_SIZE, HAL_MAX_DELAY);
+
+		memcpy(&act_config, actuator_buf, ACTUATOR_PACKET_SIZE); // DEBUG
+		len = snprintf(debug_buf, sizeof(debug_buf), "\r\n[-> COMMOD]\r\n"); // DEBUG
+		HAL_UART_Transmit(&huart2, (uint8_t*)debug_buf, len, HAL_MAX_DELAY); // DEBUG
+		printActuatorPacket(); // DEBUG
+		HAL_UART_Transmit(UART_COMMOD, actuator_buf, ACTUATOR_PACKET_SIZE, HAL_MAX_DELAY); // DEBUG
+		HAL_UART_Transmit(UART_ACTUATOR, actuator_buf, ACTUATOR_PACKET_SIZE, HAL_MAX_DELAY);
 		/* Handling COMMOD_ACT */
 	}
+
+	if(packet_flag[SENSOR_ACT] == 1) {
+		packet_flag[SENSOR_ACT] = 0;
+
+		printActuatorPacket(); // DEBUG
+
+		serialize_actuator_packet(&act_config, actuator_buf);
+
+		// Send Actuator packet to Sensor // DEBUG
+		memcpy(&act_config, actuator_buf, ACTUATOR_PACKET_SIZE); // DEBUG
+		len = snprintf(debug_buf, sizeof(debug_buf), "\r\n[-> SENSOR]\r\n"); // DEBUG
+		HAL_UART_Transmit(&huart2, (uint8_t*)debug_buf, len, HAL_MAX_DELAY); // DEBUG
+		HAL_UART_Transmit(UART_SENSOR, actuator_buf, ACTUATOR_PACKET_SIZE, HAL_MAX_DELAY); // DEBUG
+
+		printActuatorPacket();
+	}
+
+	if(packet_flag[SENSOR_SENSOR] == 1) {
+		packet_flag[SENSOR_SENSOR] = 0;
+
+		// @TODO Handle Sensor data
+
+		printSensorPacket();
+	}
+
+
+//		packet_flag[COMMOD_ACT] = 1;	// DEBUG
+//		HAL_Delay(3000);				// DEBUG
+
+
     /* USER CODE END WHILE */
 
     /* USER CODE BEGIN 3 */
@@ -227,9 +298,45 @@ void setTestActuatorPacket(void)
 
   act_config.servo_chair = 1000;
   act_config.servo_window = 2000;
-  act_config.servo_air = 1500;
+  act_config.front_distance = 1500;
 
   act_config.crc = 0;
+}
+
+void testTask(void)
+{
+   static int a = 0;
+
+   if(a == 0)
+   {
+      a = 1;
+      act_config.servo_chair = 1200;
+      act_config.servo_window = 450;
+      act_config.led = 1;
+      act_config.led_rgb = 7;
+      act_config.fan = 3;
+      act_config.buzzer = 1;
+      serialize_actuator_packet(&act_config,actuator_buf);
+      if(HAL_UART_Transmit_IT(UART_ACTUATOR,actuator_buf , ACTUATOR_PACKET_SIZE) != HAL_OK)
+      {
+        Error_Handler();
+      }
+   }
+   else
+   {
+      a = 0;
+      act_config.servo_chair = 450;
+      act_config.servo_window = 1200;
+      act_config.led = 0;
+      act_config.led_rgb = 0;
+      act_config.fan = 0;
+      act_config.buzzer = 1;
+      serialize_actuator_packet(&act_config,actuator_buf);
+      if(HAL_UART_Transmit_IT(UART_ACTUATOR,actuator_buf , ACTUATOR_PACKET_SIZE) != HAL_OK)
+      {
+        Error_Handler();
+      }
+   }
 }
 
 void printActuatorPacket(void)
@@ -261,14 +368,44 @@ void printActuatorPacket(void)
     len = snprintf(msg, sizeof(msg),
         "servo_chair:  %u\r\n"
         "servo_window: %u\r\n"
-        "servo_air:    %u\r\n",
+        "front_distance: %u\r\n",
         act_config.servo_chair,
         act_config.servo_window,
-        act_config.servo_air);
+        act_config.front_distance);
     HAL_UART_Transmit(&huart2, (uint8_t*)msg, len, HAL_MAX_DELAY);
 
     // 6. crc
     len = snprintf(msg, sizeof(msg), "crc: 0x%02X\r\n\r\n", act_config.crc);
+    HAL_UART_Transmit(&huart2, (uint8_t*)msg, len, HAL_MAX_DELAY);
+}
+
+void printSensorPacket(void)
+{
+    char msg[64];
+    int len;
+
+    // 1. start_byte
+    len = snprintf(msg, sizeof(msg), "start_byte:    0x%02X\r\n", sensor_data.start_byte);
+    HAL_UART_Transmit(&huart2, (uint8_t*)msg, len, HAL_MAX_DELAY);
+
+    // 2. packet_id
+    len = snprintf(msg, sizeof(msg), "packet_id:     0x%02X\r\n", sensor_data.packet_id);
+    HAL_UART_Transmit(&huart2, (uint8_t*)msg, len, HAL_MAX_DELAY);
+
+    // 3. 조도 센서 값 (photo)
+    len = snprintf(msg, sizeof(msg), "photo:         %u\r\n", sensor_data.photo);
+    HAL_UART_Transmit(&huart2, (uint8_t*)msg, len, HAL_MAX_DELAY);
+
+    // 4. 초음파 센서 1
+    len = snprintf(msg, sizeof(msg), "ultra_sonic1:  %u\r\n", sensor_data.ultra_sonic1);
+    HAL_UART_Transmit(&huart2, (uint8_t*)msg, len, HAL_MAX_DELAY);
+
+    // 5. 초음파 센서 2
+    len = snprintf(msg, sizeof(msg), "ultra_sonic2:  %u\r\n", sensor_data.ultra_sonic2);
+    HAL_UART_Transmit(&huart2, (uint8_t*)msg, len, HAL_MAX_DELAY);
+
+    // 6. CRC
+    len = snprintf(msg, sizeof(msg), "crc:           0x%02X\r\n\r\n", sensor_data.crc);
     HAL_UART_Transmit(&huart2, (uint8_t*)msg, len, HAL_MAX_DELAY);
 }
 /* USER CODE END 4 */

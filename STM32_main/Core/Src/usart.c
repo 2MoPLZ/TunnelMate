@@ -24,10 +24,10 @@
 
 /* USER CODE END 0 */
 
-UART_HandleTypeDef uart_commod;
+UART_HandleTypeDef huart1;
 UART_HandleTypeDef huart2;
-UART_HandleTypeDef uart_actuator;
-UART_HandleTypeDef uart_sensor;
+UART_HandleTypeDef huart4;
+UART_HandleTypeDef huart5;
 DMA_HandleTypeDef hdma_usart5_rx;
 
 /* USART1 init function */
@@ -42,17 +42,17 @@ void MX_USART1_UART_Init(void)
   /* USER CODE BEGIN USART1_Init 1 */
 
   /* USER CODE END USART1_Init 1 */
-  uart_commod.Instance = USART1;
-  uart_commod.Init.BaudRate = 9600;
-  uart_commod.Init.WordLength = UART_WORDLENGTH_8B;
-  uart_commod.Init.StopBits = UART_STOPBITS_1;
-  uart_commod.Init.Parity = UART_PARITY_NONE;
-  uart_commod.Init.Mode = UART_MODE_TX_RX;
-  uart_commod.Init.HwFlowCtl = UART_HWCONTROL_NONE;
-  uart_commod.Init.OverSampling = UART_OVERSAMPLING_16;
-  uart_commod.Init.OneBitSampling = UART_ONE_BIT_SAMPLE_DISABLE;
-  uart_commod.AdvancedInit.AdvFeatureInit = UART_ADVFEATURE_NO_INIT;
-  if (HAL_UART_Init(&uart_commod) != HAL_OK)
+  huart1.Instance = USART1;
+  huart1.Init.BaudRate = 9600;
+  huart1.Init.WordLength = UART_WORDLENGTH_8B;
+  huart1.Init.StopBits = UART_STOPBITS_1;
+  huart1.Init.Parity = UART_PARITY_NONE;
+  huart1.Init.Mode = UART_MODE_TX_RX;
+  huart1.Init.HwFlowCtl = UART_HWCONTROL_NONE;
+  huart1.Init.OverSampling = UART_OVERSAMPLING_16;
+  huart1.Init.OneBitSampling = UART_ONE_BIT_SAMPLE_DISABLE;
+  huart1.AdvancedInit.AdvFeatureInit = UART_ADVFEATURE_NO_INIT;
+  if (HAL_UART_Init(&huart1) != HAL_OK)
   {
     Error_Handler();
   }
@@ -104,17 +104,17 @@ void MX_USART4_UART_Init(void)
   /* USER CODE BEGIN USART4_Init 1 */
 
   /* USER CODE END USART4_Init 1 */
-  uart_actuator.Instance = USART4;
-  uart_actuator.Init.BaudRate = 9600;
-  uart_actuator.Init.WordLength = UART_WORDLENGTH_8B;
-  uart_actuator.Init.StopBits = UART_STOPBITS_1;
-  uart_actuator.Init.Parity = UART_PARITY_NONE;
-  uart_actuator.Init.Mode = UART_MODE_TX_RX;
-  uart_actuator.Init.HwFlowCtl = UART_HWCONTROL_NONE;
-  uart_actuator.Init.OverSampling = UART_OVERSAMPLING_16;
-  uart_actuator.Init.OneBitSampling = UART_ONE_BIT_SAMPLE_DISABLE;
-  uart_actuator.AdvancedInit.AdvFeatureInit = UART_ADVFEATURE_NO_INIT;
-  if (HAL_UART_Init(&uart_actuator) != HAL_OK)
+  huart4.Instance = USART4;
+  huart4.Init.BaudRate = 9600;
+  huart4.Init.WordLength = UART_WORDLENGTH_8B;
+  huart4.Init.StopBits = UART_STOPBITS_1;
+  huart4.Init.Parity = UART_PARITY_NONE;
+  huart4.Init.Mode = UART_MODE_TX_RX;
+  huart4.Init.HwFlowCtl = UART_HWCONTROL_NONE;
+  huart4.Init.OverSampling = UART_OVERSAMPLING_16;
+  huart4.Init.OneBitSampling = UART_ONE_BIT_SAMPLE_DISABLE;
+  huart4.AdvancedInit.AdvFeatureInit = UART_ADVFEATURE_NO_INIT;
+  if (HAL_UART_Init(&huart4) != HAL_OK)
   {
     Error_Handler();
   }
@@ -135,17 +135,17 @@ void MX_USART5_UART_Init(void)
   /* USER CODE BEGIN USART5_Init 1 */
 
   /* USER CODE END USART5_Init 1 */
-  uart_sensor.Instance = USART5;
-  uart_sensor.Init.BaudRate = 9600;
-  uart_sensor.Init.WordLength = UART_WORDLENGTH_8B;
-  uart_sensor.Init.StopBits = UART_STOPBITS_1;
-  uart_sensor.Init.Parity = UART_PARITY_NONE;
-  uart_sensor.Init.Mode = UART_MODE_TX_RX;
-  uart_sensor.Init.HwFlowCtl = UART_HWCONTROL_NONE;
-  uart_sensor.Init.OverSampling = UART_OVERSAMPLING_16;
-  uart_sensor.Init.OneBitSampling = UART_ONE_BIT_SAMPLE_DISABLE;
-  uart_sensor.AdvancedInit.AdvFeatureInit = UART_ADVFEATURE_NO_INIT;
-  if (HAL_UART_Init(&uart_sensor) != HAL_OK)
+  huart5.Instance = USART5;
+  huart5.Init.BaudRate = 9600;
+  huart5.Init.WordLength = UART_WORDLENGTH_8B;
+  huart5.Init.StopBits = UART_STOPBITS_1;
+  huart5.Init.Parity = UART_PARITY_NONE;
+  huart5.Init.Mode = UART_MODE_TX_RX;
+  huart5.Init.HwFlowCtl = UART_HWCONTROL_NONE;
+  huart5.Init.OverSampling = UART_OVERSAMPLING_16;
+  huart5.Init.OneBitSampling = UART_ONE_BIT_SAMPLE_DISABLE;
+  huart5.AdvancedInit.AdvFeatureInit = UART_ADVFEATURE_NO_INIT;
+  if (HAL_UART_Init(&huart5) != HAL_OK)
   {
     Error_Handler();
   }
