@@ -22925,9 +22925,6 @@ uint8_t osEE_assert_last(void);
 # 1 "C:\\TUNNEL~1\\TC275\\out/ee_declcfg.h" 1
 # 35 "C:\\TUNNEL~1\\TC275\\out/ee_declcfg.h"
 extern void FuncSensorTask ( void );
-extern void FuncSendAcutatorPacket_TEST ( void );
-extern void FuncSendSensorPacket_TEST ( void );
-extern void FuncTaskUltrasonic_TEST ( void );
 
 
 void asclin3TxISR(void);
@@ -23492,8 +23489,8 @@ static int infoState = 0;
 static char buf[32];
 
 void initInfotainment(void);
-void syncInfoState();
-void updatePacket(void);
+void syncInfoState(const struct ActuatorPacket* packet);
+void updatePacket(struct ActuatorPacket* packet);
 void updateInfoState(unsigned int buttonState);
 void printInfoDisplay();
 void printStateLv1();
@@ -23561,7 +23558,7 @@ void UART_init(void)
     ascConfig.baudrate.baudrate = 115200;
     ascConfig.baudrate.oversampling = IfxAsclin_OversamplingFactor_4;
 
-    ascConfig.interrupt.txPriority = 19;
+    ascConfig.interrupt.txPriority = 17;
 
     ascConfig.interrupt.typeOfService = IfxCpu_Irq_getTos(IfxCpu_getCoreIndex());
 

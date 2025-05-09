@@ -1931,9 +1931,6 @@ uint8_t osEE_assert_last(void);
 # 1 "C:\\TUNNEL~1\\TC275\\out/ee_declcfg.h" 1
 # 35 "C:\\TUNNEL~1\\TC275\\out/ee_declcfg.h"
 extern void FuncSensorTask ( void );
-extern void FuncSendAcutatorPacket_TEST ( void );
-extern void FuncSendSensorPacket_TEST ( void );
-extern void FuncTaskUltrasonic_TEST ( void );
 
 
 void asclin3TxISR(void);
@@ -22987,19 +22984,6 @@ long measureEchoTick(struct Ultrasonic* ultrasonic);
 int calculateDistanceCm(long elapsedTicks);
 # 4 "C:\\TUNNEL~1\\TC275\\asw.c" 2
 
-struct ActuatorPacket sendActuatorPkt_TEST = {
-    .start_byte = 0xAA,
-    .packet_id = 0x01,
-    .led_rgb = 7,
-    .fan = 2,
-    .led = 1,
-    .buzzer = 0,
-    .driving_mode = 7,
-    .servo_chair = 0,
-    .servo_window = 2048,
-    .servo_air = 2048
-};
-
 void FuncSensorTask ( void )
 {
 
@@ -23021,83 +23005,28 @@ void ButtonISR(void)
 {
     unsigned int buttonState;
     DisableAllInterrupts();
-    osEE_tc_delay(5000);
-    printfSerial("interuppt");
+    delay_us(25);
     buttonState = readLcdButtons();
     updateInfoState(buttonState);
 
-    osEE_tc_delay(3000);
+    struct ActuatorPacket packet;
+    updatePacket(&packet);
+    sendActuatorPacket(&packet);
+
+    delay_us(15);
     EnableAllInterrupts();
 }
 
-void FuncSendSensorPacket_TEST ( void )
-{
-
-
-
-
-    ActivateTask((5U));
-    printfSerial("SensorPacket sent...");
-    delay_ms(500);
-
-    printfSerial("\nrecieved:[ start:%02x id:%02x photo:%d upper_ultra:%d front_ultra:%d ]",
-        g_RecievedSensorPacket.start_byte,
-        g_RecievedSensorPacket.packet_id,
-        g_RecievedSensorPacket.photo,
-        g_RecievedSensorPacket.ultra_sonic1,
-        g_RecievedSensorPacket.ultra_sonic2
-    );
-}
-
-
-void FuncSendAcutatorPacket_TEST ( void )
-{
-
-
-
-
-
-    sendActuatorPacket(&sendActuatorPkt_TEST);
-    delay_ms(500);
-    printfSerial("ActuatorPacket sent, chair=%d...",sendActuatorPkt_TEST.servo_chair++);
-
-    printfSerial("\nrecieved:[ start:%02x id:%02x led:%d fan:%d buzz:%d led:%d mode:%d chair:%d window:%d air:%d ]",
-        g_RecievedActuatorPacket.start_byte,
-        g_RecievedActuatorPacket.packet_id,
-        g_RecievedActuatorPacket.led_rgb,
-        g_RecievedActuatorPacket.fan,
-        g_RecievedActuatorPacket.led,
-        g_RecievedActuatorPacket.buzzer,
-        g_RecievedActuatorPacket.driving_mode,
-        g_RecievedActuatorPacket.servo_chair,
-        g_RecievedActuatorPacket.servo_window,
-        g_RecievedActuatorPacket.servo_air);
-}
-void FuncTaskUltrasonic_TEST ( void )
-{
-    printfSerial("upperUltrasonic:(%d)", getUltrasonic(&g_UpperUltrasonic));
-    printfSerial("frontUltrasonic:(%d)", getUltrasonic(&g_FrontUltrasonic));
-}
 
 void TimerISR(void)
 {
     static long c = -4;
-    osEE_tc_stm_set_sr0_next_match(1000000U);
 
-
-
-
-
-
-
-    if (c % 2 == 1)
-    {
-        ActivateTask((7U));
-
-    }
+    osEE_tc_stm_set_sr0_next_match(250000U);
+# 53 "C:\\TUNNEL~1\\TC275\\asw.c"
+    ActivateTask((5U));
 
 
 
     printfSerial("\n%4ld: ", c++);
-
 }

@@ -22918,9 +22918,6 @@ uint8_t osEE_assert_last(void);
 # 1 "C:\\TUNNEL~1\\TC275\\out/ee_declcfg.h" 1
 # 35 "C:\\TUNNEL~1\\TC275\\out/ee_declcfg.h"
 extern void FuncSensorTask ( void );
-extern void FuncSendAcutatorPacket_TEST ( void );
-extern void FuncSendSensorPacket_TEST ( void );
-extern void FuncTaskUltrasonic_TEST ( void );
 
 
 void asclin3TxISR(void);
@@ -22950,7 +22947,7 @@ int readLcdButtons(void)
     unsigned adc_key_in;
     int button_state;
     adc_key_in = readADCValue(3);
-    printfSerial("%d",adc_key_in);
+    printfSerial("button ADC val(%d)",adc_key_in);
 
 
     if (adc_key_in < 100) {

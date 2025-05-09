@@ -21838,8 +21838,8 @@ static int infoState = 0;
 static char buf[32];
 
 void initInfotainment(void);
-void syncInfoState();
-void updatePacket(void);
+void syncInfoState(const struct ActuatorPacket* packet);
+void updatePacket(struct ActuatorPacket* packet);
 void updateInfoState(unsigned int buttonState);
 void printInfoDisplay();
 void printStateLv1();
@@ -23440,9 +23440,6 @@ uint8_t osEE_assert_last(void);
 # 1 "C:\\TUNNEL~1\\TC275\\out/ee_declcfg.h" 1
 # 35 "C:\\TUNNEL~1\\TC275\\out/ee_declcfg.h"
 extern void FuncSensorTask ( void );
-extern void FuncSendAcutatorPacket_TEST ( void );
-extern void FuncSendSensorPacket_TEST ( void );
-extern void FuncTaskUltrasonic_TEST ( void );
 
 
 void asclin3TxISR(void);
@@ -23472,14 +23469,46 @@ void initInfotainment(void){
     printInfoDisplay();
 }
 
-void syncInfoState(void){
+void syncInfoState(const struct ActuatorPacket* packet){
+    infotainmentArr[0] = packet->driving_mode;
+    infotainmentArr[1] = packet->fan;
+    infotainmentArr[2] = packet->servo_chair;
+    infotainmentArr[3] = packet->servo_window;
+    if(packet->led_rgb == 1){
+        infotainmentArr[4] = 0;
+    }
+    else if(packet->led_rgb == 2){
+        infotainmentArr[4] = 0;
+    }
+    else if(packet->led_rgb == 4){
+        infotainmentArr[4] = 0;
+    }
+    infotainmentArr[5] = packet->servo_air;
+    infotainmentArr[6] = packet->led;
 
-
+    lcd_clear();
+    printInfoDisplay();
 }
 
-void updatePacket(void){
-
-
+void updatePacket(struct ActuatorPacket* packet){
+    packet->start_byte = 0xAA;
+    packet->packet_id = 0x01;
+    if(infotainmentArr[4] == 0){
+        packet->led_rgb = 1;
+    }
+    else if(infotainmentArr[4] == 1){
+        packet->led_rgb = 2;
+    }
+    else if(infotainmentArr[4] == 2){
+        packet->led_rgb = 4;
+    }
+    packet->fan = infotainmentArr[1];
+    packet->led = infotainmentArr[6];
+    packet->buzzer = 0,
+    packet->driving_mode = infotainmentArr[0];
+    packet->servo_chair = infotainmentArr[2];
+    packet->servo_window = infotainmentArr[3];
+    packet->servo_air = infotainmentArr[5];
 }
 
 void updateInfoState(unsigned int buttonState){

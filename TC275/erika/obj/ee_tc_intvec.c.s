@@ -11,28 +11,22 @@ __INTTAB0:
 	osEE_tc_isr_dummy_entry_1:
 	j .
 	.align  5
-	.globl osEE_tc_isr2_entry_2
-	osEE_tc_isr2_entry_2:
-	svlcx
-	mov %d4, 4
-	j osEE_tc_isr2_wrapper
-	.align 5
+	.globl osEE_tc_isr_dummy_entry_2
+	osEE_tc_isr_dummy_entry_2:
+	j .
+	.align  5
 	.globl osEE_tc_isr_dummy_entry_3
 	osEE_tc_isr_dummy_entry_3:
 	j .
 	.align  5
-	.globl osEE_tc_isr2_entry_4
-	osEE_tc_isr2_entry_4:
-	svlcx
-	mov %d4, 1
-	j osEE_tc_isr2_wrapper
-	.align 5
-	.globl osEE_tc_isr2_entry_5
-	osEE_tc_isr2_entry_5:
-	svlcx
-	mov %d4, 2
-	j osEE_tc_isr2_wrapper
-	.align 5
+	.globl osEE_tc_isr_dummy_entry_4
+	osEE_tc_isr_dummy_entry_4:
+	j .
+	.align  5
+	.globl osEE_tc_isr_dummy_entry_5
+	osEE_tc_isr_dummy_entry_5:
+	j .
+	.align  5
 	.globl osEE_tc_isr_dummy_entry_6
 	osEE_tc_isr_dummy_entry_6:
 	j .
@@ -45,14 +39,16 @@ __INTTAB0:
 	osEE_tc_isr_dummy_entry_8:
 	j .
 	.align  5
-	.globl osEE_tc_isr_dummy_entry_9
-	osEE_tc_isr_dummy_entry_9:
-	j .
-	.align  5
+	.globl osEE_tc_isr2_entry_9
+	osEE_tc_isr2_entry_9:
+	svlcx
+	mov %d4, 3
+	j osEE_tc_isr2_wrapper
+	.align 5
 	.globl osEE_tc_isr2_entry_10
 	osEE_tc_isr2_entry_10:
 	svlcx
-	mov %d4, 3
+	mov %d4, 4
 	j osEE_tc_isr2_wrapper
 	.align 5
 	.globl osEE_tc_isr_dummy_entry_11
@@ -63,14 +59,18 @@ __INTTAB0:
 	osEE_tc_isr_dummy_entry_12:
 	j .
 	.align  5
-	.globl osEE_tc_isr_dummy_entry_13
-	osEE_tc_isr_dummy_entry_13:
-	j .
-	.align  5
-	.globl osEE_tc_isr_dummy_entry_14
-	osEE_tc_isr_dummy_entry_14:
-	j .
-	.align  5
+	.globl osEE_tc_isr2_entry_13
+	osEE_tc_isr2_entry_13:
+	svlcx
+	mov %d4, 1
+	j osEE_tc_isr2_wrapper
+	.align 5
+	.globl osEE_tc_isr2_entry_14
+	osEE_tc_isr2_entry_14:
+	svlcx
+	mov %d4, 2
+	j osEE_tc_isr2_wrapper
+	.align 5
 	.globl osEE_tc_isr_dummy_entry_15
 	osEE_tc_isr_dummy_entry_15:
 	j .
@@ -79,20 +79,20 @@ __INTTAB0:
 	osEE_tc_isr_dummy_entry_16:
 	j .
 	.align  5
-	.globl osEE_tc_isr_dummy_entry_17
-	osEE_tc_isr_dummy_entry_17:
-	j .
-	.align  5
-	.globl osEE_tc_isr_dummy_entry_18
-	osEE_tc_isr_dummy_entry_18:
-	j .
-	.align  5
-	.globl osEE_tc_isr2_entry_19
-	osEE_tc_isr2_entry_19:
+	.globl osEE_tc_isr2_entry_17
+	osEE_tc_isr2_entry_17:
 	svlcx
 	mov %d4, 0
 	j osEE_tc_isr2_wrapper
 	.align 5
+	.globl osEE_tc_isr_dummy_entry_18
+	osEE_tc_isr_dummy_entry_18:
+	j .
+	.align  5
+	.globl osEE_tc_isr_dummy_entry_19
+	osEE_tc_isr_dummy_entry_19:
+	j .
+	.align  5
 	.globl osEE_tc_isr_dummy_entry_20
 	osEE_tc_isr_dummy_entry_20:
 	j .

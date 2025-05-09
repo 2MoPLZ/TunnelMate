@@ -63,21 +63,21 @@ CPU test_application {
 
     ISR ASCLIN3_TX {
         CATEGORY = 2;
-        PRIORITY = 19;
+        PRIORITY = 17;
         HANDLER = "asclin3TxISR";
         SOURCE = "ASCLIN3TX";
     };
 
     ISR ASCLIN0_RX {
         CATEGORY = 2;
-        PRIORITY = 4;
+        PRIORITY = 13;
         HANDLER = "asclin0RxISR";
         SOURCE = "ASCLIN0RX";
     };
 
     ISR ASCLIN0_TX {
         CATEGORY = 2;
-        PRIORITY = 5;
+        PRIORITY = 14;
         HANDLER = "asclin0TxISR";
         SOURCE = "ASCLIN0TX";
     };
@@ -85,41 +85,17 @@ CPU test_application {
     ISR ButtonISR {
         CATEGORY = 2;
         SOURCE = "SCUERU0";
-        PRIORITY = 10;
+        PRIORITY = 9;
     };
 
     ISR TimerISR {
         CATEGORY = 2;
         SOURCE = "STM0SR0";
-        PRIORITY = 2;
-    };
-
-    TASK SensorTask{
         PRIORITY = 10;
-        STACK = SHARED;
-        SCHEDULE = FULL;
-        AUTOSTART = FALSE;
-        ACTIVATION = 1;
     };
 
-    TASK SendAcutatorPacket_TEST{
-        PRIORITY = 5;
-        STACK = SHARED;
-        SCHEDULE = FULL;
-        AUTOSTART = FALSE;
-        ACTIVATION = 1;
-    };
-
-    TASK SendSensorPacket_TEST{
-        PRIORITY = 5;
-        STACK = SHARED;
-        SCHEDULE = FULL;
-        AUTOSTART = FALSE;
-        ACTIVATION = 1;
-    };
-
-    TASK TaskUltrasonic_TEST{
-        PRIORITY = 6;
+    TASK SensorTask{ 
+        PRIORITY = 11;
         STACK = SHARED;
         SCHEDULE = FULL;
         AUTOSTART = FALSE;

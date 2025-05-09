@@ -287,7 +287,7 @@ UART_init:
 	mov	%d15, 3
 	st.b	[%SP] 46, %d15
 	.loc 1 74 0
-	mov	%d15, 19
+	mov	%d15, 17
 	st.h	[%SP] 64, %d15
 .LBB118:
 .LBB119:

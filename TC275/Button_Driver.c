@@ -7,7 +7,7 @@ int readLcdButtons(void)
     unsigned adc_key_in;
     int button_state;
     adc_key_in = readADCValue(BUTTON_CH);
-    printfSerial("%d",adc_key_in);
+    printfSerial("button ADC val(%d)",adc_key_in);
 
     //adc_key_in = readADCValue(BUTTON_CH);
     if (adc_key_in < 100) {

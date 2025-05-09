@@ -3,7 +3,7 @@
 .Ltext0:
 .section .rodata,"a",@progbits
 .LC0:
-	.string	"%d"
+	.string	"button ADC val(%d)"
 .section .text,"ax",@progbits
 	.align 1
 	.global	readLcdButtons
