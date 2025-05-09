@@ -32,9 +32,10 @@ static int infoState = 0;
 static char buf[32];  
 
 void initInfotainment(void);
-void syncInfoState(const struct ActuatorPacket* packet);
-void updatePacket(struct ActuatorPacket* packet);
-void updateInfoState(unsigned int buttonState);
+void updateStateByPacket(const struct ActuatorPacket *packet);
+void updateStateByButton(unsigned int buttonState);
+void setActuatorPacket(struct ActuatorPacket* packet);
+
 void printInfoDisplay();
 void printStateLv1();
 void printStateLv2();

@@ -22925,6 +22925,7 @@ uint8_t osEE_assert_last(void);
 # 1 "C:\\TUNNEL~1\\TC275\\out/ee_declcfg.h" 1
 # 35 "C:\\TUNNEL~1\\TC275\\out/ee_declcfg.h"
 extern void FuncSensorTask ( void );
+extern void FuncDashboardButtonTask ( void );
 
 
 void asclin3TxISR(void);
@@ -23489,9 +23490,10 @@ static int infoState = 0;
 static char buf[32];
 
 void initInfotainment(void);
-void syncInfoState(const struct ActuatorPacket* packet);
-void updatePacket(struct ActuatorPacket* packet);
-void updateInfoState(unsigned int buttonState);
+void updateStateByPacket(const struct ActuatorPacket *packet);
+void updateStateByButton(unsigned int buttonState);
+void setActuatorPacket(struct ActuatorPacket* packet);
+
 void printInfoDisplay();
 void printStateLv1();
 void printStateLv2();

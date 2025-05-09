@@ -42,11 +42,11 @@ CPU test_application {
 	ISR ButtonISR {
 		CATEGORY = 2;
 		SOURCE = "SCUERU0";
-		PRIORITY = 9;
+		PRIORITY = 5;
 	};
 	ISR TimerISR {
 		CATEGORY = 2;
 		SOURCE = "STM0SR0";
-		PRIORITY = 10;
+		PRIORITY = 6;
 	};
 };

@@ -33,6 +33,7 @@ extern "C" {
  *
  **************************************************************************/
 DeclareTask(SensorTask);
+DeclareTask(DashboardButtonTask);
 
 
 ISR2(asclin3TxISR);

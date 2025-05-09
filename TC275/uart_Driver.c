@@ -109,7 +109,7 @@ void readActuatorPacket(struct ActuatorPacket *packet)
             //              packet->servo_chair,
             //              packet->servo_window,
             //              packet->servo_air);
-            syncInfoState(packet);
+            updateStateByPacket(packet);
         }
     }
 }

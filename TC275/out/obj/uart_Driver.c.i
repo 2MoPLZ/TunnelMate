@@ -22933,6 +22933,7 @@ uint8_t osEE_assert_last(void);
 # 1 "C:\\TUNNEL~1\\TC275\\out/ee_declcfg.h" 1
 # 35 "C:\\TUNNEL~1\\TC275\\out/ee_declcfg.h"
 extern void FuncSensorTask ( void );
+extern void FuncDashboardButtonTask ( void );
 
 
 void asclin3TxISR(void);
@@ -23033,7 +23034,7 @@ void readActuatorPacket(struct ActuatorPacket *packet)
 # 100 "C:\\TUNNEL~1\\TC275\\uart_Driver.c"
             deserialize_actuator_packet(buffer, packet);
 # 112 "C:\\TUNNEL~1\\TC275\\uart_Driver.c"
-            syncInfoState(packet);
+            updateStateByPacket(packet);
         }
     }
 }

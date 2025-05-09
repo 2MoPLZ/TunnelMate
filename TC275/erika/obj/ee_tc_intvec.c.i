@@ -2788,20 +2788,20 @@ __asm__ (".globl osEE_tc" "_" "isr_dummy_entry_" "2"); __asm__ ("osEE_tc" "_" "i
 __asm__ (".globl osEE_tc" "_" "isr_dummy_entry_" "3"); __asm__ ("osEE_tc" "_" "isr_dummy_entry_" "3" ":"); __asm__ ("j ."); __asm__ (".align  5");
 # 181 "C:\\TUNNEL~1\\TC275\\erika\\src\\ee_tc_intvec.c"
 __asm__ (".globl osEE_tc" "_" "isr_dummy_entry_" "4"); __asm__ ("osEE_tc" "_" "isr_dummy_entry_" "4" ":"); __asm__ ("j ."); __asm__ (".align  5");
-# 192 "C:\\TUNNEL~1\\TC275\\erika\\src\\ee_tc_intvec.c"
-__asm__ (".globl osEE_tc" "_" "isr_dummy_entry_" "5"); __asm__ ("osEE_tc" "_" "isr_dummy_entry_" "5" ":"); __asm__ ("j ."); __asm__ (".align  5");
-# 203 "C:\\TUNNEL~1\\TC275\\erika\\src\\ee_tc_intvec.c"
-__asm__ (".globl osEE_tc" "_" "isr_dummy_entry_" "6"); __asm__ ("osEE_tc" "_" "isr_dummy_entry_" "6" ":"); __asm__ ("j ."); __asm__ (".align  5");
+
+
+
+__asm__ (".globl osEE_tc" "_" "isr2_entry_" "5"); __asm__ ("osEE_tc" "_" "isr2_entry_" "5" ":"); __asm__ ("svlcx"); __asm__ ("mov %d4, " "3"); __asm__ ("j osEE_tc_isr2_wrapper"); __asm__ (".align 5");
+# 196 "C:\\TUNNEL~1\\TC275\\erika\\src\\ee_tc_intvec.c"
+__asm__ (".globl osEE_tc" "_" "isr2_entry_" "6"); __asm__ ("osEE_tc" "_" "isr2_entry_" "6" ":"); __asm__ ("svlcx"); __asm__ ("mov %d4, " "4"); __asm__ ("j osEE_tc_isr2_wrapper"); __asm__ (".align 5");
 # 214 "C:\\TUNNEL~1\\TC275\\erika\\src\\ee_tc_intvec.c"
 __asm__ (".globl osEE_tc" "_" "isr_dummy_entry_" "7"); __asm__ ("osEE_tc" "_" "isr_dummy_entry_" "7" ":"); __asm__ ("j ."); __asm__ (".align  5");
 # 225 "C:\\TUNNEL~1\\TC275\\erika\\src\\ee_tc_intvec.c"
 __asm__ (".globl osEE_tc" "_" "isr_dummy_entry_" "8"); __asm__ ("osEE_tc" "_" "isr_dummy_entry_" "8" ":"); __asm__ ("j ."); __asm__ (".align  5");
-
-
-
-__asm__ (".globl osEE_tc" "_" "isr2_entry_" "9"); __asm__ ("osEE_tc" "_" "isr2_entry_" "9" ":"); __asm__ ("svlcx"); __asm__ ("mov %d4, " "3"); __asm__ ("j osEE_tc_isr2_wrapper"); __asm__ (".align 5");
-# 240 "C:\\TUNNEL~1\\TC275\\erika\\src\\ee_tc_intvec.c"
-__asm__ (".globl osEE_tc" "_" "isr2_entry_" "10"); __asm__ ("osEE_tc" "_" "isr2_entry_" "10" ":"); __asm__ ("svlcx"); __asm__ ("mov %d4, " "4"); __asm__ ("j osEE_tc_isr2_wrapper"); __asm__ (".align 5");
+# 236 "C:\\TUNNEL~1\\TC275\\erika\\src\\ee_tc_intvec.c"
+__asm__ (".globl osEE_tc" "_" "isr_dummy_entry_" "9"); __asm__ ("osEE_tc" "_" "isr_dummy_entry_" "9" ":"); __asm__ ("j ."); __asm__ (".align  5");
+# 247 "C:\\TUNNEL~1\\TC275\\erika\\src\\ee_tc_intvec.c"
+__asm__ (".globl osEE_tc" "_" "isr_dummy_entry_" "10"); __asm__ ("osEE_tc" "_" "isr_dummy_entry_" "10" ":"); __asm__ ("j ."); __asm__ (".align  5");
 # 258 "C:\\TUNNEL~1\\TC275\\erika\\src\\ee_tc_intvec.c"
 __asm__ (".globl osEE_tc" "_" "isr_dummy_entry_" "11"); __asm__ ("osEE_tc" "_" "isr_dummy_entry_" "11" ":"); __asm__ ("j ."); __asm__ (".align  5");
 # 269 "C:\\TUNNEL~1\\TC275\\erika\\src\\ee_tc_intvec.c"

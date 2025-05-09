@@ -386,7 +386,7 @@ readActuatorPacket:
 .LVL39:
 	.loc 1 112 0
 	mov.aa	%a4, %a12
-	call	syncInfoState
+	call	updateStateByPacket
 .LVL40:
 .L14:
 	ret
@@ -12641,8 +12641,6 @@ g_AsclinStm:
 	.string	"baudrate"
 .LASF27:
 	.string	"packet"
-.LASF28:
-	.string	"syncInfoState"
 .LASF22:
 	.string	"errorFlags"
 .LASF7:
@@ -12653,6 +12651,8 @@ g_AsclinStm:
 	.string	"reserved_16"
 .LASF15:
 	.string	"reserved_18"
+.LASF28:
+	.string	"updateStateByPacket"
 .LASF23:
 	.string	"dataBufferMode"
 .LASF8:
@@ -12691,7 +12691,7 @@ g_AsclinStm:
 	.string	"reserved_54"
 	.extern	IfxAsclin_Asc_getReadCount,STT_FUNC,0
 	.extern	IfxAsclin_Asc_isrReceive,STT_FUNC,0
-	.extern	syncInfoState,STT_FUNC,0
+	.extern	updateStateByPacket,STT_FUNC,0
 	.extern	IfxAsclin_Asc_blockingRead,STT_FUNC,0
 	.extern	printfSerial,STT_FUNC,0
 	.extern	IfxAsclin_Asc_isrTransmit,STT_FUNC,0

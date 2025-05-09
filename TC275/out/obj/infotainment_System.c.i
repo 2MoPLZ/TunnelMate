@@ -21838,9 +21838,10 @@ static int infoState = 0;
 static char buf[32];
 
 void initInfotainment(void);
-void syncInfoState(const struct ActuatorPacket* packet);
-void updatePacket(struct ActuatorPacket* packet);
-void updateInfoState(unsigned int buttonState);
+void updateStateByPacket(const struct ActuatorPacket *packet);
+void updateStateByButton(unsigned int buttonState);
+void setActuatorPacket(struct ActuatorPacket* packet);
+
 void printInfoDisplay();
 void printStateLv1();
 void printStateLv2();
@@ -23440,6 +23441,7 @@ uint8_t osEE_assert_last(void);
 # 1 "C:\\TUNNEL~1\\TC275\\out/ee_declcfg.h" 1
 # 35 "C:\\TUNNEL~1\\TC275\\out/ee_declcfg.h"
 extern void FuncSensorTask ( void );
+extern void FuncDashboardButtonTask ( void );
 
 
 void asclin3TxISR(void);
@@ -23463,43 +23465,151 @@ void initADC(void);
 uint16 readADCValue(uint8 channel);
 # 3 "C:\\TUNNEL~1\\TC275\\infotainment_System.c" 2
 
-
-void initInfotainment(void){
+void initInfotainment(void)
+{
     lcd_clear();
     printInfoDisplay();
 }
 
-void syncInfoState(const struct ActuatorPacket* packet){
-    infotainmentArr[0] = packet->driving_mode;
-    infotainmentArr[1] = packet->fan;
-    infotainmentArr[2] = packet->servo_chair;
-    infotainmentArr[3] = packet->servo_window;
-    if(packet->led_rgb == 1){
-        infotainmentArr[4] = 0;
+void updateStateByPacket(const struct ActuatorPacket *packet)
+{
+    boolean isStateUpdated = (0u);
+    if (infotainmentArr[0] != packet->driving_mode)
+    {
+        infotainmentArr[0] = packet->driving_mode;
+        isStateUpdated = (1u);
     }
-    else if(packet->led_rgb == 2){
-        infotainmentArr[4] = 0;
+    if (infotainmentArr[1] != packet->fan)
+    {
+        infotainmentArr[1] = packet->fan;
+        isStateUpdated = (1u);
     }
-    else if(packet->led_rgb == 4){
-        infotainmentArr[4] = 0;
+    if (infotainmentArr[2] != packet->servo_chair)
+    {
+        infotainmentArr[2] = packet->servo_chair;
+        isStateUpdated = (1u);
     }
-    infotainmentArr[5] = packet->servo_air;
-    infotainmentArr[6] = packet->led;
+    if (infotainmentArr[3] != packet->servo_window)
+    {
+        infotainmentArr[3] = packet->servo_window;
+        isStateUpdated = (1u);
+    }
 
-    lcd_clear();
-    printInfoDisplay();
+    if (packet->led_rgb == 1)
+    {
+        if (infotainmentArr[4] != 0)
+        {
+            infotainmentArr[4] = 0;
+            isStateUpdated = (1u);
+        }
+    }
+    else if (packet->led_rgb == 2)
+    {
+        if (infotainmentArr[4] != 1)
+        {
+            infotainmentArr[4] = 1;
+            isStateUpdated = (1u);
+        }
+    }
+    else if (packet->led_rgb == 4)
+    {
+        if (infotainmentArr[4] != 2)
+        {
+            infotainmentArr[4] = 2;
+            isStateUpdated = (1u);
+        }
+    }
+    if (infotainmentArr[5] != packet->servo_air)
+    {
+        infotainmentArr[5] = packet->servo_air;
+        isStateUpdated = (1u);
+    }
+    if (infotainmentArr[6] != packet->led)
+    {
+        infotainmentArr[6] = packet->led;
+        isStateUpdated = (1u);
+    }
+    if (isStateUpdated == (1u))
+    {
+        lcd_clear();
+        printInfoDisplay();
+    }
 }
 
-void updatePacket(struct ActuatorPacket* packet){
+void updateStateByButton(unsigned int buttonState)
+{
+    boolean isStateUpdated = (0u);
+    switch (buttonState)
+    {
+    case 0:
+        if (infoState + 1 <= driveLight)
+        {
+            infoState = infoState + 1;
+            isStateUpdated = (1u);
+        }
+        else
+        {
+            infoState = tunnelMode;
+        }
+        break;
+    case 1:
+        if (infoState - 1 >= tunnelMode)
+        {
+            infoState = infoState - 1;
+            isStateUpdated = (1u);
+        }
+        else
+        {
+            infoState = driveLight;
+        }
+        break;
+    case 2:
+        if (infotainmentArr[infoState] - 1 >= 0)
+        {
+            infotainmentArr[infoState] = infotainmentArr[infoState] - 1;
+            isStateUpdated = (1u);
+        }
+        else
+        {
+            infotainmentArr[infoState] = 0;
+        }
+        break;
+    case 3:
+        if (infotainmentArr[infoState] + 1 <= stateMaxArr[infoState])
+        {
+            infotainmentArr[infoState] = infotainmentArr[infoState] + 1;
+            isStateUpdated = (1u);
+        }
+        else
+        {
+            infotainmentArr[infoState] = stateMaxArr[infoState];
+        }
+        break;
+    }
+    if (isStateUpdated == (1u))
+    {
+        struct ActuatorPacket packet;
+        setActuatorPacket(&packet);
+        sendActuatorPacket(&packet);
+        lcd_clear();
+        printInfoDisplay();
+    }
+}
+
+void setActuatorPacket(struct ActuatorPacket *packet)
+{
     packet->start_byte = 0xAA;
     packet->packet_id = 0x01;
-    if(infotainmentArr[4] == 0){
+    if (infotainmentArr[4] == 0)
+    {
         packet->led_rgb = 1;
     }
-    else if(infotainmentArr[4] == 1){
+    else if (infotainmentArr[4] == 1)
+    {
         packet->led_rgb = 2;
     }
-    else if(infotainmentArr[4] == 2){
+    else if (infotainmentArr[4] == 2)
+    {
         packet->led_rgb = 4;
     }
     packet->fan = infotainmentArr[1];
@@ -23511,167 +23621,144 @@ void updatePacket(struct ActuatorPacket* packet){
     packet->servo_air = infotainmentArr[5];
 }
 
-void updateInfoState(unsigned int buttonState){
-    switch (buttonState) {
-        case 0:
-            if (infoState + 1 <= driveLight) {
-                infoState = infoState + 1;
-            }
-            else {
-                infoState = tunnelMode;
-            }
-            break;
-        case 1:
-            if (infoState - 1 >= tunnelMode) {
-                infoState = infoState - 1;
-            }
-            else {
-                infoState = driveLight;
-            }
-            break;
-        case 2:
-            if(infotainmentArr[infoState] -1 >= 0){
-                infotainmentArr[infoState] = infotainmentArr[infoState] - 1;
-            }
-            else{
-                infotainmentArr[infoState] = 0;
-            }
-            break;
-        case 3:
-            if(infotainmentArr[infoState] +1 <= stateMaxArr[infoState]){
-                infotainmentArr[infoState] = infotainmentArr[infoState] +1;
-            }
-            else{
-                infotainmentArr[infoState] = stateMaxArr[infoState];
-            }
-            break;
-
-    }
-    lcd_clear();
-    printInfoDisplay();
-}
-
-
-void printInfoDisplay(){
-    lcd_goto(0,0);
-    switch (infoState) {
-        case tunnelMode:
-            sprintf(buf, "Tunnel Mode");
-            break;
-        case airConditionMode:
-            sprintf(buf,"Air Conditional");
-            break;
-        case chairDegree:
-            sprintf(buf,"Chair Degree");
-            break;
-        case window:
-            sprintf(buf,"window");
-            break;
-        case embientLight:
-            sprintf(buf,"embient light");
-            break;
-        case adasSensor:
-            sprintf(buf,"adas sensor");
-            break;
-        case driveLight:
-            sprintf(buf,"Drive Light");
-            break;
+void printInfoDisplay()
+{
+    lcd_goto(0, 0);
+    switch (infoState)
+    {
+    case tunnelMode:
+        sprintf(buf, "Tunnel Mode");
+        break;
+    case airConditionMode:
+        sprintf(buf, "Air Conditional");
+        break;
+    case chairDegree:
+        sprintf(buf, "Chair Degree");
+        break;
+    case window:
+        sprintf(buf, "window");
+        break;
+    case embientLight:
+        sprintf(buf, "embient light");
+        break;
+    case adasSensor:
+        sprintf(buf, "adas sensor");
+        break;
+    case driveLight:
+        sprintf(buf, "Drive Light");
+        break;
     }
     lcd_print(buf);
-    lcd_goto(1,0);
+    lcd_goto(1, 0);
 
 
 
-    if(infoState == tunnelMode || infoState == driveLight ){
-        if (infotainmentArr[infoState] == 0) {
+    if (infoState == tunnelMode || infoState == driveLight)
+    {
+        if (infotainmentArr[infoState] == 0)
+        {
             printStateOff();
         }
-        else{
+        else
+        {
             printStateOn();
         }
     }
-    else if(infoState == embientLight){
-        switch(infotainmentArr[infoState]){
-            case 0:
-                printStateRed();
-                break;
-            case 1:
-                printStateGreen();
-                break;
-            case 2:
-                printStateBlue();
-                break;
+    else if (infoState == embientLight)
+    {
+        switch (infotainmentArr[infoState])
+        {
+        case 0:
+            printStateRed();
+            break;
+        case 1:
+            printStateGreen();
+            break;
+        case 2:
+            printStateBlue();
+            break;
         }
     }
-    else if(infoState == chairDegree || infoState == window){
-        switch(infotainmentArr[infoState]){
-            case 0:
-                printStateLv1();
-                break;
-            case 1:
-                printStateLv2();
-                break;
-            case 2:
-                printStateLv3();
-                break;
-            case 3:
-                printStateLv4();
-                break;
+    else if (infoState == chairDegree || infoState == window)
+    {
+        switch (infotainmentArr[infoState])
+        {
+        case 0:
+            printStateLv1();
+            break;
+        case 1:
+            printStateLv2();
+            break;
+        case 2:
+            printStateLv3();
+            break;
+        case 3:
+            printStateLv4();
+            break;
         }
     }
-    else{
-        switch(infotainmentArr[infoState]){
-            case 0:
-                printStateOff();
-                break;
-            case 1:
-                printStateLv1();
-                break;
-            case 2:
-                printStateLv2();
-                break;
-            case 3:
-                printStateLv3();
-                break;
+    else
+    {
+        switch (infotainmentArr[infoState])
+        {
+        case 0:
+            printStateOff();
+            break;
+        case 1:
+            printStateLv1();
+            break;
+        case 2:
+            printStateLv2();
+            break;
+        case 3:
+            printStateLv3();
+            break;
         }
-
     }
-
 }
 
-void printStateLv1(){
+void printStateLv1()
+{
     sprintf(buf, "\xDB\xDB");
     lcd_print(buf);
 }
-void printStateLv2(){
+void printStateLv2()
+{
     sprintf(buf, "\xDB\xDB\xDB\xDB");
     lcd_print(buf);
 }
-void printStateLv3(){
+void printStateLv3()
+{
     sprintf(buf, "\xDB\xDB\xDB\xDB\xDB\xDB");
     lcd_print(buf);
 }
-void printStateLv4(){
+void printStateLv4()
+{
     sprintf(buf, "\xDB\xDB\xDB\xDB\xDB\xDB\xDB\xDB");
     lcd_print(buf);
 }
-void printStateOn(){
+void printStateOn()
+{
     sprintf(buf, "mode on");
     lcd_print(buf);
 }
-void printStateOff(){
+void printStateOff()
+{
     sprintf(buf, "mode off");
     lcd_print(buf);
 }
-void printStateRed(){
+void printStateRed()
+{
     sprintf(buf, "light red");
     lcd_print(buf);
 }
-void printStateGreen(){
+void printStateGreen()
+{
     sprintf(buf, "light green");
     lcd_print(buf);
 }
-void printStateBlue(){
+void printStateBlue()
+{
     sprintf(buf, "light blue");
     lcd_print(buf);
 }

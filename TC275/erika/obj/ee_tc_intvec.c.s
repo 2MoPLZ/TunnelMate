@@ -23,14 +23,18 @@ __INTTAB0:
 	osEE_tc_isr_dummy_entry_4:
 	j .
 	.align  5
-	.globl osEE_tc_isr_dummy_entry_5
-	osEE_tc_isr_dummy_entry_5:
-	j .
-	.align  5
-	.globl osEE_tc_isr_dummy_entry_6
-	osEE_tc_isr_dummy_entry_6:
-	j .
-	.align  5
+	.globl osEE_tc_isr2_entry_5
+	osEE_tc_isr2_entry_5:
+	svlcx
+	mov %d4, 3
+	j osEE_tc_isr2_wrapper
+	.align 5
+	.globl osEE_tc_isr2_entry_6
+	osEE_tc_isr2_entry_6:
+	svlcx
+	mov %d4, 4
+	j osEE_tc_isr2_wrapper
+	.align 5
 	.globl osEE_tc_isr_dummy_entry_7
 	osEE_tc_isr_dummy_entry_7:
 	j .
@@ -39,18 +43,14 @@ __INTTAB0:
 	osEE_tc_isr_dummy_entry_8:
 	j .
 	.align  5
-	.globl osEE_tc_isr2_entry_9
-	osEE_tc_isr2_entry_9:
-	svlcx
-	mov %d4, 3
-	j osEE_tc_isr2_wrapper
-	.align 5
-	.globl osEE_tc_isr2_entry_10
-	osEE_tc_isr2_entry_10:
-	svlcx
-	mov %d4, 4
-	j osEE_tc_isr2_wrapper
-	.align 5
+	.globl osEE_tc_isr_dummy_entry_9
+	osEE_tc_isr_dummy_entry_9:
+	j .
+	.align  5
+	.globl osEE_tc_isr_dummy_entry_10
+	osEE_tc_isr_dummy_entry_10:
+	j .
+	.align  5
 	.globl osEE_tc_isr_dummy_entry_11
 	osEE_tc_isr_dummy_entry_11:
 	j .

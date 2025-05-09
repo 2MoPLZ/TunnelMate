@@ -1931,6 +1931,7 @@ uint8_t osEE_assert_last(void);
 # 1 "C:\\TUNNEL~1\\TC275\\out/ee_declcfg.h" 1
 # 35 "C:\\TUNNEL~1\\TC275\\out/ee_declcfg.h"
 extern void FuncSensorTask ( void );
+extern void FuncDashboardButtonTask ( void );
 
 
 void asclin3TxISR(void);
@@ -22984,9 +22985,10 @@ long measureEchoTick(struct Ultrasonic* ultrasonic);
 int calculateDistanceCm(long elapsedTicks);
 # 4 "C:\\TUNNEL~1\\TC275\\asw.c" 2
 
+volatile uint8 g_buttonState;
+
 void FuncSensorTask ( void )
 {
-
     int upperUltrasonicValue = getUltrasonic(&g_UpperUltrasonic);
     int frontUltrasonicValue = getUltrasonic(&g_FrontUltrasonic);
     int photoValue = getPhotoresiter();
@@ -23001,29 +23003,32 @@ void FuncSensorTask ( void )
     sendSensorPacket(&packet);
 }
 
+void FuncDashboardButtonTask ( void ){
+    updateStateByButton(g_buttonState);
+}
+
 void ButtonISR(void)
 {
-    unsigned int buttonState;
     DisableAllInterrupts();
     delay_us(25);
-    buttonState = readLcdButtons();
-    updateInfoState(buttonState);
-
-    struct ActuatorPacket packet;
-    updatePacket(&packet);
-    sendActuatorPacket(&packet);
-
+    g_buttonState = readLcdButtons();
+    ActivateTask((6U));
     delay_us(15);
     EnableAllInterrupts();
 }
-
 
 void TimerISR(void)
 {
     static long c = -4;
 
     osEE_tc_stm_set_sr0_next_match(250000U);
-# 53 "C:\\TUNNEL~1\\TC275\\asw.c"
+
+
+
+
+
+
+
     ActivateTask((5U));
 
 
