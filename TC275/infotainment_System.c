@@ -7,11 +7,11 @@ void initInfotainment(void){
     printInfoDisplay(); 
 }
 
-void syncInfoState(struct g_RecievedActuatorPacket* packet){
+void syncInfoState(const struct ActuatorPacket* packet){
     infotainmentArr[0] =  packet->driving_mode;
     infotainmentArr[1] =  packet->fan;
     infotainmentArr[2] =  packet->servo_chair;
-    infotainmentArr[3] =  packet->servo_window 
+    infotainmentArr[3] =  packet->servo_window;
     if(packet->led_rgb == 1){
         infotainmentArr[4] =  0;
     }
