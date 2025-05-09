@@ -8,9 +8,9 @@ This TC275 board controls ***Dashboard(LCD shield + buttons)*** and ***two Ultra
 
 1. [System Overview](#-System-Overview)
 2. [How to Run](#-How-to-Run)
-3. [SW Logic](#-SW-Logic)
-4. [HW Specification](#-HW-Specification)
-5. [HW Pin Map](#-HW-Pin-Map)
+3. [Software Logic](#-Software-Logic)
+4. [Hardware Specification](#-Hardware-Specification)
+5. [Hardware Pin Map](#-Hardware-Pin-Map)
 
 </br>
 
@@ -43,7 +43,7 @@ This TC275 board controls ***Dashboard(LCD shield + buttons)*** and ***two Ultra
 
 ---
 
-## 💻 SW Logic
+## 💻 Software Logic
 **All functionalities are scheduled and handled by the erika3 RTOS.**
 ```markdown
   # Sensor Data Acquisition and Transmission to Main ECU
@@ -77,7 +77,7 @@ This TC275 board controls ***Dashboard(LCD shield + buttons)*** and ***two Ultra
 
 ---
 
-## 📌 HW Pin Map
+## 📌 Hardware Pin Map
 | Arduino Signal Name     | TC275T Pin Assignment | Assigned Function   | Description         |
 |-------------------------|------------------------|---------------------|---------------------|
 | Analog pin 0            | SAR4.7 / P32.3         | LCD Shield          | Button              |
