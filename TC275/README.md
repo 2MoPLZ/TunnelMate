@@ -65,13 +65,13 @@ This TC275 board controls ***Dashboard(LCD shield + buttons)*** and ***two Ultra
 ---
 
 ## 📡 Hardware Specification
-| Product Name     |  Model Name             |Role             |
-|------------------|-------------------------|-----------------|
-|TC275 ShieldBuddy | KIT_AURIX_TC275_ARD_SB  |ZCU              |
-|Lcd KeyPad Shield | DFR0009                 |Dashboard        |
-|Photoresistor     |-                        |Night/Tunnel Detection |
-|Ultrasonic Sensor | HC-SR04                 |Tunnel Detection |
-|-                 |-                        |Forward Collision-Avoidance Assist|
+| Product Name      |  Model Name             |Role                    |
+|-------------------|-------------------------|------------------------|
+|TC275 ShieldBuddy  | KIT_AURIX_TC275_ARD_SB  | ZCU                    |
+|Lcd KeyPad Shield  | DFR0009                 | Dashboard              |
+|Photoresistor      | -                       | Night/Tunnel Detection |
+|Ultrasonic Sensor 1| HC-SR04                 | Tunnel Detection       |
+|Ultrasonic Sensor 2| HC-SR04                 | Forward Collision-Avoidance Assist|
 
 </br>
 
