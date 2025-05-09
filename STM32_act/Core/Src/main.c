@@ -53,6 +53,7 @@ TIM_HandleTypeDef htim3;
 TIM_HandleTypeDef htim4;
 
 UART_HandleTypeDef huart1;
+UART_HandleTypeDef huart2;
 
 /* USER CODE BEGIN PV */
 
@@ -66,6 +67,7 @@ static void MX_TIM3_Init(void);
 static void MX_TIM2_Init(void);
 static void MX_TIM4_Init(void);
 static void MX_USART1_UART_Init(void);
+static void MX_USART2_UART_Init(void);
 /* USER CODE BEGIN PFP */
 
 /****task prototype******/
@@ -85,13 +87,13 @@ void handlePacket(void);
 ////시스템 시작하자마자 태스크 실행하려면 status = ACTIVATED로 해주면 됩니다.
 task_t taskTable[NUM_TASK] = {
   //{task_func_ptr, offsetTime, period, waitedTime, status}
-	{testTask, 1000, 1000, 0, DEACTIVATED},
-	{seatTask, 0, 20, 0, DEACTIVATED},
-	{windowTask, 0, 20, 0, DEACTIVATED},
-	{fanTask, 0, 75, 0, DEACTIVATED},
-	{ledTask, 0, 50, 0, DEACTIVATED},
-	{rgbTask, 0, 100, 0, DEACTIVATED},
-	{buzzerTask, 0, 10, 0, DEACTIVATED}
+	//{testTask, 1000, 2000, 0, DEACTIVATED},
+	{seatTask, 0, 20, 0, ACTIVATED},
+	{windowTask, 0, 20, 0, ACTIVATED},
+	{fanTask, 0, 75, 0, ACTIVATED},
+	{ledTask, 0, 50, 0, ACTIVATED},
+	{rgbTask, 0, 100, 0, ACTIVATED},
+	{buzzerTask, 0, 10, 0, ACTIVATED}
 };
 
 ////for uart
@@ -99,6 +101,7 @@ task_t taskTable[NUM_TASK] = {
 #define RX_PTR_LIMIT 200
 static uint8_t tx_buffer[RX_BUFFER_SIZE];
 static uint8_t rx_buffer[RX_BUFFER_SIZE];
+static uint8_t rx_buffer_1[RX_BUFFER_SIZE];
 static struct ActuatorPacket testpacket = {0,};
 static struct ActuatorPacket controlPacket = {0,};
 uint8_t packetReceived = 0;
@@ -145,6 +148,7 @@ int main(void)
   MX_TIM2_Init();
   MX_TIM4_Init();
   MX_USART1_UART_Init();
+  MX_USART2_UART_Init();
   /* USER CODE BEGIN 2 */
   initBuzzer();
   initFan();
@@ -154,12 +158,21 @@ int main(void)
 
   initScheduler();
 
-  //for test
-  if(HAL_UART_Receive_IT(&huart1,rx_buffer + rxPtr,ACTUATOR_PACKET_SIZE) != HAL_OK){
-	  Error_Handler();
-  }
-  ///
 
+//  if(HAL_UART_Receive_IT(&huart1,rx_buffer + rxPtr,ACTUATOR_PACKET_SIZE) != HAL_OK){
+//	  Error_Handler();
+//  }
+  if(HAL_UART_Receive_IT(&huart1,rx_buffer_1,ACTUATOR_PACKET_SIZE) != HAL_OK){
+  	  Error_Handler();
+    }
+
+//	controlPacket.driving_mode = DRIVING_TERNEL; // driving_mode 말고 led_rgb 태스크에서 4번째 비트가 1이면 밝기 줄이기
+//	controlPacket.servo_chair = 1200;
+//	controlPacket.servo_window = 450;
+//	controlPacket.led = 1;
+//	controlPacket.buzzer = 1;
+//	controlPacket.fan = 2;
+//	controlPacket.led_rgb = 0x4;
   /* USER CODE END 2 */
 
   /* Infinite loop */
@@ -170,8 +183,10 @@ int main(void)
     {
       packetReceived = 0;
       handlePacket();
+      printActuatorPacket();
     }
     scheduler();
+
     /* USER CODE END WHILE */
 
     /* USER CODE BEGIN 3 */
@@ -474,7 +489,7 @@ static void MX_USART1_UART_Init(void)
 
   /* USER CODE END USART1_Init 1 */
   huart1.Instance = USART1;
-  huart1.Init.BaudRate = 38400;
+  huart1.Init.BaudRate = 9600;
   huart1.Init.WordLength = UART_WORDLENGTH_8B;
   huart1.Init.StopBits = UART_STOPBITS_1;
   huart1.Init.Parity = UART_PARITY_NONE;
@@ -488,6 +503,39 @@ static void MX_USART1_UART_Init(void)
   /* USER CODE BEGIN USART1_Init 2 */
 
   /* USER CODE END USART1_Init 2 */
+
+}
+
+/**
+  * @brief USART2 Initialization Function
+  * @param None
+  * @retval None
+  */
+static void MX_USART2_UART_Init(void)
+{
+
+  /* USER CODE BEGIN USART2_Init 0 */
+
+  /* USER CODE END USART2_Init 0 */
+
+  /* USER CODE BEGIN USART2_Init 1 */
+
+  /* USER CODE END USART2_Init 1 */
+  huart2.Instance = USART2;
+  huart2.Init.BaudRate = 9600;
+  huart2.Init.WordLength = UART_WORDLENGTH_8B;
+  huart2.Init.StopBits = UART_STOPBITS_1;
+  huart2.Init.Parity = UART_PARITY_NONE;
+  huart2.Init.Mode = UART_MODE_TX_RX;
+  huart2.Init.HwFlowCtl = UART_HWCONTROL_NONE;
+  huart2.Init.OverSampling = UART_OVERSAMPLING_16;
+  if (HAL_UART_Init(&huart2) != HAL_OK)
+  {
+    Error_Handler();
+  }
+  /* USER CODE BEGIN USART2_Init 2 */
+
+  /* USER CODE END USART2_Init 2 */
 
 }
 
@@ -543,27 +591,79 @@ static void MX_GPIO_Init(void)
 }
 
 /* USER CODE BEGIN 4 */
+void printActuatorPacket(void)
+{
+    char msg[64];
+    int len;
+
+    // 1. start_byte
+    len = snprintf(msg, sizeof(msg), "start_byte: 0x%02X\r\n", controlPacket.start_byte);
+    HAL_UART_Transmit(&huart2, (uint8_t*)msg, len, HAL_MAX_DELAY);
+
+    // 2. packet_id
+    len = snprintf(msg, sizeof(msg), "packet_id:  0x%02X\r\n", controlPacket.packet_id);
+    HAL_UART_Transmit(&huart2, (uint8_t*)msg, len, HAL_MAX_DELAY);
+
+    // 3. RGB bits
+    len = snprintf(msg, sizeof(msg),
+        "LED RGB:    R=%u G=%u B=%u\r\n",
+		controlPacket.R, controlPacket.G, controlPacket.B);
+    HAL_UART_Transmit(&huart2, (uint8_t*)msg, len, HAL_MAX_DELAY);
+
+    // 4. fan, led, buzzer, driving_mode
+    len = snprintf(msg, sizeof(msg),
+        "fan: %u  led: %u  buzzer: %u  mode: %u\r\n",
+        controlPacket.fan, controlPacket.led, controlPacket.buzzer, controlPacket.driving_mode);
+    HAL_UART_Transmit(&huart2, (uint8_t*)msg, len, HAL_MAX_DELAY);
+
+    // 5. servo angles
+    len = snprintf(msg, sizeof(msg),
+        "servo_chair:  %u\r\n"
+        "servo_window: %u\r\n"
+        "front_distance: %u\r\n",
+        controlPacket.servo_chair,
+        controlPacket.servo_window,
+        controlPacket.front_distance);
+    HAL_UART_Transmit(&huart2, (uint8_t*)msg, len, HAL_MAX_DELAY);
+
+    // 6. crc
+    len = snprintf(msg, sizeof(msg), "crc: 0x%02X\r\n\r\n", controlPacket.crc);
+    HAL_UART_Transmit(&huart2, (uint8_t*)msg, len, HAL_MAX_DELAY);
+}
 void handlePacket(void)
 {
-  uint8_t _crc = calculate_checksum(rx_buffer+rxPtr,ACTUATOR_PACKET_SIZE-1);
-	if(_crc == rx_buffer[rxPtr+ACTUATOR_PACKET_SIZE-1])
-	{ 
-    deserialize_actuator_packet(rx_buffer, &controlPacket);
-	}
-  else
-  {
-    //do nothing
-  }
+//  uint8_t _crc = calculate_checksum(rx_buffer+rxPtr,ACTUATOR_PACKET_SIZE-1);
+//	if(_crc == rx_buffer[rxPtr+ACTUATOR_PACKET_SIZE-1])
+//	{
+//    deserialize_actuator_packet(rx_buffer, &controlPacket);
+//	}
+//  else
+//  {
+//    //do nothing
+//  }
+//
+//  if(rxPtr > RX_PTR_LIMIT)
+//  {
+//    rxPtr = 0;
+//  }
+//  else
+//  {
+//    rxPtr += ACTUATOR_PACKET_SIZE;
+//  }
+//  HAL_UART_Receive_IT(&huart1,rx_buffer+rxPtr,ACTUATOR_PACKET_SIZE);
 
-  if(rxPtr > RX_PTR_LIMIT)
-  {
-    rxPtr = 0;
-  }
-  else
-  {
-    rxPtr += ACTUATOR_PACKET_SIZE;
-  }
-  HAL_UART_Receive_IT(&huart1,rx_buffer+rxPtr,ACTUATOR_PACKET_SIZE);
+  uint8_t _crc = calculate_checksum(rx_buffer_1,ACTUATOR_PACKET_SIZE-1);
+  	if(_crc == rx_buffer_1[ACTUATOR_PACKET_SIZE-1])
+  	{
+      deserialize_actuator_packet(rx_buffer_1, &controlPacket);
+  	}
+    else
+    {
+      //do nothing
+    }
+
+
+    HAL_UART_Receive_IT(&huart1,rx_buffer_1,ACTUATOR_PACKET_SIZE);
 }
 void HAL_UART_RxCpltCallback(UART_HandleTypeDef *huart)
 {
@@ -576,7 +676,8 @@ void HAL_UART_ErrorCallback(UART_HandleTypeDef *huart)
 {
   if(huart->Instance == huart1.Instance)
   {
-    HAL_UART_Receive_IT(&huart1, rx_buffer + rxPtr, ACTUATOR_PACKET_SIZE);
+    //HAL_UART_Receive_IT(&huart1, rx_buffer + rxPtr, ACTUATOR_PACKET_SIZE);
+    HAL_UART_Receive_IT(&huart1, rx_buffer_1, ACTUATOR_PACKET_SIZE);
   }
 }
 void initControlValue(void)
@@ -599,7 +700,7 @@ void testTask(void)
 		testpacket.servo_chair = 1200;
 		testpacket.servo_window = 450;
 		testpacket.led = 1;
-		testpacket.led_rgb = 4;
+		testpacket.led_rgb = 7;
 		testpacket.fan = 3;
 		serialize_actuator_packet(&testpacket,tx_buffer);
 		if(HAL_UART_Transmit_IT(&huart1,tx_buffer , ACTUATOR_PACKET_SIZE) != HAL_OK)
@@ -703,13 +804,15 @@ void rgbTask(void)
 	static uint8_t rgb_red =0;
 	static uint8_t rgb_green =0;
 	static uint8_t rgb_blue =0;
+	static uint8_t rgb_mode =0;
 	rgb_red = 0x1 & controlPacket.led_rgb ;
 	rgb_green = 0x2 & controlPacket.led_rgb ;
 	rgb_blue = 0x4 & controlPacket.led_rgb ;
+	rgb_mode = 0x8 & controlPacket.led_rgb; //led_rgb의 4번쨰 비트가 0이면 일반 모드, 1이면 터널모드(밝기 30퍼)
 
-	if(controlPacket.driving_mode == DRIVING_TERNEL)
+	if(rgb_mode)
   {
-    setColorRgb(700*rgb_red, 700*rgb_green, 700*rgb_blue);
+    setColorRgb(30*rgb_red, 30*rgb_green, 30*rgb_blue);
   }
 	else
   {

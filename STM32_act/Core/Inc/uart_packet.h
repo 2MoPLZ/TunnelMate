@@ -47,7 +47,7 @@
      /* Servo motors (12 bits each, using two 16-bit fields = 4 bytes) */
      uint16_t servo_chair; /* Chair tilt angle */
      uint16_t servo_window; /* Window position */
-     uint16_t servo_air; /* Air control */
+     uint16_t front_distance; /* Air control */
  
      /* CRC (1 byte) */
      uint8_t crc; /* Checksum or CRC */
