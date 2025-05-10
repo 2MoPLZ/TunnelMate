@@ -147,20 +147,28 @@ TimerISR:
 .LCFI2:
 	.loc 1 49 0
 	addi	%d4, %d4, 16960
+	.loc 1 58 0
+	movh.a	%a15, hi:c.16173
+	.loc 1 49 0
 	call	osEE_tc_stm_set_sr0_next_match
 .LVL16:
 	.loc 1 58 0
-	movh.a	%a15, hi:c.16173
 	ld.w	%d15, [%a15] lo:c.16173
-	mov	%d2, 2
-	div	%e2, %d15, %d2
-	jne	%d3, 1, .L5
-	.loc 1 58 0 is_stmt 0 discriminator 1
+	jnz	%d15, .L5
+.LBB2:
+	.loc 1 59 0
+	call	lcd_clear
+.LVL17:
+	.loc 1 60 0
+	call	printInfoDisplay
+.LVL18:
+.L5:
+.LBE2:
+	.loc 1 62 0
 	mov	%d4, 5
 	call	ActivateTask
-.LVL17:
-.L5:
-	.loc 1 63 0 is_stmt 1
+.LVL19:
+	.loc 1 67 0
 	ld.w	%d15, [%a15] lo:c.16173
 	movh.a	%a4, hi:.LC0
 	st.w	[%SP]0, %d15
@@ -168,7 +176,7 @@ TimerISR:
 	add	%d15, 1
 	st.w	[%a15] lo:c.16173, %d15
 	j	printfSerial
-.LVL18:
+.LVL20:
 .LFE577:
 	.size	TimerISR, .-TimerISR
 .section .data,"aw",@progbits
@@ -259,7 +267,7 @@ g_buttonState:
 	.file 14 "C:\\TUNNEL~1\\TC275\\bsw.h"
 .section .debug_info,"",@progbits
 .Ldebug_info0:
-	.uaword	0x2e9a
+	.uaword	0x2f06
 	.uahalf	0x3
 	.uaword	.Ldebug_abbrev0
 	.byte	0x4
@@ -4924,17 +4932,17 @@ g_buttonState:
 	.sleb128 -9
 	.uleb128 0x25
 	.uaword	.LVL0
-	.uaword	0x2d0f
+	.uaword	0x2d55
 	.uleb128 0x25
 	.uaword	.LVL2
-	.uaword	0x2d0f
+	.uaword	0x2d55
 	.uleb128 0x25
 	.uaword	.LVL4
-	.uaword	0x2d37
+	.uaword	0x2d7d
 	.uleb128 0x26
 	.uaword	.LVL6
 	.byte	0x1
-	.uaword	0x2d4a
+	.uaword	0x2d90
 	.uleb128 0x27
 	.byte	0x1
 	.byte	0x64
@@ -4985,10 +4993,10 @@ g_buttonState:
 	.byte	0
 	.uleb128 0x25
 	.uaword	.LVL7
-	.uaword	0x2d76
+	.uaword	0x2dbc
 	.uleb128 0x28
 	.uaword	.LVL8
-	.uaword	0x2d89
+	.uaword	0x2dcf
 	.uaword	0x2b7c
 	.uleb128 0x27
 	.byte	0x1
@@ -5000,7 +5008,7 @@ g_buttonState:
 	.uleb128 0x26
 	.uaword	.LVL9
 	.byte	0x1
-	.uaword	0x2d9c
+	.uaword	0x2de2
 	.uleb128 0x27
 	.byte	0x1
 	.byte	0x64
@@ -5033,10 +5041,10 @@ g_buttonState:
 	.byte	0
 	.uleb128 0x25
 	.uaword	.LVL10
-	.uaword	0x2dca
+	.uaword	0x2e10
 	.uleb128 0x28
 	.uaword	.LVL11
-	.uaword	0x2de5
+	.uaword	0x2e2b
 	.uaword	0x2bdd
 	.uleb128 0x27
 	.byte	0x1
@@ -5047,10 +5055,10 @@ g_buttonState:
 	.byte	0
 	.uleb128 0x25
 	.uaword	.LVL12
-	.uaword	0x2e04
+	.uaword	0x2e4a
 	.uleb128 0x28
 	.uaword	.LVL13
-	.uaword	0x2e17
+	.uaword	0x2e5d
 	.uaword	0x2bf9
 	.uleb128 0x27
 	.byte	0x1
@@ -5060,7 +5068,7 @@ g_buttonState:
 	.byte	0
 	.uleb128 0x28
 	.uaword	.LVL14
-	.uaword	0x2de5
+	.uaword	0x2e2b
 	.uaword	0x2c0e
 	.uleb128 0x27
 	.byte	0x1
@@ -5072,7 +5080,7 @@ g_buttonState:
 	.uleb128 0x29
 	.uaword	.LVL15
 	.byte	0x1
-	.uaword	0x2e39
+	.uaword	0x2e7f
 	.byte	0
 	.uleb128 0x20
 	.byte	0x1
@@ -5085,7 +5093,7 @@ g_buttonState:
 	.byte	0x1
 	.byte	0x9c
 	.byte	0x1
-	.uaword	0x2c8b
+	.uaword	0x2cd1
 	.uleb128 0x24
 	.string	"c"
 	.byte	0x1
@@ -5094,10 +5102,41 @@ g_buttonState:
 	.byte	0x5
 	.byte	0x3
 	.uaword	c.16173
+	.uleb128 0x2a
+	.uaword	.LBB2
+	.uaword	.LBE2
+	.uaword	0x2c8b
+	.uleb128 0x22
+	.byte	0x1
+	.uaword	.LASF14
+	.byte	0x1
+	.byte	0x3b
+	.uaword	0x15d
+	.byte	0x1
+	.uaword	0x2c65
+	.uleb128 0x23
+	.byte	0
+	.uleb128 0x22
+	.byte	0x1
+	.uaword	.LASF15
+	.byte	0x1
+	.byte	0x3c
+	.uaword	0x15d
+	.byte	0x1
+	.uaword	0x2c78
+	.uleb128 0x23
+	.byte	0
+	.uleb128 0x25
+	.uaword	.LVL17
+	.uaword	0x2e99
+	.uleb128 0x25
+	.uaword	.LVL18
+	.uaword	0x2eac
+	.byte	0
 	.uleb128 0x28
 	.uaword	.LVL16
-	.uaword	0x2e53
-	.uaword	0x2c5c
+	.uaword	0x2ebf
+	.uaword	0x2ca2
 	.uleb128 0x27
 	.byte	0x1
 	.byte	0x54
@@ -5106,9 +5145,9 @@ g_buttonState:
 	.uaword	0xf4240
 	.byte	0
 	.uleb128 0x28
-	.uaword	.LVL17
-	.uaword	0x2e17
-	.uaword	0x2c6f
+	.uaword	.LVL19
+	.uaword	0x2e5d
+	.uaword	0x2cb5
 	.uleb128 0x27
 	.byte	0x1
 	.byte	0x54
@@ -5116,9 +5155,9 @@ g_buttonState:
 	.byte	0x35
 	.byte	0
 	.uleb128 0x26
-	.uaword	.LVL18
+	.uaword	.LVL20
 	.byte	0x1
-	.uaword	0x2e83
+	.uaword	0x2eef
 	.uleb128 0x27
 	.byte	0x1
 	.byte	0x64
@@ -5136,35 +5175,35 @@ g_buttonState:
 	.byte	0
 	.uleb128 0xc
 	.uaword	0x24e
-	.uaword	0x2c9b
+	.uaword	0x2ce1
 	.uleb128 0xd
 	.uaword	0x507
 	.byte	0x2
 	.byte	0
-	.uleb128 0x2a
+	.uleb128 0x2b
 	.string	"IfxCpu_cfg_indexMap"
 	.byte	0x7
 	.byte	0xa7
-	.uaword	0x2cb8
+	.uaword	0x2cfe
 	.byte	0x1
 	.byte	0x1
 	.uleb128 0x5
-	.uaword	0x2c8b
-	.uleb128 0x2a
+	.uaword	0x2cd1
+	.uleb128 0x2b
 	.string	"g_UpperUltrasonic"
 	.byte	0xa
 	.byte	0x28
 	.uaword	0x29d8
 	.byte	0x1
 	.byte	0x1
-	.uleb128 0x2a
+	.uleb128 0x2b
 	.string	"g_FrontUltrasonic"
 	.byte	0xa
 	.byte	0x29
 	.uaword	0x29d8
 	.byte	0x1
 	.byte	0x1
-	.uleb128 0x2b
+	.uleb128 0x2c
 	.string	"g_buttonState"
 	.byte	0x1
 	.byte	0x5
@@ -5173,7 +5212,7 @@ g_buttonState:
 	.byte	0x5
 	.byte	0x3
 	.uaword	g_buttonState
-	.uleb128 0x2c
+	.uleb128 0x2d
 	.byte	0x1
 	.string	"getUltrasonic"
 	.byte	0xa
@@ -5181,9 +5220,9 @@ g_buttonState:
 	.byte	0x1
 	.uaword	0x15d
 	.byte	0x1
-	.uaword	0x2d31
-	.uleb128 0x2d
-	.uaword	0x2d31
+	.uaword	0x2d77
+	.uleb128 0x2e
+	.uaword	0x2d77
 	.byte	0
 	.uleb128 0x4
 	.byte	0x4
@@ -5195,23 +5234,23 @@ g_buttonState:
 	.byte	0xb
 	.uaword	0x15d
 	.byte	0x1
-	.uaword	0x2d4a
+	.uaword	0x2d90
 	.uleb128 0x23
 	.byte	0
-	.uleb128 0x2e
+	.uleb128 0x2f
 	.byte	0x1
 	.string	"sendSensorPacket"
 	.byte	0xb
 	.byte	0x22
 	.byte	0x1
 	.byte	0x1
-	.uaword	0x2d6b
-	.uleb128 0x2d
-	.uaword	0x2d6b
+	.uaword	0x2db1
+	.uleb128 0x2e
+	.uaword	0x2db1
 	.byte	0
 	.uleb128 0x4
 	.byte	0x4
-	.uaword	0x2d71
+	.uaword	0x2db7
 	.uleb128 0x5
 	.uaword	0x2966
 	.uleb128 0x22
@@ -5221,7 +5260,7 @@ g_buttonState:
 	.byte	0x1b
 	.uaword	0x15d
 	.byte	0x1
-	.uaword	0x2d89
+	.uaword	0x2dcf
 	.uleb128 0x23
 	.byte	0
 	.uleb128 0x22
@@ -5231,41 +5270,41 @@ g_buttonState:
 	.byte	0x20
 	.uaword	0x15d
 	.byte	0x1
-	.uaword	0x2d9c
+	.uaword	0x2de2
 	.uleb128 0x23
 	.byte	0
-	.uleb128 0x2e
+	.uleb128 0x2f
 	.byte	0x1
 	.string	"sendActuatorPacket"
 	.byte	0xb
 	.byte	0x21
 	.byte	0x1
 	.byte	0x1
-	.uaword	0x2dbf
-	.uleb128 0x2d
-	.uaword	0x2dbf
+	.uaword	0x2e05
+	.uleb128 0x2e
+	.uaword	0x2e05
 	.byte	0
 	.uleb128 0x4
 	.byte	0x4
-	.uaword	0x2dc5
+	.uaword	0x2e0b
 	.uleb128 0x5
 	.uaword	0x28a1
-	.uleb128 0x2f
+	.uleb128 0x30
 	.byte	0x1
 	.string	"DisableAllInterrupts"
 	.byte	0xd
 	.byte	0x71
 	.byte	0x1
 	.byte	0x1
-	.uleb128 0x30
+	.uleb128 0x31
 	.byte	0x1
 	.string	"osEE_tc_delay"
 	.byte	0xc
 	.uahalf	0x3a9
 	.byte	0x1
 	.byte	0x1
-	.uaword	0x2e04
-	.uleb128 0x2d
+	.uaword	0x2e4a
+	.uleb128 0x2e
 	.uaword	0x288
 	.byte	0
 	.uleb128 0x22
@@ -5275,10 +5314,10 @@ g_buttonState:
 	.byte	0x28
 	.uaword	0x15d
 	.byte	0x1
-	.uaword	0x2e17
+	.uaword	0x2e5d
 	.uleb128 0x23
 	.byte	0
-	.uleb128 0x31
+	.uleb128 0x32
 	.byte	0x1
 	.string	"ActivateTask"
 	.byte	0xd
@@ -5286,36 +5325,56 @@ g_buttonState:
 	.byte	0x1
 	.uaword	0x4e4
 	.byte	0x1
-	.uaword	0x2e39
-	.uleb128 0x2d
+	.uaword	0x2e7f
+	.uleb128 0x2e
 	.uaword	0x298
 	.byte	0
-	.uleb128 0x2f
+	.uleb128 0x30
 	.byte	0x1
 	.string	"EnableAllInterrupts"
 	.byte	0xd
 	.byte	0x8a
 	.byte	0x1
 	.byte	0x1
-	.uleb128 0x30
+	.uleb128 0x22
+	.byte	0x1
+	.uaword	.LASF14
+	.byte	0x1
+	.byte	0x3b
+	.uaword	0x15d
+	.byte	0x1
+	.uaword	0x2eac
+	.uleb128 0x23
+	.byte	0
+	.uleb128 0x22
+	.byte	0x1
+	.uaword	.LASF15
+	.byte	0x1
+	.byte	0x3c
+	.uaword	0x15d
+	.byte	0x1
+	.uaword	0x2ebf
+	.uleb128 0x23
+	.byte	0
+	.uleb128 0x31
 	.byte	0x1
 	.string	"osEE_tc_stm_set_sr0_next_match"
 	.byte	0xc
 	.uahalf	0x3d8
 	.byte	0x1
 	.byte	0x1
-	.uaword	0x2e83
-	.uleb128 0x2d
+	.uaword	0x2eef
+	.uleb128 0x2e
 	.uaword	0x288
 	.byte	0
-	.uleb128 0x32
+	.uleb128 0x33
 	.byte	0x1
 	.string	"printfSerial"
 	.byte	0xe
 	.byte	0xe
 	.byte	0x1
 	.byte	0x1
-	.uleb128 0x2d
+	.uleb128 0x2e
 	.uaword	0x20e
 	.uleb128 0x23
 	.byte	0
@@ -5864,6 +5923,17 @@ g_buttonState:
 	.byte	0
 	.byte	0
 	.uleb128 0x2a
+	.uleb128 0xb
+	.byte	0x1
+	.uleb128 0x11
+	.uleb128 0x1
+	.uleb128 0x12
+	.uleb128 0x1
+	.uleb128 0x1
+	.uleb128 0x13
+	.byte	0
+	.byte	0
+	.uleb128 0x2b
 	.uleb128 0x34
 	.byte	0
 	.uleb128 0x3
@@ -5880,7 +5950,7 @@ g_buttonState:
 	.uleb128 0xc
 	.byte	0
 	.byte	0
-	.uleb128 0x2b
+	.uleb128 0x2c
 	.uleb128 0x34
 	.byte	0
 	.uleb128 0x3
@@ -5897,7 +5967,7 @@ g_buttonState:
 	.uleb128 0xa
 	.byte	0
 	.byte	0
-	.uleb128 0x2c
+	.uleb128 0x2d
 	.uleb128 0x2e
 	.byte	0x1
 	.uleb128 0x3f
@@ -5918,51 +5988,15 @@ g_buttonState:
 	.uleb128 0x13
 	.byte	0
 	.byte	0
-	.uleb128 0x2d
+	.uleb128 0x2e
 	.uleb128 0x5
 	.byte	0
 	.uleb128 0x49
-	.uleb128 0x13
-	.byte	0
-	.byte	0
-	.uleb128 0x2e
-	.uleb128 0x2e
-	.byte	0x1
-	.uleb128 0x3f
-	.uleb128 0xc
-	.uleb128 0x3
-	.uleb128 0x8
-	.uleb128 0x3a
-	.uleb128 0xb
-	.uleb128 0x3b
-	.uleb128 0xb
-	.uleb128 0x27
-	.uleb128 0xc
-	.uleb128 0x3c
-	.uleb128 0xc
-	.uleb128 0x1
 	.uleb128 0x13
 	.byte	0
 	.byte	0
 	.uleb128 0x2f
 	.uleb128 0x2e
-	.byte	0
-	.uleb128 0x3f
-	.uleb128 0xc
-	.uleb128 0x3
-	.uleb128 0x8
-	.uleb128 0x3a
-	.uleb128 0xb
-	.uleb128 0x3b
-	.uleb128 0xb
-	.uleb128 0x27
-	.uleb128 0xc
-	.uleb128 0x3c
-	.uleb128 0xc
-	.byte	0
-	.byte	0
-	.uleb128 0x30
-	.uleb128 0x2e
 	.byte	0x1
 	.uleb128 0x3f
 	.uleb128 0xc
@@ -5971,13 +6005,30 @@ g_buttonState:
 	.uleb128 0x3a
 	.uleb128 0xb
 	.uleb128 0x3b
-	.uleb128 0x5
+	.uleb128 0xb
 	.uleb128 0x27
 	.uleb128 0xc
 	.uleb128 0x3c
 	.uleb128 0xc
 	.uleb128 0x1
 	.uleb128 0x13
+	.byte	0
+	.byte	0
+	.uleb128 0x30
+	.uleb128 0x2e
+	.byte	0
+	.uleb128 0x3f
+	.uleb128 0xc
+	.uleb128 0x3
+	.uleb128 0x8
+	.uleb128 0x3a
+	.uleb128 0xb
+	.uleb128 0x3b
+	.uleb128 0xb
+	.uleb128 0x27
+	.uleb128 0xc
+	.uleb128 0x3c
+	.uleb128 0xc
 	.byte	0
 	.byte	0
 	.uleb128 0x31
@@ -5993,6 +6044,25 @@ g_buttonState:
 	.uleb128 0x5
 	.uleb128 0x27
 	.uleb128 0xc
+	.uleb128 0x3c
+	.uleb128 0xc
+	.uleb128 0x1
+	.uleb128 0x13
+	.byte	0
+	.byte	0
+	.uleb128 0x32
+	.uleb128 0x2e
+	.byte	0x1
+	.uleb128 0x3f
+	.uleb128 0xc
+	.uleb128 0x3
+	.uleb128 0x8
+	.uleb128 0x3a
+	.uleb128 0xb
+	.uleb128 0x3b
+	.uleb128 0x5
+	.uleb128 0x27
+	.uleb128 0xc
 	.uleb128 0x49
 	.uleb128 0x13
 	.uleb128 0x3c
@@ -6001,7 +6071,7 @@ g_buttonState:
 	.uleb128 0x13
 	.byte	0
 	.byte	0
-	.uleb128 0x32
+	.uleb128 0x33
 	.uleb128 0x2e
 	.byte	0x1
 	.uleb128 0x3f
@@ -6067,6 +6137,8 @@ g_buttonState:
 .section .debug_str,"",@progbits
 .LASF8:
 	.string	"start_byte"
+.LASF15:
+	.string	"printInfoDisplay"
 .LASF0:
 	.string	"reserved_0"
 .LASF4:
@@ -6075,6 +6147,8 @@ g_buttonState:
 	.string	"reserved_8"
 .LASF13:
 	.string	"readLcdButtons"
+.LASF14:
+	.string	"lcd_clear"
 .LASF10:
 	.string	"getPhotoresiter"
 .LASF11:
@@ -6094,6 +6168,8 @@ g_buttonState:
 .LASF6:
 	.string	"reserved_28"
 	.extern	printfSerial,STT_FUNC,0
+	.extern	printInfoDisplay,STT_FUNC,0
+	.extern	lcd_clear,STT_FUNC,0
 	.extern	osEE_tc_stm_set_sr0_next_match,STT_FUNC,0
 	.extern	EnableAllInterrupts,STT_FUNC,0
 	.extern	ActivateTask,STT_FUNC,0

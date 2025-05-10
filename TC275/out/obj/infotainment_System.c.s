@@ -817,13 +817,18 @@ stateMaxArr:
 	.word	2
 	.word	3
 	.word	1
-	.local	infotainmentArr
-.section .bss,"aw",@nobits
+.section .data,"aw",@progbits
 	.align 2
-	.type		 infotainmentArr,@object
-	.size		 infotainmentArr,28
+	.type	infotainmentArr, @object
+	.size	infotainmentArr, 28
 infotainmentArr:
-	.space	28
+	.word	0
+	.word	3
+	.word	0
+	.word	0
+	.word	1
+	.word	1
+	.word	0
 .section .debug_frame,"",@progbits
 .Lframe0:
 	.uaword	.LECIE0-.LSCIE0

@@ -23031,7 +23031,11 @@ void TimerISR(void)
     static long c = -4;
     osEE_tc_stm_set_sr0_next_match(1000000U);
 # 58 "C:\\TUNNEL~1\\TC275\\asw.c"
-    if(c%2==1) ActivateTask((5U));
+    if(c==0){
+        lcd_clear();
+        printInfoDisplay();
+    }
+    ActivateTask((5U));
 
 
 

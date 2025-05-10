@@ -9,20 +9,20 @@ Program Header:
     LOAD off    0x00004020 vaddr 0x80000020 paddr 0x80000020 align 2**14
          filesz 0x0000eb88 memsz 0x0000eb88 flags r-x
     LOAD off    0x00014000 vaddr 0x70000000 paddr 0x8000eba8 align 2**14
-         filesz 0x00000968 memsz 0x00000968 flags rw-
-    LOAD off    0x00016600 vaddr 0x5001a600 paddr 0x8000f510 align 2**14
+         filesz 0x00000988 memsz 0x00000988 flags rw-
+    LOAD off    0x00016600 vaddr 0x5001a600 paddr 0x8000f530 align 2**14
          filesz 0x00000000 memsz 0x00001000 flags rw-
-    LOAD off    0x00017700 vaddr 0x5001b700 paddr 0x8000f510 align 2**14
+    LOAD off    0x00017700 vaddr 0x5001b700 paddr 0x8000f530 align 2**14
          filesz 0x00000000 memsz 0x00000400 flags rw-
-    LOAD off    0x00016600 vaddr 0x6001a600 paddr 0x8000f510 align 2**14
+    LOAD off    0x00016600 vaddr 0x6001a600 paddr 0x8000f530 align 2**14
          filesz 0x00000000 memsz 0x00001000 flags rw-
-    LOAD off    0x00017700 vaddr 0x6001b700 paddr 0x8000f510 align 2**14
+    LOAD off    0x00017700 vaddr 0x6001b700 paddr 0x8000f530 align 2**14
          filesz 0x00000000 memsz 0x00000400 flags rw-
-    LOAD off    0x00014968 vaddr 0x70000968 paddr 0x8000f510 align 2**14
-         filesz 0x00000000 memsz 0x000005e8 flags rw-
-    LOAD off    0x00018600 vaddr 0x70018600 paddr 0x8000f510 align 2**14
+    LOAD off    0x00014988 vaddr 0x70000988 paddr 0x8000f530 align 2**14
+         filesz 0x00000000 memsz 0x000005d0 flags rw-
+    LOAD off    0x00018600 vaddr 0x70018600 paddr 0x8000f530 align 2**14
          filesz 0x00000000 memsz 0x00001000 flags rw-
-    LOAD off    0x00015700 vaddr 0x70019700 paddr 0x8000f510 align 2**14
+    LOAD off    0x00015700 vaddr 0x70019700 paddr 0x8000f530 align 2**14
          filesz 0x00000000 memsz 0x00000400 flags rw-
     LOAD off    0x00017c00 vaddr 0x5001bc00 paddr 0x8000f540 align 2**14
          filesz 0x00000000 memsz 0x00002000 flags rw-
@@ -37,9 +37,9 @@ Idx Name          Size      VMA       LMA       File off  Algn
                   CONTENTS, ALLOC, LOAD, READONLY, CODE
   1 .rodata       00001278  80000028  80000028  00004028  2**2
                   CONTENTS, ALLOC, LOAD, READONLY, DATA
-  2 .bss          000005e8  70000968  8000f510  00014968  2**3
+  2 .bss          000005d0  70000988  8000f530  00014988  2**3
                   ALLOC
-  3 .data         00000968  70000000  8000eba8  00014000  2**3
+  3 .data         00000988  70000000  8000eba8  00014000  2**3
                   CONTENTS, ALLOC, LOAD, DATA
   4 .traptab      00000100  80001300  80001300  00005300  2**8
                   CONTENTS, ALLOC, LOAD, READONLY, CODE
@@ -51,48 +51,48 @@ Idx Name          Size      VMA       LMA       File off  Algn
                   CONTENTS, ALLOC, LOAD, READONLY, CODE
   8 .text         0000aba8  80004000  80004000  00008000  2**3
                   CONTENTS, ALLOC, LOAD, READONLY, CODE
-  9 .CPU2.ustack  00001000  5001a600  8000f510  00016600  2**3
+  9 .CPU2.ustack  00001000  5001a600  8000f530  00016600  2**3
                   ALLOC, CPU2
- 10 .CPU2.istack  00000400  5001b700  8000f510  00017700  2**3
+ 10 .CPU2.istack  00000400  5001b700  8000f530  00017700  2**3
                   ALLOC, CPU2
  11 .CPU2.csa     00002000  5001bc00  8000f540  00017c00  2**6
                   ALLOC, CPU2
- 12 .CPU1.ustack  00001000  6001a600  8000f510  00016600  2**3
+ 12 .CPU1.ustack  00001000  6001a600  8000f530  00016600  2**3
                   ALLOC, CPU1
- 13 .CPU1.istack  00000400  6001b700  8000f510  00017700  2**3
+ 13 .CPU1.istack  00000400  6001b700  8000f530  00017700  2**3
                   ALLOC, CPU1
  14 .CPU1.csa     00002000  6001bc00  8000f540  00017c00  2**6
                   ALLOC, CPU1
- 15 .CPU0.ustack  00001000  70018600  8000f510  00018600  2**3
+ 15 .CPU0.ustack  00001000  70018600  8000f530  00018600  2**3
                   ALLOC, CPU0
- 16 .CPU0.istack  00000400  70019700  8000f510  00015700  2**3
+ 16 .CPU0.istack  00000400  70019700  8000f530  00015700  2**3
                   ALLOC, CPU0
  17 .CPU0.csa     00002000  70019c00  8000f540  00015c00  2**6
                   ALLOC, CPU0
- 18 .comment      00000053  00000000  00000000  00014968  2**0
+ 18 .comment      00000053  00000000  00000000  00014988  2**0
                   CONTENTS, READONLY
- 19 .debug_aranges 00000d48  00000000  00000000  000149c0  2**3
+ 19 .debug_aranges 00000d48  00000000  00000000  000149e0  2**3
                   CONTENTS, READONLY, DEBUGGING
- 20 .debug_info   000cc21b  00000000  00000000  00015708  2**0
+ 20 .debug_info   000cc287  00000000  00000000  00015728  2**0
                   CONTENTS, READONLY, DEBUGGING
- 21 .debug_abbrev 0000c596  00000000  00000000  000e1923  2**0
+ 21 .debug_abbrev 0000c5a1  00000000  00000000  000e19af  2**0
                   CONTENTS, READONLY, DEBUGGING
- 22 .debug_line   0000d228  00000000  00000000  000edeb9  2**0
+ 22 .debug_line   0000d22a  00000000  00000000  000edf50  2**0
                   CONTENTS, READONLY, DEBUGGING
- 23 .debug_frame  000023c0  00000000  00000000  000fb0e4  2**2
+ 23 .debug_frame  000023c0  00000000  00000000  000fb17c  2**2
                   CONTENTS, READONLY, DEBUGGING
- 24 .debug_str    000021fa  00000000  00000000  000fd4a4  2**0
+ 24 .debug_str    00002215  00000000  00000000  000fd53c  2**0
                   CONTENTS, READONLY, DEBUGGING
- 25 .debug_loc    00014380  00000000  00000000  000ff69e  2**0
+ 25 .debug_loc    00014380  00000000  00000000  000ff751  2**0
                   CONTENTS, READONLY, DEBUGGING
- 26 .debug_ranges 00001370  00000000  00000000  00113a1e  2**0
+ 26 .debug_ranges 00001370  00000000  00000000  00113ad1  2**0
                   CONTENTS, READONLY, DEBUGGING
- 27 .version_info 0004ad67  00000000  00000000  00114d8e  2**0
+ 27 .version_info 0004ad67  00000000  00000000  00114e41  2**0
                   CONTENTS, READONLY
 SYMBOL TABLE:
 80000020 l    d  .startup	00000000 .startup
 80000028 l    d  .rodata	00000000 .rodata
-70000968 l    d  .bss	00000000 .bss
+70000988 l    d  .bss	00000000 .bss
 70000000 l    d  .data	00000000 .data
 80001300 l    d  .traptab	00000000 .traptab
 80001400 l    d  .ctors	00000000 .ctors
@@ -129,9 +129,9 @@ SYMBOL TABLE:
 800000e0 l     O .rodata	00000100 osEE_tdb_array
 70000030 l     O .data	00000038 osEE_sn_array
 800000b8 l     O .rodata	00000008 osEE_res_db_array
-70000c24 l     O .bss	0000000c osEE_res_cb_array
+70000c44 l     O .bss	0000000c osEE_res_cb_array
 800001e0 l     O .rodata	00000008 osEE_sdb_array
-70000c30 l     O .bss	00000004 osEE_scb_array
+70000c50 l     O .bss	00000004 osEE_scb_array
 70000068 l     O .data	000000a0 osEE_tcb_array
 00000000 l    df *ABS*	00000000 IfxVadc.c
 800001e8 l     O .rodata	00000006 CSWTCH.25
@@ -147,14 +147,14 @@ SYMBOL TABLE:
 00000000 l    df *ABS*	00000000 IfxVadc_Adc.c
 80000d58 l     O .rodata	00000040 IfxVadc_Adc_masterIndex
 00000000 l    df *ABS*	00000000 infotainment_System.c
-70000c5c l     O .bss	0000001c infotainmentArr
-70000c38 l     O .bss	00000020 buf
-70000c58 l     O .bss	00000004 infoState
+70000110 l     O .data	0000001c infotainmentArr
+70000c58 l     O .bss	00000020 buf
+70000c78 l     O .bss	00000004 infoState
 80000e38 l     O .rodata	0000001c stateMaxArr
 00000000 l    df *ABS*	00000000 uart_Driver.c
 00000000 l    df *ABS*	00000000 fp-bit.c
 00000000 l    df *ABS*	00000000 impure.c
-7000053c l     O .data	00000424 impure_data
+7000055c l     O .data	00000424 impure_data
 00000000 l    df *ABS*	00000000 vfprintf.c
 80000ff0 l     O .rodata	00000010 blanks.4035
 80000fe0 l     O .rodata	00000010 zeroes.4036
@@ -167,7 +167,7 @@ SYMBOL TABLE:
 00000000 l    df *ABS*	00000000 ultrasonic_Driver.c
 00000000 l    df *ABS*	00000000 mallocr.c
 00000000 l    df *ABS*	00000000 libos_sbrk.c
-70000960 l     O .data	00000004 heap_top.2289
+70000980 l     O .data	00000004 heap_top.2289
 00000000 l    df *ABS*	00000000 ee_tc_trapvec.c
 00000000 l    df *ABS*	00000000 ee_tc_intvec.c
 80009c76 l     F .text	0000000e osEE_tc_isr2_wrapper
@@ -184,7 +184,7 @@ SYMBOL TABLE:
 00000000 l    df *ABS*	00000000 photoresistor_Driver.c
 00000000 l    df *ABS*	00000000 ee_tc_system.c
 800097a6 l     F .text	00000054 osEE_tc_stm_us_ticks
-70000f00 l     O .bss	00000004 osEE_tc_stm_freq_khz
+70000f08 l     O .bss	00000004 osEE_tc_stm_freq_khz
 00000000 l    df *ABS*	00000000 ee_oo_api_osek.c
 80009c84 l     F .text	0000001e osEE_shutdown_os
 00000000 l    df *ABS*	00000000 ee_oo_sched_entry_points.c
@@ -256,7 +256,7 @@ SYMBOL TABLE:
 800031c0 g       .inttab_cpu0	00000000 osEE_tc_isr_dummy_entry_142
 80002d20 g       .inttab_cpu0	00000000 osEE_tc_isr_dummy_entry_105
 70000010 g     O .data	00000020 osEE_ccb_var
-70000f50 g     O .text	00000001 __HEAP
+70000f58 g     O .text	00000001 __HEAP
 80003980 g       .inttab_cpu0	00000000 osEE_tc_isr_dummy_entry_204
 800058b4 g     F .text	00000062 IfxAsclin_Asc_write
 8000922e g     F .text	000000ce measureEchoTick
@@ -274,7 +274,7 @@ SYMBOL TABLE:
 80009ff4 g     F .text	0000005a TerminateTask
 800051ce g     F .text	00000006 IfxAsclin_Asc_resetSendCount
 800001f0 g     O .rodata	000000a0 IfxVadc_cfg_srcAddresses
-70000c20 g     O .bss	00000004 osEE_kcb_var
+70000c40 g     O .bss	00000004 osEE_kcb_var
 800003a0 g     O .rodata	00000010 IfxAsclin2_TX_P14_2_OUT
 80002f60 g       .inttab_cpu0	00000000 osEE_tc_isr_dummy_entry_123
 800081ba g     F .text	00000020 Ifx_CircularBuffer_addDataIncr
@@ -320,7 +320,7 @@ SYMBOL TABLE:
 8000861c g     F .text	000000f0 Ifx_Fifo_canWriteCount
 80007f82 g     F .text	000000e8 IfxVadc_Adc_initModule
 800032e0 g       .inttab_cpu0	00000000 osEE_tc_isr_dummy_entry_151
-70000c81 g     O .bss	0000000b g_RecievedActuatorPacket
+70000c89 g     O .bss	0000000b g_RecievedActuatorPacket
 80002ec0 g       .inttab_cpu0	00000000 osEE_tc_isr_dummy_entry_118
 80002c60 g       .inttab_cpu0	00000000 osEE_tc_isr_dummy_entry_99
 800047ba g     F .text	0000003c IfxVadc_disablePostCalibration
@@ -377,7 +377,7 @@ SYMBOL TABLE:
 00000400 g       *ABS*	00000000 __ISTACK1_SIZE
 80005fe6 g     F .text	00000072 IfxScuCcu_getPllFrequency
 80002a40 g       .inttab_cpu0	00000000 osEE_tc_isr_dummy_entry_82
-70000f40 g     O .bss	00000004 errno
+70000f48 g     O .bss	00000004 errno
 8000b0e2 g     F .text	0000001e .hidden __make_dp
 80002e40 g       .inttab_cpu0	00000000 osEE_tc_isr_dummy_entry_114
 0001a600 g       *ABS*	00000000 __USTACK1_OFFSET
@@ -458,7 +458,7 @@ SYMBOL TABLE:
 800029a0 g       .inttab_cpu0	00000000 osEE_tc_isr_dummy_entry_77
 800008e0 g     O .rodata	00000010 IfxAsclin3_CTSA_P00_12_IN
 800038a0 g       .inttab_cpu0	00000000 osEE_tc_isr_dummy_entry_197
-70000f38 g     O .bss	00000004 __malloc_top_pad
+70000f40 g     O .bss	00000004 __malloc_top_pad
 800045c2 g     F .text	00000026 readADCValue
 8000897e g     F .text	0000001c printStateOn
 80006a04 g     F .text	0000008e IfxScuCcu_setGtmFrequency
@@ -489,9 +489,9 @@ SYMBOL TABLE:
 80003040 g       .inttab_cpu0	00000000 osEE_tc_isr_dummy_entry_130
 800089d2 g     F .text	0000001c printStateGreen
 80002b20 g       .inttab_cpu0	00000000 osEE_tc_isr_dummy_entry_89
-70000968 g     O .bss	00000001 g_buttonState
+70000988 g     O .bss	00000001 g_buttonState
 800025c0 g       .inttab_cpu0	00000000 osEE_tc_isr_dummy_entry_46
-70000990 g     O .bss	0000000c g_vadcGroup
+700009b0 g     O .bss	0000000c g_vadcGroup
 80006ee4 g     F .text	00000026 IfxScuEru_enableAutoClear
 800006c0 g     O .rodata	00000010 IfxAsclin1_SCLK_P15_0_OUT
 80009098 g     F .text	0000001a serialize_sensor_packet
@@ -503,7 +503,7 @@ SYMBOL TABLE:
 80003ec0 g       .inttab_cpu0	00000000 osEE_tc_isr_dummy_entry_246
 80002480 g       .inttab_cpu0	00000000 osEE_tc_isr_dummy_entry_36
 80000420 g     O .rodata	00000010 IfxAsclin1_TX_P15_4_OUT
-70000f34 g     O .bss	00000004 __malloc_max_sbrked_mem
+70000f3c g     O .bss	00000004 __malloc_max_sbrked_mem
 80002a20 g       .inttab_cpu0	00000000 osEE_tc_isr_dummy_entry_81
 800013a0 g       .traptab	00000000 osEE_tc_trap_assertion
 80002ba0 g       .inttab_cpu0	00000000 osEE_tc_isr_dummy_entry_93
@@ -532,7 +532,7 @@ SYMBOL TABLE:
 800008b0 g     O .rodata	00000010 IfxAsclin1_RTS_P23_1_OUT
 80000fa4 g     O .rodata	00000004 _global_impure_ptr
 80006df0 g     F .text	00000036 IfxScuEru_connectTrigger
-70000970 g     O .bss	00000020 g_vadcChannel
+70000990 g     O .bss	00000020 g_vadcChannel
 8000639c g     F .text	00000036 IfxScuCcu_getFsi2Frequency
 8000e388 g     F .text	000003f0 _realloc_r
 80000690 g     O .rodata	00000010 IfxAsclin1_SCLK_P33_12_OUT
@@ -563,7 +563,7 @@ SYMBOL TABLE:
 8000833a g     F .text	0000003a Ifx_Fifo_init
 800089b6 g     F .text	0000001c printStateRed
 80002420 g       .inttab_cpu0	00000000 osEE_tc_isr_dummy_entry_33
-70000f48  w    O .bss	00000004 _my_errno
+70000f50  w    O .bss	00000004 _my_errno
 800004f0 g     O .rodata	00000010 IfxAsclin3_SLSO_P21_2_OUT
 800059f8 g     F .text	00000030 IfxPort_getAddress
 80003760 g       .inttab_cpu0	00000000 osEE_tc_isr_dummy_entry_187
@@ -646,7 +646,7 @@ b0008000 g     O *ABS*	00000000 _SMALL_DATA4_
 800005b0 g     O .rodata	00000010 IfxAsclin3_SCLK_P21_7_OUT
 80007bca g     F .text	0000038a IfxVadc_Adc_initGroup
 8000deaa g     F .text	0000007c __pow5mult
-700009a0 g     O .bss	0000000c g_ERUconfig
+700009c0 g     O .bss	0000000c g_ERUconfig
 80003fe0 g       .inttab_cpu0	00000000 osEE_tc_isr_dummy_entry_255
 80002860 g       .inttab_cpu0	00000000 osEE_tc_isr_dummy_entry_67
 80002e00 g       .inttab_cpu0	00000000 osEE_tc_isr_dummy_entry_112
@@ -694,7 +694,7 @@ b0008000 g     O *ABS*	00000000 _SMALL_DATA4_
 80005e08 g     F .text	000000f8 IfxScuCcu_calculateSysPllDividers
 80008cdc g     F .text	00000006 getPhotoresiter
 800008f0 g     O .rodata	00000010 IfxAsclin2_CTSB_P33_5_IN
-70000128 g     O .data	00000004 __malloc_sbrk_base
+70000148 g     O .data	00000004 __malloc_sbrk_base
 80000020 g     F .startup	00000006 _start
 80003520 g       .inttab_cpu0	00000000 osEE_tc_isr_dummy_entry_169
 80008374 g     F .text	00000022 Ifx_Fifo_create
@@ -718,14 +718,14 @@ b0008000 g     O *ABS*	00000000 _SMALL_DATA4_
 800027c0 g       .inttab_cpu0	00000000 osEE_tc_isr_dummy_entry_62
 8000dd90 g     F .text	0000011a __multiply
 00000001 g       *ABS*	00000000 _.
-70000c78 g     O .bss	00000009 g_RecievedSensorPacket
+70000c80 g     O .bss	00000009 g_RecievedSensorPacket
 80006fb0 g     F .text	00000012 IfxScuEru_getEventFlagStatus
 800041e8 g     F .text	00000036 lcd_print
 80000530 g     O .rodata	00000010 IfxAsclin2_SLSO_P33_6_OUT
 80000380 g     O .rodata	00000010 IfxAsclin2_TX_P32_5_OUT
 80004c04 g     F .text	00000024 IfxVadc_selectPowerSupplyVoltage
 80006e72 g     F .text	00000026 IfxScuEru_disablePatternDetectionTrigger
-70000f08 g     O .bss	00000028 __malloc_current_mallinfo
+70000f10 g     O .bss	00000028 __malloc_current_mallinfo
 8000e0ec g     F .text	000000a8 __d2b
 80003c40 g       .inttab_cpu0	00000000 osEE_tc_isr_dummy_entry_226
 800037c0 g       .inttab_cpu0	00000000 osEE_tc_isr_dummy_entry_190
@@ -775,7 +775,7 @@ b0008000 g     O *ABS*	00000000 _SMALL_DATA4_
 80000cd8 g     O .rodata	00000010 IfxScu_EXTCLK1_P11_12_OUT
 80005916 g     F .text	0000001c IfxAsclin_Asc_blockingWrite
 8000806a g     F .text	0000003a IfxVadc_Adc_initModuleConfig
-70000130 g     O .data	00000408 __malloc_av_
+70000150 g     O .data	00000408 __malloc_av_
 80002f00 g       .inttab_cpu0	00000000 osEE_tc_isr_dummy_entry_120
 8000a260 g     F .text	00000064 ShutdownOS
 80003060 g       .inttab_cpu0	00000000 osEE_tc_isr_dummy_entry_131
@@ -821,7 +821,7 @@ b0008000 g     O *ABS*	00000000 _SMALL_DATA4_
 80004316 g     F .text	0000006a delay_ms
 80006f7c g     F .text	00000026 IfxScuEru_enableTriggerPulse
 80002200 g       .inttab_cpu0	00000000 osEE_tc_isr_dummy_entry_16
-70000f30 g     O .bss	00000004 __malloc_max_total_mem
+70000f38 g     O .bss	00000004 __malloc_max_total_mem
 80003540 g       .inttab_cpu0	00000000 osEE_tc_isr_dummy_entry_170
 8000421e g     F .text	00000064 FuncSensorTask
 80004cf4 g     F .text	0000002e IfxAsclin_enableAscErrorFlags
@@ -832,7 +832,7 @@ b0008000 g     O *ABS*	00000000 _SMALL_DATA4_
 800025a0 g       .inttab_cpu0	00000000 osEE_tc_isr_dummy_entry_45
 800080e6 g     F .text	00000092 IfxVadc_Adc_initExternalMultiplexerMode
 80000bd4 g     O .rodata	00000014 IfxScu_REQ16_P15_1_IN
-700009ac g     O .bss	00000274 g_AsclinAsc
+700009cc g     O .bss	00000274 g_AsclinAsc
 80002b00 g       .inttab_cpu0	00000000 osEE_tc_isr_dummy_entry_88
 80000c74 g     O .rodata	0000000c IfxScu_HWCFG6_P14_4_IN
 8000a72c g     F .text	00000018 osEE_task_activated
@@ -863,7 +863,7 @@ b0008000 g       *ABS*	00000000 __A9_MEM
 80005104 g     F .text	00000012 IfxAsclin_write32
 80003ce0 g       .inttab_cpu0	00000000 osEE_tc_isr_dummy_entry_231
 80003340 g       .inttab_cpu0	00000000 osEE_tc_isr_dummy_entry_154
-70000110 g     O .data	0000000a g_FrontUltrasonic
+70000130 g     O .data	0000000a g_FrontUltrasonic
 80002c40 g       .inttab_cpu0	00000000 osEE_tc_isr_dummy_entry_98
 80004460 g     F .text	00000072 printfSerial
 80000f90 g     O .rodata	00000014 .hidden __thenan_df
@@ -920,7 +920,7 @@ b0008000 g       *ABS*	00000000 __A9_MEM
 80002600 g       .inttab_cpu0	00000000 osEE_tc_isr_dummy_entry_48
 80000b98 g     O .rodata	00000014 IfxScu_REQ3_P10_3_IN
 80000430 g     O .rodata	00000010 IfxAsclin1_TX_P15_1_OUT
-70000538 g     O .data	00000004 _impure_ptr
+70000558 g     O .data	00000004 _impure_ptr
 80003660 g       .inttab_cpu0	00000000 osEE_tc_isr_dummy_entry_179
 80005a4a g     F .text	00000028 IfxPort_resetESR
 8000515c g     F .text	00000072 IfxAsclin_Asc_isrError
@@ -930,7 +930,7 @@ b0008000 g       *ABS*	00000000 __A9_MEM
 800036e0 g       .inttab_cpu0	00000000 osEE_tc_isr_dummy_entry_183
 80000490 g     O .rodata	00000010 IfxAsclin0_TX_P15_3_OUT
 80009174 g     F .text	00000054 initUltrasonic
-70000c8c g     O .bss	00000274 g_AsclinStm
+70000c94 g     O .bss	00000274 g_AsclinStm
 80003cc0 g       .inttab_cpu0	00000000 osEE_tc_isr_dummy_entry_230
 80004e3c g     F .text	00000014 IfxAsclin_getSrcPointerEr
 00002000 g       *ABS*	00000000 __CSA1_SIZE
@@ -1007,7 +1007,7 @@ b0008000 g       *ABS*	00000000 __A9_MEM
 80000020 g       .startup	00000000 BootModeIndex
 800032c0 g       .inttab_cpu0	00000000 osEE_tc_isr_dummy_entry_150
 80003d80 g       .inttab_cpu0	00000000 osEE_tc_isr_dummy_entry_236
-7000012c g     O .data	00000004 __malloc_trim_threshold
+7000014c g     O .data	00000004 __malloc_trim_threshold
 800031a0 g       .inttab_cpu0	00000000 osEE_tc_isr_dummy_entry_141
 80002d00 g       .inttab_cpu0	00000000 osEE_tc_isr_dummy_entry_104
 800048d2 g     F .text	00000004 IfxVadc_getAdcModuleFrequency
@@ -1042,7 +1042,7 @@ b0008000 g       *ABS*	00000000 __A9_MEM
 800050f0 g     F .text	00000014 IfxAsclin_write16
 800085e6 g     F .text	00000036 Ifx_Fifo_clear
 80000bac g     O .rodata	00000014 IfxScu_REQ2_P10_2_IN
-7000011a g     O .data	0000000a g_UpperUltrasonic
+7000013a g     O .data	0000000a g_UpperUltrasonic
 00000400 g       *ABS*	00000000 __ISTACK2_SIZE
 80002ee0 g       .inttab_cpu0	00000000 osEE_tc_isr_dummy_entry_119
 8000e778 g     F .text	00000010 _exit
@@ -1071,14 +1071,14 @@ b0008000 g       *ABS*	00000000 __A9_MEM
 80002f40 g       .inttab_cpu0	00000000 osEE_tc_isr_dummy_entry_122
 80000b70 g     O .rodata	00000014 IfxScu_REQ5_P10_8_IN
 80004c28 g     F .text	00000056 IfxVadc_setArbiterPriority
-70000f50 g     O .text	00000001 __HEAP_END
+70000f58 g     O .text	00000001 __HEAP_END
 80000560 g     O .rodata	00000010 IfxAsclin1_SLSO_P33_10_OUT
 6001bc00 g       .CPU1.csa	00000000 __CSA1
 8000616c g     F .text	00000070 IfxScuCcu_getMaxFrequency
 80009cb8 g     F .text	0000001c EnableAllInterrupts
 80000580 g     O .rodata	00000010 IfxAsclin1_SLSO_P14_3_OUT
 80004c92 g     F .text	00000044 IfxVadc_startupCalibration
-7000099c g     O .bss	00000004 g_vadc
+700009bc g     O .bss	00000004 g_vadc
 80005cce g     F .text	00000056 IfxPort_setPinMode
 80003640 g       .inttab_cpu0	00000000 osEE_tc_isr_dummy_entry_178
 80002780 g       .inttab_cpu0	00000000 osEE_tc_isr_dummy_entry_60
@@ -2613,11 +2613,11 @@ TASK(SensorTask)
 {
 80004222:	20 10       	sub.a %sp,16
     int upperUltrasonicValue = getUltrasonic(&g_UpperUltrasonic);
-80004224:	d9 44 1a 40 	lea %a4,[%a4]282
+80004224:	d9 44 3a 40 	lea %a4,[%a4]314
 80004228:	6d 00 6a 28 	call 800092fc <getUltrasonic>
     int frontUltrasonicValue = getUltrasonic(&g_FrontUltrasonic);
 8000422c:	91 00 00 47 	movh.a %a4,28672
-80004230:	d9 44 10 40 	lea %a4,[%a4]272 <70000110 <g_FrontUltrasonic>>
+80004230:	d9 44 30 40 	lea %a4,[%a4]304 <70000130 <g_FrontUltrasonic>>
 
 volatile uint8 g_buttonState;
 
@@ -2678,7 +2678,7 @@ TASK(DashboardButtonTask){
 TASK(DashboardButtonTask){
 80004286:	20 10       	sub.a %sp,16
     updateStateByButton(g_buttonState);
-80004288:	39 f4 a8 50 	ld.bu %d4,[%a15]2408
+80004288:	39 f4 88 60 	ld.bu %d4,[%a15]2440
 8000428c:	6d 00 d6 24 	call 80008c38 <updateStateByButton>
     // struct ActuatorPacket acc={};
     // setActuatorPacket(&acc);
@@ -2726,7 +2726,7 @@ ISR2(ButtonISR)
     DisableAllInterrupts();
     osEE_tc_delay(5000);// delay_us(25);
     g_buttonState = readLcdButtons();
-800042c4:	e9 f2 a8 50 	st.b [%a15]2408 <70000968 <g_buttonState>>,%d2
+800042c4:	e9 f2 88 60 	st.b [%a15]2440 <70000988 <g_buttonState>>,%d2
     ActivateTask(DashboardButtonTask);
 800042c8:	6d 00 e9 2d 	call 80009e9a <ActivateTask>
     osEE_tc_delay(3000);// delay_us(10);
@@ -2753,18 +2753,34 @@ ISR2(TimerISR)
     static long c = -4;
     osEE_tc_stm_set_sr0_next_match(1000000U); //1초
 800042de:	1b 04 24 44 	addi %d4,%d4,16960
-800042e2:	6d 00 51 2c 	call 80009b84 <osEE_tc_stm_set_sr0_next_match>
 
     /************** basic-TASK (every 1s) ********************/
     
     // ActivateTask(SendSensorPacket_TEST);
     // ActivateTask(SendAcutatorPacket_TEST);
-    if(c%2==1) ActivateTask(SensorTask);//액추가된 센서
-800042e6:	91 00 00 f7 	movh.a %a15,28672
+    if(c==0){
+800042e2:	91 00 00 f7 	movh.a %a15,28672
+}
+
+ISR2(TimerISR)
+{
+    static long c = -4;
+    osEE_tc_stm_set_sr0_next_match(1000000U); //1초
+800042e6:	6d 00 4f 2c 	call 80009b84 <osEE_tc_stm_set_sr0_next_match>
+
+    /************** basic-TASK (every 1s) ********************/
+    
+    // ActivateTask(SendSensorPacket_TEST);
+    // ActivateTask(SendAcutatorPacket_TEST);
+    if(c==0){
 800042ea:	19 ff 00 00 	ld.w %d15,[%a15]0 <70000000 <__DSPR0_START>>
-800042ee:	82 22       	mov %d2,2
-800042f0:	4b 2f 01 22 	div %e2,%d15,%d2
-800042f4:	df 13 05 80 	jne %d3,1,800042fe <TimerISR+0x26>
+800042ee:	ee 05       	jnz %d15,800042f8 <TimerISR+0x20>
+        lcd_clear();
+800042f0:	6d ff 08 ff 	call 80004100 <lcd_clear>
+        printInfoDisplay();
+800042f4:	6d 00 8b 23 	call 80008a0a <printInfoDisplay>
+    }
+    ActivateTask(SensorTask);//액추가된 센서
 800042f8:	82 54       	mov %d4,5
 800042fa:	6d 00 d0 2d 	call 80009e9a <ActivateTask>
     
@@ -2988,7 +3004,7 @@ IFX_INLINE IfxCpu_ResourceCpu IfxCpu_getCoreIndex(void)
     /* FIFO configuration */
     ascConfig.txBuffer     = g_AsclinAsc.ascBuffer.tx;
 8000443c:	7b 00 00 f7 	movh %d15,28672
-80004440:	1b cf 9a f0 	addi %d15,%d15,2476
+80004440:	1b cf 9c f0 	addi %d15,%d15,2508
         &IfxAsclin3_TX_P15_7_OUT, IfxPort_OutputMode_pushPull,     /* Tx pin */
         IfxPort_PadDriver_cmosAutomotiveSpeed1
     };
@@ -3009,7 +3025,7 @@ IFX_INLINE IfxCpu_ResourceCpu IfxCpu_getCoreIndex(void)
     ascConfig.pins = &pins;
     /* initialize module */
     IfxAsclin_Asc_initModule(&g_AsclinAsc.drivers.asc, &ascConfig);
-8000444a:	d9 44 c0 00 	lea %a4,[%a4]3072 <70000c00 <g_AsclinAsc+0x254>>
+8000444a:	d9 44 e0 00 	lea %a4,[%a4]3104 <70000c20 <g_AsclinAsc+0x254>>
     ascConfig.interrupt.txPriority    = ISR_PRIORITY_ASC_3_TX;
 
     ascConfig.interrupt.typeOfService = IfxCpu_Irq_getTos(IfxCpu_getCoreIndex());
@@ -3069,8 +3085,8 @@ void printfSerial(const char *fmt,...)
 8000447a:	d9 a4 28 10 	lea %a4,[%sp]104
 8000447e:	6d 00 61 3a 	call 8000b940 <strlen>
 80004482:	91 00 00 f7 	movh.a %a15,28672
-80004486:	d9 ff ac 60 	lea %a15,[%a15]2476 <700009ac <g_AsclinAsc>>
-8000448a:	f9 f2 30 90 	st.h [%a15]624 <70000270 <__malloc_av_+0x140>>,%d2
+80004486:	d9 ff 8c 70 	lea %a15,[%a15]2508 <700009cc <g_AsclinAsc>>
+8000448a:	f9 f2 30 90 	st.h [%a15]624 <70000270 <__malloc_av_+0x120>>,%d2
     unsigned int i =0;
 8000448e:	82 0f       	mov %d15,0
     for(; i<strlen(buf);i++) {
@@ -3099,9 +3115,9 @@ void printfSerial(const char *fmt,...)
 800044b0:	82 f4       	mov %d4,-1
 800044b2:	91 00 00 47 	movh.a %a4,28672
 800044b6:	91 00 00 67 	movh.a %a6,28672
-800044ba:	d9 44 c0 00 	lea %a4,[%a4]3072 <70000c00 <g_AsclinAsc+0x254>>
-800044be:	d9 a5 04 00 	lea %a5,[%sp]4 <70000c00 <g_AsclinAsc+0x254>>
-800044c2:	d9 66 dc 00 	lea %a6,[%a6]3100 <70000c1c <g_AsclinAsc+0x270>>
+800044ba:	d9 44 e0 00 	lea %a4,[%a4]3104 <70000c20 <g_AsclinAsc+0x254>>
+800044be:	d9 a5 04 00 	lea %a5,[%sp]4 <70000c20 <g_AsclinAsc+0x254>>
+800044c2:	d9 66 fc 00 	lea %a6,[%a6]3132 <70000c3c <g_AsclinAsc+0x270>>
 800044c6:	9b 04 00 58 	addih %d5,%d4,32768
 800044ca:	6d 00 f5 09 	call 800058b4 <IfxAsclin_Asc_write>
     DisableAllInterrupts();
@@ -3122,8 +3138,8 @@ void initVADCModule(void)
 800044dc:	6d 00 c7 1d 	call 8000806a <IfxVadc_Adc_initModuleConfig>
     IfxVadc_Adc_initModule(&g_vadc, &adcConf);                          /* Apply the configuration                  */
 800044e0:	91 00 00 47 	movh.a %a4,28672
-800044e4:	d9 44 9c 60 	lea %a4,[%a4]2460 <7000099c <g_vadc>>
-800044e8:	d9 a5 04 00 	lea %a5,[%sp]4 <7000099c <g_vadc>>
+800044e4:	d9 44 bc 60 	lea %a4,[%a4]2492 <700009bc <g_vadc>>
+800044e8:	d9 a5 04 00 	lea %a5,[%sp]4 <700009bc <g_vadc>>
 800044ec:	1d 00 4b 1d 	j 80007f82 <IfxVadc_Adc_initModule>
 
 800044f0 <initVADCGroup>:
@@ -3137,7 +3153,7 @@ void initVADCGroup(void)
     IfxVadc_Adc_initGroupConfig(&adcGroupConf, &g_vadc);                /* Fill it with default values              */
 800044f2:	91 00 00 57 	movh.a %a5,28672
 800044f6:	40 a4       	mov.aa %a4,%sp
-800044f8:	d9 55 9c 60 	lea %a5,[%a5]2460 <7000099c <g_vadc>>
+800044f8:	d9 55 bc 60 	lea %a5,[%a5]2492 <700009bc <g_vadc>>
 800044fc:	6d 00 2c 1d 	call 80007f54 <IfxVadc_Adc_initGroupConfig>
 
     adcGroupConf.groupId = IfxVadc_GroupId_4;                           /* Select the Group 4                       */
@@ -3164,7 +3180,7 @@ void initVADCGroup(void)
     adcGroupConf.backgroundScanRequest.triggerConfig.gatingMode = IfxVadc_GatingMode_always;
 
     IfxVadc_Adc_initGroup(&g_vadcGroup, &adcGroupConf);                 /* Apply the configuration                  */
-8000450a:	d9 44 90 60 	lea %a4,[%a4]2448 <70000990 <g_vadcGroup>>
+8000450a:	d9 44 b0 60 	lea %a4,[%a4]2480 <700009b0 <g_vadcGroup>>
 
     adcGroupConf.groupId = IfxVadc_GroupId_4;                           /* Select the Group 4                       */
     adcGroupConf.master = adcGroupConf.groupId;                         /* Set the same group as master group       */
@@ -3230,7 +3246,7 @@ void initVADCChannels(void)
     for (chn = 0; chn < CHANNELS_NUM; chn++) {                             /* Initialize all the channels in a loop    */
         /* Fill the configuration with default values */
         IfxVadc_Adc_initChannelConfig(&adcChannelConf[chn], &g_vadcGroup);
-80004536:	d9 ee 90 60 	lea %a14,[%a14]2448 <70000990 <g_vadcGroup>>
+80004536:	d9 ee b0 60 	lea %a14,[%a14]2480 <700009b0 <g_vadcGroup>>
 
         /* Set the channel ID and the corresponding result register */
         adcChannelConf[chn].channelId = g_vadcChannelIDs[chn];          /* The channels 4..7 are initialized        */
@@ -3238,8 +3254,8 @@ void initVADCChannels(void)
         adcChannelConf[chn].resultRegister = (IfxVadc_ChannelResult)(chn);
         adcChannelConf[chn].backgroundChannel = TRUE;                   /* Enable background scan for the channel   */
 8000453e:	82 19       	mov %d9,1
-80004540:	1b 0a 97 a0 	addi %d10,%d10,2416
-80004544:	d9 dd 9c 60 	lea %a13,[%a13]2460
+80004540:	1b 0a 99 a0 	addi %d10,%d10,2448
+80004544:	d9 dd bc 60 	lea %a13,[%a13]2492
 80004548:	53 8f 21 80 	mul %d8,%d15,24
 8000454c:	40 ac       	mov.aa %a12,%sp
     IfxVadc_Adc_ChannelConfig adcChannelConf[CHANNELS_NUM];             /* Array of configuration structures        */
@@ -3367,14 +3383,14 @@ void initADC(void)
 800045a8:	6d ff a4 ff 	call 800044f0 <initVADCGroup>
     initVADCChannels();                                                 /* Initialize the used channels             */
 800045ac:	6d ff bb ff 	call 80004522 <initVADCChannels>
-800045b0:	99 ff 9c 60 	ld.a %a15,[%a15]2460 <7000099c <g_vadc>>
+800045b0:	99 ff bc 60 	ld.a %a15,[%a15]2492 <700009bc <g_vadc>>
 }
 
 
 IFX_INLINE void IfxVadc_startBackgroundScan(Ifx_VADC *vadc)
 {
     vadc->BRSMR.B.LDEV = 1;     /* execute Load event to start the conversion */
-800045b4:	19 ff 04 80 	ld.w %d15,[%a15]516 <7000099c <g_vadc>>
+800045b4:	19 ff 04 80 	ld.w %d15,[%a15]516 <700009bc <g_vadc>>
 800045b8:	b7 ff 81 f4 	insert %d15,%d15,15,9,1
 800045bc:	59 ff 04 80 	st.w [%a15]516,%d15
 800045c0:	00 90       	ret 
@@ -3387,7 +3403,7 @@ IFX_INLINE Ifx_VADC_RES IfxVadc_Adc_getResult(IfxVadc_Adc_Channel *channel)
 {
     return IfxVadc_getResult(channel->group->group, channel->resultreg);
 800045c2:	91 00 00 f7 	movh.a %a15,28672
-800045c6:	d9 ff b0 50 	lea %a15,[%a15]2416 <70000970 <g_vadcChannel>>
+800045c6:	d9 ff 90 60 	lea %a15,[%a15]2448 <70000990 <g_vadcChannel>>
 800045ca:	01 f4 03 f6 	addsc.a %a15,%a15,%d4,3
 800045ce:	c8 12       	ld.a %a2,[%a15]4
 800045d0:	0c f1       	ld.bu %d15,[%a15]1
@@ -3441,7 +3457,7 @@ IFX_INLINE void IfxPort_setPinModeInput(Ifx_P *port, uint8 pinIndex, IfxPort_Inp
 80004604:	91 00 00 d7 	movh.a %a13,28672
 80004608:	08 c4       	ld.bu %d4,[%a15]12
 8000460a:	3b 80 00 50 	mov %d5,8
-8000460e:	b5 df a0 60 	st.a [%a13]2464 <700009a0 <g_ERUconfig>>,%a15
+8000460e:	b5 df 80 70 	st.a [%a13]2496 <700009c0 <g_ERUconfig>>,%a15
 80004612:	6d 00 5e 0b 	call 80005cce <IfxPort_setPinMode>
 /******************************************************************************/
 
@@ -3458,14 +3474,14 @@ IFX_INLINE void IfxScuEru_initReqPin(IfxScu_Req_In *req, IfxPort_InputMode input
 
     /* Determine input channel depending on input pin */
     g_ERUconfig.inputChannel = (IfxScuEru_InputChannel) g_ERUconfig.reqPin->channelId;
-80004620:	99 df a0 60 	ld.a %a15,[%a13]2464 <700009a0 <g_ERUconfig>>
+80004620:	99 df 80 70 	ld.a %a15,[%a13]2496 <700009c0 <g_ERUconfig>>
     /* Initialize pins which are used to trigger and visualize the interrupt and set the default states */
     IfxPort_setPinMode(TRIGGER_PIN, IfxPort_Mode_inputPullUp);              /* Initialize TRIGGER_PIN port pin  */
 
 
     /* Trigger pin */
     g_ERUconfig.reqPin = REQ_IN; /* Select external request pin */
-80004624:	d9 dc a0 60 	lea %a12,[%a13]2464 <700009a0 <g_ERUconfig>>
+80004624:	d9 dc 80 70 	lea %a12,[%a13]2496 <700009c0 <g_ERUconfig>>
   //  IfxScuEru_enableRisingEdgeDetection(g_ERUconfig.inputChannel);          /* Interrupt triggers on
                                                                              //  rising edge (Register RENx) and  */
     IfxScuEru_enableFallingEdgeDetection(g_ERUconfig.inputChannel);         /* on falling edge (Register FENx)  */
@@ -3572,7 +3588,7 @@ ISR(asclin3TxISR)
 {
     IfxAsclin_Asc_isrTransmit(&g_AsclinAsc.drivers.asc);
 8000468a:	91 00 00 47 	movh.a %a4,28672
-8000468e:	d9 44 c0 00 	lea %a4,[%a4]3072 <70000c00 <g_AsclinAsc+0x254>>
+8000468e:	d9 44 e0 00 	lea %a4,[%a4]3104 <70000c20 <g_AsclinAsc+0x254>>
 80004692:	1d 00 17 06 	j 800052c0 <IfxAsclin_Asc_isrTransmit>
 
 80004696 <main>:
@@ -3600,11 +3616,11 @@ int main(void)
 800046b4:	6d ff 2b fd 	call 8000410a <lcd_init>
     initUltrasonic(&g_UpperUltrasonic);
 800046b8:	91 00 00 47 	movh.a %a4,28672
-800046bc:	d9 44 1a 40 	lea %a4,[%a4]282 <7000011a <g_UpperUltrasonic>>
+800046bc:	d9 44 3a 40 	lea %a4,[%a4]314 <7000013a <g_UpperUltrasonic>>
 800046c0:	6d 00 5a 25 	call 80009174 <initUltrasonic>
     initUltrasonic(&g_FrontUltrasonic);
 800046c4:	91 00 00 47 	movh.a %a4,28672
-800046c8:	d9 44 10 40 	lea %a4,[%a4]272 <70000110 <g_FrontUltrasonic>>
+800046c8:	d9 44 30 40 	lea %a4,[%a4]304 <70000130 <g_FrontUltrasonic>>
 800046cc:	6d 00 54 25 	call 80009174 <initUltrasonic>
     initUartDriver();
 800046d0:	6d 00 09 23 	call 80008ce2 <initUartDriver>
@@ -20176,7 +20192,7 @@ void setActuatorPacket(struct ActuatorPacket *packet)
 8000889c:	2c 40       	st.b [%a4]0,%d15
     packet->packet_id = 0x01;
     if (infotainmentArr[4] == 0)
-8000889e:	d9 2f dc 10 	lea %a15,[%a2]3164 <70000c5c <infotainmentArr>>
+8000889e:	d9 2f 10 40 	lea %a15,[%a2]272 <70000110 <infotainmentArr>>
 }
 
 void setActuatorPacket(struct ActuatorPacket *packet)
@@ -20211,7 +20227,7 @@ void setActuatorPacket(struct ActuatorPacket *packet)
 800088c4:	2c 42       	st.b [%a4]2,%d15
     }
     packet->driving_mode = infotainmentArr[0];
-800088c6:	19 22 dc 10 	ld.w %d2,[%a2]3164 <70000c5c <infotainmentArr>>
+800088c6:	19 22 10 40 	ld.w %d2,[%a2]272 <70000110 <infotainmentArr>>
 800088ca:	0c 43       	ld.bu %d15,[%a4]3
 800088cc:	37 2f 04 f2 	insert %d15,%d15,%d2,4,4
     packet->fan = infotainmentArr[1]; //(data 0 ~ 3)
@@ -20248,7 +20264,7 @@ void printStateLv1()
 {
     sprintf(buf, "\xDB\xDB");
 8000890e:	91 00 00 f7 	movh.a %a15,28672
-80008912:	d9 ff f8 00 	lea %a15,[%a15]3128 <70000c38 <buf>>
+80008912:	d9 ff d8 10 	lea %a15,[%a15]3160 <70000c58 <buf>>
 80008916:	91 00 00 28 	movh.a %a2,32768
 8000891a:	d9 22 d8 60 	lea %a2,[%a2]3480 <80000d98 <IfxVadc_Adc_masterIndex+0x40>>
 8000891e:	40 f4       	mov.aa %a4,%a15
@@ -20264,7 +20280,7 @@ void printStateLv2()
 {
     sprintf(buf, "\xDB\xDB\xDB\xDB");
 8000892a:	91 00 00 f7 	movh.a %a15,28672
-8000892e:	d9 ff f8 00 	lea %a15,[%a15]3128 <70000c38 <buf>>
+8000892e:	d9 ff d8 10 	lea %a15,[%a15]3160 <70000c58 <buf>>
 80008932:	91 00 00 28 	movh.a %a2,32768
 80008936:	d9 22 db 60 	lea %a2,[%a2]3483 <80000d9b <IfxVadc_Adc_masterIndex+0x43>>
 8000893a:	40 f4       	mov.aa %a4,%a15
@@ -20280,7 +20296,7 @@ void printStateLv3()
 {
     sprintf(buf, "\xDB\xDB\xDB\xDB\xDB\xDB");
 80008946:	91 00 00 f7 	movh.a %a15,28672
-8000894a:	d9 ff f8 00 	lea %a15,[%a15]3128 <70000c38 <buf>>
+8000894a:	d9 ff d8 10 	lea %a15,[%a15]3160 <70000c58 <buf>>
 8000894e:	91 00 00 28 	movh.a %a2,32768
 80008952:	d9 22 e0 60 	lea %a2,[%a2]3488 <80000da0 <IfxVadc_Adc_masterIndex+0x48>>
 80008956:	40 f4       	mov.aa %a4,%a15
@@ -20296,7 +20312,7 @@ void printStateLv4()
 {
     sprintf(buf, "\xDB\xDB\xDB\xDB\xDB\xDB\xDB\xDB");
 80008962:	91 00 00 f7 	movh.a %a15,28672
-80008966:	d9 ff f8 00 	lea %a15,[%a15]3128 <70000c38 <buf>>
+80008966:	d9 ff d8 10 	lea %a15,[%a15]3160 <70000c58 <buf>>
 8000896a:	91 00 00 28 	movh.a %a2,32768
 8000896e:	d9 22 e7 60 	lea %a2,[%a2]3495 <80000da7 <IfxVadc_Adc_masterIndex+0x4f>>
 80008972:	40 f4       	mov.aa %a4,%a15
@@ -20312,7 +20328,7 @@ void printStateOn()
 {
     sprintf(buf, "mode on");
 8000897e:	91 00 00 f7 	movh.a %a15,28672
-80008982:	d9 ff f8 00 	lea %a15,[%a15]3128 <70000c38 <buf>>
+80008982:	d9 ff d8 10 	lea %a15,[%a15]3160 <70000c58 <buf>>
 80008986:	91 00 00 28 	movh.a %a2,32768
 8000898a:	d9 22 f0 60 	lea %a2,[%a2]3504 <80000db0 <IfxVadc_Adc_masterIndex+0x58>>
 8000898e:	40 f4       	mov.aa %a4,%a15
@@ -20328,7 +20344,7 @@ void printStateOff()
 {
     sprintf(buf, "mode off");
 8000899a:	91 00 00 f7 	movh.a %a15,28672
-8000899e:	d9 ff f8 00 	lea %a15,[%a15]3128 <70000c38 <buf>>
+8000899e:	d9 ff d8 10 	lea %a15,[%a15]3160 <70000c58 <buf>>
 800089a2:	91 00 00 28 	movh.a %a2,32768
 800089a6:	d9 22 f8 60 	lea %a2,[%a2]3512 <80000db8 <IfxVadc_Adc_masterIndex+0x60>>
 800089aa:	40 f4       	mov.aa %a4,%a15
@@ -20344,7 +20360,7 @@ void printStateRed()
 {
     sprintf(buf, "light red");
 800089b6:	91 00 00 f7 	movh.a %a15,28672
-800089ba:	d9 ff f8 00 	lea %a15,[%a15]3128 <70000c38 <buf>>
+800089ba:	d9 ff d8 10 	lea %a15,[%a15]3160 <70000c58 <buf>>
 800089be:	91 00 00 28 	movh.a %a2,32768
 800089c2:	d9 22 c1 70 	lea %a2,[%a2]3521 <80000dc1 <IfxVadc_Adc_masterIndex+0x69>>
 800089c6:	40 f4       	mov.aa %a4,%a15
@@ -20360,7 +20376,7 @@ void printStateGreen()
 {
     sprintf(buf, "light green");
 800089d2:	91 00 00 f7 	movh.a %a15,28672
-800089d6:	d9 ff f8 00 	lea %a15,[%a15]3128 <70000c38 <buf>>
+800089d6:	d9 ff d8 10 	lea %a15,[%a15]3160 <70000c58 <buf>>
 800089da:	91 00 00 28 	movh.a %a2,32768
 800089de:	d9 22 cb 70 	lea %a2,[%a2]3531 <80000dcb <IfxVadc_Adc_masterIndex+0x73>>
 800089e2:	40 f4       	mov.aa %a4,%a15
@@ -20376,7 +20392,7 @@ void printStateBlue()
 {
     sprintf(buf, "light blue");
 800089ee:	91 00 00 f7 	movh.a %a15,28672
-800089f2:	d9 ff f8 00 	lea %a15,[%a15]3128 <70000c38 <buf>>
+800089f2:	d9 ff d8 10 	lea %a15,[%a15]3160 <70000c58 <buf>>
 800089f6:	91 00 00 28 	movh.a %a2,32768
 800089fa:	d9 22 d7 70 	lea %a2,[%a2]3543 <80000dd7 <IfxVadc_Adc_masterIndex+0x7f>>
 800089fe:	40 f4       	mov.aa %a4,%a15
@@ -20397,9 +20413,9 @@ void printInfoDisplay()
 80008a0c:	6d ff e7 db 	call 800041da <lcd_goto>
     switch (infoState)
 80008a10:	91 00 00 c7 	movh.a %a12,28672
-80008a14:	19 cf d8 10 	ld.w %d15,[%a12]3160 <70000c58 <infoState>>
+80008a14:	19 cf f8 10 	ld.w %d15,[%a12]3192 <70000c78 <infoState>>
 80008a18:	91 00 00 47 	movh.a %a4,28672
-80008a1c:	d9 44 f8 00 	lea %a4,[%a4]3128 <70000c38 <buf>>
+80008a1c:	d9 44 d8 10 	lea %a4,[%a4]3160 <70000c58 <buf>>
 80008a20:	ff 7f 54 80 	jge.u %d15,7,80008ac8 <printInfoDisplay+0xbe>
 80008a24:	91 10 00 f8 	movh.a %a15,32769
 80008a28:	d9 ff b0 88 	lea %a15,[%a15]-30160 <80008a30 <printInfoDisplay+0x26>>
@@ -20492,11 +20508,11 @@ void printInfoDisplay()
     // lcd_print(buf);
 
     if (infoState == tunnelMode || infoState == driveLight)
-80008ad2:	19 cf d8 10 	ld.w %d15,[%a12]3160 <70000c58 <infoState>>
+80008ad2:	19 cf f8 10 	ld.w %d15,[%a12]3192 <70000c78 <infoState>>
 80008ad6:	91 00 00 f7 	movh.a %a15,28672
 80008ada:	8b 6f 00 22 	eq %d2,%d15,6
 80008ade:	8b 0f e0 24 	or.eq %d2,%d15,0
-80008ae2:	d9 ff dc 10 	lea %a15,[%a15]3164 <70000c5c <infotainmentArr>>
+80008ae2:	d9 ff 10 40 	lea %a15,[%a15]272 <70000110 <infotainmentArr>>
 80008ae6:	76 26       	jz %d2,80008af2 <printInfoDisplay+0xe8>
     {
         if (infotainmentArr[infoState] == 0)
@@ -20621,7 +20637,7 @@ void updateStateByPacket(const struct ActuatorPacket *packet)
 80008b72:	39 42 03 00 	ld.bu %d2,[%a4]3
 80008b76:	91 00 00 f7 	movh.a %a15,28672
 80008b7a:	37 02 64 32 	extr.u %d3,%d2,4,4
-80008b7e:	19 f4 dc 10 	ld.w %d4,[%a15]3164 <70000c5c <infotainmentArr>>
+80008b7e:	19 f4 10 40 	ld.w %d4,[%a15]272 <70000110 <infotainmentArr>>
     printInfoDisplay();
 }
 
@@ -20633,12 +20649,12 @@ void updateStateByPacket(const struct ActuatorPacket *packet)
 80008b84:	5f 34 05 00 	jeq %d4,%d3,80008b8e <updateStateByPacket+0x1c>
     {
         infotainmentArr[0] = packet->driving_mode;
-80008b88:	59 f3 dc 10 	st.w [%a15]3164 <70000c5c <infotainmentArr>>,%d3
+80008b88:	59 f3 10 40 	st.w [%a15]272 <70000110 <infotainmentArr>>,%d3
         isStateUpdated = TRUE;
 80008b8c:	82 1f       	mov %d15,1
     }
     if (infotainmentArr[1] != packet->fan)
-80008b8e:	d9 ff dc 10 	lea %a15,[%a15]3164 <70000c5c <infotainmentArr>>
+80008b8e:	d9 ff 10 40 	lea %a15,[%a15]272 <70000110 <infotainmentArr>>
 80008b92:	48 14       	ld.w %d4,[%a15]4
 80008b94:	8f 32 00 31 	and %d3,%d2,3
 80008b98:	5f 34 04 00 	jeq %d4,%d3,80008ba0 <updateStateByPacket+0x2e>
@@ -20771,7 +20787,7 @@ void updateStateByButton(uint8 buttonState)
     {
     case btnUP:
         if (infoState < driveLight)
-80008c60:	19 ff d8 10 	ld.w %d15,[%a15]3160 <70000c58 <infoState>>
+80008c60:	19 ff f8 10 	ld.w %d15,[%a15]3192 <70000c78 <infoState>>
 80008c64:	91 00 00 27 	movh.a %a2,28672
 80008c68:	ff 6f 04 00 	jge %d15,6,80008c70 <updateStateByButton+0x38>
         {
@@ -20790,7 +20806,7 @@ void updateStateByButton(uint8 buttonState)
         break;
     case btnDOWN:
         if (infoState > tunnelMode)
-80008c74:	19 ff d8 10 	ld.w %d15,[%a15]3160 <70000c58 <infoState>>
+80008c74:	19 ff f8 10 	ld.w %d15,[%a15]3192 <70000c78 <infoState>>
 80008c78:	91 00 00 27 	movh.a %a2,28672
 80008c7c:	8e f3       	jlez %d15,80008c82 <updateStateByButton+0x4a>
         {
@@ -20803,16 +20819,16 @@ void updateStateByButton(uint8 buttonState)
         {
             infoState = driveLight;
 80008c82:	82 6f       	mov %d15,6
-80008c84:	59 2f d8 10 	st.w [%a2]3160 <70000c58 <infoState>>,%d15
+80008c84:	59 2f f8 10 	st.w [%a2]3192 <70000c78 <infoState>>,%d15
 80008c88:	3c 25       	j 80008cd2 <updateStateByButton+0x9a>
             isStateUpdated = TRUE;
         }
         break;
     case btnLEFT:
         if (infotainmentArr[infoState] > 0)
-80008c8a:	19 ff d8 10 	ld.w %d15,[%a15]3160 <70000c58 <infoState>>
+80008c8a:	19 ff f8 10 	ld.w %d15,[%a15]3192 <70000c78 <infoState>>
 80008c8e:	91 00 00 f7 	movh.a %a15,28672
-80008c92:	d9 ff dc 10 	lea %a15,[%a15]3164 <70000c5c <infotainmentArr>>
+80008c92:	d9 ff 10 40 	lea %a15,[%a15]272 <70000110 <infotainmentArr>>
 80008c96:	90 ff       	addsc.a %a15,%a15,%d15,2
 80008c98:	4c f0       	ld.w %d15,[%a15]0
 80008c9a:	8e f4       	jlez %d15,80008ca2 <updateStateByButton+0x6a>
@@ -20833,11 +20849,11 @@ void updateStateByButton(uint8 buttonState)
         break;
     case btnRIGHT:
         if (infotainmentArr[infoState] < stateMaxArr[infoState])
-80008ca6:	19 ff d8 10 	ld.w %d15,[%a15]3160
+80008ca6:	19 ff f8 10 	ld.w %d15,[%a15]3192
 80008caa:	91 00 00 28 	movh.a %a2,32768
 80008cae:	91 00 00 f7 	movh.a %a15,28672
 80008cb2:	06 2f       	sh %d15,2
-80008cb4:	d9 ff dc 10 	lea %a15,[%a15]3164 <70000c5c <infotainmentArr>>
+80008cb4:	d9 ff 10 40 	lea %a15,[%a15]272 <70000110 <infotainmentArr>>
 80008cb8:	d9 22 f8 80 	lea %a2,[%a2]3640 <80000e38 <stateMaxArr>>
 80008cbc:	10 ff       	addsc.a %a15,%a15,%d15,0
 80008cbe:	10 22       	addsc.a %a2,%a2,%d15,0
@@ -20858,10 +20874,10 @@ void updateStateByButton(uint8 buttonState)
 80008cce:	68 0f       	st.w [%a15]0,%d15
 80008cd0:	00 90       	ret 
     {
-        if (isSettingUpdated == TRUE)
-        {
+        // if (isSettingUpdated == TRUE)
+        // {
             
-        }
+        // }
         lcd_clear();
 80008cd2:	6d ff 17 da 	call 80004100 <lcd_clear>
         printInfoDisplay();
@@ -20902,7 +20918,7 @@ void initUartDriver(void)
     ascConfig.txBufferSize = ASC_TX_BUFFER_SIZE;
     ascConfig.rxBuffer = g_AsclinStm.ascBuffer.rx;
 80008cf2:	7b 00 00 27 	movh %d2,28672
-80008cf6:	1b 62 db 20 	addi %d2,%d2,3510
+80008cf6:	1b e2 db 20 	addi %d2,%d2,3518
 void initUartDriver(void)
 {
     IfxAsclin_Asc_Config ascConfig;
@@ -21007,7 +21023,7 @@ void initUartDriver(void)
 
     ascConfig.txBuffer = g_AsclinStm.ascBuffer.tx;
 80008d3c:	7b 00 00 f7 	movh %d15,28672
-80008d40:	1b cf c8 f0 	addi %d15,%d15,3212
+80008d40:	1b 4f c9 f0 	addi %d15,%d15,3220
         NULL_PTR, IfxPort_OutputMode_pushPull,
         &IfxAsclin0_TX_P15_2_OUT, IfxPort_OutputMode_pushPull,
         IfxPort_PadDriver_cmosAutomotiveSpeed1};
@@ -21028,7 +21044,7 @@ void initUartDriver(void)
     ascConfig.pins = &pins;
 
     IfxAsclin_Asc_initModule(&g_AsclinStm.drivers.asc, &ascConfig);
-80008d4a:	d9 44 e0 b0 	lea %a4,[%a4]3808 <70000ee0 <g_AsclinStm+0x254>>
+80008d4a:	d9 44 e8 b0 	lea %a4,[%a4]3816 <70000ee8 <g_AsclinStm+0x254>>
     ascConfig.interrupt.rxPriority = ISR_PRIORITY_ASC_0_RX;
     ascConfig.interrupt.txPriority = ISR_PRIORITY_ASC_0_TX;
     ascConfig.interrupt.typeOfService = IfxSrc_Tos_cpu0;
@@ -21091,8 +21107,8 @@ void myprintfSerial(const char *fmt, ...)
 80008d7e:	d9 a4 28 10 	lea %a4,[%sp]104
 80008d82:	6d 00 df 15 	call 8000b940 <strlen>
 80008d86:	91 00 00 f7 	movh.a %a15,28672
-80008d8a:	d9 ff cc 20 	lea %a15,[%a15]3212 <70000c8c <g_AsclinStm>>
-80008d8e:	f9 f2 30 90 	st.h [%a15]624 <70000270 <__malloc_av_+0x140>>,%d2
+80008d8a:	d9 ff d4 20 	lea %a15,[%a15]3220 <70000c94 <g_AsclinStm>>
+80008d8e:	f9 f2 30 90 	st.h [%a15]624 <70000270 <__malloc_av_+0x120>>,%d2
     unsigned int i = 0;
 80008d92:	82 0f       	mov %d15,0
     for (; i < strlen(buf); i++)
@@ -21123,9 +21139,9 @@ void myprintfSerial(const char *fmt, ...)
 80008db4:	91 00 00 47 	movh.a %a4,28672
 80008db8:	91 00 00 67 	movh.a %a6,28672
 80008dbc:	82 f4       	mov %d4,-1
-80008dbe:	d9 44 e0 b0 	lea %a4,[%a4]3808 <70000ee0 <g_AsclinStm+0x254>>
-80008dc2:	d9 a5 04 00 	lea %a5,[%sp]4 <70000ee0 <g_AsclinStm+0x254>>
-80008dc6:	d9 66 fc b0 	lea %a6,[%a6]3836 <70000efc <g_AsclinStm+0x270>>
+80008dbe:	d9 44 e8 b0 	lea %a4,[%a4]3816 <70000ee8 <g_AsclinStm+0x254>>
+80008dc2:	d9 a5 04 00 	lea %a5,[%sp]4 <70000ee8 <g_AsclinStm+0x254>>
+80008dc6:	d9 66 c4 c0 	lea %a6,[%a6]3844 <70000f04 <g_AsclinStm+0x270>>
 80008dca:	9b 04 00 58 	addih %d5,%d4,32768
 80008dce:	1d ff 73 e5 	j 800058b4 <IfxAsclin_Asc_write>
 
@@ -21137,7 +21153,7 @@ ISR(asclin0TxISR)
     // printfSerial("onTransmit(%d) ",++sendStamp);
     IfxAsclin_Asc_isrTransmit(&g_AsclinStm.drivers.asc);
 80008dd2:	91 00 00 47 	movh.a %a4,28672
-80008dd6:	d9 44 e0 b0 	lea %a4,[%a4]3808 <70000ee0 <g_AsclinStm+0x254>>
+80008dd6:	d9 44 e8 b0 	lea %a4,[%a4]3816 <70000ee8 <g_AsclinStm+0x254>>
 80008dda:	1d ff 73 e2 	j 800052c0 <IfxAsclin_Asc_isrTransmit>
 
 80008dde <calculate_checksum>:
@@ -21255,7 +21271,7 @@ void sendActuatorPacket(const struct ActuatorPacket *packet)
     serialize_actuator_packet(packet, buf);
     g_AsclinStm.count = ACTUATOR_PACKET_SIZE;
 80008e32:	da 0b       	mov %d15,11
-80008e34:	d9 22 cc 20 	lea %a2,[%a2]3212 <70000c8c <g_AsclinStm>>
+80008e34:	d9 22 d4 20 	lea %a2,[%a2]3220 <70000c94 <g_AsclinStm>>
 
     printfSerial("\nsendA:[ ");
 80008e38:	d9 44 f4 90 	lea %a4,[%a4]3700 <80000e74 <stateMaxArr+0x3c>>
@@ -21265,7 +21281,7 @@ void sendActuatorPacket(const struct ActuatorPacket *packet)
     uint8 buf[ACTUATOR_PACKET_SIZE] = {};
     serialize_actuator_packet(packet, buf);
     g_AsclinStm.count = ACTUATOR_PACKET_SIZE;
-80008e3c:	f9 2f 30 90 	st.h [%a2]624 <70000270 <__malloc_av_+0x140>>,%d15
+80008e3c:	f9 2f 30 90 	st.h [%a2]624 <70000270 <__malloc_av_+0x120>>,%d15
 
     printfSerial("\nsendA:[ ");
 80008e40:	6d ff 10 db 	call 80004460 <printfSerial>
@@ -21412,9 +21428,9 @@ void sendActuatorPacket(const struct ActuatorPacket *packet)
 80008ece:	91 00 00 47 	movh.a %a4,28672
 80008ed2:	91 00 00 67 	movh.a %a6,28672
 80008ed6:	82 f4       	mov %d4,-1
-80008ed8:	d9 44 e0 b0 	lea %a4,[%a4]3808 <70000ee0 <g_AsclinStm+0x254>>
+80008ed8:	d9 44 e8 b0 	lea %a4,[%a4]3816 <70000ee8 <g_AsclinStm+0x254>>
 80008edc:	40 c5       	mov.aa %a5,%a12
-80008ede:	d9 66 fc b0 	lea %a6,[%a6]3836 <70000efc <g_AsclinStm+0x270>>
+80008ede:	d9 66 c4 c0 	lea %a6,[%a6]3844 <70000f04 <g_AsclinStm+0x270>>
 80008ee2:	9b 04 00 58 	addih %d5,%d4,32768
 80008ee6:	1d ff e7 e4 	j 800058b4 <IfxAsclin_Asc_write>
 
@@ -21439,7 +21455,7 @@ void readActuatorPacket(struct ActuatorPacket *packet)
 {
     if (IfxAsclin_Asc_blockingRead(&g_AsclinStm.drivers.asc) == UART_START_BYTE)
 80008ef4:	91 00 00 d7 	movh.a %a13,28672
-80008ef8:	d9 dd e0 b0 	lea %a13,[%a13]3808 <70000ee0 <g_AsclinStm+0x254>>
+80008ef8:	d9 dd e8 b0 	lea %a13,[%a13]3816 <70000ee8 <g_AsclinStm+0x254>>
 
     IfxAsclin_Asc_write(&g_AsclinStm.drivers.asc, &buf, &g_AsclinStm.count, TIME_INFINITE);
 }
@@ -21665,7 +21681,7 @@ ISR(asclin0RxISR)
     // printfSerial("onReceive(%d) ",++recieveStamp);
     IfxAsclin_Asc_isrReceive(&g_AsclinStm.drivers.asc);
 80009006:	91 00 00 f7 	movh.a %a15,28672
-8000900a:	d9 ff e0 b0 	lea %a15,[%a15]3808 <70000ee0 <g_AsclinStm+0x254>>
+8000900a:	d9 ff e8 b0 	lea %a15,[%a15]3816 <70000ee8 <g_AsclinStm+0x254>>
 8000900e:	40 f4       	mov.aa %a4,%a15
 80009010:	6d ff a7 e1 	call 8000535e <IfxAsclin_Asc_isrReceive>
 
@@ -21678,7 +21694,7 @@ ISR(asclin0RxISR)
     {
         readActuatorPacket(&g_RecievedActuatorPacket);
 80009020:	91 00 00 47 	movh.a %a4,28672
-80009024:	d9 44 c1 20 	lea %a4,[%a4]3201 <70000c81 <g_RecievedActuatorPacket>>
+80009024:	d9 44 c9 20 	lea %a4,[%a4]3209 <70000c89 <g_RecievedActuatorPacket>>
 80009028:	1d ff 66 ff 	j 80008ef4 <readActuatorPacket>
 8000902c:	00 90       	ret 
 
@@ -21690,7 +21706,7 @@ void readSensorPacket(struct SensorPacket *packet)
 {
     if (IfxAsclin_Asc_blockingRead(&g_AsclinStm.drivers.asc) == UART_START_BYTE)
 8000902e:	91 00 00 c7 	movh.a %a12,28672
-80009032:	d9 cc e0 b0 	lea %a12,[%a12]3808 <70000ee0 <g_AsclinStm+0x254>>
+80009032:	d9 cc e8 b0 	lea %a12,[%a12]3816 <70000ee8 <g_AsclinStm+0x254>>
         }
     }
 }
@@ -21825,7 +21841,7 @@ void sendSensorPacket(const struct SensorPacket *packet)
     serialize_sensor_packet(packet, buf);
     g_AsclinStm.count = SENSOR_PACKET_SIZE;
 800090d8:	da 09       	mov %d15,9
-800090da:	d9 22 cc 20 	lea %a2,[%a2]3212 <70000c8c <g_AsclinStm>>
+800090da:	d9 22 d4 20 	lea %a2,[%a2]3220 <70000c94 <g_AsclinStm>>
 
     printfSerial("\nsendB:[ ");
 800090de:	d9 44 d1 d0 	lea %a4,[%a4]3921 <80000f51 <stateMaxArr+0x119>>
@@ -21835,7 +21851,7 @@ void sendSensorPacket(const struct SensorPacket *packet)
     uint8 buf[SENSOR_PACKET_SIZE] = {};
     serialize_sensor_packet(packet, buf);
     g_AsclinStm.count = SENSOR_PACKET_SIZE;
-800090e2:	f9 2f 30 90 	st.h [%a2]624 <70000270 <__malloc_av_+0x140>>,%d15
+800090e2:	f9 2f 30 90 	st.h [%a2]624 <70000270 <__malloc_av_+0x120>>,%d15
 
     printfSerial("\nsendB:[ ");
 800090e6:	6d ff bd d9 	call 80004460 <printfSerial>
@@ -21963,9 +21979,9 @@ void sendSensorPacket(const struct SensorPacket *packet)
 8000914e:	91 00 00 47 	movh.a %a4,28672
 80009152:	91 00 00 67 	movh.a %a6,28672
 80009156:	82 f4       	mov %d4,-1
-80009158:	d9 44 e0 b0 	lea %a4,[%a4]3808 <70000ee0 <g_AsclinStm+0x254>>
+80009158:	d9 44 e8 b0 	lea %a4,[%a4]3816 <70000ee8 <g_AsclinStm+0x254>>
 8000915c:	40 c5       	mov.aa %a5,%a12
-8000915e:	d9 66 fc b0 	lea %a6,[%a6]3836 <70000efc <g_AsclinStm+0x270>>
+8000915e:	d9 66 c4 c0 	lea %a6,[%a6]3844 <70000f04 <g_AsclinStm+0x270>>
 80009162:	9b 04 00 58 	addih %d5,%d4,32768
 80009166:	1d ff a7 e3 	j 800058b4 <IfxAsclin_Asc_write>
 
@@ -23493,7 +23509,7 @@ static OsEE_reg osEE_tc_stm_us_ticks(OsEE_reg usec) {
   OsEE_reg ticks;
   if (osEE_tc_stm_freq_khz >= OSEE_KILO) {
 800097a8:	91 00 00 f7 	movh.a %a15,28672
-800097ac:	19 ff c0 c0 	ld.w %d15,[%a15]3840 <70000f00 <osEE_tc_stm_freq_khz>>
+800097ac:	19 ff c8 c0 	ld.w %d15,[%a15]3848 <70000f08 <osEE_tc_stm_freq_khz>>
 800097b0:	3b 80 3e 20 	mov %d2,1000
 800097b4:	3f 2f 0c 80 	jlt.u %d15,%d2,800097cc <osEE_tc_stm_us_ticks+0x26>
     ticks = usec * (osEE_tc_stm_freq_khz / OSEE_KILO);
@@ -24079,7 +24095,7 @@ void osEE_tc_stm_set_clockpersec(void)
 80009aee:	73 f2 68 20 	mul.u %e2,%d2,%d15
 80009af2:	8f a3 1f f0 	sh %d15,%d3,-6
 80009af6:	91 00 00 f7 	movh.a %a15,28672
-80009afa:	59 ff c0 c0 	st.w [%a15]3840 <70000f00 <osEE_tc_stm_freq_khz>>,%d15
+80009afa:	59 ff c8 c0 	st.w [%a15]3848 <70000f08 <osEE_tc_stm_freq_khz>>,%d15
 80009afe:	00 90       	ret 
 
 80009b00 <osEE_tc_stm_set_sr0>:
@@ -29530,13 +29546,13 @@ OSEE_STATIC_INLINE void OSEE_ALWAYS_INLINE
 
 8000b46a <malloc>:
 8000b46a:	91 00 00 f7 	movh.a %a15,28672
-8000b46e:	99 f4 78 40 	ld.a %a4,[%a15]1336 <70000538 <_impure_ptr>>
+8000b46e:	99 f4 58 50 	ld.a %a4,[%a15]1368 <70000558 <_impure_ptr>>
 8000b472:	1d 00 09 00 	j 8000b484 <_malloc_r>
 
 8000b476 <free>:
 8000b476:	91 00 00 f7 	movh.a %a15,28672
 8000b47a:	40 45       	mov.aa %a5,%a4
-8000b47c:	99 f4 78 40 	ld.a %a4,[%a15]1336 <70000538 <_impure_ptr>>
+8000b47c:	99 f4 58 50 	ld.a %a4,[%a15]1368 <70000558 <_impure_ptr>>
 8000b480:	1d 00 f7 02 	j 8000ba6e <_free_r>
 
 8000b484 <_malloc_r>:
@@ -29554,7 +29570,7 @@ OSEE_STATIC_INLINE void OSEE_ALWAYS_INLINE
 8000b4a8:	91 00 00 f7 	movh.a %a15,28672
 8000b4ac:	8b 88 bf f2 	ge.u %d15,%d8,504
 8000b4b0:	6d 00 37 02 	call 8000b91e <__malloc_lock>
-8000b4b4:	d9 ff 30 40 	lea %a15,[%a15]304 <70000130 <__malloc_av_>>
+8000b4b4:	d9 ff 10 50 	lea %a15,[%a15]336 <70000150 <__malloc_av_>>
 8000b4b8:	ee 19       	jnz %d15,8000b4ea <_malloc_r+0x66>
 8000b4ba:	8f d8 1f 20 	sh %d2,%d8,-3
 8000b4be:	01 f2 03 26 	addsc.a %a2,%a15,%d2,3
@@ -29620,7 +29636,7 @@ OSEE_STATIC_INLINE void OSEE_ALWAYS_INLINE
 8000b582:	c2 12       	add %d2,1
 8000b584:	c8 4c       	ld.a %a12,[%a15]16
 8000b586:	91 00 00 37 	movh.a %a3,28672
-8000b58a:	d9 33 38 40 	lea %a3,[%a3]312 <70000138 <__malloc_av_+0x8>>
+8000b58a:	d9 33 18 50 	lea %a3,[%a3]344 <70000158 <__malloc_av_+0x8>>
 8000b58e:	7d 3c 83 00 	jeq.a %a12,%a3,8000b694 <_malloc_r+0x210>
 8000b592:	4c c1       	ld.w %d15,[%a12]4
 8000b594:	8f 3f c0 f1 	andn %d15,%d15,3
@@ -29785,10 +29801,10 @@ OSEE_STATIC_INLINE void OSEE_ALWAYS_INLINE
 8000b796:	0b 8a a0 22 	or.lt.u %d2,%d10,%d8
 8000b79a:	df 02 b1 00 	jeq %d2,0,8000b8fc <_malloc_r+0x478>
 8000b79e:	91 00 00 27 	movh.a %a2,28672
-8000b7a2:	19 2b f8 c0 	ld.w %d11,[%a2]3896 <70000f38 <__malloc_top_pad>>
+8000b7a2:	19 2b c0 d0 	ld.w %d11,[%a2]3904 <70000f40 <__malloc_top_pad>>
 8000b7a6:	91 00 00 27 	movh.a %a2,28672
 8000b7aa:	42 8b       	add %d11,%d8
-8000b7ac:	19 23 28 40 	ld.w %d3,[%a2]296 <70000128 <__malloc_sbrk_base>>
+8000b7ac:	19 23 08 50 	ld.w %d3,[%a2]328 <70000148 <__malloc_sbrk_base>>
 8000b7b0:	1b fb 00 f1 	addi %d15,%d11,4111
 8000b7b4:	b7 0f 0c f0 	insert %d15,%d15,0,0,12
 8000b7b8:	1b 0b 01 20 	addi %d2,%d11,16
@@ -29809,9 +29825,9 @@ OSEE_STATIC_INLINE void OSEE_ALWAYS_INLINE
 8000b7e4:	01 fc 10 d4 	ne.a %d13,%a12,%a15
 8000b7e8:	ee 7a       	jnz %d15,8000b8dc <_malloc_r+0x458>
 8000b7ea:	91 00 00 e7 	movh.a %a14,28672
-8000b7ee:	19 e3 c8 c0 	ld.w %d3,[%a14]3848 <70000f08 <__malloc_current_mallinfo>>
+8000b7ee:	19 e3 d0 c0 	ld.w %d3,[%a14]3856 <70000f10 <__malloc_current_mallinfo>>
 8000b7f2:	42 b3       	add %d3,%d11
-8000b7f4:	59 e3 c8 c0 	st.w [%a14]3848 <70000f08 <__malloc_current_mallinfo>>,%d3
+8000b7f4:	59 e3 d0 c0 	st.w [%a14]3856 <70000f10 <__malloc_current_mallinfo>>,%d3
 8000b7f8:	5f 29 0c 80 	jne %d9,%d2,8000b810 <_malloc_r+0x38c>
 8000b7fc:	b7 09 14 f6 	insert %d15,%d9,0,12,20
 8000b800:	ee 08       	jnz %d15,8000b810 <_malloc_r+0x38c>
@@ -29821,14 +29837,14 @@ OSEE_STATIC_INLINE void OSEE_ALWAYS_INLINE
 8000b80a:	59 2a 04 00 	st.w [%a2]4,%d10
 8000b80e:	3c 55       	j 8000b8b8 <_malloc_r+0x434>
 8000b810:	60 c2       	mov.a %a2,%d12
-8000b812:	19 2f 28 40 	ld.w %d15,[%a2]296
+8000b812:	19 2f 08 50 	ld.w %d15,[%a2]328
 8000b816:	5e f6       	jne %d15,-1,8000b822 <_malloc_r+0x39e>
 8000b818:	91 00 00 27 	movh.a %a2,28672
-8000b81c:	59 29 28 40 	st.w [%a2]296 <70000128 <__malloc_sbrk_base>>,%d9
+8000b81c:	59 29 08 50 	st.w [%a2]328 <70000148 <__malloc_sbrk_base>>,%d9
 8000b820:	3c 06       	j 8000b82c <_malloc_r+0x3a8>
 8000b822:	0b 29 80 20 	sub %d2,%d9,%d2
 8000b826:	42 23       	add %d3,%d2
-8000b828:	59 e3 c8 c0 	st.w [%a14]3848 <70000f08 <__malloc_current_mallinfo>>,%d3
+8000b828:	59 e3 d0 c0 	st.w [%a14]3856 <70000f10 <__malloc_current_mallinfo>>,%d3
 8000b82c:	8f 79 00 21 	and %d2,%d9,7
 8000b830:	82 0f       	mov %d15,0
 8000b832:	76 24       	jz %d2,8000b83a <_malloc_r+0x3b6>
@@ -29846,15 +29862,15 @@ OSEE_STATIC_INLINE void OSEE_ALWAYS_INLINE
 8000b854:	60 92       	mov.a %a2,%d9
 8000b856:	82 0f       	mov %d15,0
 8000b858:	80 2b       	mov.d %d11,%a2
-8000b85a:	19 e2 c8 c0 	ld.w %d2,[%a14]3848 <70000f08 <__malloc_current_mallinfo>>
+8000b85a:	19 e2 d0 c0 	ld.w %d2,[%a14]3856 <70000f10 <__malloc_current_mallinfo>>
 8000b85e:	a2 9b       	sub %d11,%d9
 8000b860:	42 f2       	add %d2,%d15
 8000b862:	60 92       	mov.a %a2,%d9
 8000b864:	42 bf       	add %d15,%d11
 8000b866:	68 29       	st.w [%a15]8,%d9
 8000b868:	8f 1f 40 31 	or %d3,%d15,1
-8000b86c:	59 e2 c8 c0 	st.w [%a14]3848 <70000f08 <__malloc_current_mallinfo>>,%d2
-8000b870:	59 23 04 00 	st.w [%a2]4 <70000f08 <__malloc_current_mallinfo>>,%d3
+8000b86c:	59 e2 d0 c0 	st.w [%a14]3856 <70000f10 <__malloc_current_mallinfo>>,%d2
+8000b870:	59 23 04 00 	st.w [%a2]4 <70000f10 <__malloc_current_mallinfo>>,%d3
 8000b874:	df 0d 22 00 	jeq %d13,0,8000b8b8 <_malloc_r+0x434>
 8000b878:	8b 0a a1 f2 	ge.u %d15,%d10,16
 8000b87c:	ee 05       	jnz %d15,8000b886 <_malloc_r+0x402>
@@ -29877,16 +29893,16 @@ OSEE_STATIC_INLINE void OSEE_ALWAYS_INLINE
 8000b8b0:	d9 c5 08 00 	lea %a5,[%a12]8
 8000b8b4:	6d 00 dd 00 	call 8000ba6e <_free_r>
 8000b8b8:	91 00 00 27 	movh.a %a2,28672
-8000b8bc:	19 ef c8 c0 	ld.w %d15,[%a14]3848 <70000f08 <__malloc_current_mallinfo>>
-8000b8c0:	19 22 f4 c0 	ld.w %d2,[%a2]3892 <70000f34 <__malloc_max_sbrked_mem>>
+8000b8bc:	19 ef d0 c0 	ld.w %d15,[%a14]3856 <70000f10 <__malloc_current_mallinfo>>
+8000b8c0:	19 22 fc c0 	ld.w %d2,[%a2]3900 <70000f3c <__malloc_max_sbrked_mem>>
 8000b8c4:	7f f2 04 80 	jge.u %d2,%d15,8000b8cc <_malloc_r+0x448>
-8000b8c8:	59 2f f4 c0 	st.w [%a2]3892 <70000f34 <__malloc_max_sbrked_mem>>,%d15
+8000b8c8:	59 2f fc c0 	st.w [%a2]3900 <70000f3c <__malloc_max_sbrked_mem>>,%d15
 8000b8cc:	91 00 00 27 	movh.a %a2,28672
-8000b8d0:	19 22 f0 c0 	ld.w %d2,[%a2]3888 <70000f30 <__malloc_max_total_mem>>
+8000b8d0:	19 22 f8 c0 	ld.w %d2,[%a2]3896 <70000f38 <__malloc_max_total_mem>>
 8000b8d4:	7f f2 04 80 	jge.u %d2,%d15,8000b8dc <_malloc_r+0x458>
-8000b8d8:	59 2f f0 c0 	st.w [%a2]3888 <70000f30 <__malloc_max_total_mem>>,%d15
+8000b8d8:	59 2f f8 c0 	st.w [%a2]3896 <70000f38 <__malloc_max_total_mem>>,%d15
 8000b8dc:	c8 22       	ld.a %a2,[%a15]8
-8000b8de:	19 22 04 00 	ld.w %d2,[%a2]4 <70000f30 <__malloc_max_total_mem>>
+8000b8de:	19 22 04 00 	ld.w %d2,[%a2]4 <70000f38 <__malloc_max_total_mem>>
 8000b8e2:	8f 32 c0 21 	andn %d2,%d2,3
 8000b8e6:	5a 82       	sub %d15,%d2,%d8
 8000b8e8:	8b 0f 41 32 	lt %d3,%d15,16
@@ -29918,12 +29934,12 @@ OSEE_STATIC_INLINE void OSEE_ALWAYS_INLINE
 8000b922 <_sbrk_r>:
 8000b922:	82 0f       	mov %d15,0
 8000b924:	91 00 00 c7 	movh.a %a12,28672
-8000b928:	59 cf c0 d0 	st.w [%a12]3904 <70000f40 <errno>>,%d15
+8000b928:	59 cf c8 d0 	st.w [%a12]3912 <70000f48 <errno>>,%d15
 8000b92c:	40 4f       	mov.aa %a15,%a4
 8000b92e:	6d 00 2d 17 	call 8000e788 <sbrk>
 8000b932:	80 2f       	mov.d %d15,%a2
 8000b934:	5e f5       	jne %d15,-1,8000b93e <_sbrk_r+0x1c>
-8000b936:	19 cf c0 d0 	ld.w %d15,[%a12]3904 <70000f40 <errno>>
+8000b936:	19 cf c8 d0 	ld.w %d15,[%a12]3912 <70000f48 <errno>>
 8000b93a:	6e 02       	jz %d15,8000b93e <_sbrk_r+0x1c>
 8000b93c:	68 0f       	st.w [%a15]0,%d15
 8000b93e:	00 90       	ret 
@@ -29972,7 +29988,7 @@ OSEE_STATIC_INLINE void OSEE_ALWAYS_INLINE
 8000b99e <vsnprintf>:
 8000b99e:	91 00 00 37 	movh.a %a3,28672
 8000b9a2:	40 42       	mov.aa %a2,%a4
-8000b9a4:	99 34 78 40 	ld.a %a4,[%a3]1336 <70000538 <_impure_ptr>>
+8000b9a4:	99 34 58 50 	ld.a %a4,[%a3]1368 <70000558 <_impure_ptr>>
 8000b9a8:	40 5f       	mov.aa %a15,%a5
 8000b9aa:	40 67       	mov.aa %a7,%a6
 8000b9ac:	40 25       	mov.aa %a5,%a2
@@ -29984,7 +30000,7 @@ OSEE_STATIC_INLINE void OSEE_ALWAYS_INLINE
 8000b9b6:	40 4f       	mov.aa %a15,%a4
 8000b9b8:	6d ff b3 ff 	call 8000b91e <__malloc_lock>
 8000b9bc:	91 00 00 c7 	movh.a %a12,28672
-8000b9c0:	d9 cc 30 40 	lea %a12,[%a12]304 <70000130 <__malloc_av_>>
+8000b9c0:	d9 cc 10 50 	lea %a12,[%a12]336 <70000150 <__malloc_av_>>
 8000b9c4:	99 c2 08 00 	ld.a %a2,[%a12]8 <70000008 <g_vadcChannelIDs>>
 8000b9c8:	3b 00 00 21 	mov %d2,4096
 8000b9cc:	19 28 04 00 	ld.w %d8,[%a2]4
@@ -30019,22 +30035,22 @@ OSEE_STATIC_INLINE void OSEE_ALWAYS_INLINE
 8000ba26:	8b 0f 41 22 	lt %d2,%d15,16
 8000ba2a:	df 02 de ff 	jne %d2,0,8000b9e6 <_malloc_trim_r+0x32>
 8000ba2e:	91 00 00 47 	movh.a %a4,28672
-8000ba32:	99 44 28 40 	ld.a %a4,[%a4]296 <70000128 <__malloc_sbrk_base>>
+8000ba32:	99 44 08 50 	ld.a %a4,[%a4]328 <70000148 <__malloc_sbrk_base>>
 8000ba36:	96 01       	or %d15,1
 8000ba38:	6c 31       	st.w [%a3]4,%d15
 8000ba3a:	01 42 20 20 	sub.a %a2,%a2,%a4
 8000ba3e:	91 00 00 47 	movh.a %a4,28672
-8000ba42:	b5 42 c8 c0 	st.a [%a4]3848 <70000f08 <__malloc_current_mallinfo>>,%a2
+8000ba42:	b5 42 d0 c0 	st.a [%a4]3856 <70000f10 <__malloc_current_mallinfo>>,%a2
 8000ba46:	3c d0       	j 8000b9e6 <_malloc_trim_r+0x32>
 8000ba48:	99 c2 08 00 	ld.a %a2,[%a12]8
 8000ba4c:	a2 f8       	sub %d8,%d15
 8000ba4e:	8f 18 40 81 	or %d8,%d8,1
 8000ba52:	59 28 04 00 	st.w [%a2]4,%d8
 8000ba56:	91 00 00 27 	movh.a %a2,28672
-8000ba5a:	19 22 c8 c0 	ld.w %d2,[%a2]3848 <70000f08 <__malloc_current_mallinfo>>
+8000ba5a:	19 22 d0 c0 	ld.w %d2,[%a2]3856 <70000f10 <__malloc_current_mallinfo>>
 8000ba5e:	40 f4       	mov.aa %a4,%a15
 8000ba60:	5a f2       	sub %d15,%d2,%d15
-8000ba62:	59 2f c8 c0 	st.w [%a2]3848 <70000f08 <__malloc_current_mallinfo>>,%d15
+8000ba62:	59 2f d0 c0 	st.w [%a2]3856 <70000f10 <__malloc_current_mallinfo>>,%d15
 8000ba66:	6d ff 5d ff 	call 8000b920 <__malloc_unlock>
 8000ba6a:	82 12       	mov %d2,1
 8000ba6c:	00 90       	ret 
@@ -30049,7 +30065,7 @@ OSEE_STATIC_INLINE void OSEE_ALWAYS_INLINE
 8000ba82:	8f 14 c0 f1 	andn %d15,%d4,1
 8000ba86:	91 00 00 27 	movh.a %a2,28672
 8000ba8a:	10 f3       	addsc.a %a3,%a15,%d15,0
-8000ba8c:	d9 22 30 40 	lea %a2,[%a2]304 <70000130 <__malloc_av_>>
+8000ba8c:	d9 22 10 50 	lea %a2,[%a2]336 <70000150 <__malloc_av_>>
 8000ba90:	99 24 08 00 	ld.a %a4,[%a2]8 <70000008 <g_vadcChannelIDs>>
 8000ba94:	19 33 04 00 	ld.w %d3,[%a3]4 <70000008 <g_vadcChannelIDs>>
 8000ba98:	8f 14 00 41 	and %d4,%d4,1
@@ -30069,11 +30085,11 @@ OSEE_STATIC_INLINE void OSEE_ALWAYS_INLINE
 8000bac4:	68 12       	st.w [%a15]4,%d2
 8000bac6:	ec 22       	st.a [%a2]8,%a15
 8000bac8:	91 00 00 f7 	movh.a %a15,28672
-8000bacc:	19 f2 2c 40 	ld.w %d2,[%a15]300 <7000012c <__malloc_trim_threshold>>
+8000bacc:	19 f2 0c 50 	ld.w %d2,[%a15]332 <7000014c <__malloc_trim_threshold>>
 8000bad0:	3f 2f 09 80 	jlt.u %d15,%d2,8000bae2 <_free_r+0x74>
 8000bad4:	91 00 00 f7 	movh.a %a15,28672
 8000bad8:	40 d4       	mov.aa %a4,%a13
-8000bada:	19 f4 f8 c0 	ld.w %d4,[%a15]3896 <70000f38 <__malloc_top_pad>>
+8000bada:	19 f4 c0 d0 	ld.w %d4,[%a15]3904 <70000f40 <__malloc_top_pad>>
 8000bade:	6d ff 6b ff 	call 8000b9b4 <_malloc_trim_r>
 8000bae2:	40 d4       	mov.aa %a4,%a13
 8000bae4:	1d ff 1e ff 	j 8000b920 <__malloc_unlock>
@@ -30086,7 +30102,7 @@ OSEE_STATIC_INLINE void OSEE_ALWAYS_INLINE
 8000bafa:	01 4f 20 f0 	sub.a %a15,%a15,%a4
 8000bafe:	c8 25       	ld.a %a5,[%a15]8
 8000bb00:	91 00 00 47 	movh.a %a4,28672
-8000bb04:	d9 44 38 40 	lea %a4,[%a4]312 <70000138 <__malloc_av_+0x8>>
+8000bb04:	d9 44 18 50 	lea %a4,[%a4]344 <70000158 <__malloc_av_+0x8>>
 8000bb08:	82 12       	mov %d2,1
 8000bb0a:	7d 45 08 00 	jeq.a %a5,%a4,8000bb1a <_free_r+0xac>
 8000bb0e:	c8 34       	ld.a %a4,[%a15]12
@@ -30100,7 +30116,7 @@ OSEE_STATIC_INLINE void OSEE_ALWAYS_INLINE
 8000bb28:	99 35 08 00 	ld.a %a5,[%a3]8
 8000bb2c:	f6 2d       	jnz %d2,8000bb46 <_free_r+0xd8>
 8000bb2e:	91 00 00 47 	movh.a %a4,28672
-8000bb32:	d9 44 38 40 	lea %a4,[%a4]312 <70000138 <__malloc_av_+0x8>>
+8000bb32:	d9 44 18 50 	lea %a4,[%a4]344 <70000158 <__malloc_av_+0x8>>
 8000bb36:	7d 45 08 80 	jne.a %a5,%a4,8000bb46 <_free_r+0xd8>
 8000bb3a:	ec 25       	st.a [%a2]20,%a15
 8000bb3c:	ec 24       	st.a [%a2]16,%a15
@@ -33573,7 +33589,7 @@ OSEE_STATIC_INLINE void OSEE_ALWAYS_INLINE
 8000e3ca:	7b 00 00 c7 	movh %d12,28672
 8000e3ce:	60 c3       	mov.a %a3,%d12
 8000e3d0:	01 e8 00 26 	addsc.a %a2,%a14,%d8,0
-8000e3d4:	d9 34 30 40 	lea %a4,[%a3]304
+8000e3d4:	d9 34 10 50 	lea %a4,[%a3]336
 8000e3d8:	99 43 08 00 	ld.a %a3,[%a4]8
 8000e3dc:	80 4c       	mov.d %d12,%a4
 8000e3de:	19 2b 04 00 	ld.w %d11,[%a2]4
@@ -33882,10 +33898,10 @@ OSEE_STATIC_INLINE void OSEE_ALWAYS_INLINE
 
 8000e788 <sbrk>:
 8000e788:	91 00 00 f7 	movh.a %a15,28672
-8000e78c:	19 ff a0 50 	ld.w %d15,[%a15]2400 <70000960 <heap_top.2289>>
+8000e78c:	19 ff 80 60 	ld.w %d15,[%a15]2432 <70000980 <heap_top.2289>>
 8000e790:	7b 00 00 27 	movh %d2,28672
 8000e794:	42 f4       	add %d4,%d15
-8000e796:	1b 02 f5 20 	addi %d2,%d2,3920
+8000e796:	1b 82 f5 20 	addi %d2,%d2,3928
 8000e79a:	7f 42 09 80 	jge.u %d2,%d4,8000e7ac <sbrk+0x24>
 8000e79e:	6d 00 13 00 	call 8000e7c4 <__errno>
 8000e7a2:	da 0c       	mov %d15,12
@@ -33894,16 +33910,16 @@ OSEE_STATIC_INLINE void OSEE_ALWAYS_INLINE
 8000e7a8:	b0 f2       	add.a %a2,-1
 8000e7aa:	00 90       	ret 
 8000e7ac:	7b 00 00 27 	movh %d2,28672
-8000e7b0:	1b 02 f5 20 	addi %d2,%d2,3920
+8000e7b0:	1b 82 f5 20 	addi %d2,%d2,3928
 8000e7b4:	7f 24 04 80 	jge.u %d4,%d2,8000e7bc <sbrk+0x34>
 8000e7b8:	6d 00 0b 00 	call 8000e7ce <abort>
-8000e7bc:	59 f4 a0 50 	st.w [%a15]2400,%d4
+8000e7bc:	59 f4 80 60 	st.w [%a15]2432,%d4
 8000e7c0:	60 f2       	mov.a %a2,%d15
 8000e7c2:	00 90       	ret 
 
 8000e7c4 <__errno>:
 8000e7c4:	91 00 00 27 	movh.a %a2,28672
-8000e7c8:	d9 22 c8 d0 	lea %a2,[%a2]3912 <70000f48 <_my_errno>>
+8000e7c8:	d9 22 d0 d0 	lea %a2,[%a2]3920 <70000f50 <_my_errno>>
 8000e7cc:	00 90       	ret 
 
 8000e7ce <abort>:

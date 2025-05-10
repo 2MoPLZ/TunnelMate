@@ -36882,6 +36882,7 @@ g_AsclinAsc:
 	.byte	0
 	.byte	0
 	.byte	0
+	.byte	0x3
 	.byte	0
 	.byte	0
 	.byte	0
@@ -36893,12 +36894,11 @@ g_AsclinAsc:
 	.byte	0
 	.byte	0
 	.byte	0
+	.byte	0x1
 	.byte	0
 	.byte	0
 	.byte	0
-	.byte	0
-	.byte	0
-	.byte	0
+	.byte	0x1
 	.byte	0
 	.byte	0
 	.byte	0

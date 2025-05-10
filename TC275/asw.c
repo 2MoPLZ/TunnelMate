@@ -18,16 +18,10 @@ TASK(SensorTask)
         .ultra_sonic2   = frontUltrasonicValue
     };
     sendSensorPacket(&packet);
-    // struct ActuatorPacket acc={};
-    // setActuatorPacket(&acc);
-    // sendActuatorPacket(&acc);
 }
 
 TASK(DashboardButtonTask){
     updateStateByButton(g_buttonState);
-    // struct ActuatorPacket acc={};
-    // setActuatorPacket(&acc);
-    // sendActuatorPacket(&acc);
     struct ActuatorPacket packet={};
     setActuatorPacket(&packet);
     sendActuatorPacket(&packet);
@@ -53,9 +47,11 @@ ISR2(TimerISR)
 
     /************** basic-TASK (every 1s) ********************/
     
-    // ActivateTask(SendSensorPacket_TEST);
-    // ActivateTask(SendAcutatorPacket_TEST);
-    if(c%2==1) ActivateTask(SensorTask);//액추가된 센서
+    if(c==0){
+        lcd_clear();
+        printInfoDisplay();
+    }
+    ActivateTask(SensorTask);
     
 
     /************** basic-TASK for debugging ********************/

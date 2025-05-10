@@ -21832,7 +21832,7 @@ enum screenState{
     driveLight
 };
 
-static int infotainmentArr[7] = { 0,0,0,0,0,0,0};
+static int infotainmentArr[7] = { 0,3,0,0,1,1,0};
 static int stateMaxArr[7] = {1, 3, 3, 3 , 2, 3, 1};
 static int infoState = 0;
 static char buf[32];
@@ -23593,10 +23593,10 @@ void updateStateByButton(uint8 buttonState)
     }
     if (isStateUpdated == (1u))
     {
-        if (isSettingUpdated == (1u))
-        {
 
-        }
+
+
+
         lcd_clear();
         printInfoDisplay();
     }
