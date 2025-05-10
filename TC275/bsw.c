@@ -109,6 +109,7 @@ void printfSerial(const char *fmt,...)
     }
     /* Transmit data */
     IfxAsclin_Asc_write(&g_AsclinAsc.drivers.asc, txData, &g_AsclinAsc.count, TIME_INFINITE);
+    DisableAllInterrupts();
 }
 
 /* Function to initialize the VADC module */

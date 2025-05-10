@@ -242,7 +242,7 @@ static VAR(OsEE_TDB, OS_CONST)
     /* .task_func      = */ TASK_FUNC(DashboardButtonTask),
     /* .ready_prio     = */ 1U,
     /* .dispatch_prio  = */ 1U,
-    /* .max_num_of_act = */ 3U
+    /* .max_num_of_act = */ 1U
   },
   {
     /* .hdb = */ {
@@ -277,7 +277,7 @@ static CONSTP2VAR(OsEE_TDB, OS_CONST, OS_APPL_DATA)
 
 
 
-static VAR(OsEE_SN, OS_VAR_INIT)  osEE_sn_array[9] = {
+static VAR(OsEE_SN, OS_VAR_INIT)  osEE_sn_array[7] = {
   {
     /* .p_next = */ &osEE_sn_array[1U],
     /* .p_tdb  = */ NULL
@@ -300,14 +300,6 @@ static VAR(OsEE_SN, OS_VAR_INIT)  osEE_sn_array[9] = {
   },
   {
     /* .p_next = */ &osEE_sn_array[6U],
-    /* .p_tdb  = */ NULL
-  },
-  {
-    /* .p_next = */ &osEE_sn_array[7U],
-    /* .p_tdb  = */ NULL
-  },
-  {
-    /* .p_next = */ &osEE_sn_array[8U],
     /* .p_tdb  = */ NULL
   },
   {

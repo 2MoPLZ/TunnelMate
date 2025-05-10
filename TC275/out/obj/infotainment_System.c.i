@@ -21839,7 +21839,7 @@ static char buf[32];
 
 void initInfotainment(void);
 void updateStateByPacket(const struct ActuatorPacket *packet);
-void updateStateByButton(unsigned int buttonState);
+void updateStateByButton(uint8 buttonState);
 void setActuatorPacket(struct ActuatorPacket* packet);
 
 void printInfoDisplay();
@@ -23536,14 +23536,14 @@ void updateStateByPacket(const struct ActuatorPacket *packet)
     }
 }
 
-void updateStateByButton(unsigned int buttonState)
+void updateStateByButton(uint8 buttonState)
 {
     boolean isStateUpdated = (0u);
     boolean isSettingUpdated = (0u);
     switch (buttonState)
     {
     case 0:
-        if (infoState + 1 <= driveLight)
+        if (infoState < driveLight)
         {
             infoState = infoState + 1;
             isStateUpdated = (1u);
@@ -23551,10 +23551,11 @@ void updateStateByButton(unsigned int buttonState)
         else
         {
             infoState = tunnelMode;
+            isStateUpdated = (1u);
         }
         break;
     case 1:
-        if (infoState - 1 >= tunnelMode)
+        if (infoState > tunnelMode)
         {
             infoState = infoState - 1;
             isStateUpdated = (1u);
@@ -23562,13 +23563,15 @@ void updateStateByButton(unsigned int buttonState)
         else
         {
             infoState = driveLight;
+            isStateUpdated = (1u);
         }
         break;
     case 2:
-        if (infotainmentArr[infoState] - 1 >= 0)
+        if (infotainmentArr[infoState] > 0)
         {
             infotainmentArr[infoState] = infotainmentArr[infoState] - 1;
             isStateUpdated = (1u);
+            isSettingUpdated = (1u);
         }
         else
         {
@@ -23576,10 +23579,11 @@ void updateStateByButton(unsigned int buttonState)
         }
         break;
     case 3:
-        if (infotainmentArr[infoState] + 1 <= stateMaxArr[infoState])
+        if (infotainmentArr[infoState] < stateMaxArr[infoState])
         {
             infotainmentArr[infoState] = infotainmentArr[infoState] + 1;
             isStateUpdated = (1u);
+            isSettingUpdated = (1u);
         }
         else
         {
@@ -23589,9 +23593,10 @@ void updateStateByButton(unsigned int buttonState)
     }
     if (isStateUpdated == (1u))
     {
-        struct ActuatorPacket packet;
-        setActuatorPacket(&packet);
-        sendActuatorPacket(&packet);
+        if (isSettingUpdated == (1u))
+        {
+
+        }
         lcd_clear();
         printInfoDisplay();
     }
@@ -23613,13 +23618,13 @@ void setActuatorPacket(struct ActuatorPacket *packet)
     {
         packet->led_rgb = 4;
     }
-    packet->fan = infotainmentArr[1];
-    packet->led = infotainmentArr[6];
-    packet->buzzer = 0,
     packet->driving_mode = infotainmentArr[0];
+    packet->fan = infotainmentArr[1];
     packet->servo_chair = infotainmentArr[2];
     packet->servo_window = infotainmentArr[3];
     packet->servo_air = infotainmentArr[5];
+    packet->led = infotainmentArr[6];
+    packet->buzzer = 0;
 }
 
 void printInfoDisplay()

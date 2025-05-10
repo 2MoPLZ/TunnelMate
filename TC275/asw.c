@@ -18,19 +18,28 @@ TASK(SensorTask)
         .ultra_sonic2   = frontUltrasonicValue
     };
     sendSensorPacket(&packet);
+    // struct ActuatorPacket acc={};
+    // setActuatorPacket(&acc);
+    // sendActuatorPacket(&acc);
 }
 
 TASK(DashboardButtonTask){
     updateStateByButton(g_buttonState);
+    // struct ActuatorPacket acc={};
+    // setActuatorPacket(&acc);
+    // sendActuatorPacket(&acc);
+    struct ActuatorPacket packet={};
+    setActuatorPacket(&packet);
+    sendActuatorPacket(&packet);
 }
 
 ISR2(ButtonISR)
 {
     DisableAllInterrupts();
-    delay_us(25);
+    osEE_tc_delay(5000);// delay_us(25);
     g_buttonState = readLcdButtons();
     ActivateTask(DashboardButtonTask);
-    delay_us(15);
+    osEE_tc_delay(3000);// delay_us(10);
     EnableAllInterrupts();
 }
 
@@ -46,7 +55,7 @@ ISR2(TimerISR)
     
     // ActivateTask(SendSensorPacket_TEST);
     // ActivateTask(SendAcutatorPacket_TEST);
-    // if(c%3==1)ActivateTask(SensorTask);
+    if(c%2==1) ActivateTask(SensorTask);//액추가된 센서
     
 
     /************** basic-TASK for debugging ********************/

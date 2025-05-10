@@ -22997,7 +22997,6 @@ void sendActuatorPacket(const struct ActuatorPacket *packet)
     serialize_actuator_packet(packet, buf);
     g_AsclinStm.count = 11;
 
-
     printfSerial("\nsendA:[ ");
     int i;
     for (i = 0; i < 11; i++)
@@ -23005,6 +23004,17 @@ void sendActuatorPacket(const struct ActuatorPacket *packet)
         printfSerial("%02x/", buf[i]);
     }
     printfSerial(" ]");
+    printfSerial("\n[A| start:%02x id:%02x rgb:%d fan:%d led:%d buzz:%d tunnel:%d chair:%d window:%d adas:%d ]",
+                 packet->start_byte,
+                 packet->packet_id,
+                 packet->led_rgb,
+                 packet->fan,
+                 packet->led,
+                 packet->buzzer,
+                 packet->driving_mode,
+                 packet->servo_chair,
+                 packet->servo_window,
+                 packet->servo_air);
 
     IfxAsclin_Asc_write(&g_AsclinStm.drivers.asc, &buf, &g_AsclinStm.count, ((Ifx_TickTime)0x7FFFFFFFFFFFFFFFLL));
 }
@@ -23016,8 +23026,20 @@ void sendSensorPacket(const struct SensorPacket *packet)
     serialize_sensor_packet(packet, buf);
     g_AsclinStm.count = 9;
 
-    printfSerial("[SB]");
-# 72 "C:\\TUNNEL~1\\TC275\\uart_Driver.c"
+    printfSerial("\nsendB:[ ");
+    int i;
+    for (i = 0; i < 9; i++)
+    {
+        printfSerial("%02x/", buf[i]);
+    }
+    printfSerial(" ]");
+    printfSerial("\n[S|start:%02x id:%02x photo:%d ultra1:%d ultra2:%d]",
+                 packet->start_byte,
+                 packet->packet_id,
+                 packet->photo,
+                 packet->ultra_sonic1,
+                 packet->ultra_sonic2);
+
     IfxAsclin_Asc_write(&g_AsclinStm.drivers.asc, &buf, &g_AsclinStm.count, ((Ifx_TickTime)0x7FFFFFFFFFFFFFFFLL));
 }
 
@@ -23037,10 +23059,17 @@ void readActuatorPacket(struct ActuatorPacket *packet)
                 pos++;
             }
 
-            printfSerial("[RA]");
-# 100 "C:\\TUNNEL~1\\TC275\\uart_Driver.c"
+
+            printfSerial("\nrecieveA:[ ");
+            int i;
+            for (i = 0; i < 11; i++)
+            {
+                printfSerial("%02x/", buffer[i]);
+            }
+            printfSerial(" ]");
+
             deserialize_actuator_packet(buffer, packet);
-            printfSerial("\nrecieved:[ start:%02x id:%02x led:%d fan:%d buzz:%d led:%d mode:%d chair:%d window:%d air:%d ]",
+            printfSerial("\nrecieved:[start:%02x id:%02x rgb:%d fan:%d led:%d buzz:%d tunnel:%d chair:%d window:%d adas:%d]",
                          packet->start_byte,
                          packet->packet_id,
                          packet->led_rgb,
@@ -23051,7 +23080,10 @@ void readActuatorPacket(struct ActuatorPacket *packet)
                          packet->servo_chair,
                          packet->servo_window,
                          packet->servo_air);
-            updateStateByPacket(packet);
+            if (calculate_checksum(buffer, 11 - 1) == buffer[11 - 1]){
+                deserialize_actuator_packet(buffer, packet);
+                updateStateByPacket(packet);
+            }
         }
     }
 }
@@ -23071,7 +23103,9 @@ void readSensorPacket(struct SensorPacket *packet)
                 buffer[pos] = IfxAsclin_Asc_blockingRead(&g_AsclinStm.drivers.asc);
                 pos++;
             }
-            deserialize_actuator_packet(buffer, packet);
+            if (calculate_checksum(buffer, 9 - 1) == buffer[9 - 1]){
+                deserialize_actuator_packet(buffer, packet);
+            }
         }
     }
 }

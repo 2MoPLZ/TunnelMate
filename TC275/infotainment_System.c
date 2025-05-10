@@ -72,14 +72,14 @@ void updateStateByPacket(const struct ActuatorPacket *packet)
     }
 }
 
-void updateStateByButton(unsigned int buttonState)
+void updateStateByButton(uint8 buttonState)
 {
     boolean isStateUpdated = FALSE;
     boolean isSettingUpdated = FALSE;
     switch (buttonState)
     {
     case btnUP:
-        if (infoState + 1 <= driveLight)
+        if (infoState < driveLight)
         {
             infoState = infoState + 1;
             isStateUpdated = TRUE;
@@ -87,10 +87,11 @@ void updateStateByButton(unsigned int buttonState)
         else
         {
             infoState = tunnelMode;
+            isStateUpdated = TRUE;
         }
         break;
     case btnDOWN:
-        if (infoState - 1 >= tunnelMode)
+        if (infoState > tunnelMode)
         {
             infoState = infoState - 1;
             isStateUpdated = TRUE;
@@ -98,10 +99,11 @@ void updateStateByButton(unsigned int buttonState)
         else
         {
             infoState = driveLight;
+            isStateUpdated = TRUE;
         }
         break;
     case btnLEFT:
-        if (infotainmentArr[infoState] - 1 >= 0)
+        if (infotainmentArr[infoState] > 0)
         {
             infotainmentArr[infoState] = infotainmentArr[infoState] - 1;
             isStateUpdated = TRUE;
@@ -113,7 +115,7 @@ void updateStateByButton(unsigned int buttonState)
         }
         break;
     case btnRIGHT:
-        if (infotainmentArr[infoState] + 1 <= stateMaxArr[infoState])
+        if (infotainmentArr[infoState] < stateMaxArr[infoState])
         {
             infotainmentArr[infoState] = infotainmentArr[infoState] + 1;
             isStateUpdated = TRUE;
@@ -127,12 +129,10 @@ void updateStateByButton(unsigned int buttonState)
     }
     if (isStateUpdated == TRUE)
     {
-        if (isSettingUpdated)
-        {
-            struct ActuatorPacket packet;
-            setActuatorPacket(&packet);
-            sendActuatorPacket(&packet);
-        }
+        // if (isSettingUpdated == TRUE)
+        // {
+            
+        // }
         lcd_clear();
         printInfoDisplay();
     }

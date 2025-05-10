@@ -23491,7 +23491,7 @@ static char buf[32];
 
 void initInfotainment(void);
 void updateStateByPacket(const struct ActuatorPacket *packet);
-void updateStateByButton(unsigned int buttonState);
+void updateStateByButton(uint8 buttonState);
 void setActuatorPacket(struct ActuatorPacket* packet);
 
 void printInfoDisplay();
@@ -23598,6 +23598,7 @@ void printfSerial(const char *fmt,...)
     }
 
     IfxAsclin_Asc_write(&g_AsclinAsc.drivers.asc, txData, &g_AsclinAsc.count, ((Ifx_TickTime)0x7FFFFFFFFFFFFFFFLL));
+    DisableAllInterrupts();
 }
 
 

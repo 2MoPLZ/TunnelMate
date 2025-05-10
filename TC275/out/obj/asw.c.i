@@ -23001,19 +23001,28 @@ void FuncSensorTask ( void )
         .ultra_sonic2 = frontUltrasonicValue
     };
     sendSensorPacket(&packet);
+
+
+
 }
 
 void FuncDashboardButtonTask ( void ){
     updateStateByButton(g_buttonState);
+
+
+
+    struct ActuatorPacket packet={};
+    setActuatorPacket(&packet);
+    sendActuatorPacket(&packet);
 }
 
 void ButtonISR(void)
 {
     DisableAllInterrupts();
-    delay_us(25);
+    osEE_tc_delay(5000);
     g_buttonState = readLcdButtons();
     ActivateTask((6U));
-    delay_us(15);
+    osEE_tc_delay(3000);
     EnableAllInterrupts();
 }
 
@@ -23021,6 +23030,11 @@ void TimerISR(void)
 {
     static long c = -4;
     osEE_tc_stm_set_sr0_next_match(1000000U);
-# 54 "C:\\TUNNEL~1\\TC275\\asw.c"
+# 58 "C:\\TUNNEL~1\\TC275\\asw.c"
+    if(c%2==1) ActivateTask((5U));
+
+
+
+
     printfSerial("\n%4ld: ", c++);
 }

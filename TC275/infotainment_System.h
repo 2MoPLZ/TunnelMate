@@ -33,7 +33,7 @@ static char buf[32];
 
 void initInfotainment(void);
 void updateStateByPacket(const struct ActuatorPacket *packet);
-void updateStateByButton(unsigned int buttonState);
+void updateStateByButton(uint8 buttonState);
 void setActuatorPacket(struct ActuatorPacket* packet);
 
 void printInfoDisplay();

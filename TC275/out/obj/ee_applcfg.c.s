@@ -70,7 +70,7 @@ osEE_res_cb_array:
 .section .data,"aw",@progbits
 	.align 2
 	.type	osEE_sn_array, @object
-	.size	osEE_sn_array, 72
+	.size	osEE_sn_array, 56
 osEE_sn_array:
 	.word	osEE_sn_array+8
 	.word	0
@@ -83,10 +83,6 @@ osEE_sn_array:
 	.word	osEE_sn_array+40
 	.word	0
 	.word	osEE_sn_array+48
-	.word	0
-	.word	osEE_sn_array+56
-	.word	0
-	.word	osEE_sn_array+64
 	.word	0
 	.word	0
 	.word	0
@@ -196,7 +192,7 @@ osEE_tdb_array:
 	.word	FuncDashboardButtonTask
 	.byte	1
 	.byte	1
-	.byte	3
+	.byte	1
 	.zero	1
 	.word	osEE_sdb_array
 	.word	osEE_scb_array
@@ -1340,7 +1336,7 @@ osEE_scb_array:
 	.uaword	0xecd
 	.uleb128 0x18
 	.uaword	0xdd1
-	.byte	0x8
+	.byte	0x6
 	.byte	0
 	.uleb128 0x1a
 	.string	"osEE_sn_array"
@@ -1360,7 +1356,7 @@ osEE_scb_array:
 	.uleb128 0x1a
 	.string	"osEE_res_cb_array"
 	.byte	0x8
-	.uahalf	0x141
+	.uahalf	0x139
 	.uaword	0xee9
 	.byte	0x5
 	.byte	0x3
@@ -1375,7 +1371,7 @@ osEE_scb_array:
 	.uleb128 0x1a
 	.string	"osEE_res_db_array"
 	.byte	0x8
-	.uahalf	0x145
+	.uahalf	0x13d
 	.uaword	0xf49
 	.byte	0x5
 	.byte	0x3
@@ -1392,7 +1388,7 @@ osEE_scb_array:
 	.uleb128 0x1a
 	.string	"osEE_res_db_ptr_array"
 	.byte	0x8
-	.uahalf	0x14f
+	.uahalf	0x147
 	.uaword	0xf82
 	.byte	0x5
 	.byte	0x3
@@ -1402,7 +1398,7 @@ osEE_scb_array:
 	.uleb128 0x1b
 	.string	"osEE_kdb_var"
 	.byte	0x8
-	.uahalf	0x17c
+	.uahalf	0x174
 	.uaword	0xdab
 	.byte	0x1
 	.byte	0x5
@@ -1411,7 +1407,7 @@ osEE_scb_array:
 	.uleb128 0x1b
 	.string	"osEE_kcb_var"
 	.byte	0x8
-	.uahalf	0x179
+	.uahalf	0x171
 	.uaword	0xcf7
 	.byte	0x1
 	.byte	0x5
@@ -1420,7 +1416,7 @@ osEE_scb_array:
 	.uleb128 0x1b
 	.string	"osEE_cdb_var"
 	.byte	0x8
-	.uahalf	0x173
+	.uahalf	0x16b
 	.uaword	0xcc8
 	.byte	0x1
 	.byte	0x5
@@ -1429,7 +1425,7 @@ osEE_scb_array:
 	.uleb128 0x1b
 	.string	"osEE_ccb_var"
 	.byte	0x8
-	.uahalf	0x15d
+	.uahalf	0x155
 	.uaword	0xc83
 	.byte	0x1
 	.byte	0x5

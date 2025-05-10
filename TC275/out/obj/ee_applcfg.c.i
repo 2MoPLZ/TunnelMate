@@ -2231,7 +2231,7 @@ static OsEE_TDB
                             FuncDashboardButtonTask,
                             1U,
                             1U,
-                            3U
+                            1U
   },
   {
                  {
@@ -2266,7 +2266,7 @@ static OsEE_TDB * const
 
 
 
-static OsEE_SN osEE_sn_array[9] = {
+static OsEE_SN osEE_sn_array[7] = {
   {
                     &osEE_sn_array[1U],
                     ((void *)0)
@@ -2289,14 +2289,6 @@ static OsEE_SN osEE_sn_array[9] = {
   },
   {
                     &osEE_sn_array[6U],
-                    ((void *)0)
-  },
-  {
-                    &osEE_sn_array[7U],
-                    ((void *)0)
-  },
-  {
-                    &osEE_sn_array[8U],
                     ((void *)0)
   },
   {
@@ -2325,7 +2317,7 @@ static OsEE_ResourceDB * const
 {
   &osEE_res_db_array[0U]
 };
-# 349 "ee_applcfg.c"
+# 341 "ee_applcfg.c"
 OsEE_CCB osEE_ccb_var = {
                         &osEE_tdb_array[7U],
                         ((void *)0),
@@ -2340,7 +2332,7 @@ OsEE_CCB osEE_ccb_var = {
                                  0U,
                                  0U
 };
-# 371 "ee_applcfg.c"
+# 363 "ee_applcfg.c"
 OsEE_CDB osEE_cdb_var = {
                                          &osEE_ccb_var,
                                          &osEE_tdb_array[7U]

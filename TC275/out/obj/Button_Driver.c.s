@@ -3,7 +3,15 @@
 .Ltext0:
 .section .rodata,"a",@progbits
 .LC0:
-	.string	"button ADC val(%d)"
+	.string	"[U]"
+.LC1:
+	.string	"[R]"
+.LC2:
+	.string	"[L]"
+.LC3:
+	.string	"[D]"
+.LC4:
+	.string	"[?]"
 .section .text,"ax",@progbits
 	.align 1
 	.global	readLcdButtons
@@ -13,55 +21,84 @@ readLcdButtons:
 	.file 1 "C:\\TUNNEL~1\\TC275\\Button_Driver.c"
 	.loc 1 6 0
 .LVL0:
-	sub.a	%SP, 8
-.LCFI0:
 	.loc 1 9 0
 	mov	%d4, 3
 	call	readADCValue
 .LVL1:
-	.loc 1 10 0
-	movh.a	%a4, hi:.LC0
-	st.w	[%SP]0, %d2
-	lea	%a4, [%a4] lo:.LC0
-	.loc 1 9 0
 	mov	%d15, %d2
 .LVL2:
-	.loc 1 10 0
-	call	printfSerial
-.LVL3:
 	.loc 1 11 0
-	lt.u	%d3, %d15, 100
+	ge.u	%d2, %d2, 100
+.LVL3:
+	jnz	%d2, .L2
+	.loc 1 13 0
+	movh.a	%a4, hi:.LC0
+	lea	%a4, [%a4] lo:.LC0
+	call	printfSerial
+.LVL4:
 	.loc 1 12 0
 	mov	%d2, 0
-	.loc 1 11 0
-	jnz	%d3, .L2
-	.loc 1 14 0
-	mov	%d3, 1000
-	.loc 1 15 0
-	mov	%d2, 3
-	.loc 1 14 0
-	jlt.u	%d15, %d3, .L2
-	.loc 1 17 0
-	mov	%d3, 2500
-	.loc 1 18 0
-	mov	%d2, 2
-	.loc 1 17 0
-	jlt.u	%d15, %d3, .L2
-	.loc 1 20 0
-	mov	%d3, 3500
-	.loc 1 21 0
-	mov	%d2, 1
-	.loc 1 20 0
-	jlt.u	%d15, %d3, .L2
-	.loc 1 24 0
-	mov	%d2, 4000
-	lt.u	%d15, %d15, %d2
-.LVL4:
-	mov	%d2, 0
-	cmovn	%d2, %d15, 4
+	ret
 .L2:
+	.loc 1 15 0
+	mov	%d2, 1000
+	jge.u	%d15, %d2, .L4
 .LVL5:
+	.loc 1 17 0
+	movh.a	%a4, hi:.LC1
+	lea	%a4, [%a4] lo:.LC1
+	call	printfSerial
+.LVL6:
+	.loc 1 16 0
+	mov	%d2, 3
+	ret
+.LVL7:
+.L4:
+	.loc 1 19 0
+	mov	%d2, 2500
+	jge.u	%d15, %d2, .L5
+.LVL8:
+	.loc 1 21 0
+	movh.a	%a4, hi:.LC2
+	lea	%a4, [%a4] lo:.LC2
+	call	printfSerial
+.LVL9:
+	.loc 1 20 0
+	mov	%d2, 2
+	ret
+.LVL10:
+.L5:
+	.loc 1 23 0
+	mov	%d2, 3500
+	jge.u	%d15, %d2, .L6
+.LVL11:
+	.loc 1 25 0
+	movh.a	%a4, hi:.LC3
+	lea	%a4, [%a4] lo:.LC3
+	call	printfSerial
+.LVL12:
+	.loc 1 24 0
+	mov	%d2, 1
+	ret
+.LVL13:
+.L6:
 	.loc 1 27 0
+	mov	%d3, 4000
+	.loc 1 8 0
+	mov	%d2, 0
+	.loc 1 27 0
+	jlt.u	%d15, %d3, .L3
+.LVL14:
+	.loc 1 29 0
+	movh.a	%a4, hi:.LC4
+	lea	%a4, [%a4] lo:.LC4
+	call	printfSerial
+.LVL15:
+	.loc 1 28 0
+	mov	%d2, 4
+.LVL16:
+.L3:
+	.loc 1 32 0
 	ret
 .LFE574:
 	.size	readLcdButtons, .-readLcdButtons
@@ -86,10 +123,6 @@ readLcdButtons:
 	.uaword	.Lframe0
 	.uaword	.LFB574
 	.uaword	.LFE574-.LFB574
-	.byte	0x4
-	.uaword	.LCFI0-.LFB574
-	.byte	0xe
-	.uleb128 0x8
 	.align 2
 .LEFDE0:
 .section .text,"ax",@progbits
@@ -100,7 +133,7 @@ readLcdButtons:
 	.file 5 "C:\\TUNNEL~1\\TC275\\bsw.h"
 .section .debug_info,"",@progbits
 .Ldebug_info0:
-	.uaword	0x37b
+	.uaword	0x3d0
 	.uahalf	0x3
 	.uaword	.Ldebug_abbrev0
 	.byte	0x4
@@ -227,7 +260,7 @@ readLcdButtons:
 	.byte	0x1
 	.byte	0x9c
 	.byte	0x1
-	.uaword	0x311
+	.uaword	0x366
 	.uleb128 0xa
 	.string	"adc_key_in"
 	.byte	0x1
@@ -242,7 +275,7 @@ readLcdButtons:
 	.uaword	.LLST1
 	.uleb128 0xb
 	.uaword	.LVL1
-	.uaword	0x343
+	.uaword	0x398
 	.uaword	0x2f6
 	.uleb128 0xc
 	.byte	0x1
@@ -250,27 +283,64 @@ readLcdButtons:
 	.byte	0x1
 	.byte	0x33
 	.byte	0
-	.uleb128 0xd
-	.uaword	.LVL3
-	.uaword	0x364
+	.uleb128 0xb
+	.uaword	.LVL4
+	.uaword	0x3b9
+	.uaword	0x30d
 	.uleb128 0xc
 	.byte	0x1
 	.byte	0x64
 	.byte	0x5
 	.byte	0x3
 	.uaword	.LC0
+	.byte	0
+	.uleb128 0xb
+	.uaword	.LVL6
+	.uaword	0x3b9
+	.uaword	0x324
 	.uleb128 0xc
-	.byte	0x2
-	.byte	0x8a
-	.sleb128 0
-	.byte	0x2
-	.byte	0x7f
-	.sleb128 0
+	.byte	0x1
+	.byte	0x64
+	.byte	0x5
+	.byte	0x3
+	.uaword	.LC1
+	.byte	0
+	.uleb128 0xb
+	.uaword	.LVL9
+	.uaword	0x3b9
+	.uaword	0x33b
+	.uleb128 0xc
+	.byte	0x1
+	.byte	0x64
+	.byte	0x5
+	.byte	0x3
+	.uaword	.LC2
+	.byte	0
+	.uleb128 0xb
+	.uaword	.LVL12
+	.uaword	0x3b9
+	.uaword	0x352
+	.uleb128 0xc
+	.byte	0x1
+	.byte	0x64
+	.byte	0x5
+	.byte	0x3
+	.uaword	.LC3
+	.byte	0
+	.uleb128 0xd
+	.uaword	.LVL15
+	.uaword	0x3b9
+	.uleb128 0xc
+	.byte	0x1
+	.byte	0x64
+	.byte	0x5
+	.byte	0x3
+	.uaword	.LC4
 	.byte	0
 	.byte	0
 	.uleb128 0xe
 	.uaword	0x258
-	.uaword	0x321
+	.uaword	0x376
 	.uleb128 0xf
 	.uaword	0x282
 	.byte	0x2
@@ -279,11 +349,11 @@ readLcdButtons:
 	.string	"IfxCpu_cfg_indexMap"
 	.byte	0x4
 	.byte	0xa7
-	.uaword	0x33e
+	.uaword	0x393
 	.byte	0x1
 	.byte	0x1
 	.uleb128 0x5
-	.uaword	0x311
+	.uaword	0x366
 	.uleb128 0x11
 	.byte	0x1
 	.string	"readADCValue"
@@ -292,7 +362,7 @@ readLcdButtons:
 	.byte	0x1
 	.uaword	0x18c
 	.byte	0x1
-	.uaword	0x364
+	.uaword	0x3b9
 	.uleb128 0x12
 	.uaword	0x17f
 	.byte	0
@@ -566,11 +636,11 @@ readLcdButtons:
 	.byte	0x30
 	.byte	0x9f
 	.uaword	.LVL2-.Ltext0
-	.uaword	.LVL3-1-.Ltext0
+	.uaword	.LVL3-.Ltext0
 	.uahalf	0x1
 	.byte	0x52
-	.uaword	.LVL3-1-.Ltext0
-	.uaword	.LVL4-.Ltext0
+	.uaword	.LVL3-.Ltext0
+	.uaword	.LFE574-.Ltext0
 	.uahalf	0x1
 	.byte	0x5f
 	.uaword	0
@@ -582,6 +652,41 @@ readLcdButtons:
 	.byte	0x30
 	.byte	0x9f
 	.uaword	.LVL5-.Ltext0
+	.uaword	.LVL7-.Ltext0
+	.uahalf	0x2
+	.byte	0x33
+	.byte	0x9f
+	.uaword	.LVL7-.Ltext0
+	.uaword	.LVL8-.Ltext0
+	.uahalf	0x2
+	.byte	0x30
+	.byte	0x9f
+	.uaword	.LVL8-.Ltext0
+	.uaword	.LVL10-.Ltext0
+	.uahalf	0x2
+	.byte	0x32
+	.byte	0x9f
+	.uaword	.LVL10-.Ltext0
+	.uaword	.LVL11-.Ltext0
+	.uahalf	0x2
+	.byte	0x30
+	.byte	0x9f
+	.uaword	.LVL11-.Ltext0
+	.uaword	.LVL13-.Ltext0
+	.uahalf	0x2
+	.byte	0x31
+	.byte	0x9f
+	.uaword	.LVL13-.Ltext0
+	.uaword	.LVL14-.Ltext0
+	.uahalf	0x2
+	.byte	0x30
+	.byte	0x9f
+	.uaword	.LVL14-.Ltext0
+	.uaword	.LVL16-.Ltext0
+	.uahalf	0x2
+	.byte	0x34
+	.byte	0x9f
+	.uaword	.LVL16-.Ltext0
 	.uaword	.LFE574-.Ltext0
 	.uahalf	0x1
 	.byte	0x52
