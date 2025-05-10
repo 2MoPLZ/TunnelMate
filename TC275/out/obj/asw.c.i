@@ -23020,18 +23020,7 @@ void ButtonISR(void)
 void TimerISR(void)
 {
     static long c = -4;
-
-    osEE_tc_stm_set_sr0_next_match(250000U);
-
-
-
-
-
-
-
-    ActivateTask((5U));
-
-
-
+    osEE_tc_stm_set_sr0_next_match(1000000U);
+# 54 "C:\\TUNNEL~1\\TC275\\asw.c"
     printfSerial("\n%4ld: ", c++);
 }

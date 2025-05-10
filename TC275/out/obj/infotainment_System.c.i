@@ -23539,6 +23539,7 @@ void updateStateByPacket(const struct ActuatorPacket *packet)
 void updateStateByButton(unsigned int buttonState)
 {
     boolean isStateUpdated = (0u);
+    boolean isSettingUpdated = (0u);
     switch (buttonState)
     {
     case 0:

@@ -22997,8 +22997,15 @@ void sendActuatorPacket(const struct ActuatorPacket *packet)
     serialize_actuator_packet(packet, buf);
     g_AsclinStm.count = 11;
 
-    printfSerial("[SA]");
-# 53 "C:\\TUNNEL~1\\TC275\\uart_Driver.c"
+
+    printfSerial("\nsendA:[ ");
+    int i;
+    for (i = 0; i < 11; i++)
+    {
+        printfSerial("%02x/", buf[i]);
+    }
+    printfSerial(" ]");
+
     IfxAsclin_Asc_write(&g_AsclinStm.drivers.asc, &buf, &g_AsclinStm.count, ((Ifx_TickTime)0x7FFFFFFFFFFFFFFFLL));
 }
 
@@ -23033,7 +23040,17 @@ void readActuatorPacket(struct ActuatorPacket *packet)
             printfSerial("[RA]");
 # 100 "C:\\TUNNEL~1\\TC275\\uart_Driver.c"
             deserialize_actuator_packet(buffer, packet);
-# 112 "C:\\TUNNEL~1\\TC275\\uart_Driver.c"
+            printfSerial("\nrecieved:[ start:%02x id:%02x led:%d fan:%d buzz:%d led:%d mode:%d chair:%d window:%d air:%d ]",
+                         packet->start_byte,
+                         packet->packet_id,
+                         packet->led_rgb,
+                         packet->fan,
+                         packet->led,
+                         packet->buzzer,
+                         packet->driving_mode,
+                         packet->servo_chair,
+                         packet->servo_window,
+                         packet->servo_air);
             updateStateByPacket(packet);
         }
     }

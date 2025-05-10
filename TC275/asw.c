@@ -37,8 +37,8 @@ ISR2(ButtonISR)
 ISR2(TimerISR)
 {
     static long c = -4;
-    // osEE_tc_stm_set_sr0_next_match(1000000U); //1초
-    osEE_tc_stm_set_sr0_next_match(250000U); //0.25초
+    osEE_tc_stm_set_sr0_next_match(1000000U); //1초
+    // osEE_tc_stm_set_sr0_next_match(250000U); //0.25초
 
     /************** ONE-TIME-TASK ********************/
 
@@ -46,7 +46,8 @@ ISR2(TimerISR)
     
     // ActivateTask(SendSensorPacket_TEST);
     // ActivateTask(SendAcutatorPacket_TEST);
-    ActivateTask(SensorTask);
+    // if(c%3==1)ActivateTask(SensorTask);
+    
 
     /************** basic-TASK for debugging ********************/
     

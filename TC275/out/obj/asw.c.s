@@ -118,20 +118,16 @@ ButtonISR:
 TimerISR:
 .LFB577:
 	.loc 1 38 0
-	.loc 1 41 0
-	movh	%d4, 4
+	.loc 1 40 0
+	movh	%d4, 15
 	.loc 1 38 0
 	sub.a	%SP, 8
 .LCFI1:
-	.loc 1 41 0
-	addi	%d4, %d4, -12144
+	.loc 1 40 0
+	addi	%d4, %d4, 16960
 	call	osEE_tc_stm_set_sr0_next_match
 .LVL14:
-	.loc 1 49 0
-	mov	%d4, 5
-	call	ActivateTask
-.LVL15:
-	.loc 1 53 0
+	.loc 1 54 0
 	movh.a	%a15, hi:c.16170
 	ld.w	%d15, [%a15] lo:c.16170
 	movh.a	%a4, hi:.LC0
@@ -140,7 +136,7 @@ TimerISR:
 	add	%d15, 1
 	st.w	[%a15] lo:c.16170, %d15
 	j	printfSerial
-.LVL16:
+.LVL15:
 .LFE577:
 	.size	TimerISR, .-TimerISR
 .section .data,"aw",@progbits
@@ -227,7 +223,7 @@ g_buttonState:
 	.file 14 "C:\\TUNNEL~1\\TC275\\erika\\inc/ee_tc_system.h"
 .section .debug_info,"",@progbits
 .Ldebug_info0:
-	.uaword	0x2cff
+	.uaword	0x2cec
 	.uahalf	0x3
 	.uaword	.Ldebug_abbrev0
 	.byte	0x4
@@ -4761,17 +4757,17 @@ g_buttonState:
 	.sleb128 -9
 	.uleb128 0x20
 	.uaword	.LVL0
-	.uaword	0x2bbb
+	.uaword	0x2ba8
 	.uleb128 0x20
 	.uaword	.LVL2
-	.uaword	0x2bbb
+	.uaword	0x2ba8
 	.uleb128 0x20
 	.uaword	.LVL4
-	.uaword	0x2be3
+	.uaword	0x2bd0
 	.uleb128 0x21
 	.uaword	.LVL6
 	.byte	0x1
-	.uaword	0x2bf6
+	.uaword	0x2be3
 	.uleb128 0x22
 	.byte	0x1
 	.byte	0x64
@@ -4805,7 +4801,7 @@ g_buttonState:
 	.uleb128 0x23
 	.uaword	.LVL7
 	.byte	0x1
-	.uaword	0x2c22
+	.uaword	0x2c0f
 	.byte	0
 	.uleb128 0x1b
 	.byte	0x1
@@ -4831,10 +4827,10 @@ g_buttonState:
 	.byte	0
 	.uleb128 0x20
 	.uaword	.LVL8
-	.uaword	0x2c35
+	.uaword	0x2c22
 	.uleb128 0x24
 	.uaword	.LVL9
-	.uaword	0x2c50
+	.uaword	0x2c3d
 	.uaword	0x2a8b
 	.uleb128 0x22
 	.byte	0x1
@@ -4844,10 +4840,10 @@ g_buttonState:
 	.byte	0
 	.uleb128 0x20
 	.uaword	.LVL10
-	.uaword	0x2c69
+	.uaword	0x2c56
 	.uleb128 0x24
 	.uaword	.LVL11
-	.uaword	0x2c7c
+	.uaword	0x2c69
 	.uaword	0x2aa7
 	.uleb128 0x22
 	.byte	0x1
@@ -4857,7 +4853,7 @@ g_buttonState:
 	.byte	0
 	.uleb128 0x24
 	.uaword	.LVL12
-	.uaword	0x2c50
+	.uaword	0x2c3d
 	.uaword	0x2aba
 	.uleb128 0x22
 	.byte	0x1
@@ -4868,7 +4864,7 @@ g_buttonState:
 	.uleb128 0x23
 	.uaword	.LVL13
 	.byte	0x1
-	.uaword	0x2c9e
+	.uaword	0x2c8b
 	.byte	0
 	.uleb128 0x1b
 	.byte	0x1
@@ -4881,7 +4877,7 @@ g_buttonState:
 	.byte	0x1
 	.byte	0x9c
 	.byte	0x1
-	.uaword	0x2b37
+	.uaword	0x2b24
 	.uleb128 0x1f
 	.string	"c"
 	.byte	0x1
@@ -4892,29 +4888,19 @@ g_buttonState:
 	.uaword	c.16170
 	.uleb128 0x24
 	.uaword	.LVL14
-	.uaword	0x2cb8
+	.uaword	0x2ca5
 	.uaword	0x2b08
 	.uleb128 0x22
 	.byte	0x1
 	.byte	0x54
 	.byte	0x5
 	.byte	0xc
-	.uaword	0x3d090
-	.byte	0
-	.uleb128 0x24
-	.uaword	.LVL15
-	.uaword	0x2c7c
-	.uaword	0x2b1b
-	.uleb128 0x22
-	.byte	0x1
-	.byte	0x54
-	.byte	0x1
-	.byte	0x35
+	.uaword	0xf4240
 	.byte	0
 	.uleb128 0x21
-	.uaword	.LVL16
+	.uaword	.LVL15
 	.byte	0x1
-	.uaword	0x2ce8
+	.uaword	0x2cd5
 	.uleb128 0x22
 	.byte	0x1
 	.byte	0x64
@@ -4932,7 +4918,7 @@ g_buttonState:
 	.byte	0
 	.uleb128 0xc
 	.uaword	0x24e
-	.uaword	0x2b47
+	.uaword	0x2b34
 	.uleb128 0xd
 	.uaword	0x507
 	.byte	0x2
@@ -4941,11 +4927,11 @@ g_buttonState:
 	.string	"IfxCpu_cfg_indexMap"
 	.byte	0x7
 	.byte	0xa7
-	.uaword	0x2b64
+	.uaword	0x2b51
 	.byte	0x1
 	.byte	0x1
 	.uleb128 0x5
-	.uaword	0x2b37
+	.uaword	0x2b24
 	.uleb128 0x25
 	.string	"g_UpperUltrasonic"
 	.byte	0xa
@@ -4977,9 +4963,9 @@ g_buttonState:
 	.byte	0x1
 	.uaword	0x15d
 	.byte	0x1
-	.uaword	0x2bdd
+	.uaword	0x2bca
 	.uleb128 0x28
-	.uaword	0x2bdd
+	.uaword	0x2bca
 	.byte	0
 	.uleb128 0x4
 	.byte	0x4
@@ -4991,7 +4977,7 @@ g_buttonState:
 	.byte	0xb
 	.uaword	0x15d
 	.byte	0x1
-	.uaword	0x2bf6
+	.uaword	0x2be3
 	.uleb128 0x1e
 	.byte	0
 	.uleb128 0x29
@@ -5001,13 +4987,13 @@ g_buttonState:
 	.byte	0x22
 	.byte	0x1
 	.byte	0x1
-	.uaword	0x2c17
+	.uaword	0x2c04
 	.uleb128 0x28
-	.uaword	0x2c17
+	.uaword	0x2c04
 	.byte	0
 	.uleb128 0x4
 	.byte	0x4
-	.uaword	0x2c1d
+	.uaword	0x2c0a
 	.uleb128 0x5
 	.uaword	0x2851
 	.uleb128 0x1d
@@ -5017,7 +5003,7 @@ g_buttonState:
 	.byte	0x18
 	.uaword	0x15d
 	.byte	0x1
-	.uaword	0x2c35
+	.uaword	0x2c22
 	.uleb128 0x1e
 	.byte	0
 	.uleb128 0x2a
@@ -5034,7 +5020,7 @@ g_buttonState:
 	.byte	0xc
 	.byte	0x1
 	.byte	0x1
-	.uaword	0x2c69
+	.uaword	0x2c56
 	.uleb128 0x28
 	.uaword	0x148
 	.byte	0
@@ -5045,7 +5031,7 @@ g_buttonState:
 	.byte	0x1f
 	.uaword	0x15d
 	.byte	0x1
-	.uaword	0x2c7c
+	.uaword	0x2c69
 	.uleb128 0x1e
 	.byte	0
 	.uleb128 0x2b
@@ -5056,7 +5042,7 @@ g_buttonState:
 	.byte	0x1
 	.uaword	0x4e4
 	.byte	0x1
-	.uaword	0x2c9e
+	.uaword	0x2c8b
 	.uleb128 0x28
 	.uaword	0x298
 	.byte	0
@@ -5074,7 +5060,7 @@ g_buttonState:
 	.uahalf	0x3d8
 	.byte	0x1
 	.byte	0x1
-	.uaword	0x2ce8
+	.uaword	0x2cd5
 	.uleb128 0x28
 	.uaword	0x288
 	.byte	0

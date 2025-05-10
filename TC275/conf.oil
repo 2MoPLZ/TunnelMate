@@ -96,7 +96,7 @@ CPU test_application {
 
     TASK SensorTask{ 
         PRIORITY = 6;
-        STACK = SHARED;
+        STACK = SHARED;                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           
         SCHEDULE = FULL;
         AUTOSTART = FALSE;
         ACTIVATION = 1;
@@ -107,6 +107,6 @@ CPU test_application {
         STACK = SHARED;
         SCHEDULE = FULL;
         AUTOSTART = FALSE;
-        ACTIVATION = 3;
+        ACTIVATION = 1;
     };
 };

@@ -75,6 +75,7 @@ void updateStateByPacket(const struct ActuatorPacket *packet)
 void updateStateByButton(unsigned int buttonState)
 {
     boolean isStateUpdated = FALSE;
+    boolean isSettingUpdated = FALSE;
     switch (buttonState)
     {
     case btnUP:
@@ -104,6 +105,7 @@ void updateStateByButton(unsigned int buttonState)
         {
             infotainmentArr[infoState] = infotainmentArr[infoState] - 1;
             isStateUpdated = TRUE;
+            isSettingUpdated = TRUE;
         }
         else
         {
@@ -115,6 +117,7 @@ void updateStateByButton(unsigned int buttonState)
         {
             infotainmentArr[infoState] = infotainmentArr[infoState] + 1;
             isStateUpdated = TRUE;
+            isSettingUpdated = TRUE;
         }
         else
         {
@@ -124,9 +127,12 @@ void updateStateByButton(unsigned int buttonState)
     }
     if (isStateUpdated == TRUE)
     {
-        struct ActuatorPacket packet;
-        setActuatorPacket(&packet);
-        sendActuatorPacket(&packet);
+        if (isSettingUpdated)
+        {
+            struct ActuatorPacket packet;
+            setActuatorPacket(&packet);
+            sendActuatorPacket(&packet);
+        }
         lcd_clear();
         printInfoDisplay();
     }
@@ -148,13 +154,13 @@ void setActuatorPacket(struct ActuatorPacket *packet)
     { // led blue
         packet->led_rgb = 4;
     }
-    packet->fan = infotainmentArr[1]; //(data 0 ~ 3)
-    packet->led = infotainmentArr[6];
-    packet->buzzer = 0,
     packet->driving_mode = infotainmentArr[0];
+    packet->fan = infotainmentArr[1]; //(data 0 ~ 3)
     packet->servo_chair = infotainmentArr[2];
     packet->servo_window = infotainmentArr[3];
     packet->servo_air = infotainmentArr[5];
+    packet->led = infotainmentArr[6];
+    packet->buzzer = 0;
 }
 
 void printInfoDisplay()

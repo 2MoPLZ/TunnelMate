@@ -41,14 +41,14 @@ void sendActuatorPacket(const struct ActuatorPacket *packet)
     serialize_actuator_packet(packet, buf);
     g_AsclinStm.count = ACTUATOR_PACKET_SIZE;
 
-    printfSerial("[SA]");
-    // printfSerial("\nsendA:[ ");
-    // int i;
-    // for (i = 0; i < ACTUATOR_PACKET_SIZE; i++)
-    // {
-    //     printfSerial("%02x/", buf[i]);
-    // }
-    // printfSerial(" ]");
+    // printfSerial("[SA]");
+    printfSerial("\nsendA:[ ");
+    int i;
+    for (i = 0; i < ACTUATOR_PACKET_SIZE; i++)
+    {
+        printfSerial("%02x/", buf[i]);
+    }
+    printfSerial(" ]");
 
     IfxAsclin_Asc_write(&g_AsclinStm.drivers.asc, &buf, &g_AsclinStm.count, TIME_INFINITE);
 }
@@ -98,17 +98,17 @@ void readActuatorPacket(struct ActuatorPacket *packet)
             // printfSerial(" ]");
 
             deserialize_actuator_packet(buffer, packet);
-            // printfSerial("\nrecieved:[ start:%02x id:%02x led:%d fan:%d buzz:%d led:%d mode:%d chair:%d window:%d air:%d ]",
-            //              packet->start_byte,
-            //              packet->packet_id,
-            //              packet->led_rgb,
-            //              packet->fan,
-            //              packet->led,
-            //              packet->buzzer,
-            //              packet->driving_mode,
-            //              packet->servo_chair,
-            //              packet->servo_window,
-            //              packet->servo_air);
+            printfSerial("\nrecieved:[ start:%02x id:%02x led:%d fan:%d buzz:%d led:%d mode:%d chair:%d window:%d air:%d ]",
+                         packet->start_byte,
+                         packet->packet_id,
+                         packet->led_rgb,
+                         packet->fan,
+                         packet->led,
+                         packet->buzzer,
+                         packet->driving_mode,
+                         packet->servo_chair,
+                         packet->servo_window,
+                         packet->servo_air);
             updateStateByPacket(packet);
         }
     }
