@@ -116,7 +116,16 @@ class MyServerCallbacks : public BLEServerCallbacks {
     Serial.println("Device Disconnected!");
 
     if (connectedMAC != "") {
-      updateDataApi(connectedMAC, lastPacket);
+      if (lastPacket.start_byte == 0xAA && lastPacket.packet_id == 0x01) {
+        uint8_t crc = calculate_checksum((uint8_t*)&lastPacket, sizeof(ActuatorPacket) - 1);
+        if (crc == lastPacket.crc) {
+          updateDataApi(connectedMAC, lastPacket);
+        } else {
+          Serial.println("[WARN] Last packet CRC invalid - update skipped.");
+        }
+      } else {
+        Serial.println("[WARN] Last packet header invalid - update skipped.");
+      }
     }
 
     connectedMAC = "";
@@ -150,19 +159,32 @@ void updateDataApi(String mac, const ActuatorPacket &packet) {
     return;
   }
 
-  uint8_t led_rgb_value = packet.led_rgb & 0b00000111; // 3비트만 추출
-  uint8_t fan_value = packet.fan & 0b11;
-  uint8_t led_value = packet.led & 0b1;
-  uint8_t buzzer_value = packet.buzzer & 0b1;
-  uint8_t driving_mode_value = packet.driving_mode & 0x0F;
+  // uint8_t led_rgb_value = packet.led_rgb & 0b00000111; // 3비트만 추출
+  // uint8_t fan_value = packet.fan & 0b11;
+  // uint8_t led_value = packet.led & 0b1;
+  // uint8_t buzzer_value = packet.buzzer & 0b1;
+  // uint8_t driving_mode_value = packet.driving_mode & 0x0F;
+
+  // String payload = "{";
+  // payload += "\"mac_address\":\"" + mac + "\",";
+  // payload += "\"led_rgb\":" + String(led_rgb_value) + ",";
+  // payload += "\"fan\":" + String(fan_value) + ",";
+  // payload += "\"led\":" + String(led_value) + ",";
+  // payload += "\"buzzer\":" + String(buzzer_value) + ",";
+  // payload += "\"driving_mode\":" + String(driving_mode_value) + ",";
+  // payload += "\"servo_chair\":" + String(packet.servo_chair) + ",";
+  // payload += "\"servo_window\":" + String(packet.servo_window) + ",";
+  // payload += "\"front_distance\":" + String(packet.front_distance);
+  // payload += "}";
+
 
   String payload = "{";
   payload += "\"mac_address\":\"" + mac + "\",";
-  payload += "\"led_rgb\":" + String(led_rgb_value) + ",";
-  payload += "\"fan\":" + String(fan_value) + ",";
-  payload += "\"led\":" + String(led_value) + ",";
-  payload += "\"buzzer\":" + String(buzzer_value) + ",";
-  payload += "\"driving_mode\":" + String(driving_mode_value) + ",";
+  payload += "\"led_rgb\":" + String(packet.led_rgb) + ",";
+  payload += "\"fan\":" + String(packet.fan) + ",";
+  payload += "\"led\":" + String(packet.led) + ",";
+  payload += "\"buzzer\":" + String(packet.buzzer) + ",";
+  payload += "\"driving_mode\":" + String(packet.driving_mode) + ",";
   payload += "\"servo_chair\":" + String(packet.servo_chair) + ",";
   payload += "\"servo_window\":" + String(packet.servo_window) + ",";
   payload += "\"front_distance\":" + String(packet.front_distance);
@@ -209,7 +231,6 @@ void getDataApi(String mac) {
       pkt.servo_window = response.substring(response.indexOf("\"servo_window\":") + 16).toInt();
 
       pkt.crc = calculate_checksum((uint8_t*)&pkt, sizeof(ActuatorPacket) - 1);  // CRC 
-
       Serial2.write((uint8_t*)&pkt, sizeof(pkt));
     } else {
       Serial.println("Error on GET: " + String(httpResponseCode));
@@ -244,41 +265,114 @@ void loop() {
     }
   
     // loop back test
-    static bool toggle = false;
-    ActuatorPacket testPkt = toggle ? makeTestPacket1() : makeTestPacket2();
-    toggle = !toggle;
-    Serial2.write((uint8_t*)&testPkt, sizeof(ActuatorPacket));
+    // static bool toggle = false;
+    // ActuatorPacket testPkt = toggle ? makeTestPacket1() : makeTestPacket2();
+    // toggle = !toggle;
+    // Serial2.write((uint8_t*)&testPkt, sizeof(ActuatorPacket));
 
   // Update
-  if (connectedMAC != "") {
-    if (Serial2.available() >= sizeof(ActuatorPacket)) {
-      ActuatorPacket currentPacket;
-      Serial2.readBytes((uint8_t*)&currentPacket, sizeof(ActuatorPacket));
+//   if (connectedMAC != "") {
+//     if (Serial2.available() >= sizeof(ActuatorPacket)) {
+//       ActuatorPacket currentPacket;
+//       Serial2.readBytes((uint8_t*)&currentPacket, sizeof(ActuatorPacket));
 
+//       if (currentPacket.start_byte == 0xAA && currentPacket.packet_id == 0x01) {
+//         uint8_t crc = calculate_checksum((uint8_t*)&currentPacket, sizeof(ActuatorPacket) - 1);
+//         if (crc == currentPacket.crc) {
+//           if (memcmp(&currentPacket, &lastPacket, sizeof(ActuatorPacket)) != 0) {
+//             updateDataApi(connectedMAC, currentPacket);
+//             lastPacket = currentPacket;
+//           }
+//         } else {
+//           Serial.println("[WARN] CRC mismatch - packet ignored.");
+//         }
+//       } else {
+//         Serial.println("[WARN] Invalid packet header - ignored.");
+//     }
+//   }
+// }
+
+  if (connectedMAC != "") {
+    while (Serial2.available()) {
+      // 1. Start byte 동기화
+      uint8_t byte = Serial2.read();
+      if (byte != 0xAA) {
+        continue; // 시작 바이트 아니면 무시하고 다음 바이트로
+      }
+
+      // 2. packet_id 기다리기
+      while (Serial2.available() < 1); // packet_id가 아직 안 왔으면 대기
+      uint8_t packet_id = Serial2.read();
+      if (packet_id != 0x01) {
+        Serial.println("[WARN] Packet ID mismatch - skipped");
+        continue;
+      }
+
+      // 3. 나머지 바이트 읽기 (이미 2바이트 읽었으므로)
+      size_t remaining = sizeof(ActuatorPacket) - 2;
+      while (Serial2.available() < remaining); // 충분히 들어올 때까지 기다림
+
+      uint8_t buffer[sizeof(ActuatorPacket)];
+      buffer[0] = 0xAA;       // start_byte
+      buffer[1] = 0x01;       // packet_id
+      Serial2.readBytes(buffer + 2, remaining);
+
+      ActuatorPacket currentPacket;
+      memcpy(&currentPacket, buffer, sizeof(ActuatorPacket));
+
+      // 4. CRC 체크
+      uint8_t crc = calculate_checksum(buffer, sizeof(ActuatorPacket) - 1);
+      if (crc != currentPacket.crc) {
+        Serial.println("[WARN] CRC mismatch - packet dropped");
+        continue;
+      }
+
+      // 5. 이전 패킷과 비교
       if (memcmp(&currentPacket, &lastPacket, sizeof(ActuatorPacket)) != 0) {
-        updateDataApi(connectedMAC, currentPacket); 
+        updateDataApi(connectedMAC, currentPacket);
         lastPacket = currentPacket;
       }
+
+      // 6. break 안 하는 이유: 여러 패킷이 도착해 있을 수도 있으니 계속 반복
     }
   }
+
 
   // UART write Test
   if (connectedMAC != "") {
+    uint8_t buffer[64];
     if (Serial2.available() >= sizeof(ActuatorPacket)) {
       ActuatorPacket pkt;
-      Serial2.readBytes((uint8_t*)&pkt, sizeof(pkt));
-      Serial.println("Loopback Packet Received:");
-      Serial.println("led_rgb: " + String(pkt.led_rgb));
-      Serial.println("fan: " + String(pkt.fan));
-      Serial.println("led: " + String(pkt.led));
-      Serial.println("buzzer: " + String(pkt.buzzer));
-      Serial.println("driving_mode: " + String(pkt.driving_mode));
-      Serial.println("servo_chair: " + String(pkt.servo_chair));
-      Serial.println("servo_window: " + String(pkt.servo_window));
-      Serial.println("front_distance: " + String(pkt.front_distance));
+      Serial2.readBytes(buffer, 11);
+      memcpy(&pkt, buffer, 11);
+
+      // 1) start_byte, packet_id
+      Serial.println("[RECV]");
+      Serial.print("start_byte: 0x"); Serial.println(pkt.start_byte, HEX);
+      Serial.print("packet_id:  0x"); Serial.println(pkt.packet_id, HEX);
+
+      // 2) RGB 비트
+      Serial.print("LED RGB:    R="); Serial.print(pkt.R);
+      Serial.print(" G=");         Serial.print(pkt.G);
+      Serial.print(" B=");         Serial.println(pkt.B);
+
+      // 3) fan, led, buzzer, driving_mode
+      Serial.print("fan: ");    Serial.print(pkt.fan);
+      Serial.print("  led: ");  Serial.print(pkt.led);
+      Serial.print("  buzzer: ");Serial.print(pkt.buzzer);
+      Serial.print("  mode: "); Serial.println(pkt.driving_mode);
+
+      // 4) Servo 각도
+      Serial.print("servo_chair:  ");  Serial.println(pkt.servo_chair);
+      Serial.print("servo_window: ");  Serial.println(pkt.servo_window);
+      Serial.print("front_distance:    ");  Serial.println(pkt.front_distance);
+
+      // 5) CRC
+      Serial.print("crc: 0x"); Serial.println(pkt.crc, HEX);
+
+      Serial.println();  // 한 줄 띄워서 구분
     }
   }
-
 
   delay(1000);
 }

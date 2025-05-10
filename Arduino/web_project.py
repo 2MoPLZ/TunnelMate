@@ -5,14 +5,14 @@ app = Flask(__name__)
 
 # 새로운 테이블 구조에 맞는 기본값
 DEFAULT_DATA = {
-    "led_rgb": 0,
-    "fan": 1,
+    "led_rgb": 2,
+    "fan": 3,
     "led": 0,
     "buzzer": 0,
     "driving_mode": 0,
-    "servo_chair": 1000,
-    "servo_window": 2000,
-    "front_distance": 1500
+    "servo_chair": 0,
+    "servo_window": 0,
+    "front_distance": 1
 }
 
 @app.route('/get', methods=['GET'])
