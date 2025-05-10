@@ -107,6 +107,14 @@ static struct ActuatorPacket controlPacket = {0,};
 uint8_t packetReceived = 0;
 uint8_t rxPtr = 0;
 
+typedef enum uart_stage{
+    START = 1,
+    ID = 2,
+    PAYLOAD = 3,
+  }uart_stage_t;
+  static uart_stage_t RxStage = START;
+
+
 enum driving_mode_t{
   DRIVING_NORMAL = 1,
   DRIVING_TERNEL = 2
@@ -156,23 +164,13 @@ int main(void)
   initServo();
   initControlValue();
 
+
   initScheduler();
-
-
-//  if(HAL_UART_Receive_IT(&huart1,rx_buffer + rxPtr,ACTUATOR_PACKET_SIZE) != HAL_OK){
-//	  Error_Handler();
-//  }
-  if(HAL_UART_Receive_IT(&huart1,rx_buffer_1,ACTUATOR_PACKET_SIZE) != HAL_OK){
+  //HAL_UARTEx_ReceiveToIdle_DMA(&huart1, rx_buffer, RX_BUFFER_SIZE);
+  if(HAL_UART_Receive_IT(&huart1,rx_buffer_1,1) != HAL_OK){
   	  Error_Handler();
     }
 
-//	controlPacket.driving_mode = DRIVING_TERNEL; // driving_mode 말고 led_rgb 태스크에서 4번째 비트가 1이면 밝기 줄이기
-//	controlPacket.servo_chair = 1200;
-//	controlPacket.servo_window = 450;
-//	controlPacket.led = 1;
-//	controlPacket.buzzer = 1;
-//	controlPacket.fan = 2;
-//	controlPacket.led_rgb = 0x4;
   /* USER CODE END 2 */
 
   /* Infinite loop */
@@ -184,6 +182,8 @@ int main(void)
       packetReceived = 0;
       handlePacket();
       printActuatorPacket();
+      RxStage = START;
+      HAL_UART_Receive_IT(&huart1,rx_buffer_1,1);
     }
     scheduler();
 
@@ -632,52 +632,117 @@ void printActuatorPacket(void)
 }
 void handlePacket(void)
 {
-//  uint8_t _crc = calculate_checksum(rx_buffer+rxPtr,ACTUATOR_PACKET_SIZE-1);
-//	if(_crc == rx_buffer[rxPtr+ACTUATOR_PACKET_SIZE-1])
-//	{
-//    deserialize_actuator_packet(rx_buffer, &controlPacket);
-//	}
-//  else
-//  {
-//    //do nothing
-//  }
-//
-//  if(rxPtr > RX_PTR_LIMIT)
-//  {
-//    rxPtr = 0;
-//  }
-//  else
-//  {
-//    rxPtr += ACTUATOR_PACKET_SIZE;
-//  }
-//  HAL_UART_Receive_IT(&huart1,rx_buffer+rxPtr,ACTUATOR_PACKET_SIZE);
-
   uint8_t _crc = calculate_checksum(rx_buffer_1,ACTUATOR_PACKET_SIZE-1);
-  	if(_crc == rx_buffer_1[ACTUATOR_PACKET_SIZE-1])
-  	{
-      deserialize_actuator_packet(rx_buffer_1, &controlPacket);
-  	}
-    else
-    {
-      //do nothing
-    }
 
+  //for debug
+  deserialize_actuator_packet(rx_buffer_1, &controlPacket);
+  //
 
-    HAL_UART_Receive_IT(&huart1,rx_buffer_1,ACTUATOR_PACKET_SIZE);
+//  	if(_crc == rx_buffer_1[ACTUATOR_PACKET_SIZE-1])
+//  	{
+//      deserialize_actuator_packet(rx_buffer_1, &controlPacket);
+//  	}
+//    else
+//    {
+//      //do nothing
+//    }
+
 }
+//void HAL_UARTEx_RxEventCallback(UART_HandleTypeDef *huart, uint16_t Size)
+//{
+//	uint8_t msg[BUFFER_SIZE]; // DEBUG
+//	int len;
+//
+//	if(huart->Instance == USART1) // Communication module (COMMOD)
+//	{
+//		if(dma_commod_buf[0] == UART_START_BYTE) {
+//			if(dma_commod_buf[1] == ACTUATOR_PACKET_ID && Size == ACTUATOR_PACKET_SIZE)
+//			{
+//				memcpy(actuator_buf, dma_commod_buf, ACTUATOR_PACKET_SIZE);
+//
+//				len = snprintf(msg, sizeof(msg), "\r\n[<- COMMOD_ACT]\r\n"); // DEBUG
+//				HAL_UART_Transmit(&huart2, (uint8_t*)msg, len, HAL_MAX_DELAY); // DEBUG
+//
+//				packet_flag[COMMOD_ACT] = 1;
+//			}
+//		}
+//		HAL_UARTEx_ReceiveToIdle_DMA(UART_COMMOD, dma_commod_buf, BUFFER_SIZE);
+//	}
+//	else if(huart->Instance == USART5) // Sensor module
+//	{
+//		if(dma_sensor_buf[0] == UART_START_BYTE) {
+//			if(dma_sensor_buf[1] == ACTUATOR_PACKET_ID && Size == ACTUATOR_PACKET_SIZE)
+//			{
+//				memcpy(actuator_buf, dma_sensor_buf, ACTUATOR_PACKET_SIZE);
+//
+//				len = snprintf(msg, sizeof(msg), "\r\n[<- SENSOR_ACT]\r\n"); // DEBUG
+//				HAL_UART_Transmit(&huart2, (uint8_t*)msg, len, HAL_MAX_DELAY); // DEBUG
+//
+//				packet_flag[SENSOR_ACT] = 1;
+//			}
+//			else if(dma_sensor_buf[1] == SENSOR_PACKET_ID && Size == SENSOR_PACKET_SIZE)
+//			{
+//				memcpy(sensor_buf, dma_sensor_buf, SENSOR_PACKET_SIZE);
+//
+//				len = snprintf(msg, sizeof(msg), "\r\n[<- SENSOR_SENSOR]\r\n"); // DEBUG
+//				HAL_UART_Transmit(&huart2, (uint8_t*)msg, len, HAL_MAX_DELAY); // DEBUG
+//
+//				packet_flag[SENSOR_SENSOR] = 1;
+//			}
+//		}
+//		HAL_UARTEx_ReceiveToIdle_DMA(UART_SENSOR, dma_sensor_buf, BUFFER_SIZE);
+//	}
+//}
+//void HAL_UART_RxCpltCallback(UART_HandleTypeDef *huart)
+//{
+//  if(huart->Instance == huart1.Instance)
+//  {
+//    packetReceived = 1;
+//  }
+//}
 void HAL_UART_RxCpltCallback(UART_HandleTypeDef *huart)
-{
-  if(huart->Instance == huart1.Instance)
   {
-    packetReceived = 1;
+    if(huart->Instance == huart1.Instance)
+    {
+      switch(RxStage)
+      {
+        case START:
+          if(rx_buffer_1[0] == UART_START_BYTE)
+          {
+            RxStage = ID;
+            HAL_UART_Receive_IT(&huart1, rx_buffer_1 + 1, 1);
+          }
+          else
+          {
+            HAL_UART_Receive_IT(&huart1, rx_buffer_1, 1);
+          }
+          break;
+        case ID:
+          if(rx_buffer_1[1] == ACTUATOR_PACKET_ID)
+          {
+            RxStage = PAYLOAD;
+            HAL_UART_Receive_IT(&huart1, rx_buffer_1+2, ACTUATOR_PACKET_SIZE-2);
+          }
+          else
+          {
+            RxStage = START;
+            HAL_UART_Receive_IT(&huart1, rx_buffer_1, 1);
+          }
+          break;
+        case PAYLOAD:
+          packetReceived=1;
+          break;
+        default:
+      };
+    }
   }
-}
 void HAL_UART_ErrorCallback(UART_HandleTypeDef *huart)
 {
   if(huart->Instance == huart1.Instance)
   {
     //HAL_UART_Receive_IT(&huart1, rx_buffer + rxPtr, ACTUATOR_PACKET_SIZE);
-    HAL_UART_Receive_IT(&huart1, rx_buffer_1, ACTUATOR_PACKET_SIZE);
+	  RxStage = START;
+    HAL_UART_Receive_IT(&huart1, rx_buffer_1, 1);
   }
 }
 void initControlValue(void)
