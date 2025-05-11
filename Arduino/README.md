@@ -88,7 +88,7 @@ A project integrating **ESP32 hardware**, a **Flask web server**, and **MySQL da
 | `driving_mode`   | 4 bits        | Driving mode (0–15)                |
 | `servo_chair`    | 2 bytes       | Chair angle (0–4095)               |
 | `servo_window`   | 2 bytes       | Window position (0–4095)           |
-| `servo_air`      | 2 bytes       | Air control (0–4095)               |
+| `front_distance`      | 2 bytes       | Front object distance (0–4095)               |
 | `crc`            | 1 byte        | Checksum (optional, currently 0)   |
 
 > 🔧 Total size: **11 bytes (packed)**
@@ -116,7 +116,7 @@ A project integrating **ESP32 hardware**, a **Flask web server**, and **MySQL da
   "driving_mode": 0,
   "servo_chair": 1000,
   "servo_window": 2000,
-  "servo_air": 1500,
+  "front_distance": 1500,
   "updated_at": "Mon, 05 May 2025 22:07:01 GMT"
 }
 ```
@@ -138,7 +138,7 @@ A project integrating **ESP32 hardware**, a **Flask web server**, and **MySQL da
   "driving_mode": 4,
   "servo_chair": 1200,
   "servo_window": 1800,
-  "servo_air": 1600
+  "front_distance": 1600
 }
 ```
 
@@ -154,7 +154,7 @@ A project integrating **ESP32 hardware**, a **Flask web server**, and **MySQL da
   "mac": "5c:ab:72:7c:c9:3b",
   "mac_address": "5c:ab:72:7c:c9:3b",
   "message": "default inserted",
-  "servo_air": 1500,
+  "front_distance": 1500,
   "servo_chair": 1000,
   "servo_window": 2000
 }
