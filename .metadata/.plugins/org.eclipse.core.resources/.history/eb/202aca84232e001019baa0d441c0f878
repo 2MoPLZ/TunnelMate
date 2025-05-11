@@ -1,0 +1,34 @@
+/*
+* servo_driver.h
+*
+*  Created on: Apr 28, 2025
+*      Author: kimjunhyeok
+*
+*
+*/
+#ifndef SRC_SERVO_DRIVER_H_
+#define SRC_SERVO_DRIVER_H_
+
+#include "stm32f1xx_hal.h"
+#include <stdint.h>
+
+/*-------typedef------*/
+typedef struct servo{
+    TIM_HandleTypeDef *htim;
+    uint32_t channel;
+    uint16_t pulseMax;
+    uint16_t pulseMin;
+    uint16_t unitPulse;
+    uint16_t initialPulse;
+}servo_t;
+
+extern servo_t arrayServo[NUM_SERVO];
+
+void initServo();
+uint16_t getPulse(uint8_t servoIndex);
+uint16_t getUnitPulse(uint8_t servoIndex);
+void setPulse(uint8_t servoIndex, uint16_t pulse);
+
+void setDegreeServo(uint8_t servoIndex,int degree);
+ 
+#endif //SRC_SERVO_DRIVER_H_

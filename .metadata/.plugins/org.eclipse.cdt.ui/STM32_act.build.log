@@ -1,36 +1,25 @@
-10:50:07 **** Incremental Build of configuration Debug for project STM32_act ****
+13:50:56 **** Incremental Build of configuration Debug for project STM32_act ****
 make -j12 all 
 arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xB -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
-../Core/Src/main.c: In function 'main':
-../Core/Src/main.c:184:7: warning: implicit declaration of function 'printActuatorPacket' [-Wimplicit-function-declaration]
-  184 |       printActuatorPacket();
-      |       ^~~~~~~~~~~~~~~~~~~
-../Core/Src/main.c: At top level:
-../Core/Src/main.c:594:6: warning: conflicting types for 'printActuatorPacket'; have 'void(void)'
-  594 | void printActuatorPacket(void)
-      |      ^~~~~~~~~~~~~~~~~~~
-../Core/Src/main.c:184:7: note: previous implicit declaration of 'printActuatorPacket' with type 'void(void)'
-  184 |       printActuatorPacket();
-      |       ^~~~~~~~~~~~~~~~~~~
+arm-none-eabi-gcc "../Core/Src/servo_driver.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xB -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/servo_driver.d" -MT"Core/Src/servo_driver.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/servo_driver.o"
 ../Core/Src/main.c: In function 'printActuatorPacket':
-../Core/Src/main.c:600:11: warning: implicit declaration of function 'snprintf' [-Wimplicit-function-declaration]
-  600 |     len = snprintf(msg, sizeof(msg), "start_byte: 0x%02X\r\n", controlPacket.start_byte);
+../Core/Src/main.c:591:11: warning: implicit declaration of function 'snprintf' [-Wimplicit-function-declaration]
+  591 |     len = snprintf(msg, sizeof(msg), "start_byte: 0x%02X\r\n", controlPacket.start_byte);
       |           ^~~~~~~~
 ../Core/Src/main.c:32:1: note: include '<stdio.h>' or provide a declaration of 'snprintf'
    31 | #include "uart_packet.h"
   +++ |+#include <stdio.h>
    32 | /* USER CODE END Includes */
-../Core/Src/main.c:600:11: warning: incompatible implicit declaration of built-in function 'snprintf' [-Wbuiltin-declaration-mismatch]
-  600 |     len = snprintf(msg, sizeof(msg), "start_byte: 0x%02X\r\n", controlPacket.start_byte);
+../Core/Src/main.c:591:11: warning: incompatible implicit declaration of built-in function 'snprintf' [-Wbuiltin-declaration-mismatch]
+  591 |     len = snprintf(msg, sizeof(msg), "start_byte: 0x%02X\r\n", controlPacket.start_byte);
       |           ^~~~~~~~
-../Core/Src/main.c:600:11: note: include '<stdio.h>' or provide a declaration of 'snprintf'
-../Core/Src/main.c: In function 'handlePacket':
-../Core/Src/main.c:635:11: warning: unused variable '_crc' [-Wunused-variable]
-  635 |   uint8_t _crc = calculate_checksum(rx_buffer_1,ACTUATOR_PACKET_SIZE-1);
-      |           ^~~~
+../Core/Src/main.c:591:11: note: include '<stdio.h>' or provide a declaration of 'snprintf'
 ../Core/Src/main.c: At top level:
-../Core/Src/main.c:103:16: warning: 'rx_buffer' defined but not used [-Wunused-variable]
-  103 | static uint8_t rx_buffer[RX_BUFFER_SIZE];
+../Core/Src/main.c:107:30: warning: 'testpacket' defined but not used [-Wunused-variable]
+  107 | static struct ActuatorPacket testpacket = {0,}; //debug
+      |                              ^~~~~~~~~~
+../Core/Src/main.c:106:16: warning: 'tx_buffer' defined but not used [-Wunused-variable]
+  106 | static uint8_t tx_buffer[RX_BUFFER_SIZE]; //debug
       |                ^~~~~~~~~
 arm-none-eabi-gcc -o "STM32_act.elf" @"objects.list"   -mcpu=cortex-m3 -T"C:\proj_autoever\TunnelMate\STM32_act\STM32F103RBTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="STM32_act.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
 Finished building target: STM32_act.elf
@@ -38,11 +27,11 @@ Finished building target: STM32_act.elf
 arm-none-eabi-size  STM32_act.elf 
 arm-none-eabi-objdump -h -S STM32_act.elf  > "STM32_act.list"
    text	   data	    bss	    dec	    hex	filename
-  20536	    200	   2616	  23352	   5b38	STM32_act.elf
+  17016	    120	   2288	  19424	   4be0	STM32_act.elf
 Finished building: default.size.stdout
  
 Finished building: STM32_act.list
  
 
-10:50:08 Build Finished. 0 errors, 6 warnings. (took 1s.898ms)
+13:50:59 Build Finished. 0 errors, 4 warnings. (took 2s.615ms)
 

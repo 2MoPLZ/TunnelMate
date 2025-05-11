@@ -1,5 +1,5 @@
-../Core/Src/servo_driver.c:20:6:initServo	5
-../Core/Src/servo_driver.c:30:10:getPulse	4
-../Core/Src/servo_driver.c:34:10:getUnitPulse	1
-../Core/Src/servo_driver.c:39:6:setPulse	4
-../Core/Src/servo_driver.c:46:7:setDegreeServo	6
+../Core/Src/servo_driver.c:24:6:initServo	5
+../Core/Src/servo_driver.c:34:10:getPulse	4
+../Core/Src/servo_driver.c:38:10:getUnitPulse	1
+../Core/Src/servo_driver.c:43:6:setPulse	4
+../Core/Src/servo_driver.c:50:7:setDegreeServo	6

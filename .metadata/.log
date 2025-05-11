@@ -3044,3 +3044,25 @@ org.eclipse.core.runtime.CoreException: Corrupted database: STM32_act.1746250517
 
 !ENTRY org.eclipse.cdt.core 1 0 2025-05-10 09:31:17.676
 !MESSAGE Indexed 'STM32_act' (28 sources, 121 headers) in 3.22 sec: 10,044 declarations; 52,334 references; 2 unresolved inclusions; 36 syntax errors; 188 unresolved names (0.3%)
+!SESSION 2025-05-10 19:39:04.102 -----------------------------------------------
+eclipse.buildId=Version 1.17.0
+java.version=21.0.3
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=ko_KR
+Framework arguments:  C:\proj_autoever\TunnelMate\STM32_act\.cproject
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 C:\proj_autoever\TunnelMate\STM32_act\.cproject
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2025-05-10 19:40:06.218
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2025-05-10 19:40:06.221
+!MESSAGE Log4j2 initialized with config file C:\proj_autoever\TunnelMate\.metadata\.log4j2.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2025-05-10 19:40:22.867
+!MESSAGE Started RMI Server, listening on port 41337
+
+!ENTRY org.eclipse.cdt.core 1 0 2025-05-10 19:40:24.154
+!MESSAGE Indexed 'servo' (0 sources, 0 headers) in 0.001 sec: 0 declarations; 0 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2025-05-10 19:40:30.804
+!MESSAGE Indexed 'STM32_act' (28 sources, 121 headers) in 6.18 sec: 10,044 declarations; 52,330 references; 2 unresolved inclusions; 36 syntax errors; 188 unresolved names (0.3%)
