@@ -1,0 +1,2 @@
+../Core/Src/rgb_driver.c:14:6:initRgb	8	static
+../Core/Src/rgb_driver.c:21:6:setColorRgb	16	static

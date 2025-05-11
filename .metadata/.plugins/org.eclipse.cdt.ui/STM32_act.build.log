@@ -1,0 +1,10 @@
+13:50:54 **** Incremental Build of configuration Debug for project STM32_act ****
+make -j12 all 
+arm-none-eabi-size  STM32_act.elf 
+   text	   data	    bss	    dec	    hex	filename
+  17564	    128	   2488	  20180	   4ed4	STM32_act.elf
+Finished building: default.size.stdout
+ 
+
+13:50:55 Build Finished. 0 errors, 0 warnings. (took 666ms)
+
