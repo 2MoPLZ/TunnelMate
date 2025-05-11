@@ -1,11 +1,12 @@
 # TunnelMate
 
 ## 팀원
-|                         김민                         |                            김준혁                            |                         류병민                         |                          이윤기                          |                        오동걸                        |                        호세헌                        |
-|:------------------------------------------------------:|:------------------------------------------------------------:|:------------------------------------------------------:|:--------------------------------------------------------:|:----------------------------------------------------:|:------------------------------------------------------:|
-|  <img src="https://github.com/min-kim-oss.png?size=100">   |    <img src="https://github.com/knujhk.png?size=100">    |  <img src="https://github.com/bmryu0501.png?size=100">   |   <img src="https://github.com/yg654.png?size=100">   | <img src="https://github.com/fepick.png?size=100"> | <img src="https://github.com/seheonnn.png?size=100"> |
-|            Lead<br/>TC275             |                      STM32 Actuator                       |                   STM32 Main                    |                    STM32 Actuator                     |                  TC275                   |                      Arduino & Infra                      |
-| <center>[min-kim-oss](https://github.com/min-kim-oss)</center> | <center>[knujhk](https://github.com/knujhk)</center> | <center>[bmryu0501](https://github.com/bmryu0501)</center> | <center>[yg654](https://github.com/yg654)</center> | <center>[fepick](https://github.com/fepick)</center> | <center>[seheonnn](https://github.com/seheonnn)</center> |
+
+| 김민 | 김준혁 | 류병민 | 이윤기 | 오동걸 | 호세헌 |
+|:----:|:------:|:------:|:------:|:------:|:------:|
+| <img src="https://github.com/min-kim-oss.png" style="width:100px; height:100px;"> | <img src="https://github.com/knujhk.png" style="width:100px; height:100px;"> | <img src="https://github.com/bmryu0501.png" style="width:100px; height:100px;"> | <img src="https://github.com/yg654.png" style="width:100px; height:100px;"> | <img src="https://github.com/fepick.png" style="width:100px; height:100px;"> | <img src="https://github.com/seheonnn.png" style="width:100px; height:100px;"> |
+| Lead<br/>TC275 | STM32 Actuator | STM32 Main | STM32 Actuator | TC275 | Arduino & Infra |
+| [min-kim-oss](https://github.com/min-kim-oss) | [knujhk](https://github.com/knujhk) | [bmryu0501](https://github.com/bmryu0501) | [yg654](https://github.com/yg654) | [fepick](https://github.com/fepick) | [seheonnn](https://github.com/seheonnn) |
 
 ## 아키텍처
 ![Architecture](./figure/Architecture.png)
