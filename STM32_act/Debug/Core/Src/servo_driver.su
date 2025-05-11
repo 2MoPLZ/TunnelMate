@@ -1,0 +1,5 @@
+../Core/Src/servo_driver.c:24:6:initServo	16	static
+../Core/Src/servo_driver.c:34:10:getPulse	16	static
+../Core/Src/servo_driver.c:38:10:getUnitPulse	16	static
+../Core/Src/servo_driver.c:43:6:setPulse	16	static
+../Core/Src/servo_driver.c:50:7:setDegreeServo	56	static

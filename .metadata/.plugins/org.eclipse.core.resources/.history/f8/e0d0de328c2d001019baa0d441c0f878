@@ -1,0 +1,66 @@
+/*
+ * servo_driver.c
+ *
+ *  Created on: Apr 28, 2025
+ *      Author: kimjunhyeok
+ */
+
+ #include "servo_driver.h"
+
+extern TIM_HandleTypeDef htim1; //main에 정의
+extern TIM_HandleTypeDef htim3; //  ""
+ 
+servo_t arrayServo[NUM_SERVO] = {
+   //{*htim, Channel, pulseMax, pulseMin, unitPulse, initialPulse}
+   // unitPulse = ((최대각도일때 pulse값 - 최소각도일때 pulse값) / 160.0) -> 소수점 버림
+   {&htim1, TIM_CHANNEL_1, 1300, 450,  (uint16_t)((1300.0 - 450.0)/180.0), 480},
+   {&htim3, TIM_CHANNEL_4, 1300, 450,  (uint16_t)((1300.0 - 450.0)/180.0),1150}
+};
+//1 창문
+//2. 시트
+
+void initServo(void)
+ {
+	for(int i = 0; i < NUM_SERVO; i++){
+		__HAL_TIM_SetCompare(arrayServo[i].htim,arrayServo[i].channel, arrayServo[i].initialPulse);
+		HAL_TIM_PWM_Start(arrayServo[i].htim,arrayServo[i].channel);
+	}
+
+	return;
+ }
+
+uint16_t getPulse(uint8_t servoIndex)
+{
+	return (__HAL_TIM_GetCompare(arrayServo[servoIndex].htim,arrayServo[servoIndex].channel));
+}
+uint16_t getUnitPulse(uint8_t servoIndex)
+{
+	return arrayServo[servoIndex].unitPulse;
+}
+
+void setPulse(uint8_t servoIndex, uint16_t pulse)
+{
+	__HAL_TIM_SetCompare(arrayServo[servoIndex].htim,arrayServo[servoIndex].channel, pulse);
+	return;
+}
+ 
+//for actuator test
+ void setDegreeServo(uint8_t servoIndex,int degree)
+ {
+  servo_t servo = arrayServo[servoIndex];
+
+ 	if(degree < -80)
+ 	{
+ 		degree = -80;
+ 	}
+ 	else if(degree > 80)
+ 	{
+ 		degree = 80;
+ 	}
+
+ 	uint16_t _pulse = servo.pulseMin + (uint16_t)((((float)(servo.pulseMax) - (float)(servo.pulseMin)) / 160.0)*(degree+80));
+
+ 	__HAL_TIM_SetCompare(servo.htim,servo.channel,_pulse);
+
+ 	return;
+ }
