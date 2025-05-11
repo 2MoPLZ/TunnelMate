@@ -33,9 +33,7 @@ extern "C" {
  *
  **************************************************************************/
 DeclareTask(SensorTask);
-DeclareTask(SendAcutatorPacket_TEST);
-DeclareTask(SendSensorPacket_TEST);
-DeclareTask(TaskUltrasonic_TEST);
+DeclareTask(DashboardButtonTask);
 
 
 ISR2(asclin3TxISR);

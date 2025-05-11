@@ -19,8 +19,8 @@
 #define TX_PIN &MODULE_P15, 2 // D1
 //  #define UART_TIMEOUT_TICK 20000000 // 100ms
 
-#define SENSOR_PACKET_RECIEVE_MODE
-// #define ACTUATOR_PACKET_RECIEVE_MODE
+// #define SENSOR_PACKET_RECIEVE_MODE
+#define ACTUATOR_PACKET_RECIEVE_MODE
 
 /*******************************************     NO CHANGES AFTER THIS LINE      ****************************************************/
 

@@ -51,13 +51,13 @@
  * \{
  */
 
-#define ISR_PRIORITY_ASC_0_RX 4         /**< \brief Define the ASC0 receive interrupt priority.  */
-#define ISR_PRIORITY_ASC_0_TX 5         /**< \brief Define the ASC0 transmit interrupt priority.  */
-#define ISR_PRIORITY_ASC_0_EX 6        /**< \brief Define the ASC0 error interrupt priority.  */
+#define ISR_PRIORITY_ASC_0_RX 13         /**< \brief Define the ASC0 receive interrupt priority.  */
+#define ISR_PRIORITY_ASC_0_TX 14         /**< \brief Define the ASC0 transmit interrupt priority.  */
+#define ISR_PRIORITY_ASC_0_EX 15        /**< \brief Define the ASC0 error interrupt priority.  */
 
-#define ISR_PRIORITY_ASC_3_RX 10         /**< \brief Define the ASC3 receive interrupt priority.  */
-#define ISR_PRIORITY_ASC_3_TX 19         /**< \brief Define the ASC3 transmit interrupt priority.  */
-#define ISR_PRIORITY_ASC_3_EX 12        /**< \brief Define the ASC3 error interrupt priority.  */
+#define ISR_PRIORITY_ASC_3_RX 16         /**< \brief Define the ASC3 receive interrupt priority.  */
+#define ISR_PRIORITY_ASC_3_TX 17         /**< \brief Define the ASC3 transmit interrupt priority.  */
+#define ISR_PRIORITY_ASC_3_EX 18        /**< \brief Define the ASC3 error interrupt priority.  */
 
 /** \} */
 

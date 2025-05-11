@@ -7,31 +7,31 @@
 FuncSensorTask:
 .LFB574:
 	.file 1 "C:\\TUNNEL~1\\TC275\\asw.c"
-	.loc 1 19 0
-	.loc 1 21 0
+	.loc 1 8 0
+	.loc 1 9 0
 	movh.a	%a4, hi:g_UpperUltrasonic
-	.loc 1 19 0
+	.loc 1 8 0
 	sub.a	%SP, 16
 .LCFI0:
-	.loc 1 21 0
+	.loc 1 9 0
 	lea	%a4, [%a4] lo:g_UpperUltrasonic
 	call	getUltrasonic
 .LVL0:
-	.loc 1 22 0
+	.loc 1 10 0
 	movh.a	%a4, hi:g_FrontUltrasonic
 	lea	%a4, [%a4] lo:g_FrontUltrasonic
-	.loc 1 21 0
+	.loc 1 9 0
 	mov	%d9, %d2
 .LVL1:
-	.loc 1 22 0
+	.loc 1 10 0
 	call	getUltrasonic
 .LVL2:
 	mov	%d8, %d2
 .LVL3:
-	.loc 1 23 0
+	.loc 1 11 0
 	call	getPhotoresiter
 .LVL4:
-	.loc 1 25 0
+	.loc 1 13 0
 	lea	%a4, [%SP] 7
 	mov.aa	%a2, %a4
 	mov	%d15, 0
@@ -56,303 +56,140 @@ FuncSensorTask:
 	sh	%d15, -8
 	st.b	[%SP] 12, %d15
 	st.b	[%SP] 14, %d2
-	.loc 1 32 0
+	.loc 1 20 0
 	j	sendSensorPacket
 .LVL6:
 .LFE574:
 	.size	FuncSensorTask, .-FuncSensorTask
-.section .rodata,"a",@progbits
-.LC0:
-	.string	"interuppt"
-.section .text,"ax",@progbits
+	.align 1
+	.global	FuncDashboardButtonTask
+	.type	FuncDashboardButtonTask, @function
+FuncDashboardButtonTask:
+.LFB575:
+	.loc 1 26 0
+	.loc 1 27 0
+	movh.a	%a15, hi:g_buttonState
+	.loc 1 26 0
+	sub.a	%SP, 16
+.LCFI1:
+	.loc 1 27 0
+	ld.bu	%d4, [%a15] lo:g_buttonState
+	call	updateStateByButton
+.LVL7:
+	.loc 1 31 0
+	lea	%a15, [%SP] 5
+	mov.aa	%a2, %a15
+	.loc 1 32 0
+	mov.aa	%a4, %a15
+	.loc 1 31 0
+	mov	%d15, 0
+	lea	%a3, 11-1
+	0:
+	st.b	[%a2+]1, %d15
+	loop	%a3, 0b
+	.loc 1 32 0
+	call	setActuatorPacket
+.LVL8:
+	.loc 1 33 0
+	mov.aa	%a4, %a15
+	j	sendActuatorPacket
+.LVL9:
+.LFE575:
+	.size	FuncDashboardButtonTask, .-FuncDashboardButtonTask
 	.align 1
 	.global	ButtonISR
 	.type	ButtonISR, @function
 ButtonISR:
-.LFB575:
-	.loc 1 36 0
+.LFB576:
+	.loc 1 37 0
 	.loc 1 38 0
 	call	DisableAllInterrupts
-.LVL7:
+.LVL10:
 	.loc 1 39 0
 	mov	%d4, 5000
 	call	osEE_tc_delay
-.LVL8:
-	.loc 1 40 0
-	movh.a	%a4, hi:.LC0
-	lea	%a4, [%a4] lo:.LC0
-	call	printfSerial
-.LVL9:
-	.loc 1 41 0
-	call	readLcdButtons
-.LVL10:
-	.loc 1 42 0
-	mov	%d4, %d2
-	call	updateInfoState
 .LVL11:
-	.loc 1 44 0
+	.loc 1 40 0
+	call	readLcdButtons
+.LVL12:
+	movh.a	%a15, hi:g_buttonState
+	and	%d2, %d2, 255
+	.loc 1 41 0
+	mov	%d4, 6
+	.loc 1 40 0
+	st.b	[%a15] lo:g_buttonState, %d2
+	.loc 1 41 0
+	call	ActivateTask
+.LVL13:
+	.loc 1 42 0
 	mov	%d4, 3000
 	call	osEE_tc_delay
-.LVL12:
-	.loc 1 45 0
+.LVL14:
+	.loc 1 43 0
 	j	EnableAllInterrupts
-.LVL13:
-.LFE575:
+.LVL15:
+.LFE576:
 	.size	ButtonISR, .-ButtonISR
 .section .rodata,"a",@progbits
-.LC1:
-	.string	"SensorPacket sent..."
-.LC2:
-	.string	"\nrecieved:[ start:%02x id:%02x photo:%d upper_ultra:%d front_ultra:%d ]"
-.section .text,"ax",@progbits
-	.align 1
-	.global	FuncSendSensorPacket_TEST
-	.type	FuncSendSensorPacket_TEST, @function
-FuncSendSensorPacket_TEST:
-.LFB576:
-	.loc 1 49 0
-	sub.a	%SP, 24
-.LCFI1:
-	.loc 1 54 0
-	mov	%d4, 5
-	call	ActivateTask
-.LVL14:
-	.loc 1 55 0
-	movh.a	%a4, hi:.LC1
-	lea	%a4, [%a4] lo:.LC1
-	call	printfSerial
-.LVL15:
-	.loc 1 56 0
-	mov	%d4, 500
-	call	delay_ms
-.LVL16:
-	.loc 1 59 0
-	movh.a	%a2, hi:g_RecievedSensorPacket
-	.loc 1 58 0
-	ld.bu	%d15, [%a2] lo:g_RecievedSensorPacket
-	.loc 1 59 0
-	lea	%a15, [%a2] lo:g_RecievedSensorPacket
-	.loc 1 58 0
-	st.w	[%SP]0, %d15
-	ld.bu	%d15, [%a15] 1
-	movh.a	%a4, hi:.LC2
-	st.w	[%SP] 4, %d15
-	.loc 1 61 0
-	ld.bu	%d15, [%a15] 3
-	ld.bu	%d2, [%a15] 2
-	sh	%d15, %d15, 8
-	.loc 1 58 0
-	or	%d15, %d2
-	st.w	[%SP] 8, %d15
-	.loc 1 62 0
-	ld.bu	%d15, [%a15] 5
-	ld.bu	%d2, [%a15] 4
-	sh	%d15, %d15, 8
-	.loc 1 58 0
-	or	%d15, %d2
-	st.w	[%SP] 12, %d15
-	.loc 1 63 0
-	ld.bu	%d15, [%a15] 7
-	ld.bu	%d2, [%a15] 6
-	sh	%d15, %d15, 8
-	.loc 1 58 0
-	or	%d15, %d2
-	st.w	[%SP] 16, %d15
-	lea	%a4, [%a4] lo:.LC2
-	j	printfSerial
-.LVL17:
-.LFE576:
-	.size	FuncSendSensorPacket_TEST, .-FuncSendSensorPacket_TEST
-.section .rodata,"a",@progbits
-.LC3:
-	.string	"ActuatorPacket sent, chair=%d..."
-.LC4:
-	.string	"\nrecieved:[ start:%02x id:%02x led:%d fan:%d buzz:%d led:%d mode:%d chair:%d window:%d air:%d ]"
-.section .text,"ax",@progbits
-	.align 1
-	.global	FuncSendAcutatorPacket_TEST
-	.type	FuncSendAcutatorPacket_TEST, @function
-FuncSendAcutatorPacket_TEST:
-.LFB577:
-	.loc 1 69 0
-	.loc 1 75 0
-	movh.a	%a15, hi:sendActuatorPkt_TEST
-	lea	%a15, [%a15] lo:sendActuatorPkt_TEST
-	.loc 1 69 0
-	sub.a	%SP, 40
-.LCFI2:
-	.loc 1 75 0
-	mov.aa	%a4, %a15
-	call	sendActuatorPacket
-.LVL18:
-	.loc 1 76 0
-	mov	%d4, 500
-	call	delay_ms
-.LVL19:
-	.loc 1 77 0
-	ld.bu	%d2, [%a15] 5
-	ld.bu	%d15, [%a15] 4
-	sh	%d2, %d2, 8
-	or	%d2, %d15
-	add	%d15, %d2, 1
-	extr.u	%d15, %d15, 0, 16
-	movh.a	%a4, hi:.LC3
-	st.b	[%a15] 4, %d15
-	sh	%d15, -8
-	st.b	[%a15] 5, %d15
-	st.w	[%SP]0, %d2
-	lea	%a4, [%a4] lo:.LC3
-	call	printfSerial
-.LVL20:
-	.loc 1 80 0
-	movh.a	%a2, hi:g_RecievedActuatorPacket
-	.loc 1 79 0
-	ld.bu	%d15, [%a2] lo:g_RecievedActuatorPacket
-	.loc 1 80 0
-	lea	%a15, [%a2] lo:g_RecievedActuatorPacket
-	.loc 1 79 0
-	st.w	[%SP]0, %d15
-	ld.bu	%d15, [%a15] 1
-	movh.a	%a4, hi:.LC4
-	st.w	[%SP] 4, %d15
-	.loc 1 82 0
-	ld.bu	%d15, [%a15] 2
-	.loc 1 79 0
-	lea	%a4, [%a4] lo:.LC4
-	and	%d15, %d15, 7
-	st.w	[%SP] 8, %d15
-	.loc 1 83 0
-	ld.bu	%d15, [%a15] 3
-	.loc 1 79 0
-	and	%d2, %d15, 3
-	st.w	[%SP] 12, %d2
-	extr.u	%d2, %d15, 2, 1
-	st.w	[%SP] 16, %d2
-	extr.u	%d2, %d15, 3, 1
-	extr.u	%d15, %d15, 4, 4
-	st.w	[%SP] 20, %d2
-	st.w	[%SP] 24, %d15
-	.loc 1 87 0
-	ld.bu	%d15, [%a15] 5
-	ld.bu	%d2, [%a15] 4
-	sh	%d15, %d15, 8
-	.loc 1 79 0
-	or	%d15, %d2
-	st.w	[%SP] 28, %d15
-	.loc 1 88 0
-	ld.bu	%d15, [%a15] 7
-	ld.bu	%d2, [%a15] 6
-	sh	%d15, %d15, 8
-	.loc 1 79 0
-	or	%d15, %d2
-	st.w	[%SP] 32, %d15
-	.loc 1 89 0
-	ld.bu	%d15, [%a15] 9
-	ld.bu	%d2, [%a15] 8
-	sh	%d15, %d15, 8
-	.loc 1 79 0
-	or	%d15, %d2
-	st.w	[%SP] 36, %d15
-	j	printfSerial
-.LVL21:
-.LFE577:
-	.size	FuncSendAcutatorPacket_TEST, .-FuncSendAcutatorPacket_TEST
-.section .rodata,"a",@progbits
-.LC5:
-	.string	"upperUltrasonic:(%d)"
-.LC6:
-	.string	"frontUltrasonic:(%d)"
-.section .text,"ax",@progbits
-	.align 1
-	.global	FuncTaskUltrasonic_TEST
-	.type	FuncTaskUltrasonic_TEST, @function
-FuncTaskUltrasonic_TEST:
-.LFB578:
-	.loc 1 92 0
-	.loc 1 93 0
-	movh.a	%a4, hi:g_UpperUltrasonic
-	.loc 1 92 0
-	sub.a	%SP, 8
-.LCFI3:
-	.loc 1 93 0
-	lea	%a4, [%a4] lo:g_UpperUltrasonic
-	call	getUltrasonic
-.LVL22:
-	movh.a	%a4, hi:.LC5
-	st.w	[%SP]0, %d2
-	lea	%a4, [%a4] lo:.LC5
-	call	printfSerial
-.LVL23:
-	.loc 1 94 0
-	movh.a	%a4, hi:g_FrontUltrasonic
-	lea	%a4, [%a4] lo:g_FrontUltrasonic
-	call	getUltrasonic
-.LVL24:
-	movh.a	%a4, hi:.LC6
-	st.w	[%SP]0, %d2
-	lea	%a4, [%a4] lo:.LC6
-	j	printfSerial
-.LVL25:
-.LFE578:
-	.size	FuncTaskUltrasonic_TEST, .-FuncTaskUltrasonic_TEST
-.section .rodata,"a",@progbits
-.LC7:
+.LC0:
 	.string	"\n%4ld: "
 .section .text,"ax",@progbits
 	.align 1
 	.global	TimerISR
 	.type	TimerISR, @function
 TimerISR:
-.LFB579:
-	.loc 1 98 0
-	.loc 1 100 0
+.LFB577:
+	.loc 1 47 0
+	.loc 1 49 0
 	movh	%d4, 15
-	.loc 1 98 0
+	.loc 1 47 0
 	sub.a	%SP, 8
-.LCFI4:
-	.loc 1 100 0
+.LCFI2:
+	.loc 1 49 0
 	addi	%d4, %d4, 16960
+	.loc 1 58 0
+	movh.a	%a15, hi:c.16173
+	.loc 1 49 0
 	call	osEE_tc_stm_set_sr0_next_match
-.LVL26:
-	.loc 1 108 0
-	movh.a	%a15, hi:c.16181
-	ld.w	%d15, [%a15] lo:c.16181
-	mov	%d2, 2
-	div	%e2, %d15, %d2
-	jne	%d3, 1, .L7
-	.loc 1 110 0
-	mov	%d4, 7
+.LVL16:
+	.loc 1 58 0
+	ld.w	%d15, [%a15] lo:c.16173
+	jnz	%d15, .L5
+.LBB2:
+	.loc 1 59 0
+	call	lcd_clear
+.LVL17:
+	.loc 1 60 0
+	call	printInfoDisplay
+.LVL18:
+.L5:
+.LBE2:
+	.loc 1 62 0
+	mov	%d4, 5
 	call	ActivateTask
-.LVL27:
-.L7:
-	.loc 1 116 0
-	ld.w	%d15, [%a15] lo:c.16181
-	movh.a	%a4, hi:.LC7
+.LVL19:
+	.loc 1 67 0
+	ld.w	%d15, [%a15] lo:c.16173
+	movh.a	%a4, hi:.LC0
 	st.w	[%SP]0, %d15
-	lea	%a4, [%a4] lo:.LC7
+	lea	%a4, [%a4] lo:.LC0
 	add	%d15, 1
-	st.w	[%a15] lo:c.16181, %d15
+	st.w	[%a15] lo:c.16173, %d15
 	j	printfSerial
-.LVL28:
-.LFE579:
+.LVL20:
+.LFE577:
 	.size	TimerISR, .-TimerISR
 .section .data,"aw",@progbits
 	.align 2
-	.type	c.16181, @object
-	.size	c.16181, 4
-c.16181:
+	.type	c.16173, @object
+	.size	c.16173, 4
+c.16173:
 	.word	-4
-	.global	sendActuatorPkt_TEST
-	.type	sendActuatorPkt_TEST, @object
-	.size	sendActuatorPkt_TEST, 11
-sendActuatorPkt_TEST:
-	.byte	-86
-	.byte	1
-	.byte	7
-	.byte	118
-	.uahalf	0
-	.uahalf	2048
-	.uahalf	2048
+	.global	g_buttonState
+.section .bss,"aw",@nobits
+	.type	g_buttonState, @object
+	.size	g_buttonState, 1
+g_buttonState:
 	.zero	1
 .section .debug_frame,"",@progbits
 .Lframe0:
@@ -387,6 +224,10 @@ sendActuatorPkt_TEST:
 	.uaword	.Lframe0
 	.uaword	.LFB575
 	.uaword	.LFE575-.LFB575
+	.byte	0x4
+	.uaword	.LCFI1-.LFB575
+	.byte	0xe
+	.uleb128 0x10
 	.align 2
 .LEFDE2:
 .LSFDE4:
@@ -395,10 +236,6 @@ sendActuatorPkt_TEST:
 	.uaword	.Lframe0
 	.uaword	.LFB576
 	.uaword	.LFE576-.LFB576
-	.byte	0x4
-	.uaword	.LCFI1-.LFB576
-	.byte	0xe
-	.uleb128 0x18
 	.align 2
 .LEFDE4:
 .LSFDE6:
@@ -410,33 +247,9 @@ sendActuatorPkt_TEST:
 	.byte	0x4
 	.uaword	.LCFI2-.LFB577
 	.byte	0xe
-	.uleb128 0x28
+	.uleb128 0x8
 	.align 2
 .LEFDE6:
-.LSFDE8:
-	.uaword	.LEFDE8-.LASFDE8
-.LASFDE8:
-	.uaword	.Lframe0
-	.uaword	.LFB578
-	.uaword	.LFE578-.LFB578
-	.byte	0x4
-	.uaword	.LCFI3-.LFB578
-	.byte	0xe
-	.uleb128 0x8
-	.align 2
-.LEFDE8:
-.LSFDE10:
-	.uaword	.LEFDE10-.LASFDE10
-.LASFDE10:
-	.uaword	.Lframe0
-	.uaword	.LFB579
-	.uaword	.LFE579-.LFB579
-	.byte	0x4
-	.uaword	.LCFI4-.LFB579
-	.byte	0xe
-	.uleb128 0x8
-	.align 2
-.LEFDE10:
 .section .text,"ax",@progbits
 .Letext0:
 	.file 2 "C:\\TUNNEL~1\\TC275/illd\\Libraries\\iLLD\\TC27D\\Tricore\\Cpu\\Std\\Platform_Types.h"
@@ -450,11 +263,11 @@ sendActuatorPkt_TEST:
 	.file 10 "C:\\TUNNEL~1\\TC275\\ultrasonic_Driver.h"
 	.file 11 "C:\\TUNNEL~1\\TC275\\uart_Driver.h"
 	.file 12 "C:\\TUNNEL~1\\TC275\\erika\\inc/ee_tc_system.h"
-	.file 13 "C:\\TUNNEL~1\\TC275\\bsw.h"
-	.file 14 "C:\\TUNNEL~1\\TC275\\erika\\inc/ee_oo_api_osek.h"
+	.file 13 "C:\\TUNNEL~1\\TC275\\erika\\inc/ee_oo_api_osek.h"
+	.file 14 "C:\\TUNNEL~1\\TC275\\bsw.h"
 .section .debug_info,"",@progbits
 .Ldebug_info0:
-	.uaword	0x3008
+	.uaword	0x2f06
 	.uahalf	0x3
 	.uaword	.Ldebug_abbrev0
 	.byte	0x4
@@ -4862,11 +4675,13 @@ sendActuatorPkt_TEST:
 	.uleb128 0x4
 	.byte	0x4
 	.uaword	0x2833
+	.uleb128 0x1a
+	.uaword	0x175
 	.uleb128 0x7
 	.byte	0x1
 	.byte	0x9
 	.byte	0x63
-	.uaword	0x287c
+	.uaword	0x2881
 	.uleb128 0x10
 	.string	"R"
 	.byte	0x9
@@ -4899,9 +4714,9 @@ sendActuatorPkt_TEST:
 	.byte	0x1
 	.byte	0x9
 	.byte	0x61
-	.uaword	0x289c
+	.uaword	0x28a1
 	.uleb128 0x1c
-	.uaword	0x284c
+	.uaword	0x2851
 	.uleb128 0x1d
 	.string	"led_rgb"
 	.byte	0x9
@@ -4916,7 +4731,7 @@ sendActuatorPkt_TEST:
 	.byte	0xb
 	.byte	0x9
 	.byte	0x5b
-	.uaword	0x2961
+	.uaword	0x2966
 	.uleb128 0x1e
 	.uaword	.LASF8
 	.byte	0x9
@@ -4930,7 +4745,7 @@ sendActuatorPkt_TEST:
 	.uaword	0x175
 	.byte	0x1
 	.uleb128 0x1f
-	.uaword	0x287c
+	.uaword	0x2881
 	.byte	0x2
 	.uleb128 0x10
 	.string	"fan"
@@ -4998,7 +4813,7 @@ sendActuatorPkt_TEST:
 	.byte	0x9
 	.byte	0x9
 	.byte	0x7d
-	.uaword	0x29d3
+	.uaword	0x29d8
 	.uleb128 0x1e
 	.uaword	.LASF8
 	.byte	0x9
@@ -5041,7 +4856,7 @@ sendActuatorPkt_TEST:
 	.byte	0xa
 	.byte	0xa
 	.byte	0x20
-	.uaword	0x2a2d
+	.uaword	0x2a32
 	.uleb128 0x8
 	.string	"TRIG_PORT"
 	.byte	0xa
@@ -5071,63 +4886,63 @@ sendActuatorPkt_TEST:
 	.byte	0x1
 	.string	"FuncSensorTask"
 	.byte	0x1
-	.byte	0x12
+	.byte	0x7
 	.byte	0x1
 	.uaword	.LFB574
 	.uaword	.LFE574
 	.byte	0x1
 	.byte	0x9c
 	.byte	0x1
-	.uaword	0x2af7
+	.uaword	0x2afc
 	.uleb128 0x21
 	.string	"upperUltrasonicValue"
 	.byte	0x1
-	.byte	0x15
+	.byte	0x9
 	.uaword	0x15d
 	.uaword	.LLST0
 	.uleb128 0x21
 	.string	"frontUltrasonicValue"
 	.byte	0x1
-	.byte	0x16
+	.byte	0xa
 	.uaword	0x15d
 	.uaword	.LLST1
 	.uleb128 0x21
 	.string	"photoValue"
 	.byte	0x1
-	.byte	0x17
+	.byte	0xb
 	.uaword	0x15d
 	.uaword	.LLST2
 	.uleb128 0x22
 	.byte	0x1
 	.uaword	.LASF10
 	.byte	0x1
-	.byte	0x17
+	.byte	0xb
 	.uaword	0x15d
 	.byte	0x1
-	.uaword	0x2ab9
+	.uaword	0x2abe
 	.uleb128 0x23
 	.byte	0
 	.uleb128 0x24
 	.string	"packet"
 	.byte	0x1
-	.byte	0x19
-	.uaword	0x2961
+	.byte	0xd
+	.uaword	0x2966
 	.byte	0x2
 	.byte	0x91
 	.sleb128 -9
 	.uleb128 0x25
 	.uaword	.LVL0
-	.uaword	0x2e77
+	.uaword	0x2d55
 	.uleb128 0x25
 	.uaword	.LVL2
-	.uaword	0x2e77
+	.uaword	0x2d55
 	.uleb128 0x25
 	.uaword	.LVL4
-	.uaword	0x2e9f
+	.uaword	0x2d7d
 	.uleb128 0x26
 	.uaword	.LVL6
 	.byte	0x1
-	.uaword	0x2eb2
+	.uaword	0x2d90
 	.uleb128 0x27
 	.byte	0x1
 	.byte	0x64
@@ -5138,49 +4953,99 @@ sendActuatorPkt_TEST:
 	.byte	0
 	.uleb128 0x20
 	.byte	0x1
-	.string	"ButtonISR"
+	.string	"FuncDashboardButtonTask"
 	.byte	0x1
-	.byte	0x23
+	.byte	0x1a
 	.byte	0x1
 	.uaword	.LFB575
 	.uaword	.LFE575
 	.byte	0x1
 	.byte	0x9c
 	.byte	0x1
-	.uaword	0x2bb9
-	.uleb128 0x21
-	.string	"buttonState"
-	.byte	0x1
-	.byte	0x25
-	.uaword	0x278
-	.uaword	.LLST3
+	.uaword	0x2b8e
 	.uleb128 0x22
 	.byte	0x1
 	.uaword	.LASF11
 	.byte	0x1
-	.byte	0x29
+	.byte	0x1b
 	.uaword	0x15d
 	.byte	0x1
-	.uaword	0x2b3f
+	.uaword	0x2b3b
 	.uleb128 0x23
 	.byte	0
+	.uleb128 0x24
+	.string	"packet"
+	.byte	0x1
+	.byte	0x1f
+	.uaword	0x28a1
+	.byte	0x2
+	.byte	0x91
+	.sleb128 -11
 	.uleb128 0x22
 	.byte	0x1
 	.uaword	.LASF12
 	.byte	0x1
-	.byte	0x2a
+	.byte	0x20
 	.uaword	0x15d
 	.byte	0x1
-	.uaword	0x2b52
+	.uaword	0x2b5f
 	.uleb128 0x23
 	.byte	0
 	.uleb128 0x25
 	.uaword	.LVL7
-	.uaword	0x2ede
+	.uaword	0x2dbc
 	.uleb128 0x28
 	.uaword	.LVL8
-	.uaword	0x2ef9
-	.uaword	0x2b70
+	.uaword	0x2dcf
+	.uaword	0x2b7c
+	.uleb128 0x27
+	.byte	0x1
+	.byte	0x64
+	.byte	0x2
+	.byte	0x8f
+	.sleb128 0
+	.byte	0
+	.uleb128 0x26
+	.uaword	.LVL9
+	.byte	0x1
+	.uaword	0x2de2
+	.uleb128 0x27
+	.byte	0x1
+	.byte	0x64
+	.byte	0x2
+	.byte	0x8f
+	.sleb128 0
+	.byte	0
+	.byte	0
+	.uleb128 0x20
+	.byte	0x1
+	.string	"ButtonISR"
+	.byte	0x1
+	.byte	0x24
+	.byte	0x1
+	.uaword	.LFB576
+	.uaword	.LFE576
+	.byte	0x1
+	.byte	0x9c
+	.byte	0x1
+	.uaword	0x2c19
+	.uleb128 0x22
+	.byte	0x1
+	.uaword	.LASF13
+	.byte	0x1
+	.byte	0x28
+	.uaword	0x15d
+	.byte	0x1
+	.uaword	0x2bbf
+	.uleb128 0x23
+	.byte	0
+	.uleb128 0x25
+	.uaword	.LVL10
+	.uaword	0x2e10
+	.uleb128 0x28
+	.uaword	.LVL11
+	.uaword	0x2e2b
+	.uaword	0x2bdd
 	.uleb128 0x27
 	.byte	0x1
 	.byte	0x54
@@ -5188,27 +5053,23 @@ sendActuatorPkt_TEST:
 	.byte	0xa
 	.uahalf	0x1388
 	.byte	0
+	.uleb128 0x25
+	.uaword	.LVL12
+	.uaword	0x2e4a
 	.uleb128 0x28
-	.uaword	.LVL9
-	.uaword	0x2f18
-	.uaword	0x2b87
+	.uaword	.LVL13
+	.uaword	0x2e5d
+	.uaword	0x2bf9
 	.uleb128 0x27
 	.byte	0x1
-	.byte	0x64
-	.byte	0x5
-	.byte	0x3
-	.uaword	.LC0
+	.byte	0x54
+	.byte	0x1
+	.byte	0x36
 	.byte	0
-	.uleb128 0x25
-	.uaword	.LVL10
-	.uaword	0x2f36
-	.uleb128 0x25
-	.uaword	.LVL11
-	.uaword	0x2f49
 	.uleb128 0x28
-	.uaword	.LVL12
-	.uaword	0x2ef9
-	.uaword	0x2bae
+	.uaword	.LVL14
+	.uaword	0x2e2b
+	.uaword	0x2c0e
 	.uleb128 0x27
 	.byte	0x1
 	.byte	0x54
@@ -5217,202 +5078,65 @@ sendActuatorPkt_TEST:
 	.uahalf	0xbb8
 	.byte	0
 	.uleb128 0x29
-	.uaword	.LVL13
-	.byte	0x1
-	.uaword	0x2f5c
-	.byte	0
-	.uleb128 0x20
-	.byte	0x1
-	.string	"FuncSendSensorPacket_TEST"
-	.byte	0x1
-	.byte	0x30
-	.byte	0x1
-	.uaword	.LFB576
-	.uaword	.LFE576
-	.byte	0x1
-	.byte	0x9c
-	.byte	0x1
-	.uaword	0x2c42
-	.uleb128 0x28
-	.uaword	.LVL14
-	.uaword	0x2f76
-	.uaword	0x2bfa
-	.uleb128 0x27
-	.byte	0x1
-	.byte	0x54
-	.byte	0x1
-	.byte	0x35
-	.byte	0
-	.uleb128 0x28
 	.uaword	.LVL15
-	.uaword	0x2f18
-	.uaword	0x2c11
-	.uleb128 0x27
 	.byte	0x1
-	.byte	0x64
-	.byte	0x5
-	.byte	0x3
-	.uaword	.LC1
-	.byte	0
-	.uleb128 0x28
-	.uaword	.LVL16
-	.uaword	0x2f98
-	.uaword	0x2c26
-	.uleb128 0x27
-	.byte	0x1
-	.byte	0x54
-	.byte	0x3
-	.byte	0xa
-	.uahalf	0x1f4
-	.byte	0
-	.uleb128 0x26
-	.uaword	.LVL17
-	.byte	0x1
-	.uaword	0x2f18
-	.uleb128 0x27
-	.byte	0x1
-	.byte	0x64
-	.byte	0x5
-	.byte	0x3
-	.uaword	.LC2
-	.uleb128 0x27
-	.byte	0x2
-	.byte	0x8a
-	.sleb128 16
-	.byte	0x2
-	.byte	0x7f
-	.sleb128 0
-	.byte	0
+	.uaword	0x2e7f
 	.byte	0
 	.uleb128 0x20
 	.byte	0x1
-	.string	"FuncSendAcutatorPacket_TEST"
+	.string	"TimerISR"
 	.byte	0x1
-	.byte	0x44
+	.byte	0x2e
 	.byte	0x1
 	.uaword	.LFB577
 	.uaword	.LFE577
 	.byte	0x1
 	.byte	0x9c
 	.byte	0x1
-	.uaword	0x2cce
-	.uleb128 0x28
-	.uaword	.LVL18
-	.uaword	0x2fb1
-	.uaword	0x2c86
-	.uleb128 0x27
-	.byte	0x1
-	.byte	0x64
-	.byte	0x2
-	.byte	0x8f
-	.sleb128 0
-	.byte	0
-	.uleb128 0x28
-	.uaword	.LVL19
-	.uaword	0x2f98
-	.uaword	0x2c9b
-	.uleb128 0x27
-	.byte	0x1
-	.byte	0x54
-	.byte	0x3
-	.byte	0xa
-	.uahalf	0x1f4
-	.byte	0
-	.uleb128 0x28
-	.uaword	.LVL20
-	.uaword	0x2f18
-	.uaword	0x2cb2
-	.uleb128 0x27
-	.byte	0x1
-	.byte	0x64
-	.byte	0x5
-	.byte	0x3
-	.uaword	.LC3
-	.byte	0
-	.uleb128 0x26
-	.uaword	.LVL21
-	.byte	0x1
-	.uaword	0x2f18
-	.uleb128 0x27
-	.byte	0x1
-	.byte	0x64
-	.byte	0x5
-	.byte	0x3
-	.uaword	.LC4
-	.uleb128 0x27
-	.byte	0x2
-	.byte	0x8a
-	.sleb128 36
-	.byte	0x2
-	.byte	0x7f
-	.sleb128 0
-	.byte	0
-	.byte	0
-	.uleb128 0x20
-	.byte	0x1
-	.string	"FuncTaskUltrasonic_TEST"
-	.byte	0x1
-	.byte	0x5b
-	.byte	0x1
-	.uaword	.LFB578
-	.uaword	.LFE578
-	.byte	0x1
-	.byte	0x9c
-	.byte	0x1
-	.uaword	0x2d38
-	.uleb128 0x25
-	.uaword	.LVL22
-	.uaword	0x2e77
-	.uleb128 0x28
-	.uaword	.LVL23
-	.uaword	0x2f18
-	.uaword	0x2d1a
-	.uleb128 0x27
-	.byte	0x1
-	.byte	0x64
-	.byte	0x5
-	.byte	0x3
-	.uaword	.LC5
-	.byte	0
-	.uleb128 0x25
-	.uaword	.LVL24
-	.uaword	0x2e77
-	.uleb128 0x26
-	.uaword	.LVL25
-	.byte	0x1
-	.uaword	0x2f18
-	.uleb128 0x27
-	.byte	0x1
-	.byte	0x64
-	.byte	0x5
-	.byte	0x3
-	.uaword	.LC6
-	.byte	0
-	.byte	0
-	.uleb128 0x20
-	.byte	0x1
-	.string	"TimerISR"
-	.byte	0x1
-	.byte	0x61
-	.byte	0x1
-	.uaword	.LFB579
-	.uaword	.LFE579
-	.byte	0x1
-	.byte	0x9c
-	.byte	0x1
-	.uaword	0x2daa
+	.uaword	0x2cd1
 	.uleb128 0x24
 	.string	"c"
 	.byte	0x1
-	.byte	0x63
+	.byte	0x30
 	.uaword	0x13c
 	.byte	0x5
 	.byte	0x3
-	.uaword	c.16181
+	.uaword	c.16173
+	.uleb128 0x2a
+	.uaword	.LBB2
+	.uaword	.LBE2
+	.uaword	0x2c8b
+	.uleb128 0x22
+	.byte	0x1
+	.uaword	.LASF14
+	.byte	0x1
+	.byte	0x3b
+	.uaword	0x15d
+	.byte	0x1
+	.uaword	0x2c65
+	.uleb128 0x23
+	.byte	0
+	.uleb128 0x22
+	.byte	0x1
+	.uaword	.LASF15
+	.byte	0x1
+	.byte	0x3c
+	.uaword	0x15d
+	.byte	0x1
+	.uaword	0x2c78
+	.uleb128 0x23
+	.byte	0
+	.uleb128 0x25
+	.uaword	.LVL17
+	.uaword	0x2e99
+	.uleb128 0x25
+	.uaword	.LVL18
+	.uaword	0x2eac
+	.byte	0
 	.uleb128 0x28
-	.uaword	.LVL26
-	.uaword	0x2fdf
-	.uaword	0x2d7b
+	.uaword	.LVL16
+	.uaword	0x2ebf
+	.uaword	0x2ca2
 	.uleb128 0x27
 	.byte	0x1
 	.byte	0x54
@@ -5421,25 +5145,25 @@ sendActuatorPkt_TEST:
 	.uaword	0xf4240
 	.byte	0
 	.uleb128 0x28
-	.uaword	.LVL27
-	.uaword	0x2f76
-	.uaword	0x2d8e
+	.uaword	.LVL19
+	.uaword	0x2e5d
+	.uaword	0x2cb5
 	.uleb128 0x27
 	.byte	0x1
 	.byte	0x54
 	.byte	0x1
-	.byte	0x37
+	.byte	0x35
 	.byte	0
 	.uleb128 0x26
-	.uaword	.LVL28
+	.uaword	.LVL20
 	.byte	0x1
-	.uaword	0x2f18
+	.uaword	0x2eef
 	.uleb128 0x27
 	.byte	0x1
 	.byte	0x64
 	.byte	0x5
 	.byte	0x3
-	.uaword	.LC7
+	.uaword	.LC0
 	.uleb128 0x27
 	.byte	0x2
 	.byte	0x8a
@@ -5451,58 +5175,44 @@ sendActuatorPkt_TEST:
 	.byte	0
 	.uleb128 0xc
 	.uaword	0x24e
-	.uaword	0x2dba
+	.uaword	0x2ce1
 	.uleb128 0xd
 	.uaword	0x507
 	.byte	0x2
 	.byte	0
-	.uleb128 0x2a
+	.uleb128 0x2b
 	.string	"IfxCpu_cfg_indexMap"
 	.byte	0x7
 	.byte	0xa7
-	.uaword	0x2dd7
+	.uaword	0x2cfe
 	.byte	0x1
 	.byte	0x1
 	.uleb128 0x5
-	.uaword	0x2daa
-	.uleb128 0x2a
-	.string	"g_RecievedActuatorPacket"
-	.byte	0xb
-	.byte	0x1b
-	.uaword	0x289c
-	.byte	0x1
-	.byte	0x1
-	.uleb128 0x2a
-	.string	"g_RecievedSensorPacket"
-	.byte	0xb
-	.byte	0x1c
-	.uaword	0x2961
-	.byte	0x1
-	.byte	0x1
-	.uleb128 0x2a
+	.uaword	0x2cd1
+	.uleb128 0x2b
 	.string	"g_UpperUltrasonic"
 	.byte	0xa
 	.byte	0x28
-	.uaword	0x29d3
-	.byte	0x1
-	.byte	0x1
-	.uleb128 0x2a
-	.string	"g_FrontUltrasonic"
-	.byte	0xa
-	.byte	0x29
-	.uaword	0x29d3
+	.uaword	0x29d8
 	.byte	0x1
 	.byte	0x1
 	.uleb128 0x2b
-	.string	"sendActuatorPkt_TEST"
+	.string	"g_FrontUltrasonic"
+	.byte	0xa
+	.byte	0x29
+	.uaword	0x29d8
+	.byte	0x1
+	.byte	0x1
+	.uleb128 0x2c
+	.string	"g_buttonState"
 	.byte	0x1
 	.byte	0x5
-	.uaword	0x289c
+	.uaword	0x284c
 	.byte	0x1
 	.byte	0x5
 	.byte	0x3
-	.uaword	sendActuatorPkt_TEST
-	.uleb128 0x2c
+	.uaword	g_buttonState
+	.uleb128 0x2d
 	.byte	0x1
 	.string	"getUltrasonic"
 	.byte	0xa
@@ -5510,144 +5220,163 @@ sendActuatorPkt_TEST:
 	.byte	0x1
 	.uaword	0x15d
 	.byte	0x1
-	.uaword	0x2e99
-	.uleb128 0x2d
-	.uaword	0x2e99
+	.uaword	0x2d77
+	.uleb128 0x2e
+	.uaword	0x2d77
 	.byte	0
 	.uleb128 0x4
 	.byte	0x4
-	.uaword	0x29d3
+	.uaword	0x29d8
 	.uleb128 0x22
 	.byte	0x1
 	.uaword	.LASF10
 	.byte	0x1
-	.byte	0x17
+	.byte	0xb
 	.uaword	0x15d
 	.byte	0x1
-	.uaword	0x2eb2
+	.uaword	0x2d90
 	.uleb128 0x23
 	.byte	0
-	.uleb128 0x2e
+	.uleb128 0x2f
 	.byte	0x1
 	.string	"sendSensorPacket"
 	.byte	0xb
 	.byte	0x22
 	.byte	0x1
 	.byte	0x1
-	.uaword	0x2ed3
-	.uleb128 0x2d
-	.uaword	0x2ed3
+	.uaword	0x2db1
+	.uleb128 0x2e
+	.uaword	0x2db1
 	.byte	0
 	.uleb128 0x4
 	.byte	0x4
-	.uaword	0x2ed9
+	.uaword	0x2db7
 	.uleb128 0x5
-	.uaword	0x2961
-	.uleb128 0x2f
-	.byte	0x1
-	.string	"DisableAllInterrupts"
-	.byte	0xe
-	.byte	0x71
-	.byte	0x1
-	.byte	0x1
-	.uleb128 0x30
-	.byte	0x1
-	.string	"osEE_tc_delay"
-	.byte	0xc
-	.uahalf	0x3a9
-	.byte	0x1
-	.byte	0x1
-	.uaword	0x2f18
-	.uleb128 0x2d
-	.uaword	0x288
-	.byte	0
-	.uleb128 0x2e
-	.byte	0x1
-	.string	"printfSerial"
-	.byte	0xd
-	.byte	0xe
-	.byte	0x1
-	.byte	0x1
-	.uaword	0x2f36
-	.uleb128 0x2d
-	.uaword	0x20e
-	.uleb128 0x23
-	.byte	0
+	.uaword	0x2966
 	.uleb128 0x22
 	.byte	0x1
 	.uaword	.LASF11
 	.byte	0x1
-	.byte	0x29
+	.byte	0x1b
 	.uaword	0x15d
 	.byte	0x1
-	.uaword	0x2f49
+	.uaword	0x2dcf
 	.uleb128 0x23
 	.byte	0
 	.uleb128 0x22
 	.byte	0x1
 	.uaword	.LASF12
 	.byte	0x1
-	.byte	0x2a
+	.byte	0x20
 	.uaword	0x15d
 	.byte	0x1
-	.uaword	0x2f5c
+	.uaword	0x2de2
 	.uleb128 0x23
 	.byte	0
 	.uleb128 0x2f
-	.byte	0x1
-	.string	"EnableAllInterrupts"
-	.byte	0xe
-	.byte	0x8a
-	.byte	0x1
-	.byte	0x1
-	.uleb128 0x31
-	.byte	0x1
-	.string	"ActivateTask"
-	.byte	0xe
-	.uahalf	0x178
-	.byte	0x1
-	.uaword	0x4e4
-	.byte	0x1
-	.uaword	0x2f98
-	.uleb128 0x2d
-	.uaword	0x298
-	.byte	0
-	.uleb128 0x2e
-	.byte	0x1
-	.string	"delay_ms"
-	.byte	0xd
-	.byte	0xb
-	.byte	0x1
-	.byte	0x1
-	.uaword	0x2fb1
-	.uleb128 0x2d
-	.uaword	0x148
-	.byte	0
-	.uleb128 0x2e
 	.byte	0x1
 	.string	"sendActuatorPacket"
 	.byte	0xb
 	.byte	0x21
 	.byte	0x1
 	.byte	0x1
-	.uaword	0x2fd4
-	.uleb128 0x2d
-	.uaword	0x2fd4
+	.uaword	0x2e05
+	.uleb128 0x2e
+	.uaword	0x2e05
 	.byte	0
 	.uleb128 0x4
 	.byte	0x4
-	.uaword	0x2fda
+	.uaword	0x2e0b
 	.uleb128 0x5
-	.uaword	0x289c
+	.uaword	0x28a1
+	.uleb128 0x30
+	.byte	0x1
+	.string	"DisableAllInterrupts"
+	.byte	0xd
+	.byte	0x71
+	.byte	0x1
+	.byte	0x1
+	.uleb128 0x31
+	.byte	0x1
+	.string	"osEE_tc_delay"
+	.byte	0xc
+	.uahalf	0x3a9
+	.byte	0x1
+	.byte	0x1
+	.uaword	0x2e4a
+	.uleb128 0x2e
+	.uaword	0x288
+	.byte	0
+	.uleb128 0x22
+	.byte	0x1
+	.uaword	.LASF13
+	.byte	0x1
+	.byte	0x28
+	.uaword	0x15d
+	.byte	0x1
+	.uaword	0x2e5d
+	.uleb128 0x23
+	.byte	0
 	.uleb128 0x32
+	.byte	0x1
+	.string	"ActivateTask"
+	.byte	0xd
+	.uahalf	0x178
+	.byte	0x1
+	.uaword	0x4e4
+	.byte	0x1
+	.uaword	0x2e7f
+	.uleb128 0x2e
+	.uaword	0x298
+	.byte	0
+	.uleb128 0x30
+	.byte	0x1
+	.string	"EnableAllInterrupts"
+	.byte	0xd
+	.byte	0x8a
+	.byte	0x1
+	.byte	0x1
+	.uleb128 0x22
+	.byte	0x1
+	.uaword	.LASF14
+	.byte	0x1
+	.byte	0x3b
+	.uaword	0x15d
+	.byte	0x1
+	.uaword	0x2eac
+	.uleb128 0x23
+	.byte	0
+	.uleb128 0x22
+	.byte	0x1
+	.uaword	.LASF15
+	.byte	0x1
+	.byte	0x3c
+	.uaword	0x15d
+	.byte	0x1
+	.uaword	0x2ebf
+	.uleb128 0x23
+	.byte	0
+	.uleb128 0x31
 	.byte	0x1
 	.string	"osEE_tc_stm_set_sr0_next_match"
 	.byte	0xc
 	.uahalf	0x3d8
 	.byte	0x1
 	.byte	0x1
-	.uleb128 0x2d
+	.uaword	0x2eef
+	.uleb128 0x2e
 	.uaword	0x288
+	.byte	0
+	.uleb128 0x33
+	.byte	0x1
+	.string	"printfSerial"
+	.byte	0xe
+	.byte	0xe
+	.byte	0x1
+	.byte	0x1
+	.uleb128 0x2e
+	.uaword	0x20e
+	.uleb128 0x23
 	.byte	0
 	.byte	0
 .section .debug_abbrev,"",@progbits
@@ -6194,6 +5923,17 @@ sendActuatorPkt_TEST:
 	.byte	0
 	.byte	0
 	.uleb128 0x2a
+	.uleb128 0xb
+	.byte	0x1
+	.uleb128 0x11
+	.uleb128 0x1
+	.uleb128 0x12
+	.uleb128 0x1
+	.uleb128 0x1
+	.uleb128 0x13
+	.byte	0
+	.byte	0
+	.uleb128 0x2b
 	.uleb128 0x34
 	.byte	0
 	.uleb128 0x3
@@ -6210,7 +5950,7 @@ sendActuatorPkt_TEST:
 	.uleb128 0xc
 	.byte	0
 	.byte	0
-	.uleb128 0x2b
+	.uleb128 0x2c
 	.uleb128 0x34
 	.byte	0
 	.uleb128 0x3
@@ -6227,7 +5967,7 @@ sendActuatorPkt_TEST:
 	.uleb128 0xa
 	.byte	0
 	.byte	0
-	.uleb128 0x2c
+	.uleb128 0x2d
 	.uleb128 0x2e
 	.byte	0x1
 	.uleb128 0x3f
@@ -6248,51 +5988,15 @@ sendActuatorPkt_TEST:
 	.uleb128 0x13
 	.byte	0
 	.byte	0
-	.uleb128 0x2d
+	.uleb128 0x2e
 	.uleb128 0x5
 	.byte	0
 	.uleb128 0x49
-	.uleb128 0x13
-	.byte	0
-	.byte	0
-	.uleb128 0x2e
-	.uleb128 0x2e
-	.byte	0x1
-	.uleb128 0x3f
-	.uleb128 0xc
-	.uleb128 0x3
-	.uleb128 0x8
-	.uleb128 0x3a
-	.uleb128 0xb
-	.uleb128 0x3b
-	.uleb128 0xb
-	.uleb128 0x27
-	.uleb128 0xc
-	.uleb128 0x3c
-	.uleb128 0xc
-	.uleb128 0x1
 	.uleb128 0x13
 	.byte	0
 	.byte	0
 	.uleb128 0x2f
 	.uleb128 0x2e
-	.byte	0
-	.uleb128 0x3f
-	.uleb128 0xc
-	.uleb128 0x3
-	.uleb128 0x8
-	.uleb128 0x3a
-	.uleb128 0xb
-	.uleb128 0x3b
-	.uleb128 0xb
-	.uleb128 0x27
-	.uleb128 0xc
-	.uleb128 0x3c
-	.uleb128 0xc
-	.byte	0
-	.byte	0
-	.uleb128 0x30
-	.uleb128 0x2e
 	.byte	0x1
 	.uleb128 0x3f
 	.uleb128 0xc
@@ -6301,13 +6005,30 @@ sendActuatorPkt_TEST:
 	.uleb128 0x3a
 	.uleb128 0xb
 	.uleb128 0x3b
-	.uleb128 0x5
+	.uleb128 0xb
 	.uleb128 0x27
 	.uleb128 0xc
 	.uleb128 0x3c
 	.uleb128 0xc
 	.uleb128 0x1
 	.uleb128 0x13
+	.byte	0
+	.byte	0
+	.uleb128 0x30
+	.uleb128 0x2e
+	.byte	0
+	.uleb128 0x3f
+	.uleb128 0xc
+	.uleb128 0x3
+	.uleb128 0x8
+	.uleb128 0x3a
+	.uleb128 0xb
+	.uleb128 0x3b
+	.uleb128 0xb
+	.uleb128 0x27
+	.uleb128 0xc
+	.uleb128 0x3c
+	.uleb128 0xc
 	.byte	0
 	.byte	0
 	.uleb128 0x31
@@ -6323,8 +6044,6 @@ sendActuatorPkt_TEST:
 	.uleb128 0x5
 	.uleb128 0x27
 	.uleb128 0xc
-	.uleb128 0x49
-	.uleb128 0x13
 	.uleb128 0x3c
 	.uleb128 0xc
 	.uleb128 0x1
@@ -6342,6 +6061,27 @@ sendActuatorPkt_TEST:
 	.uleb128 0xb
 	.uleb128 0x3b
 	.uleb128 0x5
+	.uleb128 0x27
+	.uleb128 0xc
+	.uleb128 0x49
+	.uleb128 0x13
+	.uleb128 0x3c
+	.uleb128 0xc
+	.uleb128 0x1
+	.uleb128 0x13
+	.byte	0
+	.byte	0
+	.uleb128 0x33
+	.uleb128 0x2e
+	.byte	0x1
+	.uleb128 0x3f
+	.uleb128 0xc
+	.uleb128 0x3
+	.uleb128 0x8
+	.uleb128 0x3a
+	.uleb128 0xb
+	.uleb128 0x3b
+	.uleb128 0xb
 	.uleb128 0x27
 	.uleb128 0xc
 	.uleb128 0x3c
@@ -6380,13 +6120,6 @@ sendActuatorPkt_TEST:
 	.byte	0x52
 	.uaword	0
 	.uaword	0
-.LLST3:
-	.uaword	.LVL10-.Ltext0
-	.uaword	.LVL11-1-.Ltext0
-	.uahalf	0x1
-	.byte	0x52
-	.uaword	0
-	.uaword	0
 .section .debug_aranges,"",@progbits
 	.uaword	0x1c
 	.uahalf	0x2
@@ -6404,22 +6137,28 @@ sendActuatorPkt_TEST:
 .section .debug_str,"",@progbits
 .LASF8:
 	.string	"start_byte"
+.LASF15:
+	.string	"printInfoDisplay"
 .LASF0:
 	.string	"reserved_0"
 .LASF4:
 	.string	"reserved_2"
 .LASF2:
 	.string	"reserved_8"
-.LASF11:
+.LASF13:
 	.string	"readLcdButtons"
-.LASF12:
-	.string	"updateInfoState"
+.LASF14:
+	.string	"lcd_clear"
 .LASF10:
 	.string	"getPhotoresiter"
+.LASF11:
+	.string	"updateStateByButton"
 .LASF7:
 	.string	"reserved_12"
 .LASF1:
 	.string	"reserved_16"
+.LASF12:
+	.string	"setActuatorPacket"
 .LASF9:
 	.string	"packet_id"
 .LASF5:
@@ -6428,18 +6167,18 @@ sendActuatorPkt_TEST:
 	.string	"reserved_24"
 .LASF6:
 	.string	"reserved_28"
-	.extern	osEE_tc_stm_set_sr0_next_match,STT_FUNC,0
-	.extern	g_RecievedActuatorPacket,STT_OBJECT,11
-	.extern	sendActuatorPacket,STT_FUNC,0
-	.extern	g_RecievedSensorPacket,STT_OBJECT,9
-	.extern	delay_ms,STT_FUNC,0
-	.extern	ActivateTask,STT_FUNC,0
-	.extern	EnableAllInterrupts,STT_FUNC,0
-	.extern	updateInfoState,STT_FUNC,0
-	.extern	readLcdButtons,STT_FUNC,0
 	.extern	printfSerial,STT_FUNC,0
+	.extern	printInfoDisplay,STT_FUNC,0
+	.extern	lcd_clear,STT_FUNC,0
+	.extern	osEE_tc_stm_set_sr0_next_match,STT_FUNC,0
+	.extern	EnableAllInterrupts,STT_FUNC,0
+	.extern	ActivateTask,STT_FUNC,0
+	.extern	readLcdButtons,STT_FUNC,0
 	.extern	osEE_tc_delay,STT_FUNC,0
 	.extern	DisableAllInterrupts,STT_FUNC,0
+	.extern	sendActuatorPacket,STT_FUNC,0
+	.extern	setActuatorPacket,STT_FUNC,0
+	.extern	updateStateByButton,STT_FUNC,0
 	.extern	sendSensorPacket,STT_FUNC,0
 	.extern	getPhotoresiter,STT_FUNC,0
 	.extern	g_FrontUltrasonic,STT_OBJECT,10

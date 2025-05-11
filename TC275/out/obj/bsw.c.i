@@ -22925,9 +22925,7 @@ uint8_t osEE_assert_last(void);
 # 1 "C:\\TUNNEL~1\\TC275\\out/ee_declcfg.h" 1
 # 35 "C:\\TUNNEL~1\\TC275\\out/ee_declcfg.h"
 extern void FuncSensorTask ( void );
-extern void FuncSendAcutatorPacket_TEST ( void );
-extern void FuncSendSensorPacket_TEST ( void );
-extern void FuncTaskUltrasonic_TEST ( void );
+extern void FuncDashboardButtonTask ( void );
 
 
 void asclin3TxISR(void);
@@ -23486,15 +23484,16 @@ enum screenState{
     driveLight
 };
 
-static int infotainmentArr[7] = { 0,0,0,0,0,0,0};
+static int infotainmentArr[7] = { 0,3,0,0,1,1,0};
 static int stateMaxArr[7] = {1, 3, 3, 3 , 2, 3, 1};
 static int infoState = 0;
 static char buf[32];
 
 void initInfotainment(void);
-void syncInfoState();
-void updatePacket(void);
-void updateInfoState(unsigned int buttonState);
+void updateStateByPacket(const struct ActuatorPacket *packet);
+void updateStateByButton(uint8 buttonState);
+void setActuatorPacket(struct ActuatorPacket* packet);
+
 void printInfoDisplay();
 void printStateLv1();
 void printStateLv2();
@@ -23561,7 +23560,7 @@ void UART_init(void)
     ascConfig.baudrate.baudrate = 115200;
     ascConfig.baudrate.oversampling = IfxAsclin_OversamplingFactor_4;
 
-    ascConfig.interrupt.txPriority = 19;
+    ascConfig.interrupt.txPriority = 17;
 
     ascConfig.interrupt.typeOfService = IfxCpu_Irq_getTos(IfxCpu_getCoreIndex());
 
@@ -23599,6 +23598,7 @@ void printfSerial(const char *fmt,...)
     }
 
     IfxAsclin_Asc_write(&g_AsclinAsc.drivers.asc, txData, &g_AsclinAsc.count, ((Ifx_TickTime)0x7FFFFFFFFFFFFFFFLL));
+    DisableAllInterrupts();
 }
 
 

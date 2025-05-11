@@ -43,8 +43,8 @@ extern "C" {
  * Arrays size
  *
  **************************************************************************/
-#define OSEE_TASK_ARRAY_SIZE      (9U)
-#define OSEE_SN_ARRAY_SIZE        (9U)
+#define OSEE_TASK_ARRAY_SIZE      (7U)
+#define OSEE_SN_ARRAY_SIZE        (7U)
 #define OSEE_STACK_ARRAY_SIZE     (1U)
 #define OSEE_RESOURCE_ARRAY_SIZE  (1U)
 
@@ -54,9 +54,7 @@ extern "C" {
  *
  **************************************************************************/
 #define SensorTask (5U)
-#define SendAcutatorPacket_TEST (6U)
-#define SendSensorPacket_TEST (7U)
-#define TaskUltrasonic_TEST (8U)
+#define DashboardButtonTask (6U)
 
 /***************************************************************************
  *

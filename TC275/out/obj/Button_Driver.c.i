@@ -22918,9 +22918,7 @@ uint8_t osEE_assert_last(void);
 # 1 "C:\\TUNNEL~1\\TC275\\out/ee_declcfg.h" 1
 # 35 "C:\\TUNNEL~1\\TC275\\out/ee_declcfg.h"
 extern void FuncSensorTask ( void );
-extern void FuncSendAcutatorPacket_TEST ( void );
-extern void FuncSendSensorPacket_TEST ( void );
-extern void FuncTaskUltrasonic_TEST ( void );
+extern void FuncDashboardButtonTask ( void );
 
 
 void asclin3TxISR(void);
@@ -22947,27 +22945,29 @@ uint16 readADCValue(uint8 channel);
 
 int readLcdButtons(void)
 {
-    unsigned adc_key_in;
-    int button_state;
+    unsigned adc_key_in=0;
+    int button_state=0;
     adc_key_in = readADCValue(3);
-    printfSerial("%d",adc_key_in);
-
 
     if (adc_key_in < 100) {
         button_state = 0;
-
+        printfSerial("[U]");
     }
     else if (adc_key_in < 1000){
         button_state = 3;
+        printfSerial("[R]");
     }
     else if (adc_key_in < 2500){
         button_state = 2;
+        printfSerial("[L]");
     }
     else if (adc_key_in < 3500){
         button_state = 1;
+        printfSerial("[D]");
     }
     else if (adc_key_in >= 4000){
         button_state = 4;
+        printfSerial("[?]");
     }
     return button_state;
 }

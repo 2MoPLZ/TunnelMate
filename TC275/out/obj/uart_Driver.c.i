@@ -22933,9 +22933,7 @@ uint8_t osEE_assert_last(void);
 # 1 "C:\\TUNNEL~1\\TC275\\out/ee_declcfg.h" 1
 # 35 "C:\\TUNNEL~1\\TC275\\out/ee_declcfg.h"
 extern void FuncSensorTask ( void );
-extern void FuncSendAcutatorPacket_TEST ( void );
-extern void FuncSendSensorPacket_TEST ( void );
-extern void FuncTaskUltrasonic_TEST ( void );
+extern void FuncDashboardButtonTask ( void );
 
 
 void asclin3TxISR(void);
@@ -22972,8 +22970,8 @@ void initUartDriver(void)
     ascConfig.baudrate.baudrate = 9600;
     ascConfig.baudrate.oversampling = IfxAsclin_OversamplingFactor_4;
 
-    ascConfig.interrupt.rxPriority = 4;
-    ascConfig.interrupt.txPriority = 5;
+    ascConfig.interrupt.rxPriority = 13;
+    ascConfig.interrupt.txPriority = 14;
     ascConfig.interrupt.typeOfService = IfxSrc_Tos_cpu0;
 
     ascConfig.txBuffer = g_AsclinStm.ascBuffer.tx;
@@ -22986,56 +22984,133 @@ void initUartDriver(void)
         &IfxAsclin0_RXB_P15_3_IN, IfxPort_InputMode_pullUp,
         ((void *)0), IfxPort_OutputMode_pushPull,
         &IfxAsclin0_TX_P15_2_OUT, IfxPort_OutputMode_pushPull,
-        IfxPort_PadDriver_cmosAutomotiveSpeed1
-    };
+        IfxPort_PadDriver_cmosAutomotiveSpeed1};
     ascConfig.pins = &pins;
 
     IfxAsclin_Asc_initModule(&g_AsclinStm.drivers.asc, &ascConfig);
 }
 
-void sendActuatorPacket(const struct ActuatorPacket* packet)
+void sendActuatorPacket(const struct ActuatorPacket *packet)
 {
     EnableAllInterrupts();
-    uint8 buf[11]={};
-    serialize_actuator_packet(packet,buf);
+    uint8 buf[11] = {};
+    serialize_actuator_packet(packet, buf);
     g_AsclinStm.count = 11;
+
+    printfSerial("\nsendA:[ ");
+    int i;
+    for (i = 0; i < 11; i++)
+    {
+        printfSerial("%02x/", buf[i]);
+    }
+    printfSerial(" ]");
+    printfSerial("\n[A| start:%02x id:%02x rgb:%d fan:%d led:%d buzz:%d tunnel:%d chair:%d window:%d adas:%d ]",
+                 packet->start_byte,
+                 packet->packet_id,
+                 packet->led_rgb,
+                 packet->fan,
+                 packet->led,
+                 packet->buzzer,
+                 packet->driving_mode,
+                 packet->servo_chair,
+                 packet->servo_window,
+                 packet->servo_air);
+
     IfxAsclin_Asc_write(&g_AsclinStm.drivers.asc, &buf, &g_AsclinStm.count, ((Ifx_TickTime)0x7FFFFFFFFFFFFFFFLL));
 }
 
-void sendSensorPacket(const struct SensorPacket* packet)
+void sendSensorPacket(const struct SensorPacket *packet)
 {
     EnableAllInterrupts();
-    uint8 buf[9]={};
-    serialize_sensor_packet(packet,buf);
+    uint8 buf[9] = {};
+    serialize_sensor_packet(packet, buf);
     g_AsclinStm.count = 9;
+
+    printfSerial("\nsendB:[ ");
+    int i;
+    for (i = 0; i < 9; i++)
+    {
+        printfSerial("%02x/", buf[i]);
+    }
+    printfSerial(" ]");
+    printfSerial("\n[S|start:%02x id:%02x photo:%d ultra1:%d ultra2:%d]",
+                 packet->start_byte,
+                 packet->packet_id,
+                 packet->photo,
+                 packet->ultra_sonic1,
+                 packet->ultra_sonic2);
+
     IfxAsclin_Asc_write(&g_AsclinStm.drivers.asc, &buf, &g_AsclinStm.count, ((Ifx_TickTime)0x7FFFFFFFFFFFFFFFLL));
 }
 
-void readActuatorPacket(struct ActuatorPacket* packet){
-    uint8 buffer[11]={};
-    uint8 pos = 0;
-    uint8 sendCnt = 11;
-    if(IfxAsclin_Asc_getReadCount(&g_AsclinStm.drivers.asc)<11) return;
-    while (sendCnt--)
+void readActuatorPacket(struct ActuatorPacket *packet)
+{
+    if (IfxAsclin_Asc_blockingRead(&g_AsclinStm.drivers.asc) == 0xAA)
     {
-        buffer[pos++]=IfxAsclin_Asc_blockingRead(&g_AsclinStm.drivers.asc);
+        if (IfxAsclin_Asc_blockingRead(&g_AsclinStm.drivers.asc) == 0x01)
+        {
+            uint8 buffer[11] = {};
+            buffer[0] = 0xAA;
+            buffer[1] = 0x01;
+            uint8 pos = 2;
+            while (pos < 11)
+            {
+                buffer[pos] = IfxAsclin_Asc_blockingRead(&g_AsclinStm.drivers.asc);
+                pos++;
+            }
+
+
+            printfSerial("\nrecieveA:[ ");
+            int i;
+            for (i = 0; i < 11; i++)
+            {
+                printfSerial("%02x/", buffer[i]);
+            }
+            printfSerial(" ]");
+
+            deserialize_actuator_packet(buffer, packet);
+            printfSerial("\nrecieved:[start:%02x id:%02x rgb:%d fan:%d led:%d buzz:%d tunnel:%d chair:%d window:%d adas:%d]",
+                         packet->start_byte,
+                         packet->packet_id,
+                         packet->led_rgb,
+                         packet->fan,
+                         packet->led,
+                         packet->buzzer,
+                         packet->driving_mode,
+                         packet->servo_chair,
+                         packet->servo_window,
+                         packet->servo_air);
+            if (calculate_checksum(buffer, 11 - 1) == buffer[11 - 1]){
+                deserialize_actuator_packet(buffer, packet);
+                updateStateByPacket(packet);
+            }
+        }
     }
-    deserialize_actuator_packet(buffer,packet);
 }
 
-void readSensorPacket(struct SensorPacket* packet){
-    uint8 buffer[9]={};
-    uint8 pos = 0;
-    uint8 sendCnt = 9;
-    if(IfxAsclin_Asc_getReadCount(&g_AsclinStm.drivers.asc)<9) return;
-    while (sendCnt--)
+void readSensorPacket(struct SensorPacket *packet)
+{
+    if (IfxAsclin_Asc_blockingRead(&g_AsclinStm.drivers.asc) == 0xAA)
     {
-        buffer[pos++]=IfxAsclin_Asc_blockingRead(&g_AsclinStm.drivers.asc);
+        if (IfxAsclin_Asc_blockingRead(&g_AsclinStm.drivers.asc) == 0x02)
+        {
+            uint8 buffer[9] = {};
+            buffer[0] = 0xAA;
+            buffer[1] = 0x02;
+            uint8 pos = 2;
+            while (pos < 9)
+            {
+                buffer[pos] = IfxAsclin_Asc_blockingRead(&g_AsclinStm.drivers.asc);
+                pos++;
+            }
+            if (calculate_checksum(buffer, 9 - 1) == buffer[9 - 1]){
+                deserialize_actuator_packet(buffer, packet);
+            }
+        }
     }
-    deserialize_sensor_packet(buffer,packet);
 }
 
-void myprintfSerial(const char *fmt,...)
+void myprintfSerial(const char *fmt, ...)
 {
     EnableAllInterrupts();
     char buf[128];
@@ -23046,8 +23121,9 @@ void myprintfSerial(const char *fmt,...)
 
     uint8 txData[100];
     g_AsclinStm.count = strlen(buf);
-    unsigned int i =0;
-    for(; i<strlen(buf);i++) {
+    unsigned int i = 0;
+    for (; i < strlen(buf); i++)
+    {
         txData[i] = buf[i];
     }
 
@@ -23058,10 +23134,17 @@ void asclin0RxISR(void)
 {
 
     IfxAsclin_Asc_isrReceive(&g_AsclinStm.drivers.asc);
-# 111 "C:\\TUNNEL~1\\TC275\\uart_Driver.c"
-    if(IfxAsclin_Asc_getReadCount(&g_AsclinStm.drivers.asc)>=9){
-        readSensorPacket(&g_RecievedSensorPacket);
+
+
+    if (IfxAsclin_Asc_getReadCount(&g_AsclinStm.drivers.asc) >= 11)
+    {
+        readActuatorPacket(&g_RecievedActuatorPacket);
     }
+
+
+
+
+
 
 }
 
@@ -23074,18 +23157,20 @@ void asclin0TxISR(void)
 
 
 
-
-uint8 calculate_checksum(const uint8* data, size_t length) {
+uint8 calculate_checksum(const uint8 *data, size_t length)
+{
     uint8 checksumResult = 0;
     size_t i = 0;
-    for (i = 0; i < length; ++i) {
+    for (i = 0; i < length; ++i)
+    {
         checksumResult ^= data[i];
     }
     return checksumResult;
 }
 
 
-void serialize_actuator_packet(const struct ActuatorPacket* packet, uint8* buffer) {
+void serialize_actuator_packet(const struct ActuatorPacket *packet, uint8 *buffer)
+{
 
     memcpy(buffer, packet, 11 - 1);
 
@@ -23093,7 +23178,8 @@ void serialize_actuator_packet(const struct ActuatorPacket* packet, uint8* buffe
 }
 
 
-void deserialize_actuator_packet(const uint8* buffer, struct ActuatorPacket* packet) {
+void deserialize_actuator_packet(const uint8 *buffer, struct ActuatorPacket *packet)
+{
 
     memcpy(packet, buffer, 11);
 
@@ -23103,13 +23189,15 @@ void deserialize_actuator_packet(const uint8* buffer, struct ActuatorPacket* pac
 }
 
 
-void serialize_sensor_packet(const struct SensorPacket* packet, uint8* buffer) {
+void serialize_sensor_packet(const struct SensorPacket *packet, uint8 *buffer)
+{
     memcpy(buffer, packet, 9 - 1);
     buffer[9 - 1] = calculate_checksum(buffer, 9 - 1);
 }
 
 
-void deserialize_sensor_packet(const uint8* buffer, struct SensorPacket* packet) {
+void deserialize_sensor_packet(const uint8 *buffer, struct SensorPacket *packet)
+{
     memcpy(packet, buffer, 9);
 
 

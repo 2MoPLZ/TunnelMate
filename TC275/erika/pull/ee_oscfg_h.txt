@@ -59,11 +59,11 @@
 #define OSEE_ARCH_TRICORE
 #define OSEE_HAS_EVENTS
 #define OSEE_HAS_RESOURCES
-#define OSEE_ISR2_MAX_HW_ASM_PRIO 19
-#define OSEE_ISR2_MAX_PRIO (146U)
+#define OSEE_ISR2_MAX_HW_ASM_PRIO 17
+#define OSEE_ISR2_MAX_PRIO (144U)
 #define OSEE_MONO_STACK
 #define OSEE_OC_ECC2
-#define OSEE_TC_CORE0_ISR_MAX_PRIO  (19U)
+#define OSEE_TC_CORE0_ISR_MAX_PRIO  (17U)
 #define OSEE_TC_TC27X
 #define OS_EE_GCC
 #define OS_EE_KERNEL_OSEK
@@ -92,43 +92,43 @@
  **************************************************************************/
 
 
-#define OSEE_TC_CORE0_19_ISR_CAT (2U)
-#define OSEE_TC_CORE0_19_ISR_TID 0
+#define OSEE_TC_CORE0_17_ISR_CAT (2U)
+#define OSEE_TC_CORE0_17_ISR_TID 0
 
 #define OSEE_TC_CORE0_asclin3TxISR_ISR_TID   (0U)
-#define OSEE_TC_CORE0_asclin3TxISR_ISR_PRIO  (19U)
+#define OSEE_TC_CORE0_asclin3TxISR_ISR_PRIO  (17U)
 
 
 
-#define OSEE_TC_CORE0_4_ISR_CAT (2U)
-#define OSEE_TC_CORE0_4_ISR_TID 1
+#define OSEE_TC_CORE0_13_ISR_CAT (2U)
+#define OSEE_TC_CORE0_13_ISR_TID 1
 
 #define OSEE_TC_CORE0_asclin0RxISR_ISR_TID   (1U)
-#define OSEE_TC_CORE0_asclin0RxISR_ISR_PRIO  (4U)
+#define OSEE_TC_CORE0_asclin0RxISR_ISR_PRIO  (13U)
+
+
+
+#define OSEE_TC_CORE0_14_ISR_CAT (2U)
+#define OSEE_TC_CORE0_14_ISR_TID 2
+
+#define OSEE_TC_CORE0_asclin0TxISR_ISR_TID   (2U)
+#define OSEE_TC_CORE0_asclin0TxISR_ISR_PRIO  (14U)
 
 
 
 #define OSEE_TC_CORE0_5_ISR_CAT (2U)
-#define OSEE_TC_CORE0_5_ISR_TID 2
-
-#define OSEE_TC_CORE0_asclin0TxISR_ISR_TID   (2U)
-#define OSEE_TC_CORE0_asclin0TxISR_ISR_PRIO  (5U)
-
-
-
-#define OSEE_TC_CORE0_10_ISR_CAT (2U)
-#define OSEE_TC_CORE0_10_ISR_TID 3
+#define OSEE_TC_CORE0_5_ISR_TID 3
 
 #define OSEE_TC_CORE0_ButtonISR_ISR_TID   (3U)
-#define OSEE_TC_CORE0_ButtonISR_ISR_PRIO  (10U)
+#define OSEE_TC_CORE0_ButtonISR_ISR_PRIO  (5U)
 
 
 
-#define OSEE_TC_CORE0_2_ISR_CAT (2U)
-#define OSEE_TC_CORE0_2_ISR_TID 4
+#define OSEE_TC_CORE0_6_ISR_CAT (2U)
+#define OSEE_TC_CORE0_6_ISR_TID 4
 
 #define OSEE_TC_CORE0_TimerISR_ISR_TID   (4U)
-#define OSEE_TC_CORE0_TimerISR_ISR_PRIO  (2U)
+#define OSEE_TC_CORE0_TimerISR_ISR_PRIO  (6U)
 
 
 /***************************************************************************
