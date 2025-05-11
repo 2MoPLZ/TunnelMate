@@ -1,6 +1,23 @@
 {
     "files.associations": {
-        "uart.h": "c",
-        "string.h": "c"
+        "configurationisr.h": "c",
+        "configuration.h": "c",
+        "ifxcpu_irq.h": "c",
+        "ifx_types.h": "c",
+        "string.h": "c",
+        "lcd_driver.h": "c",
+        "ifxvadc_adc.h": "c",
+        "uart_packet.h": "c",
+        "stddef.h": "c",
+        "ifxport.h": "c",
+        "ifxscuwdt.h": "c",
+        "stdint.h": "c",
+        "ifx_cfg.h": "c",
+        "ifxglobal_cfg.h": "c",
+        "button_driver.h": "c",
+        "uart_driver.h": "c",
+        "bsw.h": "c",
+        "infotainment_system.h": "c",
+        "ifxasclin_asc.h": "c"
     }
 }
