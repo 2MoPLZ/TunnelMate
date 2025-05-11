@@ -10,12 +10,16 @@
 extern TIM_HandleTypeDef htim1; //main에 정의
 extern TIM_HandleTypeDef htim3; //  ""
  
+
+
 servo_t arrayServo[NUM_SERVO] = {
    //{*htim, Channel, pulseMax, pulseMin, unitPulse, initialPulse}
    // unitPulse = ((최대각도일때 pulse값 - 최소각도일때 pulse값) / 160.0) -> 소수점 버림
-   {&htim1, TIM_CHANNEL_1, 1300, 450, (uint16_t)((1300.0 - 450.0)/160.0), (uint16_t)((1300.0 + 450.0)/2.0)},
-   {&htim3, TIM_CHANNEL_4, 1300, 450, (uint16_t)((1300.0 - 450.0)/160.0), (uint16_t)((1300.0 + 450.0)/2.0)}
+   {&htim1, TIM_CHANNEL_1, 1300, 300,  (uint16_t)((1300.0 - 300.0)/180.0), 1150},
+   {&htim3, TIM_CHANNEL_4, 1300, 350,  (uint16_t)((1300.0 - 350.0)/180.0), 480}
 };
+//1 시트
+//2. 창문
 
 void initServo(void)
  {
@@ -47,16 +51,16 @@ void setPulse(uint8_t servoIndex, uint16_t pulse)
  {
   servo_t servo = arrayServo[servoIndex];
 
- 	if(degree < -80)
+ 	if(degree < -90)
  	{
- 		degree = -80;
+ 		degree = -90;
  	}
- 	else if(degree > 80)
+ 	else if(degree > 90)
  	{
- 		degree = 80;
+ 		degree = 90;
  	}
 
- 	uint16_t _pulse = servo.pulseMin + (uint16_t)((((float)(servo.pulseMax) - (float)(servo.pulseMin)) / 160.0)*(degree+80));
+ 	uint16_t _pulse = servo.pulseMin + (uint16_t)((((float)(servo.pulseMax) - (float)(servo.pulseMin)) / 180.0)*(degree+90));
 
  	__HAL_TIM_SetCompare(servo.htim,servo.channel,_pulse);
 

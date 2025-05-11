@@ -93,24 +93,25 @@ task_t taskTable[NUM_TASK] = {
 	{fanTask, 0, 75, 0, ACTIVATED},
 	{ledTask, 0, 50, 0, ACTIVATED},
 	{rgbTask, 0, 100, 0, ACTIVATED},
-	{buzzerTask, 0, 10, 0, ACTIVATED}
+	{buzzerTask, 0, 10, 0, DEACTIVATED}
 };
 
 ////for uart
 #define RX_BUFFER_SIZE 256
-#define RX_PTR_LIMIT 200
-static uint8_t tx_buffer[RX_BUFFER_SIZE];
+
 static uint8_t rx_buffer[RX_BUFFER_SIZE];
-static uint8_t rx_buffer_1[RX_BUFFER_SIZE];
-static struct ActuatorPacket testpacket = {0,};
 static struct ActuatorPacket controlPacket = {0,};
 uint8_t packetReceived = 0;
-uint8_t rxPtr = 0;
 
-enum driving_mode_t{
-  DRIVING_NORMAL = 1,
-  DRIVING_TERNEL = 2
-};
+static uint8_t tx_buffer[RX_BUFFER_SIZE]; //debug
+static struct ActuatorPacket testpacket = {0,}; //debug
+
+typedef enum uart_stage{
+    START = 1,
+    ID = 2,
+    PAYLOAD = 3,
+}uart_stage_t;
+static uart_stage_t RxStage = START;
 
 /* USER CODE END 0 */
 
@@ -155,9 +156,11 @@ int main(void)
   initRgb();
   initServo();
   initControlValue();
-
   initScheduler();
 
+  if(HAL_UART_Receive_IT(&huart1,rx_buffer,1) != HAL_OK){
+  	  Error_Handler();
+  }
 
 //  if(HAL_UART_Receive_IT(&huart1,rx_buffer + rxPtr,ACTUATOR_PACKET_SIZE) != HAL_OK){
 //	  Error_Handler();
@@ -183,7 +186,9 @@ int main(void)
     {
       packetReceived = 0;
       handlePacket();
-      printActuatorPacket();
+      //printActuatorPacket();
+      RxStage = START;
+      HAL_UART_Receive_IT(&huart1,rx_buffer,1);
     }
     scheduler();
 
@@ -632,57 +637,64 @@ void printActuatorPacket(void)
 }
 void handlePacket(void)
 {
-//  uint8_t _crc = calculate_checksum(rx_buffer+rxPtr,ACTUATOR_PACKET_SIZE-1);
-//	if(_crc == rx_buffer[rxPtr+ACTUATOR_PACKET_SIZE-1])
-//	{
-//    deserialize_actuator_packet(rx_buffer, &controlPacket);
-//	}
-//  else
-//  {
-//    //do nothing
-//  }
-//
-//  if(rxPtr > RX_PTR_LIMIT)
-//  {
-//    rxPtr = 0;
-//  }
-//  else
-//  {
-//    rxPtr += ACTUATOR_PACKET_SIZE;
-//  }
-//  HAL_UART_Receive_IT(&huart1,rx_buffer+rxPtr,ACTUATOR_PACKET_SIZE);
+	uint8_t _crc = calculate_checksum(rx_buffer,ACTUATOR_PACKET_SIZE-1);
 
-  uint8_t _crc = calculate_checksum(rx_buffer_1,ACTUATOR_PACKET_SIZE-1);
-  	if(_crc == rx_buffer_1[ACTUATOR_PACKET_SIZE-1])
-  	{
-      deserialize_actuator_packet(rx_buffer_1, &controlPacket);
-  	}
-    else
-    {
-      //do nothing
-    }
+	if(_crc == rx_buffer[ACTUATOR_PACKET_SIZE-1])
+	{
+		deserialize_actuator_packet(rx_buffer, &controlPacket);
+	}
+	else
+	{
+		//do nothing
+	}
 
-
-    HAL_UART_Receive_IT(&huart1,rx_buffer_1,ACTUATOR_PACKET_SIZE);
 }
 void HAL_UART_RxCpltCallback(UART_HandleTypeDef *huart)
-{
-  if(huart->Instance == huart1.Instance)
   {
-    packetReceived = 1;
+    if(huart->Instance == huart1.Instance)
+    {
+      switch(RxStage)
+      {
+        case START:
+          if(rx_buffer[0] == UART_START_BYTE)
+          {
+            RxStage = ID;
+            HAL_UART_Receive_IT(&huart1, rx_buffer + 1, 1);
+          }
+          else
+          {
+            HAL_UART_Receive_IT(&huart1, rx_buffer, 1);
+          }
+          break;
+        case ID:
+          if(rx_buffer[1] == ACTUATOR_PACKET_ID)
+          {
+            RxStage = PAYLOAD;
+            HAL_UART_Receive_IT(&huart1, rx_buffer+2, ACTUATOR_PACKET_SIZE-2);
+          }
+          else
+          {
+            RxStage = START;
+            HAL_UART_Receive_IT(&huart1, rx_buffer, 1);
+          }
+          break;
+        case PAYLOAD:
+          packetReceived = 1;
+          break;
+        default:
+      };
+    }
   }
-}
 void HAL_UART_ErrorCallback(UART_HandleTypeDef *huart)
 {
   if(huart->Instance == huart1.Instance)
   {
-    //HAL_UART_Receive_IT(&huart1, rx_buffer + rxPtr, ACTUATOR_PACKET_SIZE);
-    HAL_UART_Receive_IT(&huart1, rx_buffer_1, ACTUATOR_PACKET_SIZE);
+	  RxStage = START;
+	  HAL_UART_Receive_IT(&huart1, rx_buffer, 1);
   }
 }
 void initControlValue(void)
 {
-  controlPacket.driving_mode = DRIVING_NORMAL;
 	controlPacket.servo_chair = arrayServo[SERVO_SEAT].initialPulse;
 	controlPacket.servo_window = arrayServo[SERVO_WINDOW].initialPulse;
 	controlPacket.led = 0;
@@ -690,39 +702,39 @@ void initControlValue(void)
 	controlPacket.fan = 0;
 	controlPacket.led_rgb = 0;
 }
-void testTask(void)
-{
-	static int a = 0;
-
-	if(a == 0)
-	{
-		a = 1;
-		testpacket.servo_chair = 1200;
-		testpacket.servo_window = 450;
-		testpacket.led = 1;
-		testpacket.led_rgb = 7;
-		testpacket.fan = 3;
-		serialize_actuator_packet(&testpacket,tx_buffer);
-		if(HAL_UART_Transmit_IT(&huart1,tx_buffer , ACTUATOR_PACKET_SIZE) != HAL_OK)
-		{
-		  Error_Handler();
-		}
-	}
-	else
-	{
-		a = 0;
-		testpacket.servo_chair = 450;
-		testpacket.servo_window = 1200;
-		testpacket.led = 0;
-		testpacket.led_rgb = 0x000;
-		testpacket.fan = 0;
-		serialize_actuator_packet(&testpacket,tx_buffer);
-		if(HAL_UART_Transmit_IT(&huart1,tx_buffer , ACTUATOR_PACKET_SIZE) != HAL_OK)
-		{
-		  Error_Handler();
-		}
-	}
-}
+//void testTask(void)
+//{
+//	static int a = 0;
+//
+//	if(a == 0)
+//	{
+//		a = 1;
+//		testpacket.servo_chair = 1200;
+//		testpacket.servo_window = 450;
+//		testpacket.led = 1;
+//		testpacket.led_rgb = 7;
+//		testpacket.fan = 3;
+//		serialize_actuator_packet(&testpacket,tx_buffer);
+//		if(HAL_UART_Transmit_IT(&huart1,tx_buffer , ACTUATOR_PACKET_SIZE) != HAL_OK)
+//		{
+//		  Error_Handler();
+//		}
+//	}
+//	else
+//	{
+//		a = 0;
+//		testpacket.servo_chair = 450;
+//		testpacket.servo_window = 1200;
+//		testpacket.led = 0;
+//		testpacket.led_rgb = 0x000;
+//		testpacket.fan = 0;
+//		serialize_actuator_packet(&testpacket,tx_buffer);
+//		if(HAL_UART_Transmit_IT(&huart1,tx_buffer , ACTUATOR_PACKET_SIZE) != HAL_OK)
+//		{
+//		  Error_Handler();
+//		}
+//	}
+//}
 void seatTask(void)
 {
 	uint16_t unitPulse = getUnitPulse(SERVO_SEAT);
@@ -779,14 +791,7 @@ void windowTask(void)
 }
 void fanTask(void)
 {
-	if(controlPacket.fan == 0)
-	{
-		stopFan();
-	}
-	else
-	{
-		setLevelFan(controlPacket.fan);
-	}
+	setLevelFan(controlPacket.fan);
 }
 void ledTask(void)
 {
@@ -808,14 +813,14 @@ void rgbTask(void)
 	rgb_red = 0x1 & controlPacket.led_rgb ;
 	rgb_green = 0x2 & controlPacket.led_rgb ;
 	rgb_blue = 0x4 & controlPacket.led_rgb ;
-	rgb_mode = 0x8 & controlPacket.led_rgb; //led_rgb의 4번쨰 비트가 0이면 일반 모드, 1이면 터널모드(밝기 30퍼)
+	rgb_mode = controlPacket.MODE; //led_rgb의 4번쨰 비트가 0이면 일반 모드, 1이면 터널모드(밝기 30퍼)
 
 	if(rgb_mode)
-  {
-    setColorRgb(30*rgb_red, 30*rgb_green, 30*rgb_blue);
-  }
+	{
+		setColorRgb(30*rgb_red, 30*rgb_green, 30*rgb_blue);
+	}
 	else
-  {
+	{
 		setColorRgb(999*rgb_red, 999*rgb_green, 999*rgb_blue);
 	}
 }
