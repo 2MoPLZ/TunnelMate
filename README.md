@@ -1,5 +1,22 @@
 # TunnelMate
 
+## 팀원
+|                         김민                         |                            김준혁                            |                         류병민                         |                          이윤기                          |                        오동걸                        |                        호세헌                        |
+|:------------------------------------------------------:|:------------------------------------------------------------:|:------------------------------------------------------:|:--------------------------------------------------------:|:----------------------------------------------------:|:------------------------------------------------------:|
+|  <img src="https://github.com/min-kim-oss.png?size=100">   |    <img src="https://github.com/knujhk.png?size=100">    |  <img src="https://github.com/bmryu0501.png?size=100">   |   <img src="https://github.com/yg654.png?size=100">   | <img src="https://github.com/fepick.png?size=100"> | <img src="https://github.com/seheonnn.png?size=100"> |
+|            Lead<br/>TC275             |                      STM32 Actuator                       |                   STM32 Main                    |                    STM32 Actuator                     |                  TC275                   |                      Arduino & Infra                      |
+| <center>[min-kim-oss](https://github.com/min-kim-oss)</center> | <center>[knujhk](https://github.com/knujhk)</center> | <center>[bmryu0501](https://github.com/bmryu0501)</center> | <center>[yg654](https://github.com/yg654)</center> | <center>[fepick](https://github.com/fepick)</center> | <center>[seheonnn](https://github.com/seheonnn)</center> |
+
+## 아키텍처
+![Architecture](./figure/Architecture.png)
+
+## Description
+
+- [`STM32_main`](./STM32_main/README.md): 메인 MCU 로직 (터널 진입 여부 판단 및 데이터 송신)
+- [`STM32_act`](./STM32_act/README.md): 액추에이터 제어 로직 (서보 모터, LED, RGB, 팬)
+- [`TC275`](./TC275/README.md): 인포테인먼트 제어 (LCD), 초음파 센서, 조도 센서 처리
+- [`Arduino`](./Arduino/README.md): BLE 통신 처리 (ESP32), Web 서버(Flask) 및 데이터베이스 연동
+
 ## 브랜치 구조
 
 ```
