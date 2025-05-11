@@ -8,8 +8,9 @@
 /*------------------------------FUNCTION------------------------------*/
 /*****************************************************************************/
 
+void delay_ms(unsigned long delay);
+void delay_us(unsigned long delay);
 void UART_init(void);
-void mdelay(unsigned long delay_ms);
 void printfSerial(const char *fmt,...);
 void initPeripheralsAndERU(void);
 void initADC(void);                         /* Function to initialize the VADC module                               */

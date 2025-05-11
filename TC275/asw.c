@@ -1,52 +1,60 @@
 #include "bsw.h"
+#include "uart_Driver.h"
+#include "ultrasonic_Driver.h"
 
-TASK(Task1)
+volatile uint8 g_buttonState;
+
+TASK(SensorTask)
 {
-    printfSerial("Task1 Begins...");
-    int a0 = readADCValue(3);
-    printfSerial("%d",a0);
-    mdelay(3000);
-    printfSerial("Task1 Finishes...");
+    int upperUltrasonicValue = getUltrasonic(&g_UpperUltrasonic);
+    int frontUltrasonicValue = getUltrasonic(&g_FrontUltrasonic);
+    int photoValue = getPhotoresiter();
 
-    TerminateTask();
+    struct SensorPacket packet = {
+        .start_byte     = 0xAA,
+        .packet_id      = 0x02,
+        .photo          = photoValue,
+        .ultra_sonic1   = upperUltrasonicValue,
+        .ultra_sonic2   = frontUltrasonicValue
+    };
+    sendSensorPacket(&packet);
 }
 
-TASK(TaskLCD)
-{   
-    // lcd_clear(); // LCD 출력 내용 초기화 함수
-    // printInfoDisplay();  
-
-    TerminateTask();
-}
-
-TASK(TaskUltrasonic)
-{   
-    printfSerial("%d",getUltrasonic());
+TASK(DashboardButtonTask){
+    updateStateByButton(g_buttonState);
+    struct ActuatorPacket packet={};
+    setActuatorPacket(&packet);
+    sendActuatorPacket(&packet);
 }
 
 ISR2(ButtonISR)
 {
-    unsigned int buttonState;
     DisableAllInterrupts();
-    osEE_tc_delay(5000);
-    printfSerial("interuppt");
-    buttonState = readLcdButtons();
-    updateInfoState(buttonState);
-
-    osEE_tc_delay(3000);
+    osEE_tc_delay(5000);// delay_us(25);
+    g_buttonState = readLcdButtons();
+    ActivateTask(DashboardButtonTask);
+    osEE_tc_delay(3000);// delay_us(10);
     EnableAllInterrupts();
 }
-
-
 
 ISR2(TimerISR)
 {
     static long c = -4;
-    osEE_tc_stm_set_sr0_next_match(1000000U);
-    if (c == 0)
-        ActivateTask(Task1);
-    if (c % 2 == 0)
-    ActivateTask(TaskLCD);
-    ActivateTask(TaskUltrasonic);
+    osEE_tc_stm_set_sr0_next_match(1000000U); //1초
+    // osEE_tc_stm_set_sr0_next_match(250000U); //0.25초
+
+    /************** ONE-TIME-TASK ********************/
+
+    /************** basic-TASK (every 1s) ********************/
+    
+    if(c==0){
+        lcd_clear();
+        printInfoDisplay();
+    }
+    ActivateTask(SensorTask);
+    
+
+    /************** basic-TASK for debugging ********************/
+    
     printfSerial("\n%4ld: ", c++);
 }

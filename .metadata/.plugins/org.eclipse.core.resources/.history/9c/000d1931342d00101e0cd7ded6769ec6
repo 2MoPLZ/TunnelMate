@@ -1,0 +1,939 @@
+/* USER CODE BEGIN Header */
+/**
+  ******************************************************************************
+  * @file           : main.c
+  * @brief          : Main program body
+  ******************************************************************************
+  * @attention
+  *
+  * Copyright (c) 2025 STMicroelectronics.
+  * All rights reserved.
+  *
+  * This software is licensed under terms that can be found in the LICENSE file
+  * in the root directory of this software component.
+  * If no LICENSE file comes with this software, it is provided AS-IS.
+  *
+  ******************************************************************************
+  */
+/* USER CODE END Header */
+/* Includes ------------------------------------------------------------------*/
+#include "main.h"
+
+/* Private includes ----------------------------------------------------------*/
+/* USER CODE BEGIN Includes */
+#include "led_driver.h"
+#include "buzzer_driver.h"
+#include "fan_driver.h"
+#include "rgb_driver.h"
+#include "scheduler_stm.h"
+#include "servo_driver.h"
+#include "uart.h"
+#include "uart_packet.h"
+/* USER CODE END Includes */
+
+/* Private typedef -----------------------------------------------------------*/
+/* USER CODE BEGIN PTD */
+
+/* USER CODE END PTD */
+
+/* Private define ------------------------------------------------------------*/
+/* USER CODE BEGIN PD */
+
+/* USER CODE END PD */
+
+/* Private macro -------------------------------------------------------------*/
+/* USER CODE BEGIN PM */
+
+/* USER CODE END PM */
+
+/* Private variables ---------------------------------------------------------*/
+TIM_HandleTypeDef htim1;
+TIM_HandleTypeDef htim2;
+TIM_HandleTypeDef htim3;
+TIM_HandleTypeDef htim4;
+
+UART_HandleTypeDef huart1;
+UART_HandleTypeDef huart2;
+DMA_HandleTypeDef hdma_usart1_rx;
+
+/* USER CODE BEGIN PV */
+
+/* USER CODE END PV */
+
+/* Private function prototypes -----------------------------------------------*/
+void SystemClock_Config(void);
+static void MX_GPIO_Init(void);
+static void MX_DMA_Init(void);
+static void MX_TIM1_Init(void);
+static void MX_TIM3_Init(void);
+static void MX_TIM2_Init(void);
+static void MX_TIM4_Init(void);
+static void MX_USART1_UART_Init(void);
+static void MX_USART2_UART_Init(void);
+/* USER CODE BEGIN PFP */
+
+/****task prototype******/
+void initControlValue(void);
+void testTask(void);
+void seatTask(void);
+void windowTask(void);
+void fanTask(void);
+void ledTask(void);
+void rgbTask(void);
+void buzzerTask(void);
+void handlePacket(void);
+/* USER CODE END PFP */
+
+/* Private user code ---------------------------------------------------------*/
+/* USER CODE BEGIN 0 */
+////시스템 시작하자마자 태스크 실행하려면 status = ACTIVATED로 해주면 됩니다.
+task_t taskTable[NUM_TASK] = {
+  //{task_func_ptr, offsetTime, period, waitedTime, status}
+	//{testTask, 1000, 2000, 0, DEACTIVATED},
+	{seatTask, 0, 20, 0, ACTIVATED},
+	{windowTask, 0, 20, 0, ACTIVATED},
+	{fanTask, 0, 75, 0, ACTIVATED},
+	{ledTask, 0, 50, 0, ACTIVATED},
+	{rgbTask, 0, 100, 0, ACTIVATED},
+	{buzzerTask, 0, 10, 0, ACTIVATED}
+};
+
+////for uart
+#define RX_BUFFER_SIZE 256
+#define RX_PTR_LIMIT 200
+static uint8_t tx_buffer[RX_BUFFER_SIZE];
+static uint8_t rx_buffer[RX_BUFFER_SIZE];
+static uint8_t rx_buffer_1[RX_BUFFER_SIZE];
+static struct ActuatorPacket testpacket = {0,};
+static struct ActuatorPacket controlPacket = {0,};
+uint8_t packetReceived = 0;
+uint8_t rxPtr = 0;
+
+
+enum driving_mode_t{
+  DRIVING_NORMAL = 1,
+  DRIVING_TERNEL = 2
+};
+
+/* USER CODE END 0 */
+
+/**
+  * @brief  The application entry point.
+  * @retval int
+  */
+int main(void)
+{
+
+  /* USER CODE BEGIN 1 */
+
+  /* USER CODE END 1 */
+
+  /* MCU Configuration--------------------------------------------------------*/
+
+  /* Reset of all peripherals, Initializes the Flash interface and the Systick. */
+  HAL_Init();
+
+  /* USER CODE BEGIN Init */
+
+  /* USER CODE END Init */
+
+  /* Configure the system clock */
+  SystemClock_Config();
+
+  /* USER CODE BEGIN SysInit */
+
+  /* USER CODE END SysInit */
+
+  /* Initialize all configured peripherals */
+  MX_GPIO_Init();
+  MX_DMA_Init();
+  MX_TIM1_Init();
+  MX_TIM3_Init();
+  MX_TIM2_Init();
+  MX_TIM4_Init();
+  MX_USART1_UART_Init();
+  MX_USART2_UART_Init();
+  /* USER CODE BEGIN 2 */
+  initBuzzer();
+  initFan();
+  initRgb();
+  initServo();
+  initControlValue();
+
+  HAL_UARTEx_ReceiveToIdle_DMA(&huart1, rx_buffer, RX_BUFFER_SIZE);
+  initScheduler();
+
+//  if(HAL_UART_Receive_IT(&huart1,rx_buffer_1,ACTUATOR_PACKET_SIZE) != HAL_OK){
+//  	  Error_Handler();
+//    }
+
+  /* USER CODE END 2 */
+
+  /* Infinite loop */
+  /* USER CODE BEGIN WHILE */
+  while (1)
+  {
+    if(packetReceived == 1)
+    {
+      packetReceived = 0;
+      handlePacket();
+      printActuatorPacket();
+      HAL_UARTEx_ReceiveToIdle_DMA(&huart1, rx_buffer, RX_BUFFER_SIZE);
+    }
+    scheduler();
+
+    /* USER CODE END WHILE */
+
+    /* USER CODE BEGIN 3 */
+  }
+  /* USER CODE END 3 */
+}
+
+/**
+  * @brief System Clock Configuration
+  * @retval None
+  */
+void SystemClock_Config(void)
+{
+  RCC_OscInitTypeDef RCC_OscInitStruct = {0};
+  RCC_ClkInitTypeDef RCC_ClkInitStruct = {0};
+
+  /** Initializes the RCC Oscillators according to the specified parameters
+  * in the RCC_OscInitTypeDef structure.
+  */
+  RCC_OscInitStruct.OscillatorType = RCC_OSCILLATORTYPE_HSE;
+  RCC_OscInitStruct.HSEState = RCC_HSE_BYPASS;
+  RCC_OscInitStruct.PLL.PLLState = RCC_PLL_NONE;
+  if (HAL_RCC_OscConfig(&RCC_OscInitStruct) != HAL_OK)
+  {
+    Error_Handler();
+  }
+
+  /** Initializes the CPU, AHB and APB buses clocks
+  */
+  RCC_ClkInitStruct.ClockType = RCC_CLOCKTYPE_HCLK|RCC_CLOCKTYPE_SYSCLK
+                              |RCC_CLOCKTYPE_PCLK1|RCC_CLOCKTYPE_PCLK2;
+  RCC_ClkInitStruct.SYSCLKSource = RCC_SYSCLKSOURCE_HSE;
+  RCC_ClkInitStruct.AHBCLKDivider = RCC_SYSCLK_DIV1;
+  RCC_ClkInitStruct.APB1CLKDivider = RCC_HCLK_DIV1;
+  RCC_ClkInitStruct.APB2CLKDivider = RCC_HCLK_DIV1;
+
+  if (HAL_RCC_ClockConfig(&RCC_ClkInitStruct, FLASH_LATENCY_0) != HAL_OK)
+  {
+    Error_Handler();
+  }
+}
+
+/**
+  * @brief TIM1 Initialization Function
+  * @param None
+  * @retval None
+  */
+static void MX_TIM1_Init(void)
+{
+
+  /* USER CODE BEGIN TIM1_Init 0 */
+
+  /* USER CODE END TIM1_Init 0 */
+
+  TIM_ClockConfigTypeDef sClockSourceConfig = {0};
+  TIM_MasterConfigTypeDef sMasterConfig = {0};
+  TIM_OC_InitTypeDef sConfigOC = {0};
+  TIM_BreakDeadTimeConfigTypeDef sBreakDeadTimeConfig = {0};
+
+  /* USER CODE BEGIN TIM1_Init 1 */
+
+  /* USER CODE END TIM1_Init 1 */
+  htim1.Instance = TIM1;
+  htim1.Init.Prescaler = 15;
+  htim1.Init.CounterMode = TIM_COUNTERMODE_UP;
+  htim1.Init.Period = 9999;
+  htim1.Init.ClockDivision = TIM_CLOCKDIVISION_DIV1;
+  htim1.Init.RepetitionCounter = 0;
+  htim1.Init.AutoReloadPreload = TIM_AUTORELOAD_PRELOAD_DISABLE;
+  if (HAL_TIM_Base_Init(&htim1) != HAL_OK)
+  {
+    Error_Handler();
+  }
+  sClockSourceConfig.ClockSource = TIM_CLOCKSOURCE_INTERNAL;
+  if (HAL_TIM_ConfigClockSource(&htim1, &sClockSourceConfig) != HAL_OK)
+  {
+    Error_Handler();
+  }
+  if (HAL_TIM_PWM_Init(&htim1) != HAL_OK)
+  {
+    Error_Handler();
+  }
+  sMasterConfig.MasterOutputTrigger = TIM_TRGO_RESET;
+  sMasterConfig.MasterSlaveMode = TIM_MASTERSLAVEMODE_DISABLE;
+  if (HAL_TIMEx_MasterConfigSynchronization(&htim1, &sMasterConfig) != HAL_OK)
+  {
+    Error_Handler();
+  }
+  sConfigOC.OCMode = TIM_OCMODE_PWM1;
+  sConfigOC.Pulse = 850;
+  sConfigOC.OCPolarity = TIM_OCPOLARITY_HIGH;
+  sConfigOC.OCNPolarity = TIM_OCNPOLARITY_HIGH;
+  sConfigOC.OCFastMode = TIM_OCFAST_DISABLE;
+  sConfigOC.OCIdleState = TIM_OCIDLESTATE_RESET;
+  sConfigOC.OCNIdleState = TIM_OCNIDLESTATE_RESET;
+  if (HAL_TIM_PWM_ConfigChannel(&htim1, &sConfigOC, TIM_CHANNEL_1) != HAL_OK)
+  {
+    Error_Handler();
+  }
+  sBreakDeadTimeConfig.OffStateRunMode = TIM_OSSR_DISABLE;
+  sBreakDeadTimeConfig.OffStateIDLEMode = TIM_OSSI_DISABLE;
+  sBreakDeadTimeConfig.LockLevel = TIM_LOCKLEVEL_OFF;
+  sBreakDeadTimeConfig.DeadTime = 0;
+  sBreakDeadTimeConfig.BreakState = TIM_BREAK_DISABLE;
+  sBreakDeadTimeConfig.BreakPolarity = TIM_BREAKPOLARITY_HIGH;
+  sBreakDeadTimeConfig.AutomaticOutput = TIM_AUTOMATICOUTPUT_DISABLE;
+  if (HAL_TIMEx_ConfigBreakDeadTime(&htim1, &sBreakDeadTimeConfig) != HAL_OK)
+  {
+    Error_Handler();
+  }
+  /* USER CODE BEGIN TIM1_Init 2 */
+
+  /* USER CODE END TIM1_Init 2 */
+  HAL_TIM_MspPostInit(&htim1);
+
+}
+
+/**
+  * @brief TIM2 Initialization Function
+  * @param None
+  * @retval None
+  */
+static void MX_TIM2_Init(void)
+{
+
+  /* USER CODE BEGIN TIM2_Init 0 */
+
+  /* USER CODE END TIM2_Init 0 */
+
+  TIM_MasterConfigTypeDef sMasterConfig = {0};
+  TIM_OC_InitTypeDef sConfigOC = {0};
+
+  /* USER CODE BEGIN TIM2_Init 1 */
+
+  /* USER CODE END TIM2_Init 1 */
+  htim2.Instance = TIM2;
+  htim2.Init.Prescaler = 8-1;
+  htim2.Init.CounterMode = TIM_COUNTERMODE_UP;
+  htim2.Init.Period = 1000-1;
+  htim2.Init.ClockDivision = TIM_CLOCKDIVISION_DIV1;
+  htim2.Init.AutoReloadPreload = TIM_AUTORELOAD_PRELOAD_DISABLE;
+  if (HAL_TIM_PWM_Init(&htim2) != HAL_OK)
+  {
+    Error_Handler();
+  }
+  sMasterConfig.MasterOutputTrigger = TIM_TRGO_RESET;
+  sMasterConfig.MasterSlaveMode = TIM_MASTERSLAVEMODE_DISABLE;
+  if (HAL_TIMEx_MasterConfigSynchronization(&htim2, &sMasterConfig) != HAL_OK)
+  {
+    Error_Handler();
+  }
+  sConfigOC.OCMode = TIM_OCMODE_PWM1;
+  sConfigOC.Pulse = 0;
+  sConfigOC.OCPolarity = TIM_OCPOLARITY_HIGH;
+  sConfigOC.OCFastMode = TIM_OCFAST_DISABLE;
+  if (HAL_TIM_PWM_ConfigChannel(&htim2, &sConfigOC, TIM_CHANNEL_2) != HAL_OK)
+  {
+    Error_Handler();
+  }
+  if (HAL_TIM_PWM_ConfigChannel(&htim2, &sConfigOC, TIM_CHANNEL_3) != HAL_OK)
+  {
+    Error_Handler();
+  }
+  /* USER CODE BEGIN TIM2_Init 2 */
+
+  /* USER CODE END TIM2_Init 2 */
+  HAL_TIM_MspPostInit(&htim2);
+
+}
+
+/**
+  * @brief TIM3 Initialization Function
+  * @param None
+  * @retval None
+  */
+static void MX_TIM3_Init(void)
+{
+
+  /* USER CODE BEGIN TIM3_Init 0 */
+
+  /* USER CODE END TIM3_Init 0 */
+
+  TIM_ClockConfigTypeDef sClockSourceConfig = {0};
+  TIM_MasterConfigTypeDef sMasterConfig = {0};
+  TIM_OC_InitTypeDef sConfigOC = {0};
+
+  /* USER CODE BEGIN TIM3_Init 1 */
+
+  /* USER CODE END TIM3_Init 1 */
+  htim3.Instance = TIM3;
+  htim3.Init.Prescaler = 15;
+  htim3.Init.CounterMode = TIM_COUNTERMODE_UP;
+  htim3.Init.Period = 9999;
+  htim3.Init.ClockDivision = TIM_CLOCKDIVISION_DIV1;
+  htim3.Init.AutoReloadPreload = TIM_AUTORELOAD_PRELOAD_DISABLE;
+  if (HAL_TIM_Base_Init(&htim3) != HAL_OK)
+  {
+    Error_Handler();
+  }
+  sClockSourceConfig.ClockSource = TIM_CLOCKSOURCE_INTERNAL;
+  if (HAL_TIM_ConfigClockSource(&htim3, &sClockSourceConfig) != HAL_OK)
+  {
+    Error_Handler();
+  }
+  if (HAL_TIM_PWM_Init(&htim3) != HAL_OK)
+  {
+    Error_Handler();
+  }
+  sMasterConfig.MasterOutputTrigger = TIM_TRGO_RESET;
+  sMasterConfig.MasterSlaveMode = TIM_MASTERSLAVEMODE_DISABLE;
+  if (HAL_TIMEx_MasterConfigSynchronization(&htim3, &sMasterConfig) != HAL_OK)
+  {
+    Error_Handler();
+  }
+  sConfigOC.OCMode = TIM_OCMODE_PWM1;
+  sConfigOC.Pulse = 0;
+  sConfigOC.OCPolarity = TIM_OCPOLARITY_HIGH;
+  sConfigOC.OCFastMode = TIM_OCFAST_DISABLE;
+  if (HAL_TIM_PWM_ConfigChannel(&htim3, &sConfigOC, TIM_CHANNEL_1) != HAL_OK)
+  {
+    Error_Handler();
+  }
+  if (HAL_TIM_PWM_ConfigChannel(&htim3, &sConfigOC, TIM_CHANNEL_4) != HAL_OK)
+  {
+    Error_Handler();
+  }
+  /* USER CODE BEGIN TIM3_Init 2 */
+
+  /* USER CODE END TIM3_Init 2 */
+  HAL_TIM_MspPostInit(&htim3);
+
+}
+
+/**
+  * @brief TIM4 Initialization Function
+  * @param None
+  * @retval None
+  */
+static void MX_TIM4_Init(void)
+{
+
+  /* USER CODE BEGIN TIM4_Init 0 */
+
+  /* USER CODE END TIM4_Init 0 */
+
+  TIM_MasterConfigTypeDef sMasterConfig = {0};
+  TIM_OC_InitTypeDef sConfigOC = {0};
+
+  /* USER CODE BEGIN TIM4_Init 1 */
+
+  /* USER CODE END TIM4_Init 1 */
+  htim4.Instance = TIM4;
+  htim4.Init.Prescaler = 8-1;
+  htim4.Init.CounterMode = TIM_COUNTERMODE_UP;
+  htim4.Init.Period = 1000-1;
+  htim4.Init.ClockDivision = TIM_CLOCKDIVISION_DIV1;
+  htim4.Init.AutoReloadPreload = TIM_AUTORELOAD_PRELOAD_DISABLE;
+  if (HAL_TIM_PWM_Init(&htim4) != HAL_OK)
+  {
+    Error_Handler();
+  }
+  sMasterConfig.MasterOutputTrigger = TIM_TRGO_RESET;
+  sMasterConfig.MasterSlaveMode = TIM_MASTERSLAVEMODE_DISABLE;
+  if (HAL_TIMEx_MasterConfigSynchronization(&htim4, &sMasterConfig) != HAL_OK)
+  {
+    Error_Handler();
+  }
+  sConfigOC.OCMode = TIM_OCMODE_PWM1;
+  sConfigOC.Pulse = 0;
+  sConfigOC.OCPolarity = TIM_OCPOLARITY_HIGH;
+  sConfigOC.OCFastMode = TIM_OCFAST_DISABLE;
+  if (HAL_TIM_PWM_ConfigChannel(&htim4, &sConfigOC, TIM_CHANNEL_1) != HAL_OK)
+  {
+    Error_Handler();
+  }
+  if (HAL_TIM_PWM_ConfigChannel(&htim4, &sConfigOC, TIM_CHANNEL_3) != HAL_OK)
+  {
+    Error_Handler();
+  }
+  /* USER CODE BEGIN TIM4_Init 2 */
+
+  /* USER CODE END TIM4_Init 2 */
+  HAL_TIM_MspPostInit(&htim4);
+
+}
+
+/**
+  * @brief USART1 Initialization Function
+  * @param None
+  * @retval None
+  */
+static void MX_USART1_UART_Init(void)
+{
+
+  /* USER CODE BEGIN USART1_Init 0 */
+
+  /* USER CODE END USART1_Init 0 */
+
+  /* USER CODE BEGIN USART1_Init 1 */
+
+  /* USER CODE END USART1_Init 1 */
+  huart1.Instance = USART1;
+  huart1.Init.BaudRate = 9600;
+  huart1.Init.WordLength = UART_WORDLENGTH_8B;
+  huart1.Init.StopBits = UART_STOPBITS_1;
+  huart1.Init.Parity = UART_PARITY_NONE;
+  huart1.Init.Mode = UART_MODE_TX_RX;
+  huart1.Init.HwFlowCtl = UART_HWCONTROL_NONE;
+  huart1.Init.OverSampling = UART_OVERSAMPLING_16;
+  if (HAL_UART_Init(&huart1) != HAL_OK)
+  {
+    Error_Handler();
+  }
+  /* USER CODE BEGIN USART1_Init 2 */
+
+  /* USER CODE END USART1_Init 2 */
+
+}
+
+/**
+  * @brief USART2 Initialization Function
+  * @param None
+  * @retval None
+  */
+static void MX_USART2_UART_Init(void)
+{
+
+  /* USER CODE BEGIN USART2_Init 0 */
+
+  /* USER CODE END USART2_Init 0 */
+
+  /* USER CODE BEGIN USART2_Init 1 */
+
+  /* USER CODE END USART2_Init 1 */
+  huart2.Instance = USART2;
+  huart2.Init.BaudRate = 9600;
+  huart2.Init.WordLength = UART_WORDLENGTH_8B;
+  huart2.Init.StopBits = UART_STOPBITS_1;
+  huart2.Init.Parity = UART_PARITY_NONE;
+  huart2.Init.Mode = UART_MODE_TX_RX;
+  huart2.Init.HwFlowCtl = UART_HWCONTROL_NONE;
+  huart2.Init.OverSampling = UART_OVERSAMPLING_16;
+  if (HAL_UART_Init(&huart2) != HAL_OK)
+  {
+    Error_Handler();
+  }
+  /* USER CODE BEGIN USART2_Init 2 */
+
+  /* USER CODE END USART2_Init 2 */
+
+}
+
+/**
+  * Enable DMA controller clock
+  */
+static void MX_DMA_Init(void)
+{
+
+  /* DMA controller clock enable */
+  __HAL_RCC_DMA1_CLK_ENABLE();
+
+  /* DMA interrupt init */
+  /* DMA1_Channel5_IRQn interrupt configuration */
+  HAL_NVIC_SetPriority(DMA1_Channel5_IRQn, 0, 0);
+  HAL_NVIC_EnableIRQ(DMA1_Channel5_IRQn);
+
+}
+
+/**
+  * @brief GPIO Initialization Function
+  * @param None
+  * @retval None
+  */
+static void MX_GPIO_Init(void)
+{
+  GPIO_InitTypeDef GPIO_InitStruct = {0};
+/* USER CODE BEGIN MX_GPIO_Init_1 */
+/* USER CODE END MX_GPIO_Init_1 */
+
+  /* GPIO Ports Clock Enable */
+  __HAL_RCC_GPIOC_CLK_ENABLE();
+  __HAL_RCC_GPIOD_CLK_ENABLE();
+  __HAL_RCC_GPIOA_CLK_ENABLE();
+  __HAL_RCC_GPIOB_CLK_ENABLE();
+
+  /*Configure GPIO pin Output Level */
+  HAL_GPIO_WritePin(head_light_GPIO_Port, head_light_Pin, GPIO_PIN_RESET);
+
+  /*Configure GPIO pin Output Level */
+  HAL_GPIO_WritePin(GPIOC, GPIO_PIN_10|GPIO_PIN_12, GPIO_PIN_RESET);
+
+  /*Configure GPIO pin : B1_Pin */
+  GPIO_InitStruct.Pin = B1_Pin;
+  GPIO_InitStruct.Mode = GPIO_MODE_IT_RISING;
+  GPIO_InitStruct.Pull = GPIO_NOPULL;
+  HAL_GPIO_Init(B1_GPIO_Port, &GPIO_InitStruct);
+
+  /*Configure GPIO pin : head_light_Pin */
+  GPIO_InitStruct.Pin = head_light_Pin;
+  GPIO_InitStruct.Mode = GPIO_MODE_OUTPUT_PP;
+  GPIO_InitStruct.Pull = GPIO_NOPULL;
+  GPIO_InitStruct.Speed = GPIO_SPEED_FREQ_LOW;
+  HAL_GPIO_Init(head_light_GPIO_Port, &GPIO_InitStruct);
+
+  /*Configure GPIO pins : PC10 PC12 */
+  GPIO_InitStruct.Pin = GPIO_PIN_10|GPIO_PIN_12;
+  GPIO_InitStruct.Mode = GPIO_MODE_OUTPUT_PP;
+  GPIO_InitStruct.Pull = GPIO_NOPULL;
+  GPIO_InitStruct.Speed = GPIO_SPEED_FREQ_LOW;
+  HAL_GPIO_Init(GPIOC, &GPIO_InitStruct);
+
+  /* EXTI interrupt init*/
+  HAL_NVIC_SetPriority(EXTI15_10_IRQn, 0, 0);
+  HAL_NVIC_EnableIRQ(EXTI15_10_IRQn);
+
+/* USER CODE BEGIN MX_GPIO_Init_2 */
+/* USER CODE END MX_GPIO_Init_2 */
+}
+
+/* USER CODE BEGIN 4 */
+void printActuatorPacket(void)
+{
+    char msg[64];
+    int len;
+
+    // 1. start_byte
+    len = snprintf(msg, sizeof(msg), "start_byte: 0x%02X\r\n", controlPacket.start_byte);
+    HAL_UART_Transmit(&huart2, (uint8_t*)msg, len, HAL_MAX_DELAY);
+
+    // 2. packet_id
+    len = snprintf(msg, sizeof(msg), "packet_id:  0x%02X\r\n", controlPacket.packet_id);
+    HAL_UART_Transmit(&huart2, (uint8_t*)msg, len, HAL_MAX_DELAY);
+
+    // 3. RGB bits
+    len = snprintf(msg, sizeof(msg),
+        "LED RGB:    R=%u G=%u B=%u\r\n",
+		controlPacket.R, controlPacket.G, controlPacket.B);
+    HAL_UART_Transmit(&huart2, (uint8_t*)msg, len, HAL_MAX_DELAY);
+
+    // 4. fan, led, buzzer, driving_mode
+    len = snprintf(msg, sizeof(msg),
+        "fan: %u  led: %u  buzzer: %u  mode: %u\r\n",
+        controlPacket.fan, controlPacket.led, controlPacket.buzzer, controlPacket.driving_mode);
+    HAL_UART_Transmit(&huart2, (uint8_t*)msg, len, HAL_MAX_DELAY);
+
+    // 5. servo angles
+    len = snprintf(msg, sizeof(msg),
+        "servo_chair:  %u\r\n"
+        "servo_window: %u\r\n"
+        "front_distance: %u\r\n",
+        controlPacket.servo_chair,
+        controlPacket.servo_window,
+        controlPacket.front_distance);
+    HAL_UART_Transmit(&huart2, (uint8_t*)msg, len, HAL_MAX_DELAY);
+
+    // 6. crc
+    len = snprintf(msg, sizeof(msg), "crc: 0x%02X\r\n\r\n", controlPacket.crc);
+    HAL_UART_Transmit(&huart2, (uint8_t*)msg, len, HAL_MAX_DELAY);
+}
+void handlePacket(void)
+{
+  uint8_t _crc = calculate_checksum(rx_buffer_1,ACTUATOR_PACKET_SIZE-1);
+  	if(_crc == rx_buffer_1[ACTUATOR_PACKET_SIZE-1])
+  	{
+      deserialize_actuator_packet(rx_buffer_1, &controlPacket);
+  	}
+    else
+    {
+      //do nothing
+    }
+
+
+    HAL_UART_Receive_IT(&huart1,rx_buffer_1,ACTUATOR_PACKET_SIZE);
+}
+void HAL_UARTEx_RxEventCallback(UART_HandleTypeDef *huart, uint16_t Size)
+{
+	uint8_t msg[BUFFER_SIZE]; // DEBUG
+	int len;
+
+	if(huart->Instance == USART1) // Communication module (COMMOD)
+	{
+		if(dma_commod_buf[0] == UART_START_BYTE) {
+			if(dma_commod_buf[1] == ACTUATOR_PACKET_ID && Size == ACTUATOR_PACKET_SIZE)
+			{
+				memcpy(actuator_buf, dma_commod_buf, ACTUATOR_PACKET_SIZE);
+
+				len = snprintf(msg, sizeof(msg), "\r\n[<- COMMOD_ACT]\r\n"); // DEBUG
+				HAL_UART_Transmit(&huart2, (uint8_t*)msg, len, HAL_MAX_DELAY); // DEBUG
+
+				packet_flag[COMMOD_ACT] = 1;
+			}
+		}
+		HAL_UARTEx_ReceiveToIdle_DMA(UART_COMMOD, dma_commod_buf, BUFFER_SIZE);
+	}
+	else if(huart->Instance == USART5) // Sensor module
+	{
+		if(dma_sensor_buf[0] == UART_START_BYTE) {
+			if(dma_sensor_buf[1] == ACTUATOR_PACKET_ID && Size == ACTUATOR_PACKET_SIZE)
+			{
+				memcpy(actuator_buf, dma_sensor_buf, ACTUATOR_PACKET_SIZE);
+
+				len = snprintf(msg, sizeof(msg), "\r\n[<- SENSOR_ACT]\r\n"); // DEBUG
+				HAL_UART_Transmit(&huart2, (uint8_t*)msg, len, HAL_MAX_DELAY); // DEBUG
+
+				packet_flag[SENSOR_ACT] = 1;
+			}
+			else if(dma_sensor_buf[1] == SENSOR_PACKET_ID && Size == SENSOR_PACKET_SIZE)
+			{
+				memcpy(sensor_buf, dma_sensor_buf, SENSOR_PACKET_SIZE);
+
+				len = snprintf(msg, sizeof(msg), "\r\n[<- SENSOR_SENSOR]\r\n"); // DEBUG
+				HAL_UART_Transmit(&huart2, (uint8_t*)msg, len, HAL_MAX_DELAY); // DEBUG
+
+				packet_flag[SENSOR_SENSOR] = 1;
+			}
+		}
+		HAL_UARTEx_ReceiveToIdle_DMA(UART_SENSOR, dma_sensor_buf, BUFFER_SIZE);
+	}
+}
+void HAL_UART_RxCpltCallback(UART_HandleTypeDef *huart)
+{
+  if(huart->Instance == huart1.Instance)
+  {
+    packetReceived = 1;
+  }
+}
+void HAL_UART_ErrorCallback(UART_HandleTypeDef *huart)
+{
+  if(huart->Instance == huart1.Instance)
+  {
+    //HAL_UART_Receive_IT(&huart1, rx_buffer + rxPtr, ACTUATOR_PACKET_SIZE);
+    HAL_UART_Receive_IT(&huart1, rx_buffer_1, ACTUATOR_PACKET_SIZE);
+  }
+}
+void initControlValue(void)
+{
+  controlPacket.driving_mode = DRIVING_NORMAL;
+	controlPacket.servo_chair = arrayServo[SERVO_SEAT].initialPulse;
+	controlPacket.servo_window = arrayServo[SERVO_WINDOW].initialPulse;
+	controlPacket.led = 0;
+	controlPacket.buzzer = 0;
+	controlPacket.fan = 0;
+	controlPacket.led_rgb = 0;
+}
+void testTask(void)
+{
+	static int a = 0;
+
+	if(a == 0)
+	{
+		a = 1;
+		testpacket.servo_chair = 1200;
+		testpacket.servo_window = 450;
+		testpacket.led = 1;
+		testpacket.led_rgb = 7;
+		testpacket.fan = 3;
+		serialize_actuator_packet(&testpacket,tx_buffer);
+		if(HAL_UART_Transmit_IT(&huart1,tx_buffer , ACTUATOR_PACKET_SIZE) != HAL_OK)
+		{
+		  Error_Handler();
+		}
+	}
+	else
+	{
+		a = 0;
+		testpacket.servo_chair = 450;
+		testpacket.servo_window = 1200;
+		testpacket.led = 0;
+		testpacket.led_rgb = 0x000;
+		testpacket.fan = 0;
+		serialize_actuator_packet(&testpacket,tx_buffer);
+		if(HAL_UART_Transmit_IT(&huart1,tx_buffer , ACTUATOR_PACKET_SIZE) != HAL_OK)
+		{
+		  Error_Handler();
+		}
+	}
+}
+void seatTask(void)
+{
+	uint16_t unitPulse = getUnitPulse(SERVO_SEAT);
+	uint16_t currentPulse = getPulse(SERVO_SEAT);
+	if(controlPacket.servo_chair > currentPulse)
+	{
+		if((controlPacket.servo_chair) - currentPulse > unitPulse)
+		{
+			setPulse(SERVO_SEAT,(currentPulse+unitPulse));
+		}
+		else
+		{
+			//do nothing
+		}
+	}
+	else if(controlPacket.servo_chair < currentPulse)
+	{
+		if((currentPulse - controlPacket.servo_chair) > unitPulse)
+		{
+			setPulse(SERVO_SEAT,(currentPulse-unitPulse));
+		}
+		else
+		{
+			//do nothing
+		}
+	}
+}
+void windowTask(void)
+{
+	uint16_t unitPulse = getUnitPulse(SERVO_WINDOW);
+	uint16_t currentPulse = getPulse(SERVO_WINDOW);
+	if(controlPacket.servo_window > currentPulse)
+	{
+		if((controlPacket.servo_window) - currentPulse > unitPulse)
+		{
+			setPulse(SERVO_WINDOW,(currentPulse+unitPulse));
+		}
+		else
+		{
+			//do nothing
+		}
+	}
+	else if(controlPacket.servo_window < currentPulse)
+	{
+		if((currentPulse - controlPacket.servo_window) > unitPulse)
+		{
+			setPulse(SERVO_WINDOW,(currentPulse-unitPulse));
+		}
+		else
+		{
+			//do nothing
+		}
+	}
+}
+void fanTask(void)
+{
+	if(controlPacket.fan == 0)
+	{
+		stopFan();
+	}
+	else
+	{
+		setLevelFan(controlPacket.fan);
+	}
+}
+void ledTask(void)
+{
+	if(controlPacket.led == 0)
+	{
+		offHeadLight();
+	}
+	else
+	{
+		onHeadLight();
+	}
+}
+void rgbTask(void)
+{
+	static uint8_t rgb_red =0;
+	static uint8_t rgb_green =0;
+	static uint8_t rgb_blue =0;
+	static uint8_t rgb_mode =0;
+	rgb_red = 0x1 & controlPacket.led_rgb ;
+	rgb_green = 0x2 & controlPacket.led_rgb ;
+	rgb_blue = 0x4 & controlPacket.led_rgb ;
+	rgb_mode = 0x8 & controlPacket.led_rgb; //led_rgb의 4번쨰 비트가 0이면 일반 모드, 1이면 터널모드(밝기 30퍼)
+
+	if(rgb_mode)
+  {
+    setColorRgb(30*rgb_red, 30*rgb_green, 30*rgb_blue);
+  }
+	else
+  {
+		setColorRgb(999*rgb_red, 999*rgb_green, 999*rgb_blue);
+	}
+}
+void buzzerTask(void)
+{
+
+    static uint32_t last_tick = 0;
+    static uint8_t buzzer_state = 0;
+    static uint8_t step_count = 0;
+    static uint8_t buzzer_on = 0;
+
+    uint32_t now = HAL_GetTick();
+
+    if(controlPacket.buzzer != 0 && buzzer_on == 0)
+    {
+      buzzer_on = 1;
+    }
+
+    if(buzzer_on)
+    {
+      switch (buzzer_state) {
+        case 0:
+            onBuzzer();
+            last_tick = now;
+            buzzer_state = 1;
+            break;
+
+        case 1:
+            if (now - last_tick >= 300) {
+                offBuzzer();
+                last_tick = now;
+                buzzer_state = 2;
+            }
+            break;
+
+        case 2:
+            if (now - last_tick >= 100) {
+                step_count++;
+                if (step_count >= 3) {
+                    buzzer_on = 0;
+                } else {
+                    onBuzzer();
+                    last_tick = now;
+                    buzzer_state = 1;
+                }
+            }
+            break;
+      }
+    }
+   
+   return; 
+}
+/* USER CODE END 4 */
+
+/**
+  * @brief  This function is executed in case of error occurrence.
+  * @retval None
+  */
+void Error_Handler(void)
+{
+  /* USER CODE BEGIN Error_Handler_Debug */
+  /* User can add his own implementation to report the HAL error return state */
+  __disable_irq();
+  while (1)
+  {
+  }
+  /* USER CODE END Error_Handler_Debug */
+}
+
+#ifdef  USE_FULL_ASSERT
+/**
+  * @brief  Reports the name of the source file and the source line number
+  *         where the assert_param error has occurred.
+  * @param  file: pointer to the source file name
+  * @param  line: assert_param error line source number
+  * @retval None
+  */
+void assert_failed(uint8_t *file, uint32_t line)
+{
+  /* USER CODE BEGIN 6 */
+  /* User can add his own implementation to report the file name and line number,
+     ex: printf("Wrong parameters value: file %s on line %d\r\n", file, line) */
+  /* USER CODE END 6 */
+}
+#endif /* USE_FULL_ASSERT */

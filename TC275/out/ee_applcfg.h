@@ -43,8 +43,8 @@ extern "C" {
  * Arrays size
  *
  **************************************************************************/
-#define OSEE_TASK_ARRAY_SIZE      (6U)
-#define OSEE_SN_ARRAY_SIZE        (6U)
+#define OSEE_TASK_ARRAY_SIZE      (7U)
+#define OSEE_SN_ARRAY_SIZE        (7U)
 #define OSEE_STACK_ARRAY_SIZE     (1U)
 #define OSEE_RESOURCE_ARRAY_SIZE  (1U)
 
@@ -53,9 +53,8 @@ extern "C" {
  * TASKs declaration
  *
  **************************************************************************/
-#define Task1 (3U)
-#define TaskLCD (4U)
-#define TaskUltrasonic (5U)
+#define SensorTask (5U)
+#define DashboardButtonTask (6U)
 
 /***************************************************************************
  *
