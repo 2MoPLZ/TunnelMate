@@ -162,6 +162,20 @@ int main(void)
   	  Error_Handler();
   }
 
+//  if(HAL_UART_Receive_IT(&huart1,rx_buffer + rxPtr,ACTUATOR_PACKET_SIZE) != HAL_OK){
+//	  Error_Handler();
+//  }
+  if(HAL_UART_Receive_IT(&huart1,rx_buffer_1,ACTUATOR_PACKET_SIZE) != HAL_OK){
+  	  Error_Handler();
+    }
+
+//	controlPacket.driving_mode = DRIVING_TERNEL; // driving_mode 말고 led_rgb 태스크에서 4번째 비트가 1이면 밝기 줄이기
+//	controlPacket.servo_chair = 1200;
+//	controlPacket.servo_window = 450;
+//	controlPacket.led = 1;
+//	controlPacket.buzzer = 1;
+//	controlPacket.fan = 2;
+//	controlPacket.led_rgb = 0x4;
   /* USER CODE END 2 */
 
   /* Infinite loop */
