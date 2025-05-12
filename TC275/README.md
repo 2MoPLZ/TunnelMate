@@ -146,7 +146,7 @@ Make sure to update the following paths according to your local setup:
 - Defines packets used for UART communication with the Main ECU.
 
 **configurationIsr.h**
-- Defines interrupt priorities and Task Ownership Sections (TOS).
+- Defines interrupt priorities and ISR Provider.
 ---
 ### Driver Files
 **Button_Driver.c**
