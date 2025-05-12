@@ -11,6 +11,7 @@ This TC275 board controls ***Dashboard(LCD shield + buttons)*** and ***two Ultra
 3. [Software Logic](#-Software-Logic)
 4. [Hardware Specification](#-Hardware-Specification)
 5. [Hardware Pin Map](#-Hardware-Pin-Map)
+6. [Software Details](#-Software-Details)
 
 </br>
 
@@ -19,12 +20,14 @@ This TC275 board controls ***Dashboard(LCD shield + buttons)*** and ***two Ultra
 
 ## ✨ System Overview
 
-피그마로 기깔나게 그린 overview를 여기에 첨부</br>
-또는 시연 동영상의 일부나 사진을 여기에 첨부
+![TC275_architecture](https://github.com/user-attachments/assets/d2b1fadc-a1ad-4984-9089-c39afe29a52e)
+
+And USB serial interface for debugging(ASCLIN3)
 
 </br>
 
 ---
+
 
 ## 🚀 How to Run
 Please refer to the Makefile to configure the build environment.  
@@ -108,12 +111,12 @@ Make sure to update the following paths according to your local setup:
 | Digital pin 1 (TX0)     | P15.2                  | UART TX             | TC275 -> STM MAIN   |
 | Digital pin 2 (PWM)     | P2.0                   | LCD Shield          | Button (Interrupt)  |
 | Digital pin 3 (PWM)     | P2.1                   | Front Ultrasonic    | TRIG                |
+| Digital pin 4 (PWM/SS)  | P10.4                  | LCD Shield          | Panel               |
 | Digital pin 5 (PWM)     | P2.3                   | LCD Shield          | Panel               |
 | Digital pin 6 (PWM)     | P2.4                   | LCD Shield          | Panel               |
 | Digital pin 7 (PWM)     | P2.5                   | LCD Shield          | Panel               |
 | Digital pin 8 (PWM)     | P2.6                   | LCD Shield          | Panel (RS)          |
 | Digital pin 9 (PWM)     | P2.7                   | LCD Shield          | Panel (EN)          |
-| Digital pin 10 (PWM/SS) | P10.5                  | LCD Shield          | Panel (Backlight)   |
 | Digital pin 11 (PWM/MOSI)| P10.3                 | Front Ultrasonic    | ECHO                |
 | Digital pin 12 (PWM/MISO)| P10.1                 | Top Ultrasonic      | TRIG                |
 | Digital pin 13 (PWM/SPCK)| P10.2                 | Top Ultrasonic      | ECHO                |
@@ -122,152 +125,70 @@ Make sure to update the following paths according to your local setup:
 
 ---
 
+## 🔎 Software Details
 
+### Essential Files
 
-## lcd driver
+**asw.c** 
++ SensorTask : send SensorPacket to main ECU
++ DashboardButtonTask : send ActuatorPacket to main ECU
++ ButtonISR : 버튼 인터럽트 발생 후, 버튼의 동작에 맞게 DashboardButtonTask를 활성화
++ TimerISR : 1초마다 디버깅을 위한 타임스탬프 출력, 1초마다 SensorTask 활성화
 
-### HW pin map
-| Arduino Signal Name  |  TC275T Pin Assignment  |
-|----------------------|-------------------------|
-| Digital pin 5 (PWM)  |  P2.3                   |
-| Digital pin 6 (PWM)  |  P2.4                   |
-| Digital pin 7 (PWM)  |  P2.5                   |
-| Digital pin 8 (PWM)  |  P2.6                   |
-| Digital pin 9 (PWM)  |  P2.7                   |
-| Digital pin 10 (PWM) |  P10.5                  |
+**config.oil**
++ 사용하는 Task들과 ISR들의 설정 정보
 
-</br>
-</br>
+**bsw.c**
++ 자주 사용되는 함수들의 정의와
++ 보드 실행 후 최초 1회 실행되는 초기화 함수들을 포함
 
-### schematic diagram 
-![image](https://github.com/user-attachments/assets/903882b2-ea99-4a42-974d-a38678a1c551)
+**configuration.h**
++ 매크로, 자료구조들을 선언
++ Main ECU와의 UART 통신을 위한 패킷들을 여기서 정의
 
-
-### SW function
-- lcd_init(void) : 가장 처음 lcd 디스플레이 출력
-- lcd_clear(void) : 현재 적용되어있는 lcd 디스플레이 초기화
-- lcd_print(const char *str) : str 에 들어있는 내용을 lcd 디스플레이에 출력
-- lcd_goto(d1, d2) : d1 : 출력할 줄 , d2 : 출력 시작점
----
+**configurationIsr.h** 
++ 인터럽트들의 우선순위와 TOS 정의
 
 </br>
-</br>
-
-## button driver
-
-### HW pin map
-| Arduino Signal Name  |  TC275T Pin Assignment  |
-|----------------------|-------------------------|
-| Analog pin 0         |  SAR4.7/P32.3           |
-| Digital pin 2 (PWM)  |  P2.0                   |
-
-</br>
-</br>
-
-### schematic diagram 
-![image](https://github.com/user-attachments/assets/e86b638a-d4fc-4b73-82d0-1e74b14e6183)
-
-
-
-### conf.oil setting
-```cpp
-    ISR ButtonISR {
-        CATEGORY = 2;
-        SOURCE = "SCUERU0";
-        PRIORITY = 10;
-    };
-```
-
-### asw.c setting
-```cpp
-    ISR2(ButtonISR)
-    {
-        unsigned int buttonState;
-        DisableAllInterrupts();
-        osEE_tc_delay(5000);
-        printfSerial("interuppt");
-        buttonState = readLcdButtons();
-
-        osEE_tc_delay(3000);
-        EnableAllInterrupts();
-    }
-```
-
-### SW function
-- readLcdButtons(void) : A0 에서 읽은 핀에 대한 값을 버튼번호로 매핑하여 반환
-
-### return value
-| A0 value             |  return value           |
-|----------------------|-------------------------|
-| A0 < 100             |  btnUP     0            |
-| A0 < 1000            |  btnDOWN   1            |
-| A0 < 2500            |  btnLEFT   2            |
-| A0 < 3500            |  btnRIGHT  3            |
-| A0 >= 4000           |  btnNONE   4            |
-
-
----
-## infotainment system
-
-
-
----
-## ultrasonic driver
-
-### HW pin map
-| Arduino Signal Name  |  TC275T Pin Assignment  |  Role  |
-|----------------------|-------------------------|-------------------------|
-| Digital pin 12 (PWM/MISO)  |  P2.3                   | upperUltrasonic.TRIG        |
-| Digital pin 13 (PWM/SPCK)  |  P2.4                   | upperUltrasonic.ECHO        |
-| Digital pin 3 (PWM)        |  P2.1                   | frontUltrasonic.TRIG        |
-| Digital pin 11 (PWM/MOSI)  |  P10.3                  | frontUltrasonic.ECHO        |
-
-</br>
-</br>
-
-
-
-## 📡 Task scheduling diagram 
-![TC275 Task Scheduling Diagram](./figure/esp32_arduino_settings.png)
----
-
-
-
-
-## 📦 UART Packet Format
-
-| Field            | Size (bytes) | Description                        |
-|------------------|---------------|------------------------------------|
-| `start_byte`     | 1             | Packet start marker (e.g. 0xAA)    |
-| `packet_id`      | 1             | Packet identifier (e.g. 0x01)      |
-| `led_rgb`        | 1             | 3-bit RGB value (bit flags), padded to 1 byte |
-| `fan`            | 2 bits        | Fan speed (0–3)                    |
-| `led`            | 1 bit         | Headlight on/off                   |
-| `buzzer`         | 1 bit         | Buzzer on/off                      |
-| `driving_mode`   | 4 bits        | Driving mode (0–15)                |
-| `servo_chair`    | 2 bytes       | Chair angle (0–4095)               |
-| `servo_window`   | 2 bytes       | Window position (0–4095)           |
-| `servo_air`      | 2 bytes       | Air control (0–4095)               |
-| `crc`            | 1 byte        | Checksum (optional, currently 0)   |
-
-> 🔧 Total size: **11 bytes (packed)**
-
-
 
 ---
 
-### 🧪 API Specification
+### Library Files
 
-#### 🔹 `GET /get?mac=XX:XX:XX:XX:XX:XX`
+**Button_Driver.c** 
++ readLcdButtons : adc를 이용해 버튼에 해당하는 아날로그값을 읽고 그것이 어떤 버튼에 해당하는지 판단
 
-- **Description**: asd
-- **Example**: asd
+**photoresistor_Driver**
++ getPhotoresiter : adc를 이용해 조도센서에 해당하는 아날로그값을 읽음
 
-```c
-nice c language box
-```
+**ultrasonic_Driver**
++ initUltrasonic : TRIG을 output으로, ECHO를 input으로 설정
++ getUltrasonic : TRIG으로 초음파를 보내고 ECHO로 수신, 초음파를 보내고 받은 시간의 차이를 이용해 거리를 계산
 
----
+**Lcd_Driver**
++ lcd_init: lcd를 사용하기 위한 초기화
++ lcd_print: string을 받아 그것을 lcd에 출력
++ lcd_clear: lcd의 모든 칸을 비우기. print 전 clear를 반드시 수행
++ lcd_goto: 해당하는 행/열로 커서를 이동
 
+**infotainment_System.c**
++ 현재 제어 상태를 infotainmentArr와 infoState에 저장
++ 현재 제어 상태를 lcd를 이용해 출력하고 업데이트
++ printInfoDisplay: lcd에 현재 제어 상태를 출력
++ setActuatorPacket: 현재 제어 상태를 ActuatorPacket으로 가공
++ updateStateByPacket: ActuatorPacket을 받아서 현재 제어 상태를 업데이트
++ updateStateByButton: button입력을 받아서 현재 제어 상태를 업데이트
+
+**uart_Driver**
++ initUartDriver: ASCLIN0 (TC275 <-> MainECU UART) 초기화, 통신속도와 rx/tx interrupt priority 정의
++ sendActuatorPacket: ActuatorPacket을 버퍼로 옮긴 뒤 CRC를 계산해 ASCLIN0으로 전송
++ sendSensorPacket: SensorPacket을 버퍼로 옮긴 뒤 CRC를 계산해 ASCLIN0으로 전송
++ readActuatorPacket: ASCLIN0 내부에 쌓인 데이터들을 1바이트씩 읽으며 유효성을 체크하고 버퍼에 저장, 체크섬 계산 후 패킷으로 변환해 저장
++ readSensorPacket: readActuatorPacket과 로직은 동일하나 사용할 일 없음
++ myprintfSerial: ASCLIN으로 string을 전송
++ serialize_XX_packet: 패킷을 버퍼에 집어넣고 체크섬 계산
++ deserialize_XX_packet: 버퍼값을 패킷으로 변환
+
+</br>
 
 ---
