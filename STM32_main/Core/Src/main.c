@@ -21,7 +21,6 @@
 #include "dma.h"
 #include "usart.h"
 #include "gpio.h"
-#include <string.h>
 
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
@@ -299,12 +298,18 @@ int main(void)
 			printActuatorPacket(masked_act_config); // DEBUG
 			//HAL_UART_Transmit(UART_COMMOD, actuator_buf, ACTUATOR_PACKET_SIZE, HAL_MAX_DELAY); // DEBUG
 
-			HAL_UART_Transmit(UART_SENSOR, actuator_buf, ACTUATOR_PACKET_SIZE, HAL_MAX_DELAY);
+			if(HAL_OK != HAL_UART_Transmit(UART_SENSOR, actuator_buf, ACTUATOR_PACKET_SIZE, HAL_MAX_DELAY))
+			{
+				Error_Handler();
+			}
 
 			//액추에이터 구조체에 모터 제어값 적용 후 버퍼에 담기
 			setMotorValue(&masked_act_config);
 			serialize_actuator_packet(&masked_act_config, actuator_buf);
-			HAL_UART_Transmit(UART_ACTUATOR, actuator_buf, ACTUATOR_PACKET_SIZE, HAL_MAX_DELAY);
+			if(HAL_OK != HAL_UART_Transmit(UART_ACTUATOR, actuator_buf, ACTUATOR_PACKET_SIZE, HAL_MAX_DELAY))
+			{
+				Error_Handler();
+			}
 
 			memset(actuator_buf,0,sizeof(actuator_buf));
 		}
@@ -337,13 +342,19 @@ int main(void)
 			printActuatorPacket(masked_act_config); // DEBUG
 
 
-			HAL_UART_Transmit(UART_COMMOD, actuator_buf, ACTUATOR_PACKET_SIZE, HAL_MAX_DELAY);
+			if(HAL_OK != HAL_UART_Transmit(UART_COMMOD, actuator_buf, ACTUATOR_PACKET_SIZE, HAL_MAX_DELAY))
+			{
+				Error_Handler();
+			}
 			//HAL_UART_Transmit(UART_SENSOR, actuator_buf, ACTUATOR_PACKET_SIZE, HAL_MAX_DELAY);
 
 			//액추에이터 구조체에 모터 제어값 적용 후 버퍼에 담기
 			setMotorValue(&masked_act_config);
 			serialize_actuator_packet(&masked_act_config, actuator_buf);
-			HAL_UART_Transmit(UART_ACTUATOR, actuator_buf, ACTUATOR_PACKET_SIZE, HAL_MAX_DELAY);
+			if(HAL_OK != HAL_UART_Transmit(UART_ACTUATOR, actuator_buf, ACTUATOR_PACKET_SIZE, HAL_MAX_DELAY))
+			{
+				Error_Handler();
+			}
 
 			memset(actuator_buf,0,sizeof(actuator_buf));
 		}
@@ -398,7 +409,10 @@ int main(void)
 
 			setMotorValue(&masked_act_config);
 			serialize_actuator_packet(&masked_act_config, actuator_buf);
-			HAL_UART_Transmit(UART_ACTUATOR, actuator_buf, ACTUATOR_PACKET_SIZE, HAL_MAX_DELAY);
+			if(HAL_OK != HAL_UART_Transmit(UART_ACTUATOR, actuator_buf, ACTUATOR_PACKET_SIZE, HAL_MAX_DELAY))
+			{
+				Error_Handler();
+			}
 
 			memset(actuator_buf,0,sizeof(actuator_buf));
 		}

@@ -1,0 +1,9 @@
+// [Include Paths]
+-i"C:\Users\USER\Embedded0224\ab\Core\Inc"
+-i"C:\Users\USER\Embedded0224\ab\Drivers\CMSIS\Include"
+-i"C:\Users\USER\Embedded0224\ab\Drivers\CMSIS\Device\ST\STM32F1xx\Include"
+-i"C:\Users\USER\Embedded0224\ab\Drivers\STM32F1xx_HAL_Driver\Inc"
+
+// [Preprocessor Defines]
+-DUSE_HAL_DRIVER
+-DSTM32F103xB
