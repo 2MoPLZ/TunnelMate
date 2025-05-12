@@ -15,8 +15,8 @@ extern TIM_HandleTypeDef htim3; //  ""
 servo_t arrayServo[NUM_SERVO] = {
    //{*htim, Channel, pulseMax, pulseMin, unitPulse, initialPulse}
    // unitPulse = ((최대각도일때 pulse값 - 최소각도일때 pulse값) / 160.0) -> 소수점 버림
-   {&htim1, TIM_CHANNEL_1, 1300, 300,  (uint16_t)((1300.0 - 300.0)/180.0), 1150},
-   {&htim3, TIM_CHANNEL_4, 1300, 350,  (uint16_t)((1300.0 - 350.0)/180.0), 480}
+   {&htim1, TIM_CHANNEL_1, 1300, 300,  (uint16_t)((1300.0 - 300.0)/180.0), 1250},
+   {&htim3, TIM_CHANNEL_4, 1300, 350,  (uint16_t)((1300.0 - 350.0)/180.0), 430}
 };
 //1 시트
 //2. 창문
