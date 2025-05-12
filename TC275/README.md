@@ -22,8 +22,7 @@ This TC275 board controls ***Dashboard(LCD shield + buttons)*** and ***two Ultra
 
 ![TC275_architecture](https://github.com/user-attachments/assets/d2b1fadc-a1ad-4984-9089-c39afe29a52e)
 
-And USB serial interface for debugging(ASCLIN3)
-
+ \+ USB serial interface for debugging(ASCLIN3)
 </br>
 
 ---
@@ -127,67 +126,61 @@ Make sure to update the following paths according to your local setup:
 
 ## 🔎 Software Details
 
-### Essential Files
-
-**asw.c** 
-+ SensorTask : send SensorPacket to main ECU
-+ DashboardButtonTask : send ActuatorPacket to main ECU
-+ ButtonISR : 버튼 인터럽트 발생 후, 버튼의 동작에 맞게 DashboardButtonTask를 활성화
-+ TimerISR : 1초마다 디버깅을 위한 타임스탬프 출력, 1초마다 SensorTask 활성화
+  
+---
+### Essential Files  
+**asw.c**
+- `SensorTask`: Sends SensorPacket to the Main ECU.  
+- `DashboardButtonTask`: Sends ActuatorPacket to the Main ECU.  
+- `ButtonISR`: Activates DashboardButtonTask in response to button interrupts.  
+- `TimerISR`: Outputs a timestamp every second for debugging and activates SensorTask every second.  
 
 **config.oil**
-+ 사용하는 Task들과 ISR들의 설정 정보
+- Configuration of all Tasks and ISRs used in the system.
 
 **bsw.c**
-+ 자주 사용되는 함수들의 정의와
-+ 보드 실행 후 최초 1회 실행되는 초기화 함수들을 포함
+- Defines frequently used functions and one-time initialization routines executed at startup.
 
 **configuration.h**
-+ 매크로, 자료구조들을 선언
-+ Main ECU와의 UART 통신을 위한 패킷들을 여기서 정의
+- Declares macros and data structures.  
+- Defines packets used for UART communication with the Main ECU.
 
-**configurationIsr.h** 
-+ 인터럽트들의 우선순위와 TOS 정의
-
-</br>
-
+**configurationIsr.h**
+- Defines interrupt priorities and Task Ownership Sections (TOS).
 ---
-
-### Library Files
-
-**Button_Driver.c** 
-+ readLcdButtons : adc를 이용해 버튼에 해당하는 아날로그값을 읽고 그것이 어떤 버튼에 해당하는지 판단
+### Driver Files
+**Button_Driver.c**
+- `readLcdButtons`: Reads analog values via ADC and determines the corresponding button.
 
 **photoresistor_Driver**
-+ getPhotoresiter : adc를 이용해 조도센서에 해당하는 아날로그값을 읽음
+- `getPhotoresistor`: Reads analog values from a light sensor using ADC.
 
 **ultrasonic_Driver**
-+ initUltrasonic : TRIG을 output으로, ECHO를 input으로 설정
-+ getUltrasonic : TRIG으로 초음파를 보내고 ECHO로 수신, 초음파를 보내고 받은 시간의 차이를 이용해 거리를 계산
+- `initUltrasonic`: Sets TRIG as output and ECHO as input.  
+- `getUltrasonic`: Sends an ultrasonic pulse and calculates the distance based on the time difference between sending and receiving.
 
 **Lcd_Driver**
-+ lcd_init: lcd를 사용하기 위한 초기화
-+ lcd_print: string을 받아 그것을 lcd에 출력
-+ lcd_clear: lcd의 모든 칸을 비우기. print 전 clear를 반드시 수행
-+ lcd_goto: 해당하는 행/열로 커서를 이동
+- `lcd_init`: Initializes the LCD.  
+- `lcd_print`: Prints a given string to the LCD.  
+- `lcd_clear`: Clears all characters from the LCD (should be called before printing).  
+- `lcd_goto`: Moves the cursor to the specified row and column.
 
 **infotainment_System.c**
-+ 현재 제어 상태를 infotainmentArr와 infoState에 저장
-+ 현재 제어 상태를 lcd를 이용해 출력하고 업데이트
-+ printInfoDisplay: lcd에 현재 제어 상태를 출력
-+ setActuatorPacket: 현재 제어 상태를 ActuatorPacket으로 가공
-+ updateStateByPacket: ActuatorPacket을 받아서 현재 제어 상태를 업데이트
-+ updateStateByButton: button입력을 받아서 현재 제어 상태를 업데이트
+- `infotainmentArr` and `infoState`: Manages the current control state.  
+- `printInfoDisplay`: Prints the current state on the LCD.  
+- `setActuatorPacket`: Converts the current state into an ActuatorPacket.  
+- `updateStateByPacket`: Updates the state from a received ActuatorPacket.  
+- `updateStateByButton`: Updates the state based on button input.
 
 **uart_Driver**
-+ initUartDriver: ASCLIN0 (TC275 <-> MainECU UART) 초기화, 통신속도와 rx/tx interrupt priority 정의
-+ sendActuatorPacket: ActuatorPacket을 버퍼로 옮긴 뒤 CRC를 계산해 ASCLIN0으로 전송
-+ sendSensorPacket: SensorPacket을 버퍼로 옮긴 뒤 CRC를 계산해 ASCLIN0으로 전송
-+ readActuatorPacket: ASCLIN0 내부에 쌓인 데이터들을 1바이트씩 읽으며 유효성을 체크하고 버퍼에 저장, 체크섬 계산 후 패킷으로 변환해 저장
-+ readSensorPacket: readActuatorPacket과 로직은 동일하나 사용할 일 없음
-+ myprintfSerial: ASCLIN으로 string을 전송
-+ serialize_XX_packet: 패킷을 버퍼에 집어넣고 체크섬 계산
-+ deserialize_XX_packet: 버퍼값을 패킷으로 변환
+- `initUartDriver`: Initializes ASCLIN0 (UART between TC275 and Main ECU), sets baud rate and interrupt priorities.  
+- `sendActuatorPacket`: Copies ActuatorPacket to a buffer, calculates CRC, and sends it via ASCLIN0.  
+- `sendSensorPacket`: Same as above for SensorPacket.  
+- `readActuatorPacket`: Reads and validates incoming data byte-by-byte from ASCLIN0, checks CRC, and stores it as a packet.  
+- `readSensorPacket`: Same logic as readActuatorPacket (currently unused).  
+- `myprintfSerial`: Sends a string over ASCLIN0.  
+- `serialize_XX_packet`: Serializes a packet into a buffer and calculates its checksum.  
+- `deserialize_XX_packet`: Deserializes a buffer into a packet.
 
 </br>
 
