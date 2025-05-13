@@ -17,10 +17,10 @@
   */
 /* USER CODE END Header */
 /* Includes ------------------------------------------------------------------*/
-#include "main.h"
-#include "dma.h"
-#include "usart.h"
-#include "gpio.h"
+//#include "main.h"
+//#include "dma.h"
+//#include "usart.h"
+//#include "gpio.h"
 
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
